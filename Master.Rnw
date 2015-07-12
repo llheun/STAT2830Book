@@ -1,0 +1,55 @@
+\documentclass[11pt]{book}
+
+\title{Using Data Science as a Tool for Social Research \\ Stat 2830 }
+\author{Statistical Computation Lab \\ Department of Statistics \\ WMU}
+%\date{}                                           % Activate to display a given date or no date
+
+
+\begin{document}
+
+
+
+\maketitle
+%\section{}
+%\subsection{}
+
+\vspace{10cm}
+
+Copyright \copyright 2015 by Loren L. Heun at Western Michigan University \\ \newline
+All rights reserved \\ \newline
+Reproduction or translation of any part of this work beyond that permitted by Sections 107 and 108 of the 1976 United States Copyright Act without permission of the copyright owner is unlawful.
+
+<<setup, echo=FALSE>>=
+#
+# Put all R "require" statements here (for the whole book)
+# 
+library(knitr)
+library(foreign)
+
+
+# These options apply to all R chunks in the entire book.
+opts_chunk$set(
+  # ***************************************
+  eval=TRUE
+  # ***************************************
+)
+@
+
+
+
+
+
+<<Ch1, child="chapters/Chapter_1/Chapter_1.Rnw">>=
+@
+
+
+<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw", eval=FALSE>>=
+@
+
+
+
+
+
+
+
+\end{document}
