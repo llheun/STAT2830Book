@@ -11,3 +11,10 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+.Rproj.user
+
+# Files created by LaTeX and knitr
+Master.pdf
+*.synctex.gz
+*.tex
+*.log
