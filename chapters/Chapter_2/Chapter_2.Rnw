@@ -1,0 +1,21 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Dataset Descriptive Information}
+\label{chap:ch2}
+
+Here is some text for Chapter~\ref{chap:ch2}.
+
+<<tcj, echo=FALSE, fig.pos="H", fig.align="center", fig.width=6.5, fig.height=4, fig.cap="My figure title.">>=
+x5 <- read.spss("data/GSS2014.sav")
+# attach(x5)
+# names(x5)
+x7 <- x5$yearsjob[x5$yearsjob>0 & x5$yearsjob<98]
+ax <- numeric(10000)
+for(i in 1:10000){ax[i] <- mean(sample(x7,10))}   ##page 66
+mean(ax)
+sd(ax)
+hist(ax, main="Time on Current Job, n=10", xlab="Years" )
+xv <- seq(-0.21, 17.01, 0.1)
+yv <- dnorm(xv,8.42, 2.87)*19900
+lines(xv, yv, col="red")
+@

@@ -1,0 +1,293 @@
+%!Rnw root = ../../Master.Rnw
+
+
+\chapter{Why you should use data science?}
+\label{chap:ch1}
+
+
+\subsection{Objectives}
+By the end of this material, you will be able to:
+\begin{itemize}
+\item Distinguish between three applications of statistics and identify
+situations in which each is appropriate
+\item Distinguish between discrete and continuous variables and cite
+examples of each
+\item Identify and describe three levels of measurement and cite examples
+of variable from each type.
+\end{itemize}     
+     
+\section{Introduction}     
+\subsection{Reasons to Study Data Science}
+\subsubsection{Conduct Research}
+
+The first reason is to administer a  research projects. Without  statistics you will have tough time making decisions based on the data that you collected for your research project. Statistics provides you with  tools to make an informed decision. You will be able to decide which of the possibilities is more likely to be true. You will base this decision on your knowledge of  inferential statistics and probability. 
+
+\subsubsection{Study Design}
+
+The second reason to study statistics is that you are equipped to read scientific journals. Most technical journals that you will read contain some form of statistics. Usually, you will find them in the results section of the report. If you are not familiar with statistics, the information contained in this section will be meaningless.  An understanding of introductory statistics will provide you with the fundamental skills necessary to read and evaluate most results sections. The ability to extract meaning from journal articles and the ability to critically evaluate research from a statistical perspective are fundamental skills that will enhance your knowledge and understanding in related programs of study. 
+
+\subsubsection{Develop Critical Thinking Skills}
+
+The third reason is to further develop critical and analytic thinking skills.  After completing high school and introductory undergraduate coursework, you will have at your disposal a variety of critical thinking and analytic skills. The study of statistics will serve to enhance and further develop these skills. By doing well in statistics, you will develop and use formal logical thinking abilities that are both high level and creative. 
+
+\subsubsection{Be an Informed Consumer}
+
+The fourth reason to study statistics is to be an informed consumer. Like any other tool, statistics can be used or abused.  Yes, it is true that some individuals do actively lie and mislead with statistics. More often, however, well meaning individuals unintentionally report erroneous statistical conclusions. If you know some of the basic statistical concepts, you will be in a better position to evaluate the information that you have been given. 
+
+\subsubsection{Know When to Hire a Statistician}
+
+The fifth reason to have a working knowledge of statistics is to know when you need to help from a statistician.  Most of us know enough about our mobile devices to know when to take it into the shop.  Usually, we do not attempt the repair ourselves because we do not want to cause any irreparable damage.  Also, we try to know enough to speak intelligibly with service center employee to insure that we do not get a replacement when we need a replacement cord for our ear buds.   We should be the same way about employing a statistician.  Doing research is expensive in terms of resources and time. If you are in over your statistical head, it does not make sense to risk an entire project by attempting to compute the data analyses yourself.  It is very easy to compute incomplete or inappropriate statistical analysis of our data. As with the service center employee discussed above, it is also important to have enough statistical where with all to be able to discuss your project and the data analyses you want computed with the statistician you hire. In other words, you want to be able to make sure that your statistician is on the right track. 
+
+\subsubsection{To summarize}
+
+The five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help. % \cite{URL}{knoko}
+
+\subsubsection{{Research}} Research  is the systematic inquiry into the study of situations to establish facts and reach new conclusion.
+
+\subsubsection{{Data science}}  Data science is the systemic study of the study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
+
+\subsubsection{{Data}} Data are information collected from the population for further analysis.
+
+\subsubsection{The Scientific Process, The Wheel of Science}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=12cm]{chapters/Chapter_1/figure/zWheel_Science.png} % requires the graphicx package
+   \caption{The Wheel of Science}
+   \label{fig:WS}
+\end{figure}
+
+\subsubsection{Theory}  Theory is a statement used to explain a situation, eg., does the amount of sleep of  students affect their academic performance.
+
+\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, eg.,  the amount of sleep of a student affects the student GPA.
+
+\subsubsection{Observations}  Observations are collected data to test hypothesis, eg., a random sample of student GPA and hours of sleep.
+
+\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing the data, eg., analysis shows a relationship between amount of sleep of a student and GPA. 
+
+
+\subsubsection{Variables and Cases}
+
+\subsubsection{Variables}
+
+\begin{itemize}
+\item Theories and hypotheses are asserting the association between variables.
+\item A theory may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
+\item Variables are attributes of a case.
+\item Examples: age, gender, race, and social class.
+\end{itemize}
+
+\subsubsection{Case}
+
+\begin{itemize}
+\item Case is a collection of variables from an entity such as a person.
+\item Cases are gathered from groups.
+\item Examples: groups (e.g., church members, union members), people, city, and states.
+\end{itemize}
+
+\subsection{Example}
+
+Illustrate the color of eyes of students in this class.
+
+\begin{itemize}
+\item Variable is color of eyes of students
+\item Data is color such as black, blue, brown, green, hazel.
+\item Cases are students from this class.
+\item Appropriate analysis include:
+	\begin{itemize}
+	\item frequency (number) of students who have brown eyes.
+	\item percent of students who have blue eyes.
+	\item bar chart showing the percentage of each color of eyes.
+	\end{itemize}
+\end{itemize}	
+     
+\section{Types of Statistics}
+
+
+\subsection{Descriptive Statistics}
+
+Descriptive statistics are use to explain the basic features of the data in a study.
+
+There are three methods of describing data.
+
+\begin{enumerate}
+\item {\bf{Univariate}} descriptive statistics -- summarizes {\bf{one variable at a time}}, such as averages, percentages, charts and graphs:
+	\begin{itemize}
+	\item The average IQ of the class is 120
+	\item The percent of females taking Stat 2830 this semester is 55 percent.
+	\end{itemize}
+\item {\bf{Bivariate}} descriptive statistics -- summarizes {\bf{two variables at a time}}, such as 
+looking for relationships between two variables that describe strength and direction.
+	\begin{itemize}
+	\item The relationship between GPA and age is positive and strong.
+	\item The relationship between gender and shopping is negative and moderate.
+	\end{itemize}	
+\item {\bf{Multivariate}} descriptive statistics -- summarizes {\bf{three or more variables at a time}}, such as 
+looking for relationships between three or more variables that describe strength and direction.
+	\begin{itemize}
+	\item Generally, as GPA increases with age for females but not for males.
+	\end{itemize}	
+\end{enumerate}
+
+
+\subsection{Inferential Statistics}
+
+Inferential statistics makes a general statement about a population from a sample of the population.
+
+\setlength{\unitlength}{1cm}
+\begin{picture}(8,4)
+\put(2,2){\circle{1}}
+\put(5,2){\circle{0.6}}
+\put(3,2){\vector(4,0){1}}
+\put(1.9,1.9){{\bf{P}}}
+\put(4.9,1.9){{\bf{S}}}
+\end{picture}
+
+\begin{itemize}
+\item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of budget limitations.
+\item Samples (S) are part of the population.  While, a sample represents a part of the population which is a manageable size.
+\end{itemize}
+
+\subsubsection{Inferential Statistics Example}
+
+Since 1968, voter surveys use inferential statistics.
+
+\begin{itemize}
+\item A random sample of voters are polled about their voting preferences.
+\item The results are used to estimate the voting preferences of all voters.
+\item e.g., The Democrat candidate will receive about 48 percent of the vote in Kalamazoo County.
+\end{itemize}
+
+\section{Types of Data}
+\subsection{Categorical (qualitative data)}
+
+\begin{itemize}
+\item characteristics CANNOT be measured.
+\item e.g., gender, eye color, race, political affiliation, social status, etc.
+\end{itemize}
+
+\subsubsection{Levels of Measurement for Categorical Data}
+
+\begin{itemize}
+\item Nominal categorical variable has no order:
+	\begin{itemize}
+	\item e.g., The scores are labels and ordering does not exist.
+	\item e.g., gender, SSN, the names of food pantries in Kalamazoo County.
+	\end{itemize} 
+\item Ordinal categorical variable has order:
+	\begin{itemize}
+	\item e.g., The scores can be ranked and ordering does exist.
+	\item e.g., The management structure of at city hall, class levels, rating scales.
+	\end{itemize}
+\end{itemize}
+		
+
+\subsection{Numerical (quantitative data)}
+
+\begin{itemize}
+\item characteristics CAN be measured.
+\item e.g., age, height, weight, number of students in this class, etc.
+\end{itemize}
+
+\subsubsection{Levels of Measurement for Numerical Data}
+
+\begin{itemize}
+\item An interval numerical  variable has magnitude but the ratio is not allowed
+	\begin{itemize}
+	\item e.g., GPA, IQ, temperature, 
+	\item e.g., 60 degrees is not twice as warm as 30 degrees.
+	\end{itemize} 
+\item A ratio numerical variable has a meaningful zero value, a proportion is allowed, and has magnitude.
+	
+		\begin{itemize}
+		\item {\bf{Discrete}}
+		\item result of a counting process (whole number values)
+		\item results of question ``how many?''
+		\item e.g., number of children per family.
+		
+		\item {\bf{Continuous}}
+		
+		\item has scores that can be subdivided infinitely (at least theoretically)
+		\item e.g., age, income, distance to school.
+		\end{itemize}
+	
+	
+\end{itemize}
+
+\newpage
+\section{Mindmap of Type of Data}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=7cm]{chapters/Chapter_1/figure/zRV.pdf} % requires the graphicx package
+   \caption{Mind map of a Random Variable }
+   \label{fig:RV}
+\end{figure}
+
+\section{Key Words}
+
+
+
+\begin{itemize}
+\item Continuous variable
+\item Data
+\item Data reduction
+\item Dependent statistics
+\item Discrete variable
+\item Hypothesis
+\item Independent variable
+\item Inferential statistics
+\item Level of measurement
+\item Measures of association
+\item Population
+\item Quantitative research
+\item Research
+\item Sample
+\item Statistics
+\item Theory
+\item Variable
+\end{itemize}
+
+
+            
+\newpage      
+\section{Exercises}
+
+\begin{enumerate}
+\item Descriptive statistics allow social researchers to   
+	\begin{enumerate}
+	\item quantify the strength and direction of the relationship between two variables,
+	\item reduce thousands of individual number into a few easily understood numbers.
+	\item graphically display the number of respondents according to their gender.
+	\item all of the choices
+	\end{enumerate}
+	
+\item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  Hat is the level of measurement of marital status?
+	\begin{enumerate}
+	\item Ordinal 
+	\item Interval-Ratio
+	\item Nominal 
+	\item I don't know
+	\end{enumerate}
+	
+\item Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
+	\begin{enumerate}
+	\item Ordinal 
+	\item Interval-Ratio
+	\item Nominal
+	\item I don't know
+	\end{enumerate}
+
+\item What type of variable is the number of robberies reported in Kalamazoo County?
+	\begin{enumerate}
+	\item Attribute
+	\item Discrete
+	\item Continuous
+	\item Qualitative
+	\end{enumerate}
+		
+		
+\end{enumerate}
+
+
+	    
