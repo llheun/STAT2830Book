@@ -35,7 +35,7 @@ tot2_1 <- sum(t2_1)
 Proportion <- Frequency / tot2_1 
 Percent    <- Proportion * 100
 t2_2       <- cbind( Frequency, Proportion, Percent )
-t2_2
+xtable(t2_2)
 @
 
 
