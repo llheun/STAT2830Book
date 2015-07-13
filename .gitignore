@@ -20,3 +20,4 @@ Master.pdf
 *.tex
 *.log
 *.aux
+figure/*.pdf
