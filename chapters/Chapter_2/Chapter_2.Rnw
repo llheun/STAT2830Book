@@ -18,7 +18,7 @@ By the end of this material, you will be able to:
 
  \begin{figure}[htbp]
     \centering
-    \includegraphics[width=7cm]{zRV2.png} % requires the graphicx package
+    \includegraphics[width=7cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV1}
  \end{figure}
@@ -27,25 +27,37 @@ By the end of this material, you will be able to:
 
 A sample of various court sentencing results were collected and the results are displayed in the summary table below.  Compute the proportion and percent of sentenced acquitted.
 
+<<t2_1, echo=FALSE>>=
+dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
+t2_1 <- table(dt2_1$Sentence)
+Frequency <- sort(t2_1)
+tot2_1 <- sum(t2_1)
+Proportion <- Frequency / tot2_1 
+Percent    <- Proportion * 100
+t2_2       <- cbind( Frequency, Proportion, Percent )
+xtable(t2_2)
+@
+
+
 % Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} | lccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-     % \toprule
-     &  \multicolumn{3}{c}{Statistic}  \\ 
-     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-    Sentence & Frequency(f) & Proportion & Percent \\ \hline
-    Acquitted & 10 & 0.0372 & 3.72\% \\
-    Suspended & 20 & 0.0743 & 7.43\% \\
-    Less than 5 yrs & 72 & 0.2677 & 26.77\% \\
-    More than 5 yrs & 167 & 0.6208 & 62.08\% \\ \hline
-    Total & 269 & & 100.00\% \\ \hline 
-    
-   \end{tabular}
-   \caption{Frequency Distribution of Court Sentencing results}
-   \label{tab:tab1}
-\end{table} 
+%\begin{table}[htbp]
+%   \centering
+%   %\topcaption{Table captions are better up top} % requires the topcapt package
+%   \begin{tabular}{@{} | lccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+%     % \toprule
+%     &  \multicolumn{3}{c}{Statistic}  \\ 
+%     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+%    Sentence & Frequency(f) & Proportion & Percent \\ \hline
+%    Acquitted & 10 & 0.0372 & 3.72\% \\
+%    Suspended & 20 & 0.0743 & 7.43\% \\
+%    Less than 5 yrs & 72 & 0.2677 & 26.77\% \\
+%    More than 5 yrs & 167 & 0.6208 & 62.08\% \\ \hline
+%    Total & 269 & & 100.00\% \\ \hline 
+%    
+%   \end{tabular}
+%   \caption{Frequency Distribution of Court Sentencing results}
+%   \label{tab:tab1}
+%\end{table} 
 
 \begin{equation} % requires amsmath; align* for no eq. number
 	proportion_A = \frac{10}{269} = 0.0372
@@ -326,12 +338,12 @@ Let's look at the frequency distribution tables for categorical data.
 
 Looking at the marital status from the GSS survey.
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{zmaritalSbar.png} % requires the graphicx package
-   \caption{Marital Status  }
-   \label{fig:fig3}
-\end{figure}
+%\begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{zmaritalSbar.png} % requires the graphicx package
+%   \caption{Marital Status  }
+%   \label{fig:fig3}
+%\end{figure}
 
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars corresponds to the percent or number of cases in each category.
@@ -341,12 +353,12 @@ Looking at the marital status from the GSS survey.
 
 \subsection{Pie Chart}
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{zmaritalSpie.png} % requires the graphicx package
-   \caption{Marital Status  }
-   \label{fig:fig3}
-\end{figure}
+%\begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{zmaritalSpie.png} % requires the graphicx package
+%   \caption{Marital Status  }
+%   \label{fig:fig3}
+%\end{figure}
 
 The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
@@ -402,12 +414,12 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 \subsection{Histogram}
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{zyearsOfEduc.png} % requires the graphicx package
-   \caption{Histogram of Years of Education   }
-   \label{fig:fig4}
-\end{figure}
+%\begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{zyearsOfEduc.png} % requires the graphicx package
+%   \caption{Histogram of Years of Education   }
+%   \label{fig:fig4}
+%\end{figure}
 
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
@@ -419,12 +431,12 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 \subsection{Boxplot}
 
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{zyearsOfEdBP.png} % requires the graphicx package
-   \caption{Box Plot of Years of Education   }
-   \label{fig:fig5}
-\end{figure} 
+%\begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{zyearsOfEdBP.png} % requires the graphicx package
+%   \caption{Box Plot of Years of Education   }
+%   \label{fig:fig5}
+%\end{figure} 
 
 \begin{itemize}
 \item It is a graphical picture of the distribution of quarters of the data.
