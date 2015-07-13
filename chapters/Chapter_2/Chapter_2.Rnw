@@ -35,29 +35,12 @@ tot2_1 <- sum(t2_1)
 Proportion <- Frequency / tot2_1 
 Percent    <- Proportion * 100
 t2_2       <- cbind( Frequency, Proportion, Percent )
-xtable(t2_2)
+t2_2
 @
 
-
-% Requires the booktabs if the memoir class is not being used
-%\begin{table}[htbp]
-%   \centering
-%   %\topcaption{Table captions are better up top} % requires the topcapt package
-%   \begin{tabular}{@{} | lccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-%     % \toprule
 %     &  \multicolumn{3}{c}{Statistic}  \\ 
-%     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-%    Sentence & Frequency(f) & Proportion & Percent \\ \hline
-%    Acquitted & 10 & 0.0372 & 3.72\% \\
-%    Suspended & 20 & 0.0743 & 7.43\% \\
-%    Less than 5 yrs & 72 & 0.2677 & 26.77\% \\
-%    More than 5 yrs & 167 & 0.6208 & 62.08\% \\ \hline
-%    Total & 269 & & 100.00\% \\ \hline 
-%    
-%   \end{tabular}
-%   \caption{Frequency Distribution of Court Sentencing results}
-%   \label{tab:tab1}
-%\end{table} 
+
+
 
 \begin{equation} % requires amsmath; align* for no eq. number
 	proportion_A = \frac{10}{269} = 0.0372
