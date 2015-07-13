@@ -321,7 +321,7 @@ Let's look at the frequency distribution tables for categorical data.
 
 Looking at the marital status from the GSS survey.
 
-<<msbar, echo=FALSE, fig.pos="H", fig.align="center", fig.width=6cm,fig.cap="Marital Status from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="H", fig.align="center", fig.width=6cm, fig.cap="Marital Status from GSS 2014 Survey">>=
 f2_1 <- read.spss("data/GSS2014.sav")
 frq2_1 <- table(f2_1$marital)
 Percent <- frq2_1 * 100 / length(f2_1$marital)
@@ -504,7 +504,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 <<tcj, echo=FALSE, fig.pos="H", fig.align="center", fig.width=6.5, fig.height=4, fig.cap="My figure title.">>=
 ## x5 <- read.spss("data/GSS2014.sav")
-x7 <- x5$yearsjob[x5$yearsjob>0 & x5$yearsjob<98]
+x7 <- f2_1$yearsjob[f2_1$yearsjob>0 & f2_1$yearsjob<98]
 ax <- numeric(10000)
 for(i in 1:10000){ax[i] <- mean(sample(x7,10))}   ##page 66
 mean(ax)
