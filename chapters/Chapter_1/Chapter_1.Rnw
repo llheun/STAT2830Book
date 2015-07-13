@@ -52,7 +52,7 @@ The five reasons to study statistics are to be able to effectively conduct resea
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=12cm]{chapters/Chapter_1/figure/zWheel_Science.png} % requires the graphicx package
+   \includegraphics[width=12cm]{chapters/Chapter_1/ext_figure/zWheel_Science.png} % requires the graphicx package
    \caption{The Wheel of Science}
    \label{fig:WS}
 \end{figure}
@@ -219,7 +219,7 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=7cm]{chapters/Chapter_1/figure/zRV.pdf} % requires the graphicx package
+   \includegraphics[width=7cm]{chapters/Chapter_1/ext_figure/zRV.pdf} % requires the graphicx package
    \caption{Mind map of a Random Variable }
    \label{fig:RV}
 \end{figure}
