@@ -19,3 +19,4 @@ Master.pdf
 *.synctex.gz
 *.tex
 *.log
+*.aux
