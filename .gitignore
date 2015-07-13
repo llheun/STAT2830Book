@@ -19,3 +19,5 @@ Master.pdf
 *.synctex.gz
 *.tex
 *.log
+*.aux
+figure/*.pdf
