@@ -1,0 +1,208 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Measures of Central Tendency}
+\label{chap:ch3}
+
+\section{Objective}
+
+By the end of this material, you will be able to
+\begin{itemize}
+\item Explain the purposes of measures of central tendency and interpret the 
+information they provide.
+\item Calculate, explain and compare modes, medians and means.
+\item Understand other measures of central tendency
+\item Be able to select appropriate measure of central tendency according to the 
+level of measurement and characteristics of the distribution.
+\end{itemize}
+
+\section{Three Common Measures}
+
+The central tendency is a measure of where most of the data is located.
+
+\begin{itemize}
+\item mean
+\item median
+\item mode
+\end{itemize}
+
+\section{Average or Mean}
+
+The \emph{mean} is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average score of a distribution.
+
+The strength and weakness of the mean.
+
+\begin{itemize}
+\item Strength -- All data from a variable are used to compute the mean.
+\item Weakness -- The mean is affected by extreme values (\emph{outliers}).
+\end{itemize}
+
+Illustration:
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} llllll @{}} % Column formatting, @{} suppresses leading/trailing space
+      DATA & 2 & 6 & 4 & 4 & 4 \\
+      
+   \end{tabular}
+   % \caption{Remember, \emph{never} use vertical lines in tables.}
+   \label{tab:tab8}
+\end{table}
+
+\begin{equation}
+\bar{x} = \frac{ 2 + 6 + 4 + 4 + 4}{5} = \frac{20}{5} = 4  \nonumber
+\end{equation}
+  
+\section{Median}
+
+The \emph{median} is the value of the middle observation when the data is sorted.
+
+\begin{itemize}
+\item If there is an odd number of data values, then to find the center value, simply order the values and remove them from the beginning and end to find the center, e.g., 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllll @{}} % Column formatting, @{} suppresses leading/trailing space
+       2 & 4 & 4 & 6  & 9 \\
+   \end{tabular}
+   % \caption{Remember, \emph{never} use vertical lines in tables.}
+   \label{tab:tab8}
+\end{table}
+
+\item median = 4
+
+\item If there is an even number of data values, then to find the center two values and average them,  e.g., 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} llllll @{}} % Column formatting, @{} suppresses leading/trailing space
+       2 & 4 & 4 & 5 & 6  & 9 \\
+   \end{tabular}
+   % \caption{Remember, \emph{never} use vertical lines in tables.}
+   \label{tab:tab8}
+\end{table}
+
+\item $median = \frac{4 + 5}{2} = 4.5 $
+
+\end{itemize}
+
+The {\bf{median}} is the center score of the distribution.  Half of the values are below the median and half are above the median in the distribution. 
+
+\begin{itemize}
+\item Strength:  It is RESISTANT to extreme value (\emph{outliers}).
+\item Weakness: Not all data from a variable is used to compute the median. 
+\end{itemize}
+
+\section{Mode}
+
+The {\bf{mode}} is the most frequently occurring observation of this variable.
+
+\begin{itemize}
+\item For example:
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllll @{}} % Column formatting, @{} suppresses leading/trailing space
+       2 & 4 & 4 & 6  & 9 \\
+   \end{tabular}
+   % \caption{Remember, \emph{never} use vertical lines in tables.}
+   \label{tab:tab8}
+\end{table}
+
+The most frequently occurring value is 4, since there are two of them, so the {\bf{mode}} is 4.
+
+\item Strength:  It is RESISTANT to extreme values (\emph{outliers}).
+\item Weakness: NOT all data from a variable is used to compute the {\bf{mode}}.
+\end{itemize}
+
+\newpage
+\section{Overall Distribution Shape}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=8cm]{zskewness-300x247.png} % requires the graphicx package
+   \caption{example caption}
+   \label{fig:example}
+\end{figure}
+
+{\bf{Symmetric}}
+
+\begin{itemize}
+\item Balanced Distribution
+\item Bell-shaped
+\item The mean, median, and mode have the same value
+\end{itemize}
+
+{\bf{Skewed}}
+
+\begin{itemize}
+\item Right-skewed: presence of extremely high values 
+\item Left-skewed: presence of extremely low values 
+\item The mean, median, and mode are different values.  Notice that the mean will always be pulled in the direction of the extreme values.
+\end{itemize}
+
+\section{Other Measures of Location}
+
+The other measure of location are as follows:
+
+\begin{itemize} 
+\samepage
+\item Percentage: point below which a specific percentage of cases fall.
+\samepage
+\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).
+\samepage
+\item Quartiles: divides distribution into quarters (25, 50, 75).
+\samepage
+\item e.g., the median falls at the 50th percentile (or the 2nd quartile or the 5th decile.)
+\samepage
+\item Mid-range: $ mr = \frac{Minimum + Maximum}{2} $
+\samepage
+\item Mid-hinge: $ mh = \frac{Q_1 + Q_3}{2} $
+\samepage
+\item Calculate a percentile
+	\begin{itemize}
+	\item Sort scores in order from low to high
+	\item Multiply the number of cases (n) by the proportional value of the percentile (for example: the 80th percentile is 0.8).
+	\item The resultant value indicates the position in the array of cases.
+	\end{itemize}
+		
+	\item Example
+		\begin{itemize}
+		\item In a sample of 70 test scores, we want to find the 3rd quartile (or the 75th percentile),
+		\item $70 \times 0.75 = 52.5$, rounding to 53, so the 53rd case is the 75th percentile.
+		\end{itemize}
+		  	
+\end{itemize}
+  
+\section{Key Words}
+
+\newpage
+
+\section{Exercises}
+
+\begin{enumerate}
+\item The weekly budget for groceries of  six student are as follows: \\
+\$30, \$35, \$40, \$28, \$35, \$25. \\ Compute the mean, median, and mode, respectively.
+	\begin{enumerate}
+	\item 188, 30, 40
+	\item 32.167, 35, 35
+	\item 32.167, 32.5, 35
+	\item 188, 30, 35
+	\end{enumerate}
+	
+\item John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
+	\begin{enumerate}
+	\item 20
+	\item 22
+	\item 18 
+	\item 24
+	\end{enumerate}
+		
+\end{enumerate}
