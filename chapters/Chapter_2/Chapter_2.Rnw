@@ -321,6 +321,16 @@ Let's look at the frequency distribution tables for categorical data.
 
 Looking at the marital status from the GSS survey.
 
+<<msbar, echo=FALSE, fig.pos="H", fig.align="center", fig.width=6cm,fig.cap="Marital Status from GSS 2014 Survey">>=
+f2_1 <- read.spss("data/GSS2014.sav")
+frq2_1 <- table(f2_1$marital)
+Percent <- frq2_1 * 100 / length(f2_1$marital)
+
+sort_ms <- sort(Percent, decreasing = FALSE)
+barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
+
+@
+
 %\begin{figure}[htbp]
 %   \centering
 %   \includegraphics[width=6cm]{zmaritalSbar.png} % requires the graphicx package
