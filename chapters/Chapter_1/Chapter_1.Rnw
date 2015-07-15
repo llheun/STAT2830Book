@@ -6,7 +6,7 @@
 
 
 \subsection{Objectives}
-By the end of this material, you will be able to:
+By the end of this chapter, you will be able to:
 \begin{itemize}
 \item Distinguish between three applications of statistics and identify
 situations in which each is appropriate
@@ -20,11 +20,11 @@ of variable from each type.
 \subsection{Reasons to Study Data Science}
 \subsubsection{Conduct Research}
 
-The first reason is to administer a  research projects. Without  statistics you will have tough time making decisions based on the data that you collected for your research project. Statistics provides you with  tools to make an informed decision. You will be able to decide which of the possibilities is more likely to be true. You will base this decision on your knowledge of  inferential statistics and probability. 
+The first reason is to administer a  research projects. Without  statistics you will have tough time making decisions based on the data that you collected for your research project. Statistics provides you with  tools to make an informed decision. You will be able to decide which of the possibilities is more likely to be true. You will base this decision on your knowledge of  inferential statistics. 
 
 \subsubsection{Study Design}
 
-The second reason to study statistics is that you are equipped to read scientific journals. Most technical journals that you will read contain some form of statistics. Usually, you will find them in the results section of the report. If you are not familiar with statistics, the information contained in this section will be meaningless.  An understanding of introductory statistics will provide you with the fundamental skills necessary to read and evaluate most results sections. The ability to extract meaning from journal articles and the ability to critically evaluate research from a statistical perspective are fundamental skills that will enhance your knowledge and understanding in related programs of study. 
+The second reason to study statistics is that you will be equipped to read scientific journals. Most technical journals that you will read contain some form of statistics. Usually, you will find them in the results section of the report. If you are not familiar with statistics, the information contained in this section will be meaningless.  An understanding of introductory statistics will provide you with the fundamental skills necessary to read and evaluate most results sections. The ability to extract meaning from journal articles and the ability to critically evaluate research from a statistical perspective are fundamental skills that will enhance your knowledge and understanding in related programs of study. 
 
 \subsubsection{Develop Critical Thinking Skills}
 
@@ -36,17 +36,13 @@ The fourth reason to study statistics is to be an informed consumer. Like any ot
 
 \subsubsection{Know When to Hire a Statistician}
 
-The fifth reason to have a working knowledge of statistics is to know when you need to help from a statistician.  Most of us know enough about our mobile devices to know when to take it into the shop.  Usually, we do not attempt the repair ourselves because we do not want to cause any irreparable damage.  Also, we try to know enough to speak intelligibly with service center employee to insure that we do not get a replacement when we need a replacement cord for our ear buds.   We should be the same way about employing a statistician.  Doing research is expensive in terms of resources and time. If you are in over your statistical head, it does not make sense to risk an entire project by attempting to compute the data analyses yourself.  It is very easy to compute incomplete or inappropriate statistical analysis of our data. As with the service center employee discussed above, it is also important to have enough statistical where with all to be able to discuss your project and the data analyses you want computed with the statistician you hire. In other words, you want to be able to make sure that your statistician is on the right track. 
+The fifth reason to have a working knowledge of statistics is to know when you need  help from a statistician.  Most of us know enough about our cars to know when to take it into the shop.  Usually, we do not attempt the repair ourselves because we do not want to cause any irreparable damage.  Also, we try to know enough to speak intelligibly with service center employee to insure that we do not get 
+a whole new engine (big bucks) when all we need is a new fuel filter (a few bucks).
+We should be the same way about employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by attempting to compute the data analyses yourself with widely available statistical software.  It is very easy to compute incomplete or inappropriate statistical analysis of our data. As with the service center employee discussed above, it is also important to have enough statistical knowledge to be able to discuss your project and the data analyses you want computed with the statistician you hire. In other words, you want to be able to make sure that your statistician is on the right track. 
 
 \subsubsection{To summarize}
 
-The five reasons to study statistics are to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help. % \cite{URL}{knoko}
-
-\subsubsection{{Research}} Research  is the systematic inquiry into the study of situations to establish facts and reach new conclusion.
-
-\subsubsection{{Data science}}  Data science is the systemic study of the study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
-
-\subsubsection{{Data}} Data are information collected from the population for further analysis.
+The five reasons to study statistics: to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help. % \cite{URL}{knoko}
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
@@ -56,6 +52,12 @@ The five reasons to study statistics are to be able to effectively conduct resea
    \caption{The Wheel of Science}
    \label{fig:WS}
 \end{figure}
+
+\subsubsection{{Research}} Research  is the systematic inquiry into the study of situations to establish facts and reach new conclusion.
+
+\subsubsection{{Data science}}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
+
+\subsubsection{{Data}} Data are information collected from the population for further analysis.
 
 \subsubsection{Theory}  Theory is a statement used to explain a situation, eg., does the amount of sleep of  students affect their academic performance.
 
@@ -71,23 +73,24 @@ The five reasons to study statistics are to be able to effectively conduct resea
 \subsubsection{Variables}
 
 \begin{itemize}
+\item Variables are attributes of a person (case).
+\item Examples: socio-economic stats such as age, gender, race, and social class.
+
 \item Theories and hypotheses are asserting the association between variables.
 \item A theory may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
-\item Variables are attributes of a case.
-\item Examples: age, gender, race, and social class.
+
 \end{itemize}
 
 \subsubsection{Case}
 
 \begin{itemize}
-\item Case is a collection of variables from an entity such as a person.
-\item Cases are gathered from groups.
-\item Examples: groups (e.g., church members, union members), people, city, and states.
+\item Case is a collection of variables from a person (entity).
+\item Cases are from groups; for example, members from churches or unions or cities or states.
 \end{itemize}
 
 \subsection{Example}
 
-Illustrate the color of eyes of students in this class.
+Describe  the color of eyes of students in this class.
 
 \begin{itemize}
 \item Variable is color of eyes of students
@@ -106,12 +109,13 @@ Illustrate the color of eyes of students in this class.
 
 \subsection{Descriptive Statistics}
 
-Descriptive statistics are use to explain the basic features of the data in a study.
+Descriptive statistics are used to explain the basic features of the data in a study.
 
 There are three methods of describing data.
 
 \begin{enumerate}
-\item {\bf{Univariate}} descriptive statistics -- summarizes {\bf{one variable at a time}}, such as averages, percentages, charts and graphs:
+\item {\bf{Univariate}} descriptive statistics -- summarizes {\bf{one variable at a time}}, such as 
+numerical, graphical, but also range, variance, etc.  % averages, percentages, charts and graphs:
 	\begin{itemize}
 	\item The average IQ of the class is 120
 	\item The percent of females taking Stat 2830 this semester is 55 percent.
