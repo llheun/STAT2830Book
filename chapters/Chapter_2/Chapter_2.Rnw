@@ -330,9 +330,9 @@ sort_ms <- sort(Percent, decreasing = TRUE)
 
 barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
 rm(f2_1)
-rm(frq2_2)
+rm(frq2_1)
 rm(Percent)
-rm(sort_ms)
+
 @
 
 \begin{itemize}
@@ -344,12 +344,9 @@ rm(sort_ms)
 \subsection{Pie Chart}
 
 <<mspie, echo=TRUE, fig.pos="H", fig.align="center",  fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
-f2_2 <- read.spss("data/GSS2014.sav")
-frq2_2 <- table(f2_2$marital)
-Percent2 <- frq2_2 * 100 / length(f2_2$marital)
-sort_ms2 <- sort(Percent2, decreasing = TRUE)
+sort_ms
 
-sort_ms2
+pie( sort_ms)
 
 @
 
