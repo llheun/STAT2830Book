@@ -407,10 +407,11 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 <<mshist, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
-yoe <- f2_1$educ[f2_1$educ < 89]
-hist(yoe, ylab="Frequency", xlab="Years of Education")
+YearsOfEducation <- f2_1$educ[f2_1$educ < 89]
+hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 @
+
 %\begin{figure}[htbp]
 %   \centering
 %   \includegraphics[width=6cm]{zyearsOfEduc.png} % requires the graphicx package
@@ -427,7 +428,11 @@ hist(yoe, ylab="Frequency", xlab="Years of Education")
 
 \subsection{Boxplot}
 
+<<mshist, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
+boxplot(YearsOfEducation, xlab="Years of Education")
+
+@
 %\begin{figure}[htbp]
 %   \centering
 %   \includegraphics[width=6cm]{zyearsOfEdBP.png} % requires the graphicx package
