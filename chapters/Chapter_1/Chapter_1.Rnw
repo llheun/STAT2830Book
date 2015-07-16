@@ -57,7 +57,7 @@ The five reasons to study statistics:
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
-The Wheel of Science gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.
+The Wheel of Science gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  The wheel has four parts that will be defined below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
 
 
 \begin{figure}[htbp]
@@ -73,14 +73,18 @@ The Wheel of Science gives us  a process to refine our thinking about the nature
 
 \subsubsection{{Data}} Data are information collected from the population for further analysis.
 
-\subsubsection{Theory}  Theory is a statement used to explain a situation, eg., does the amount of sleep of  students affect their academic performance.
+\subsubsection{Theory}  Theory is a statement used to explain a situation, eg., 
+is there a difference about alcohol awareness  between health and safety class and a statistics class among college stadents.
 
-\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, eg.,  the amount of sleep of a student affects the student GPA.
+\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, eg.,  
+alcohol awareness among college students is the same between  students enrolled in a health and safety class and for those enrolled in a statistics class.
 
-\subsubsection{Observations}  Observations are collected data to test hypothesis, eg., a random sample of student GPA and hours of sleep.
+\subsubsection{Observations}  Observations are collected data to test hypothesis, eg., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.
 
-\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing the data, eg., analysis shows a relationship between amount of sleep of a student and GPA. 
 
+
+\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing the data, eg., 
+A study of alcohol awareness among college students reported a higher awareness for students enrolled in a health and safety class than for those enrolled in a statistics class.
 
 \subsubsection{Variables and Cases}
 
@@ -88,10 +92,14 @@ The Wheel of Science gives us  a process to refine our thinking about the nature
 
 \begin{itemize}
 \item Variables are attributes of a person (case).
-\item Examples: socio-economic stats such as age, gender, race, and social class.
+  \begin{itemize}
+  \item Examples: socio-economic stats such as age, gender, race, and social class.
+  \end{itemize}
 
 \item Theories and hypotheses are asserting the association between variables.
-\item A theory may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
+  \begin{itemize}
+  \item A theory may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
+  \end{itemize}
 
 \end{itemize}
 
@@ -99,7 +107,9 @@ The Wheel of Science gives us  a process to refine our thinking about the nature
 
 \begin{itemize}
 \item Case is a collection of variables from a person (entity).
-\item Cases are from groups; for example, members from churches or unions or cities or states.
+  \begin{itemize}
+  \item Cases are from groups; for example, members from churches or unions or cities or states.
+  \end{itemize}
 \end{itemize}
 
 \subsection{Example}
@@ -129,21 +139,27 @@ There are three methods of describing data.
 
 \begin{enumerate}
 \item {\bf{Univariate}} descriptive statistics -- summarizes {\bf{one variable at a time}}, such as 
-numerical, graphical, but also range, variance, etc.  % averages, percentages, charts and graphs:
+numerical, graphical,  % averages, percentages, charts and graphs:
 	\begin{itemize}
-	\item The average IQ of the class is 120
+	\item The average IQ of the class is 120,  also range, variance, etc. 
 	\item The percent of females taking Stat 2830 this semester is 55 percent.
 	\end{itemize}
+
 \item {\bf{Bivariate}} descriptive statistics -- summarizes {\bf{two variables at a time}}, such as 
 looking for relationships between two variables that describe strength and direction.
 	\begin{itemize}
-	\item The relationship between GPA and age is positive and strong.
-	\item The relationship between gender and shopping is negative and moderate.
+	\item The relationship between college juniors and seniors credit card debt is  positive and strong.
+	
 	\end{itemize}	
+
 \item {\bf{Multivariate}} descriptive statistics -- summarizes {\bf{three or more variables at a time}}, such as 
 looking for relationships between three or more variables that describe strength and direction.
 	\begin{itemize}
-	\item Generally, as GPA increases with age for females but not for males.
+	\item It has been alleged that obvious consumption is a way for men to show their status to other males.  
+	A recent study looked at the changes in testosterone level in response to changes in his status created by 
+	using a product such as an old car versus a new sports car.  The subjects of the study were told to drive 
+	on a busy urban avenue or on a less traveled rural highway.
+
 	\end{itemize}	
 \end{enumerate}
 
@@ -195,7 +211,7 @@ Since 1968, voter surveys use inferential statistics.
 \item Ordinal categorical variable has order:
 	\begin{itemize}
 	\item e.g., The scores can be ranked and ordering does exist.
-	\item e.g., The management structure of at city hall, class levels, rating scales.
+	\item e.g., The management structure of at city hall (mayor, department heads, etc.), class levels (freshman, sophomore, junior, and senior), social-economic status (poor, middle class, and rich).
 	\end{itemize}
 \end{itemize}
 		
@@ -210,11 +226,7 @@ Since 1968, voter surveys use inferential statistics.
 \subsubsection{Levels of Measurement for Numerical Data}
 
 \begin{itemize}
-\item An interval numerical  variable has magnitude but the ratio is not allowed
-	\begin{itemize}
-	\item e.g., GPA, IQ, temperature, 
-	\item e.g., 60 degrees is not twice as warm as 30 degrees.
-	\end{itemize} 
+
 \item A ratio numerical variable has a meaningful zero value, a proportion is allowed, and has magnitude.
 	
 		\begin{itemize}
@@ -226,9 +238,14 @@ Since 1968, voter surveys use inferential statistics.
 		\item {\bf{Continuous}}
 		
 		\item has scores that can be subdivided infinitely (at least theoretically)
-		\item e.g., age, income, distance to school.
+		\item e.g., age, time, distance to school.
 		\end{itemize}
-	
+
+\item An interval numerical  variable has magnitude but the ratio does not make sense.
+	\begin{itemize}
+	\item e.g., GPA (using a 4 point system, a 4 is not twice the value of a 2),  temperature (60 degrees is not twice as warm as 30 degrees).
+	  
+	\end{itemize} 	
 	
 \end{itemize}
 
@@ -237,7 +254,7 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=7cm]{chapters/Chapter_1/ext_figure/zRV.pdf} % requires the graphicx package
+   \includegraphics[width=7cm]{chapters/Chapter_1/ext_figure/zRV1.png} % requires the graphicx package
    \caption{Mind map of a Random Variable }
    \label{fig:RV}
 \end{figure}
