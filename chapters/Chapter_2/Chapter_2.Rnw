@@ -327,17 +327,11 @@ frq2_1 <- table(f2_1$marital)
 Percent <- frq2_1 * 100 / length(f2_1$marital)
 
 sort_ms <- sort(Percent, decreasing = TRUE)
-sort_ms[0,2]<-"NM"
 
 barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
+rm(f2_1)
+rm(Percent)
 @
-
-%\begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=6cm]{zmaritalSbar.png} % requires the graphicx package
-%   \caption{Marital Status  }
-%   \label{fig:fig3}
-%\end{figure}
 
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars corresponds to the percent or number of cases in each category.
@@ -346,6 +340,12 @@ barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey o
 \end{itemize}
 
 \subsection{Pie Chart}
+
+<<msbar, echo=FALSE, fig.pos="H", fig.align="center", fig.height=4, fig.cap="Marital Status from GSS 2014 Survey">>=
+
+pie( sort_ms,  main="GSS 2014 Survey on Marital Status" )
+@
+
 
 %\begin{figure}[htbp]
 %   \centering
