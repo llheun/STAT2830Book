@@ -343,7 +343,7 @@ rm(sort_ms)
 
 \subsection{Pie Chart}
 
-<<msbar, echo=TRUE, fig.pos="H", fig.align="center",  fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=TRUE, fig.pos="H", fig.align="center",  fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 f2_2 <- read.spss("data/GSS2014.sav")
 frq2_2 <- table(f2_2$marital)
 Percent2 <- frq2_2 * 100 / length(f2_2$marital)
