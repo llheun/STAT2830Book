@@ -428,9 +428,9 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \subsection{Boxplot}
 
-<<mshist, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<msboxplot, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
-boxplot(YearsOfEducation, xlab="Years of Education")
+boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
 @
 %\begin{figure}[htbp]
@@ -510,21 +510,4 @@ boxplot(YearsOfEducation, xlab="Years of Education")
 	\end{enumerate}
 	
 \end{enumerate}
-<<<<<<< HEAD
-=======
 
-<<tcj, echo=FALSE, fig.pos="H", fig.align="center", fig.width=6.5, fig.height=4, fig.cap="My figure title.">>=
-## x5 <- read.spss("data/GSS2014.sav")
-x7 <- f2_1$yearsjob[f2_1$yearsjob>0 & f2_1$yearsjob<98]
-ax <- numeric(10000)
-for(i in 1:10000){ax[i] <- mean(sample(x7,10))}   ##page 66
-mean(ax)
-sd(ax)
-hist(ax, main="Time on Current Job, n=10", xlab="Years" )
-xv <- seq(-0.21, 17.01, 0.1)
-yv <- dnorm(xv,8.42, 2.87)*19900
-lines(xv, yv, col="red")
-@
-
-	
->>>>>>> 8de734009f102b63e5774ac08954381b555bd686
