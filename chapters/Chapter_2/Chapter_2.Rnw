@@ -333,7 +333,7 @@ Percent <- frq2_1 * 100 / length(f2_1$marital)
 sort_ms <- sort(Percent, decreasing = TRUE)
 
 barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
-rm(f2_1)
+
 rm(frq2_1)
 rm(Percent)
 
@@ -347,19 +347,11 @@ rm(Percent)
 
 \subsection{Pie Chart}
 
-<<mspie, echo=TRUE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 pie( sort_ms)
 
 @
-
-
-%\begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=6cm]{zmaritalSpie.png} % requires the graphicx package
-%   \caption{Marital Status  }
-%   \label{fig:fig3}
-%\end{figure}
 
 The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
@@ -415,6 +407,12 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 \subsection{Histogram}
 
+
+<<mshist, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+
+hist(f2_1$educ, ylab="Frequency", xlab="Years of Education")
+
+@
 %\begin{figure}[htbp]
 %   \centering
 %   \includegraphics[width=6cm]{zyearsOfEduc.png} % requires the graphicx package
