@@ -20,7 +20,7 @@ of variable from each type.
 \subsection{Reasons to Study Data Science}
 \subsubsection{Conduct Research}
 
-The first reason is to administer a  research projects. Without  statistics you will have tough time making decisions based on the data that you collected for your research project. Statistics provides you with  tools to make an informed decision. You will be able to decide which of the possibilities is more likely to be true. You will base this decision on your knowledge of  inferential statistics. 
+The first reason is to administer a  research projects. Without  statistics you will have a tough time making decisions based on the data that you collected for your research project. Statistics provides you with  tools to make an informed decision. You will be able to decide which of the possibilities is more likely to be true. You will base this decision on your knowledge of  inferential statistics. 
 
 \subsubsection{Study Design}
 
@@ -37,8 +37,12 @@ The fourth reason to study statistics is to be an informed consumer. Like any ot
 \subsubsection{Know When to Hire a Statistician}
 
 The fifth reason to have a working knowledge of statistics is to know when you need  help from a statistician.  Most of us know enough about our cars to know when to take it into the shop.  Usually, we do not attempt the repair ourselves because we do not want to cause any irreparable damage.  Also, we try to know enough to speak intelligibly with service center employee to insure that we do not get 
-a whole new engine (big bucks) when all we need is a new fuel filter (a few bucks).
-We should be the same way about employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by attempting to compute the data analyses yourself with widely available statistical software.  It is very easy to compute incomplete or inappropriate statistical analysis of our data. As with the service center employee discussed above, it is also important to have enough statistical knowledge to be able to discuss your project and the data analyses you want computed with the statistician you hire. In other words, you want to be able to make sure that your statistician is on the right track. 
+a whole new motor (big bucks) when all we need is a new fuel filter (a few bucks).
+We should use the same logic when 
+employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by attempting to  analyze the data  yourself with widely available statistical software.  
+It is very easy to analyze data that is either  
+inappropriate or incomplete  because we had not used the services of a competent statistian.
+As with the service center employee discussed above, it is also important to have enough statistical knowledge to discuss your project and the data analyses you want computed with the statistician you hire. In other words, you want to be able to make sure that your statistician is on the right track. 
 
 \subsubsection{To summarize}
 
@@ -52,6 +56,9 @@ The five reasons to study statistics:
 \end{itemize} 
 
 \subsubsection{The Scientific Process, The Wheel of Science}
+
+The Wheel of Science gives us  a process to refine our thinking about the nature of social interactions.
+
 
 \begin{figure}[htbp]
    \centering
