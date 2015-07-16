@@ -57,7 +57,7 @@ The five reasons to study statistics:
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
-The Wheel of Science gives us  a process to refine our thinking about the nature of social interactions.
+The Wheel of Science gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.
 
 
 \begin{figure}[htbp]
