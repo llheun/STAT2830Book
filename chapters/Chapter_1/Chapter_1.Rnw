@@ -318,6 +318,8 @@ Since 1968, voter surveys use inferential statistics.
 	\item Continuous
 	\item Qualitative
 	\end{enumerate}
+	
+\item add more exercises.	
 		
 		
 \end{enumerate}
