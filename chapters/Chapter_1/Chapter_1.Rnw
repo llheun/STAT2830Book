@@ -62,7 +62,7 @@ The Wheel of Science gives us  a process to refine our thinking about the nature
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=10cm]{chapters/Chapter_1/ext_figure/zWheel_Science.png} % requires the graphicx package
+   \includegraphics[width=11cm]{chapters/Chapter_1/ext_figure/zWheel_Science.png} % requires the graphicx package
    \caption{The Wheel of Science}
    \label{fig:WS}
 \end{figure}
