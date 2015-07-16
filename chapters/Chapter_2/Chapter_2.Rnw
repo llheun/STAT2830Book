@@ -351,7 +351,6 @@ sort_ms <- sort(Percent, decreasing = TRUE)
 
 sort_ms
 
-#  pie( sort_ms,  main="GSS 2014 Survey on Marital Status" )
 @
 
 
