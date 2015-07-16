@@ -42,7 +42,14 @@ We should be the same way about employing a statistician.  Doing research is exp
 
 \subsubsection{To summarize}
 
-The five reasons to study statistics: to be able to effectively conduct research, to be able to read and evaluate journal articles, to further develop critical thinking and analytic skills, to act a an informed consumer, and to know when you need to hire outside statistical help. % \cite{URL}{knoko}
+The five reasons to study statistics: 
+\begin{itemize}
+\item to be able to effectively conduct research, 
+\item to be able to read and evaluate journal articles, 
+\item to further develop critical thinking and analytic skills, 
+\item to act a an informed consumer, and 
+\item to know when you need to hire outside statistical help. % \cite{URL}{knoko}
+\end{itemize} 
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
@@ -136,7 +143,7 @@ looking for relationships between three or more variables that describe strength
 
 \subsection{Inferential Statistics}
 
-Inferential statistics makes a general statement about a population from a sample of the population.
+Inferential statistics makes a general statement about a population based on a sample se;ected from that population.
 
 \setlength{\unitlength}{1cm}
 \begin{picture}(8,4)
@@ -148,8 +155,8 @@ Inferential statistics makes a general statement about a population from a sampl
 \end{picture}
 
 \begin{itemize}
-\item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of budget limitations.
-\item Samples (S) are part of the population.  While, a sample represents a part of the population which is a manageable size.
+\item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of budget, or other limitations.
+\item Samples (S) are part of the population,  while a sample represents a part of the population it has a manageable size.
 \end{itemize}
 
 \subsubsection{Inferential Statistics Example}
@@ -230,8 +237,6 @@ Since 1968, voter surveys use inferential statistics.
 
 \section{Key Words}
 
-
-
 \begin{itemize}
 \item Continuous variable
 \item Data
@@ -261,12 +266,12 @@ Since 1968, voter surveys use inferential statistics.
 \item Descriptive statistics allow social researchers to   
 	\begin{enumerate}
 	\item quantify the strength and direction of the relationship between two variables,
-	\item reduce thousands of individual number into a few easily understood numbers.
+	\item reduce thousands of individual numbers into a few easily understood numbers.
 	\item graphically display the number of respondents according to their gender.
 	\item all of the choices
 	\end{enumerate}
 	
-\item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  Hat is the level of measurement of marital status?
+\item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
 	\begin{enumerate}
 	\item Ordinal 
 	\item Interval-Ratio
@@ -282,7 +287,7 @@ Since 1968, voter surveys use inferential statistics.
 	\item I don't know
 	\end{enumerate}
 
-\item What type of variable is the number of robberies reported in Kalamazoo County?
+\item What type of variable is the number of robberies reported in June 2012 in Kalamazoo County?
 	\begin{enumerate}
 	\item Attribute
 	\item Discrete
