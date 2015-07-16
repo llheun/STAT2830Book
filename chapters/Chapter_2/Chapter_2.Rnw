@@ -326,9 +326,8 @@ f2_1 <- read.spss("data/GSS2014.sav")
 frq2_1 <- table(f2_1$marital)
 Percent <- frq2_1 * 100 / length(f2_1$marital)
 
-## barplot( Percent, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
 sort_ms <- sort(Percent, decreasing = TRUE)
-sort_ms
+sort_ms[0,2]<-"NM"
 
 barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
 @
