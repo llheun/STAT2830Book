@@ -327,7 +327,7 @@ frq2_1 <- table(f2_1$marital)
 Percent <- frq2_1 * 100 / length(f2_1$marital)
 
 sort_ms <- sort(Percent, decreasing = FALSE)
-sort_ms
+sort_ms; is.vector(sort_ms)
 barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
 @
 
