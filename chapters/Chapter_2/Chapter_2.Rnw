@@ -341,7 +341,7 @@ rm(Percent)
 
 \subsection{Pie Chart}
 
-<<msbar, echo=FALSE, fig.pos="H", fig.align="center",  fig.cap="Marital Status from GSS 2014 Survey">>=
+<<msbar, echo=TRUE, fig.pos="H", fig.align="center",  fig.cap="Marital Status from GSS 2014 Survey">>=
 
 pie( sort_ms,  main="GSS 2014 Survey on Marital Status" )
 @
