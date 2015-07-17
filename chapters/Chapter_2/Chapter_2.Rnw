@@ -61,7 +61,7 @@ A sample of various court sentencing results were collected and the results are 
     \hline
  \end{tabular}
  \end{table}
-%     &  \multicolumn{3}{c}{Statistic}  \\ 
+
 
 
 
@@ -336,7 +336,7 @@ Let's look at the frequency distribution tables for categorical data.
       
    \end{tabular}
    \caption{Frequency Distribution for Marital Status  }
-   \label{tab:tab5}
+   \label{tab:tab6}
 \end{table}
 
 
