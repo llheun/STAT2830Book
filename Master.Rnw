@@ -27,7 +27,7 @@ library(knitr)
 library(foreign)
 library(verbatim)
 library(xtable)
-library(amsmath)
+
 
 # These options apply to all R chunks in the entire book.
 opts_chunk$set(
@@ -64,7 +64,7 @@ opts_chunk$set(
 @
 
 
-<<Ch8, child="chapters/Chapter_8/Chapter_8.Rnw",eval=TRUE>>=
+<<Ch8, child="chapters/Chapter_8/Chapter_8.Rnw",eval=FALSE>>=
 @
 
 <<Ch9, child="chapters/Chapter_9/Chapter_9.Rnw",eval=FALSE>>=
