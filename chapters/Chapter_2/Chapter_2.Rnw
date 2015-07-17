@@ -27,23 +27,23 @@ By the end of this material, you will be able to:
 
 A sample of various court sentencing results were collected and the results are displayed in the summary table below.  Compute the proportion and percent of sentenced acquitted.
 
-\begin{comment}
-<<t2_1, echo=FALSE>>=
-dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
-t2_1 <- table(dt2_1$Sentence)
-Frequency <- sort(t2_1)
-tot2_1 <- sum(t2_1)
-Proportion <- Frequency / tot2_1 
-Percent    <- Proportion * 100
-t2_2       <- cbind( Frequency, Proportion, Percent )
-xtable(t2_2)
-rm(t2_1)
-rm(dt2_1)
-rm(Frequency)
-rm(t2_2)
 
-@
-\end{comment}
+% <<t2_1, echo=FALSE>>=
+% ## dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
+% ## t2_1 <- table(dt2_1$Sentence)
+% ## Frequency <- sort(t2_1)
+% ## tot2_1 <- sum(t2_1)
+% ## Proportion <- Frequency / tot2_1 
+% ## Percent    <- Proportion * 100
+% ## t2_2       <- cbind( Frequency, Proportion, Percent )
+% ## xtable(t2_2)
+% ## rm(t2_1)
+% ## rm(dt2_1)
+% ## rm(Frequency)
+% ## rm(t2_2)
+
+% @
+
 
 
  % latex table generated in R 3.2.0 by xtable 1.7-4 package
