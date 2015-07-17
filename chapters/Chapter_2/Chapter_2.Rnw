@@ -51,7 +51,7 @@ rm(t2_2)
  \begin{table}[ht]
  \centering
  \begin{tabular}{rrrr}  \hline
-    &  \multicolumn{3}{c}{Statistic}  \\
+    &  \multicolumn{2}{c}{Statistic}  \\
   & Frequency & Proportion & Percent \\ 
    \hline
  Acquitted & 10.00 & 0.04 & 3.72 \\ 
