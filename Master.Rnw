@@ -26,7 +26,7 @@ Reproduction or translation of any part of this work beyond that permitted by Se
 library(knitr)
 library(foreign)
 library(xtable)
-
+library{verbatim}
 
 # These options apply to all R chunks in the entire book.
 opts_chunk$set(
@@ -47,11 +47,35 @@ opts_chunk$set(
 <<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=TRUE>>=
 @
 
-<<Ch2, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=
+<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=
+@
+
+<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=FALSE>>=
+@
+
+<<Ch5, child="chapters/Chapter_5/Chapter_5.Rnw",eval=FALSE>>=
+@
+
+<<Ch6, child="chapters/Chapter_6/Chapter_6.Rnw",eval=FALSE>>=
+@
+
+<<Ch7, child="chapters/Chapter_7/Chapter_7.Rnw",eval=FALSE>>=
 @
 
 
+<<Ch8, child="chapters/Chapter_8/Chapter_8.Rnw",eval=TRUE>>=
+@
 
+<<Ch9, child="chapters/Chapter_9/Chapter_9.Rnw",eval=FALSE>>=
+@
 
+<<Ch10, child="chapters/Chapter_10/Chapter_10.Rnw",eval=FALSE>>=
+@
+
+<<Ch11, child="chapters/Chapter_11/Chapter_11.Rnw",eval=FALSE>>=
+@
+
+<<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=FALSE>>=
+@
 
 \end{document}
