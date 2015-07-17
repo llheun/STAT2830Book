@@ -427,13 +427,8 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 @
 
-%\begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=6cm]{zyearsOfEduc.png} % requires the graphicx package
-%   \caption{Histogram of Years of Education   }
-%   \label{fig:fig4}
-%\end{figure}
 
+\newpage
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
 \item Histograms do not have gaps between the bars.
