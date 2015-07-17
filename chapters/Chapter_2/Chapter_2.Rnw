@@ -106,13 +106,14 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
    \label{tab:tab2}
 \end{table} 
 
- 
-	$proportion_f = \frac{366}{574} = 0.6376 $ \\
-	$percent_f    = \frac{366}{574} \times 100 = 63.76\% $
+\begin{align*} 
+	proportion_f &= \frac{366}{574} = 0.6376  \\
+	percent_f    &= \frac{366}{574} \times 100 = 63.76\% 
+\end{align*}	
 
 
 \subsubsection{Interpretation}
- The percent  of women who think that voting is a very important responsibility of being a citizen is 63.76 percent.
+ The percent  of women who indicate that voting is a very important responsibility of being a citizen is 63.76 percent.
  
  
 \subsection{Ratio}
@@ -137,7 +138,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = 0.80
 
   \begin{itemize}
   \item This means that there is 0.80 males for each female in the class.
-  \en{itemize}
+  \end{itemize}
 \end{enumerate}
 
 
@@ -384,7 +385,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 \begin{itemize}
 \item Determine number of classes, minimum, maximum, range and interval size.
-\item \# of classes: generally, we take the square root of the sample size $\sqrt{2538}$, but in this case, this value is la exceeds 10 which is the maximum number of suggested bars.
+\item \# of classes: generally, we take the square root of the sample size $\sqrt{2538}$, but in this case, this value exceeds 10 which is the maximum number of suggested bars.
 \item $minimum = 0$
 \item $maximum = 20$
 \item $range = 20 - 0 $
