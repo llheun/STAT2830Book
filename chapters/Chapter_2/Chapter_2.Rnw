@@ -64,8 +64,8 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
 \begin{align*}
 	proportion_A &= \frac{10}{269} = 0.0372   \\
 	percent_A    &= \frac{10}{269} \times 100 = 3.72\%   \\
-	proportion   &= \frac{f}{n}   \\
-	percent(\%)  &= \frac{f}{n} \times 100\% 
+	proportion   &= \frac{f}{n}   \\ \number
+	percent(\%)  &= \frac{f}{n} \times 100\%  \number
 \end{align*}
 
 	
