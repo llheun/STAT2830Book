@@ -79,8 +79,8 @@ To summarize:
 
 \begin{itemize} 
 \item Proportions are numbers that are always between zero and one.
-\item To convert  a proportion to a percent,  multiply by 100\%.
-\item To convert a percent to a proportion, divide by 100\%.
+\item To convert  a proportion to a percent,  multiply it  by 100.
+\item To convert a percent to a proportion, divide it by 100.
 \end{itemize}
 
 \subsubsection{GSS Example}
@@ -139,7 +139,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = 0.80
 \end{enumerate}
 
 
-Why data scientists use ratio.
+Why data social scientists use ratio.
 
 \begin{itemize}
 \item Ratios are useful for comparing the relative size of different categories of a variable.
