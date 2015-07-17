@@ -63,10 +63,11 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
 	proportion_A &= \frac{10}{269} = 0.0372   \\
 	percent_A    &= \frac{10}{269} \times 100 = 3.72\%   \\
 \end{align*}
-\begin{equation}
-	proportion   = \frac{f}{n}   \\ 
+
+\begin{eqnarray}
+	proportion   &=& \frac{f}{n}   \\ 
 	percent(\%)  = \frac{f}{n} \times 100\%  
-\end{equation}
+\end{eqnarray}
 
 \begin{itemize}
 \item where \emph{f} is the number of cases in a category
