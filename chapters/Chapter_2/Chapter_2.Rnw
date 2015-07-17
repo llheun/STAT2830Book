@@ -65,7 +65,7 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
 \end{align*}
 \begin{equation}
 	proportion   = \frac{f}{n}   \\ 
-	percent(\%)  &= \frac{f}{n} \times 100\%  
+	percent(\%)  = \frac{f}{n} \times 100\%  
 \end{equation}
 
 \begin{itemize}
