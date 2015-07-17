@@ -27,6 +27,7 @@ By the end of this material, you will be able to:
 
 A sample of various court sentencing results were collected and the results are displayed in the summary table below.  Compute the proportion and percent of sentenced acquitted.
 
+\begin{comment}
 <<t2_1, echo=FALSE>>=
 dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
 t2_1 <- table(dt2_1$Sentence)
@@ -42,7 +43,24 @@ rm(Frequency)
 rm(t2_2)
 
 @
+\end{comment}
 
+
+ % latex table generated in R 3.2.0 by xtable 1.7-4 package
+ % Fri Jul 17 08:00:24 2015
+ \begin{table}[ht]
+ \centering
+ \begin{tabular}{rrrr}  \hline
+    &  \multicolumn{3}{c}{Statistic}  \\
+  & Frequency & Proportion & Percent \\ 
+   \hline
+ Acquitted & 10.00 & 0.04 & 3.72 \\ 
+   Suspended & 20.00 & 0.07 & 7.43 \\ 
+   Less than 5 yrs & 72.00 & 0.27 & 26.77 \\ 
+   More than 5 yrs & 167.00 & 0.62 & 62.08 \\ 
+    \hline
+ \end{tabular}
+ \end{table}
 %     &  \multicolumn{3}{c}{Statistic}  \\ 
 
 
@@ -349,7 +367,7 @@ rm(Percent)
 
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="h", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 pie( sort_ms)
 
@@ -410,7 +428,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 \subsection{Histogram}
 
 
-<<mshist, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<mshist, echo=FALSE, fig.pos="h", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
 YearsOfEducation <- f2_1$educ[f2_1$educ < 89]
 hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
@@ -433,7 +451,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \subsection{Boxplot}
 
-<<msboxplot, echo=FALSE, fig.pos="H", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<msboxplot, echo=FALSE, fig.pos="h", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
 boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
@@ -465,8 +483,19 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	
 
 \section{Key Words}
-
-
+\begin{itemize}
+\item Bar chart
+\item Class interval
+\item Cumulative percent
+\item Frequency distribution
+\item Histogram
+\item Percent change
+\item Pie chart
+\item Proportion
+\item Rate
+\item Ratio
+\item Stated class limits
+\end{itemize}
 
 \newpage
 \section{Exercise}
@@ -513,6 +542,35 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\samepage
 	\item $-7.2\%$
 	\end{enumerate}
+	
+\item In a 2013 random sample of employees at Saint Mary's Hospital in Grand Rapids, a hospital administrator collected data about gender and various job categories.
+
+ % Requires the booktabs if the memoir class is not being used
+ \begin{table}[htbp]
+    \centering
+    %\topcaption{Table captions are better up top} % requires the topcapt package
+    \begin{tabular}{@{} lcc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+    
+     &  \multicolumn{2}{c}{Gender} \\
+    %   \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Job & Males & Females \\ \hline
+     Administrator & 12 & 1 \\
+     Clerk & 72 & 141 \\
+     Doctor & 83 & 15 \\
+     Lab Tech & 32 & 30 \\
+     Nurse & 62 & 116 \\
+     Orderly & 151 & 12 \\ \hline
+    \end{tabular}
+    \caption{Frequency Distribution of Gender and Job categories.}
+    \label{tab:tab8}
+ \end{table}
+ 
+  \begin{enumerate}
+  \item What percentage of nurses are females?
+  \item What proportion of orderlies are males?
+  \item For doctors, what is the ratio of females to males?
+  \item What percentage of the tatal staff are females?
+  \end{enumerate}
 	
 \end{enumerate}
 
