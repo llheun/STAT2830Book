@@ -59,11 +59,11 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
 
 
 
-\begin{align*} % requires amsmath; align* for no eq. number
-	proportion_A &= $\frac{10}{269} = 0.0372 $
-	percent_A    &= $\frac{10}{269} \times 100 = 3.72\% $
-	proportion   &= $\frac{f}{n} $
-	percent(\%)  &= $\frac{f}{n} \times 100\% $
+\begin{align*} 
+	$proportion_A &= \frac{10}{269} = 0.0372 $
+	$percent_A    &= \frac{10}{269} \times 100 = 3.72\% $
+	$proportion   &= \frac{f}{n} $
+	$percent(\%)  &= \frac{f}{n} \times 100\% $
 \end{align*}	
 
 \begin{itemize}
@@ -102,9 +102,9 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
    \label{tab:tab2}
 \end{table} 
 
-\begin{align*} % requires amsmath; align* for no eq. number
-	proportion_f &= \frac{366}{574} = 0.6376
-	percent_f    &= \frac{366}{574} \times 100 = 63.76\%
+\begin{align*} 
+	$proportion_f &= \frac{366}{574} = 0.6376 $
+	$percent_f    &= \frac{366}{574} \times 100 = 63.76\% $
 \end{align*}
 
 \subsubsection{Interpretation}
