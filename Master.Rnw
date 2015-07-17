@@ -1,5 +1,5 @@
 \documentclass[11pt]{book}
-
+\usepackage{amsmath}
 \title{Using Data Science as a Tool for Social Research \\ Stat 2830 }
 \author{Statistical Computation Lab \\ Department of Statistics \\ WMU}
 %\date{}                                           % Activate to display a given date or no date

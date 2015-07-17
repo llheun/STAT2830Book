@@ -18,7 +18,7 @@ By the end of this material, you will be able to:
 
  \begin{figure}[htbp]
     \centering
-    \includegraphics[width="7cm"]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
+    \includegraphics[width=3]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV2}
  \end{figure}
@@ -32,7 +32,7 @@ A sample of various court sentencing results were collected and the results are 
  \begin{table}[ht]
  \centering
  \begin{tabular}{lrrr}  \hline
-    &  \multicolumn{2}{c}{Statistic}  \\
+    &  \multicolumn{3}{c}{Statistic}  \\
 Disposition  & Frequency & Proportion & Percent \\ \hline
  Acquitted & 10.00 & 0.04 & 3.72 \\ 
    Suspended & 20.00 & 0.07 & 7.43 \\ 
@@ -40,6 +40,8 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
    More than 5 yrs & 167.00 & 0.62 & 62.08 \\ 
     \hline
  \end{tabular}
+   \caption{Frequency Distribution of Dsiposition of Criminal Cases}
+   \label{tab:tab1}
  \end{table}
 
 % <<t2_1, echo=FALSE>>=
@@ -59,11 +61,13 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
 
 
 
+\begin{align*}
+	proportion_A &= \frac{10}{269} = 0.0372   \\
+	percent_A    &= \frac{10}{269} \times 100 = 3.72\%   \\
+	proportion   &= \frac{f}{n}   \\
+	percent(\%)  &= \frac{f}{n} \times 100\% 
+\end{align*}
 
-	$proportion_A = \frac{10}{269} = 0.0372 $  \\
-	$percent_A    = \frac{10}{269} \times 100 = 3.72\% $  \\
-	$proportion   = \frac{f}{n} $  \\
-	$percent(\%)  = \frac{f}{n} \times 100\% $ 
 	
 
 \begin{itemize}
