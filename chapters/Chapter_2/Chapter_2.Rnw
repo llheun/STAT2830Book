@@ -64,21 +64,12 @@ A sample of various court sentencing results were collected and the results are 
 
 
 
-\begin{equation} % requires amsmath; align* for no eq. number
-	proportion_A = \frac{10}{269} = 0.0372
-\end{equation}
-
-\begin{equation} % requires amsmath; align* for no eq. number
-	percent_A = \frac{10}{269} \times 100 = 3.72\%
-\end{equation}
-
-\begin{equation} % requires amsmath; align* for no eq. number
-	proportion = \frac{f}{n}
-\end{equation}
-
-\begin{equation} % requires amsmath; align* for no eq. number
-	percent(\%)= \frac{f}{n} \times 100\% 
-\end{equation}
+\begin{align*} % requires amsmath; align* for no eq. number
+	proportion_A &= \frac{10}{269} = 0.0372
+	percent_A &= \frac{10}{269} \times 100 = 3.72\%
+	proportion &= \frac{f}{n}
+	percent(\%) &= \frac{f}{n} \times 100\% 
+\end{align*}	
 
 \begin{itemize}
 \item where \emph{f} is the number of cases in a category
@@ -116,13 +107,10 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
    \label{tab:tab2}
 \end{table} 
 
-\begin{equation} % requires amsmath; align* for no eq. number
-	proportion_f = \frac{366}{574} = 0.6376
-\end{equation}
-
-\begin{equation} % requires amsmath; align* for no eq. number
-	percent_f = \frac{366}{574} \times 100 = 63.76\%
-\end{equation}
+\begin{align*} % requires amsmath; align* for no eq. number
+	proportion_f &= \frac{366}{574} = 0.6376
+	percent_f    &= \frac{366}{574} \times 100 = 63.76\%
+\end{align*}
 
 \subsubsection{Interpretation}
  The percent  of women who think that voting is a very important responsibility of being a citizen is 63.76 percent.
