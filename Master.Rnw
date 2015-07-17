@@ -25,8 +25,9 @@ Reproduction or translation of any part of this work beyond that permitted by Se
 # 
 library(knitr)
 library(foreign)
-library(verbatim)
 library(xtable)
+
+## library(verbatim)
 
 
 # These options apply to all R chunks in the entire book.

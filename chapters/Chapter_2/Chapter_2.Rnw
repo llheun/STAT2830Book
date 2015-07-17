@@ -59,16 +59,16 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
 
 
 
-\begin{align*} 
-	$proportion_A &= \frac{10}{269} = 0.0372 $
-	$percent_A    &= \frac{10}{269} \times 100 = 3.72\% $
-	$proportion   &= \frac{f}{n} $
-	$percent(\%)  &= \frac{f}{n} \times 100\% $
-\end{align*}	
+
+	$proportion_A = \frac{10}{269} = 0.0372 $  \\
+	$percent_A    = \frac{10}{269} \times 100 = 3.72\% $  \\
+	$proportion   = \frac{f}{n} $  \\
+	$percent(\%)  = \frac{f}{n} \times 100\% $ 
+	
 
 \begin{itemize}
 \item where \emph{f} is the number of cases in a category
-\item and \emph{n} is the number of cases in all categories.
+and \emph{n} is the number of cases in all categories.
 \end{itemize}
 
 To summarize:
@@ -102,10 +102,10 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
    \label{tab:tab2}
 \end{table} 
 
-\begin{align*} 
-	$proportion_f &= \frac{366}{574} = 0.6376 $
-	$percent_f    &= \frac{366}{574} \times 100 = 63.76\% $
-\end{align*}
+ 
+	$proportion_f = \frac{366}{574} = 0.6376 $ \\
+	$percent_f    = \frac{366}{574} \times 100 = 63.76\% $
+
 
 \subsubsection{Interpretation}
  The percent  of women who think that voting is a very important responsibility of being a citizen is 63.76 percent.
