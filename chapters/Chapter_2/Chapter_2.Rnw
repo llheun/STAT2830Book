@@ -18,7 +18,7 @@ By the end of this material, you will be able to:
 
  \begin{figure}[htbp]
     \centering
-    \includegraphics[width="7cm"]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
+    \includegraphics[width=7cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV2}
  \end{figure}
