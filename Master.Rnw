@@ -26,7 +26,7 @@ Reproduction or translation of any part of this work beyond that permitted by Se
 library(knitr)
 library(foreign)
 library(xtable)
-library{verbatim}
+library(verbatim)
 
 # These options apply to all R chunks in the entire book.
 opts_chunk$set(
