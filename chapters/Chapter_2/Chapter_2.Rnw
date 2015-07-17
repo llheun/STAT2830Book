@@ -41,7 +41,6 @@ A sample of various court sentencing results were collected and the results are 
 %  rm(dt2_1)
 %  rm(Frequency)
 %  rm(t2_2)
-
 % @
 
 
@@ -345,7 +344,7 @@ Let's look at the frequency distribution tables for categorical data.
 Looking at the marital status from the GSS survey.
 
 
-<<msbar, echo=FALSE, fig.pos="h", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 f2_1 <- read.spss("data/GSS2014.sav")
 frq2_1 <- table(f2_1$marital)
 Percent <- frq2_1 * 100 / length(f2_1$marital)
@@ -367,7 +366,7 @@ rm(Percent)
 
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="h", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 pie( sort_ms)
 
@@ -428,7 +427,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 \subsection{Histogram}
 
 
-<<mshist, echo=FALSE, fig.pos="h", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
 YearsOfEducation <- f2_1$educ[f2_1$educ < 89]
 hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
@@ -451,7 +450,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \subsection{Boxplot}
 
-<<msboxplot, echo=FALSE, fig.pos="h", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
 boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
