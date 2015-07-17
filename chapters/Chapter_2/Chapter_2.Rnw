@@ -84,7 +84,7 @@ To summarize:
 \end{itemize}
 
 \subsubsection{GSS Example}
-The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year1500 adults are interviewed in their homes all across the country.  The subjects are are asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See tab:tab1), compute the proportion and percent of females who indicate that voting is a very important responsibility of being a citizen.
+The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are are asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See tab:tab1), compute the proportion and percent of females who indicate that voting is a very important responsibility of being a citizen.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
