@@ -35,7 +35,12 @@ tot2_1 <- sum(t2_1)
 Proportion <- Frequency / tot2_1 
 Percent    <- Proportion * 100
 t2_2       <- cbind( Frequency, Proportion, Percent )
-t2_2
+xtable(t2_2)
+rm(t2_1)
+rm(dt2_1)
+rm(Frequency)
+rm(t2_2)
+
 @
 
 %     &  \multicolumn{3}{c}{Statistic}  \\ 
@@ -322,7 +327,7 @@ Let's look at the frequency distribution tables for categorical data.
 Looking at the marital status from the GSS survey.
 
 
-<<msbar, echo=FALSE, fig.pos="H", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="h", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 f2_1 <- read.spss("data/GSS2014.sav")
 frq2_1 <- table(f2_1$marital)
 Percent <- frq2_1 * 100 / length(f2_1$marital)
