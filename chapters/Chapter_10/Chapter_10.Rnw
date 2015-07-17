@@ -1,0 +1,411 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Testing Equality of two or more  Proportions }
+\label{chap:ch10}
+
+\section{Objective}
+By the end of this material, you will be able to
+\begin{itemize}
+\item Identify and cite examples of when more than two-sample proportion is appropriate.
+\item Perform a test of hypothesis for more than two-sample  
+proportions following the 5-step process and interpret the results.
+\end{itemize}
+
+\section{Chi-square Test for Independence}
+
+The Chi-square is a test that compares two or more categories that are mutually exclusive.  It is a non-parametric test that compares proportions actually observed in a research study to the  expected proportions.  If the difference between the observed proportion and the expected proportion are similar, [$(P_1 - P_2) \sim 0$] then we would not expect a significant difference between the two proportions; however, as this difference becomes larger, the calculated Chi-square value also increases.  [These differences are equal to the sum of all the squares of deviations, [(observed counts minus expected counts) squared] divided by the expected counts.]
+The Chi-square becomes significant when it exceeds the value in the chi-square table.  We will examine this process shortly.   
+
+\subsection{Example 1}
+
+In a study of drug usage by students at a large university, data was obtained regarding hard liquor experience of smokers and non-smokers.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lcc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+     &  \multicolumn{2}{c}{Smoker} \\ \hline 
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Hard-Liquor Use & Yes & No \\ \hline
+     Never & 18 & 56 \\ 
+     Once or more & 23 & 15 \\ \hline
+     
+   \end{tabular}
+   \caption{Hard Liquor by Smoking}
+   \label{tab:c10_1}
+\end{table}
+
+In this study, the interest is whether or not liquor experience is independent of smoking.  A common perception of the researcher is that those who had hard-liquor are more likely to be smokers.
+
+Test if hard liquor use is independent of smoking at $\alpha = 0.05$.
+
+\begin{itemize}
+\item If there is association or dependence, then we would expect that more students who never had hard liquor are also non-smokers.  Also those who had hard-liquor are likely to be smokers.
+\item On the other hand, if there is no association or dependence, then we would expect the same proportion of students who are non-smokers and smokers.
+\item Note: hard-liquor use and smoking are the two variables and each variables has two categories or level.
+\end{itemize}
+
+Now let's consider the five-step model presented in Chapter 8.
+
+\begin{itemize}
+\item Step 1. Read the 2 x 2 contingency table carefully.
+\item Step 2. Stating the Hypotheses 
+
+\begin{center}
+\begin{tabular}{@{} ll @{}} 
+$H_0:$ &  The two variables are independent. \\
+$H_A:$ & The two variables are dependent.
+\end{tabular}
+\end{center}
+
+In the example.
+
+\begin{center}
+\begin{tabular}{@{} ll @{}} 
+$H_0:$ & Hard-liquor use and smoking are independent  \\
+$H_A:$ &  Hard-liquor use and smoking are dependent.
+\end{tabular}
+\end{center}
+ 
+Note: When \emph{independent}, then we expect the same proportion of smokers per group.  But if \emph{dependent}, the proportions will differ.
+
+\item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+
+\begin{tabular}{@{} rcl @{}}
+Sampling Distribution & = & $\chi^2$ distribution \\
+Alpha ($\alpha$) & = & 0.05 \\
+Degrees of Freedom & = & (\# of rows - 1)(\# of columns - 1) = (2 - 1)(2 - 1) = 1 \\
+CV & = & 3.8441 
+\end{tabular}
+
+\item Step 4.  Computing the Test Statistic.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+     &  \multicolumn{2}{c}{Smoker}  & \\ \hline 
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Hard-Liquor Use & Yes & No \\ \hline
+     Never & 18 (27.09)  & 56 (46.91)  \\ 
+     Once or more & 23 (13.91)  & 15 (24.09)  \\ \hline
+     
+   \end{tabular}
+   \caption{Observed Freq. ($f_o$) and Expected Freq. ($f_e$)  Note: numbers closed in parenthesis are expected frequencies.}
+   \label{tab:c10_2}
+\end{table}
+
+\begin{align*}
+f_e &= \frac{RowTotal \times ColumnTotal}{GrandTotal} \\
+\chi^2 &= sumOfAllCells  \frac{(f_o - f_e)^2}{f_e}  \\
+ &= \frac{(18 - 27.09)^2}{27.09} + \frac{(56 - 46.91)^2}{46.91} + \frac{(23 - 13.91)^2}{13.91}
++ \frac{(15 - 24.09)^2}{24.09} \\
+ &= 3.050 + 1.761 + 5.939 + 3.430 \\
+ &= 14.18 
+\end{align*}
+     
+We have provided a SPSS output of the Chi-square analysis.  Note the test statistic is the \emph{Pearson Chi-square Value}.    
+     
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=13cm]{zChisq3.png} % requires the graphicx package
+   \caption{Chi-square Analysis of the relationship between Smoker and Hard-liquor}
+   \label{fig:c10_3}
+\end{figure}   
+
+          
+
+\item Step 5.  Making a Decision and Interpreting the Results of the Test.
+	\begin{itemize}
+	\samepage
+	\item Since the $\chi^2$ (14.18) $>$ CV(3.841) and p-value (0.00) $< \alpha (0.05)$, reject the null hypothesis.
+	\samepage
+	\item Smoking and Hard-liquor use are dependent.
+	\end{itemize}
+	 
+\end{itemize}
+
+\subsection{Example 2}
+
+A random sample of 100 social work majors have been classified in terms of whether the Council on Social Work Education has accredited their undergraduate programs (the \emph{independent variable}) and whether they were hired in social work positions within three months of graduation (the \emph{dependent variable}).
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lcc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+     &  \multicolumn{2}{c}{Accredited } \\ \hline 
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Working as Social Worker  & No & Yes \\ \hline
+     No & 35 & 25 \\ 
+     Yes & 10 & 30 \\ \hline
+     
+   \end{tabular}
+   \caption{Employment Status}
+   \label{tab:c10_3}
+\end{table}
+
+
+From table 10.3, Can we conclude from these data at a 5 percent level of significance that the employment status is dependent on the Accreditation Status?
+
+\begin{itemize}
+\item If there is association or dependence, then we would expect that more accredited social worker working in their field.  Likewise, we would expect that more non-accredited social worker not working in their field.
+
+\item On the other hand, if there is no association, then we would expect that fewer accredited social worker working in their field.  Likewise, we would expect that more non-accredited social worker working in their field.
+
+\end{itemize}
+
+Now let's consider the five-step model presented in Chapter 8.
+
+\begin{itemize}
+\item Step 1. Read the 2 x 2 contingency table carefully.
+\item Step 2. Stating the Hypotheses 
+
+\begin{center}
+\begin{tabular}{@{} ll @{}} 
+$H_0:$ & Employment Status and Accreditation Status are independent  \\
+$H_A:$ &  Employment Status and Accreditation Status are dependent
+\end{tabular}
+\end{center}
+ 
+\item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+
+\begin{tabular}{@{} rcl @{}}
+Sampling Distribution & = & $\chi^2$ distribution \\
+Alpha ($\alpha$) & = & 0.05 \\
+Degrees of Freedom & = & (\# of rows - 1)(\# of columns - 1) = (2 - 1)(2 - 1) = 1 \\
+CV & = & 3.8441 
+\end{tabular}
+
+\item Step 4.  Computing the Test Statistic.
+
+\begin{minipage}[h]{6cm}
+% Requires the booktabs if the memoir class is not being used
+
+Table: Student graduated from an Accredited Program by Graduate Working as Social Worker. 
+
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{2.5cm} p{1cm} p{1cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+     &  \multicolumn{2}{c}{Accredited } \\ \hline 
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Working as Social Worker  & No & Yes \\ \hline
+     No & 35 & 25 \\ 
+     Yes & 10 & 30 \\ \hline
+     
+   \end{tabular}
+
+
+\end{minipage} \hfill
+\begin{minipage}[h]{6cm}
+
+There is another way to look at this data.  
+
+   \includegraphics[width=5.5cm]{zFig10_1.png} % requires the graphicx package
+   
+\end{minipage}
+
+We have provided a SPSS output of the Chi-square analysis.  Note: the test statistic is the \emph{Pearson Chi-square Value}. 
+     
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=12.5cm]{zChisq6.png} % requires the graphicx package
+   \caption{Chi-square Analysis of the relationship between Accredited and Employment Status}
+   \label{fig:c10_4}
+\end{figure}             
+
+\item Step 5.  Making a Decision and Interpreting the Results of the Test.
+	\begin{itemize}
+	\samepage
+	\item Since the $\chi^2$ (10.774) $>$ CV(3.841) and p-value (0.001) $< \alpha (0.05)$, reject the null hypothesis.
+	\samepage
+	\item Accredited Status  and Employment Status use are dependent.
+	\end{itemize}
+	 
+\end{itemize}
+
+\section{Chi-square Goodness-of-Fit Test}
+
+When you try to fit a statistical model to observed data, you may wonder how well the model actually reflects the data.  How ``close'' are the observed values to those which would be expected under the fitted model?  One statistical test that addresses this issue is the \emph{chi-square goodness of fit test}.
+
+\subsection{Example 1}
+
+The director of athletics at a local high school wonders if the sports program is getting a proportional amount of support from each of the four classes.  If there are roughly an equal number of students in each of the classes, what does the breakdown of attendance figures from a random sample of students in attendance at a recent basketball game suggest?
+
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+    
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Class & Count \\ \hline 
+     Freshman & 200 \\
+     Sophomore & 150 \\
+     Junior & 120 \\
+     Senior & 110 \\ \hline
+     
+   \end{tabular}
+   \caption{Attendance by Class}
+   \label{tab:c10_5}
+\end{table}
+
+Now let's consider the five-step model presented in Chapter 8.
+
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{1.5cm} p{1.5cm} p{2.5cm} p{2.5cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+    
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Class & Count  & Expected Frequencies & Chi-square components \\ \hline 
+     Freshman & 200 & $.25 \times 580 = 145$ & 20.8621  \\
+     Sophomore & 150 & $.25 \times 580 = 145$ & 0.1724 \\
+     Junior & 120 & $.25 \times 580 = 145$ & 4.3103  \\
+     Senior & 110 & $.25 \times 580 =145$  & 8.4483 \\ \hline
+     Total & 580 & &  $33.7931 = \chi^2$  \\ \hline 
+     
+   \end{tabular}
+   \caption{Attendance by Class}
+   \label{tab:c10_6}
+\end{table}
+
+\begin{itemize}
+\item Step 1. Read the table carefully
+\item Step 2. Stating the Hypotheses 
+
+\begin{center}
+\begin{tabular}{@{} ll @{}} 
+$H_0:$ & There is no difference in the attendance by Class.  \\
+$H_A:$ &  There is a difference in the attendance by Class. 
+\end{tabular}
+\end{center}
+ 
+\item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+
+\begin{tabular}{@{} rcl @{}}
+Sampling Distribution & = & $\chi^2$ distribution \\
+Alpha ($\alpha$) & = & 0.05 \\
+Degrees of Freedom & = & (\# of categoriies - 1) = (4 - 1) = 3 \\
+CV & = & 7.815
+\end{tabular}
+
+\item Step 4.  Computing the Test Statistic.
+
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{1.5cm} p{1.5cm} p{2.5cm} p{2.5cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     % \toprule
+    
+     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+     Class & Count  & Expected Frequencies & Chi-square components \\ \hline 
+     Freshman & 200 & $.25 \times 580 = 145$ & 20.8621  \\
+     Sophomore & 150 & $.25 \times 580 = 145$ & 0.1724 \\
+     Junior & 120 & $.25 \times 580 = 145$ & 4.3103  \\
+     Senior & 110 & $.25 \times 580 = 145$ & 8.4483 \\ \hline
+     Total & 580 & &  $33.7931 = \chi^2 $  \\ \hline 
+     
+   \end{tabular}
+   \caption{Attendance by Class}
+   \label{tab:c10_6}
+\end{table}
+
+
+     
+         
+
+\item Step 5.  Making a Decision and Interpreting the Results of the Test.
+	\begin{itemize}
+	\samepage
+	\item Since the $\chi^2$ (33.79) $>$ CV(3.815) and p-value (0.000) $< \alpha (0.05)$, reject the null hypothesis.
+	\samepage
+	\item There is a difference in the support for the basketball team by class with 95 percent confidence.
+	\end{itemize}
+	 
+\end{itemize}
+
+\section{Key Words}
+\begin{itemize}
+\item Bivariate table
+\item Cells
+\item Chi-square (critical value) $\chi^2$
+\item Chi-square (observed value) $\chi^2$
+\item Chi-square test $\chi^2$
+\item Columns
+\item Expected counts
+\item Goodness-of-fit test
+\item Independence
+\item Marginals
+\item Non-paraparametric
+\item Observed counts
+\item Row
+\end{itemize} 
+
+
+\newpage
+\section{Exercises}
+
+\begin{enumerate}
+\item At a small liberal arts college, about 45 percent of the students live on-campus in dormitories while 55 percent of the students live off-campus.  College administrators often ask, is academic performance associated with living arrangements?  The results based on a random sample  of 100 students in the following table. 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     
+    &  \multicolumn{2}{c}{Campus Residence} \\
+     %  \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+    GPA & Off  & On & Total  \\ \hline
+    Low & 14 & 16 & 30 \\
+    Moderate & 27 & 18 & 45 \\
+    High & 12 & 13 & 25 \\ \hline
+    Total & 53 & 47 & 100 \\ \hline
+    
+   \end{tabular}
+   \caption{Residence Status and Academic Performance}
+   \label{tab:c10_7}
+\end{table}
+	\begin{enumerate}
+	\item Is there a significant relationship between residence status and academic performance.
+	\item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is more likely to have a high GPA?
+	\end{enumerate}
+
+\item A local  city has outsourced some of its planning function.  The contractor has built a database that describes the neighborhoods in the city and has developed a model so that each area can be rated for the ``quality of life'' such as noise, open spaces, walkable area, etc.   She has surveyed a random sample of these areas about their level of satisfaction with their  neighborhoods.  Does the results of the survey agree with the contractor's objective ratings of quality with the respondents' self-reports of satisfaction?
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     
+    &  \multicolumn{3}{c}{Quality of Life} \\
+     %  \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+    Satisfaction & Low  & Moderate & High  \\ \hline
+    Low & 13 & 9 & 5 \\
+    Moderate & 8 & 16 & 13 \\
+    High & 5 & 11 & 20 \\ \hline
+     
+   \end{tabular}
+   \caption{Residence Status and Academic Performance}
+   \label{tab:c10_8}
+\end{table}
+
+	\begin{enumerate}
+	\item Is there a significant relationship between satisfaction and quality of life.
+	\item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is most likely to say their satisfaction is high?
+	\end{enumerate}	
+
+  	
+\end{enumerate}
+	

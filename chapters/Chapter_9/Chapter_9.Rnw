@@ -1,0 +1,580 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Testing Two Sample Hypotheses }
+\label{chap:ch9}
+
+\section{Objective}
+By the end of this material, you will be able to
+\begin{itemize}
+\item Identify and cite examples of when a two-sample test is appropriate.
+\item Explain an independent random sample.
+\item Perform a test of hypothesis for two-sample means or two-sample 
+proportions following the 5-step process and interpret the results.
+\item Effect Size
+\end{itemize}
+
+\section{One Sample Case vs. Two Sample Case}
+
+There are two important differences between the one-sample case considered in the last chapter and the two-sample case situation.
+
+\begin{enumerate}
+\item The one-sample case required that a single random sample was selected while the two-sample case requires that two independent random samples are selected.
+	\begin{itemize}
+	\item selecting samples from one of the samples will not affect the probabilities in selecting samples for the other case.
+	\end{itemize}
+\item The second difference is the construction of the null and alternate hypotheses.
+	\begin{itemize}
+	\item Instead of comparing the results against a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
+	\end{itemize}
+\end{enumerate}
+		
+\section{Hypothesis Testing on Two Sample Means}
+
+\subsection{Example 1}
+
+Although self-concept in a recent study was measured on a scale with values ranging from 20 to 80, many  researchers in this field prefer to think of this kind of variable as having only two possible values: low self-concept or high self-concept.  We will define those with scores at or below the median to be low self-concept students and those with scores above the median to be high self-concept students.  Do high self-concept students have grade point averages (GPA) that are different from low self-concept students.
+% i.e., $H_0: \mu_1 = \mu_2$ vs. $H_A: \mu_1 \neq \mu_2$?  
+Let's use SPSS to test this hypothesis.  Let ``1'' represent low self-concept students and ``2'' represent high self-concept students.  When reviewing the histogram and the boxplot, it appears that there maybe two populations.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{0.7cm} p{2.2cm} p{1cm} p{1.5cm} p{1.5cm} p{1.5cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+      \multicolumn{6}{c}{Group Statistics} \\ \hline
+             &  Self-concept & N & Mean & Std.Dev & Std.Error   \\ \hline
+     GPA &  Low(1) & 39 & 6.42 & 2.22 & 0.356 \\
+                                &   High(2)  & 39 & 8.47 & 1.36 & 0.217 \\ \hline 
+                                
+   \end{tabular}
+   \caption{Descriptive Statistics of GPA and Self Concept.}
+   \label{tab:c9_1}
+\end{table}
+
+
+Looking at GPA of students with both low self-concept and high self-concept, 
+% it appears that we may have two different populations.  
+is there evidence that the data is a mixture (potentially of two distinct populations).
+
+\begin{minipage}[h]{6.5cm}
+
+   \includegraphics[width=6cm]{z9_1.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[h]{6.5cm}
+
+   \includegraphics[width=6cm]{z9_2.png} % requires the graphicx package
+
+\end{minipage} 
+
+\begin{itemize}
+\samepage
+\item Let's look at the GPA confidence intervals. 
+	\begin{itemize}
+	\samepage
+	\item 95 percent confidence interval for the population mean GPA of low self-concept students: (5.7, 7.1).
+	\samepage
+	\item 95 percent confidence interval for the population mean GPA of high self-concept students: (8.0, 8.9).
+	\samepage
+	\item After reviewing the two intervals, we notice that the two intervals do not over lap.  
+	\end{itemize}
+\samepage
+\item Next, we want to evaluate the hypothesis.  Is there evidence that a difference between  the GPA of  low self-concept students and high self-concept students at 5 percent significance level?  To answer this, do  hypotheses testing on the two-sample means.  Use the five-step model presented in Chapter 8.
+
+	\begin{enumerate}
+	\item Identify from the scenario that this problem is about the two-sample means of GPA and the two levels of self-concept.
+	\samepage
+	\item Formulate the null hypothesis:
+		\begin{itemize}
+		\item $H_0: \mu_l = \mu_h$
+		\item where \emph{l} indicates low self-concept students and \emph{h} indicates high self-concept students.
+		\end{itemize}
+	\samepage
+	\item Formulate the alternative hypothesis.  Since we have evidence that high self-concept students have a higher GPA than low self-concept (see graphs), we will perform a two-tailed test of low self-concept GPA is different from high self-concept GPA, i.e., ($\bar{X_l} - \bar{X_h}$). 
+		\begin{itemize}
+		\item $H_A: \mu_l \neq \mu_h$
+		\end{itemize}
+	
+	\newpage
+	\item Computing the test statistic:
+		\begin{itemize}
+		\samepage
+		\item As we learned from the previous chapter, the test statistic is determined by
+		\begin{equation}
+		test Statistic = \frac{pointEstimate - hypothesizedValue}{SE} \nonumber
+		\end{equation} 
+		
+		\samepage
+		\item where the $point Estimate = \bar{X_1} - \bar{X_2}$ 
+		and  \\ the $hypothesized Value = \mu_1 - \mu_2 = 0$ from the null hypothesis.
+		and  \\ the $SE = \sqrt{SE_1^2 + SE_2^2}$
+		\samepage
+		
+		\item Let's start with a modified SPSS table that shows the test statistic, etc. 
+		
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{0.7cm} p{2.2cm} p{1.2cm} p{1.2cm} p{1.3cm} p{1.8cm} p{1.8cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+     & &  \multicolumn{5}{c}{t-test for Equality of Means} \\ \hline
+         &    &  t & df & Sig. (2-tailed) & Mean Diff. & Std. Error Diff.   \\ \hline
+     GPA & Eq.Var.  & -4.923 & 76 & 0.0 & -2.051538 & 0.416718 \\
+                            & Not Eq.Var.    &  -4.923  & 62.929 & 0.0 & -2.051538 & 0.416718  \\ \hline 
+                                
+   \end{tabular}
+   \caption{Independent Samples Test.}
+   \label{tab:c9_2}
+\end{table}
+
+		
+		\samepage
+		\item Now let's consider the information in table 9.2.  We notice that there are two rows
+			\begin{itemize}
+			\item EqVar means the variances of both independent groups are the same.
+			\item Not Eq.Var. means the ratio of the larger variance divided by the smaller variance is greater than two.
+			\item We will use the Not Eq.Var row since the ratio of the two variances is greater than two.
+			\end{itemize}
+				
+		\samepage
+		\item The test statistic $t = \frac{Mean Diff.}{SE} = \frac{-2.051538}{0.416718} = -4.923$   
+		\samepage
+		\item Sampling Distribution and Rejection Region \\
+		Sampling distribution: student t distribution (two-tailed), $\alpha = 0.05$ \\
+		Degrees of freedom (\emph{df}) is 62.929 from table 9.2 \\
+		$CV = -1.998$ 
+		\samepage
+		\item Since $| t | = | -4.923 | > | CV | = | -1.998 |$,we reject the null hypothesis.
+		\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, $-2.05$, important on a 10 point scale.  Since this is a drop of 20 percent, we can say that the difference is meaningful.
+		
+		\end{itemize}
+	\item Conclusion in non-statistical language. \\
+	We can conclude with 95 percent confidence that the GPA of students with high self-concept is different than the GPA of students with low self-concept.
+	
+	\item Examination of Type I and Type II Errors.
+		\begin{itemize} 
+		\item Since we rejected the null hypothesis that there ``is no difference between the two means'' we may have committed a Type I error, or 
+		\item Concluding that the GPA of students with high self-concept is different than the GPA of students with low self-concept when there is no difference.
+		\item If we had failed to reject the null hypothesis, we may have committed a Type II error, or 
+		\item Failing to conclude to reject that the GPA of students with high self-concept is different than the GPA of students with low self-concept when in fact it is true.
+		\end{itemize}
+		
+	\end{enumerate}	
+		
+\end{itemize}
+
+\subsection{Example 2}
+
+Are college students who live on campus more involved in campus life than students who commute to campus?
+
+The following data report the average number of hours per week students devote to extracurricular activities.  Is the difference between these randomly selected samples of commuter and residential students significant?
+
+When reviewing the histogram and the boxplot, it appears that there maybe two populations.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{4.3cm} p{2.2cm} p{1cm} p{1.5cm} p{1.5cm} p{1.5cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+      \multicolumn{6}{c}{Group Statistics} \\ \hline
+             &  Residence & N & Mean & Std.Dev & Std.Error   \\ \hline
+     extracurrilcular activities &  Off & 157 & 12.0 & 2.00 & 0.159 \\
+                                &   On  & 174 & 10.2 & 1.95 & 0.148 \\ \hline 
+                                
+   \end{tabular}
+   \caption{Descriptive Statistics of extracurricular activities.}
+   \label{tab:c9_2}
+\end{table}
+
+
+If we look at hours of students that either reside on or  off campus,
+ is there evidence that the data is a mixture (potentially of two distinct populations).
+
+\begin{minipage}[h]{6.5cm}
+
+   \includegraphics[width=6cm]{zActHist.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[h]{6.5cm}
+
+   \includegraphics[width=6cm]{zActBP.png} % requires the graphicx package
+
+\end{minipage} 
+
+\begin{itemize}
+\samepage
+\item Let's look at the hours confidence intervals. 
+	\begin{itemize}
+	\samepage
+	\item 95 percent confidence interval for the population mean Hours of  students who reside on campus: (9.86, 10.44).
+	\samepage
+	\item 95 percent confidence interval for the population mean Hours of  students who reside off campus: (11.67, 12.30).
+	\samepage
+	\item After reviewing the two intervals, we notice that the two intervals do not over lap.  
+	\end{itemize}
+\samepage
+\item Next, we want to evaluate the hypothesis.  Is there evidence that a difference between  the extracurricular Hours and two levels of where students reside (on or off campus)?  To answer this, do  hypotheses testing on the two-sample means.  Use the five-step model presented in Chapter 8.
+
+	\begin{enumerate}
+	\item Identify from the scenario that this problem is about the two-sample means of extracurricular Hours and the two levels of where students reside.
+	\samepage
+	\item Formulate the null hypothesis:
+		\begin{itemize}
+		\item $H_0: \mu_{off} = \mu_{on}$
+		
+		\end{itemize}
+	\samepage
+	\item Formulate the alternative hypothesis.  Since we have visual evidence that the students who reside off-campus spend more hours on extracurricular activities than the students who reside on-campus, i.e., ($\bar{X_{off}} - \bar{X_{on}}$). 
+		\begin{itemize}
+		\item $H_A: \mu_{off} \neq \mu_{on}$
+		\end{itemize}
+	
+	\newpage
+	\item Computing the test statistic:
+		\begin{itemize}
+		\samepage
+		\item As we learned from the previous chapter, the test statistic is determined by
+		\begin{equation}
+		test Statistic = \frac{pointEstimate - hypothesizedValue}{SE} \nonumber
+		\end{equation} 
+		
+		\samepage
+		\item where the $point Estimate = \bar{X_1} - \bar{X_2}$ 
+		and  \\ the $hypothesized Value = \mu_1 - \mu_2 = 0$ from the null hypothesis.
+		and  \\ the $SE = \sqrt{SE_1^2 + SE_2^2}$
+		\samepage
+		
+		\item Let's start with a modified SPSS table that shows the test statistic, etc. 
+		
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{3.4cm} p{2.1cm} p{1.0cm} p{1.2cm} p{1.3cm} p{1.8cm} p{1.8cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+     & &  \multicolumn{5}{c}{t-test for Equality of Means} \\ \hline
+         &    &  t & df & Sig. (2-tailed) & Mean Diff. & Std. Error Diff.   \\ \hline
+   extracurr. activities & Eq.Var.  & 8.491 & 329 & 0.0 & 1.84 & 0.2167 \\
+                            & Not Eq.Var.    &  8.481  & 323.887 & 0.0 & 1.84 & 0.2169  \\ \hline 
+                                
+   \end{tabular}
+   \caption{Independent Samples Test.}
+   \label{tab:c9_4}
+\end{table}
+
+		
+		\samepage
+		\item Now let's consider the information in table 9.4.  We notice that there are two rows
+			\begin{itemize}
+			\item EqVar means the variances of both independent groups are the same.
+			\item Not Eq.Var. means the ratio of the larger variance divided by the smaller variance is greater than two.
+			\item We will use the Eq.Var row since the ratio of the two variances is less than than two.
+			\end{itemize}
+				
+		\samepage
+		\item The test statistic $t = \frac{Mean Diff.}{SE} = \frac{1.84}{0.2167} = 8.491$   
+		\samepage
+		\item Sampling Distribution and Rejection Region \\
+		Sampling distribution: student t distribution (two-tailed), $\alpha = 0.05$ \\
+		Degrees of freedom (\emph{df}) is 329 from table 9.4 \\
+		$CV = 1.96$ 
+		\samepage
+		\item Since $| t | = | 8.491 | > | CV | = | 1.96 |$,we reject the null hypothesis.
+		\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, $1.84$, important. 
+		
+		\end{itemize}
+	\item Conclusion in non-statistical language. \\
+	We can conclude with 95 percent confidence that extracurricular hours of students who reside either on-campus or off-campus. 
+	
+	
+	\item Examination of Type I and Type II Errors.
+		\begin{itemize} 
+		\item Since we rejected the null hypothesis that there ``is no difference between the two means'' we may have committed a Type I error, or 
+		\item Concluding that there is a difference between the involvement of students who live on campus versus those who commute when there is no difference.
+		
+		\item If we had failed to reject the null hypothesis, we may have committed a Type II error, or 
+		\item Failing to conclude that there is a difference between the involvement of students who live on campus versus those who commute when there is a difference.
+		
+		\end{itemize}
+		
+	\end{enumerate}	
+		
+\end{itemize}
+
+
+
+
+
+\section{Hypothesis Testing on Two Sample Proportions}
+
+
+Again, we note the two important differences between the one-sample case considered in the last chapter and the two-sample case:
+
+\begin{enumerate}
+\item The one-sample case requires that a single random sample is selected while the two-sample case requires the two independent random samples are selected.
+	\begin{itemize}
+	\item this means that selecting samples from one of the sample will not affect the probabilities in selecting samples for the other case.
+	\end{itemize}
+\item The second difference is in the construction of the null and alternate hypotheses"
+	\begin{itemize}
+	\item Instead of comparing the results against a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
+	\end{itemize}
+\end{enumerate}
+
+\subsection{Example 1}
+
+One program is designed for divorce counseling.  The key feature of the program is its counselors who are married couples working in teams.  About half of all clients have been randomly assigned to this special program and half to the regular program.
+
+\begin{itemize}
+\item The results for random samples of couples from both programs are reported here.  In terms of preventing divorce, did the program work?
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      &  \multicolumn{2}{c}{Program} \\ \hline  
+     Divorce &  Special & Regular \\ \hline 
+      No  & 41 & 48 \\
+      Yes & 37 & 34 \\ \hline
+      Sample Size & 78 & 82 \\ \hline
+   \end{tabular}
+   \caption{Table of Type of Program vs. Divorce Status.}
+   \label{tab:c9_5}
+\end{table}
+\end{itemize}
+
+Did the program work?  (Or at five percent level of significance, is the proportion of divorces of clients on special program significantly lower than the proportion of divorces of clients on the regular program?)
+
+\begin{enumerate}
+\item Identify from the research, what is being compared.  In the scenario, we want to compare two proportions -- special or regular program.
+\item Formulate the null hypothesis.
+	\begin{itemize}
+	\item $H_0: P_s = P_r$
+	\end{itemize}
+\item Formulate the alternate hypothesis: \\
+Since the question asks if the program worked (divorce rate decreased), we will perform a one-tailed test.
+	\begin{itemize}
+	\item $H_A: P_s < P_r$
+	\end{itemize}
+\item Calculating the Test Statistic:
+
+\begin{align*}
+	P_{1s} &= \frac{f_1}{n_1} = \frac{41}{78} = 0.5256 \\
+	P_{2s} &= \frac{f_2}{n_2} = \frac{48}{82} = 0.5854 \\
+	P_p &= \frac{f_1 + f_2}{n_1 + n_2} = \frac{41 + 48}{78 + 82} = 0.5563
+\end{align*}
+
+\begin{align*}
+	SE &= \sqrt{ \frac{ P_p (1 - P_p)}{n_1} + \frac{ P_p (1 - P_p)}{n_2}} \\
+	      &= \sqrt{ \frac{ .5563 (1 - .5563)}{78} + \frac{ .5563 (1 - .5563)}{82}} \\
+	      &= 0.0786
+\end{align*}
+
+\begin{equation}
+Z = \frac{P_{1s} - P_{2s}}{SE} = \frac{.5256 - .5854}{0.0786} = -0.76
+\end{equation}
+
+\begin{center}
+   \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+       \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
+       Sample & X & N & Sample p \\ \hline
+       1 & 41 & 78 & 0.525641 \\
+       2 & 48 & 82 & 0.585266 \\                                
+   \end{tabular} \\
+   \begin{tabular}{@{} l @{}} 
+   Difference = p(1) - p(2) \\
+   Estimate for difference: -0.0597248 \\
+   95\% upper bound for difference: 0.0693371 \\
+   Test for difference = 0 (vs $< 0$: Z = -0.76 P-Value = 0.224 \\ \hline
+   \end{tabular}
+  \end{center} 
+     
+\item Making the decision at the 5 percent level of significance.  \\
+Since $Z = -0.76 > -1.645$ and p-value = 0.224 $> 0.05$, we failed to reject the null hypothesis.  \\
+Again, the researcher must ask is the effect size $-0.0597$ important.
+\item Conclusion in non-statistical language.  There is not enough evidence to conclude that  the special program is more effective than the regular program in preventing divorce with 95 percent confidence. 
+
+\item Examination of Type I and Type II errors:
+	\begin{itemize}
+	\item If we had rejected the null hypothesis that there ``is no difference between the two proportions'' we may have committed a type I error, or 
+	\item Concluding that the special program is  more effective than the regular program in preventing divorce when the truth is, it is not.
+	\item Since we had failed to reject the null hypothesis, we may have committed a type II error, or 
+	\item Failing to conclude that the special program is more effective than the regular program in preventing divorce when the truth is, it is more effective.
+	\end{itemize}
+
+\end{enumerate}
+	
+\subsection{Example 2}
+
+The agency is also experimenting with a peer counseling for depressed children.  A random sample of children from the experimental and regular counseling programs was selected.
+
+\begin{itemize}
+\item The results of the number of children who were judged to be ``much improved'' are shown below.  Is the new program more effective?
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      &  \multicolumn{2}{c}{Counseling} \\ \hline  
+     Improved &  Peer & Regular \\ \hline 
+      Yes  & 13 & 7 \\
+      No & 39 & 49 \\ \hline
+      Sample Size & 52 & 56 \\ \hline
+   \end{tabular}
+   \caption{Table of Type of Counseling vs. Improvement Status.}
+   \label{tab:c9_6}
+\end{table}
+\end{itemize}
+
+Is the new program more effective?  To answer this,  hypotheses testing on two sample proportions must be done.
+
+\begin{enumerate}
+\item Identify from the research, what is being compared.  In the scenario, we want to compare two proportions -- special or regular counseling.
+\item Formulate the null hypothesis.
+	\begin{itemize}
+	\item $H_0: P_p = P_r$
+	\item p = peer and r = regular
+	\end{itemize}
+\item Formulate the alternate hypothesis: \\
+Since the question asks if the new program is more effective,  we will perform a one-tailed test (much-improved rate increased) test.
+	\begin{itemize}
+	\item $H_A: P_p > P_r$
+	\end{itemize}
+\item Calculating the Test Statistic:
+
+\begin{center}
+   \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+       \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
+       Sample & X & N & Sample p \\ \hline
+       1 & 13 & 52 & 0.250000 \\
+       2 & 7 & 56 & 0.125000 \\                                
+   \end{tabular} \\
+   \begin{tabular}{@{} l @{}} 
+   Difference = p(1) - p(2) \\
+   Estimate for difference: 0.125  \\
+   95\% upper bound for difference: 0.247637 \\
+   Test for difference = 0 (vs $> 0$: Z = 1.67 P-Value = 0.0474 \\ \hline
+   \end{tabular}
+  \end{center} 
+     
+\item Making the decision at the 5 percent level of significance.  \\
+Since $Z = 1.67 > 1.645$ and p-value = 0.047 $< 0.05$, we reject the null hypothesis.  \\
+Again, the researcher must ask is the effect size $0.125$ important.
+\item Conclusion in non-statistical language.  Thus, the peer program is more effective than the regular program in program in improving depression with 95 percent confidence.
+
+\item Examination of Type I and Type II errors:
+	\begin{itemize}
+	\item Since we had rejected the null hypothesis that there ``is no difference between the two proportions'' we may have committed a type I error, or 
+	\item Concluding that the peer  program is  more effective than the regular program in improving depression when in, it's not.
+	\item If we had failed to reject the null hypothesis, we may have committed a type II error, or 
+	\item Failing to conclude that the peer program is more effective than the regular program in 
+	improving depression when the truth is, it is more effective.
+	\end{itemize}
+
+\end{enumerate}
+
+
+\section{Key Words}
+
+\begin{itemize}
+\item Independent random samples
+\item Pooled estimate
+\item $\sigma_{p-p^*}$
+\item $\sigma_{\bar{x} - \bar{x}^*}$
+\end{itemize}
+
+\newpage 
+
+\section{Exercises}
+\begin{enumerate}
+\item Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What are the hypotheses for this question?
+	\begin{enumerate}
+	\item $H_0: \mu_1 = \mu_2$ vs. $H_A: \mu_1 < \mu_2$
+	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
+	\item $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 > \mu_2$
+	\item $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 \neq \mu_2$
+	\item $H_0: \mu_1 <\mu_2$ vs. $H_0: \mu_1 > \mu_2$
+	\end{enumerate}
+	
+\item Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What 
+is the sampling distribution and critical value at the 90 percent confidence level?
+	\begin{enumerate}
+	\item Standard Normal (Z) distribution, $CV = \pm1.645$
+	\item Standard Normal (Z) distribution, $CV = \pm1.96$
+	\item Student's $t$ distribution, $CV = \pm2.2281$
+	\item Student's $t$ distribution, $CV = \pm1.8125$
+	\item Cannot be determined with the information provided.
+	\end{enumerate}
+
+\item Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. 
+(Hint: remember that the degrees of freedom is $df = n_1 + n_2 - 2$).
+
+% Requires the booktabs if the memoir class is not being used
+
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p{1.5cm} p{2.1cm} p{1.0cm} p{1.2cm} p{1.3cm} p{1.8cm} p{1.8cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+     & &  \multicolumn{5}{c}{t-test for Equality of Means} \\ \hline
+         &    &  t & df & Sig. (2-tailed) & Mean Diff. & Std. Error Diff.   \\ \hline
+   Crashes & Eq.Var.  & -1.66 & 10 & 0.1242 & -3.33 & 2.006 \\
+                            & Not Eq.Var.    &  -1.68  & 9.94 & 0.1244 & -3.33 & 1.984 \\ \hline                               
+   \end{tabular}
+
+Given the computer output, what would you conclude with 95 percent confident?
+
+	\begin{enumerate}
+	\samepage
+	\item Conclude there is a difference.
+	\samepage
+	\item Conclude there is no  difference.
+	\samepage
+	\item The sample size was too small to conclude anything.
+	\samepage
+	\item There is too much variation here to conclude anything.
+	\samepage
+	\item Conclude that you should not get into a car on  Friday's.
+	\end{enumerate}
+
+\item A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What are the hypotheses for this question?
+	\begin{enumerate}
+	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 \neq P_2$
+	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
+	\item $H_0: P_1 < P_2$ vs. $H_A: P_1 = P_2$
+	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 > P_2$	
+	\item $H_0: P_1 < P_2$ vs. $H_A: P_1 > P_2$
+	\end{enumerate}
+
+\item A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What is the sampling distribution and critical value?
+	\begin{enumerate}
+	\item Standard Normal (z) distribution, $Z = \pm1.96$.
+	\item Standard Normal (z) distribution, $Z = \pm1.645$.
+	\item Student's t distribution, $T = \pm1.9632$.
+	\item Student's t distribution, $T = +1.6469$
+	\item Cannot be determined with the information provided
+	\end{enumerate}
+
+\item A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ 
+Given the computer output, 
+what would you conclude with 95 percent confidence?
+
+
+   \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+       \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
+       Sample & X & N & Sample p \\ \hline
+       1 & 347 & 386 & 0.898964 \\
+       2 & 305 & 359 & 0.849582 \\                                
+   \end{tabular} \\
+   \begin{tabular}{@{} l @{}} 
+   Difference = p(1) - p(2) \\
+   Estimate for difference: -0.0493816 \\
+   95\% CI for difference: (0.00172287. 0.0970402)  \\
+   Test for difference = 0 (vs not $= 0$: Z = 2.04 P-Value = 0.042 \\ \hline
+   \end{tabular}
+	\begin{enumerate}
+	\item Conclude that there is a difference.
+	\item Conclude that there is no difference.
+	\item Conclude that there is no morality left in marriage.
+	\item There is too much variation here to conclude anything.
+	\item Conclude that both men and women are immoral.
+	\end{enumerate}
+		
+\end{enumerate}
+	

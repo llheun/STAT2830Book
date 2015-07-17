@@ -1,0 +1,462 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Estimation }
+\label{chap:ch7}
+
+\section{Objective}
+By the end of this material, you will be able to
+\begin{itemize}
+\item Explain the logic of estimation and the role of the sample, sampling 
+distribution and the population.
+\item Construct and interpret confidence intervals for sample means and sample proportions.
+\item Explain the relationships between confidence levels, sample size, and the width 
+of the confidence interval.
+\end{itemize}
+
+\section{Calculating Confidence Interval for Population Mean}
+
+\subsection{Point Estimates}
+
+A {\bf{point estimate}} is a single value (or point) used to approximate a population parameter.  Referring back to the years on current job, we had an estimated value of 8.4 years.  Now let's look at some definitions.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lll @{}}  \hline % Column formatting, @{} suppresses leading/trailing space
+   Statistic & Sample Estimator & Population Parameter \\ \hline
+   mean & $\bar{X} = \frac{sumX}{n}$ & $\mu = \frac{sumX}{N} $ \\
+   variance & $s^2 = \frac{sumSqdDiff}{n - 1}$ & $\sigma^2 = \frac{sumSqdDiff}{N}$ \\
+   standard deviation & $s = \sqrt{s^2}$ & $\sigma = \sqrt{ \sigma^2}$ \\
+   proportion & $P_s = \frac{f_s}{n_s} $ & $P_u = \frac{f_u}{n_u} $ \\ \hline
+   \end{tabular}
+   \caption{Definitions of various statistics}
+   \label{tab:s7_1}
+\end{table} 
+
+\subsection{Interval Estimates}
+
+The {\bf{Interval Estimate}} or {\bf{Confidence Interval}} is a range of values to estimate the true value or a population parameter.  A confidence interval is sometimes abbreviated as {\bf{CI}}.
+
+Let's consider an example by computing a confidence interval for a population mean.  A random sample of 16 females were taken and their IQ scores were measured.  Construct a 95 percent confidence interval for the mean female IQ scores.  The following table has the individual values.
+
+
+
+%\begin{minipage}[t]{5.5cm}
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | cccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   96 & 105 & 110 & 105 \\
+   117 & 109 & 93 & 107 \\
+   92 & 95 & 99 & 114 \\
+   89 & 108 & 99 & 98 \\ \hline 
+   \end{tabular}
+
+   \caption{Sample of Female IQ Scores.}
+   \label{tab:s7_2}
+\end{table}
+
+%\end{minipage} \hfill
+%\begin{minipage}[t]{7.5cm}
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | cccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   Subject ID & IQ Scores & Dev. & Sqd Dev. \\ \hline
+   1 & 96 & -6.25 & 39.06 \\
+   2 & 117 &14.75 & 217.56 \\
+   .  & . & . & . \\	
+   .  & . & . & . \\	
+   15 & 114 & 11.75 & 138.06 \\
+   16 & 98 & -4.25 & 18.06 \\ \hline 
+   Total & 1636 & 0 & 1029 \\ \hline
+    
+   \end{tabular}
+
+   \caption{Summary Table of Female IQ Scores.}
+   \label{tab:s7_3}
+\end{table}
+
+%\end{minipage}
+
+
+
+\begin{enumerate}
+\item Identify the {\bf{population parameter}} of interest.
+	\begin{itemize} 
+	\item The population parameter of interest is the mean of female IQ scores.
+	\end{itemize}
+\item Calculation the {\bf{point estimate}}.
+	\begin{itemize}
+	\item $ \bar{X} = \frac{96 + 117 + 92 + \cdot + 107 + 114 + 98}{ 16 } = \frac{1636}{16} = 102.25$
+	\end{itemize}
+\item Calculate the {\bf{Standard Error}} of the estimate.
+	\begin{itemize}
+	\item If the population standard deviation, $\sigma$, is given, then $SE = \frac{\sigma}{\sqrt{n}}$.
+	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation,
+	$s$, is calculated (or given), then $SE = \frac{s}{\sqrt{n}}$.
+	\item $n$ is the sample size.
+	\end{itemize}
+\item Using the data from table 7.3, the variance is \\
+$s^2 = \frac{1029}{16 - 1} = 68.6.$
+\item The standard deviation is \\
+$s = \sqrt{s^2} = \sqrt{68.6} = 8.28$.
+\item The standard error of the mean, SE, is \\
+$SE = \frac{s}{\sqrt{n}} = \frac{8.28}{\sqrt{16}} = 2.07$
+
+\item To complete the process of computing a confidence interval, we need the {\bf{Critical Value (CV)}}.
+	\begin{itemize}
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{Z Table}} to find the CV.
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{s}{\sqrt{n}}$, we should use the {\bf{t-distribution Table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the significance value from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must for the values tabulated under two-sided tests. \\ 
+$df = n - 1 = 16 - 1 = 15$ \\
+significance value = $\alpha = 1 - 0.95 = 0.05$
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      
+     & \multicolumn{5}{c}{Significance Level for one-tailed tests} \\ \hline
+     & ,1 & .05 & 0.025 & .01 & .005 \\ \hline 
+          & \multicolumn{5}{c}{Significance Level for two-tailed tests} \\ \hline
+  $df$  & .2 & .1 & 0.05 & .025 & .01 \\ \hline 
+  14 & 1.345 & 1.761 & 2.145 & 2.624 & 2.977 \\
+  15 & 1.341 & 1.753 & 2.131 & 2.602 & 2.947 \\
+  16 & 1.337 & 1.746 & 2.120 & 2.583 & 2.921 \\ \hline
+  
+   \end{tabular}
+   \caption{Distribution of $t$}
+   \label{tab:s7_4}
+\end{table}
+
+\item Using the t-table, we find the CV = 2.131
+	\end{itemize}
+	
+\item Calculate the {\bf{Margin of Error (ME)}}.	
+	\begin{itemize}
+	\item $ME = CV \times SE = 2.131 \times 2.07 = 4.41 $
+	\end{itemize}
+\item Calculate the {\bf{confidence interval (CI)}}. CI: ($\bar{X} - ME, \bar{X} + ME$)
+
+\begin{align*}
+(\bar{X} - ME &, \bar{X} + ME) \\
+(102.25 - 4.41 &, 102.25 + 4.41) \\
+(97.84 &, 106.66)
+\end{align*}
+
+\item Thus, we are 95 percent confident that the true average female IQ score is between 97.84 and 106.66 IQ units.
+			
+\end{enumerate}
+
+\subsubsection{Steps for calculating CI for population mean, $\mu$.}
+ 
+So let's examine the steps for calculating the confidence interval for the population mean ($\mu$).
+
+\begin{enumerate}
+\item Identify from the research question that we need to calculate a confidence interval for $\mu$.
+\item Calculate the point estimate: sample mean, $\bar{X}$.
+\item Calculate the {\bf{Standard Error}} of the estimate.
+	\begin{itemize} 
+	\item If the population standard deviation, $\sigma$, is given, then $SE = \frac{\sigma}{\sqrt{n}}$.  Note: this value is usually not known.
+	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation, $s$, is calculated (or given), then $SE = \frac{s}{\sqrt{n}}$, where $n$ is the sample size.
+	\end{itemize}
+
+\item Determine the Critical Value (CV).
+	\begin{itemize}
+	
+	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we use the {\bf{Z table}} to find the CV.
+	
+	\item If we calculated SE in the previous step using the formula, $\frac{s}{\sqrt{n}}$, we use the {\bf{t-distribution table}}, we need the significance value from the problem (1\% or 5\%, or 10\%) and the degrees of freedom ($df$): $n -1$.  For obtaining this critical value, we look for the values tabulated under the two-sided tests.
+	\end{itemize} 
+
+\item Calculate the Margin of Error (ME), $ME = CV \times SE$.
+\item Calculate the confidence interval using the formula: ($\bar{X} - ME, 	\bar{X} + ME$).
+\end{enumerate}	
+
+
+\section{Calculating Confidence Interval for Population Proportion}
+
+Let's look at constructing confidence intervals about a proportion with this example.
+
+A random sample was selected of 100 patients treated in a program for alcoholism and drug dependency over the past 10 years.  It was determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for recidivism.
+
+\begin{enumerate}
+\item Identify the {\bf{population parameter}} of interest.
+	\begin{itemize}
+	\item The population parameter of interest is the population proportion ($P_u$) for recidivism.
+	\end{itemize}
+\item Calculate the {\bf{point estimate}}.
+	\begin{itemize}
+	\item $ P_s = \frac{f}{n} = \frac{53}{100} = 0.53$
+	\end{itemize}
+\item Calculate the {\bf{Standard Error}} of the estimate.
+	\begin{itemize}
+	\item $SE = \sqrt{ \frac{P_s (1 - P_s)}{n}} = \sqrt{ \frac{0.53 (1 - 0.53)}{100}} = 0.050$
+	\end{itemize}
+\item Determine the {\bf{Critical Value}} using the following table:
+
+	\begin{center}
+	   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      Significance ($\alpha$) & Critical Value \\ \hline
+      0.01 & $\pm 2.58$ \\
+      0.05 & $\pm 1.96$ \\
+      0.10 & $\pm 1.645 $ \\ \hline 
+      \end{tabular}
+      \end{center}	
+      
+      \begin{itemize}
+      \item significance value = $\alpha = 1 - 0.95 = 0.05 \rightarrow CV = Z = \pm 1.96$
+      \end{itemize}
+ \item Calculate the {\bf{Margin of Error (ME)}}  
+ 	\begin{itemize}
+	\item $ME = CV \times SE = 1.96 \times 0.05 = 0.098$
+	\end{itemize}
+\item Calculate the {\bf{confidence interval}}.  CI: $(P_s - ME, P_s + ME$)	
+
+\begin{align*}
+(P_s - ME &, P_s + ME) \\
+(0.53 - 0.098 &, 0.53 + 0.098) \\
+(0.432 &, 0.628)
+\end{align*}
+
+\item Thus, we are 95 percent confident that the true population proportion for recidivism is between 43.2\% and 62.8\%.
+\end{enumerate}
+
+\subsubsection{Example 3 for Calculating CI for Population Proportion}
+
+A survey was conducted and found that 25 of the 178 households consisted of unmarried couples who were living together.  Find the 95 percent confidence interval for the proportion of unmarried couples living together in households.
+
+\begin{enumerate}
+\item Identify the {\bf{population parameter}} of interest.
+	\begin{itemize}
+	\item The population parameter of interest is the population proportion of unmarried couples living together in households.
+	\end{itemize}
+
+\item Calculate the {\bf{point estimate}}.  
+	\begin{itemize}
+	\item $P_s = \frac{f}{n} = \frac{25}{178} = 0.140 $
+	\end{itemize}
+
+\item Calculate the {\bf{Standard Error}} of the estimate.
+	\begin{itemize}
+	\item $SE = \sqrt{ \frac{P_s (1 - P_s)}{n}} = \sqrt{ \frac{0.14 (1 - 0.14)}{178}} = 0.026$
+	\end{itemize}
+
+\item Determine the {\bf{Critical Value}}.
+	\begin{itemize}
+	\item Significance value \\
+	$\alpha = 1 - 0.95 = 0.05$ \\
+	$CV = Z = \pm 1.96$ 
+	\end{itemize}
+	
+\item Calculate the {\bf{Margin of Error}}.
+	\begin{itemize}
+	\item $ME = CV \times SE = 1.96 \times 0.026 = 0.051 $
+	\end{itemize}
+	
+\item Calculate the {\bf{confidence interval}}.  CI: $(P_s - ME, P_s + ME$)	
+
+\begin{align*}
+(P_s - ME &, P_s + ME) \\
+(0.14 - 0.051 &, 0.14 + 0.051) \\
+(0.089 &, 0.191)
+\end{align*}
+
+\item Thus, we are 95 percent confident that the true population proportion of unmarried couples living together in households is between 8.9\% and 19.1\%.
+\end{enumerate}
+
+\subsubsection{Steps for Calculating CI for Population Proportion $P_u$.}
+
+\begin{enumerate}
+\item Identify from the research problem that you need to compute a confidence interval for a population proportion, $P_u$.
+
+\item Calculate the point estimate: sample proportion $P_s = \frac{f}{n}$, where $n$ is the sample size and $f$ is the observed counts under the category of interest..
+
+\item Calculate the {\bf{Standard Error}} of the estimate using the formula: \\
+$SE = \sqrt{ \frac{P_s(1 - P_s)}{n}}$.
+
+\item Determine the Critical Value (CV) using the following table: \\
+	\begin{center}
+	   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      Significance ($\alpha$) & Critical Value \\ \hline
+      0.01 & $\pm 2.58$ \\
+      0.05 & $\pm 1.96$ \\
+      0.10 & $\pm 1.645 $ \\ \hline 
+      \end{tabular}
+      \end{center}	
+      
+\item Calculate the Margin of Error:  \\
+$ME = CV \times SE$.
+
+\item Calculate the confidence interval using the formula: ($P_s - ME, P_s + ME$).
+\end{enumerate}
+
+      
+
+				
+
+
+
+\section{Key Words}
+
+\newpage
+
+\section{Exercises}
+\begin{enumerate}
+\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+
+\begin{center}
+$\bar{X} = 3.38; s = 0.30; n = 100$
+\end{center}
+
+What is the point estimate?
+	\begin{enumerate}
+	\item 0.0338
+	\item 0.30
+	\item 3.38
+	\item 338
+	\end{enumerate}
+	
+\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+
+\begin{center}
+$\bar{X} = 3.38; s = 0.30; n = 100$
+\end{center}
+
+What is the standard error of your estimate?
+	\begin{enumerate}
+	\item 0.003
+	\item 0.03
+	\item 0.30
+	\item 3.38
+	\end {enumerate}
+
+\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+
+\begin{center}
+$\bar{X} = 3.38; s = 0.30; n = 100$
+\end{center}
+
+What is the critical value?
+	\begin{enumerate}
+	\samepage
+	\item 1.658
+	\samepage
+	\item 1.671
+	\samepage
+	\item 1.980
+	\samepage
+	\item 2.000
+	\end{enumerate}
+
+\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+
+\begin{center}
+$\bar{X} = 3.38; s = 0.30; n = 100$
+\end{center}
+
+What is the margin of error?
+	\begin{enumerate}
+	\item 0.0318
+	\item 0.0497
+	\item 0.0501
+	\item 0.0594
+	\end{enumerate}
+
+\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+
+\begin{center}
+$\bar{X} = 3.38; s = 0.30; n = 100$
+\end{center}
+
+What is the 95 percent confidence interval?
+	\begin{enumerate}
+	\item (3.32, 3.44)
+	\item (3.32, 3.50)
+	\item (4.33, 4.43)
+	\item (4.43, 5.44)
+	\end{enumerate}
+	
+\item Given the following summary statistics from a random sample:
+\begin{center}
+$f = 30; n = 100$
+\end{center}
+
+What is the point estimate of the population proportion?
+	\begin{enumerate}
+	\item 0.30
+	\item 1.96
+	\item 2.282
+	\item 78
+	\item 178
+	\end{enumerate}
+	
+\item Given the following summary statistics from a random sample:
+\begin{center}
+$f = 30; n = 100$
+\end{center}
+
+What is the standard error of the estimate (SE)?
+	\begin{enumerate}
+	\item 0.030
+	\item 0.0458
+	\item 0.30
+	\item 1.96
+	\item 78	
+	\end{enumerate}	
+	
+\item Given the following summary statistics from a random sample:
+\begin{center}
+$f = 30; n = 100$
+\end{center}
+
+What is the critical value at the significance level $\alpha = 0.01$ for a two-tailed test?
+	\begin{enumerate}
+	\item 1.645
+	\item 1.96
+	\item 2.58
+	\item 3.32
+	\item 3.90
+	\end{enumerate}		
+	
+\item Given the following summary statistics from a random sample:
+\begin{center}
+$f = 30; n = 100$
+\end{center}
+
+What is the margin of error of the estimate (ME)?	
+	\begin{enumerate}
+	\item 0
+	\item 0.118
+	\item 0.529
+	\item 1.96
+	\item 660
+	\end{enumerate}
+	
+\item Given the following summary statistics from a random sample:
+\begin{center}
+$f = 30; n = 100$
+\end{center}
+
+What is the 99\% confidence interval for the population proportion?	
+	\begin{enumerate}
+	\samepage
+	\item $0.30 \pm 0.10$ 
+	\samepage
+	\item $0.30 \pm 0.118$
+	\samepage
+	\item $0.30 \pm 100$ 
+	\samepage
+	\item $30 \pm 0.118$
+	\samepage
+	\item This cannot be calculated with the given information.
+	\end{enumerate}				
+	
+\end{enumerate}
+		

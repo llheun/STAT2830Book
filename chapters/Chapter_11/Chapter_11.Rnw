@@ -1,0 +1,23 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Testing Equality of two or more Averages }
+\label{chap:ch11}
+
+\section{Objective}
+By the end of this material, you will be able to
+\begin{itemize}
+\item Identify and cite examples of when an ANOVA test is appropriate.
+\item Explain the logic of hypothesis testing as applied to ANOVA.
+\item Perform the ANOVA test of following the 5-step process and interpret
+the results.
+\item Explain the difference between the statistical significance and the importance of 
+relationships between variables.
+\end{itemize}
+
+
+
+
+\section{What is ANOVA?}
+\subsection{Example 1}
+\subsection{Example 2}
+

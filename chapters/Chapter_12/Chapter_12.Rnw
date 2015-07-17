@@ -1,0 +1,21 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{esting the relationship between two or more numerical variables}
+\label{chap:ch12}
+
+\section{Objective}
+By the end of this material, you will be able to
+\begin{itemize}
+\item Distinguish between three applications of statistics and identify 
+situations in which each is appropriate.
+\item Distinguish between discrete and continuous variables and cite example of each.
+\item Identify and describe three levels of measurement and cite example of variable from each type.
+\end{itemize}
+
+
+\section{What is Correlation?}
+\subsection{Example 1}
+
+
+\section{What is Linear Regression?}
+\subsection{Example 1}

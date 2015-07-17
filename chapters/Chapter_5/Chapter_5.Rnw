@@ -1,0 +1,591 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Normal Curve}
+\label{chap:ch5}
+
+\section{Objectives}
+
+By the end of this chapter, you will be able to
+\begin{itemize}
+\item Define and explain the concept of the {\bf{Normal Curve}}.
+\item Convert empirical scores to Z-scores and use Z-scores and the normal curve
+table to find areas above, below and between points of the curve.
+\item Express areas under the normal curve in terms of probabilities.
+\item Utilize the standard normal distribution to solve probability problems.
+\end{itemize}
+
+\section{Why we should study the Normal Curve}
+
+This  Normal Curve is an important concept in statistics.
+
+\begin{itemize}
+\item It is the data distribution pattern that occurs in many observable facts, such as IQ, grades, etc.
+\item If the sample size  is large enough (i.e., more than 30), the sampling distribution of any distribution is normal.
+\item It is easy to work with and it is a very important groundwork for Inferential Statistics that will be discussed on later chapters.
+\end{itemize}
+
+\section{Normal Curve Characteristics}
+
+What are the characteristics of the Normal Curve?
+
+\begin{itemize}
+\item There is symmetry about the mean (average).
+\item Unimodal and no skewness.
+\item mean = median = mode
+\item The mean divides the curve in to two equal halves.
+\item It is completely determined by the mean and standard deviation.
+\item Recall: the {\bf{standard deviation}} is the average amount the data is from the mean.  Most of the data are close to the mean but few data points are at the extremes.
+\item The area under the curve is called probability
+\item The total area under the curve (probability) is one.
+\end{itemize}
+ 
+ \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=6cm]{zbell-shape2.png} % requires the graphicx package
+    \caption{Bell-Shaped and Symmetric}
+    \label{fig:BS4}
+ \end{figure}
+ 
+\section{Empirical Rule}
+
+Given a bell-shaped distribution of measurements, the approximately 
+\begin{itemize}
+\samepage 
+\item 68\% of the observations are within 1 standard deviation (SD) of the mean or a total of 2 SD \\
+$\bar{x} \pm 1SD$
+\samepage 
+\item 95\% of the observations are within 2 standard deviation (SD) of the mean or a total of 4 SD \\
+$\bar{x} \pm 2SD$
+\samepage 
+\item 99.7\% of the observations are within 3 standard deviation (SD) of the mean or a total of 6 SD \\
+$\bar{x} \pm 3SD$
+\end{itemize}
+
+\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=6cm]{zempirical-rule.png} % requires the graphicx package
+   \caption{Empirical-rule}
+   \label{fig:BS5}
+\end{figure}
+
+\subsubsection{Example \# 1}
+
+Here is an example of how to use the empirical rule.
+
+Suppose you are concerned the amount of money that students pay for their lunch.  The average lunch costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical-rule to determine the 68-95-99.7 percent. 
+
+\begin{align*}
+\mu \pm \sigma &= 5 \pm 0.5, or \hspace{1mm} 4.5 \hspace{1mm} to \hspace{1mm} 5.5 \\
+\mu \pm 2\sigma &= 5 \pm (2)0.5, or  \hspace{1mm} 4 \hspace{1mm} to \hspace{1mm} 6 \\
+\mu \pm 3\sigma &= 5 \pm (3)0.5, or \hspace{1mm} 3.5 \hspace{1mm}to \hspace{1mm}6.5 
+\end{align*}
+
+\begin{itemize} 
+\samepage
+\item 68\% of the students pay between \$4.50 to \$5.50 for their lunch.
+\samepage
+\item 95\% of the students pay between \$4.00 to \$6.00 for their lunch.
+\samepage
+\item 99.7\% of the students pay between \$3.50 to \$6.50 for their lunch.
+\end{itemize}
+
+\subsubsection{Example \# 2}
+
+Here is another example of how to use the empirical rule.
+
+The \emph{Student Monitor} surveyed college students and reported the amount of time spent per week  on the world-wide web.  Suppose the lower bound of the middle 95 percent of values is at least 8.5 hours and the upper bound is at most 30.5 hours.  What is the standard deviation of this data?  What is the mean time that students spent on the world-wide web? 
+
+\begin{itemize}
+\item From the empirical rule, approximately 95 percent of the observations fall within 2 standard deviation from the mean. 
+
+\item Since the upper bound minus the lower bound for 95 percent will yield four standard deviation (SD). \\
+\begin{equation}
+SD = \frac{UB - LB}{4} = \frac{30.5 - 8.5}{4} = 5.5 \nonumber
+\end{equation}
+
+\item  The mean is the central tendency.  \\
+\begin{equation}
+mean = \frac{UB + LB}{2} = \frac{30.5 + 8.5}{2} = 19.5 \nonumber
+\end{equation}
+
+\end{itemize}
+
+\section{Normal Curve and Z-Score}
+
+The IQ scores are normally distributed.  Let's consider the following example.
+
+\begin{itemize}
+\item A sample of 1,000 females and 1,000 males were selected and their IQ scores were measured.
+
+\item The female IQ scores had a mean of 100 with a standard deviation 10 and the male IQ scores had a mean of 100 with a standard deviation 20.
+
+\item Using descriptive statistical techniques, we will look at histograms for both female and male IQ scores.
+\end{itemize}
+  
+\begin{minipage}[t]{6.5cm}
+
+%\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=6cm]{z1iq.png} % requires the graphicx package
+%  \caption{Female IQ Scores}
+ %  \label{fig:N1}
+ % \end{figure}
+ \end{minipage} \hfill
+\begin{minipage}[t]{6.5cm} 
+
+%\begin{figure}[htbp]
+   \centering
+   \includegraphics[width=6cm]{z2iq.png} % requires the graphicx package
+ %  \caption{Male IQ Scores}
+ %  \label{fig:N2}
+% \end{figure}
+\end{minipage}
+
+\begin{itemize}
+\item The histogram exhibit a bell-shaped curve and symmetrical distribution for both females and males IQ scores.
+\item We will make the assumption that they are normally distributed.  This will allow us to analyze the results using the normal curve.
+\item Notice the two distributions are different.
+\item The measures of central tendency are the same, but the measures of dispersion (spread) are different.
+\item Making the following assumptions about a data set (distribution) will completely determine the particular distribution that we nee to work.
+	\begin{itemize}
+	\item {\bf{Shape}} -- we assume bell-shape and symmetry (normal).
+	\item {\bf{Center}} -- mean.
+	\item {\bf{Dispersion}} -- standard deviation
+	\end{itemize}
+\item Further statistical analysis will be based on the normal curve chosen.
+\item Now, we will associate the particular normal distribution to a very special normal curve called the standard normal curve.
+\item The standard normal curve has a mean of zero (0) and standard deviation one (1).
+\item Why study the standard form of the normal curve?
+	\begin{itemize}
+	\item To compare two or more distribution of data.
+	\item To estimate the chance of an event (involving normal distribution) occurring.
+	\end{itemize}
+\item Converting any normal distribution to a standard distribution involves transforming the data into its 
+standardized form called the Z-score.		
+\end{itemize}
+
+\begin{itemize}
+\item The Z-score tells us how many standard units (standard deviations) a point is from the mean.
+
+Z-score = $Z = \frac{X - mean}{SD}$
+
+\item The Z-curve is Normal with Mean = 0 and SD = 1.
+\end{itemize}
+
+\begin{minipage}[t]{6.5cm}
+
+\begin{itemize}
+\item approximately 68 percent of the observations are from $-1$ to $+1$.
+\item approximately 95 percent of the observations are from $-2$ to $+2$.
+\item approximately 99.7 percent of the observations are from $-3$ to $+3$.
+\end{itemize}
+
+\end{minipage} \hfill
+\begin{minipage}[t]{6.5cm}
+
+\ \\[-1cm]
+   \includegraphics[width=6cm]{zBS4.png} % requires the graphicx package
+
+\end{minipage} 
+
+The following describes  the progression to analyze a ``bell-shaped and symmetrical'' distribution.
+
+ \begin{minipage}[t]{6.5cm}
+
+    \includegraphics[width=6cm]{z2iq.png} % requires the graphicx package
+
+Calculate the mean and SD.  We verify the normal distribution criteria by drawing a bell-shaped curve over the histogram.
+
+\end{minipage} \hfill
+\begin{minipage}[t]{6.5cm}
+
+    \includegraphics[width=6cm]{z2zS.png} % requires the graphicx package
+
+We use the z-score transformation 
+
+$Z = \frac{X - mean}{SD}$
+
+to convert the specific ``normal curve'' to the ``standard normal curve.''
+
+\end{minipage}
+
+\vspace{1cm}
+\subsubsection{Example \# 3}
+
+Let's consider an example to compare two z-scores.
+
+\begin{minipage}[t]{6.5cm}
+
+    \includegraphics[width=6cm]{z2iq.png} % requires the graphicx package
+    
+\begin{equation}
+Z_m = \frac{X - mean}{SD} = \frac{120 - 100}{20} = +1.00 \nonumber 
+\end{equation}
+
+A male IQ score of 120 is one standard deviation from the IQ score of 100.
+
+\end{minipage} \hfill
+ \begin{minipage}[t]{6.5cm}
+
+    \includegraphics[width=6cm]{z1iq.png} % requires the graphicx package
+    
+\begin{equation}
+Z_f = \frac{X - mean}{SD} = \frac{120 - 100}{10} = +2.00 \nonumber 
+\end{equation}
+
+A female IQ score of 120 is two standard deviation from the IQ score of 100.
+
+\end{minipage}        
+
+\newpage
+\section{Finding Probabilities Using the Normal Curve}
+
+How to Find Areas Under the Normal Curve illustration.  Recall that the total area under the bell-shaped curve is equal to one.
+
+\begin{minipage}[b]{5.5cm}
+
+    \includegraphics[width=5cm]{zAUC1.png} % requires the graphicx package
+
+This represents column (b) -- Area between mean and Z.
+
+    \includegraphics[width=5cm]{zAUC2.png} % requires the graphicx package
+
+This represents column (c) -- Area beyond Z, i.e., above Z
+
+\end{minipage} \hfill
+\begin{minipage}[b]{7.5cm}
+
+% \ \\[-3cm]
+
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | ccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     (a) & (b) & (c) \\
+     Z & Area between & Area  \\
+        & Mean and Z    & Beyond Z \\ \hline
+        
+     1.50 & 0.4332 & 0.0668  \\
+     1,51 & 0.4345 & 0.0655 \\
+     1.52 & 0.4357 & 0.0643 \\
+     1.53 & 0.4370 & 0.0630 \\ \hline
+     \end{tabular}
+     
+ \vspace{3mm}     
+Notice that column (b) and column (c) will always add to 0.5.  This is because of the symmetry of the normal curve and the area above the mean (center) is 0.5 and column (b) and (c) split this 0.5 in two pieces.
+
+\end{minipage}
+ 
+% \vspace{5mm}
+
+\newpage
+We can take advantage of the symmetry of the Normal Distribution.
+
+\begin{minipage}[t]{6.5cm}
+
+\begin{itemize}
+\item You may also notice that even though a z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive z-scores listed in the table.
+
+\item You can use the symmetry of the distribution to get the result.
+
+\item For example, if you want the proportion {\bf{below}} a z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  z-score of 1.5.
+
+\end{itemize}
+\end{minipage} \hfill
+\begin{minipage}[t]{6.5cm}
+
+\ \\[-1mm]
+   \includegraphics[width=4.5cm]{zAUC3.png} % requires the graphicx package
+   
+   \includegraphics[width=4.5cm]{zAUC2.png} % requires the graphicx package
+   
+\end{minipage}
+
+\vspace{5mm}
+
+\subsubsection{Example \# 4}
+Let's consider another  example.  Let's say that  the mean male IQ score is 100 and  standard deviation is 20.  
+We are asked to find the proportion of males that have an IQ score greater than 130.
+
+\begin{minipage}[t]{6cm}
+
+   \includegraphics[width=5cm]{zAUC4.png} % requires the graphicx package
+   
+\end{minipage} \hfill
+\begin{minipage}[t]{7cm}
+
+\ \\[-4cm]
+Since the question is asking for those individuals hat have an IQ score greater than 130, we are looking for the are above 130.  First we need to find the associated Z-score.
+
+\end{minipage} 
+
+\begin{minipage}[b]{6.5cm}
+
+   \includegraphics[width=5cm]{zAUC5.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[b]{6.5cm}
+
+\ \\[-5mm] 
+$Z = \frac{X - mean}{SD} = \frac{130 - 100}{20} = 1.5$
+\vspace{3mm}
+
+Then using the Z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5 which is equivalent to the area above an IQ score of 130.
+
+\end{minipage}
+
+\vspace{5mm}
+
+To answer the question, we need the area above the Z-score of 1.5.
+
+\vspace{5mm}
+
+We need to find the Z-score in the table (column (a)), then look under the appropriate column for the desired area.  In this case, it is column (c) and the result is 0.0668.
+
+\begin{minipage}[t]{6.5cm}
+
+   \includegraphics[width=5cm]{zAUC5.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[t]{6.5cm}
+
+\ \\[-4cm]
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | ccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     (a) & (b) & (c) \\
+     Z & Area between & Area  \\
+        & Mean and Z    & Beyond Z \\ \hline
+        
+     1.50 & 0.4332 & 0.0668  \\
+     1,51 & 0.4345 & 0.0655 \\
+     1.52 & 0.4357 & 0.0643 \\
+     1.53 & 0.4370 & 0.0630 \\ \hline
+     \end{tabular}
+
+\end{minipage}
+
+\begin{itemize}
+\item We interpret 0.0668 (or 6.68\%) the area under the curve as all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
+\item Another way of stating this result is that  if you were to randomly select an individual male, the probability that the individual has an IQ score of 130 or greater is 0.0668.
+\item In addition, $1 - 0.0668 = 0.932$ or 93.32\% of all male individuals have an IQ score below 130.
+\end{itemize}
+
+\subsubsection{Example \# 5}
+
+Let's explore another example.  We have been asked to find the proportion of females with an IQ scores between 90 and 130. 
+\vspace{2mm}
+
+\begin{table}
+   \centering
+   \begin{tabular}{@{} lcc @{}}  \hline % Column formatting, @{} suppresses leading/trailing space
+    Statistic & Females & Males \\ \hline
+     $\bar{x}$ & 100 & 100 \\
+     $SD$ & 10 & 20 \\
+     $n$ & 1000 & 1000 \\  \hline  
+   \end{tabular}
+\end{table}
+   
+
+First we need to find the two associated Z-scores for these two values:
+
+\begin{align*}
+Z &= \frac{X - mean}{SD}  \\ 
+Z_{90} &= \frac{90 - 100}{10} = -1.00 \\
+Z_{120} &= \frac{120 - 100}{10} = +2.00 
+\end{align*}
+
+\vspace{5mm}
+
+\begin{itemize}
+\item Now place the Z-scores on the graph and shade the area that we are interested.
+\item Since we cannot get this area directly from the table we will split the graph into pieces that we read from the table and add them together to get the desired results.
+\end{itemize}
+
+\begin{minipage}[b]{5cm}
+
+   \includegraphics[width=5cm]{zAUC6.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[b]{8cm}
+
+\begin{itemize}
+\item The portion to the left of the mean (between $-1.00$ and $0.00$), we can get by using the symmetry of the normal curve and look up $+1.00$ for column (b) (area between Z and the mean) in the table.  When we look in the table the associate area is 0.3413.
+
+\item The portion to the right of the mean (between $0.00$ and $+2.00$), we can look up for column (b) in the table.   When we look in the table the associate area is 0.4772. 
+\end{itemize}
+
+\end{minipage}
+
+\begin{itemize}
+\item The Proportion between $-1.00$ and $+2.00$ = 0.3413 + 0.4772 = 0.8185.
+\item This, the proportion of females with IQ scores between 90 and 120 is 81.85\%.
+\end{itemize}
+
+\subsubsection{Example \# 6}
+
+Let's explore another example.  We have been asked to find the proportion of males with an IQ scores between 110 and 120. 
+\vspace{2mm}
+
+\begin{table}
+   \centering
+   \begin{tabular}{@{} lcc @{}}  \hline % Column formatting, @{} suppresses leading/trailing space
+    Statistic & Females & Males \\ \hline
+     $\bar{x}$ & 100 & 100 \\
+     $SD$ & 10 & 20 \\
+     $n$ & 1000 & 1000 \\  \hline  
+   \end{tabular}
+\end{table}
+   
+
+First we need to find the two associated Z-scores for these two values:
+
+\begin{align*}
+Z &= \frac{X - mean}{SD}  \\ 
+Z_{110} &= \frac{110 - 100}{20} = +0.50 \\
+Z_{120} &= \frac{120 - 100}{20} = +1.00 
+\end{align*}
+
+\vspace{5mm}
+
+\begin{itemize}
+\item Now place the Z-scores on the graph and shade the area that we are interested.
+\item Since we cannot get this area directly from the table we will split the graph into pieces that we read from the table and add them together to get the desired results.
+\end{itemize}
+
+\begin{minipage}[b]{5cm}
+
+   \includegraphics[width=5cm]{zAUC7.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[b]{8cm}
+
+\begin{itemize}
+\item The portion to the left of the mean (between $0.00$ and $0.50$), we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associate area is 0.1915.
+
+\item The portion to the right of the mean (between $0.00$ and $+1.00$), we can look up for column (b) in the table.   When we look in the table the associate area is 0.3413. 
+\end{itemize}
+
+\end{minipage}
+
+\begin{itemize}
+\item The Proportion between $+0.50$ and $+1.00$ = (area between 0 and $+1.00$) - (area between $+0.50$ and $+1.00$) = 0.3413 - 0.1915 = 0.1498 
+
+\item Thus, the proportion of males with IQ scores between 110 and 120 is 14.98\%.
+\end{itemize}
+
+\subsubsection{Example \# 7}
+
+Let's examine another example.  We are asked to find the $90^{th}$ percentile of the IQ scores for females.
+
+First we need to find the area for the probability of 0.900 and the associated Z-score for this probability.
+
+\vspace{2mm}
+
+\begin{minipage}[b]{5cm}
+
+   \includegraphics[width=5cm]{zAUC8.png} % requires the graphicx package
+
+\end{minipage} \hfill
+\begin{minipage}[b]{8cm}
+
+\ \\[-5mm] 
+
+\begin{itemize}
+\item The area to the left of the mean is 0.500, so
+\item the area to the right of the mean is 0.900 - 0.500 = 0.400.
+\item Now, look up the Z-score associated with the area of 0.400.
+\end{itemize}
+
+\end{minipage}
+
+\vspace{3mm}
+
+\begin{minipage}[t]{6.5cm}
+
+
+\begin{itemize}
+\item The area we are looking for is the area between the mean and Z, (column (b).
+\item The Z-score that will have an area between the mean closest to 0.400 is 1.28, since 0.3997
+is closer to 0.400 than 0.4015.
+\end{itemize}
+
+\end{minipage} \hfill
+\begin{minipage}[t]{6.5cm}
+
+\ \\[-8mm] 
+
+   \begin{tabular}{@{} | ccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     (a) & (b) & (c) \\
+     Z & Area between & Area  \\
+        & Mean and Z    & Beyond Z \\ \hline
+        
+     1.27 & 0.3980 & 0.1080  \\
+     1.28 & 0.3997 & 0.1003 \\
+     1.29 & 0.4015 & 0.0985 \\
+     1.30 & 0.4032 & 0.0968 \\ 
+     1.31 & 0.4049 & 0.0951 \\
+     \hline
+     \end{tabular}
+
+\end{minipage}
+
+\vspace{3mm}
+
+Now that we have the associated Z-score, we can now find the IQ score of interest $90^{th}$ percentile.
+
+\begin{align*}
+Z &= \frac{X - mean}{SD}  \\ 
+X &= (Z \times SD) + mean \\
+X &=  (1.28 \times 10) + 100 = 112.8 
+\end{align*}
+
+This indicates that 90 percent of all females IQ scores are lower than 112.8, so this is the $90^{th}$ percentile.
+
+\section{Key Words}
+
+\begin{itemize}
+\samepage
+\item Normal curve
+\samepage
+\item Normal curve table
+\samepage
+\item Z-score
+\end{itemize}
+
+\newpage
+\section{Exercises}
+\begin{enumerate}
+\item Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is at most 41.  What is the standard deviation of this data?
+	\begin{enumerate}
+	\item 2
+	\item 2.5
+	\item 3
+	\item 4
+	\end{enumerate}
+
+\item Given a distribution of male weights that has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
+	\begin{enumerate}
+	\item $-1.82$
+	\item 1.82
+	\item 1.82 lbs.
+	\item You cannot calculate the z-score with the information provided.
+	\end{enumerate}
+	
+\item Given the distribution of male weights with mean of 155 and standard deviation of 12, what percent 
+of males weight less than 143 pounds?
+	\begin{enumerate}
+	\item 0.1587
+	\item 0.3413
+	\item 15.87
+	\item 34.13
+	\end{enumerate}
+	
+\item Given the distribution of male weights with mean of 155 and standard deviation of 12, what value 
+represents the $90^{th}$ percentile for male weights?
+	\begin{enumerate}
+	\item 155.00 pounds
+	\item 170.36 pounds
+	\item 179.00 pounds 
+	\item 189.13 puunds
+	\end{enumerate}
+			
+\end{enumerate}
+	

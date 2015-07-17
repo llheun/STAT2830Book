@@ -1,0 +1,389 @@
+%!Rnw root = ../../Master.Rnw
+
+\chapter{Testing One Sample Hypotheses }
+\label{chap:ch8}
+
+\section{Objective}
+By the end of this material, you will be able to
+\begin{itemize}
+\item Explain the logic of hypothesis testng
+\item Define and explain the elements of hypothesis testing
+	\begin{enumerate}
+	\item Assumptions
+	\item Null and Alternative Hypotheses
+	\item Identify the appropriate critical statistic and rejection region
+	\item Perform the appropriate test for one-sample test (both one and 
+	two-tailed tests).
+	\item Identify the appropriate conclusion based on the test and be able to 
+	explain Type I and Type II errors and how they relate to the selection of the 
+	significance of the test   $\alpha$ and $\beta$ risks).
+	\item Effect Size
+	\end{enumerate}
+\end{itemize}
+
+\section{Why do hypothesis testing?}
+
+\begin{itemize}
+\item Hypothesis testing is done to challenge the truth about some claim regarding  a population parameter.
+\item For example: A sociologist is assessing the effectiveness of a rehabilitation program for alcoholics in her city.  The program serves a large area and she cannot test every single client.  Instead, she draws a simple random sample of 127 people from the list of all clients and questions them on a variety of issues.  She notices that, on average, the people in her sample miss fewer days of work each year than workers in the city as a whole.
+
+\item So, ``are people in this program more reliable workers than people in the community in general given the information below?''
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     Community & Sample of Treated Alcoholics \\ \hline
+     $\mu = 7.2$ days per year & $\bar{x} = 6.8$ days per years \\
+     $\sigma = 1.43$ days per year & $n = 127$ \\ \hline
+     
+   \end{tabular}
+   \caption{Absenteeism }
+   \label{tab:s8_1}
+\end{table}
+
+\item To answer this question, we perform a hypothesis test.
+\end{itemize}
+
+\section{Hypothesis Testing on One Sample Mean}
+\subsection{KNOWN population standard deviation}
+
+Let's consider this example.  Statewide, the average score on the college entrance exam (verbal test) is 453, with a standard deviation of 95.  The administrators of Littlewood Regional High School are interested in this question, ``Does their program do a better job of preparing their students for the college entrance exam?''  
+
+A simple random sample of 125 senior students from Littlewood showed a mean verbal score on the college entrance exam of 502.  {\bf{Is there a significant difference at}} $\alpha = 0.05$?
+
+Given: $\mu_0 = 453$, \hspace{3mm} $\sigma = 95$ \hspace{3mm} $n = 125$ \hspace{3mm} $\bar{X} = 502$ \hspace{3mm} $\alpha = 0.05$ 
+
+\begin{enumerate}
+\item Identify the population parameter of interest. 
+	\begin{itemize}
+	\item We want to look at the population mean score ($\mu$) of the verbal test of the college entrance examination.
+	\end{itemize}
+\item Formulate the null hypothesis ($H_0$).
+	\begin{itemize}
+	\item $H_0: \mu = 453$; (There is no significant difference between the state college entrance examination results and those obtained from Littlewood HS).
+	\end{itemize}
+\item Formulate the alternate hypothesis ($H_A$).
+	\begin{itemize}
+	\item $H_A: \mu \neq 453$; (There is a significant difference between the state college entrance examination results and those obtained from Littlewood HS).
+	\end{itemize}
+	
+\item Calculate the Test Statistic: 
+	
+	\begin{align*}
+	SE &= \frac{\sigma}{\sqrt{n}} = \frac{95}{\sqrt{125}} = 8.497 \\ \nonumber 
+	Z &=  \frac{point Estimate (\bar{X}) - hypothesized Value (\mu_0) }{SE}  = \frac{502 - 453}{8.497} = \frac{49}{8.497} = 5.77 \nonumber
+	\end{align*}
+
+\item Decision is based on the {\bf{Critical Value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
+	\begin{itemize}
+	\item The alternate hypothesis is $H_A: \mu \neq 453$,
+	\item  and since $| Z | = 5.77 > 1.96$.  
+	\item Hence, reject $H_0$.
+	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important.
+	\end{itemize}
+\item Conclusion in non-statistical language.
+	\begin{itemize}
+	\item There is a significant difference between that state college entrance examination results and those obtained from Littlewood HS.
+	\end{itemize}
+		
+\end{enumerate}		
+	 	
+\subsection{UNKNOWN population standard deviation}
+
+Let's explore this example: A random sample of 40 people used the Weight Watchers diet for one year, their mean weight loss was 3.0 pounds with a standard deviation of 4.9 pounds.  Assuming the weight loss data is approximately normally distributed and using a significance level of 5 percent, test the claim that the mean weight loss was greater than 0 pounds.  Based on these findings, does the weight loss program appear to be effective?
+
+Given: $\mu_0 = 0$, \hspace{3mm}  $n = 40$ \hspace{3mm} $s = 4.9$ \hspace{3mm} $\bar{X} = 3.0$ \hspace{3mm} $\alpha = 0.05$ 
+
+\begin{enumerate}
+\item Identify the population parameter of interest. 
+	\begin{itemize}
+	\item We want to look at the population mean  ($\mu$) of the weight loss.
+	\end{itemize}
+\item Formulate the null hypothesis ($H_0$).
+	\begin{itemize}
+	\item $H_0: \mu = 0$; (The mean weight loss is zero; the program is not effective.)
+	\end{itemize}
+\item Formulate the alternate hypothesis ($H_A$).
+	\begin{itemize}
+	\item $H_A: \mu > 0$; (The mean weight loss is greater than zero; the program is effective.)
+	\end{itemize}
+	
+\item Calculate the Test Statistic: 
+	
+	\begin{align*}
+	SE &= \frac{s}{\sqrt{n}} = \frac{4.9}{\sqrt{40}} = 0.775 \\ \nonumber 
+	T &= \frac{point Estimate (\bar{X}) - hypothesized Value (\mu_0) }{SE}  = \frac{3.0 - 0}{0.775} = \frac{3.0}{0.775} = 3.87 \nonumber
+	\end{align*}
+
+\item Determine the {\bf{Critical Value (CV)}}.
+	\begin{itemize}
+	\item $df = n - 1 = 40 - 1 = 39$ and $\alpha = 0.05$
+	\item Since $H_A: \mu > 0$, this is a one-tailed test.
+	\item From the t-table, $CV = 1.697$
+	\end{itemize}
+
+\item Making decision  based on the {\bf{Critical Value (CV)}} from the t-distribution table.
+	\begin{itemize}
+	\item The alternate hypothesis is $H_A: \mu > 0$,
+	\item  and since $ T  = 3.87 > 1.697$.  
+	\item Hence, reject $H_0$.
+	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 3, important.
+	\end{itemize}
+\item Conclusion in non-statistical language.
+	\begin{itemize}
+	\item There is evidence that the mean weight loss is greater than zero; the program is effective. 
+	\end{itemize}
+		
+\end{enumerate}		
+
+\section{Hypothesis Testing on One Sample Proportion}
+
+Let's investigate a one sample proportion.  Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Are the local robberies arrest rate significantly from the statewide rate at $\alpha = 0.05$?
+
+Given: $n = 207$ \hspace{3mm} $f = 83$ \hspace{3mm} $\alpha = 0.05$ \hspace{3mm} $P_u = 0.35$ 
+
+\begin{enumerate}
+\item Identify that the population parameter of interest.
+	\begin{itemize}
+	\item From the problem statement, we are asked for the proportion of robberies that have been cleared by an arrest.
+	\end{itemize}
+\item Formulate the null hypothesis ($H_0$).
+	\begin{itemize}
+	\item $H_0: P_u = 0.35$  (The local robberies arrest rate is same with the statewide rate.)
+	\end{itemize}
+\item Formulate the alternate hypothesis ($H_A$).
+	\begin{itemize}
+	\item $H_A: P_u \neq 0.35$  (The local robberies arrest rate significantly different from the statewide rate.)
+	\end{itemize}	
+\item Calculate the Test Statistic.
+	\begin{align*}
+	P_s &= \frac{f}{n} = \frac{83}{207} = 0.40 \\ \nonumber
+	SE &= \sqrt{ \frac{P_u (1 - P_u)}{n}} = \sqrt{ \frac{ 0.35(1 - 0.35)}{207}} = 0.0332 \\ \nonumber
+	Z &= \frac{point Estimate (P_s) - hypothesized Value (P_u) }{SE}  = \frac{ 0.40 - 0.35 }{0.0332} = 1.51 \nonumber
+	\end{align*}
+	
+\item Decision based on {\bf{Critical Value (CV)}} at {\bf{level of significance}} 0.05 or 5 percent.
+	\begin{itemize}
+	\item The alternate hypothesis is $H_A: P_u \neq  0.35 $,
+	\item  and since $ |Z|  = 1.54 < 1.96$.  
+	\item Hence, failed to reject $H_0$.
+	\item Although the test is not significant, as  researchers, we must ask ourselves, is the size effect, 0.05, important.
+	\end{itemize}
+\item Conclusion in non-statistical language.
+	\begin{itemize}
+	\item There is insufficient evidence to conclude that there is a difference between the  statewide results and the local arrest rate for robberies with 95 percent confidence. 
+	\end{itemize}
+		
+\end{enumerate}			
+		 
+\section{Type of Error}
+
+Whenever we use the hypotheses testing, there is always a chance that we may obtain a sample that draw a wrong conclusion.  Let's look at the court system.  In the USA, the defendant is presumed innocent, so our Hypotheses will look like this: \\
+$H_0:$ the defendant is not guilty. \\
+$H_A:$ the defendant is guilty. \\
+Now if we have enough evidence against the defendant, then we can say that the defendant is guilty.  Now let's look at the following table to see how an error can happen in this situation.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
+     Decision (`What we say') & Guilty & Not Guilty \\ \hline 
+     Guilty & OK & Type I Error \\ 
+     Not Guilty & Type II Error & OK \\ \hline
+     
+   \end{tabular}
+  % \caption{Remember, \emph{never} use vertical lines in tables.}
+  % \label{tab:booktabs}
+\end{table}
+
+\begin{itemize} 
+\item The type I error concludes that the defendant is guilty when he is actually not guilty.
+\item The type II error concludes that the defendant is not guilty when he is actually  guilty.
+\end{itemize}
+
+\subsubsection{Let's consider another example.}
+
+Deciding whether a patient is HIV positive: \\
+$H_0:$ the patient is not HIV positive. \\
+$H_A:$ the patient is HIV positive. \\
+Now if we have enough evidence against the patient, then we can say that the patient is HIV positive.  Now let's look at the following table to see how an error can happen in this situation.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
+     Decision (`What we say') & Guilty & Not Guilty \\ \hline 
+     HIV positive  & OK & Type I Error (false positive)  \\ 
+     Not HIV positive & Type II Error (false negative) & OK \\ \hline
+     
+   \end{tabular}
+  % \caption{Remember, \emph{never} use vertical lines in tables.}
+  % \label{tab:booktabs}
+\end{table}
+
+\begin{itemize} 
+\item The type I error concludes that the patient is HIV positive when he is actually not.
+\item The type II error concludes that the patient is HIV negative when he is actually  HIV positive.
+\end{itemize}
+
+\subsubsection{General statement about Types of Error during hypotheses testing.}
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
+     Decision (`What we say') & Guilty & Not Guilty \\ \hline 
+     Reject $H_0$  & OK & Type I Error   \\ 
+     Fail to reject $H_0$ & Type II Error  & OK \\ \hline
+     
+   \end{tabular}
+  % \caption{Remember, \emph{never} use vertical lines in tables.}
+  % \label{tab:booktabs}
+\end{table}
+
+\begin{itemize} 
+\item {\bf{Type I Error}}
+	\begin{itemize}
+	\item error in rejecting the null hypothesis ($H_0$) when in fact $H_0$ is true.
+	\item the probability of committing this error is $\alpha$ (level of significance).
+	\end{itemize}
+\item {\bf{Type II Error}}
+	\begin{itemize}
+	\item error in not rejecting the null hypothesis when $H_0$ is false.
+	\end{itemize}
+	
+\end{itemize}
+
+\section{Key Words}
+
+\begin{itemize}
+\item $\alpha$ level
+\item Critical region
+\item Five-step model
+\item Hypotheses testing
+\item One-tailed test
+\item Research hypothesis
+\item Student's t-distribution
+\item $t$-critical 
+\item $t$-obtained
+\item Test statistic
+\item Two-tailed test
+\item Type I error (alpha error)
+\item Type II error (beta error)
+\item $Z$-critical
+\item $Z$-obtained
+\end{itemize}
+ 
+\newpage 
+
+\section{Exercises}
+\begin{enumerate}
+\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+
+What are the hypotheses for this question?
+
+	\begin{enumerate}
+	\item $H_0: \mu = 6.2$ vs. $H_A: \mu = 5.9$
+	\item $H_0: \mu = 6.2$ vs. $H_A: \mu < 6.2$
+	\item $H_0: \mu = 6.2$ vs. $H_A: \mu > 6.2$
+	\item $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
+	\end{enumerate}
+
+\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+
+Calculate the test statistic.
+
+	\begin{enumerate}
+	\item $T = -2.29$
+	\item $T = +2.29$
+	\item $Z = -.2.29$
+	\item $Z = +2.29$
+	\end{enumerate}
+	
+\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+
+What is the sampling distribution and critical value at the 95 percent confidence level?
+
+	\begin{enumerate}
+	\item Standard Normal distribution, $CV(z) = -1.645$
+	\item Standard Normal distribution, $CV(z) = \pm 1.96$
+	\item T-distribution, $CV(t) = +1.697$
+	\item T-distribution, $CV(t) = \pm 2.042$
+	\end{enumerate}	
+
+\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+
+What is your conclusion?
+
+	\begin{enumerate}
+	\item Conclude there is a difference.
+	\item Conclude there is no difference.
+	\item Conclude that seniors watch too much TV.
+	\item Conclude that statewide people watch too much TV
+	\end{enumerate}	
+
+\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+
+What are the hypotheses for this question?
+
+	\begin{enumerate}
+	\item $H_0: P_u = 0.55$ vs. $H_A: P_u = 0.49$
+	\item $H_0: P_u = 0.55$ vs. $H_A: P_u > 0.55$
+	\item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
+	\item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
+	\end{enumerate}
+
+\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+
+Calculate the test statistic.
+
+	\begin{enumerate}
+	\item $T = +1.23$
+	\item $Z = -1.23$
+	\item $Z = +1.23$
+	\item $Z = -1.91$
+	\item $Z = +1.91$
+	\end{enumerate}
+
+\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+
+What is the sampling distribution and critical value at the 95 percent confidence level?
+
+	\begin{enumerate}
+	\item Standard Normal distribution, $CV(z) = \pm1.96$
+	\item Standard Normal distribution, $CV(z) = \pm1.645$
+	\item T-distribution, $CV(t) = \pm1.697$
+	\item T-distribution, $CV(t) = \pm2.042$
+	\end{enumerate}
+
+\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+
+What is your conclusion?
+
+	\begin{enumerate}
+	\item Conclude there is a difference.
+	\item Conclude there is no difference.
+	\item The proportion of voters who rejected the proposal is less than 60.
+	\item The proportion of voters who rejected the proposal is greater than 60.
+	\end{enumerate}
+
+ \item The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward school gives the SSHA to 25 students who are at least 30 years of age and the sample mean was obtained $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
+ 
+ 	\begin{enumerate}
+	\item More samples should be taken
+	\item She should change the significance level of the test.
+	\item A Type I Error was committed.
+	\item A Type II Error was committed.
+	\item No Error was committed.
+	\end{enumerate}
+ 
+\end{enumerate}	
+	
