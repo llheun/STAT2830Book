@@ -125,8 +125,9 @@ In a class of 25 females and 20 males, compute the following:
 \begin{equation}
 Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{25}{20} = 1.25
 \end{equation}
-
-\item This means that there is 1.25 females for each male in the class.
+  \begin{itemize}
+  \item This means that there is 1.25 females for each male in the class.
+  \end{itemize}
 
 \item   the ratio of male to females:
 
@@ -134,8 +135,9 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{25}{20} = 1.25
 Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = 0.80
 \end{equation}
 
-
-\item This means that there is 0.80 males for each female in the class.
+  \begin{itemize}
+  \item This means that there is 0.80 males for each female in the class.
+  \en{itemize}
 \end{enumerate}
 
 
@@ -161,7 +163,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366} = 1.19
 
 \subsubsection{Interpretation}
 
-This means that there is 1.19 males for each female.
+This means that there is 1.19 males for each female who indicated that voting is an important responsibility of being a citizen.
 
 \subsection{Rates}
 
@@ -173,14 +175,16 @@ Suppose a town of 85,000 had 10 homicides last year, what is the homicide rate p
 \begin{equation}
 homicideRate = \frac{f}{n} = \frac{10}{85000} = 0.0001176
 \end{equation}
-
-\item Because this is such a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
+  \begin{itemize}
+  \item Because this is such a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
+  \end{itemize}
 
 \begin{equation}
 homicideRatePer100000  = \frac{10}{85000} \times 100,000 = 11.76
 \end{equation}
-
-\item which is read as 11.76 homicides per 100.000 population.  This is a convenient comparison statistic between groups of widely differing populations.
+  \begin{itemize}
+  \item which is read as 11.76 homicides per 100.000 population.  This is a convenient comparison statistic between groups of widely differing populations.
+  \end{itemize}
 
 \item Rates are used when the proportion of occurrences are small to obtain a measure that can be used to compare measures with different population sizes.
 
@@ -190,7 +194,9 @@ homicideRatePer100000  = \frac{10}{85000} \times 100,000 = 11.76
 Rate = \frac{f}{n} \times (per) 
 \end{equation}
 
-\item Where \emph{f} is the number of occurrences, \emph{n} is the total possible occurences, and \emph{per} is the multiplier for the rate.
+  \begin{itemize}
+  \item Where \emph{f} is the number of occurrences, \emph{n} is the total possible occurences, and \emph{per} is the multiplier for the rate.
+  \end{itemize}
 
 \end{itemize}
 
