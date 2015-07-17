@@ -51,7 +51,7 @@ A sample of various court sentencing results were collected and the results are 
  \centering
  \begin{tabular}{lrrr}  \hline
     &  \multicolumn{2}{c}{Statistic}  \\
-  & Frequency & Proportion & Percent \\ 
+Disposition  & Frequency & Proportion & Percent \\ 
    \hline
  Acquitted & 10.00 & 0.04 & 3.72 \\ 
    Suspended & 20.00 & 0.07 & 7.43 \\ 
