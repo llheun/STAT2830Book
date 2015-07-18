@@ -1,7 +1,15 @@
 \documentclass[11pt]{book}
-\usepackage{amsmath}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}
-\usepackage{verbatim}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+% \usepackage{Stat2830book}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
 \title{Using Data Science as a Tool for Social Research \\ Stat 2830 }
 \author{Statistical Computation Lab \\ Department of Statistics \\ WMU}
 %\date{}                                           % Activate to display a given date or no date
