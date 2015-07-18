@@ -132,7 +132,7 @@ The most frequently occurring value is 4, since there are two of them, so the {\
 \item Weakness: NOT all data from a variable is used to compute the {\bf{mode}}.
 \end{itemize}
 
-\newpage
+
 \section{Overall Distribution Shape}
 
 \begin{figure}[htbp]
