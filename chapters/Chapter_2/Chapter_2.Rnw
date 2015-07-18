@@ -19,7 +19,7 @@ The data from a research project cannot articulate by itself.  As social scienti
 
 {\bf{Percents, proportions, rates, and ratio}} are the primary statistics for categorical data and are used for either nominal or ordinal data.
 
- \begin{figure}[htbp]
+ \begin{figure}[H]
     \centering
     \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
