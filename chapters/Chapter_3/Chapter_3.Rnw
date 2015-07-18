@@ -247,16 +247,16 @@ Find the most appropriate measures of central tendency for each variable:
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} ccccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    Student & Birth & Legal & Expense & Movies & Food & Religion \\ \hline
-   A & North & 7 & 33 & 0 & 10 & Prot. \\ 
-   B & North & 4 & 39 & 14 & 7 & Prot. \\ 
-   C & South & 3 & 45 & 10 & 2 & Cath. \\ 
-   D & MW & 2 & 47 & 7 & 1 & None \\ 
-   E & North & 2 & 62 & 5 & 8 & Prot. \\ 
-   F & North & 5 & 48 & 1 & 6 & Jew \\ 
-   G & South & 1 & 52 & 0 & 10 & Prot. \\ 
-   H & South & 4 & 65 & 14 & 0 & Other \\ 
-   I & MW & 1 & 51 & 3 & 5 & Other \\ 
-   J & West & 2 & 43 & 4 & 6 & Cath. \\ \hline 
+   a & West & 2 & 43 & 4 & 6 & Cath. \\  
+   b & MW & 1 & 51 & 3 & 5 & Other \\ 
+   c & South & 4 & 65 & 14 & 0 & Other \\ 
+   d & South & 1 & 52 & 0 & 10 & Prot. \\
+   e & North & 5 & 48 & 1 & 6 & Jew \\ 
+   f & North & 2 & 62 & 5 & 8 & Prot. \\ 
+   g & MW & 2 & 47 & 7 & 1 & None \\ 
+   h & South & 3 & 45 & 10 & 2 & Cath. \\ 
+   i & North & 4 & 39 & 14 & 7 & Prot. \\ 
+   j & North & 7 & 33 & 0 & 10 & Prot. \\ \hline
    \end{tabular}
     \caption{Find appropriate measures of central tendency}
    \label{tab:tab11}
