@@ -235,7 +235,7 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
 PercentChange = \frac{f_2 - f_1}{f_1} \times 100\%
 \end{equation}
   \begin{itemize}
-  \item Where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).
+  \item where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).
   \end{itemize}
 
 \item The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
@@ -353,7 +353,7 @@ Looking at the marital status from the GSS survey.
 
 <<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 f2_1 <- read.spss("data/GSS2014.sav")
-tmp1 <= f2_1
+tmp1 <- f2_1
 tmp2 <- tmp1[tmp1 != "NA"]
 tmp3 <- table(tmp2)
 tmp4 <- sort(tmp3, decreasing = TRUE)
