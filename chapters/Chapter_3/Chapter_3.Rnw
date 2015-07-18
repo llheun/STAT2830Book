@@ -79,7 +79,7 @@ The \emph{median} is the value of the middle observation when the data is sorted
        2 & 4 & 4 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab9}
+   \label{tab:tab12}
 \end{table}
 
 \item median = 4
