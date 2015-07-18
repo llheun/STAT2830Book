@@ -243,7 +243,7 @@ Find the most appropriate measures of central tendency for each variable:
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} p[1cm] p[1cm] p[1cm] p[1cm] p[1cm] p[1cm] p[1cm]  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   \begin{tabular}{@{} ccccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    Student & Birth & Legal & Expense & Movies & Food & Religion \\ \hline
    A & North & 7 & 33 & 0 & 10 & Prot. \\ 
    B & North & 4 & 39 & 14 & 7 & Prot. \\ 
