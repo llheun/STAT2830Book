@@ -226,8 +226,10 @@ The other measure of location are as follows:
 	\item 18 
 	\item 24
 	\end{enumerate}
-	
+
+\pagebreak
 \item You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
+
 \begin{itemize}
 \item their region of birth
 \item the extent they support marijuana legalization (7=strong, 4=neutral, 1=weak)
@@ -260,7 +262,10 @@ Find the most appropriate measures of central tendency for each variable:
    \label{tab:tab11}
 \end{table}
 
-
-
-		
+  \begin{enumerate}
+  \item Find appropriate measures of central tendency for each variable
+  \end{enumerate}
+  
+  
 \end{enumerate}
+
