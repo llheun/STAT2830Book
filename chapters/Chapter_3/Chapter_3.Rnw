@@ -15,6 +15,16 @@ information they provide.
 level of measurement and characteristics of the distribution.
 \end{itemize}
 
+So what is a measure of ``central tendency,'' and why do you need to recognize the center of a group of scores?  Suppose that you took a small test with five of your classmates.  The six of you took a 6-point test on Monday and the teacher returned the test on Wednesday.  She pauses at your table and gives you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the five students did on the test.  There are three scenarios: 
+
+\begin{itemize}
+\item Everyone achieved 4 out of 6, [you're OK],
+\item Everyone scored a 5 or 6 but you, [you're not OK], or
+\item Everyone scored a 1, 2, 3, but you [you're very happy].
+\end{itemize}
+
+This method of comparing to a distribution is important in statistics.  We will define three common measures of central tendency.
+
 \section{Three Common Measures}
 
 The central tendency is a measure of where most of the data is located.
