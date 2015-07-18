@@ -3,7 +3,7 @@
 \chapter{Dataset Descriptive Information}
 \label{chap:ch2}
 
-By the end of this material, you will be able to:
+By the end of this chapter, you will be able to:
 
 \begin{itemize}
 \item Explain the purpose of descriptive statistics in making data comprehensible.
@@ -11,6 +11,9 @@ By the end of this material, you will be able to:
 %\item Construct and analyze frequency distributions for variables at each of the three levels of measurement.
 \item Construct and analyze data using graphical methods.
 \end{itemize}
+
+The data from a research project cannot articulate by itself.  As social scientists, we must compute  descriptive statistics so that we can quickly understand the results of the project.  We as researchers use data science (statistics) to elucidate the results.  In this chapter, we will consider graphics, percentages, rates, and tables.  While these single value descriptive statistics are not rigorous, but are very useful for giving project results without doubt. 
+
 
 \section{Descriptive Statistics for Categorical Data}
 
@@ -44,25 +47,30 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
    \label{tab:tab1}
  \end{table}
 
-% <<t2_1, echo=FALSE>>=
-%  dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
-%  t2_1 <- table(dt2_1$Sentence)
-%  Frequency <- sort(t2_1)
-%  tot2_1 <- sum(t2_1)
-%  Proportion <- Frequency / tot2_1 
-%  Percent    <- Proportion * 100
-%  t2_2       <- cbind( Frequency, Proportion, Percent )
-%  xtable(t2_2)
-%  rm(t2_1)
-%  rm(dt2_1)
-%  rm(Frequency)
-%  rm(t2_2)
-% @
+\begin{comment}
+ <<t2_1, echo=FALSE>>=
+  dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
+  t2_1 <- table(dt2_1$Sentence)
+  Frequency <- sort(t2_1)
+  tot2_1 <- sum(t2_1)
+  Proportion <- Frequency / tot2_1 
+  Percent    <- Proportion * 100
+  t2_2       <- cbind( Frequency, Proportion, Percent )
+  xtable(t2_2)
+  rm(t2_1)
+  rm(dt2_1)
+  rm(Frequency)
+  rm(t2_2)
+ @
+\end{comment}
+
 
 \begin{align*}
 	proportion_A &= \frac{10}{269} = 0.0372   \\
 	percent_A    &= \frac{10}{269} \times 100 = 3.72\%   \\
 \end{align*}
+
+The following describe the general form of the equation for proportions and percentages.
 
 \begin{eqnarray}
 	proportion   &=& \frac{f}{n}   \\ 
@@ -83,7 +91,7 @@ To summarize:
 \end{itemize}
 
 \subsubsection{GSS Example}
-The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are are asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See tab:tab1), compute the proportion and percent of females who indicate that voting is a very important responsibility of being a citizen.
+The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are  asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See Table: 2.2), compute the proportion and percent of females who indicate that voting is a very important responsibility of being a citizen.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -93,7 +101,7 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
      % \toprule
      &  \multicolumn{2}{c}{Gender}  \\ 
      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-        Importance of Voting  &  Male & Female \\ \hline
+        Voting Importance &  Male & Female \\ \hline
           Not  & 68 & 48 \\
           Somewhat  & 160 & 134 \\
           Very  & 437 & 366 \\ 
@@ -117,7 +125,9 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
  
 \subsection{Ratio}
 
-In a class of 25 females and 20 males, compute the following: 
+The \emph{ratio} is relation between two similar magnitudes in respect to the number of times the first contains the second.
+
+Let's consider a STAT 2830  class of 25 females and 20 males, compute the following: 
 
 \begin{enumerate}
 \item  the ratio of females to males: 
@@ -155,7 +165,7 @@ Ratio = \frac{f_1}{f_2}
 
 \subsubsection{GSS Example}
 
-After reviewing this data from the GSS (See tab:tab1), compute the ratio  of males to females who indicate that voting is a very important responsibility of being a citizen.
+After reviewing this data from the GSS (See Table 2.2), compute the ratio  of males to females who indicate that voting is a very important responsibility of being a citizen.
 
 \begin{equation}
 Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366} = 1.19
@@ -163,7 +173,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366} = 1.19
 
 \subsubsection{Interpretation}
 
-This means that there is 1.19 males for each female who indicated that voting is an important responsibility of being a citizen.
+This means that there is 1.19 males for each female who indicated that voting is a very important responsibility of being a citizen.
 
 \subsection{Rates}
 
@@ -195,7 +205,7 @@ Rate = \frac{f}{n} \times (per)
 \end{equation}
 
   \begin{itemize}
-  \item Where \emph{f} is the number of occurrences, \emph{n} is the total possible occurences, and \emph{per} is the multiplier for the rate.
+  \item where \emph{f} is the number of occurrences, \emph{n} is the total possible occurences, and \emph{per} is the multiplier for the rate.
   \end{itemize}
 
 \end{itemize}
@@ -252,7 +262,7 @@ Let's look at the frequency distribution tables for categorical data.
 	\item ordinal
 	\item interval-ratio
 	\end{itemize}	
-\item This data was collected from a counseling center as reported below.  
+\item This data (Taable 2.3) was collected from a counseling center as reported below.  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -278,6 +288,7 @@ Let's look at the frequency distribution tables for categorical data.
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Frequency Distribution for Gender }
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lcccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
@@ -287,7 +298,7 @@ Let's look at the frequency distribution tables for categorical data.
       Male & III & 3 & 50\% & 100\% \\ \hline 
   %    Total & & 6 & 100\% & \\ \hline     
    \end{tabular}
-   \caption{Frequency Distribution for Gender }
+   
    \label{tab:tab4}
 \end{table}
 
@@ -296,6 +307,7 @@ Let's look at the frequency distribution tables for categorical data.
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Frequency Distribution for Satisfaction }
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lcccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
@@ -307,7 +319,7 @@ Let's look at the frequency distribution tables for categorical data.
       (1) Very dissatisfied & II & 2 & 33.3\% & 100.0\% \\ \hline
       Total & & 6 & 100.0\% & \\ \hline      
    \end{tabular}
-   \caption{Frequency Distribution for Satisfaction }
+   
    \label{tab:tab5}
 \end{table}
 \end{itemize}
@@ -339,7 +351,8 @@ Looking at the marital status from the GSS survey.
 
 <<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 f2_1 <- read.spss("data/GSS2014.sav")
-frq2_1 <- table(f2_1$marital)
+tmp <- table(f2_1$marital)
+frq2_1 <- tmp[tmp != "NA"]
 Percent <- frq2_1 * 100 / length(f2_1$marital)
 
 sort_ms <- sort(Percent, decreasing = TRUE)
@@ -357,6 +370,7 @@ rm(Percent)
 \item The bar chart always has gaps between the bars to indicate categorical type of data.
 \end{itemize}
 
+\newpage
 \subsection{Pie Chart}
 
 <<mspie, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
@@ -367,7 +381,7 @@ pie( sort_ms)
 
 The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
-
+\newpage 
 \section{Summarizing Numerical Data}
 
 \begin{itemize}
@@ -405,7 +419,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
      4 - 6 & 34 & 1.3\% & 2.2\% \\
      6 - 8 & 51 & 2.0\% & 4.2\% \\
      8 - 10 & 143 & 5.6\% & 9.8\% \\
-     10 - 12 & 823 & 32.4\% & 42.2 \\
+     10 - 12 & 823 & 32.4\% & 42.2\% \\
      12 - 14 & 511 & 20.1\% & 62.3\% \\
      14 - 16 & 585 & 23.1\% & 85.4\% \\
      16 - 18 & 217 & 8.6\% & 94.0\% \\
@@ -422,7 +436,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 <<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
 
-YearsOfEducation <- f2_1$educ[f2_1$educ < 89]
+YearsOfEducation <- f2_1$educ[f2_1$educ > 0 & f2_1$educ < 89]
 hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 @
@@ -432,7 +446,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
 \item Histograms do not have gaps between the bars.
-\item Histograms sometimes use percentages instead of counts to make is possible to compare distributions of differing sample sizes.
+\item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 \end{itemize}
 
