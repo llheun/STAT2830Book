@@ -21,7 +21,7 @@ The data from a research project cannot articulate by itself.  As social scienti
 
  \begin{figure}[ht]
     \centering
-    \includegraphics[width=5cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
+    \includegraphics[width=5.5cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV2}
  \end{figure}
