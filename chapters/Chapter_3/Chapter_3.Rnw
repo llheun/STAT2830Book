@@ -84,7 +84,7 @@ The \emph{median} is the value of the middle observation when the data is sorted
        2 & 4 & 4 & 5 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab8}
+   \label{tab:tab9}
 \end{table}
 
 \item $median = \frac{4 + 5}{2} = 4.5 $
@@ -127,9 +127,9 @@ The most frequently occurring value is 4, since there are two of them, so the {\
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=8cm]{zskewness-300x247.png} % requires the graphicx package
-   \caption{example caption}
-   \label{fig:example}
+   \includegraphics[width=8cm]{chapters/Chapter_3/ext_figure/zskewness-300x247.png} % requires the graphicx package
+   \caption{Figure Demonstrates Left and Right Skewness}
+   \label{fig:f3_1}
 \end{figure}
 
 {\bf{Symmetric}}
