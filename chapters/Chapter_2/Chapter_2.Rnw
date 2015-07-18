@@ -159,8 +159,9 @@ Why data social scientists use ratio.
 \begin{equation}
 Ratio = \frac{f_1}{f_2}
 \end{equation}
-
-\item where $f_1$ is the number of cases in the first category and $f_2$ is the number of cases in the second category.
+  \begin{itemize}
+  \item where $f_1$ is the number of cases in the first category and $f_2$ is the number of cases in the second category.
+  \end{itemize}
 \end{itemize}
 
 \subsubsection{GSS Example}
