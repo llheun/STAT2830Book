@@ -490,7 +490,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\end{itemize}
 \end{itemize}
 	
-
+\pagebreak
 \section{Key Words}
 \begin{itemize}
 \item Bar chart
