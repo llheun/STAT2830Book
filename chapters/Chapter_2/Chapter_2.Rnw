@@ -458,8 +458,6 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 \end{itemize}
 
-\newpage
-
 \subsection{Boxplot}
 
 <<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
