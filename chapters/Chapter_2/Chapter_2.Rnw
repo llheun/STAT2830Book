@@ -554,10 +554,11 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\item $-7.2\%$
 	\end{enumerate}
 	
+\newpage	
 \item In a 2013 random sample of employees at Saint Mary's Hospital in Grand Rapids, a hospital administrator collected data about gender and various job categories.
 
  % Requires the booktabs if the memoir class is not being used
- \begin{table}[htbp]
+ \begin{table}[ht]
     \centering
     %\topcaption{Table captions are better up top} % requires the topcapt package
     \begin{tabular}{@{} lcc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
