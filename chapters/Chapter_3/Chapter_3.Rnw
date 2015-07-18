@@ -193,7 +193,7 @@ The other measure of location are as follows:
   
 \section{Key Words}
 \begin{itemize}
-\item 
+
 \item Deciles
 \item Mean
 \item Measures of central tendency
@@ -226,5 +226,41 @@ The other measure of location are as follows:
 	\item 18 
 	\item 24
 	\end{enumerate}
+	
+\item You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
+\begin{itemize}
+\item their region of birth
+\item the extent they support marijuana legalization (7=strong, 4=neutral, 1=weak)
+\item the amount of money spent on food, etc.
+\item number of movies they watched
+\item quality of cafeteria food (10=excellent, 0=bad)
+\item religous affiliation.
+\end{itemize}
+
+Find the most appropriate measures of central tendency for each variable:
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} p[1cm] p[1cm] p[1cm] p[1cm] p[1cm] p[1cm] p[1cm]  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   Student & Birth & Legal & Expense & Movies & Food & Religion \\ \hline
+   A & North & 7 & 33 & 0 & 10 & Prot. \\ 
+   B & North & 4 & 39 & 14 & 7 & Prot. \\ 
+   C & South & 3 & 45 & 10 & 2 & Cath. \\ 
+   D & MW & 2 & 47 & 7 & 1 & None \\ 
+   E & North & 2 & 62 & 5 & 8 & Prot. \\ 
+   F & North & 5 & 48 & 1 & 6 & Jew \\ 
+   G & South & 1 & 52 & 0 & 10 & Prot. \\ 
+   H & South & 4 & 65 & 14 & 0 & Other \\ 
+   I & MW & 1 & 51 & 3 & 5 & Other \\ 
+   J & West & 2 & 43 & 4 & 6 & Cath. \\ \hline 
+   \end{tabular}
+    \caption{Find appropriate measures of central tendency}
+   \label{tab:tab11}
+\end{table}
+
+
+
 		
 \end{enumerate}
