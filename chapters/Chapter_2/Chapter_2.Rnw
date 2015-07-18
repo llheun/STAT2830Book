@@ -382,7 +382,7 @@ rm(tmp5)
 
 <<mspie, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
-pie( sort_ms)
+pie( Percent)
 
 @
 
