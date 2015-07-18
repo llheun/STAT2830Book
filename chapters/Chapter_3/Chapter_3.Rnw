@@ -5,7 +5,7 @@
 
 \section{Objective}
 
-By the end of this material, you will be able to
+By the end of this chapter, you will be able to
 \begin{itemize}
 \item Explain the purposes of measures of central tendency and interpret the 
 information they provide.
@@ -69,7 +69,7 @@ The \emph{median} is the value of the middle observation when the data is sorted
        2 & 4 & 4 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab8}
+   \label{tab:tab9}
 \end{table}
 
 \item median = 4
@@ -113,7 +113,7 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
        2 & 4 & 4 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab8}
+   \label{tab:tab10}
 \end{table}
 
 The most frequently occurring value is 4, since there are two of them, so the {\bf{mode}} is 4.
