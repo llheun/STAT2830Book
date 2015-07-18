@@ -353,15 +353,20 @@ Looking at the marital status from the GSS survey.
 
 <<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 f2_1 <- read.spss("data/GSS2014.sav")
-tmp <- table(f2_1$marital)
-frq2_1 <- tmp[tmp != "NA"]
-Percent <- frq2_1 * 100 / length(f2_1)
+tmp1 <= f2_1
+tmp2 <- tmp1[tmp1 != "NA"]
+tmp3 <- table(tmp2)
+tmp4 <- sort(tmp3, decreasing = TRUE)
+tmp5 <- tmp4 * 100 / sum(tmp4)
+Percent <- tmp5[1:5]
+Percent
+barplot( Percent, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
 
-sort_ms <- sort(Percent, decreasing = TRUE)
-sort_ms
-barplot( sort_ms, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
-
-rm(frq2_1)
+rm(tmp1)
+rm(tmp2)
+rm(tmp3)
+rm(tmp4)
+rm(tmp5)
 rm(Percent)
 
 @
