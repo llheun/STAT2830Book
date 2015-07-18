@@ -192,8 +192,20 @@ The other measure of location are as follows:
 \end{itemize}
   
 \section{Key Words}
+\begin{itemize}
+\item 
+\item Deciles
+\item Mean
+\item Measures of central tendency
+\item Median
+\item Mode
+\item Percentile
+\item Quartiles
+\item Skewness
+\item $X_i$ (``x-sub-i'') 
+\end{itemize}
 
-\newpage
+\pagebreak
 
 \section{Exercises}
 
