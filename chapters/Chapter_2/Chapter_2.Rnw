@@ -151,7 +151,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = 0.80
 \end{enumerate}
 
 
-Why data social scientists use ratio.
+Why  social scientists use ratios.
 
 \begin{itemize}
 \item Ratios are useful for comparing the relative size of different categories of a variable.
