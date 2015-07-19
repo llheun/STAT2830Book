@@ -44,7 +44,7 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
     \hline
  \end{tabular}
    \caption{Frequency Distribution of Dsiposition of Criminal Cases}
-   \label{tab:tab1}
+   \label{tab:t2_1}
  \end{table}
 
 %\begin{comment}
@@ -110,7 +110,7 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
           
    \end{tabular}
    \caption{Frequency Distribution of Voting}
-   \label{tab:tab2}
+   \label{tab:t2_2}
 \end{table} 
 
 \begin{align*} 
@@ -264,7 +264,7 @@ Let's look at the frequency distribution tables for categorical data.
 	\item ordinal
 	\item interval-ratio
 	\end{itemize}	
-\item This data (Taable 2.3) was collected from a counseling center as reported below.  
+\item This data (Table 2.3) was collected from a counseling center as reported below.  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -282,7 +282,7 @@ Let's look at the frequency distribution tables for categorical data.
       N & Female & Married & 1 & 22 \\ \hline      
    \end{tabular}
    \caption{Raw data from xxxx Counseling Center.}
-   \label{tab:tab3}
+   \label{tab:t2_3}
 \end{table}
 
 \item Construct a frequency distribution Table for gender of individuals.	
@@ -301,7 +301,7 @@ Let's look at the frequency distribution tables for categorical data.
   %    Total & & 6 & 100\% & \\ \hline     
    \end{tabular}
    
-   \label{tab:tab4}
+   \label{tab:t2_4}
 \end{table}
 
 \item Construct a frequency distribution table for satisfaction level of individuals. 
@@ -322,7 +322,7 @@ Let's look at the frequency distribution tables for categorical data.
       Total & & 6 & 100.0\% & \\ \hline      
    \end{tabular}
    
-   \label{tab:tab5}
+   \label{tab:t2_5}
 \end{table}
 \end{itemize}
 
@@ -342,7 +342,7 @@ Let's look at the frequency distribution tables for categorical data.
       
    \end{tabular}
    \caption{Frequency Distribution for Marital Status  }
-   \label{tab:tab6}
+   \label{tab:t2_6}
 \end{table}
 
 
@@ -407,7 +407,7 @@ The slices represent the categories and the size of the slice corresponds to the
     \centering
     \includegraphics[width=5.8cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
     \caption{Categorical Random Variable}
-    \label{fig:RV2}
+    \label{fig:RV3}
  \end{figure}
 
 The data, of the GSS 2014 survey, show the number of years of education of the respondents.  Is the group educated?  A frequency distribution will provide an accurate picture of the overall years structure.
@@ -443,7 +443,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
      
     \end{tabular}
     \caption{Frequency Distribution of Years of Education from GSS 2014 Survey.}
-    \label{tab:tab7}
+    \label{tab:t2_7}
  \end{table}
 
 
@@ -581,7 +581,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
      Orderly & 151 & 12 \\ \hline
     \end{tabular}
     \caption{Frequency Distribution of Gender and Job categories.}
-    \label{tab:tab8}
+    \label{tab:t2_8}
  \end{table}
  
   \begin{enumerate}
@@ -603,7 +603,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
       38 & 27 & 22 & 10 & 21 & 21 & 8 & 23 & 21 \\ \hline
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab12}
+   \label{tab:t2_9}
 \end{table}
 
   \begin{enumerate}

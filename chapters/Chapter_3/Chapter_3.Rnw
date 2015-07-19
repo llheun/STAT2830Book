@@ -57,7 +57,7 @@ Illustration:
       
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab8}
+   \label{tab:t3_1}
 \end{table}
 
 \begin{equation}
@@ -79,7 +79,7 @@ The \emph{median} is the value of the middle observation when the data is sorted
        2 & 4 & 4 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab12}
+   \label{tab:t3_2}
 \end{table}
 
 \item median = 4
@@ -94,7 +94,7 @@ The \emph{median} is the value of the middle observation when the data is sorted
        2 & 4 & 4 & 5 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab9}
+   \label{tab:t3_3}
 \end{table}
 
 \item $median = \frac{4 + 5}{2} = 4.5 $
@@ -123,7 +123,7 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
        2 & 4 & 4 & 6  & 9 \\
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab10}
+   \label{tab:t3_4}
 \end{table}
 
 The most frequently occurring value is 4, since there are two of them, so the {\bf{mode}} is 4.
@@ -246,7 +246,7 @@ The other measure of location are as follows:
    United Kingdom & 519 \\ \hline
    \end{tabular}
    \caption{Source: http://www.nationmaster.com}
-   \label{tab:tab12}
+   \label{tab:t3_5}
 \end{table}
 
   \begin{enumerate}
@@ -289,7 +289,7 @@ Find the most appropriate measures of central tendency for each variable:
    j & North & 7 & 33 & 0 & 10 & Prot. \\ \hline
    \end{tabular}
     \caption{Find appropriate measures of central tendency}
-   \label{tab:tab11}
+   \label{tab:t3_6}
 \end{table}
 
   \begin{enumerate}
