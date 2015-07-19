@@ -360,8 +360,8 @@ tmp3 <- table(tmp2)
 tmp4 <- sort(tmp3, decreasing = TRUE)
 tmp5 <- tmp4 * 100 / sum(tmp4)
 Percent <- tmp5[1:5]
-Percent
-barplot( Percent, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status" )
+## Percent
+barplot( Percent, ylab="Percent", xlab="Marital Status", main="GSS 2014 Survey on Marital Status", legend.text=c("Married","Widowed","Divorced","Separated","Never Married") )
 
 rm(tmp1)
 rm(tmp2)
