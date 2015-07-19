@@ -215,10 +215,10 @@ Rate = \frac{f}{n} \times (per)
 
 \subsection{Percent Change}
 
-Suppose in 2000, a state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  What is the percentage change?
+Suppose in 2000, a state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  
 
 \begin{itemize}
-\item 
+\item What is the percentage change?
 \begin{eqnarray}
 PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
                           & = & \frac{9.2 - 6.5}{6.5} \times 100\%  \nonumber \\
