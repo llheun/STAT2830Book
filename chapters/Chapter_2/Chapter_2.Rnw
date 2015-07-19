@@ -391,6 +391,13 @@ The slices represent the categories and the size of the slice corresponds to the
 \newpage 
 \section{Summarizing Numerical Data}
 
+ \begin{figure}[ht]
+    \centering
+    \includegraphics[width=5.7cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
+    \caption{Categorical Random Variable}
+    \label{fig:RV3}
+ \end{figure}
+
 \begin{itemize}
 \item Frequency Distribution Table
 \item Histogram
@@ -398,17 +405,7 @@ The slices represent the categories and the size of the slice corresponds to the
 \item Box Plot
 \end{itemize}
  
- 
-\newpage
-
 \subsection{Frequency Distribution Table}
-
- \begin{figure}[ht]
-    \centering
-    \includegraphics[width=5.8cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
-    \caption{Categorical Random Variable}
-    \label{fig:RV3}
- \end{figure}
 
 The data, of the GSS 2014 survey, show the number of years of education of the respondents.  Is the group educated?  A frequency distribution will provide an accurate picture of the overall years structure.
 
