@@ -227,12 +227,13 @@ The other measure of location are as follows:
 	\item 24
 	\end{enumerate}
 	
-\item You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  The statistic is a measure of traffic congestion.
+\item You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
+
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
+  % \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
    \begin{tabular}{@{} ccccccccc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
       25 & 22 & 5 & 22 & 7 & 32 & 29 & 32 & 8  \\ 
       38 & 27 & 22 & 10 & 21 & 21 & 8 & 23 & 21 \\ \hline
@@ -240,12 +241,13 @@ The other measure of location are as follows:
    % \caption{Remember, \emph{never} use vertical lines in tables.}
    \label{tab:tab12}
 \end{table}
+
   \begin{enumerate}
   \item Interval-Ratio
-  \item Nominal
-  \item Ordinal
   \item Mode
+  \item Nominal
   \item Normal
+  \item Ordinal
   \end{enumerate}
   
 
