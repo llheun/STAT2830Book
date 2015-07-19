@@ -231,7 +231,7 @@ The other measure of location are as follows:
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
-   
+  \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
   % \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
    \begin{tabular}{@{} lc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
@@ -249,7 +249,11 @@ The other measure of location are as follows:
    \label{tab:tab12}
 \end{table}
 
- Which is greater in value? is there a positive skew in the data?  How do you know?
+  \begin{enumerate}
+  \item Which is greater in value? 
+  \item Is there a positive skew in the data?  
+  \item How do you know?
+  \end{enumerate}
   
 
 
