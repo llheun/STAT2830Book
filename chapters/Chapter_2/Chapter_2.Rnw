@@ -380,7 +380,7 @@ rm(tmp5)
 \newpage
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.8, fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 pie( Percent )
 
