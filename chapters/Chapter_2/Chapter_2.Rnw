@@ -400,7 +400,16 @@ The slices represent the categories and the size of the slice corresponds to the
 \end{itemize}
  
 \newpage
+
+
 \subsection{Frequency Distribution Table}
+
+ \begin{figure}[ht]
+    \centering
+    \includegraphics[width=5.5cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
+    \caption{Categorical Random Variable}
+    \label{fig:RV2}
+ \end{figure}
 
 The data, of the GSS 2014 survey, show the number of years of education of the respondents.  Is the group educated?  A frequency distribution will provide an accurate picture of the overall years structure.
 
