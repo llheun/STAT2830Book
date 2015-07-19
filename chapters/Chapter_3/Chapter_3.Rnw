@@ -227,28 +227,29 @@ The other measure of location are as follows:
 	\item 24
 	\end{enumerate}
 	
-\item You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
+\item The following table lists the number of cars per 1000 population for eight nations.  Compute the mean, median, and mode for these data.  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
   % \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
-   \begin{tabular}{@{} ccccccccc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
-      25 & 22 & 5 & 22 & 7 & 32 & 29 & 32 & 8  \\ 
-      38 & 27 & 22 & 10 & 21 & 21 & 8 & 23 & 21 \\ \hline
+   \begin{tabular}{@{} lc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
+   Nation & cars per 1000 population \\ \hline
+   United States & 819.79 \\
+   Canada & 607 \\
+   China & 83 \\
+   Russia & 293 \\
+   Japan & 591 \\
+   Mexico & 275 \\
+   Spain & 593 \\
+   United Kingdom & 519 \\ \hline
    \end{tabular}
-   % \caption{Remember, \emph{never} use vertical lines in tables.}
+   \caption{Source: http://www.nationmaster.com}
    \label{tab:tab12}
 \end{table}
 
-  \begin{enumerate}
-  \item Interval-Ratio
-  \item Mode
-  \item Nominal
-  \item Normal
-  \item Ordinal
-  \end{enumerate}
+ Which is greater in value? is there a positive skew in the data?  How do you know?
   
 
 
