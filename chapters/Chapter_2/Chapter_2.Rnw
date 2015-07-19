@@ -352,7 +352,8 @@ Looking at the marital status from the GSS survey.
 
 
 <<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.height=4, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
-f2_1 <- read.spss("data/GSS2014.sav")
+## f2_1 <- read.spss("data/GSS2014.sav")
+f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
 tmp2 <- tmp1[tmp1 != "NA"]
 tmp3 <- table(tmp2)
