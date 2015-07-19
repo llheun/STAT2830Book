@@ -447,7 +447,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 \subsection{Histogram}
 
 
-<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.8, fig.height=4, fig.cap="Year of Education">>=
 
 YearsOfEducation <- f2_1$educ[f2_1$educ > 0 & f2_1$educ < 89]
 
@@ -466,7 +466,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \subsection{Boxplot}
 
-<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=4, fig.cap="Year of Education">>=
+<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.8, fig.height=4, fig.cap="Year of Education">>=
 
 boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
