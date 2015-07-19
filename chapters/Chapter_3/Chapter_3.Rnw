@@ -23,7 +23,7 @@ So what is a measure of ``central tendency,'' and why do you need to recognize t
 \item Everyone scored a 1, 2, 3, but you [you're very happy].
 \end{itemize}
 
-This method of comparing to a distribution is important in statistics.  We will define three common measures of central tendency.
+The method of comparing to a distribution is important in statistics.  We will define three common measures of central tendency.
 
 \section{Three Common Measures}
 
@@ -226,6 +226,29 @@ The other measure of location are as follows:
 	\item 18 
 	\item 24
 	\end{enumerate}
+	
+\item You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  The statistic is a measure of traffic congestion.
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
+   \begin{tabular}{@{} ccccccccc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
+      25 & 22 & 5 & 22 & 7 & 32 & 29 & 32 & 8  \\ 
+      38 & 27 & 22 & 10 & 21 & 21 & 8 & 23 & 21 \\ \hline
+   \end{tabular}
+   % \caption{Remember, \emph{never} use vertical lines in tables.}
+   \label{tab:tab12}
+\end{table}
+  \begin{enumerate}
+  \item Interval-Ratio
+  \item Nominal
+  \item Ordinal
+  \item Mode
+  \item Normal
+  \end{enumerate}
+  
+
 
 \pagebreak
 \item You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
