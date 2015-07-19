@@ -21,7 +21,7 @@ The data from a research project cannot articulate by itself.  As social scienti
 
  \begin{figure}[ht]
     \centering
-    \includegraphics[width=5.5cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
+    \includegraphics[width=5.8cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV2}
  \end{figure}
@@ -350,7 +350,7 @@ Let's look at the frequency distribution tables for categorical data.
 
 Looking at the marital status from the GSS survey.
 
-<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.height=3.5, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=5, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 ## f2_1 <- read.spss("data/GSS2014.sav")
 f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
@@ -380,7 +380,7 @@ rm(tmp5)
 \newpage
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center",  fig.height=3.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 pie( Percent )
 
@@ -398,14 +398,14 @@ The slices represent the categories and the size of the slice corresponds to the
 \item Box Plot
 \end{itemize}
  
+ 
 \newpage
-
 
 \subsection{Frequency Distribution Table}
 
  \begin{figure}[ht]
     \centering
-    \includegraphics[width=5.5cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
+    \includegraphics[width=5.8cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV2}
  \end{figure}
