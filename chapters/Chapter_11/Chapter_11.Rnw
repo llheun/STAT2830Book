@@ -56,7 +56,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 %  \caption{Descriptive Statistics: Percent voter turnout by Election Type}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-      & \multicolumn{3}{c}{Election Type } \\
+      & \multicolumn{3}{c}{Elect.Type } \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Statistic & A & B & C \\  \hline
       Mean & 2 & 3 & 6 \\
