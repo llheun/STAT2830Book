@@ -350,7 +350,7 @@ Let's look at the frequency distribution tables for categorical data.
 
 Looking at the marital status from the GSS survey.
 
-<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=5, fig.height=5, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=4.5, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 ## f2_1 <- read.spss("data/GSS2014.sav")
 f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
@@ -380,7 +380,7 @@ rm(tmp5)
 \newpage
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.8, fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=4.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
 pie( Percent, labels= lbls )
@@ -448,7 +448,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 \subsection{Histogram}
 
 
-<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.8, fig.height=4, fig.cap="Year of Education">>=
+<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.5, fig.height=4.5, fig.cap="Year of Education">>=
 
 YearsOfEducation <- f2_1$educ[f2_1$educ > 0 & f2_1$educ < 89]
 
@@ -467,7 +467,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \subsection{Boxplot}
 
-<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.8, fig.height=4, fig.cap="Year of Education">>=
+<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.5, fig.height=4.5, fig.cap="Year of Education">>=
 
 boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
