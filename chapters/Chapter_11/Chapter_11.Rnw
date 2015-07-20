@@ -90,6 +90,15 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
    \caption{Components of ANOVA }
    \label{tab:t11_3}
 \end{table}
+
+\item Step 4.  Computing the Test Statistic.
+
+<<t11_1, echo=TRUE>>=
+  dt11_1 <- read.csv("data/EX11A.csv",header=TRUE)
+  aov11  <- aov(dt11_1$Data ~ dt11_!$Category)
+  xtable(aov11)
+ 
+@
  
  
 \end{itemize}
