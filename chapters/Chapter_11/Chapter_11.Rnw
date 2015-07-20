@@ -162,7 +162,7 @@ Does the percentage of voter turn-out change significantly by the type of electi
       78 & 45 & 10 \\
       62 & 42 & 12 \\
       57 & 65 & 61 \\
-      75 & 62 & 26 \\ 
+      75 & 62 & 28 \\ 
       72 & 25 & 29 \\
       51 & 47 & 45 \\
       69 & 52 & 44 \\
@@ -177,7 +177,7 @@ Does the percentage of voter turn-out change significantly by the type of electi
 
 % <<t11_2, echo=TRUE>>=
 %  dt11_2 <- read.csv("data/EX11B.csv",header=TRUE)
-%  aov11  <- aov(dt11_2$Data ~ dt11_2$Category)
+%  aov11  <- aov(dt11_2$Percent.turnout ~ dt11_2$Elect.type)
 %  xtable(aov11)
 % 
 % @
