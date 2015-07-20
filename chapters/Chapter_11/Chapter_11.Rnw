@@ -93,12 +93,12 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 
 \item Step 4.  Computing the Test Statistic.
 
-<<t11_1, echo=TRUE>>=
-  dt11_1 <- read.csv("data/EX11A.csv",header=TRUE)
-  aov11  <- aov(dt11_1$Data ~ dt11_1$Category)
-  xtable(aov11)
- 
-@
+% <<t11_1, echo=TRUE>>=
+%  dt11_1 <- read.csv("data/EX11A.csv",header=TRUE)
+%  aov11  <- aov(dt11_1$Data ~ dt11_1$Category)
+%  xtable(aov11)
+% 
+% @
 
 % latex table generated in R 3.2.0 by xtable 1.7-4 package
 % Mon Jul 20 11:07:48 2015
@@ -108,8 +108,8 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
  \hline
  Source  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
  \hline
-  Category & 2 & 34.67 & 17.33 & 13.00 & 0.0022 \\ 
-   Residuals & 9 & 12.00 & 1.33 &  &  \\ 
+  Category & 2 & 26 & 13 & 6.5 & 0.031 \\ 
+   Residuals & 6 & 12.00 & 2 &  &  \\ 
     \hline
  \end{tabular}
  \caption{SPSS output}
