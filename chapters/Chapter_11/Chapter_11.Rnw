@@ -257,13 +257,13 @@ Note: that there is an outlier in the local elections that may affect the conclu
 
 \item Step 4.  Computing the Test Statistic.
 
-<<t11_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
-  aov12  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type) 
-  xtable(aov12)
-  
-  rm(aov12)
-  
-@
+% <<t11_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
+%  aov12  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type) 
+%  xtable(aov12)
+%  
+%  rm(aov12)
+%  
+%@
 
  % latex table generated in R 3.2.0 by xtable 1.7-4 package
  % Mon Jul 20 16:42:46 2015
