@@ -26,25 +26,47 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 
 \begin{itemize}
 \item Are the means for categories A, B, and C significantly different at 5 percent of signifance?
-
+\begin{minipage}[ht]{6.5cm}
 % Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
+%\begin{table}[htbp]
+%   \centering
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Subject         & A & B & C \\ \hline
-      a & 2 & 3 & 4 \\ 
-      b & 3 & 4 & 6 \\
-      c & 1 & 2 & 8 \\ \hline
+      Observation         & A & B & C \\ \hline
+      1 & 2 & 3 & 4 \\ 
+      2 & 3 & 4 & 6 \\
+      3 & 1 & 2 & 8 \\ \hline
       Mean & 2 & 3 & 6 \\ \hline
    \end{tabular}
-   \caption{Listing of data by subjects and three different categories }
-   \label{tab:t11_1}
-\end{table}
+%   \caption{Listing of data by subjects and three different categories }
+%   \label{tab:t11_1}
+%\end{table}
 
+\end{minipage} \hfill
+\begin{minipage}[ht]{6.5cm}
+%\item The following is a summary of the data:
+
+
+% Requires the booktabs if the memoir class is not being used
+%\begin{table}[htbp]
+%   \centering
+%  \caption{Descriptive Statistics: Percent voter turnout by Election Type}
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      & \multicolumn{3}{c}{Election Type } \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Statistic & A & B & C \\  \hline
+      Mean & 2 & 3 & 6 \\
+      StDev & 1 & 1 & 2 \\
+      N & 3 & 3 & 3 \\ \hline
+   \end{tabular}
+   
+%   \label{tab:t11_6}
+%\end{table}
+\end{minipage}
 \item To answer this question, conduct an ANOVA test.
 
 \item Step 1.  Making Assumptions and Meeting Test Requirements.
