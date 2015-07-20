@@ -192,16 +192,114 @@ Does the percentage of voter turn-out change significantly by the type of electi
    \label{tab:t11_6}
 \end{table}
 
+\item Step 1.  Making Assumptions and Meeting Test Requirements.
 
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} ll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      % \multicolumn{2}{c}{Item} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Model: & Independent random samples \\
+             & Level of Measurement is interval-ratio \\
+             & Populations are normally distributed \\
+             & Population variances are equal \\ \hline 
+             
+   \end{tabular}
+   \caption{Assumptions }
+   \label{tab:t11_2}
+\end{table}
 
+Note: that there is an outlier in the local elections that may affect the conclusions we draw from this analysis.
 
+\item Step 2.  Stating the Hypotheses.
 
-<<f11_2, echo=TRUE>>=
-%  dt11_2 <- read.csv("data/EX11B.csv",header=TRUE)
-%  aov11  <- aov(dt11_2$Percent.turnout ~ dt11_2$Elect.type)
+ $H_0: \mu_{local} = \mu_{state} = \mu_{national}$ (all of the population means are equal) \\
+ $H_a:$ at least on of the population means $(\mu)$ is different. \\
+ 
+ \item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+ 
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} rcl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      % \multicolumn{2}{c}{Item} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Sampling Distribution & = & F-distribution \\
+      Alpha $(\alpha)$ & = & 0.05 \\
+      Degrees of Freedom (between) & = & (\# of groups - 1) = 3 - 1 = 2 \\
+      Degrees of Freedom (within) & = & (\# of samples - \# of groups) = 36 - 3 = 33 \\
+      $F_{critical}$ & = & 3.32 \\ \hline
+   \end{tabular}
+   \caption{Components of ANOVA }
+   \label{tab:t11_3}
+\end{table}
+
+\item Step 4.  Computing the Test Statistic.
+
+% <<t11_1, echo=TRUE>>=
+%  dt11_1 <- read.csv("data/EX11A.csv",header=TRUE)
+%  aov11  <- aov(dt11_1$Data ~ dt11_1$Category)
 %  xtable(aov11)
 % 
 % @
+
+% latex table generated in R 3.2.0 by xtable 1.7-4 package
+% Mon Jul 20 11:07:48 2015
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrrr}
+ \hline
+ Source  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+ \hline
+  Category & 2 & 26 & 13 & 6.5 & 0.031 \\ 
+   Error & 6 & 12 & 2 &  &  \\  \hline
+   Total & 8 & 38 \\ \hline
+ \end{tabular}
+ \caption{SPSS output}
+ \label{tab:t11_4}
+ \end{table}
+ 
+Note: 
+\begin{align*}
+SS_{total} &= 38 \\
+SS_{Category} &= 26 \\
+SS_{Error} &= 12 \\ 
+MS_{Category} &= 13 \\
+MS_{Error} &= 2 \\
+F_{obtained} &= 6.5 
+\end{align*}
+
+\item Step 5: Making a Decision and interpreting the Results of the Test
+
+\begin{align*}
+F_{obtained} &= 6.5 \\
+F_{critical} &= 5.14 \\
+pvalue &= 0.031 \\
+\alpha &= 0.05 \\
+\end{align*}
+
+Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Category means is different.
+
+
+
+<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
+  dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
+  boxplot( dt11_1$Percent.turnout ~ dt11_1$Elect.type, xlab="Election Type", ylab="Percent Turnout")
+  ## aov11  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type)
+
+
+@
+
+\item Based on the above samples, does there appear to be a difference between the three sample means?
+
+
+
+
 
 \end{itemize}
 
