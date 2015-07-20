@@ -140,7 +140,7 @@ Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Cat
 
 \end{itemize}
 
-
+\pagebreak
 \subsection{Example 2}
 
 \begin{itemize}
