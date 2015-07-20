@@ -26,6 +26,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 
 \begin{itemize}
 \item Are the means for categories A, B, and C significantly different at 5 percent of signifance?
+
 \begin{minipage}[ht]{6.5cm}
 % Requires the booktabs if the memoir class is not being used
 %\begin{table}[htbp]
