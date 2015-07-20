@@ -110,7 +110,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
  Source  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
  \hline
   Category & 2 & 26 & 13 & 6.5 & 0.031 \\ 
-   Residuals & 6 & 12.00 & 2 &  &  \\  \hline
+   Residuals & 6 & 12 & 2 &  &  \\  \hline
    Total & 8  38 \\ \hline
  \end{tabular}
  \caption{SPSS output}
