@@ -175,10 +175,11 @@ Does the percentage of voter turn-out change significantly by the type of electi
 
 \item The following is a summary of the data:
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   \caption{Descriptive Statistics: Percent voter turnout by Election Type}
+\begin{minipage}[h]{6cm}
+%% Requires the booktabs if the memoir class is not being used
+%\begin{table}[htbp]
+%   \centering
+%   \caption{Descriptive Statistics: Percent voter turnout by Election Type}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       & \multicolumn{3}{c}{Election Type } \\
@@ -189,15 +190,19 @@ Does the percentage of voter turn-out change significantly by the type of electi
       N & 12 & 12 & 12 \\ \hline
    \end{tabular}
    
-   \label{tab:t11_6}
-\end{table}
+%   \label{tab:t11_6}
+%\end{table}
+\end{minipage} \hfill
+\begin{minipage}[h]{6cm}
 
-<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
+<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2, fig.height=2, fig.cap="Voter Turnout by Election Type">>=
   dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
   boxplot( dt11_1$Percent.turnout ~ dt11_1$Elect.type, xlab="Election Type", ylab="Percent Turnout", main="Voter Turnout by Election Type")
   ## aov11  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type)
 
 @
+
+\end{minipage}
 
 Based on the above samples, do you think there is a difference among the three sample means?
 
