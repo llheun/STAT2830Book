@@ -265,53 +265,47 @@ Note: that there is an outlier in the local elections that may affect the conclu
   
 @
 
-
-% latex table generated in R 3.2.0 by xtable 1.7-4 package
-% Mon Jul 20 11:07:48 2015
-\begin{table}[ht]
-\centering
-\begin{tabular}{lrrrrr}
- \hline
- Source  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
- \hline
-  Category & 2 & 26 & 13 & 6.5 & 0.031 \\ 
-   Error & 6 & 12 & 2 &  &  \\  \hline
-   Total & 8 & 38 \\ \hline
+ % latex table generated in R 3.2.0 by xtable 1.7-4 package
+ % Mon Jul 20 16:42:46 2015
+ \begin{table}[ht]
+ \centering
+ \begin{tabular}{lrrrrr}
+   \hline
+  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+   \hline
+ Elect.type & 2 & 3342.89 & 1671.44 & 7.59 & 0.0019 \\ 
+   Error & 33 & 7265.42 & 220.16 &  &  \\ \hline
+   Total & 35 & 10608 \\
+    \hline
  \end{tabular}
  \caption{SPSS output}
- \label{tab:t11_9}
+ \label{tab:t11_10}
  \end{table}
- 
+
 Note: 
 \begin{align*}
-SS_{total} &= 38 \\
-SS_{Category} &= 26 \\
-SS_{Error} &= 12 \\ 
-MS_{Category} &= 13 \\
-MS_{Error} &= 2 \\
-F_{obtained} &= 6.5 
+SS_{total} &= 10608 \\
+SS_{Elect.type} &= 3343 \\
+SS_{Error} &= 7265 \\ 
+MS_{Elect.type} &= 1671 \\
+MS_{Error} &= 220 \\
+F_{obtained} &= 7.59 
 \end{align*}
 
 \item Step 5: Making a Decision and interpreting the Results of the Test
 
 \begin{align*}
-F_{obtained} &= 6.5 \\
-F_{critical} &= 5.14 \\
-pvalue &= 0.031 \\
+F_{obtained} &= 7.59 \\
+F_{critical} &= 3.32 \\
+pvalue &= 0.002 \\
 \alpha &= 0.05 \\
 \end{align*}
 
-Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Category means is different.
+Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the Elect.type means is different.
 
+\item Looking at the confidence interval plot, it can be seen that the confidence interval for the ``Local'' does not overlap the confidence interval for ``National.'' 
 
-
-
-
-
-
-
-
-
+\item We can then conclude that the Local is less than National, but cannot conclude that either is different from State voter rates.
 
 \end{itemize}
 
