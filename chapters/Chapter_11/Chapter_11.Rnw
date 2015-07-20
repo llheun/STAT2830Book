@@ -183,7 +183,7 @@ Does the percentage of voter turn-out change significantly by the type of electi
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       & \multicolumn{3}{c}{Election Type } \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Statistic & Local & National & State \\ 
+      Statistic & Local & National & State \\  \hline
       Mean & 36.75 & 60.25 & 46.58 \\
       StDev & 19.08 & 12.40 & 11.94 \\
       N & 12 & 12 & 12 \\ \hline
@@ -191,6 +191,16 @@ Does the percentage of voter turn-out change significantly by the type of electi
    
    \label{tab:t11_6}
 \end{table}
+
+<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
+  dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
+  boxplot( dt11_1$Percent.turnout ~ dt11_1$Elect.type, xlab="Election Type", ylab="Percent Turnout")
+  ## aov11  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type)
+
+@
+
+Based on the above samples, do you think there is a difference among the three sample means?
+
 
 \item Step 1.  Making Assumptions and Meeting Test Requirements.
 
@@ -287,13 +297,7 @@ Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Cat
 
 
 
-<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
-  dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
-  boxplot( dt11_1$Percent.turnout ~ dt11_1$Elect.type, xlab="Election Type", ylab="Percent Turnout")
-  ## aov11  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type)
 
-
-@
 
 \item Based on the above samples, does there appear to be a difference between the three sample means?
 
