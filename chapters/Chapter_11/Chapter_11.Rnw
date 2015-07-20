@@ -111,7 +111,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
  \hline
   Category & 2 & 26 & 13 & 6.5 & 0.031 \\ 
    Residuals & 6 & 12 & 2 &  &  \\  \hline
-   Total & 8  38 \\ \hline
+   Total & 8 & 38 \\ \hline
  \end{tabular}
  \caption{SPSS output}
  \label{tab:t11_4}
