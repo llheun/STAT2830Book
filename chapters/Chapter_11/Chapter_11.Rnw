@@ -143,9 +143,9 @@ Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Cat
 
 \subsection{Example 2}
 
+\begin{itemize}
+\item 
 Does the percentage of voter turn-out change significantly by the type of election?  A analyst at the state level of government chose a random sample of precincts to elucidate the findings.  You have been called in to help with the analysis.  Assess the results.
-
-
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -173,11 +173,35 @@ Does the percentage of voter turn-out change significantly by the type of electi
    \label{tab:t11_5}
 \end{table}
 
+\item The following is a summary of the data:
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   \caption{Descriptive Statistics: Percent voter turnout by Election Type}
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      & \multicolumn{3}{c}{Election Type } \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Statistic & Local & National & State \\ 
+      Mean & 36.75 & 60.25 & 46.58 \\
+      StDev & 19.08 & 12.40 & 11.94 \\
+      N & 12 & 12 & 12 \\ \hline
+   \end{tabular}
+   
+   \label{tab:t11_6}
+\end{table}
 
 
-% <<t11_2, echo=TRUE>>=
+
+
+
+<<f11_2, echo=TRUE>>=
 %  dt11_2 <- read.csv("data/EX11B.csv",header=TRUE)
 %  aov11  <- aov(dt11_2$Percent.turnout ~ dt11_2$Elect.type)
 %  xtable(aov11)
 % 
 % @
+
+\end{itemize}
+
