@@ -331,3 +331,28 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
 
 \end{itemize}
 
+\section{Key Words}
+
+\begin{itemize}
+\item Analysis of variance 
+\item ANOVA
+\item Mean square estimate
+\item One-way analysis of variance
+\item Post hoc test
+\item Sum of squares between (SSB)
+\item Sum of squares within (SSE)
+\item Total sum of squares (SST)
+\end{itemize}
+
+\pagebreak
+\begin{enumerate}
+\item new problem
+  \begin{enumerate}
+  \item choice 1
+  \item choice 2
+  \item choice 3
+  \item choice 4
+  \item choice 5
+  \end{enumerate}
+  
+\end{enumerate}
