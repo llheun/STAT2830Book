@@ -51,14 +51,14 @@ opts_chunk$set(
 
 
 
-<<Ch1, child="chapters/Chapter_1/Chapter_1.Rnw",eval=TRUE>>=
+<<Ch1, child="chapters/Chapter_1/Chapter_1.Rnw",eval=FALSE>>=
 @
 
 
-<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=TRUE>>=
+<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=FALSE>>=
 @
 
-<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=TRUE>>=
+<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=
 @
 
 <<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=FALSE>>=
@@ -83,7 +83,7 @@ opts_chunk$set(
 <<Ch10, child="chapters/Chapter_10/Chapter_10.Rnw",eval=FALSE>>=
 @
 
-<<Ch11, child="chapters/Chapter_11/Chapter_11.Rnw",eval=FALSE>>=
+<<Ch11, child="chapters/Chapter_11/Chapter_11.Rnw",eval=TRUE>>=
 @
 
 <<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=FALSE>>=
