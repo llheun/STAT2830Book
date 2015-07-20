@@ -377,7 +377,7 @@ rm(tmp5)
 \item The bar chart always has gaps between the bars to indicate categorical type of data.
 \end{itemize}
 
-\newpage
+\pagebreak
 \subsection{Pie Chart}
 
 <<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=4.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
@@ -444,9 +444,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
     \label{tab:t2_7}
  \end{table}
 
-
 \subsection{Histogram}
-
 
 <<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4, fig.height=4, fig.cap="Year of Education">>=
 
@@ -457,13 +455,16 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 @
 
 
-\newpage
+\pagebreak
+
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
 \item Histograms do not have gaps between the bars.
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 \end{itemize}
+
+
 
 \subsection{Boxplot}
 
