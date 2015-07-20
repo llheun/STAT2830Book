@@ -19,7 +19,7 @@ relationships between variables.
 
 \section{What is ANOVA?}
 
-The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means a one time by using variances.  For example, you could use the one-way ANOVA to make sense of exam performance based on test apprehension levels among students where they are divided into four independent groups.  You should note that the one-way ANOVA is an over-all test statistic which will not allow you to determine the specific groups were significantly different from the other groups.  It only indicates that you have at least one group that is different from the others.  There are post-hoc tests to say which group is different but it is beyond the scope of this introductory course.
+The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means a one time by using variances.  For example, you could use the one-way ANOVA to make sense of exam performance based on test apprehension levels among students where they are divided into four independent groups.  You should note that the one-way ANOVA is an over-all test statistic which will not allow you to determine the specific group that  was significantly different from the other groups.  It only indicates that you have at least one group that is different from the others.  There are post-hoc tests to say which group is different but it is beyond the scope of this introductory course.
 
 
 \subsection{Example 1}
@@ -57,7 +57,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
    \begin{tabular}{@{} ll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Medel: & Independent random samples \\
+      Model: & Independent random samples \\
              & Level of Measurement is interval-ratio \\
              & Populations are normally distributed \\
              & Population variances are equal \\ \hline 
@@ -110,7 +110,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
  Source  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
  \hline
   Category & 2 & 26 & 13 & 6.5 & 0.031 \\ 
-   Residuals & 6 & 12 & 2 &  &  \\  \hline
+   Error & 6 & 12 & 2 &  &  \\  \hline
    Total & 8 & 38 \\ \hline
  \end{tabular}
  \caption{SPSS output}
@@ -143,7 +143,9 @@ Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Cat
 
 \subsection{Example 2}
 
-Does the percentage of voterturn-out change significantly by the type of election?  A analyst at the state level of government chose a random sample of precincts to elucidate the findings.  You have been called in to help with the analysis.  Assess the results.
+Does the percentage of voter turn-out change significantly by the type of election?  A analyst at the state level of government chose a random sample of precincts to elucidate the findings.  You have been called in to help with the analysis.  Assess the results.
+
+
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -174,8 +176,8 @@ Does the percentage of voterturn-out change significantly by the type of electio
 
 
 % <<t11_2, echo=TRUE>>=
-%  dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
-%  aov11  <- aov(dt11_1$Data ~ dt11_1$Category)
+%  dt11_2 <- read.csv("data/EX11B.csv",header=TRUE)
+%  aov11  <- aov(dt11_2$Data ~ dt11_2$Category)
 %  xtable(aov11)
 % 
 % @
