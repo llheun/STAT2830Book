@@ -175,11 +175,11 @@ Does the percentage of voter turn-out change significantly by the type of electi
 
 \item The following is a summary of the data:
 
-\begin{minipage}[h]{6cm}
-%% Requires the booktabs if the memoir class is not being used
-%\begin{table}[htbp]
-%   \centering
-%   \caption{Descriptive Statistics: Percent voter turnout by Election Type}
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+  \caption{Descriptive Statistics: Percent voter turnout by Election Type}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       & \multicolumn{3}{c}{Election Type } \\
@@ -190,10 +190,9 @@ Does the percentage of voter turn-out change significantly by the type of electi
       N & 12 & 12 & 12 \\ \hline
    \end{tabular}
    
-%   \label{tab:t11_6}
-%\end{table}
-\end{minipage} \hfill
-\begin{minipage}[h]{6cm}
+   \label{tab:t11_6}
+\end{table}
+
 
 <<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2, fig.height=2, fig.cap="Voter Turnout by Election Type">>=
   dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
@@ -202,10 +201,8 @@ Does the percentage of voter turn-out change significantly by the type of electi
 
 @
 
-\end{minipage}
 
-Based on the above samples, do you think there is a difference among the three sample means?
-
+Based on the above samples, does there appear to be a difference between the three sample means?
 
 \item Step 1.  Making Assumptions and Meeting Test Requirements.
 
@@ -224,7 +221,7 @@ Based on the above samples, do you think there is a difference among the three s
              
    \end{tabular}
    \caption{Assumptions }
-   \label{tab:t11_2}
+   \label{tab:t11_7}
 \end{table}
 
 Note: that there is an outlier in the local elections that may affect the conclusions we draw from this analysis.
@@ -251,7 +248,7 @@ Note: that there is an outlier in the local elections that may affect the conclu
       $F_{critical}$ & = & 3.32 \\ \hline
    \end{tabular}
    \caption{Components of ANOVA }
-   \label{tab:t11_3}
+   \label{tab:t11_8}
 \end{table}
 
 \item Step 4.  Computing the Test Statistic.
@@ -276,7 +273,7 @@ Note: that there is an outlier in the local elections that may affect the conclu
    Total & 8 & 38 \\ \hline
  \end{tabular}
  \caption{SPSS output}
- \label{tab:t11_4}
+ \label{tab:t11_9}
  \end{table}
  
 Note: 
@@ -304,7 +301,7 @@ Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Cat
 
 
 
-\item Based on the above samples, does there appear to be a difference between the three sample means?
+
 
 
 
