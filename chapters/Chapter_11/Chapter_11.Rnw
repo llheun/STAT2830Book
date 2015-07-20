@@ -92,7 +92,8 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 \end{table}
  
  
-  
+\end{itemize}
+
 
 \subsection{Example 2}
 
