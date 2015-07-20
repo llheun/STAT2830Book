@@ -40,7 +40,6 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
       1 & 2 & 3 & 4 \\ 
       2 & 3 & 4 & 6 \\
       3 & 1 & 2 & 8 \\ \hline
-      Mean & 2 & 3 & 6 \\ \hline
    \end{tabular}
 %   \caption{Listing of data by subjects and three different categories }
 %   \label{tab:t11_1}
