@@ -347,7 +347,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
 
 <<t11_3, echo=TRUE>>=
   dt11_3 <- read.csv("data/EX11C.csv",header=TRUE)
-  aov13  <- aov(dt11_3$Happiness$score ~ dt11_3$Relationship)
+  aov13  <- aov(dt11_3$Happiness.score ~ dt11_3$Relationship)
   xtable(aov13)
  
 @
