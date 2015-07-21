@@ -325,9 +325,6 @@ pvalue &= 0.002 \\
 
 Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the Elect.type means is different.
 
-\item Looking at the confidence interval plot, it can be seen that the confidence interval for the ``Local'' does not overlap the confidence interval for ``National.'' 
-
-\item We can then conclude that the Local is less than National, but cannot conclude that either is different from State voter rates.
 
 \end{itemize}
 
