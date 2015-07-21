@@ -343,7 +343,15 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
 
 \pagebreak
 \begin{enumerate}
-\item new problem
+\item A random sample of 18 couples has measured the marital happiness scale in a local community.  The couples were classified by type of relationship: traditional, dual_career, and cohabitation.  Does marital happiness vary significantly by type of relationship.
+
+<<t11_3, echo=TRUE>>=
+  dt11_3 <- read.csv("data/EX11C.csv",header=TRUE)
+  aov13  <- aov(dt11_3$Happiness$score ~ dt11_3$Relationship)
+  xtable(aov13)
+ 
+@
+
   \begin{enumerate}
   \item choice 1
   \item choice 2
