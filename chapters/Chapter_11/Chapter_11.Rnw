@@ -70,7 +70,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 
 <<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Attitude score by Category (a, b, and c">>=
   dt11_0 <- read.csv("data/EX11A.csv",header=TRUE)
-  boxplot( dt11_0$Data ~ dt11_0Category, xlab="Category", ylab="Data", main="Attitude score vy Category")
+  boxplot( dt11_0$Data ~ dt11_0$Category, xlab="Category", ylab="Data", main="Attitude score vy Category")
   
 @
 
