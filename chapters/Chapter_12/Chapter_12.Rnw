@@ -24,7 +24,7 @@ Regression analysis is a method that you use when the explanatory and response v
 Let's examine the relationship between growth of the population and the number of car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
 
 \end{minipage} \hfill
-\begin{minipage}
+\begin{minipage}[ht]{6.5cm}
 
    \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      %  & \multicolumn{3}{c}{Category } \\ \hline 
@@ -40,7 +40,6 @@ Let's examine the relationship between growth of the population and the number o
      11.2 & 581 \\
      8.6 & 601 \\
      2.8 & 144 \\ \hline 
-     
    \end{tabular}
    
 \end{minipage}   
