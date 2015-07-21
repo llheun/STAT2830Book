@@ -36,7 +36,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
    \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Observation         & A & B & C \\ \hline
+      Observation         & a & b & c \\ \hline
       1 & 2 & 3 & 4 \\ 
       2 & 3 & 4 & 6 \\
       3 & 1 & 2 & 8 \\ \hline
@@ -58,7 +58,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       & \multicolumn{3}{c}{Category } \\ \hline 
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Statistic & A & B & C \\  \hline
+      Statistic & a & b & c \\  \hline
       Mean & 2 & 3 & 6 \\
       StDev & 1 & 1 & 2 \\
       N & 3 & 3 & 3 \\ \hline
@@ -68,11 +68,12 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 %\end{table}
 \end{minipage}
 
-<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Attitude score by Category (A, B, and C">>=
+<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Attitude score by Category (a, b, and c">>=
   dt11_0 <- read.csv("data/EX11A.csv",header=TRUE)
-  boxplot( dt11_0$Percent.turnout ~ dt11_0$Elect.type, xlab="Election Type", ylab="Percent Turnout", main="Voter Turnout by Election Type")
+  boxplot( dt11_0$Data ~ dt11_0Category, xlab="Category", ylab="Data", main="Attitude score vy Category")
   
 @
+
 \item To answer this question, conduct an ANOVA test.
 
 \item Step 1.  Making Assumptions and Meeting Test Requirements.
