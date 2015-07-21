@@ -46,7 +46,7 @@ Let's examine the relationship between growth of the population and the number o
 
 <<f12_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
   dt12_1 <- read.csv("data/EX12A.csv",header=TRUE)
-  boxplot( dt11_0$Data ~ dt12_1$Growth, xlab="Growth", ylab="Car Theft", main="Growth by Car Theft")
+  boxplot( dt12_1$Data ~ dt12_1$Growth, xlab="Growth", ylab="Car Theft", main="Growth by Car Theft")
   
 @
 
