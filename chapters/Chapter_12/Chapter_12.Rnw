@@ -1,16 +1,21 @@
 %!Rnw root = ../../Master.Rnw
 
-\chapter{esting the relationship between two or more numerical variables}
+\chapter{Testing the relationship between two or more numerical variables}
 \label{chap:ch12}
 
 \section{Objective}
-By the end of this material, you will be able to
+By the end of this chapter, you will be able to
 \begin{itemize}
 \item Distinguish between three applications of statistics and identify 
 situations in which each is appropriate.
 \item Distinguish between discrete and continuous variables and cite example of each.
 \item Identify and describe three levels of measurement and cite example of variable from each type.
 \end{itemize}
+
+Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  If there is an obvious (linear) relationship between the two variables, then the simple linear regression is the correct method.
+
+
+
 
 
 \section{What is Correlation?}
