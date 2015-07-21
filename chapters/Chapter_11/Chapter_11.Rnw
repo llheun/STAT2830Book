@@ -4,7 +4,7 @@
 \label{chap:ch11}
 
 \section{Objective}
-By the end of this material, you will be able to
+By the end of this chapter, you will be able to
 \begin{itemize}
 \item Identify and cite examples of when an ANOVA test is appropriate.
 \item Explain the logic of hypothesis testing as applied to ANOVA.
@@ -92,7 +92,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 \item Step 2.  Stating the Hypotheses.
 
  $H_0: \mu_A = \mu_B = \mu_c$ (all of the population means are equal) \\
- $H_a:$ at least on of the population means $(\mu)$ is different. \\
+ $H_a:$ at least one of the population means $(\mu)$ is different. \\
  
  \item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
  
@@ -255,7 +255,7 @@ Note: that there is an outlier in the local elections that may affect the conclu
 \item Step 2.  Stating the Hypotheses.
 
  $H_0: \mu_{local} = \mu_{state} = \mu_{national}$ (all of the population means are equal) \\
- $H_a:$ at least on of the population means $(\mu)$ is different. \\
+ $H_a:$ at least one of the population means $(\mu)$ is different. \\
  
  \item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
  
