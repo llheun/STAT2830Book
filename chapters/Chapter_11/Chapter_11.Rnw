@@ -67,6 +67,12 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 %   \label{tab:t11_6}
 %\end{table}
 \end{minipage}
+
+<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Attitude score by Category (A, B, and C">>=
+  dt11_0 <- read.csv("data/EX11A.csv",header=TRUE)
+  boxplot( dt11_0$Percent.turnout ~ dt11_0$Elect.type, xlab="Election Type", ylab="Percent Turnout", main="Voter Turnout by Election Type")
+  
+@
 \item To answer this question, conduct an ANOVA test.
 
 \item Step 1.  Making Assumptions and Meeting Test Requirements.
@@ -219,7 +225,7 @@ Does the percentage of voter turn-out change significantly by the type of electi
 \end{minipage}
 
 
-<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
+<<f11_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
   dt11_1 <- read.csv("data/EX11B.csv",header=TRUE)
   boxplot( dt11_1$Percent.turnout ~ dt11_1$Elect.type, xlab="Election Type", ylab="Percent Turnout", main="Voter Turnout by Election Type")
   
