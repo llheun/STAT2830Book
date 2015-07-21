@@ -363,8 +363,8 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
    \hline
   & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
    \hline
- dt11\_3\$Relationship & 2 & 65.44 & 32.72 & 1.84 & 0.1932 \\ 
-   Residuals & 15 & 267.00 & 17.80 &  &  \\ 
+ Relationship & 2 & 65.44 & 32.72 & 1.84 & 0.1932 \\ 
+   Errors & 15 & 267.00 & 17.80 &  &  \\ 
     \hline
  \end{tabular}
  \end{table}
