@@ -98,3 +98,6 @@ The pattern of points on the graph seem to indicate as the growth of the city in
 Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  If there is an obvious (linear) relationship between the two variables, then the simple linear regression is the correct method.  Let's examine an example that will help explan the process.
 
 \subsection{Example 1}
+
+this is a tests.
+
