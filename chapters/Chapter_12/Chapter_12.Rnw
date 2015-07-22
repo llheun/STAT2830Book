@@ -68,7 +68,7 @@ Person & Height.m & Self.esteem \\ \hline
 
 As we review the scatter plot, we see that the direction of the relationship is positive, (i.e., as height increase self esteem).  
 
-
+ 
 \begin{minipage}[ht]{6.5cm}
 
 Let's examine the relationship between growth of the population and the number of car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
