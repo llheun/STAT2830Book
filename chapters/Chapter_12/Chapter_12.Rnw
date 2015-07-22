@@ -58,7 +58,7 @@ Person & Height.m & Self.esteem \\ \hline
 
 % \subsubsection{Scatter plot}
 
-<<f12_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
+<<f12_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.4, fig.height=3.4, fig.cap="Growth by Car Theft">>=
   dt12_1 <- read.csv("data/esteem.csv",header=TRUE)
   plot( dt12_1$Self.esteem ~ dt12_1$Height.m, xlab="Height", ylab="Self Esteem")
   lm_1 <- lm( dt12_1$Self.esteem ~ dt12_1$Height.m )
