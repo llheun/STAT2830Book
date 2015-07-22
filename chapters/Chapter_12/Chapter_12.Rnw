@@ -12,10 +12,15 @@ situations in which each is appropriate.
 \item Identify and describe three levels of measurement and cite example of variable from each type.
 \end{itemize}
 
-Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  If there is an obvious (linear) relationship between the two variables, then the simple linear regression is the correct method.  Let's examine an example that will help explan the process.
+
 
 \section{What is Correlation?}
+
+The correlation is a common and useful statistics.  It is a single number that indicates the amount of relationship between the two variables.  The following example shows us how to interpret the results.
+
 \subsection{Example 1}
+
+
 
 \subsubsection{Scatter plot}
 
@@ -54,4 +59,7 @@ Let's examine the relationship between growth of the population and the number o
 The pattern of points on the graph seem to indicate as the growth of the city increases so does the number of auto thefts.  To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points.
 
 \section{What is Linear Regression?}
+
+Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  If there is an obvious (linear) relationship between the two variables, then the simple linear regression is the correct method.  Let's examine an example that will help explan the process.
+
 \subsection{Example 1}
