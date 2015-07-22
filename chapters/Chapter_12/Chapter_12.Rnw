@@ -24,7 +24,7 @@ The correlation is a common and useful statistics.  It is a single number that i
 
 Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that the how tall a person is affects the person's self esteem.  We probably don't need to be concerned about the direction of causality, it is not likely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  This will just keep the analysis simple.
 
-\end{minipage} \hfile
+\end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
  \begin{tabular}{@{} ccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
