@@ -52,7 +52,7 @@ Person & Height.m & Self.esteem \\ \hline
 18 & 1.71 & 3.89 \\ 
 19 & 1.61 & 3.40 \\
 20 & 1.55 &3.61 \\ \hline 
-\end{tabular} }
+\end{tabular} }}
 
 \end{minipage}
 
