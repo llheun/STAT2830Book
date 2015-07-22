@@ -55,9 +55,15 @@ Person & Height.m & Self.esteem \\ \hline
 
 \end{minipage}
 
-
-
 \subsubsection{Scatter plot}
+
+<<f12_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
+  dt12_1 <- read.csv("data/esteem.csv",header=TRUE)
+  plot( dt12_1$Self.esteem ~ dt12_1$Height.m, xlab="Height", ylab="Self Esteem", main="Height by Self Esteem")
+  
+@
+
+
 
 \begin{minipage}[ht]{6.5cm}
 
@@ -84,9 +90,9 @@ Let's examine the relationship between growth of the population and the number o
    
 \end{minipage}   
 
-<<f12_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
-  dt12_1 <- read.csv("data/EX12A.csv",header=TRUE)
-  plot( dt12_1$Car.theft ~ dt12_1$Growth, xlab="Growth", ylab="Car Theft", main="Growth by Car Theft")
+<<f12_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
+  dt12_2 <- read.csv("data/EX12A.csv",header=TRUE)
+  plot( dt12_2$Car.theft ~ dt12_2$Growth, xlab="Growth", ylab="Car Theft", main="Growth by Car Theft")
   
   
 @
