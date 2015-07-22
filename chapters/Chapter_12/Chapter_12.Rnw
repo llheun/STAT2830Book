@@ -27,7 +27,7 @@ Let's look at the relationship between the height (in meters) and self esteem (1
 \end{minipage} \hfile
 \begin{minipage}[ht]{6.5cm}
 
- \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+ \begin{tabular}{@{} ccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      %  & \multicolumn{3}{c}{Category } \\ \hline 
      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
 
