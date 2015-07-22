@@ -56,7 +56,7 @@ Person & Height.m & Self.esteem \\ \hline
 
 \end{minipage}
 
-\subsubsection{Scatter plot}
+% \subsubsection{Scatter plot}
 
 <<f12_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.1, fig.cap="Growth by Car Theft">>=
   dt12_1 <- read.csv("data/esteem.csv",header=TRUE)
