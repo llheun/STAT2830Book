@@ -27,6 +27,7 @@ Let's look at the relationship between the height (in meters) and self esteem (1
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
+{\small{
  \begin{tabular}{@{} ccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      %  & \multicolumn{3}{c}{Category } \\ \hline 
      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
@@ -51,7 +52,7 @@ Person & Height.m & Self.esteem \\ \hline
 18 & 1.71 & 3.89 \\ 
 19 & 1.61 & 3.40 \\
 20 & 1.55 &3.61 \\ \hline 
-\end{tabular} 
+\end{tabular} }
 
 \end{minipage}
 
