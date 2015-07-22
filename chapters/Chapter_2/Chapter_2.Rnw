@@ -9,7 +9,7 @@ By the end of this chapter, you will be able to:
 \item Explain the purpose of descriptive statistics in making data comprehensible.
 %\item Compute and interpret percentages, proportions, ratios, rates, and percentage change.
 %\item Construct and analyze frequency distributions for variables at each of the three levels of measurement.
-\item Construct and analyze data using graphical methods.
+\item Summarize and analyze data using graphical methods.
 \end{itemize}
 
 The data from a research project cannot articulate by itself.  As social scientists, we must compute  descriptive statistics so that we can quickly understand the results of the project.  We as researchers use data science (statistics) to elucidate the results.  In this chapter, we will consider graphics, percentages, rates, and tables.  While these single value descriptive statistics are not rigorous, but are very useful for giving project results without doubt. 
@@ -37,8 +37,8 @@ A sample of various court sentencing results were collected and the results are 
  \begin{tabular}{lrrr}  \hline
     &  \multicolumn{3}{c}{Statistic}  \\
 Disposition  & Frequency & Proportion & Percent \\ \hline
- Acquitted & 10.00 & 0.04 & 3.72 \\ 
-   Suspended & 20.00 & 0.07 & 7.43 \\ 
+ Acquitted (A) & 10.00 & 0.04 & 3.72 \\ 
+   Suspended (S) & 20.00 & 0.07 & 7.43 \\ 
    Less than 5 yrs & 72.00 & 0.27 & 26.77 \\ 
    More than 5 yrs & 167.00 & 0.62 & 62.08 \\ 
     \hline
@@ -74,7 +74,7 @@ The following describe the general form of the equation for proportions and perc
 
 \begin{eqnarray}
 	proportion   &=& \frac{f}{n}   \\ 
-	percent(\%)  &=& \frac{f}{n} \times 100\%  
+	percent  &=& \frac{f}{n} \times 100\%  
 \end{eqnarray}
 
 \begin{itemize}
@@ -91,7 +91,7 @@ To summarize:
 \end{itemize}
 
 \subsubsection{GSS Example}
-The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are  asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See Table: 2.2), compute the proportion and percent of females who indicate that voting is a very important responsibility of being a citizen.
+The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are  asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See Table: 2.2), compute the proportion and percent of persons who indicate that voting is a very important responsibility of being a female citizen.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -101,10 +101,10 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
      % \toprule
      &  \multicolumn{2}{c}{Gender}  \\ 
      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-        Voting Importance &  Male & Female \\ \hline
-          Not  & 68 & 48 \\
-          Somewhat  & 160 & 134 \\
-          Very  & 437 & 366 \\ 
+        Voting  &  Male & Female \\ \hline
+          Not important  & 68 & 48 \\
+          Somewhat important  & 160 & 134 \\
+          Very important  & 437 & 366 \\ 
           Can't choose & 21 & 26 \\ \hline
           Total & 686  & 574 \\ \hline
           
@@ -114,13 +114,13 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
 \end{table} 
 
 \begin{align*} 
-	proportion_f &= \frac{366}{574} = 0.6376  \\
-	percent_f    &= \frac{366}{574} \times 100 = 63.76\% 
+	proportion_F &= \frac{366}{574} = 0.6376  \\
+	percent_F    &= \frac{366}{574} \times 100 = 63.76\% 
 \end{align*}	
 
 
 \subsubsection{Interpretation}
- The percent  of women who indicate that voting is a very important responsibility of being a citizen is 63.76 percent.
+ The percent  of women who indicate that voting is a very important responsibility of a citizen is 63.76 percent.
  
  
 \subsection{Ratio}
@@ -130,7 +130,7 @@ The \emph{ratio} is relation between two similar magnitudes in respect to the nu
 Let's consider a STAT 2830  class of 25 females and 20 males, compute the following: 
 
 \begin{enumerate}
-\item  the ratio of females to males: 
+\item  The ratio of females to males: 
 
 \begin{equation}
 Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{25}{20} = 1.25
@@ -151,13 +151,13 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = 0.80
 \end{enumerate}
 
 
-Why  social scientists use ratios.
+{\bf{Why  social scientists use ratios?}}
 
 \begin{itemize}
 \item Ratios are useful for comparing the relative size of different categories of a variable.
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2}
+Ratio = \frac{f_1}{f_2}, 
 \end{equation}
   \begin{itemize}
   \item where $f_1$ is the number of cases in the first category and $f_2$ is the number of cases in the second category.
@@ -166,7 +166,7 @@ Ratio = \frac{f_1}{f_2}
 
 \subsubsection{GSS Example}
 
-After reviewing this data from the GSS (See Table 2.2), compute the ratio  of males to females who indicate that voting is a very important responsibility of being a citizen.
+After reviewing the data from the GSS (See Table 2.2), compute the ratio  of males to females who indicate that voting is a very important responsibility of being a citizen.
 
 \begin{equation}
 Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366} = 1.19
@@ -178,7 +178,7 @@ This means that there is 1.19 males for each female who indicated that voting is
 
 \subsection{Rates}
 
-Suppose a town of 85,000 had 10 homicides last year, what is the homicide rate per 100,000 population?
+Suppose a town of 85,000 residents  had 10 homicides last year, what is the homicide rate per (100,000) in this town.
 
 \begin{itemize}
 \item Homicide rate is the number of deaths divided by the population size.
@@ -191,7 +191,7 @@ homicideRate = \frac{f}{n} = \frac{10}{85000} = 0.0001176
   \end{itemize}
 
 \begin{equation}
-homicideRatePer100000  = \frac{10}{85000} \times 100,000 = 11.76
+homicideRatePer100000  = \frac{10}{85000} \times 100,000 = 11.76,
 \end{equation}
   \begin{itemize}
   \item which is read as 11.76 homicides per 100.000 population.  This is a convenient comparison statistic between groups of widely differing populations.
@@ -202,7 +202,7 @@ homicideRatePer100000  = \frac{10}{85000} \times 100,000 = 11.76
 \item Rates are usually multiplied by some power of 10 to eliminate decimal points.
 
 \begin{equation}
-Rate = \frac{f}{n} \times (per) 
+Rate = \frac{f}{n} \times (per) , 
 \end{equation}
 
   \begin{itemize}
@@ -215,7 +215,7 @@ Rate = \frac{f}{n} \times (per)
 
 \subsection{Percent Change}
 
-Suppose in 2000, a state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  
+Suppose in just a year 2000, a ??? state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  
 
 \begin{itemize}
 \item What is the percentage change?
@@ -227,24 +227,23 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
                           
 \item Notice that 6.5 is used as $f_1$ since this the the earlier time (2000 versus 2010).  This results in a 41.5 percent increase in the homicide rate.  This is consistent with the reported rates since 9.2 is an increase over 6.5.
 
-\item Measures social change.
-
-\item tell us how a variable has increase (positive rate) or decreased (negative rate) over a certain span of time.
+\item The percent change measures social change.  It is telling us
+ how a variable has increased (positive rate) or decreased (negative rate) over a certain span of time.
 
 \begin{equation}
-PercentChange = \frac{f_2 - f_1}{f_1} \times 100\%
+PercentChange = \frac{f_2 - f_1}{f_1} \times 100\% ,
 \end{equation}
   \begin{itemize}
-  \item where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).
+  \item where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).  The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
+  
   \end{itemize}
 
-\item The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
 \end{itemize}
 
 
 \section{Summarizing Categorical Data}
 
-Since categorical data only has labels, there are few options for summarizing this data.
+Since categorical data only has labels, there are few options for summarizing such data.
 
 \begin{itemize}
 \item Frequency Distribution Tables
@@ -257,13 +256,8 @@ Since categorical data only has labels, there are few options for summarizing th
 Let's look at the frequency distribution tables for categorical data.
 
 \begin{itemize}
-\item Frequency distribution are tables that report the number of cases in each category on a variable.
-\item Frequency distribution can be constructed for all three levels of measurements.
-	\begin{itemize}
-	\item nominal
-	\item ordinal
-	\item interval-ratio
-	\end{itemize}	
+\item Frequency distribution are tables that report the number of cases in each category of a variable.
+
 \item This data (Table 2.3) was collected from a counseling center as reported below.  
 
 % Requires the booktabs if the memoir class is not being used
