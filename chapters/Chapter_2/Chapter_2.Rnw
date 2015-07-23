@@ -441,9 +441,9 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
     \label{tab:t2_7}
  \end{table}
 
-\subsection{Histogram}
+\subsubsection{Histogram}
 
-<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Year of Education">>=
+<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3>>=
 
 YearsOfEducation <- f2_1$educ[f2_1$educ > 0 & f2_1$educ < 89]
 
@@ -463,19 +463,14 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 
 
-\subsection{Boxplot}
+\subsubsection{Boxplot}
 
 <<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Year of Education">>=
 
 boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
 @
-%\begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=6cm]{zyearsOfEdBP.png} % requires the graphicx package
-%   \caption{Box Plot of Years of Education   }
-%   \label{fig:fig5}
-%\end{figure} 
+
 
 \begin{itemize}
 \item It is a graphical picture of the distribution of quarters of the data.
