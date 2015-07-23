@@ -129,7 +129,7 @@ Based on the above graphic, there appears to be a relationship between the two v
 
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=5.7cm]{chapters/Chapter_2/ext_figure/zCorrA.png} % requires the graphicx package
+    \includegraphics[width=6cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
     \caption{SPSS Correlation Analysis}
     \label{fig:f12_1}
  \end{figure}
