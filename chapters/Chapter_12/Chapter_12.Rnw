@@ -84,11 +84,11 @@ Based on the above graphic, there appears to be a relationship between the two v
    \begin{tabular}{@{} ll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Model: &  Random sampling  \\
+      Model: & Random sampling  \\
              & Level of Measurement is interval-ratio \\
              & Bivariate normal distribution \\
              & Linear relationship \\
-             & Variance of \emph{Y} scores is uniform for all \emph{X} values.
+             & Variance of $Y$ scores is uniform for all $X$ values.
              & Sampling distribution is bell-shaped. \\ \hline
              
    \end{tabular}
@@ -101,7 +101,7 @@ Based on the above graphic, there appears to be a relationship between the two v
 \item Step 2.  Stating the Hypotheses.
 
  $H_0: \rho = 0$ (there is no relationship between height and self esteem) \\
- $H_a: \rho \ne 0$  \\
+ $H_a: \rho \neq 0$  
  
  \item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
  
@@ -120,7 +120,7 @@ Based on the above graphic, there appears to be a relationship between the two v
       
       $t_{critical}$ & = & 2.01 \\ \hline
    \end{tabular}
-   \caption{Components of ANOVA }
+   \caption{Components of correlation }
    \label{tab:t12_2}
 \end{table}
 
