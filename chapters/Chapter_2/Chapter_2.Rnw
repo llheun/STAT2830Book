@@ -342,7 +342,7 @@ Let's look at the frequency distribution tables for categorical data.
    \label{tab:t2_6}
 \end{table}
 
-\pagebreak
+% \pagebreak
 \subsection{Bar Chart}
 
 Looking at the marital status from the GSS survey.
