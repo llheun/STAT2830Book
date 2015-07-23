@@ -71,7 +71,7 @@ Person & Height.m & Self.esteem \\ \hline
 
 As we review the scatter plot, we see that the direction of the relationship is positive, (i.e., as height increases, self esteem increases).  
 
-Based on the above graphic, there appears to be a relationship between the two variables -- height and self esteem.  But is this relationship real?  We will use the five step model to confirm our initial assumption. 
+Based on the above graphic (Figure: 2.1), there appears to be a relationship between the two variables -- height and self esteem.  But is this relationship real?  We will use the five step model to confirm our initial assumption. 
 
 \begin{itemize}
 \item Step 1.  Making Assumptions and Meeting Test Requirements.
