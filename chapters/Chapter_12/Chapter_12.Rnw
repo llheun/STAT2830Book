@@ -125,22 +125,22 @@ Based on the above graphic (Figure: 12.1), there appears to be a relationship be
 
 \item Step 4.  Computing the Test Statistic.
 
+The test statistic is computed by the following equation:
+
+\begin{align*}
+t_{obtained} &= r \sqrt{ \frac{n - 2}{1 - r^2}} \\
+              &= 0.721 \sqrt{ \frac{20 - 2}{1 - 0.721^2}} \\
+              &= 4.4145 \\
+\end{align*}
 
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=8cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
+    \includegraphics[width=10cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
     \caption{SPSS Correlation Analysis}
     \label{fig:f12_2}
  \end{figure}
   
-
-
-Note: 
-
-
 \item Step 5: Making a Decision and interpreting the Results of the Test
-
-
 
 Since $4.41 > 2.01$, we reject the null hypothesis.  Thus we can say that strong, positive relationship exists between male height and male self estemm.
 
