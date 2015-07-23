@@ -115,10 +115,9 @@ Based on the above graphic, there appears to be a relationship between the two v
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Sampling Distribution & = & t-distribution \\
-      Alpha $(\alpha)$ & = & 0.05 \\
-      Degrees of Freedom  & = & $n - 2 = 20 - 2 = 18$  \\
-      
-      $t_{critical}$ & = & 2.01 \\ \hline
+      Alpha $(\alpha)$ & = & 0.05 (two-tailed) \\
+      Degrees of Freedom  & = & $ n - 2 = 20 - 2 = 18 $  \\
+      $t_{critical}$ & = & 2.10 \\ \hline
    \end{tabular}
    \caption{Components of correlation }
    \label{tab:t12_2}
@@ -129,7 +128,7 @@ Based on the above graphic, there appears to be a relationship between the two v
 
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=6cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
+    \includegraphics[width=6.5cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
     \caption{SPSS Correlation Analysis}
     \label{fig:f12_2}
  \end{figure}
