@@ -347,7 +347,7 @@ Let's look at the frequency distribution tables for categorical data.
 
 Looking at the marital status from the GSS survey.
 
-<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.1, fig.height=4.1, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.2, fig.height=4.2, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 ## f2_1 <- read.spss("data/GSS2014.sav")
 f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
