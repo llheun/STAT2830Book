@@ -133,20 +133,20 @@ Let's consider a STAT 2830  class of 25 females and 20 males, compute the follow
 \item  The ratio of females to males: 
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{25}{20} = 1.25
+Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{25}{20} = \frac{5}{4}
 \end{equation}
   \begin{itemize}
-  \item This means that there is 1.25 females for each male in the class.
+  \item This means that there are five females for every four  males in the class.
   \end{itemize}
 
-\item   the ratio of male to females:
+\item   The ratio of male to females:
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = 0.80
+Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = \frac{4}{5}
 \end{equation}
 
   \begin{itemize}
-  \item This means that there is 0.80 males for each female in the class.
+  \item This means that there are four males for every five females in the class.
   \end{itemize}
 \end{enumerate}
 
@@ -225,7 +225,10 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
                           & = & \frac{2.7}{6.5} \times 100\%  = 41.5\%  \nonumber 
 \end{eqnarray}
                           
-\item Notice that 6.5 is used as $f_1$ since this the the earlier time (2000 versus 2010).  This results in a 41.5 percent increase in the homicide rate.  This is consistent with the reported rates since 9.2 is an increase over 6.5.
+  \begin{itemize}
+  \item Notice that 6.5 is used as $f_1$ since this the the earlier time (2000 versus 2010).  This results in a 41.5 percent increase in the homicide rate.  This is consistent with the reported rates since 9.2 is an increase over 6.5.
+  \end{itemize}
+  
 
 \item The percent change measures social change.  It is telling us
  how a variable has increased (positive rate) or decreased (negative rate) over a certain span of time.
