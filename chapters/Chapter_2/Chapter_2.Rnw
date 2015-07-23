@@ -169,12 +169,12 @@ Ratio = \frac{f_1}{f_2},
 After reviewing the data from the GSS (See Table 2.2), compute the ratio  of males to females who indicate that voting is a very important responsibility of being a citizen.
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366} = 1.19
+Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366}
 \end{equation}
 
 \subsubsection{Interpretation}
 
-This means that there is 1.19 males for each female who indicated that voting is a very important responsibility of being a citizen.
+This means that there are 437 males for every 366 females who indicated that voting is a very important responsibility of being a citizen.
 
 \subsection{Rates}
 
