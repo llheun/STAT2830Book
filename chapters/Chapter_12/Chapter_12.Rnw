@@ -174,7 +174,7 @@ Let's examine the relationship between growth of the population and the number o
    
 \end{minipage}   
 
-<<f12_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
+<<f12_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
   dt12_2 <- read.csv("data/EX12A.csv",header=TRUE)
   plot( dt12_2$Car.theft ~ dt12_2$Growth, xlab="Growth", ylab="Car Theft", main="Growth by Car Theft")
   
