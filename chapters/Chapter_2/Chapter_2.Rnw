@@ -104,9 +104,9 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
         Voting  &  Male & Female \\ \hline
           Not important  & 68 & 48 \\
           Somewhat important  & 160 & 134 \\
-          Very important  & 437 & \mbox{366} \\ 
+          Very important  & 437 & \fbox{366} \\ 
           Can't choose & 21 & 26 \\ \hline
-          Total & 686  & \mbox{574} \\ \hline
+          Total & 686  & \fbox{574} \\ \hline
           
    \end{tabular}
    \caption{Frequency Distribution of Voting}
