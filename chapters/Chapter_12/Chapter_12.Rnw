@@ -116,7 +116,7 @@ Based on the above graphic, there appears to be a relationship between the two v
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Sampling Distribution & = & t-distribution \\
       Alpha $(\alpha)$ & = & 0.05 \\
-      Degrees of Freedom  & = & $n - 2 = 20 - 2 = 18  \\
+      Degrees of Freedom  & = & $n - 2 = 20 - 2 = 18$  \\
       
       $t_{critical}$ & = & 2.01 \\ \hline
    \end{tabular}
