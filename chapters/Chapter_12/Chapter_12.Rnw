@@ -23,12 +23,12 @@ The correlation is a common and useful statistics.  It is a single number that i
 
 \subsection{Example 1}
 
-\begin{minipage}[ht]{6.5cm}
+\begin{minipage}[ht]{7cm}
 
 Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that height of  a male  affects the male's self esteem.  We probably don't need to be concerned about the direction of causality, it is not likely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  By not using females heights  will simplify  the analysis.
 
 \end{minipage} \hfill
-\begin{minipage}[ht]{6.5cm}
+\begin{minipage}[ht]{6cm}
 
 {\small{
  \begin{tabular}{@{} ccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
