@@ -39,8 +39,8 @@ A sample of various court sentencing results were collected and the results are 
 Disposition  & Frequency & Proportion & Percent \\ \hline
  Acquitted (A) & 10.00 & 0.04 & 3.72 \\ 
    Suspended (S) & 20.00 & 0.07 & 7.43 \\ 
-   Less than 5 yrs & 72.00 & 0.27 & 26.77 \\ 
-   More than 5 yrs & 167.00 & 0.62 & 62.08 \\ 
+   Less than 5 yrs sentence & 72.00 & 0.27 & 26.77 \\ 
+   More than 5 yrs sentence & 167.00 & 0.62 & 62.08 \\ 
     \hline
  \end{tabular}
    \caption{Frequency Distribution of Dsiposition of Criminal Cases}
@@ -104,9 +104,9 @@ The General Social Survey (GSS), conducted by the National Opinion Research Cent
         Voting  &  Male & Female \\ \hline
           Not important  & 68 & 48 \\
           Somewhat important  & 160 & 134 \\
-          Very important  & 437 & 366 \\ 
+          Very important  & 437 & \mbox{366} \\ 
           Can't choose & 21 & 26 \\ \hline
-          Total & 686  & 574 \\ \hline
+          Total & 686  & \mbox{574} \\ \hline
           
    \end{tabular}
    \caption{Frequency Distribution of Voting}
