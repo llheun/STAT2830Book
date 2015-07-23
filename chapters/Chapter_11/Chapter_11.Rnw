@@ -233,7 +233,7 @@ Does the percentage of voter turn-out change significantly by the type of electi
 @
 
 
-Based on the above samples, does there appear to be a difference between the three sample means?
+Based on the above samples, does there appear to be a difference between the three sample means?  But is this difference real?  We will use the five step model to confirm our initial assumption. 
 
 % \pagebreak
 

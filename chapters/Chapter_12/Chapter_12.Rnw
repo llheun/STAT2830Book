@@ -1,15 +1,18 @@
 %!Rnw root = ../../Master.Rnw
 
-\chapter{Testing the relationship between two or more numerical variables}
+\chapter{Testing the relationship between  numerical variables}
 \label{chap:ch12}
 
 \section{Objective}
 By the end of this chapter, you will be able to
 \begin{itemize}
-\item Distinguish between three applications of statistics and identify 
-situations in which each is appropriate.
-\item Distinguish between discrete and continuous variables and cite example of each.
-\item Identify and describe three levels of measurement and cite example of variable from each type.
+
+\item Interpret  a scatter plot.
+\item Interpret the correlation coefficent $r$ and $r^2$.
+\item Find and eludicate the regression line and use it to predict values of the response variable.
+\item Put into words the concepts of total, unplained, and explained variation.
+\item Use correlation and regression techniques to evaluate two variable relationships.
+
 \end{itemize}
 
 
@@ -22,7 +25,7 @@ The correlation is a common and useful statistics.  It is a single number that i
 
 \begin{minipage}[ht]{6.5cm}
 
-Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that the how tall a person is affects the person's self esteem.  We probably don't need to be concerned about the direction of causality, it is not likely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  This will just keep the analysis simple.
+Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that height of  a male  affects the male's self esteem.  We probably don't need to be concerned about the direction of causality, it is not likely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  By not using females heights  will simplify  the analysis.
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
@@ -66,7 +69,113 @@ Person & Height.m & Self.esteem \\ \hline
   
 @
 
-As we review the scatter plot, we see that the direction of the relationship is positive, (i.e., as height increase self esteem).  
+As we review the scatter plot, we see that the direction of the relationship is positive, (i.e., as height increases, self esteem increases).  
+
+Based on the above graphic, there appears to be a relationship between the two variables -- height and self esteem.  But is this relationship real?  We will use the five step model to confirm our initial assumption. 
+
+
+
+\begin{itemize}
+\item Step 1.  Making Assumptions and Meeting Test Requirements.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      % \multicolumn{2}{c}{Item} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Model: &  Random sampling  \\
+             & Level of Measurement is interval-ratio \\
+             & Bivariate normal distribution \\
+             & Linear relationship \\
+             & Variance of \emph{Y} scores is uniform for all \emph{X} values.
+             & Sampling distribution is bell-shaped. \\ \hline
+             
+   \end{tabular}
+   \caption{Assumptions }
+   \label{tab:t12_1}
+\end{table}
+
+
+
+\item Step 2.  Stating the Hypotheses.
+
+ $H_0: \rho = 0$ (there is no relationship between height and self esteem) \\
+ $H_a: \rho \ne 0$  \\
+ 
+ \item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+ 
+ 
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} rcl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      % \multicolumn{2}{c}{Item} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Sampling Distribution & = & t-distribution \\
+      Alpha $(\alpha)$ & = & 0.05 \\
+      Degrees of Freedom  & = & $n - 2 = 20 - 2 = 18  \\
+      
+      $t_{critical}$ & = & 2.01 \\ \hline
+   \end{tabular}
+   \caption{Components of ANOVA }
+   \label{tab:t11_8}
+\end{table}
+
+\item Step 4.  Computing the Test Statistic.
+
+% <<t11_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Voter Turnout by Election Type">>=
+%  aov12  <- aov(dt11_1$Percent.turnout ~ dt11_1$Elect.type) 
+%  xtable(aov12)
+%  
+%  rm(aov12)
+%  
+%@
+
+ % latex table generated in R 3.2.0 by xtable 1.7-4 package
+ % Mon Jul 20 16:42:46 2015
+ \begin{table}[ht]
+ \centering
+ \begin{tabular}{lrrrrr}
+   \hline
+  & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+   \hline
+ Elect.type & 2 & 3342.89 & 1671.44 & 7.59 & 0.0019 \\ 
+   Error & 33 & 7265.42 & 220.16 &  &  \\ \hline
+   Total & 35 & 10608 \\
+    \hline
+ \end{tabular}
+ \caption{SPSS output}
+ \label{tab:t11_10}
+ \end{table}
+
+Note: 
+\begin{align*}
+SS_{total} &= 10608 \\
+SS_{Elect.type} &= 3343 \\
+SS_{Error} &= 7265 \\ 
+MS_{Elect.type} &= 1671 \\
+MS_{Error} &= 220 \\
+F_{obtained} &= 7.59 
+\end{align*}
+
+\item Step 5: Making a Decision and interpreting the Results of the Test
+
+\begin{align*}
+F_{obtained} &= 7.59 \\
+F_{critical} &= 3.32 \\
+pvalue &= 0.002 \\
+\alpha &= 0.05 \\
+\end{align*}
+
+Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the Elect.type means is different.
+
+
+\end{itemize}
 
  
 \begin{minipage}[ht]{6.5cm}
