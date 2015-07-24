@@ -19,7 +19,7 @@ By the end of this chapter, you will be able to
 
 \section{What is Correlation?}
 
-The correlation is a common and useful statistics.  It is a single number from $-1 to +1$ that indicates the strength of relationship between the two variables.  If the number is between $-0.3 and +0.3$, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the  relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship is.   The following example shows us how to interpret the results.
+The correlation is a common and useful statistics.  It is a single number from $ -1 to +1 $ that indicates the strength of relationship between the two variables.  If the number is between $ -0.3 and +0.3 $, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship.   The following example shows us how to interpret the results.
 
 \subsection{Example 1}
 
@@ -144,7 +144,7 @@ From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r =
   
 \item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
 
-Since the $t_{obtained} (test statistic) is greater than the $t_{critical} value ($4.41 > 2.10$), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self estemm.
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self estemm.
 
 \end{itemize}
 
@@ -182,7 +182,7 @@ Let's examine the relationship between growth of the population and the number o
 }}
 \end{minipage}   
 
-<<f12_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
+<<f12_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Car Theft by Growth">>=
   dt12_2 <- read.csv("data/EX12A.csv",header=TRUE)
   plot( dt12_2$Car.theft ~ dt12_2$Growth, xlab="Growth", ylab="Car Theft")
   lm_2 <- lm( dt12_2$Car.theft ~ dt12_2$Growth )
