@@ -223,6 +223,35 @@ We can use the scatter plot for prediction.  To show this procedure, let's look 
 
 
 
+\section{Key Words}
+\begin{itemize}
+\item Bivariate normal distribution
+\item Coefficient of discrimination
+\item Correlation matrix
+\item Explained variation
+\item Homoscedasticity
+\item Linear relationship
+\item Pearson's r
+\item Regression line
+\item Scatter plot
+\item Slope
+\item Total variation
+\item Unexplained variation
+\item \emph{Y}-intercept
+\item $\hat{Y}$
+\end{itemize}
+\pagebreak
+\section{Exercises}
 
+\begin{enumerate}
+\item one
+  \begin{enumerate}
+  \item 1
+  \item 2
+  \item 3
+  \item 4
+  \item 5
+  \end{enumerate}
+\item two
 
-
+\end{enumerate}
