@@ -245,7 +245,78 @@ From the SPSS output figure 12.5, let's determine the slope of this  problem.
     \label{fig:f12_5}
  \end{figure}
  
+ After reviewing figure 12.5, we find column B and row Growth that the slope (b) is 22.665.  Our interpretation of the slope is that as the percentage change of the cities growth increases by 1 percent, the number of car thefts increase by 22.665 per year.  Let's evaluate the slope with the five step model. 
  
+\begin{itemize}
+\item {\bf{Step 1.}}  Making Assumptions and Meeting Test Requirements.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      % \multicolumn{2}{c}{Item} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Model: & Random sampling  \\
+             & Level of Measurement is interval-ratio \\
+             & Bivariate normal distribution \\
+             & Linear relationship \\
+             & Variance of $Y$ scores is uniform for all $X$ values. \\
+             & Sampling distribution is bell-shaped. \\ \hline
+             
+   \end{tabular}
+   \caption{Assumptions }
+   \label{tab:t12_3}
+\end{table}
+
+
+
+\item {\bf{Step 2.}}  Stating the Hypotheses.
+
+ $H_0: \beta = 0$ (there is no relationship between height and self esteem) \\
+ $H_a: \beta \neq 0$  
+ 
+ \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.
+ 
+ 
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} rcl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      % \multicolumn{2}{c}{Item} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Sampling Distribution & = & t-distribution \\
+      Alpha $(\alpha)$ & = & 0.05 (two-tailed) \\
+      Degrees of Freedom  & = & $ n - 2 = 10 - 2 = 8 $  \\
+      $t_{critical}$ & = & 2.3060 \\ \hline
+   \end{tabular}
+   \caption{Components of correlation }
+   \label{tab:t12_3}
+\end{table}
+
+\item {\bf{Step 4.}}  Computing the Test Statistic.
+
+The test statistic is computed by the following equation:
+
+
+
+From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r = 0.721$.  Using the above equation, the test statistic is 4.41.
+
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
+    \caption{SPSS Regression Analysis}
+    \label{fig:f12_2}
+ \end{figure}
+  
+\item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
+
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self estemm.
+
+\end{itemize} 
  
  
 
