@@ -194,7 +194,7 @@ Let's examine the relationship between the percent change of chity growth of the
   xy_11 <- 0
   xx_22 <- 20
   xy_22 <- b_0 + b_1 * 20
-  lines(c(xx_11,xy_11), c(xx_22, xy_22))
+  lines(c(xx_11,xy_11), c(xy_22, xy_22))
   
 @
 
