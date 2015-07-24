@@ -219,6 +219,25 @@ From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r =
 
 We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and car theft shown in figure 12.4.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 200 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop an model for making this prediction.
 
+\subsubsection{The Regression Line}
+
+Using the above method is crude because trying to fit a line through a cloud of points by using a free hand.  A mathematical method has been developed and implemented in many statistical programs, such as SPSS, MINITAB, SAS, R, etc., to solve this basic equation:
+
+\begin{equation}
+Y = a + bX
+\end{equation}
+
+\begin{align*}
+Y &= dependentVariable \\
+a &= Y-intercept \\
+b &= Slope \\
+X &= independentVariable \\ 
+\end{align*}
+
+
+
+
+
 
 
 
