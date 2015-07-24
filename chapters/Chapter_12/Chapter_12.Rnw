@@ -197,7 +197,16 @@ To demonstrate this pattern, we can draw a straight line that approximates the b
 
 \subsubsection{Does a Relationship Exist?}
 
-The definition of assocation states that the relationship of two variables will vary in the same direction either positive or negative.  As the \emph{X} variable increases, the \emph{Y} variable will increase (decrease if the direction is negative).  In other words, the \emph{X-Y} pair represents a point on the scatter plot.  If there is a relationship between these two variables
+The definition of an assocation states that the relationship of two variables will vary in the same direction either positive or negative.  As the \emph{X}-variable increases, the \emph{Y}-variable will increase (decrease if the direction is negative).  
+If a relationship exists between these two variables, then the best fitted line through the points will not be parallel with the x-axis.
+% In other words, the \emph{X-Y} pair represents a point on the scatter plot.  
+In a subsequent section, we will use a statistical method to test this hypothesis.
+
+\subsubsection{How Strong is the association?}
+
+The strength of this relationship is assessed by the density around the fitted regression line.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are deposited away from the line, the relationship become weaker.  What we are really talking about here is the correlation coefficient.
+
+
 
 
 
