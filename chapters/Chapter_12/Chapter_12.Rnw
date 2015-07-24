@@ -192,7 +192,7 @@ Let's examine the relationship between growth of the population and the number o
 
 \subsubsection{Interpreting Scatter Plot}
 
-The pattern of points on the graph seem to indicate as city growth  increases so does the number of auto thefts increase.  
+The pattern of points on the graph seem to indicate as city growth (percent change from 2000 to 2008)  increases so does the number of auto thefts increase.  
 To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points.
 
 \subsubsection{Does a Relationship Exist?}
@@ -215,6 +215,8 @@ From table(12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0
     \label{fig:f12_4}
  \end{figure}
 
+\subsubsection{Predicting response variable using the scatter plot}
 
+We can use the scatter plot for prediction.  
 
 
