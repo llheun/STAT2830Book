@@ -234,7 +234,20 @@ b &= Slope \\
 X &= independentVariable \\ 
 \end{align*}
 
+\subsubsection{Determine the slope (b) }
 
+From the SPSS output figure 12.5, let's determine the slope of this  problem.
+
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
+    \caption{SPSS Regression Analysis}
+    \label{fig:f12_5}
+ \end{figure}
+ 
+ 
+ 
+ 
 
 
 
