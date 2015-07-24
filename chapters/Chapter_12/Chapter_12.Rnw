@@ -19,7 +19,7 @@ By the end of this chapter, you will be able to
 
 \section{What is Correlation?}
 
-The correlation is a common and useful statistics.  It is a single number that indicates the amount of relationship between the two variables.  The following example shows us how to interpret the results.
+The correlation is a common and useful statistics.  It is a single number from $-1 to +1) that indicates the strength of relationship between the two variables.  If the number is between $-0.3 and +0.3, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the  relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship is.   The following example shows us how to interpret the results.
 
 \subsection{Example 1}
 
