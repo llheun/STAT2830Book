@@ -144,8 +144,7 @@ From table(12.2, SPSS printout), we find Pearson Correlation coefficient, $r = 0
   
 \item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
 
-Since $4.41 > 2.01$, we reject the null hypothesis.  Thus we can say that strong, positive relationship exists between male height and male self estemm.
-
+Since the test statistic is greater than the t-critical value ($4.41 > 2.01$), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self estemm.
 
 \end{itemize}
 
@@ -154,13 +153,9 @@ Since $4.41 > 2.01$, we reject the null hypothesis.  Thus we can say that strong
 
 \section{What is Linear Regression?}
 
-The pattern of points on the graph seem to indicate as the growth of the city increases so does the number of auto thefts.  
-To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points.
-
-
-
 Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  If there is an obvious (linear) relationship between the two variables, then the simple linear regression is the correct method.  Let's examine an example that will help explan the process.
- 
+
+\vspace{5mm}
 \begin{minipage}[ht]{6.5cm}
 
 Let's examine the relationship between growth of the population and the number of car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
@@ -168,6 +163,7 @@ Let's examine the relationship between growth of the population and the number o
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
+{\small{
    \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      %  & \multicolumn{3}{c}{Category } \\ \hline 
      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
@@ -183,18 +179,25 @@ Let's examine the relationship between growth of the population and the number o
      8.6 & 601 \\
      2.8 & 144 \\ \hline 
    \end{tabular}
-   
+}}
 \end{minipage}   
 
 <<f12_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Growth by Car Theft">>=
   dt12_2 <- read.csv("data/EX12A.csv",header=TRUE)
-  plot( dt12_2$Car.theft ~ dt12_2$Growth, xlab="Growth", ylab="Car Theft", main="Growth by Car Theft")
+  plot( dt12_2$Car.theft ~ dt12_2$Growth, xlab="Growth", ylab="Car Theft")
+  lm_2 <- lm( dt12_2$Car.theft ~ dt12_2$Growth )
+  abline( lm_2 )
   
 @
 
+\subsubsection{Interpreting Scatter Plot}
+
+The pattern of points on the graph seem to indicate as city growth  increases so does the number of auto thefts increase.  
+To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points.
+
+\subsubsection{Does a Relationship Exist?}
+
+khkjhk
 
 
-
-
-this is a tests.
 
