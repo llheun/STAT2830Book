@@ -192,8 +192,8 @@ Let's examine the relationship between growth of the population and the number o
 
 \subsubsection{Interpreting Scatter Plot}
 
-The pattern of points on the graph seem to indicate as city growth (percent change from 2000 to 2008)  increases so does the number of auto thefts increase.  
-To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points.
+The pattern of points on the graph seem to indicate that  city growth (percent change from 2000 to 2008)  increases so does the number of auto thefts increase.  
+To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points (See figure 12.3).
 
 \subsubsection{Does a Relationship Exist?}
 
@@ -206,7 +206,7 @@ In a subsequent section, we will use a statistical method to test this hypothesi
 
 The strength of this relationship is assessed by the density around the fitted regression line.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are deposited away from the line, the relationship become weaker.  What we are really talking about here is the correlation coefficient.
 
-From table(12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a strong correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
+From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a strong correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
 
   \begin{figure}[ht]
     \centering
@@ -217,6 +217,7 @@ From table(12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0
 
 \subsubsection{Predicting response variable using the scatter plot}
 
-We can use the scatter plot for prediction.  
+We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and car theft shown in figure 12.4.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to 
+
 
 
