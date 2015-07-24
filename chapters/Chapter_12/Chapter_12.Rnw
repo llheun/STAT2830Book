@@ -206,6 +206,14 @@ In a subsequent section, we will use a statistical method to test this hypothesi
 
 The strength of this relationship is assessed by the density around the fitted regression line.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are deposited away from the line, the relationship become weaker.  What we are really talking about here is the correlation coefficient.
 
+From table(12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a strong correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
+
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zEX12corr.png} % requires the graphicx package
+    \caption{SPSS Correlation Analysis}
+    \label{fig:f12_4}
+ \end{figure}
 
 
 
