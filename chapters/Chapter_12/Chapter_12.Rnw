@@ -10,7 +10,7 @@ By the end of this chapter, you will be able to
 \item Interpret  a scatter plot.
 \item Interpret the correlation coefficent $r$ and $r^2$.
 \item Find and eludicate the regression line and use it to predict values of the response variable.
-\item Put into words the concepts of total, unplained, and explained variation.
+\item Put into words the concepts of total, unexplained, and explained variation.
 \item Use correlation and regression techniques to evaluate two variable relationships.
 
 \end{itemize}
@@ -34,7 +34,7 @@ Let's look at the relationship between the height (in meters) and self esteem (1
  \begin{tabular}{@{} ccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      %  & \multicolumn{3}{c}{Category } \\ \hline 
      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-Person & Height.m & Self.esteem \\ \hline
+Person & Height & Self.esteem \\ \hline
 1 & 1.73 & 4.11 \\
 2 & 1.81 & 4.62 \\
 3 & 1.57 & 3.83 \\
@@ -74,7 +74,7 @@ As we review the scatter plot, we see that the direction of the relationship is 
 Based on the above graphic (Figure: 12.1), there appears to be a relationship between the two variables -- height and self esteem.  But is this relationship real?  We will use the five step model to confirm our initial assumption. 
 
 \begin{itemize}
-\item Step 1.  Making Assumptions and Meeting Test Requirements.
+\item {\bf{Step 1.}}  Making Assumptions and Meeting Test Requirements.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -133,14 +133,16 @@ t_{obtained} &= r \sqrt{ \frac{n - 2}{1 - r^2}} \\
               &= 4.4145 \\
 \end{align*}
 
+From table(12.2, SPSS printout), we find Pearson Correlation coefficient, $r = 0.721$.  Using the above equation, the test statistic is 4.41.
+
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=10cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zCorrA.png} % requires the graphicx package
     \caption{SPSS Correlation Analysis}
     \label{fig:f12_2}
  \end{figure}
   
-\item Step 5: Making a Decision and interpreting the Results of the Test
+\item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
 
 Since $4.41 > 2.01$, we reject the null hypothesis.  Thus we can say that strong, positive relationship exists between male height and male self estemm.
 
