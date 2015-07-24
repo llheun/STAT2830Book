@@ -19,7 +19,7 @@ By the end of this chapter, you will be able to
 
 \section{What is Correlation?}
 
-The correlation is a common and useful statistics.  It is a single number from $ -1 to +1 $ that indicates the strength of relationship between the two variables.  If the number is between $ -0.3 and +0.3 $, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship.   The following example shows us how to interpret the results.
+The correlation is a common and useful statistics.  It is a single number from $-1$ to $+1$ that indicates the strength of relationship between the two variables.  If the number is between $-0.3$ and $+0.3 $, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship.   The following example shows us how to interpret the results.
 
 \subsection{Example 1}
 
@@ -144,7 +144,7 @@ From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r =
   
 \item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
 
-Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self estemm.
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self esteem.
 
 \end{itemize}
 
@@ -158,7 +158,7 @@ Regression analysis is a method that you use when the explanatory and response v
 \vspace{5mm}
 \begin{minipage}[ht]{7cm}
 
-Let's examine the relationship between growth of the population and the number of car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
+Let's examine the relationship between the percent change of chity growth of the population from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6cm}
@@ -187,6 +187,14 @@ Let's examine the relationship between growth of the population and the number o
   plot( dt12_2$Car.theft ~ dt12_2$Growth, xlab="Growth", ylab="Car Theft")
   lm_2 <- lm( dt12_2$Car.theft ~ dt12_2$Growth )
   abline( lm_2 )
+  b_1 <- lm_2$coefficient[2]
+  b_0 <- lm_2$coefficient[1]
+  
+  xx_11 <- 20
+  xy_11 <- 0
+  xx_22 <- 20
+  xy_22 <- b_0 + b_1 * 20
+  lines(c(xx_11,xy_11), c(xx_22, xy_22))
   
 @
 
