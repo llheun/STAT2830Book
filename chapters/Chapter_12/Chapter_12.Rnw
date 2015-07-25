@@ -284,7 +284,7 @@ From the SPSS output figure 12.5, let's determine the slope of this  problem.
 \item {\bf{Step 2.}}  Stating the Hypotheses.
 
  $H_0: \beta = 0$ (there is no relationship between height and self esteem) \\
- $H_a: \beta \neq 0$  
+ $H_a: \beta \neq 0$, where $\beta$ represents the population slope.
  
  \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.
  
@@ -306,13 +306,14 @@ From the SPSS output figure 12.5, let's determine the slope of this  problem.
    \label{tab:t12_3}
 \end{table}
 
-\item {\bf{Step 4.}}  Computing the Test Statistic.
+\item {\bf{Step 4.}}  Determine the Test Statistic.
 
 The test statistic is computed by the following equation:
 
 
 
-From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r = 0.721$.  Using the above equation, the test statistic is 4.41.
+From figure (12.5, SPSS printout), we find the slope (b) = 22.665.  The test statistic $t$ is 3.443.
+
 
   \begin{figure}[ht]
     \centering
@@ -323,11 +324,13 @@ From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r =
   
 \item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
 
-Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self estemm.
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 3.443 > 2.2060 $), we reject the null hypothesis.  Thus we can interpret the slope by saying as the percent change of a city increases by one, the number of annual car thefts increases by 22.7.
 
 \end{itemize} 
  
- 
+\subsubsection{Interpreting the Regression}
+
+
 
 
 
