@@ -249,7 +249,7 @@ From the SPSS output figure 12.5, let's determine the y-intercept of this  probl
 
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegD.png} % requires the graphicx package
     \caption{SPSS Regression Analysis}
     \label{fig:f12_5}
  \end{figure}
@@ -260,12 +260,7 @@ From the SPSS output figure 12.5, let's determine the y-intercept of this  probl
 
 From the SPSS output figure 12.5, let's determine the slope of this  problem.
 
-  \begin{figure}[ht]
-    \centering
-    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
-    \caption{SPSS Regression Analysis}
-    \label{fig:f12_5}
- \end{figure}
+
  
 After reviewing figure 12.5, we find column B and row Growth that the slope (b) is 22.665.  Our interpretation of the slope is that as the percentage change of the cities growth increases by 1 percent, the number of car thefts increase by 22.665 per year.  Let's evaluate the slope with the five step model. 
  
