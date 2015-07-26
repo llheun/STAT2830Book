@@ -101,7 +101,7 @@ Based on the above graphic (Figure: 12.1), there appears to be a relationship be
 \item {\bf{Step 2.}}  Stating the Hypotheses.
 
  $H_0: \rho = 0$ (there is no relationship between height and self esteem) \\
- $H_a: \rho \neq 0$  
+ $H_a: \rho \neq 0$  ($\rho$ represents the population correlation coefficient.)
  
  \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.
  
@@ -158,7 +158,7 @@ Regression analysis is a method that you use when the explanatory and response v
 \vspace{5mm}
 \begin{minipage}[ht]{7cm}
 
-Let's examine the relationship between the percent change of chity growth of the population from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
+Let's examine the relationship between the percent change of city population growth  from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6cm}
@@ -226,7 +226,7 @@ From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r =
 
 \subsubsection{Predicting response variable using the scatter plot}
 
-We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and car theft shown in figure 12.4.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 200 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop an model for making this prediction.
+We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and car theft shown in figure 12.3.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 20 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop an model for making this prediction.
 
 \subsubsection{The Regression Line}
 
