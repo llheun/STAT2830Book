@@ -243,6 +243,19 @@ b &= Slope \\
 X &= independentVariable \\ 
 \end{align*}
 
+\subsubsection{Determining the y-intercept (a)}
+
+From the SPSS output figure 12.5, let's determine the y-intercept of this  problem.
+
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
+    \caption{SPSS Regression Analysis}
+    \label{fig:f12_5}
+ \end{figure}
+ 
+ After reviewing figure 12.5, we find column B and row (Constant) (a) is 139.954.  Our interpretation of the y-intercept is that when \emph{X} = 0, 139.954.  Now keep this number in mind as we determine the slope, because we will use these two numbers to predict the annual car theft based on the percent change that a city experienced from 2000 to 2008. 
+
 \subsubsection{Determine the slope (b) }
 
 From the SPSS output figure 12.5, let's determine the slope of this  problem.
@@ -254,7 +267,7 @@ From the SPSS output figure 12.5, let's determine the slope of this  problem.
     \label{fig:f12_5}
  \end{figure}
  
- After reviewing figure 12.5, we find column B and row Growth that the slope (b) is 22.665.  Our interpretation of the slope is that as the percentage change of the cities growth increases by 1 percent, the number of car thefts increase by 22.665 per year.  Let's evaluate the slope with the five step model. 
+After reviewing figure 12.5, we find column B and row Growth that the slope (b) is 22.665.  Our interpretation of the slope is that as the percentage change of the cities growth increases by 1 percent, the number of car thefts increase by 22.665 per year.  Let's evaluate the slope with the five step model. 
  
 \begin{itemize}
 \item {\bf{Step 1.}}  Making Assumptions and Meeting Test Requirements.
@@ -328,6 +341,17 @@ Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ val
 
 \end{itemize} 
  
+\subsubsection{Prediction}
+
+Now let's put it all together.  We have an equation.  We will use the same \emph{X}-value = 20 that we used when we used a graphical solution for this problem.
+
+\begin{align*}
+\hat{Y} &= a + b(X) \\
+CarThefts &= 139.954 + 22.665(Growth) \\
+          &= 139.954 + 22.665(20) \\
+          &= 593.3 
+\end{align*}
+
 \subsubsection{Interpreting the Regression}
 
 
