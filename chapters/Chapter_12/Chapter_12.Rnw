@@ -311,7 +311,7 @@ After reviewing figure 12.5, we find column B and row Growth that the slope (b) 
       $t_{critical}$ & = & 2.3060 \\ \hline
    \end{tabular}
    \caption{Components of correlation }
-   \label{tab:t12_3}
+   \label{tab:t12_4}
 \end{table}
 
 \item {\bf{Step 4.}}  Determine the Test Statistic.
@@ -327,7 +327,7 @@ From figure (12.5, SPSS printout), we find the slope (b) = 22.665.  The test sta
     \centering
     \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
     \caption{SPSS Regression Analysis}
-    \label{fig:f12_2}
+    \label{fig:f12_6}
  \end{figure}
   
 \item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
@@ -362,14 +362,35 @@ What can predict the final exam score of a Introductory Statistics course?  Stat
    \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
        &  \multicolumn{5}{c}{Descriptive Statistics} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Statistics & Final & Midterm 1 & Midterm 2 & Project & Homework \\
+      Statistics & Final & Midterm 1 (MT1) & Midterm 2 (MT2) & Project & Homework (HW) \\ \hline
       Mean & 155.0 & 86.1 & 74.2 & 10.1 & 72.3 \\
       Standard deviation & 26.63 & 11.51 & 18.59 & 1.16 & 11.69 \\
       N & 64 & 64 & 64 & 64 & 64 \\ \hline
-      
    \end{tabular}
    \caption{Descriptive Statistics }
-   \label{tab:t12_4}
+   \label{tab:t12_5}
+\end{table}
+
+Correlation.
+
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+       &  \multicolumn{5}{c}{Pearson Correlation} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Statistics & Final & MT1 & MT2 & Project & HW \\ \hline
+      Final & 1  \\
+      MT1   & 0.715 & 1 \\
+      MT2   & 0.543 & 0.454 & 1 \\
+      Project & 0.087 & 0.101 & -0.032 & 1 \\
+      HW      & 0.273 & 0.301 & 0.218 & 0.093 & 1 \\ \hline
+      
+   \end{tabular}
+   \caption{Pearson Correlation Coefficent }
+   \label{tab:t12_6}
 \end{table}
 
 
