@@ -332,7 +332,7 @@ From figure (12.5, SPSS printout), we find the slope (b) = 22.665.  The test sta
   
 \item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
 
-Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 3.443 > 2.2060 $), we reject the null hypothesis.  Thus we can interpret the slope by saying as the percent change of a city increases by one, the number of annual car thefts increases by 22.7.
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 3.443 > 2.2060 $), we reject the null hypothesis. Thus we can interpret the slope by saying as the percent change of a city increases by one, the number of annual car thefts increases by 22.7.
 
 \end{itemize} 
  
@@ -347,7 +347,33 @@ CarThefts &= 139.954 + 22.665(Growth) \\
           &= 593.3 
 \end{align*}
 
+We can now say that a city that had percent change growth of 20 percent will have an estimated 593 automobiles stolen in one year.
+
+
 \subsubsection{Interpreting the Regression}
+
+What can predict the final exam score of a Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered data from 64 of her statistics class and did the following analysis.  
+
+ % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+       &  \multicolumn{5}{c}{Descriptive Statistics} \\
+      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+      Statistics & Final & Midterm 1 & Midterm 2 & Project & Homework \\
+      Mean & 155.0 & 86.1 & 74.2 & 10.1 & 72.3 \\
+      Standard deviation & 26.63 & 11.51 & 18.59 & 1.16 & 11.69 \\
+      N & 64 & 64 & 64 & 64 & 64 \\ \hline
+      
+   \end{tabular}
+   \caption{Descriptive Statistics }
+   \label{tab:t12_4}
+\end{table}
+
+
+One well known school of criminology has  argued that  
 
 
 
