@@ -390,7 +390,7 @@ Correlation matrix.
    \centering
    
    \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-       &  \multicolumn{5}{c}{Pearson Correlation} \\
+      % &  \multicolumn{5}{c}{Pearson Correlation} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Statistics & Final & MT1 & MT2 & Project & HW \\ \hline
       Final & 1  \\
