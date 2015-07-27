@@ -411,7 +411,7 @@ Correlation matrix.
 
 
 
-<<f12_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
+<<f12_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
   dt12_3 <- read.csv("data/grades.csv",header=TRUE)
   plot( dt12_3$Final ~ dt12_3$MT1, xlab="Mid-Term 1 ", ylab="Final")
   lm_3 <- lm( dt12_3$Final ~ dt12_3$MT1 )
@@ -421,6 +421,16 @@ Correlation matrix.
 
 @
  
+ 
+ 
+<<f12_8, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
+  
+  plot( dt12_3$residuals ~ dt12_3$fitted.values, xlab="Final -- fitted values ", ylab="Residuals")
+  
+  abline( 0,0 )
+
+@
+  
 
 
 
