@@ -362,7 +362,7 @@ What can predict the final exam score of a Introductory Statistics course?  Stat
    \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
        &  \multicolumn{5}{c}{Descriptive Statistics} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Statistics & Final & Midterm 1 (MT1) & Midterm 2 (MT2) & Project & Homework (HW) \\ \hline
+      Statistics & Final & MT1 & MT2 & Proj & HW \\ \hline
       Mean & 155.0 & 86.1 & 74.2 & 10.1 & 72.3 \\
       Standard deviation & 26.63 & 11.51 & 18.59 & 1.16 & 11.69 \\
       N & 64 & 64 & 64 & 64 & 64 \\ \hline
@@ -371,13 +371,24 @@ What can predict the final exam score of a Introductory Statistics course?  Stat
    \label{tab:t12_5}
 \end{table}
 
-Correlation.
+\begin{itemize}
+\item Where 
+  \begin{itemize}
+  \item Final -- Final exam
+  \item MT1 -- Midterm 1 exam
+  \item MT2 -- Midterm 2 exam
+  \item Proj -- Project
+  \item HW -- Homework
+  \end{itemize}
+\end{itemize}
+
+
+Correlation matrix.
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
    
-   %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
        &  \multicolumn{5}{c}{Pearson Correlation} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
@@ -385,9 +396,8 @@ Correlation.
       Final & 1  \\
       MT1   & 0.715 & 1 \\
       MT2   & 0.543 & 0.454 & 1 \\
-      Project & 0.087 & 0.101 & -0.032 & 1 \\
+      Proj & 0.087 & 0.101 & -0.032 & 1 \\
       HW      & 0.273 & 0.301 & 0.218 & 0.093 & 1 \\ \hline
-      
    \end{tabular}
    \caption{Pearson Correlation Coefficent }
    \label{tab:t12_6}
