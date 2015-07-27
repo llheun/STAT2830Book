@@ -410,7 +410,17 @@ Correlation matrix.
 \end{table}
 
 
-One well known school of criminology has  argued that  
+
+<<f12_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
+  dt12_3 <- read.csv("data/grades.csv",header=TRUE)
+  plot( dt12_3$Final ~ dt12_3$MT1, xlab="Mid-Term 1 ", ylab="Final")
+  lm_3 <- lm( dt12_3$Final ~ dt12_3$MT1 )
+  abline( lm_3 )
+  b_1 <- lm_3$coefficient[2]
+  b_0 <- lm_3$coefficient[1]
+
+@
+ 
 
 
 
