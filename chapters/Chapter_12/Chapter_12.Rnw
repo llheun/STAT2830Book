@@ -325,7 +325,7 @@ From figure (12.5, SPSS printout), we find the slope (b) = 22.665.  The test sta
 
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegC.png} % requires the graphicx package
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegD.png} % requires the graphicx package
     \caption{SPSS Regression Analysis}
     \label{fig:f12_6}
  \end{figure}
