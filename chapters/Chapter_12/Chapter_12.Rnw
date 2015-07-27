@@ -374,11 +374,17 @@ What can predict the final exam score of a Introductory Statistics course?  Stat
 \begin{itemize}
 \item Where 
   \begin{itemize}
+  \samepage
   \item Final -- Final exam
+  \samepage
   \item MT1 -- Midterm 1 exam
+  \samepage
   \item MT2 -- Midterm 2 exam
+  \samepage
   \item Proj -- Project
+  \samepage
   \item HW -- Homework
+  \samepage
   \end{itemize}
 \end{itemize}
 
