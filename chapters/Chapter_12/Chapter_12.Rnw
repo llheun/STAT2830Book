@@ -393,7 +393,7 @@ The basic descriptive statistics for the variables are reported in table 12.5.  
 \end{itemize}
 
 
-\subsucsection{Correlation matrix}
+\subsubsection{Correlation matrix}
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -417,7 +417,8 @@ After reviewing the correlation matrix (Table 12.6), we see that at the intersec
 
 \subsubsection{Scatter plot}
 
-The next step in assessing an assocation between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term 1 exam score on the horizontal, \emph{X}, axis.  
+The next step in assessing an assocation between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term 1 exam score on the horizontal, \emph{X}, axis. 
+
 <<f12_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
   dt12_3 <- read.csv("data/grades.csv",header=TRUE)
   plot( dt12_3$Final ~ dt12_3$MT1, xlab="Mid-Term 1 ", ylab="Final")
