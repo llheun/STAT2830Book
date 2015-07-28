@@ -525,8 +525,6 @@ We should note one limitation of the simple linear regression.  First correlatio
 
 \begin{enumerate}
 \item 
-
-
 How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
 beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
@@ -548,6 +546,30 @@ below.  One student drank 9 beers. You see from the scatterplot that his BAC was
   \item 1.9
   \item 9
   \item 19
+  \end{enumerate}
+
+\item 
+How well does the number of beers a student drinks predict his or her
+blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
+beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
+below.  The scatterplot shows
+
+<<f12_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
+  
+  plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
+  lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
+  abline( lm_4 )
+  b_1 <- lm_4$coefficient[2]
+  b_0 <- lm_4$coefficient[1]
+
+@
+
+  \begin{enumerate}
+  \item a weak negative relationship.
+  \item a moderately strong negative relationship.
+  \item almost no relationship.
+  \item a weak positive relationship.
+  \item a moderately strong positive straight-line relationship between number of beers and BAC.
   \end{enumerate}
 \item two
 
