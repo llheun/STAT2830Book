@@ -442,7 +442,7 @@ The next step is to determine the regression equation.
     \label{fig:f12_8}
  \end{figure}
 
-After reviewing figure 12.8, we find the \emph{Y}-intercept (\emph{a}) is 18.586, row (constant) and column B.  The slope (\emph{b}) is 1.597. 
+After reviewing figure 12.8, we find the \emph{Y}-intercept (\emph{a}) is 18.586, row (constant) and column B.  The slope (\emph{b}) is 1.597, row MT1 and column B.
 
 \begin{align*}
 Y &= a + bX \\
@@ -453,22 +453,42 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 
 \subsubsection{Diagnostics}
 
+\begin{itemize}
+\item The is one other thing that we should look at is the residuals.  
+  \begin{itemize}
+  \item 
+  \begin{equation}
+  Residual_i =  observedValue_i - predictedValue_i
+  \end{equation}
 
- 
- 
-<<f12_9,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
+
+  \item The histogram of the residuals should be a bar-shaped.
+  \item 
+  
+  <<f12_9,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
   hist(lm_3$residuals)
-@
+  @
 
- 
-<<f12_10, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
+  \item Let's look at figure 12.9.  Here we have a nearly normal-shaped curve can be drawn over the histogram.
+  \end{itemize}
+
+\item 
+
+  \begin{itemize}
+  \item 
+  \item 
+  <<f12_10, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
   
   plot( lm_3$residuals ~ lm_3$fitted.values, xlab="Final -- fitted values ", ylab="Residuals")
   abline( 0,0 )
 
 @
-  
 
+  \item 
+  \end{itemize}
+  
+\item
+\end{itemize}
 
 
 
