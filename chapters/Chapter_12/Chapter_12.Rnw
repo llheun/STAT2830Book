@@ -413,7 +413,7 @@ The basic descriptive statistics for the variables are reported in table 12.5.  
    \label{tab:t12_6}
 \end{table}
 
-After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This tells us that we have a strong positive relationship between the average final exam score and the average mid-term 1 exam score.  The coefficient of determination ($r^2 = 0.564) which tells us that the med-term 1 score explains 56.4 percent of the variance in the final exam score.  
+After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This tells us that we have a strong positive relationship between the average final exam score and the average mid-term 1 exam score.  The coefficient of determination ($r^2 = 0.564$) which tells us that the med-term 1 score explains 56.4 percent of the variance in the final exam score.  
 
 \subsubsection{Scatter plot}
 
