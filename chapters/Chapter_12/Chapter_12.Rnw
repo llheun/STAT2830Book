@@ -352,11 +352,11 @@ We can now say that a city that had percent change growth of 20 percent will hav
 
 \subsubsection{Interpreting the Regression}
 
-What variables can she collect to predict the final exam score of a Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered data four explainatory varibles (MT1, MT2, Proj, HW) from 64 of her statistics class students and did the following analysis.  
+What variables can she collect to predict the final exam score of an Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered,  (four explainatory varibles (MT1, MT2, Proj, HW)), data from 64 of her statistics class students and did the following analysis.  
 
 \subsubsection{Descriptive Statistics}
 
-The basic descriptive statistics for the variables are reported in table 12.5.  The average final exam score is 156.1 with a score ranging  from 75 to 191.  The averge mid-term 1 exam score is 86.1 with a score ranging from 50 to 99.  As consultings we should ask ourselves, what explainatory variable should we use to predict the final exam score.   
+The basic descriptive statistics for the variables are reported in table 12.5.  The average final exam score is 156.1 with a score ranging  from 75 to 191.  The average mid-term 1 exam score is 86.1 with a score ranging from 50 to 99.  As consultants, we should ask ourselves, what explainatory variables should we use to predict the final exam score.   
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -379,15 +379,15 @@ The basic descriptive statistics for the variables are reported in table 12.5.  
 \item Where 
   \begin{itemize}
   \samepage
-  \item Final -- Final exam
+  \item Final -- Final exam score
   \samepage
-  \item MT1 -- Midterm 1 exam
+  \item MT1 -- Midterm 1 exam score
   \samepage
-  \item MT2 -- Midterm 2 exam
+  \item MT2 -- Midterm 2 exam score 
   \samepage
-  \item Proj -- Project
+  \item Proj -- Project score 
   \samepage
-  \item HW -- Homework
+  \item HW -- Homework score
   \samepage
   \end{itemize}
 \end{itemize}
@@ -437,7 +437,7 @@ The next step is to determine the regression equation.
 
   \begin{figure}[ht]
     \centering
-    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegE.png} % requires the graphicx package
+    \includegraphics[width=12cm]{chapters/Chapter_12/ext_figure/zRegE.png} % requires the graphicx package
     \caption{SPSS Regression Analysis }
     \label{fig:f12_8}
  \end{figure}
@@ -454,16 +454,17 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 \subsubsection{Diagnostics}
 
 \begin{itemize}
-\item The is one other thing that we should look at is the residuals.  
+\item There is one other thing that we should look at --  residuals.  
   \begin{itemize}
-  \item 
+  \item For each data point, we should have a computed residual:
+  
   \begin{equation}
   Residual_i =  observedValue_i - predictedValue_i
   \end{equation}
 
 
-  \item The histogram of the residuals should be a bar-shaped.
-  \item 
+  \item The histogram of the residuals should be  bell-shaped as in figure 12.9
+
   
   <<f12_9,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
   hist(lm_3$residuals)
@@ -472,11 +473,12 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
   \item Let's look at figure 12.9.  Here we have a nearly normal-shaped curve can be drawn over the histogram.
   \end{itemize}
 
-\item 
+\item Another assumption that we need to consider is homoscedasticity, i.e., is the variance of \emph{Y} scores uniform across all values of \emph{X}.
 
   \begin{itemize}
-  \item 
-  \item 
+  
+  \item Figure 12.10 shows a pattern of points that is uniform.
+  
   <<f12_10, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
   
   plot( lm_3$residuals ~ lm_3$fitted.values, xlab="Final -- fitted values ", ylab="Residuals")
@@ -484,10 +486,10 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 
 @
 
-  \item 
+  
   \end{itemize}
   
-\item
+
 \end{itemize}
 
 
