@@ -194,8 +194,8 @@ Let's examine the relationship between the percent change of city population gro
   xy_11 <- 0
   
   xy_22 <- b_0 + b_1 * 20
-  lines(c(xx_11,xy_11), c(xy_22, xy_22), type=2)
-  lines(c(xx_11, xx_11), c(xy_11, xy_22), type=2)
+  lines(c(xx_11,xy_11), c(xy_22, xy_22), col="yellow")
+  lines(c(xx_11, xx_11), c(xy_11, xy_22), col="yellow")
   
 @
 
