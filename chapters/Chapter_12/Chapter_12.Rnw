@@ -526,11 +526,21 @@ We should note one limitation of the simple linear regression.  First correlatio
 \begin{enumerate}
 \item 
 
+
 How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
 beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
 below.
 
+<<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
+  dt12_4 <- read.csv("data/beers.csv",header=TRUE)
+  plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
+  lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
+  abline( lm_4 )
+  b_1 <- lm_4$coefficient[2]
+  b_0 <- lm_4$coefficient[1]
+
+@
 
   \begin{enumerate}
   \item 1
