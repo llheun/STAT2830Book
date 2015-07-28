@@ -486,11 +486,15 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 
 @
 
-  
   \end{itemize}
   
-
 \end{itemize}
+
+\subsubsection{Summary}
+
+To conclude this analysis, the linear regression equation, the correlation coefficient, and coefficient of determination suggest that there is a strong, positive relationship between the first mid-term exam score  and the final exam score.  The amount of unexplained variation (total variation (100) - explained variation (55) = 45) suggests that there maybe other variables beside first mid-term exam that have important influence on the final exam score.
+
+We should note one limitation of the simple linear regression.  First correlation is not the same as causation.  In other words, when two variables are highly correlated, this does not necessarily mean that there is a causal relationship.  These results could be taken as support for the proposition that higher mid-term exam scores lead to higher final exam scores, the mere existence of a relationship -- even a strong relationship in the direction predicted by the theory -- does not prove that one variable causes the other.
 
 
 
