@@ -400,7 +400,7 @@ Correlation matrix.
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Statistics & Final & MT1 & MT2 & Project & HW \\ \hline
       Final & 1  \\
-      MT1   & 0.715 & 1 \\
+      MT1   & \fbox{0.751} & 1 \\
       MT2   & 0.543 & 0.454 & 1 \\
       Proj & 0.087 & 0.101 & -0.032 & 1 \\
       HW      & 0.273 & 0.301 & 0.218 & 0.093 & 1 \\ \hline
