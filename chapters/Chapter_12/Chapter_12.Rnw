@@ -352,7 +352,11 @@ We can now say that a city that had percent change growth of 20 percent will hav
 
 \subsubsection{Interpreting the Regression}
 
-What can predict the final exam score of a Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered data from 64 of her statistics class students and did the following analysis.  
+What variables can she collect to predict the final exam score of a Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered data four explainatory varibles (MT1, MT2, Proj, HW) from 64 of her statistics class students and did the following analysis.  
+
+\subsubsection{Descriptive Statistics}
+
+The basic descriptive statistics for the variables are reported in table 12.5.  The average final exam score is 156.1 with a score ranging  from 75 to 191.  The averge mid-term 1 exam score is 86.1 with a score ranging from 50 to 99.  As consultings we should ask ourselves, what explainatory variable should we use to predict the final exam score.   
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -363,8 +367,8 @@ What can predict the final exam score of a Introductory Statistics course?  Stat
        &  \multicolumn{5}{c}{Descriptive Statistics} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Statistics & Final & MT1 & MT2 & Proj & HW \\ \hline
-      Mean & 155.0 & 86.1 & 74.2 & 10.1 & 72.3 \\
-      Standard deviation & 26.63 & 11.51 & 18.59 & 1.16 & 11.69 \\
+      Mean & 156.1 & 86.1 & 74.2 & 10.1 & 72.3 \\
+      Standard deviation & 24.47 & 11.51 & 18.59 & 1.16 & 11.69 \\
       N & 64 & 64 & 64 & 64 & 64 \\ \hline
    \end{tabular}
    \caption{Descriptive Statistics }
@@ -389,7 +393,7 @@ What can predict the final exam score of a Introductory Statistics course?  Stat
 \end{itemize}
 
 
-Correlation matrix.
+\subsucsection{Correlation matrix}
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -409,7 +413,11 @@ Correlation matrix.
    \label{tab:t12_6}
 \end{table}
 
+After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This tells us that we have a strong positive relationship between the average final exam score and the average mid-term 1 exam score.  The coefficient of determination ($r^2 = 0.564) which tells us that the med-term 1 score explains 56.4 percent of the variance in the final exam score.  
 
+\subsubsection{Scatter plot}
+
+The next step in assessing an assocation between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term 1 exam score on the horizontal, \emph{X}, axis.  
 <<f12_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
   dt12_3 <- read.csv("data/grades.csv",header=TRUE)
   plot( dt12_3$Final ~ dt12_3$MT1, xlab="Mid-Term 1 ", ylab="Final")
@@ -419,6 +427,9 @@ Correlation matrix.
   b_0 <- lm_3$coefficient[1]
 
 @
+ 
+What can we say about the relationship?  The regression line is \emph{not} horizontal, so there is a relationship between these two variables.  The points are scattered around the regression line and we can see that we have a strong positive relationship. 
+
  
 <<f12_8,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
   hist(lm_3$residuals)
