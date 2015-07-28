@@ -25,7 +25,7 @@ The correlation is a common and useful statistics.  It is a single number from $
 
 \begin{minipage}[ht]{7cm}
 
-Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that height of  a male  affects the male's self esteem.  We probably don't need to be concerned about the direction of causality, it is not likely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  By not using females heights  will simplify  the analysis.
+Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that height of  a male  affects the male's self esteem.  We probably don't need to be concerned about the direction of causality, it is  imlikely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  By not using females heights  will simplify  the analysis.
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6cm}
@@ -158,7 +158,7 @@ Regression analysis is a method that you use when the explanatory and response v
 \vspace{5mm}
 \begin{minipage}[ht]{7cm}
 
-Let's examine the relationship between the percent change of city population growth  from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable.  
+Let's examine the relationship between the percent change of city population growth  from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable that we want to predict.  
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6cm}
@@ -213,7 +213,7 @@ In a subsequent section, we will use a statistical method to test this hypothesi
 
 \subsubsection{How Strong is the association?}
 
-The strength of this relationship is assessed by the density around the fitted regression line.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are deposited away from the line, the relationship become weaker.  What we are really talking about here is the correlation coefficient.
+The strength of this relationship is assessed by the density around the fitted regression line.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are posited away from the line, the relationship become weaker.  What we are really talking about here is the correlation coefficient.
 
 From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a strong correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
 
@@ -226,7 +226,7 @@ From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r =
 
 \subsubsection{Predicting response variable using the scatter plot}
 
-We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and car theft shown in figure 12.3.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 20 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop an model for making this prediction.
+We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and annual car thefts shown in figure 12.3.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 20 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop an model for making this prediction.
 
 \subsubsection{The Regression Line}
 
@@ -292,7 +292,7 @@ After reviewing figure 12.5, we find column B and row Growth that the slope (b) 
 \item {\bf{Step 2.}}  Stating the Hypotheses.
 
  $H_0: \beta = 0$ (there is no relationship between height and self esteem) \\
- $H_a: \beta \neq 0$, where $\beta$ represents the population slope.
+ $H_a: \beta \neq 0$ (where $\beta$ represents the population slope.)
  
  \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.
  
@@ -316,11 +316,11 @@ After reviewing figure 12.5, we find column B and row Growth that the slope (b) 
 
 \item {\bf{Step 4.}}  Determine the Test Statistic.
 
-The test statistic is computed by the following equation:
+The test statistic is determined from  the following table.
 
 
 
-From figure (12.5, SPSS printout), we find the slope (b) = 22.665.  The test statistic $t$ is 3.443.
+From figure (12.6, SPSS printout), we find the slope (b) = 22.665.  The test statistic $t$ is 3.443, from row Growth and column $t$.
 
 
   \begin{figure}[ht]
@@ -352,7 +352,7 @@ We can now say that a city that had percent change growth of 20 percent will hav
 
 \subsubsection{Interpreting the Regression}
 
-What can predict the final exam score of a Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered data from 64 of her statistics class and did the following analysis.  
+What can predict the final exam score of a Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered data from 64 of her statistics class students and did the following analysis.  
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
