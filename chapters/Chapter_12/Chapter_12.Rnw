@@ -431,13 +431,37 @@ The next step in assessing an assocation between two interval-ratio variables is
  
 What can we say about the relationship?  The regression line is \emph{not} horizontal, so there is a relationship between these two variables.  The points are scattered around the regression line and we can see that we have a strong positive relationship. 
 
+\subsubsection{Regression Equation}
+
+The next step is to determine the regression equation.  
+
+  \begin{figure}[ht]
+    \centering
+    \includegraphics[width=11cm]{chapters/Chapter_12/ext_figure/zRegE.png} % requires the graphicx package
+    \caption{SPSS Regression Analysis }
+    \label{fig:f12_8}
+ \end{figure}
+
+After reviewing figure 12.8, we find the \emph{Y}-intercept (\emph{a}) is 18.586, row (constant) and column B.  The slope (\emph{b}) is 1.597. 
+
+\begin{align*}
+Y &= a + bX \\
+Final &= 18.586 + 1.597(MT1)
+\end{align*}
+
+Ths interpretation of the slope is as mid-term 1 exam score increase by one unit, the final exam score increase by 1.597 points.
+
+\subsubsection{Diagnostics}
+
+
  
-<<f12_8,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
+ 
+<<f12_9,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
   hist(lm_3$residuals)
 @
 
  
-<<f12_9, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
+<<f12_10, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
   
   plot( lm_3$residuals ~ lm_3$fitted.values, xlab="Final -- fitted values ", ylab="Residuals")
   abline( 0,0 )
