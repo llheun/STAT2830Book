@@ -474,14 +474,14 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
   \item The histogram of the residuals should be  bell-shaped as in figure 12.9
 
   
-\begin{minipage}[ht]{6.5cm}
+%\begin{minipage}[ht]{6.5cm}
 
   <<f12_9,  echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Histogram of Residuals">>=
   hist(lm_3$residuals)
   @
 
-\end{minipage} \hfill
-\begin{minipage}[ht]{6.5cm}
+%\end{minipage} \hfill
+%\begin{minipage}[ht]{6.5cm}
 
   <<f12_10, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Residual Plot">>=
   
@@ -490,7 +490,7 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 
 @
 
-\end{minipage}
+%\end{minipage}
 
   \item Let's look at figure 12.9.  Here we have a nearly normal-shaped curve can be drawn over the histogram.
   \end{itemize}
