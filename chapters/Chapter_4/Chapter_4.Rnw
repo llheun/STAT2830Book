@@ -133,12 +133,12 @@ plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years
 
 @
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shaped.png} % requires the graphicx package
-   \caption{Bell-shaped Curve}
-   \label{fig:BS1}
-\end{figure}
+%\begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shaped.png} % requires the graphicx package
+%   \caption{Bell-shaped Curve}
+%   \label{fig:BS1}
+%\end{figure}
 
 The x-axis (the horizontal one) is the ages of students on a residential campus.  The y-axis (the vertical one) is the number of data points for each value on the x-axis.   
 
@@ -153,7 +153,7 @@ The calculation of the standard deviation value is much more complicated than sa
 
  \begin{figure}[htbp]
    \centering
-   \includegraphics[width=6cm]{zbell-shape1.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shape1.png} % requires the graphicx package
    \caption{Standard Deviation}
    \label{fig:BS2}
 \end{figure} 
