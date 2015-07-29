@@ -571,6 +571,30 @@ below.  The scatterplot shows
   \item a weak positive relationship.
   \item a moderately strong positive straight-line relationship between number of beers and BAC.
   \end{enumerate}
-\item two
+
+\item 
+How well does the number of beers a student drinks predict his or her
+blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
+beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
+below.  A plausible value of the correlation between number of beers and blood alcohol content, based on the scatterplot, is
+
+<<f12_13, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
+  
+  plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
+  lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
+  abline( lm_4 )
+  b_1 <- lm_4$coefficient[2]
+  b_0 <- lm_4$coefficient[1]
+
+@
+
+  \begin{enumerate}
+  \item  $r = –0.9$.
+  \item $r = –0.3$.
+  \item $r$ close to 0.
+  \item $r = 0.3$.
+  \item $r = 0.9$.
+
+  \end{enumerate}
 
 \end{enumerate}
