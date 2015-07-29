@@ -33,7 +33,7 @@ What is dispersion (variation or spread)?  Dispersion is
 
  \begin{figure}[htbp]
     \centering
-    \includegraphics[width=7cm]{{chapters/Chapter_4/ext_figure/zRV3.png} % requires the graphicx package
+    \includegraphics[width=7cm]{chapters/Chapter_4/ext_figure/zRV3.png} % requires the graphicx package
     \caption{Numerical  Random Variable}
     \label{fig:f4_1}
  \end{figure}
@@ -126,15 +126,16 @@ If you give this concept some thought, it makes sense.  Not many students will b
 Let's look at the graphical form of normal distributed data,  we find that most of the data surrounds the mean at zero.  
 
 
+<<f4_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.1, fig.height=4.1, fig.cap="Bell-Shaped curve">>=
 
 xyz <- seq(15,23,0.1)
 plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years)")
 
-
+@
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=6cm]{zbell-shaped.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shaped.png} % requires the graphicx package
    \caption{Bell-shaped Curve}
    \label{fig:BS1}
 \end{figure}
