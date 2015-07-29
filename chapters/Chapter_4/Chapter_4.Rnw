@@ -75,7 +75,7 @@ Given the data from the GSS 2014, Years of Education.
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=7cm]{zyearsOfEdBP1.png} % requires the graphicx package
+   \includegraphics[width=7cm]{chapters/Chapter_4/ext_figure/zyearsOfEdBP1.png} % requires the graphicx package
    \caption{Labeled Years of Education}
    \label{fig:yrsEd1}
 \end{figure}
