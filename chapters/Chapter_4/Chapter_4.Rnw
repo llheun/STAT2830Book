@@ -134,12 +134,7 @@ rm(xyz)
 
 @
 
-%\begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shaped.png} % requires the graphicx package
-%   \caption{Bell-shaped Curve}
-%   \label{fig:BS1}
-%\end{figure}
+
 
 The x-axis (the horizontal one) is the ages of students on a residential campus.  The y-axis (the vertical one) is the number of data points for each value on the x-axis.   
 
@@ -165,13 +160,12 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
- \begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shape1.png} % requires the graphicx package
-   \caption{Standard Deviation}
-   \label{fig:BS2}
-\end{figure} 
-
+% \begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shape1.png} % requires the graphicx package
+%   \caption{Standard Deviation}
+%   \label{fig:BS2}
+%\end{figure} 
 
 The yellow portion of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow portion of the bell-shaped curve represents two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow portion of the bell-shaped curve represents three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
 
