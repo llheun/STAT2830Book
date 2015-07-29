@@ -565,6 +565,8 @@ below.  One student drank 9 beers. You see from the scatterplot that his BAC was
   \item 19
   \end{enumerate}
 
+\pagebreak 
+
 \item 
 How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
