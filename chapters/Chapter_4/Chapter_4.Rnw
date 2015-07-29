@@ -23,7 +23,7 @@ By the end of this material, you will be able to
 \section{Definition of Dispersion}
 
 What is dispersion (variation or spread)?  Dispersion is 
-
+   
 \begin{itemize}
 \item how much does an observation varies.
 \item how much an observation misses the center.
