@@ -572,6 +572,8 @@ below.  The scatterplot shows
   \item a moderately strong positive straight-line relationship between number of beers and BAC.
   \end{enumerate}
 
+\pagebreak
+
 \item 
 How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
