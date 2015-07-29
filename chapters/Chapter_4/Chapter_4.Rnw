@@ -12,10 +12,10 @@ By the end of this material, you will be able to
 	\begin{itemize}
 	\item The range ({\bf{R}}).
 	\item The inner quartile range ({\bf{IQR}}) 
-	\item The sample variance is denoted as {\bf{$s^2$}}.
-	\item The population variance is denoted as {\bf{$\sigma^2$}}.
-	\item The sample standard deviation is denoted as {\bf{$s$}}.
-	\item The population standard deviation is denoted as {\bf{$\sigma$}}.
+	\item The sample variance (denoted as {\bf{$s^2$}}).
+	\item The population variance  (denoted as {\bf{$\sigma^2$}}).
+	\item The sample standard deviation  (denoted as {\bf{$s$}}).
+	\item The population standard deviation  (denoted as {\bf{$\sigma$}}).
 	\end{itemize}
 \item Select the appropriate measure of dispersion
 \end{itemize}
@@ -124,6 +124,13 @@ Suppose that you are writing a report about the Ages of Student from a residenti
 If you give this concept some thought, it makes sense.  Not many students will be in their early teens or in their late twenties.  Most students will be somewhere in between, i.e., late teens and early twenties.
 
 Let's look at the graphical form of normal distributed data,  we find that most of the data surrounds the mean at zero.  
+
+
+
+xyz <- seq(15,23,0.1)
+plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years)")
+
+
 
 \begin{figure}[htbp]
    \centering
