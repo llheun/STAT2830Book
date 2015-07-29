@@ -454,6 +454,14 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 \subsubsection{Diagnostics}
 
 \begin{itemize}
+\item Coefficient of determination:
+  \begin{itemize}
+  \item $r^2 = \frac{explained variation}{total variation}
+  \item The explained variation is measured from the average of the \emph{Y}-variable to the predicted \emph{Y}-variable.
+  \item The unexplained variation is measured from the observed \emph{Y}-variable to the predicted \emph{Y}-variable.
+  \item The total variation is measured from the observed \emph{Y}-variable to the average of the \emph{Y}-variable.
+  \end{item}
+
 \item There is one other thing that we should look at --  residuals.  
   \begin{itemize}
   \item For each data point, we should have a computed residual:
