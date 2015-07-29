@@ -219,7 +219,7 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=6cm]{zbplot1.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbplot1.png} % requires the graphicx package
    \caption{Box plot of Ages of students versus Campus Type }
    \label{fig:BS3}
 \end{figure}
