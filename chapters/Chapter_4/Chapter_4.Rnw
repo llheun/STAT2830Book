@@ -33,9 +33,9 @@ What is dispersion (variation or spread)?  Dispersion is
 
  \begin{figure}[htbp]
     \centering
-    \includegraphics[width=7cm]{zRV3.png} % requires the graphicx package
+    \includegraphics[width=7cm]{{chapters/Chapter_4/ext_figure/zRV3.png} % requires the graphicx package
     \caption{Numerical  Random Variable}
-    \label{fig:RV3}
+    \label{fig:RV3f4_1}
  \end{figure}
 
 
