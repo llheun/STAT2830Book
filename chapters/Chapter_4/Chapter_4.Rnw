@@ -5,13 +5,13 @@
 
 \section{Objective}
 
-By the end of this material, you will be able to
+By the end of this chapter, you will be able to
 \begin{itemize}
-\item Explain the purpose of measures of dispersion and the information they convey.
-\item Compute and explain
+\item Explain the concept of measures of dispersion and the information they convey.
+\item Compute and explain:
 	\begin{itemize}
 	\item The range ({\bf{R}}).
-	\item The inner quartile range ({\bf{IQR}}) 
+	\item The inter-quartile range ({\bf{IQR}}) 
 	\item The sample variance (denoted as {\bf{$s^2$}}).
 	\item The population variance  (denoted as {\bf{$\sigma^2$}}).
 	\item The sample standard deviation  (denoted as {\bf{$s$}}).
@@ -25,7 +25,7 @@ By the end of this material, you will be able to
 What is dispersion (variation or spread)?  Dispersion is 
    
 \begin{itemize}
-\item how much does an observation varies.
+\item how much does an observation vary.
 \item how much an observation misses the center.
 \item Note that all measures of dispersion that we will discuss in the class are for numeric data.
  
