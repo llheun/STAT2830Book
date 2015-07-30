@@ -198,7 +198,7 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
      19 & -4.8 & 23.04 & 20 & 0.8 & 0.64 \\
      18 & -5.8 & 33.64 & 21 & 1.8 & 3.24 \\ \hline 
  
-      309 & 0 & 162.32 & 267 & 0 & 17.72   \\  \hline     
+      309 & 0 & 162.32 & 249 & 0 & 27.72   \\  \hline     
    \end{tabular}
     \caption{Computing SD for two Campuses.}
    \label{tab:tab10}
@@ -212,9 +212,9 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
         &  \multicolumn{2}{c}{Campus}   \\ \hline
         
          Statistic & Urban & Residential \\ \hline 
-         Mean ($\bar{x}$) &   $\frac{309}{13} = 23.8$ & $ \frac{267}{13} = 19.2$ \\ % \hline 
+         Mean ($\bar{x}$) &   $\frac{309}{13} = 23.8$ & $ \frac{249}{13} = 19.2$ \\ % \hline 
          \vspace{1mm}
-         SD ($s$) & $ \sqrt{ \frac{162.32}{13-1}} = \sqrt{13.527} = 3.68 $ & $ \sqrt{ \frac{17.72}{13-1}} = \sqrt{1.477} = 1.22 $    \\ \hline 
+         SD ($s$) & $ \sqrt{ \frac{162.32}{13-1}} = \sqrt{13.527} = 3.68 $ & $ \sqrt{ \frac{27.72}{13-1}} = \sqrt{2.31} = 1.52 $    \\ \hline 
    \end{tabular}
    \caption{Statistics for Urban and Residential Campuses}
    \label{tab:tab11}
