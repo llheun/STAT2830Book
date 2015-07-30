@@ -228,12 +228,12 @@ boxplot(dt4_1$Age ~ dt4_1$Type, xlab="Campus", ylab="Age(years)")
 @
 
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbplot1.png} % requires the graphicx package
-   \caption{Box plot of Ages of students versus Campus Type }
-   \label{fig:BS3}
-\end{figure}
+%\begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbplot1.png} % requires the graphicx package
+%   \caption{Box plot of Ages of students versus Campus Type }
+%   \label{fig:BS3}
+%\end{figure}
 
 But a larger value of the standard deviation from the urban campus tells us that the ages of students at the urban  campus are toward one extreme or the other.   This leads us to ask more questions, such as  the urban campus mean is skewed (See figure 4.5) up because there are older students attending the urban campus.  Or the residential campus mean is dragged down because there are younger students attending the residential campus.  By looking the standard deviation, helps us understand the data.
 
