@@ -220,6 +220,14 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
    \label{tab:tab11}
 \end{table}
 
+<<f4_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Ages of students versus Campus Type">>=
+
+dt4_1 <- read.csv("data/campus.csv",header=TRUE)
+boxplot(dt4_1$Age ~ dt4_1$Type, xlab="Campus", ylab="Age(years)")
+
+@
+
+
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbplot1.png} % requires the graphicx package
