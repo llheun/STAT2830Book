@@ -146,7 +146,7 @@ The standard deviation is a statistic that measures how closely individual numbe
 The calculation of the standard deviation value is much more complicated than say the mean.  The following graphic shows the representation of the standard deviation.
 
 
-<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.1, fig.height=4.1, fig.cap="Standard Deviation">>=
+<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Standard Deviation">>=
 
 xyz <- seq(15,23,0.1)
 plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years)")
@@ -184,12 +184,21 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
       
      Age & Deviations & Sqd Dev. &  Age & Deviations & Sqd Dev. \\
      $x_i$ & $x_i - \bar{x}$ & $(x_i - \bar{x}^2$ & $x_i$ & $x_i - \bar{x}$ & $(x_i - \bar{x}^2$ \\ \hline 
-     30 & 7 & 49 & 20 &  1 & 1   \\
-     20 & -3 & 9 & 18 & -1 & 1     \\
-     22 & -1 & 1 & 19 & 0  & 0   \\
-     25 & 2  & 4 & 18 & -1 & 1   \\
-     18 & -5 & 25 & 20 & 1  & 1   \\  \hline
-      115 & 0 & 88 & 95 & 0 & 4   \\  \hline     
+     21 & -2.8 & 7.84 & 19 & -0.2 & 0.04 \\
+     21 & -2.8 & 7.84 & 19 & -0.2 & 0.04 \\
+     23 & -0.8 & 0.64 & 18 & -1.2 & 1.44 \\
+     25 & 1.2  & 1.44 & 19 & -0.2 & 0.04 \\
+     28 & 4.2 & 17.64 & 18 & -1.2 & 1.44 \\ 
+     29 & 5.2 & 27.04 & 17 & -2.2 & 4.84 \\
+     24 & 0.2 & 0.04  & 20 & 0.8 &  0.64 \\
+     24 & 0.2 & 0.04  & 20 & 0.8 &  0.64 \\
+     25 & 1.2 & 1.44 &  18 & -1.8 & 1.44 \\
+     30 & 6.2 & 38.44 & 19 & -0.2 & 0.04 \\
+     22 & -1.8 & 3.24 & 21 & 1.8 & 3.24 \\
+     19 & -4.8 & 23.04 & 20 & 0.8 & 0.64 \\
+     18 & -5.8 & 33.64 & 21 & 1.8 & 3.24 \\ \hline 
+ 
+      309 & 0 & 162.32 & 267 & 0 & 17.72   \\  \hline     
    \end{tabular}
     \caption{Computing SD for two Campuses.}
    \label{tab:tab10}
@@ -203,9 +212,9 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
         &  \multicolumn{2}{c}{Campus}   \\ \hline
         
          Statistic & Urban & Residential \\ \hline 
-         Mean ($\bar{x}$) &   $\frac{115}{5} = 23$ & $ \frac{95}{5} = 19$ \\ % \hline 
+         Mean ($\bar{x}$) &   $\frac{309}{13} = 23.8$ & $ \frac{267}{13} = 19.2$ \\ % \hline 
          \vspace{1mm}
-         SD ($s$) & $ \sqrt{ \frac{88}{4}} = \sqrt{22} = 4.69 $ & $ \sqrt{ \frac{4}{4}} = \sqrt{1} = 1 $    \\ \hline 
+         SD ($s$) & $ \sqrt{ \frac{162.32}{13-1}} = \sqrt{13.527} = 3.68 $ & $ \sqrt{ \frac{17.72}{13-1}} = \sqrt{1.477} = 1.22 $    \\ \hline 
    \end{tabular}
    \caption{Statistics for Urban and Residential Campuses}
    \label{tab:tab11}
