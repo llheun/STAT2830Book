@@ -98,15 +98,6 @@ lines(c(20,18),c(1,.75))
 
 @
 
-
-
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=7cm]{chapters/Chapter_4/ext_figure/zyearsOfEdBP1.png} % requires the graphicx package
-   \caption{Labeled Years of Education}
-   \label{fig:yrsEd1}
-\end{figure}
-
 \begin{itemize}
 
 \item $IQR = Q_3 - Q_1 = 16 - 12 = 4$
