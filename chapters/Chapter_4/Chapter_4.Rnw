@@ -294,6 +294,16 @@ The characteristics of the coefficient of variation are
 
 \section{Key Words}
 
+\begin{itemize}
+\item Deviations
+\item Dsipersion
+\item Interquartile range
+\item Measures of dispersion
+\item Range ($R$)
+\item Standard deviation ($s$)
+\item Variance 
+\end{itemize}
+
 \newpage
 \section{Exercises}
 \begin{enumerate}
