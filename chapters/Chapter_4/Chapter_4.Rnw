@@ -73,6 +73,17 @@ An illustration of the inter quartile range of a variable.
 
 Given the data from the GSS 2014, Years of Education.
 
+<<f4_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
+
+dt4_1 <- read.csv("data/GSS2014.csv",header=TRUE)
+yrsEd <- dt4_1$educ[dt4_1$educ < 97 ]
+
+boxplot(yrsEd, xlab="Years", main="GSS 2014")
+
+@
+
+
+
 \begin{figure}[htbp]
    \centering
    \includegraphics[width=7cm]{chapters/Chapter_4/ext_figure/zyearsOfEdBP1.png} % requires the graphicx package
@@ -222,8 +233,8 @@ Let's say urban campus has a higher mean age than the residential campus.  Your 
 
 <<f4_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Ages of students versus Campus Type">>=
 
-dt4_1 <- read.csv("data/campus.csv",header=TRUE)
-boxplot(dt4_1$Age ~ dt4_1$Type, xlab="Campus", ylab="Age(years)")
+dt4_2 <- read.csv("data/campus.csv",header=TRUE)
+boxplot(dt4_2$Age ~ dt4_2$Type, xlab="Campus", ylab="Age(years)")
 
 @
 
