@@ -92,6 +92,9 @@ lines(c(12,14),c(.75,1))
 text(17,1.4,"Upper")
 text(17,1.3,"quartile")
 lines(c(16,17),c(1,1.25))
+text(17,1.7,"Upper")
+text(17,1.6,"bound")
+lines(c(20,17),c(1,1.25))
 
 @
 
