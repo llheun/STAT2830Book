@@ -11,13 +11,13 @@ By the end of this chapter, you will be able to
 \item Compute and explain:
 	\begin{itemize}
 	\item The range ({\bf{R}}).
-	\item The inter-quartile range ({\bf{IQR}}) 
+	\item The interquartile range ({\bf{IQR}}) 
 	\item The sample variance (denoted as {\bf{$s^2$}}).
 	\item The population variance  (denoted as {\bf{$\sigma^2$}}).
 	\item The sample standard deviation  (denoted as {\bf{$s$}}).
 	\item The population standard deviation  (denoted as {\bf{$\sigma$}}).
 	\end{itemize}
-\item Select the appropriate measure of dispersion
+\item Select the  measure of dispersion appropriate for the problem that you are working on.
 \end{itemize}
 	
 \section{Definition of Dispersion}
