@@ -111,8 +111,8 @@ $UpperBound = Q_3 + (1.5 \times IQR) = 16 + (1.5 \times 4) = 22$
 \item {\bf{IQR}} avoids some of the problems of the range being exaggerated by extreme or unusual values
 (outliers).
 
-\item the {\bf{IQR}} is also calculated using only two data values and so does not have a
-high content of information and so it  limited further use for statistical problems but is easily understood and interpret.
+\item The {\bf{IQR}} is also calculated using only two data values and so does not have a
+high content of information and so it has limited  use for statistical problems but is easily understood and interpret.
 
 \item The boxplot provides a very useful and informative chart for describing a distribution.
 
