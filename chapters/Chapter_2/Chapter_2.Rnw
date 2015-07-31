@@ -465,7 +465,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 <<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Symmetrical Histogram">>=
  
 dt2_2 <- c(1,3,5,7,5,3,1)
-hist(ht2_2,xlab="Grades")
+hist(dt2_2,xlab="Grades")
 
 @
 
