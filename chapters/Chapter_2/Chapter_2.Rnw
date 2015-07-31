@@ -369,7 +369,7 @@ rm(tmp5)
 @
 
 \begin{itemize}
-\item The bars represent the categories and the heights of the bars corresponds to the percent or number of cases in each category.
+\item The bars represent the categories and the heights of the bars correspond to the percent or number of cases in each category.
 
 \item The bar chart always has gaps between the bars to indicate categorical type of data.
 \end{itemize}
@@ -405,7 +405,7 @@ The slices represent the categories and the size of the slice corresponds to the
  
 \subsection{Frequency Distribution Table}
 
-The data, of the GSS 2014 survey, show the number of years of education of the respondents.  Is the group educated?  A frequency distribution will provide an accurate picture of the overall years structure.
+The GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of educaton of the household.  The data, from this survey, show the number of years of education of the households.  A frequency distribution will provide an accurate picture of the overall years structure.
 
 \begin{itemize}
 \item Determine number of classes, minimum, maximum, range and interval size.
@@ -445,7 +445,7 @@ The data, of the GSS 2014 survey, show the number of years of education of the r
 
 <<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3>>=
 
-YearsOfEducation <- f2_1$educ[f2_1$educ > 0 & f2_1$educ < 89]
+YearsOfEducation <- f2_1$educ[ f2_1$educ < 89]
 
 hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
@@ -459,6 +459,16 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \item Histograms do not have gaps between the bars.
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
+
+\item Bell-shiped and symmetrical.
+
+<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Symmetrical Histogram">>=
+ 
+dt2_2 <- c(1,3,5,7,5,3,1)
+hist(ht2_2,xlab="Grades")
+
+@
+
 \end{itemize}
 
 
@@ -473,9 +483,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
 
 \begin{itemize}
-\item It is a graphical picture of the distribution of quarters of the data.
-\item It is useful for comparing distribution of two or more variables.
-\item It is used to determine the five number summary.
+\item It is a graphical summary of the distribution of the middle 50 percent of the data.
+\item It is useful for comparing distributions of two or more variables.
+\item It is built on  the five number summary.
 	\begin{itemize}
 	\samepage
 	\item Minimum = 6
@@ -540,7 +550,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\item 0.00052
 	\end{enumerate}
 
-\item In 1995 the percentage of individuals graduating from high school was 89 percent, in 2005, the percentage was 83 percent.  What is the percent change?
+\item In 1995 the percentage of individuals graduating from the Portage high school was 89 percent, in 2005, the percentage was 83 percent.  What is the percent change?
 	\begin{enumerate}
 	\samepage
 	\item $-6.7\%$
