@@ -80,7 +80,7 @@ dt4_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 yrsEd <- dt4_1$educ[dt4_1$educ < 97 ]
 
 boxplot(yrsEd, xlab="Years", horizontal=TRUE, main="GSS 2014")
-text(1,1.4,"Minimum")
+text(1.5,1.4,"Minimum")
 lines(c(0,.5),c(1,1.3))
 text(4,.7,"Lower")
 text(4,.6,"bound")
