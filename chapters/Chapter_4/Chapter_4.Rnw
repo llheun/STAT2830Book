@@ -249,7 +249,7 @@ boxplot(dt4_2$Age ~ dt4_2$Type, xlab="Campus", ylab="Age(years)")
 %   \label{fig:BS3}
 %\end{figure}
 
-But a larger value of the standard deviation from the urban campus tells us that the ages of students at the urban  campus are toward one extreme or the other.   This leads us to ask more questions, such as  the urban campus mean is skewed (See figure 4.5) up because there are older students attending the urban campus.  Or the residential campus mean is dragged down because there are younger students attending the residential campus.  By looking the standard deviation, helps us understand the data.
+But a larger value of the standard deviation from the urban campus tells us that the ages of students at the urban  campus are toward one extreme or the other.   This leads us to ask more questions, such as  the urban campus mean is skewed (See figure 4.5) up because there are older students attending the urban campus.  Or the residential campus mean age  is dragged down because there are younger students attending the residential campus.  By looking the standard deviation, helps us understand the data.
 
 Needless to say, when you are evaluating the results of your research, you may seek the advice of a statistician.  However, if you have a working knowledge of the standard deviation, your time spent with the statistician will be more productive.
 
@@ -257,8 +257,8 @@ Some of you maybe asking, how do we compute the standard deviation?  For those o
 For the others, you may go to the next section.  Remember, there is statistical software and calculators that will compute the standard deviation for you.
 
 You will need to know these terms: \\
-$x$ equals a value of a variable in a dataset. \\
-$\bar{x}$ equals the mean or average of the variable in a dataset \\
+$x$ equals a value of a variable in a dataset.
+$\bar{x}$ equals the mean  of the variable in a dataset. 
 $n$ equals the number of values ($x$) in your dataset. 
 
 Referring  to table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in table 4.3. 
