@@ -112,9 +112,9 @@ $UpperBound = Q_3 + (1.5 \times IQR) = 16 + (1.5 \times 4) = 22$
 (outliers).
 
 \item The {\bf{IQR}} is also calculated using only two data values and so does not have a
-high content of information and so it has limited  use for statistical problems but is easily understood and interpret.
+high content of information and so it has limited  use for statistical analysis problems but it is easily understood and interpreted.
 
-\item The boxplot provides a very useful and informative chart for describing a distribution.
+\item The boxplot (figure 4.2)  provides a very useful and informative chart for describing a distribution.
 
 \item The boxplot utilizes what is called the 5-number summary:
 	\begin{itemize}
@@ -132,7 +132,7 @@ whiskers (longer whiskers on one side indicate a skewed distribution).
 
 \section{Standard Deviation}
 
-The standard deviation is a puzzling concept that we will not use very often, but that does not mean we should not understand the idea.  
+The standard deviation is a puzzling concept that we will not use very often, but that does not mean we should not understand the idea. 
 
 The standard deviation is a type of ``average of the deviations from the sample mean'' and will frequently help us find the story behind the data.  Statisticians have developed an idea called the ``normal distribution'' that may help us understand the idea of the standard deviation.
 
@@ -142,10 +142,10 @@ Suppose that you are writing a report about the Ages of Student from a residenti
 
 If you give this concept some thought, it makes sense.  Not many students will be in their early teens or in their late twenties.  Most students will be somewhere in between, i.e., late teens and early twenties.
 
-Let's look at the graphical form of normal distributed data,  we find that most of the data surrounds the mean at zero.  
+Let's look at the graphical form of normal distributed data,  we find that most of the data surrounds the mean at 19.  
 
 
-<<f4_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Bell-Shaped curve">>=
+<<f4_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped curve">>=
 
 xyz <- seq(15,23,0.1)
 plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years)")
@@ -157,7 +157,7 @@ rm(xyz)
 
 The x-axis (the horizontal one) is the ages of students on a residential campus.  The y-axis (the vertical one) is the number of data points for each value on the x-axis.   
 
-The above graphic represents a perfect distribution of ages of students on a residential campus.  However, some graphs may be relatively flat which indicates a large value for the standard deviation and while some graphs may  have very steep slopes which indicates a small value for the standard deviation.  But every normally distributed dataset will have the shape of a bell.
+Figure 4.3 represents a perfect distribution of ages of students on a residential campus.  However, some graphs may be relatively flat which indicates a large value for the standard deviation and while some graphs may  have very steep slopes which indicates a small value for the standard deviation.  But every normally distributed dataset will have the shape of a bell.
 
 The standard deviation is a statistic that measures how closely individual numbers from a sample are packed around the average of the dataset.  When the value of the standard deviation is small, the data points will be 
 ``tightly'' clustered together and the slope of the bell-shaped curve will be steep.  Otherwise, when the value of the standard deviation is large, the data points will be ``loosely'' clustered around the mean  and the slope of the bell-shaped curve will be relatively flat.
@@ -165,7 +165,7 @@ The standard deviation is a statistic that measures how closely individual numbe
 The calculation of the standard deviation value is much more complicated than say the mean.  The following graphic shows the representation of the standard deviation.
 
 
-<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Standard Deviation">>=
+<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Standard Deviation">>=
 
 xyz <- seq(15,23,0.1)
 plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years)")
@@ -179,14 +179,9 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
-% \begin{figure}[htbp]
-%   \centering
-%   \includegraphics[width=6cm]{chapters/Chapter_4/ext_figure/zbell-shape1.png} % requires the graphicx package
-%   \caption{Standard Deviation}
-%   \label{fig:BS2}
-%\end{figure} 
 
-The yellow portion of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow portion of the bell-shaped curve represents two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow portion of the bell-shaped curve represents three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
+
+The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray) portion of the bell-shaped curve represents two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represents three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
 
 So the next question is, ``Why is this concept important?''  Let's explore an example: If you are comparing ages of students in urban campus setting versus a residential campus.
 
