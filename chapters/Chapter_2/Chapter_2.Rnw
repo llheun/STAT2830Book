@@ -492,7 +492,7 @@ rm(dt2_2)
 <<f2_8, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=4, fig.cap="Example of Multi-modal Histogram">>=
 
 dt2_2 <- numeric(150) 
-vx1 <- rnorm(n=75, mean=50, sd=5)
+vx1 <- rnorm(n=75, mean=60, sd=5)
 vx2 <- rnorm(n=75, mean=80, sd=5)
 dt2_2[1:75] <- vx1 
 dt2_2[76:150] <- vx2
@@ -505,7 +505,7 @@ rm(vx1, vx2)
   
   \end{itemize}
 \end{itemize}
-
+  
 
 
 \subsubsection{Boxplot}
