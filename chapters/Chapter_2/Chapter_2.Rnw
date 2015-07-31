@@ -249,8 +249,11 @@ PercentChange = \frac{f_2 - f_1}{f_1} \times 100\% ,
 Since categorical data only has labels, there are few options for summarizing such data.
 
 \begin{itemize}
+\samepage
 \item Frequency Distribution Tables
+\samepage
 \item Bar Chart
+\samepage
 \item Pie Chart
 \end{itemize}
 
