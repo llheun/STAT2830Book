@@ -47,12 +47,12 @@ An illustration of the range of a variable.
 \begin{table}[htbp]
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllllllllllll @{}} % Column formatting, @{} suppresses leading/trailing space
-   \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
        21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
-   % \caption{Remember, \emph{never} use vertical lines in tables.}
+    \caption{Ages of Urban Campus students}
    \label{tab:t4_1}
 \end{table}
 
@@ -62,15 +62,15 @@ The characteristics of the {\bf{Range ($R$)}} are
 
 \begin{itemize}
 \item The range is the easiest measure of dispersion to calculate and is simply the total spread of the data.
-\item It is highly affected by extreme values (outliers) thus is easily exaggerated to indicate more variation 
-(spread) is in the data than is actually there.
-\item It only includes information from two of the data values and so has limited power for interpretation and 
-it has limited use in more advanced statistical techniques.
+\item It is highly affected by extreme values (outliers) thus one extreme value can exaggerate the  variation 
+(spread) in the data.
+\item It only includes information from two of the data values, has limited power for interpretation, and 
+ has limited use in more advanced statistical analysis of problems.
 \end{itemize}
 
 \section{Interquartile Range}
 
-An illustration of the inter quartile range of a variable.
+An illustration of the interquartile range of a variable.
 
 Given the data from the GSS 2014, Years of Education.
 
