@@ -58,21 +58,21 @@ An illustration of the range of a variable.
 
 $Range = R = max - min = 30 - 18 = 12 $
 
-The characteristics of the {\bf{Range ($R$)}} are 
+The following are characteristics of the {\bf{Range ($R$)}}:
 
 \begin{itemize}
-\item The range is the easiest measure of dispersion to calculate and is simply the total spread of the data.
+\item The range is the easiest measure of dispersion to calculate and is simply the total spread of the data,
+
 \item It is highly affected by extreme values (outliers) thus one extreme value can exaggerate the  variation 
-(spread) in the data.
-\item It only includes information from two of the data values, has limited power for interpretation, and 
+(spread) of the dataset.
+
+\item It only includes two values from the dataset (minimum and maximum), has limited power for interpretation, and 
  has limited use in more advanced statistical analysis of problems.
 \end{itemize}
 
 \section{Interquartile Range}
 
-An illustration of the interquartile range of a variable.
-
-Given the data from the GSS 2014, Years of Education.
+An illustration of the interquartile range of a variable.  We will use data from the GSS 2014, Years of Education of the United Stats households.  See figure 4.2.
 
 <<f4_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
 
@@ -102,21 +102,21 @@ lines(c(20,18),c(1,.75))
 \begin{itemize}
 
 \item $IQR = Q_3 - Q_1 = 16 - 12 = 4$
-\item Note: the {\bf{outliers}} would bel beyond the lower bound and the upper bound. \\
+\item Note: the {\bf{outliers}} would be any values smaller than the  lower bound and any values larger the upper bound. \\
 $LowerBound = Q_1 - (1.5 \times IQR) = 12 - (1.5 \times 4) = 6$ \\
 $UpperBound = Q_3 + (1.5 \times IQR) = 16 + (1.5 \times 4) = 22$
 
-\item The {\bf{IQR}} extracts the middle 50\% of the data.
+\item The {\bf{IQR}} shows the range of the middle 50\% of the data.
 
 \item {\bf{IQR}} avoids some of the problems of the range being exaggerated by extreme or unusual values
 (outliers).
 
 \item the {\bf{IQR}} is also calculated using only two data values and so does not have a
-high content of information and so has limited further use for statistical techniques but is easily understood and interpret.
+high content of information and so it  limited further use for statistical problems but is easily understood and interpret.
 
 \item The boxplot provides a very useful and informative chart for describing a distribution.
 
-\item The boxplot utilized what is called the 5-number summary:
+\item The boxplot utilizes what is called the 5-number summary:
 	\begin{itemize}
 	\item Minimum
 	\item $Q_1$ ($1^{st}$ quartile)
