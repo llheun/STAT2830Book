@@ -461,7 +461,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 
   \begin{itemize}
-  \item Bell-shiped and symmetrical.
+  \item Bell-shiped and symmetrical (Figure 2.1)
 
 <<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Symmetrical Histogram">>=
  
@@ -470,11 +470,11 @@ hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 1"
 rm(dt2_2)
 @
 
-  \item Right Skewed
+  \item Right Skewed (Figure 2.2)
   
 <<f4_5, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Right Skewed Histogram">>=
  
-dt2_2 <- rbinom(n=100, size=30, p=0.2)
+dt2_2 <- rbinom(n=100, size=20, p=0.15)
 hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 2")
 rm(dt2_2)
 @  
