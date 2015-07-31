@@ -47,8 +47,9 @@ An illustration of the range of a variable.
 \begin{table}[htbp]
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} llllllllllllll @{}} % Column formatting, @{} suppresses leading/trailing space
-      DATA & 21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\
+   \begin{tabular}{@{} lllllllllllll @{}} % Column formatting, @{} suppresses leading/trailing space
+   \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
