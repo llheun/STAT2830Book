@@ -464,7 +464,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 <<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Symmetrical Histogram">>=
  
-dt2_2 <- rnorm(n=30,mean=65,sd=3)
+dt2_2 <- rnorm(n=35,mean=65,sd=4)
 hist(dt2_2,xlab="Grades")
 
 @
