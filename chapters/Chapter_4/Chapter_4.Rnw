@@ -27,8 +27,8 @@ What is dispersion (variation or spread)?  Dispersion is
 \begin{itemize}
 \item how much does an observation vary.
 \item how much an observation misses the center.
-\item Note that all measures of dispersion that we will discuss in the class are for numeric data.
- 
+\item Note: There are ways to measure variability of categorical data, but it will not be discussed in this course.
+
 \end{itemize}
 
  \begin{figure}[htbp]
@@ -47,15 +47,15 @@ An illustration of the range of a variable.
 \begin{table}[htbp]
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} llllll @{}} % Column formatting, @{} suppresses leading/trailing space
-      DATA & 2 & 6 & 4 & 4 & 4 \\
+   \begin{tabular}{@{} lllllllllllll @{}} % Column formatting, @{} suppresses leading/trailing space
+      DATA & 21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\
       
    \end{tabular}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:tab9}
+   \label{tab:t4_1}
 \end{table}
 
-$Range = R = max - min$
+$Range = R = max - min = 30 - 18 = 12 $
 
 The characteristics of the {\bf{Range ($R$)}} are 
 
