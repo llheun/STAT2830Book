@@ -461,27 +461,32 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 
   \begin{itemize}
-  \item Bell-shiped and symmetrical (Figure 2.1)
+  \item Bell-shiped and symmetrical (Figure 2.5)
 
-<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Symmetrical Histogram">>=
+<<f2_5, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Symmetrical Histogram">>=
  
-dt2_2 <- rnorm(n=100,mean=65,sd=4)
+dt2_2 <- rnorm(n=200,mean=65,sd=4)
 hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 1")
 rm(dt2_2)
 @
 
-  \item Right Skewed (Figure 2.2)
+  \item Right Skewed (Figure 2.6)
   
-<<f4_5, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Right Skewed Histogram">>=
+<<f2_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Right Skewed Histogram">>=
  
-dt2_2 <- rbinom(n=100, size=20, p=0.15)
+dt2_2 <- rbinom(n=200, size=20, p=0.15)
 hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 2")
 rm(dt2_2)
 @  
   
-  \item Left Skewed
+  \item Left Skewed (Figure 2.7)
   
-  
+<<f2_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Left Skewed Histogram">>=
+ 
+dt2_2 <- rbinom(n=200, size=20, p=0.95)
+hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 3")
+rm(dt2_2)
+@    
   \item Multi-modal
   
   
