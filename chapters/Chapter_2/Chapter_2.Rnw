@@ -472,7 +472,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \end{minipage} \hfill    
 \begin{minipage}[ht]{6.5cm}
 
-      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
+      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/multimodal.png}
       
 \end{minipage} 
 
