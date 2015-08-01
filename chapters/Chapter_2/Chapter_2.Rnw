@@ -380,7 +380,7 @@ rm(tmp5)
 \pagebreak
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
 pie( Percent, labels= lbls )
