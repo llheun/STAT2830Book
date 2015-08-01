@@ -394,7 +394,7 @@ The slices represent the categories and the size of the slice corresponds to the
 
  \begin{figure}[ht]
     \centering
-    \includegraphics[width=5.7cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
+    \includegraphics[width=5cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV3}
  \end{figure}
