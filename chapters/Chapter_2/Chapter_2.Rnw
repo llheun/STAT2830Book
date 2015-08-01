@@ -463,22 +463,31 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 \item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 
-\begin{minipage}[ht]{4.3cm}
+\item Symmetric and Multi-Modal Distributions
 
-      \includegraphics[width=4cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
+\begin{minipage}[ht]{6.5cm}
+
+      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
       % \caption{Symmetry}
 \end{minipage} \hfill    
-\begin{minipage}[ht]{4.3cm}
+\begin{minipage}[ht]{6.5cm}
 
-      \includegraphics[width=4cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
+      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
       
-\end{minipage} \hfill    
-\begin{minipage}[ht]{4.3cm}
+\end{minipage} 
 
-      \includegraphics[width=4cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
+\item Right Skewed and Left Skewed  Distributions
+
+\begin{minipage}[ht]{6.5cm}
+
+      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
       
-\end{minipage}
+\end{minipage} \hfill
+\begin{minipage}[ht]{6.5cm}
 
+      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
+      
+\end{minipage} 
 
 
 
