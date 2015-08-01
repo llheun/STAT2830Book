@@ -1,0 +1,24 @@
+City,Time.Lost,multimodal,Left,Right
+Buffalo,5,4,,6
+Cleveland,11,6,,7
+Kansas City,11,7,,26
+New Orleans,16,11,,11
+Pittsburgh,16,12,,12
+New York,19,13,,13
+Philadelphia,19,15,,14
+San Antonio,19,15,,11
+Kalamazoo,21,16,,12
+Boston,22,16,,13
+Chicago,22,19,,16
+Minneapolis,22,21,,15
+Phoenix,23,22,,16
+Seattle,24,23,,17
+Baltimore,25,29,,18
+Miami,27,26,,19
+Denver,29,27,,21
+San Diego,29,28,,22
+San Francisco,29,30,,25
+"Washington,DC",29,32,,26
+Dallas,32,33,,34
+Houston,32,39,,38
+Los Angles,38,,,
