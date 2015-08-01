@@ -466,7 +466,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \begin{minipage}[ht]{4.3cm}
 
       \includegraphics[width=4cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
-      \caption{Symmetry}
+      % \caption{Symmetry}
 \end{minipage} \hfill    
 \begin{minipage}[ht]{4.3cm}
 
