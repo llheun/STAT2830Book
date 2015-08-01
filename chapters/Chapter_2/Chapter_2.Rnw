@@ -480,6 +480,8 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \end{minipage}
 
 
+
+
   \begin{itemize}
   \item Bell-shiped and symmetrical (Figure 2.5)
 
