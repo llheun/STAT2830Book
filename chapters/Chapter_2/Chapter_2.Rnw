@@ -412,7 +412,7 @@ The GSS 2014 is a sociological survey used to collect data on demographic charac
 
 \begin{itemize}
 \item Determine number of classes, minimum, maximum, range and interval size.
-\item \# of classes: generally, we take the square root of the sample size $\sqrt{2538}$, but in this case, this value exceeds 10 which is the maximum number of suggested bars.
+\item \# of classes: generally, we take the square root of the sample size, $\sqrt{2538} = 50.4$, but in this case, this value exceeds 10 which is the maximum number of suggested bars.
 \item $minimum = 0$
 \item $maximum = 20$
 \item $range = 20 - 0 $
