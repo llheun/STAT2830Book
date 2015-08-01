@@ -408,7 +408,7 @@ The slices represent the categories and the size of the slice corresponds to the
  
 \subsection{Frequency Distribution Table}
 
-The GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of educaton of the household.  The data, from this survey, show the number of years of education of the households.  A frequency distribution will provide an accurate picture of the overall years structure.
+The GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of educaton of the household.  The data, from this survey, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the overall years of educaton structure.
 
 \begin{itemize}
 \item Determine number of classes, minimum, maximum, range and interval size.
