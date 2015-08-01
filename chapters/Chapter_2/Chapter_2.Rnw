@@ -187,7 +187,7 @@ Suppose a town of 85,000 residents  had 10 homicides last year, what is the homi
 homicideRate = \frac{f}{n} = \frac{10}{85000} = 0.0001176
 \end{equation}
   \begin{itemize}
-  \item Because this is such a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
+  \item Because this is  a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
   \end{itemize}
 
 \begin{equation}
