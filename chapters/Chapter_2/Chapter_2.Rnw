@@ -530,8 +530,7 @@ rm(vx1, vx2)
   \end{itemize}
 \end{itemize}
   
-
-
+  
 \subsubsection{Boxplot}
 
 <<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Year of Education">>=
