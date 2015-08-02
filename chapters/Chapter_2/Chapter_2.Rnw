@@ -469,25 +469,25 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
       
-      Figure 2.5 -- Bell-shiped and symmetrical
+      Figure 2.5 -- Bell-shaped
 \end{minipage} \hfill    
 \begin{minipage}[ht]{6.5cm}
 
       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/multimodal.png}
-      
+      Figure 2.6 -- Multi-modal
 \end{minipage} 
 
-\item Right Skewed and Left Skewed  Distributions
+\item Right-Skewed and Left-Skewed  Distributions
 
 \begin{minipage}[ht]{6.5cm}
 
       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/rightSkewed.png}
-      
+      Figure 2.7 -- Right-skewed
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/leftSkewed.png}
-      
+      Figure 2.6 -- Left-skewed
 \end{minipage} 
 
 
