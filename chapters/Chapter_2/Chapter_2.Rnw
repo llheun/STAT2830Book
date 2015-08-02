@@ -490,46 +490,6 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
       Figure 2.8 -- Left-skewed
 \end{minipage} 
 
-
-
-  \begin{itemize}
- 
-
-
-  \item Right Skewed (Figure 2.6)
-  
-<<f2_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Right Skewed Histogram">>=
- 
-dt2_2 <- rbinom(n=150, size=20, p=0.15)
-hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 2")
-rm(dt2_2)
-@  
-  
-  \item Left Skewed (Figure 2.7)
-  
-<<f2_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Example of Left Skewed Histogram">>=
- 
-dt2_2 <- rbinom(n=150, size=20, p=0.95)
-hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 3")
-rm(dt2_2)
-@    
-  \item Multi-modal
-
-<<f2_8, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=4, fig.cap="Example of Multi-modal Histogram">>=
-
-dt2_2 <- numeric(150) 
-vx1 <- rnorm(n=75, mean=60, sd=5)
-vx2 <- rnorm(n=75, mean=80, sd=5)
-dt2_2[1:75] <- vx1 
-dt2_2[76:150] <- vx2
-
-hist(dt2_2,xlab="Grades", ylab="Frequency", main="Histogram of Stat 2830 Exam 4")
-rm(dt2_2)
-rm(vx1, vx2)
-
-@      
-  
-  \end{itemize}
 \end{itemize}
   
   
