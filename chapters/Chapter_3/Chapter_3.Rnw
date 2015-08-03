@@ -161,21 +161,31 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
    \label{tab:t3_5}
 \end{table}
 
-The most frequently occurring value is 24, since there are three of them, so the {\bf{mode}} is 24.
+\item The {\bf{mode}} is the most frequently occurring value.  Since there are three of 24s, the {\bf{mode}} is 24.  The mode is used for categorical data where the mean and median cannot by used.
 
-\item Strength:  It is RESISTANT to extreme values (\emph{outliers}).
-\item Weakness: NOT all data from a variable is used to compute the {\bf{mode}}.
 \end{itemize}
 
 
 \section{Overall Distribution Shape}
 
-\begin{figure}[htbp]
-   \centering
-   \includegraphics[width=8cm]{chapters/Chapter_3/ext_figure/zskewness-300x247.png} % requires the graphicx package
-   \caption{Figure Demonstrates Left and Right Skewness}
-   \label{fig:f3_1}
-\end{figure}
+\begin{minipage}[ht]{4.1cm}
+
+\includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
+Symmetric 
+
+\end{minipage} \hfill 
+\begin{minipage}[ht]{4.1cm}
+
+\includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/rightSkewed.png}
+Right Skewed
+
+\end{minipage} \hfill 
+\begin{minipage}[ht]{4.1cm}
+
+\includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/leftSkewed.png}
+Symmetric 
+
+\end{minipage} 
 
 {\bf{Symmetric}}
 
