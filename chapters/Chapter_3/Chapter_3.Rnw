@@ -218,6 +218,7 @@ There was a typo when 50 was entered into the dataset when the value should have
   
 \item Left-skewed: presence of extremely low values 
   \begin{itemize}
+  \item 
   % Requires the booktabs if the memoir class is not being used
   \begin{table}[htbp]
    \centering
