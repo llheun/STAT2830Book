@@ -252,9 +252,9 @@ Since categorical data only has labels, there are few options for summarizing su
 \samepage
 \item Frequency Distribution Tables
 \samepage
-\item Bar Chart
-\samepage
 \item Pie Chart
+\samepage
+\item Bar Chart
 \end{itemize}
 
 \subsection{Frequency Distribution Table}
@@ -346,12 +346,10 @@ Let's look at the frequency distribution tables for categorical data.
 \end{table}
 
 % \pagebreak
-\subsection{Bar Chart}
+\subsection{Pie Chart}
 
-Let's look at the marital status from the GSS 2014 survey.
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
-<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
-## f2_1 <- read.spss("data/GSS2014.sav")
 f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
 tmp2 <- tmp1[tmp1 != "NA"]
@@ -359,6 +357,22 @@ tmp3 <- table(tmp2)
 tmp4 <- sort(tmp3, decreasing = TRUE)
 tmp5 <- tmp4 * 100 / sum(tmp4)
 Percent <- tmp5[1:5]
+
+lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
+pie( Percent, labels= lbls )
+
+@
+
+The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
+
+
+\subsection{Bar Chart}
+
+Let's look at the marital status from the GSS 2014 survey.
+
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+## f2_1 <- read.spss("data/GSS2014.sav")
+
 ## Percent
 barplot( Percent, ylab="Percent", xlab="Marital Status",  legend.text=c("1-Married","2-Widowed","3-Divorced","4-Separated","5-Never Married") )
 
@@ -367,7 +381,6 @@ rm(tmp2)
 rm(tmp3)
 rm(tmp4)
 rm(tmp5)
-## rm(Percent)
 
 @
 
@@ -378,16 +391,6 @@ rm(tmp5)
 \end{itemize}
 
 \pagebreak
-\subsection{Pie Chart}
-
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
-
-lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
-pie( Percent, labels= lbls )
-
-@
-
-The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
 \newpage 
 \section{Summarizing Numerical Data}
