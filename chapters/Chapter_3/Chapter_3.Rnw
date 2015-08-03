@@ -7,11 +7,11 @@
 
 By the end of this chapter, you will be able to
 \begin{itemize}
-\item Explain the purposes of measures of central tendency and interpret the 
+\item Explain the concept of measures of central tendency and interpret the 
 information they provide.
 \item Calculate, explain and compare modes, medians and means.
 \item Understand other measures of central tendency
-\item Be able to select appropriate measure of central tendency according to the 
+\item Select appropriate measure of central tendency according to the 
 level of measurement and characteristics of the distribution.
 \end{itemize}
 
@@ -35,9 +35,9 @@ The central tendency is a measure of where most of the data is located.
 \item mode
 \end{itemize}
 
-\section{Average or Mean}
+\section{Mean}
 
-The \emph{mean} is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average score of a distribution.
+The \emph{mean} (usually denoted as $\bar{X}$) is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average value of a variable.
 
 The strength and weakness of the mean.
 
@@ -46,23 +46,50 @@ The strength and weakness of the mean.
 \item Weakness -- The mean is affected by extreme values (\emph{outliers}).
 \end{itemize}
 
-Illustration:
+\subsubsection{Illustration:}
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
-   
+   \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} llllll @{}} % Column formatting, @{} suppresses leading/trailing space
-      DATA & 2 & 6 & 4 & 4 & 4 \\
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 3 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
-   % \caption{Remember, \emph{never} use vertical lines in tables.}
+    \caption{Ages of Urban Campus students}
    \label{tab:t3_1}
 \end{table}
 
+
+
 \begin{equation}
-\bar{x} = \frac{ 2 + 6 + 4 + 4 + 4}{5} = \frac{20}{5} = 4  \nonumber
+\bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 3 + 22 + 19 + 18}{13} = \frac{282}{13} = 21.7  \nonumber
 \end{equation}
+  
+\subsubsection{Affect of an outlier}
+
+Let's suppose that 3 should have been  was recorded as 30. 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\ \hline
+      
+   \end{tabular}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_2}
+\end{table}
+
+\begin{equation}
+\bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 30 + 22 + 19 + 18}{13} = \frac{309}{13} = 23.8  \nonumber
+\end{equation}  
+  
+This example illustrates the affect of an outlier.  The mean with the outlier was 21.7 and the correct mean is 23.8.
+
   
 \section{Median}
 
@@ -75,14 +102,17 @@ The \emph{median} is the value of the middle observation when the data is sorted
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllll @{}} % Column formatting, @{} suppresses leading/trailing space
-       2 & 4 & 4 & 6  & 9 \\
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 30 \\ \hline  
+       
    \end{tabular}
-   % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:t3_2}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_3}
 \end{table}
 
-\item median = 4
+
+\item median = 24
 
 \item If there is an even number of data values, then to find the center two values and average them,  e.g., 
 
@@ -90,14 +120,16 @@ The \emph{median} is the value of the middle observation when the data is sorted
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} llllll @{}} % Column formatting, @{} suppresses leading/trailing space
-       2 & 4 & 4 & 5 & 6  & 9 \\
+   \begin{tabular}{@{} llllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29 & 30 & 35 \\ \hline  
+       
    \end{tabular}
-   % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:t3_3}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_4}
 \end{table}
 
-\item $median = \frac{4 + 5}{2} = 4.5 $
+\item $median = \frac{24 + 24}{2} = 24 $
 
 \end{itemize}
 
