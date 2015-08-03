@@ -326,7 +326,7 @@ Let's look at the frequency distribution tables for categorical data.
 \end{table}
 \end{itemize}
 
-\subsubsection{Construct a frequency distribution table for 2014  GSS survey}
+\subsection{Construct a frequency distribution table for 2014  GSS survey}
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -341,14 +341,14 @@ Let's look at the frequency distribution tables for categorical data.
       Percent     & 45.7\% & 8.2\% & 16.2 & 3.2\% & 26.6\% \\ \hline
       
    \end{tabular}
-   \caption{Frequency Distribution for Marital Status  }
+   \caption{Frequency Distribution for Marital Status}
    \label{tab:t2_6}
 \end{table}
 
 \pagebreak
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2.5, fig.height=2.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2.7, fig.height=2.7, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
