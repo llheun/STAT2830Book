@@ -348,7 +348,7 @@ Let's look at the frequency distribution tables for categorical data.
 \pagebreak
 \subsection{Pie Chart}
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2.7, fig.height=2.7, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2.8, fig.height=2.8, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
 f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
 tmp1 <- f2_1$marital
