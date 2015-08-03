@@ -484,18 +484,18 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
       Figure 2.7 -- Multi-modal
 \end{minipage} 
 
-\item Right-Skewed and Left-Skewed  Distributions
+\item Left-Skewed and Right-Skewed  Distributions
 
 \begin{minipage}[ht]{6.5cm}
 
        \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/leftSkewed.png}
       
-      Figure 2.8 -- Right-skewed
+      Figure 2.8 -- Left-skewed
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/rightSkewed.png}
-      Figure 2.9 -- Left-skewed
+      Figure 2.9 -- Right-skewed
 \end{minipage} 
 
 \end{itemize}
