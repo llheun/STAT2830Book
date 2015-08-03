@@ -497,7 +497,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \end{itemize}
   
-\subsubsection{Boxplot}
+\subsection{Boxplot}
 
 <<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Year of Education">>=
 
