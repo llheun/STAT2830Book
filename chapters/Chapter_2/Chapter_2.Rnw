@@ -460,9 +460,12 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
-\item Histograms do not have gaps between the bars.
+
+\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the frequency for the sub-group 10-12 years is 823 of 2538 or 32.4 percent.  In this text, we will set the bars to the same width. 
+
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
-\item Histograms are very useful in examing the ``shape'' of the distribution, for example,: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
+
+\item Histograms are very useful in examing the ``shape'' of the distribution, for example: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 
 \item Symmetric and Multi-Modal Distributions
 
@@ -470,29 +473,29 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/Symmetric.png}
       
-      Figure 2.5 -- Bell-shaped
+      Figure 2.6 -- Bell-shaped
 \end{minipage} \hfill    
 \begin{minipage}[ht]{6.5cm}
 
       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/multimodal.png}
-      Figure 2.6 -- Multi-modal
+      Figure 2.7 -- Multi-modal
 \end{minipage} 
 
 \item Right-Skewed and Left-Skewed  Distributions
 
 \begin{minipage}[ht]{6.5cm}
 
-      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/rightSkewed.png}
-      Figure 2.7 -- Right-skewed
+       \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/leftSkewed.png}
+      
+      Figure 2.8 -- Right-skewed
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
-      \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/leftSkewed.png}
-      Figure 2.8 -- Left-skewed
+     \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/rightSkewed.png}
+      Figure 2.9 -- Left-skewed
 \end{minipage} 
 
 \end{itemize}
-  
   
 \subsubsection{Boxplot}
 
@@ -504,7 +507,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
 
 \begin{itemize}
-\item It is a graphical summary of the distribution of the middle 50 percent of the data.
+\item It is a graphical summary  of the middle 50 percent of the data.
 \item It is useful for comparing distributions of two or more variables.
 \item It is built on  the five number summary.
 	\begin{itemize}
