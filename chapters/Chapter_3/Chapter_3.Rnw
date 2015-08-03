@@ -191,16 +191,49 @@ Symmetric
 
 \begin{itemize}
 \item Balanced Distribution
-\item Bell-shaped
+\item Often bell-shaped
 \item The mean, median, and mode have the same value
 \end{itemize}
 
 {\bf{Skewed}}
 
 \begin{itemize}
-\item Right-skewed: presence of extremely high values 
+\item Right-skewed: presence of relatively high values.
+  \begin{itemize}
+  \item 
+  % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+     18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{50} \\ \hline
+   \end{tabular}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_5}
+\end{table}
+
+There was a typo when 50 was entered into the dataset when the value should have been 30.
+
+  
 \item Left-skewed: presence of extremely low values 
-\item The mean, median, and mode are different values.  Notice that the mean will always be pulled in the direction of the extreme values.
+
+  % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+   \fbox{3} &  18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline
+   \end{tabular}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_6}
+\end{table}
+
+There was a typo when 3 was entered into the dataset when the value should have been 30.
+
+
+\item The mean, median, and mode are different values.  Notice that the mean will always be pulled from the median in the direction of the extreme value.
 \end{itemize}
 
 \section{Other Measures of Location}
@@ -226,7 +259,7 @@ The other measure of location are as follows:
 \item Calculate a percentile
 	\begin{itemize}
 	\item Sort scores in order from low to high
-	\item Multiply the number of cases (n) by the proportional value of the percentile (for example: the 80th percentile is 0.8).
+	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example: the 80th percentile is 0.8).
 	\item The resultant value indicates the position in the array of cases.
 	\end{itemize}
 		
