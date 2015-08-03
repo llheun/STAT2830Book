@@ -214,12 +214,12 @@ Symmetric
 \end{table}
 
 There was a typo when 50 was entered into the dataset when the value should have been 30.
-
+  \end{itemize}
   
 \item Left-skewed: presence of extremely low values 
-
+  \begin{itemize}
   % Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
+  \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
@@ -228,10 +228,10 @@ There was a typo when 50 was entered into the dataset when the value should have
    \end{tabular}
     \caption{Ages of Urban Campus students}
    \label{tab:t3_6}
-\end{table}
+  \end{table}
 
-There was a typo when 3 was entered into the dataset when the value should have been 30.
-
+  There was a typo when 3 was entered into the dataset when the value should have been 30.
+  \end{itemize}
 
 \item The mean, median, and mode are different values.  Notice that the mean will always be pulled from the median in the direction of the extreme value.
 \end{itemize}
