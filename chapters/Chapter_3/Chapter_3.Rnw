@@ -169,7 +169,7 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
 \item For example:
 
 % Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
+%\begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
@@ -177,9 +177,9 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
        18 & 19 & 21 & 21 & 22 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 & 30 \\ \hline  
        
    \end{tabular}
-    \caption{Ages of Urban Campus students}
-   \label{tab:t3_6}
-\end{table}
+%    \caption{Ages of Urban Campus students}
+%   \label{tab:t3_6}
+%\end{table}
 \samepage
 \item The {\bf{mode}} is the most frequently occurring value.  Since there are three of 24s, the {\bf{mode}} is 24.  The mode is used for categorical data where the mean and median cannot by used.
 
