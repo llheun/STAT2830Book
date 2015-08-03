@@ -365,9 +365,7 @@ pie( Percent, labels= lbls )
 
 @
 
-
-
-
+\pagebreak
 \subsection{Bar Chart}
 
 Let's look at the marital status from the GSS 2014 survey.
