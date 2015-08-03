@@ -232,7 +232,8 @@ Left Skewed
    \label{tab:t3_7}
 \end{table}
 
-There was a typo when 50 was entered into the dataset when the value should have been 30.
+There was a typo when 50 was entered into the dataset when the value should have been 30.  The value 50 will pull the \emph{mean} to the right. 
+
   \end{itemize}
   
 \item Left-skewed: presence of relatively low values 
@@ -250,10 +251,11 @@ There was a typo when 50 was entered into the dataset when the value should have
    \label{tab:t3_8}
   \end{table}
 
-  There was a typo when 3 was entered into the dataset when the value should have been 30.
+  There was a typo when 3 was entered into the dataset when the value should have been 30.  The value 3 will pull the \emph{mean} to the left.
+  
   \end{itemize}
 
-\item The mean, median, and mode are different values.  Notice that the mean will always be pulled from the median in the direction of the extreme value.
+\item The mean, median, and mode are different values.  Notice that the mean will always be pulled from the median in the direction of the extreme values.
 \end{itemize}
 
 \section{Other Measures of Location}
@@ -280,7 +282,7 @@ The other measure of location are as follows:
 	\begin{itemize}
 	\item Sort scores in order from low to high
 	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example: the 80th percentile is 0.8).
-	\item The resultant value indicates the position in the array of cases.
+	
 	\end{itemize}
 		
 	\item Example
