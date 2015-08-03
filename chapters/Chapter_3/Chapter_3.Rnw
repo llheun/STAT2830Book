@@ -122,7 +122,7 @@ The \emph{median} is the value of the middle observation of the sorted data.
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} llllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-      15 & 18 & 19 & 21 & 21 & 22 & \fbox{23} & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 30  \\ \hline  
+      18 & 18 & 19 & 21 & 21 & 22 & \fbox{23} & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 30  \\ \hline  
        
    \end{tabular}
     \caption{Ages of Urban Campus students}
@@ -152,6 +152,7 @@ The {\bf{median}} is the center score of the distribution.  Half of the values a
 \end{table}
 
   \begin{itemize}
+  
   \item For example from table 3.5, that the median did not change even when the value 30 was changed to 50.
   \end{itemize}
   
@@ -164,6 +165,7 @@ The {\bf{median}} is the center score of the distribution.  Half of the values a
 The {\bf{mode}} is the most frequently occurring observation of this variable.
 
 \begin{itemize}
+\samepage
 \item For example:
 
 % Requires the booktabs if the memoir class is not being used
@@ -178,11 +180,10 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
     \caption{Ages of Urban Campus students}
    \label{tab:t3_6}
 \end{table}
-
+\samepage
 \item The {\bf{mode}} is the most frequently occurring value.  Since there are three of 24s, the {\bf{mode}} is 24.  The mode is used for categorical data where the mean and median cannot by used.
 
 \end{itemize}
-
 
 \section{Overall Distribution Shape}
 
