@@ -444,6 +444,7 @@ The GSS 2014 is a sociological survey used to collect data on demographic charac
     \label{tab:t2_7}
  \end{table}
 
+\pagebreak
 \subsection{Histogram}
 
 <<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3>>=
@@ -455,7 +456,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 @
 
 
-\pagebreak
+
 
 \begin{itemize}
 \item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
