@@ -96,7 +96,7 @@ This example illustrates the affect of an outlier.  The mean with the outlier wa
 The \emph{median} is the value of the middle observation of the sorted data.
 
 \begin{itemize}
-\item If there is an odd number of data values, then to find the center value, simply order the values and remove them from the beginning and end to find the center, e.g., 
+\item If there is an odd number of data values, then to find the center value, simply order the values from the beginning and end and find the center, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -137,6 +137,24 @@ The {\bf{median}} is the center score of the distribution.  Half of the values a
 
 \begin{itemize}
 \item Strength:  It is RESISTANT to extreme value (\emph{outliers}).
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 50 \\ \hline  
+       
+   \end{tabular}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_5}
+\end{table}
+
+  \begin{itemize}
+  \item For example from table 3.5, that the median did not change even when the value 30 was changed to 50.
+  \end{itemize}
+  
 \item Weakness: only values in the middle are used to obtained the median. 
 
 \end{itemize}
@@ -158,7 +176,7 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
        
    \end{tabular}
     \caption{Ages of Urban Campus students}
-   \label{tab:t3_5}
+   \label{tab:t3_6}
 \end{table}
 
 \item The {\bf{mode}} is the most frequently occurring value.  Since there are three of 24s, the {\bf{mode}} is 24.  The mode is used for categorical data where the mean and median cannot by used.
@@ -183,11 +201,11 @@ Right Skewed
 \begin{minipage}[ht]{4.1cm}
 
 \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/leftSkewed.png}
-Symmetric 
+Left Skewed
 
 \end{minipage} 
 
-{\bf{Symmetric}}
+\subsubsection{Symmetric}
 
 \begin{itemize}
 \item Balanced Distribution
@@ -195,7 +213,7 @@ Symmetric
 \item The mean, median, and mode have the same value
 \end{itemize}
 
-{\bf{Skewed}}
+\subsubsection{Skewed}
 
 \begin{itemize}
 \item Right-skewed: presence of relatively high values.
@@ -210,13 +228,13 @@ Symmetric
      18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{50} \\ \hline
    \end{tabular}
     \caption{Ages of Urban Campus students}
-   \label{tab:t3_5}
+   \label{tab:t3_7}
 \end{table}
 
 There was a typo when 50 was entered into the dataset when the value should have been 30.
   \end{itemize}
   
-\item Left-skewed: presence of extremely low values 
+\item Left-skewed: presence of relatively low values 
   \begin{itemize}
   \item 
   % Requires the booktabs if the memoir class is not being used
@@ -228,7 +246,7 @@ There was a typo when 50 was entered into the dataset when the value should have
    \fbox{3} &  18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline
    \end{tabular}
     \caption{Ages of Urban Campus students}
-   \label{tab:t3_6}
+   \label{tab:t3_8}
   \end{table}
 
   There was a typo when 3 was entered into the dataset when the value should have been 30.
@@ -245,7 +263,7 @@ The other measure of location are as follows:
 \samepage
 \item Percentage: point below which a specific percentage of cases fall.
 \samepage
-\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).
+\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  
 \samepage
 \item Quartiles: divides distribution into quarters (25, 50, 75).
 \samepage
@@ -267,22 +285,30 @@ The other measure of location are as follows:
 	\item Example
 		\begin{itemize}
 		\item In a sample of 70 test scores, we want to find the 3rd quartile (or the 75th percentile),
-		\item $70 \times 0.75 = 52.5$, rounding to 53, so the 53rd case is the 75th percentile.
+		\item $70 \times 0.75 = 52.5$ is the 75th percentile.
 		\end{itemize}
 		  	
 \end{itemize}
   
 \section{Key Words}
 \begin{itemize}
-
+\samepage
 \item Deciles
+\samepage
 \item Mean
+\samepage
 \item Measures of central tendency
+\samepage
 \item Median
+\samepage
 \item Mode
+\samepage
 \item Percentile
+\samepage
 \item Quartiles
+\samepage
 \item Skewness
+\samepage
 \item $X_i$ (``x-sub-i'') 
 \end{itemize}
 
@@ -327,7 +353,7 @@ The other measure of location are as follows:
    United Kingdom & 519 \\ \hline
    \end{tabular}
    \caption{Source: http://www.nationmaster.com}
-   \label{tab:t3_5}
+   \label{tab:t3_9}
 \end{table}
 
   \begin{enumerate}
@@ -370,7 +396,7 @@ Find the most appropriate measures of central tendency for each variable:
    j & North & 7 & 33 & 0 & 10 & Prot. \\ \hline
    \end{tabular}
     \caption{Find appropriate measures of central tendency}
-   \label{tab:t3_6}
+   \label{tab:t3_10}
 \end{table}
 
   \begin{enumerate}
