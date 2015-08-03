@@ -93,7 +93,7 @@ This example illustrates the affect of an outlier.  The mean with the outlier wa
   
 \section{Median}
 
-The \emph{median} is the value of the middle observation when the data is sorted.
+The \emph{median} is the value of the middle observation of the sorted data.
 
 \begin{itemize}
 \item If there is an odd number of data values, then to find the center value, simply order the values and remove them from the beginning and end to find the center, e.g., 
@@ -114,7 +114,7 @@ The \emph{median} is the value of the middle observation when the data is sorted
 
 \item median = 24
 
-\item If there is an even number of data values, then to find the center two values and average them,  e.g., 
+\item If there is an even number of data values,  find two values in the  center of the dataset and average them,  e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -137,7 +137,8 @@ The {\bf{median}} is the center score of the distribution.  Half of the values a
 
 \begin{itemize}
 \item Strength:  It is RESISTANT to extreme value (\emph{outliers}).
-\item Weakness: Not all data from a variable is used to compute the median. 
+\item Weakness: only values in the middle are used to obtained the median. 
+
 \end{itemize}
 
 \section{Mode}
@@ -151,14 +152,16 @@ The {\bf{mode}} is the most frequently occurring observation of this variable.
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllll @{}} % Column formatting, @{} suppresses leading/trailing space
-       2 & 4 & 4 & 6  & 9 \\
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+       18 & 19 & 21 & 21 & 22 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 & 30 \\ \hline  
+       
    \end{tabular}
-   % \caption{Remember, \emph{never} use vertical lines in tables.}
-   \label{tab:t3_4}
+    \caption{Ages of Urban Campus students}
+   \label{tab:t3_5}
 \end{table}
 
-The most frequently occurring value is 4, since there are two of them, so the {\bf{mode}} is 4.
+The most frequently occurring value is 24, since there are three of them, so the {\bf{mode}} is 24.
 
 \item Strength:  It is RESISTANT to extreme values (\emph{outliers}).
 \item Weakness: NOT all data from a variable is used to compute the {\bf{mode}}.
@@ -202,7 +205,9 @@ The other measure of location are as follows:
 \samepage
 \item Quartiles: divides distribution into quarters (25, 50, 75).
 \samepage
-\item e.g., the median falls at the 50th percentile (or the 2nd quartile or the 5th decile.)
+  \begin{itemize}
+  \item e.g., the median falls at the 50th percentile (or the 2nd quartile or the 5th decile.)
+  \end{itemize}
 \samepage
 \item Mid-range: $ mr = \frac{Minimum + Maximum}{2} $
 \samepage
