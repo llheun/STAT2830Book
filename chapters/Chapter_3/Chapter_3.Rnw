@@ -264,7 +264,7 @@ The other measure of location are as follows:
 \samepage
 \item Percentage: point below which a specific percentage of cases fall.
 \samepage
-\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  
+\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, children's height in age groups.
 \samepage
 \item Quartiles: divides distribution into quarters (25, 50, 75).
 \samepage
