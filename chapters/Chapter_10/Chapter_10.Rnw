@@ -317,7 +317,7 @@ CV & = & 7.815
      
    \end{tabular}
    \caption{Attendance by Class}
-   \label{tab:c10_6}
+   \label{tab:c10_7}
 \end{table}
 
 
@@ -374,7 +374,7 @@ CV & = & 7.815
     
    \end{tabular}
    \caption{Residence Status and Academic Performance}
-   \label{tab:c10_7}
+   \label{tab:c10_8}
 \end{table}
 	\begin{enumerate}
 	\item Is there a significant relationship between residence status and academic performance.
@@ -398,7 +398,7 @@ CV & = & 7.815
      
    \end{tabular}
    \caption{Residence Status and Academic Performance}
-   \label{tab:c10_8}
+   \label{tab:c10_9}
 \end{table}
 
 	\begin{enumerate}
