@@ -4,7 +4,7 @@
 \label{chap:ch6}
 
 \section{Objective}
-By the end of this material, you will be able to
+By the end of this chapter, you will be able to
 \begin{itemize}
 \samepage
 \item Explain the purpose of inferential statistics in generalizing from a sample to a population.
@@ -153,9 +153,9 @@ Z &= \frac{X - \mu}{\sigma} = \frac{72.0 - 69.1}{2.9} = 1
 \end{minipage} \hfill
 \begin{minipage}[h]{6.5cm}
 
-   \includegraphics[width=3cm]{zAUC9.png} % requires the graphicx package
+   \includegraphics[width=3cm]{chapters/Chapter_6/ext_figure/zAUC9.png} % requires the graphicx package
    
-   \includegraphics[width=3cm]{zAUC10.png} % requires the graphicx package
+   \includegraphics[width=3cm]{chapters/Chapter_6/ext_figure/zAUC10.png} % requires the graphicx package
       
 \end{minipage} 
 
@@ -202,7 +202,7 @@ Z &=  \frac{72.0 - 69.1}{0.92} = 3.15
 \end{minipage} \hfill
 \begin{minipage}[h]{6.5cm}
 
-   \includegraphics[width=4cm]{zAUC11.png} % requires the graphicx package
+   \includegraphics[width=4cm]{chapters/Chapter_6/ext_figure/zAUC11.png} % requires the graphicx package
 
 \end{minipage}
 
@@ -232,7 +232,7 @@ TIME AT CURRENT JOB.  Here we find that the population distribution is skewed le
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=5cm]{zAUC1a.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_6/ext_figure/zAUC1a.png} % requires the graphicx package
    \caption{Time at Current Job}
    \label{fig:aAUC1a}
 \end{figure}
@@ -280,17 +280,17 @@ Now let's look at the histograms of the averages.
 
 \begin{minipage}[h]{4cm}
 
-   \includegraphics[width=3.5cm]{zAUC10a.png} % requires the graphicx package
+   \includegraphics[width=3.5cm]{chapters/Chapter_6/ext_figure/zAUC10a.png} % requires the graphicx package
    
 \end{minipage} \hfill
 \begin{minipage}[h]{4cm}
 
-   \includegraphics[width=3.5cm]{zAUC25.png} % requires the graphicx package
+   \includegraphics[width=3.5cm]{chapters/Chapter_6/ext_figure/zAUC25.png} % requires the graphicx package
    
 \end{minipage} \hfill  
 \begin{minipage}[h]{4cm}
 
-   \includegraphics[width=3.5cm]{zAUC100.png} % requires the graphicx package
+   \includegraphics[width=3.5cm]{chapters/Chapter_6/ext_figure/zAUC100.png} % requires the graphicx package
    
 \end{minipage} 
 
