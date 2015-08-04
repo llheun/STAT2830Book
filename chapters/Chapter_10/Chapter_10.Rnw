@@ -112,7 +112,7 @@ We have provided a SPSS output of the Chi-square analysis.  Note the test statis
      
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=13cm]{zChisq3.png} % requires the graphicx package
+   \includegraphics[width=13cm]{chapters/Chapter_10/ext_figure/zChisq3.png} % requires the graphicx package
    \caption{Chi-square Analysis of the relationship between Smoker and Hard-liquor}
    \label{fig:c10_3}
 \end{figure}   
@@ -206,7 +206,7 @@ Table: Student graduated from an Accredited Program by Graduate Working as Socia
 
 There is another way to look at this data.  
 
-   \includegraphics[width=5.5cm]{zFig10_1.png} % requires the graphicx package
+   \includegraphics[width=5.5cm]{chapters/Chapter_10/ext_figure/zFig10_1.png} % requires the graphicx package
    
 \end{minipage}
 
@@ -214,7 +214,7 @@ We have provided a SPSS output of the Chi-square analysis.  Note: the test stati
      
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=12.5cm]{zChisq6.png} % requires the graphicx package
+   \includegraphics[width=12.5cm]{chapters/Chapter_10/ext_figure/zChisq6.png} % requires the graphicx package
    \caption{Chi-square Analysis of the relationship between Accredited and Employment Status}
    \label{fig:c10_4}
 \end{figure}             
