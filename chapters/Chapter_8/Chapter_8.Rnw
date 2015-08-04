@@ -262,6 +262,8 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	
 \end{itemize}
 
+\pagebreak 
+
 \section{Key Words}
 
 \begin{itemize}
