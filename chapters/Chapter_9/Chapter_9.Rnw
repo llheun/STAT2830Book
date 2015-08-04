@@ -87,7 +87,9 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 	\item Formulate the null hypothesis:
 		\begin{itemize}
 		\item $H_0: \mu_l = \mu_h$
-		\item where \emph{l} indicates low self-concept students and \emph{h} indicates high self-concept students.
+		  \begin{itemize}
+		  \item where \emph{l} indicates low self-concept students and \emph{h} indicates high self-concept students.
+		  \end{itemize}
 		\end{itemize}
 	\samepage
 	\item Formulate the alternative hypothesis.  Since we have evidence that high self-concept students have a higher GPA than low self-concept (see graphs), we will perform a two-tailed test of low self-concept GPA is different from high self-concept GPA, i.e., ($\bar{X_l} - \bar{X_h}$). 
