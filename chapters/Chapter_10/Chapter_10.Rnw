@@ -114,7 +114,7 @@ We have provided a SPSS output of the Chi-square analysis.  Note the test statis
    \centering
    \includegraphics[width=13cm]{chapters/Chapter_10/ext_figure/zChisq3.png} % requires the graphicx package
    \caption{Chi-square Analysis of the relationship between Smoker and Hard-liquor}
-   \label{fig:c10_3}
+   \label{fig:c10_2}
 \end{figure}   
 
           
