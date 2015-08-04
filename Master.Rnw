@@ -80,13 +80,13 @@ opts_chunk$set(
 <<Ch9, child="chapters/Chapter_9/Chapter_9.Rnw",eval=FALSE>>=
 @
 
-<<Ch10, child="chapters/Chapter_10/Chapter_10.Rnw",eval=FALSE>>=
+<<Ch10, child="chapters/Chapter_10/Chapter_10.Rnw",eval=TRUE>>=
 @
 
 <<Ch11, child="chapters/Chapter_11/Chapter_11.Rnw",eval=FALSE>>=
 @
 
-<<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=TRUE>>=
+<<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=FALSE>>=
 @
 
 \end{document}
