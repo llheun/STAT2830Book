@@ -2,7 +2,7 @@
 
 \chapter{Inferential Statistics }
 \label{chap:ch6}
-
+  
 \section{Objective}
 By the end of this chapter, you will be able to
 \begin{itemize}
