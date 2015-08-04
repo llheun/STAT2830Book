@@ -127,7 +127,7 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
           & \multicolumn{5}{c}{Significance Level for two-tailed tests} \\ \hline
   $df$  & .2 & .1 & 0.05 & .025 & .01 \\ \hline 
   14 & 1.345 & 1.761 & 2.145 & 2.624 & 2.977 \\
-  15 & 1.341 & 1.753 & 2.131 & 2.602 & 2.947 \\
+  15 & 1.341 & 1.753 & \fbox{2.131} & 2.602 & 2.947 \\
   16 & 1.337 & 1.746 & 2.120 & 2.583 & 2.921 \\ \hline
   
    \end{tabular}
