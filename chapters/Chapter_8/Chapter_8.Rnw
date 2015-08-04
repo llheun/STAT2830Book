@@ -79,7 +79,7 @@ Given: $\mu_0 = 453$, \hspace{3mm} $\sigma = 95$ \hspace{3mm} $n = 125$ \hspace{
 \item Decision is based on the {\bf{Critical Value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: \mu \neq 453$,
-	\item  and since $| Z | = 5.77 > 1.96$.  
+	\item  and since $| Z | = 5.77 > 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.
 	\item Hence, reject $H_0$.
 	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important.
 	\end{itemize}
