@@ -58,12 +58,12 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 
 \begin{minipage}[h]{6.5cm}
 
-   \includegraphics[width=6cm]{z9_1.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_9/ext_figure/z9_1.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[h]{6.5cm}
 
-   \includegraphics[width=6cm]{z9_2.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_9/ext_figure/z9_2.png} % requires the graphicx package
 
 \end{minipage} 
 
@@ -192,12 +192,12 @@ If we look at hours of students that either reside on or  off campus,
 
 \begin{minipage}[h]{6.5cm}
 
-   \includegraphics[width=6cm]{zActHist.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_9/ext_figure/zActHist.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[h]{6.5cm}
 
-   \includegraphics[width=6cm]{zActBP.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_9/ext_figure/zActBP.png} % requires the graphicx package
 
 \end{minipage} 
 
