@@ -88,7 +88,8 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 		\begin{itemize}
 		\item $H_0: \mu_l = \mu_h$
 		  \begin{itemize}
-		  \item where \emph{l} indicates low self-concept students and \emph{h} indicates high self-concept students.
+		  \item where \emph{l} indicates low self-concept students and 
+		  \item \emph{h} indicates high self-concept students.
 		  \end{itemize}
 		\end{itemize}
 	\samepage
