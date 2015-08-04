@@ -259,6 +259,7 @@ Since 1968, voter surveys use inferential statistics.
    \label{fig:RV}
 \end{figure}
 
+\pagebreak
 \section{Key Words}
 
 \begin{itemize}
