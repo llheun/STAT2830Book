@@ -22,7 +22,7 @@ By the end of this material, you will be able to
 \end{itemize}
 
 \section{Why do hypothesis testing?}
-
+  
 \begin{itemize}
 \item Hypothesis testing is done to challenge the truth about some claim regarding  a population parameter.
 \item For example: A sociologist is assessing the effectiveness of a rehabilitation program for alcoholics in her city.  The program serves a large area and she cannot test every single client.  Instead, she draws a simple random sample of 127 people from the list of all clients and questions them on a variety of issues.  She notices that, on average, the people in her sample miss fewer days of work each year than workers in the city as a whole.
