@@ -167,7 +167,7 @@ Given: $n = 207$ \hspace{3mm} $f = 83$ \hspace{3mm} $\alpha = 0.05$ \hspace{3mm}
 \item Decision based on {\bf{Critical Value (CV)}} at {\bf{level of significance}} 0.05 or 5 percent.
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: P_u \neq  0.35 $,
-	\item  and since $ |Z|  = 1.54 < 1.96$.  
+	\item  and since $ |Z|  = 1.54 < 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.   
 	\item Hence, failed to reject $H_0$.
 	\item Although the test is not significant, as  researchers, we must ask ourselves, is the size effect, 0.05, important.
 	\end{itemize}
