@@ -14,7 +14,7 @@ proportions following the 5-step process and interpret the results.
 \end{itemize}
 
 \section{One Sample Case vs. Two Sample Case}
-
+  
 There are two important differences between the one-sample case considered in the last chapter and the two-sample case situation.
 
 \begin{enumerate}
