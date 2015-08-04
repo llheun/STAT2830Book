@@ -77,7 +77,7 @@ Note: When \emph{independent}, then we expect the same proportion of smokers per
 Sampling Distribution & = & $\chi^2$ distribution \\
 Alpha ($\alpha$) & = & 0.05 \\
 Degrees of Freedom & = & (\# of rows - 1)(\# of columns - 1) = (2 - 1)(2 - 1) = 1 \\
-CV & = & 7.815 
+CV & = & 3.841 
 \end{tabular}
 
 \item Step 4.  Computing the Test Statistic.
@@ -327,7 +327,7 @@ CV & = & 7.815
 \item Step 5.  Making a Decision and Interpreting the Results of the Test.
 	\begin{itemize}
 	\samepage
-	\item Since the $\chi^2$ (33.79) $>$ CV(3.815) and p-value (0.000) $< \alpha (0.05)$, reject the null hypothesis.
+	\item Since the $\chi^2$ (33.79) $>$ CV(7.815) and p-value (0.000) $< \alpha (0.05)$, reject the null hypothesis.
 	\samepage
 	\item There is a difference in the support for the basketball team by class with 95 percent confidence.
 	\end{itemize}
