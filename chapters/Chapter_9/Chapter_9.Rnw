@@ -432,7 +432,9 @@ Is the new program more effective?  To answer this,  hypotheses testing on two s
 \item Formulate the null hypothesis.
 	\begin{itemize}
 	\item $H_0: P_p = P_r$
-	\item p = peer and r = regular
+	  \begin{itemize}
+	  \item p = peer and r = regular
+	  \end{itemize}
 	\end{itemize}
 \item Formulate the alternate hypothesis: \\
 Since the question asks if the new program is more effective,  we will perform a one-tailed test (much-improved rate increased) test.
