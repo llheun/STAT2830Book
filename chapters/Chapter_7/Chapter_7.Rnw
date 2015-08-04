@@ -305,6 +305,16 @@ $ME = CV \times SE$.
 
 \section{Key Words}
 
+\begin{itemize}
+\item Alpha ($\alpha$)
+\item Bias
+\item Confidence interval
+\item Confidence level
+\item Efficiency
+\end{itemize}
+
+
+
 \newpage
 
 \section{Exercises}
