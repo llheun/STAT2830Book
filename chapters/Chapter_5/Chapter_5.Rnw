@@ -41,7 +41,7 @@ What are the characteristics of the Normal Curve?
  
  \begin{figure}[htbp]
     \centering
-    \includegraphics[width=6cm]{zbell-shape2.png} % requires the graphicx package
+    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zbell-shape2.png} % requires the graphicx package
     \caption{Bell-Shaped and Symmetric}
     \label{fig:BS4}
  \end{figure}
@@ -63,7 +63,7 @@ $\bar{x} \pm 3SD$
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=6cm]{zempirical-rule.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zempirical-rule.png} % requires the graphicx package
    \caption{Empirical-rule}
    \label{fig:BS5}
 \end{figure}
@@ -126,7 +126,7 @@ The IQ scores are normally distributed.  Let's consider the following example.
 
 %\begin{figure}[htbp]
    \centering
-   \includegraphics[width=6cm]{z1iq.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z1iq.png} % requires the graphicx package
 %  \caption{Female IQ Scores}
  %  \label{fig:N1}
  % \end{figure}
@@ -135,7 +135,7 @@ The IQ scores are normally distributed.  Let's consider the following example.
 
 %\begin{figure}[htbp]
    \centering
-   \includegraphics[width=6cm]{z2iq.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2iq.png} % requires the graphicx package
  %  \caption{Male IQ Scores}
  %  \label{fig:N2}
 % \end{figure}
@@ -184,7 +184,7 @@ Z-score = $Z = \frac{X - mean}{SD}$
 \begin{minipage}[t]{6.5cm}
 
 \ \\[-1cm]
-   \includegraphics[width=6cm]{zBS4.png} % requires the graphicx package
+   \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zBS4.png} % requires the graphicx package
 
 \end{minipage} 
 
@@ -192,14 +192,14 @@ The following describes  the progression to analyze a ``bell-shaped and symmetri
 
  \begin{minipage}[t]{6.5cm}
 
-    \includegraphics[width=6cm]{z2iq.png} % requires the graphicx package
+    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2iq.png} % requires the graphicx package
 
 Calculate the mean and SD.  We verify the normal distribution criteria by drawing a bell-shaped curve over the histogram.
 
 \end{minipage} \hfill
 \begin{minipage}[t]{6.5cm}
 
-    \includegraphics[width=6cm]{z2zS.png} % requires the graphicx package
+    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2zS.png} % requires the graphicx package
 
 We use the z-score transformation 
 
@@ -216,7 +216,7 @@ Let's consider an example to compare two z-scores.
 
 \begin{minipage}[t]{6.5cm}
 
-    \includegraphics[width=6cm]{z2iq.png} % requires the graphicx package
+    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2iq.png} % requires the graphicx package
     
 \begin{equation}
 Z_m = \frac{X - mean}{SD} = \frac{120 - 100}{20} = +1.00 \nonumber 
@@ -227,7 +227,7 @@ A male IQ score of 120 is one standard deviation from the IQ score of 100.
 \end{minipage} \hfill
  \begin{minipage}[t]{6.5cm}
 
-    \includegraphics[width=6cm]{z1iq.png} % requires the graphicx package
+    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z1iq.png} % requires the graphicx package
     
 \begin{equation}
 Z_f = \frac{X - mean}{SD} = \frac{120 - 100}{10} = +2.00 \nonumber 
@@ -244,11 +244,11 @@ How to Find Areas Under the Normal Curve illustration.  Recall that the total ar
 
 \begin{minipage}[b]{5.5cm}
 
-    \includegraphics[width=5cm]{zAUC1.png} % requires the graphicx package
+    \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC1.png} % requires the graphicx package
 
 This represents column (b) -- Area between mean and Z.
 
-    \includegraphics[width=5cm]{zAUC2.png} % requires the graphicx package
+    \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC2.png} % requires the graphicx package
 
 This represents column (c) -- Area beyond Z, i.e., above Z
 
@@ -293,9 +293,9 @@ We can take advantage of the symmetry of the Normal Distribution.
 \begin{minipage}[t]{6.5cm}
 
 \ \\[-1mm]
-   \includegraphics[width=4.5cm]{zAUC3.png} % requires the graphicx package
+   \includegraphics[width=4.5cm]{chapters/Chapter_5/ext_figure/zAUC3.png} % requires the graphicx package
    
-   \includegraphics[width=4.5cm]{zAUC2.png} % requires the graphicx package
+   \includegraphics[width=4.5cm]{chapters/Chapter_5/ext_figure/zAUC2.png} % requires the graphicx package
    
 \end{minipage}
 
@@ -307,7 +307,7 @@ We are asked to find the proportion of males that have an IQ score greater than 
 
 \begin{minipage}[t]{6cm}
 
-   \includegraphics[width=5cm]{zAUC4.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC4.png} % requires the graphicx package
    
 \end{minipage} \hfill
 \begin{minipage}[t]{7cm}
@@ -319,7 +319,7 @@ Since the question is asking for those individuals hat have an IQ score greater 
 
 \begin{minipage}[b]{6.5cm}
 
-   \includegraphics[width=5cm]{zAUC5.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC5.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[b]{6.5cm}
@@ -342,7 +342,7 @@ We need to find the Z-score in the table (column (a)), then look under the appro
 
 \begin{minipage}[t]{6.5cm}
 
-   \includegraphics[width=5cm]{zAUC5.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC5.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[t]{6.5cm}
@@ -401,7 +401,7 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 
 \begin{minipage}[b]{5cm}
 
-   \includegraphics[width=5cm]{zAUC6.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC6.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[b]{8cm}
@@ -452,7 +452,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 
 \begin{minipage}[b]{5cm}
 
-   \includegraphics[width=5cm]{zAUC7.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC7.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[b]{8cm}
@@ -481,7 +481,7 @@ First we need to find the area for the probability of 0.900 and the associated Z
 
 \begin{minipage}[b]{5cm}
 
-   \includegraphics[width=5cm]{zAUC8.png} % requires the graphicx package
+   \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC8.png} % requires the graphicx package
 
 \end{minipage} \hfill
 \begin{minipage}[b]{8cm}
