@@ -39,12 +39,20 @@ What are the characteristics of the Normal Curve?
 \item The total area under the curve (probability) is one.
 \end{itemize}
  
- \begin{figure}[htbp]
-    \centering
-    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zbell-shape2.png} % requires the graphicx package
-    \caption{Bell-Shaped and Symmetric}
-    \label{fig:BS4}
- \end{figure}
+<<f5_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped and Symmetric">>=
+
+xyzz <- seq(-4,4,.1)
+plot(xyzz, dnorm(xyzz,0,1),type="l",xlab="Mean=0", ylab="Probability")
+polygon(c(xyzz[xyzz<=0],0), c(dnorm(xyzz[xyzz<=0],0,1),0000),col="white")
+
+@
+
+% \begin{figure}[htbp]
+%    \centering
+%    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zbell-shape2.png} % requires the graphicx package
+%    \caption{Bell-Shaped and Symmetric}
+%    \label{fig:BS4}
+% \end{figure}
  
 \section{Empirical Rule}
 
