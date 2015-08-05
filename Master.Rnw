@@ -90,4 +90,7 @@ opts_chunk$set(
 <<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=TRUE>>=
 @
 
+<<WS1, child="chapters/Workshop_1/Workshop.Rnw",eval=TRUE>>=
+@
+
 \end{document}
