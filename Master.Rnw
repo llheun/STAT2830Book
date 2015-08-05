@@ -1,4 +1,5 @@
 \documentclass[11pt,ans]{book}
+\makeanswers\bkchap
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 %\geometry{landscape}                % Activate for for rotated page geometry
