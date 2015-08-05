@@ -47,12 +47,7 @@ polygon(c(xyzz[xyzz<=0],0), c(dnorm(xyzz[xyzz<=0],0,1),0000),col="white")
 
 @
 
-% \begin{figure}[htbp]
-%    \centering
-%    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zbell-shape2.png} % requires the graphicx package
-%    \caption{Bell-Shaped and Symmetric}
-%    \label{fig:BS4}
-% \end{figure}
+
  
 \section{Empirical Rule}
 
