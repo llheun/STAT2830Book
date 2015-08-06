@@ -196,14 +196,14 @@ Z-score = $Z = \frac{X - mean}{SD}$
 
 The following describes  the progression to analyze a ``bell-shaped and symmetrical'' distribution.
 
- \begin{minipage}[t]{6.5cm}
+ \begin{minipage}[ht]{6.5cm}
 
     \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2iq.png} % requires the graphicx package
 
 Calculate the mean and SD.  We verify the normal distribution criteria by drawing a bell-shaped curve over the histogram.
 
 \end{minipage} \hfill
-\begin{minipage}[t]{6.5cm}
+\begin{minipage}[ht]{6.5cm}
 
     \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2zS.png} % requires the graphicx package
 
