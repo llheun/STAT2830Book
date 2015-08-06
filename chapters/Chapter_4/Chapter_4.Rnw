@@ -197,7 +197,7 @@ The yellow portion (white) of the bell-shaped curve represents one standard devi
 
 So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in urban campus setting versus a residential campus.
 
-Let's say urban campus has a higher mean age than the residential campus.  (see Table 4.2 and Table 4.3)  Your first reaction could be that the students on the urban campus are older.
+Let's say urban campus has a higher mean age than the residential campus.  (see Table 4.2 and Table 4.3 and Figure 4.3)  Your first reaction maybe that the students on the urban campus are older.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -209,7 +209,7 @@ Let's say urban campus has a higher mean age than the residential campus.  (see 
          \multicolumn{6}{c}{Urban \hspace{3.5cm} Resident}   \\ \hline
       
      Age & Deviations & Sqd Dev. &  Age & Deviations & Sqd Dev. \\
-     $x_i$ & $x_i - \bar{x}$ & $(x_i - \bar{x}^2$ & $x_i$ & $x_i - \bar{x}$ & $(x_i - \bar{x}^2$ \\ \hline 
+     $x_i$ & $x_i - \bar{x}$ & $(x_i - \bar{x})^2$ & $x_i$ & $x_i - \bar{x}$ & $(x_i - \bar{x})^2$ \\ \hline 
      21 & -2.8 & 7.84 & 19 & -0.2 & 0.04 \\
      21 & -2.8 & 7.84 & 19 & -0.2 & 0.04 \\
      23 & -0.8 & 0.64 & 18 & -1.2 & 1.44 \\
@@ -260,35 +260,40 @@ Needless to say, when you are evaluating the results of your research, you may s
 
 Some of you maybe asking, how do we compute the standard deviation?  For those of you who are curious, you may continue to read the remaining proportion of the section.  
 For the others, you may go to the next section.  Remember, there is statistical software and calculators that will compute the standard deviation for you.
-
+\vspace{2mm}
+\emph{}
 You will need to know these terms: \\
 $x$ equals a value of a variable in a dataset.
 $\bar{x}$ equals the mean  of the variable in a dataset. 
 $n$ equals the number of values ($x$) in your dataset. 
 
-Referring  to table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in table 4.3. 
-There is one more way to compute the standard deviation, that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have grasp the basic concept of the standard deviation, you should be okay.
+Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in table 4.3. 
+There is one more way to compute the standard deviation, that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have grasp the basic concept of the standard deviation, you should be okay.}
 
 \section{Variance}
 
-The characteristics of the Variance are
+The characteristics of the variance are
 
 \begin{itemize}
 \item the standard deviation squared, $s^2$.
 \item a good measure of dispersion.
 \item uses all the data points in the sample.
-\item describes the ``average'' or typical deviation of the scores.  The statistic should give us an idea about how far scores are from each other or from the center of the distribution.
-\item an increase in value as the scores become more diverse and decrease in value as the scores become less diverse.  This provide for comparison be different distributions.
+\item describes the ``average'' or typical squred deviation of the scores.  The statistic should give us an idea about how far scores are from each other or from the center of the distribution.
+\item increases in value as the scores become more diverse and decrease in value as the scores become less diverse.  This provide for comparison of different distributions.
 \item affected by outliers.
 \end{itemize}
 
 \section{Other Measures of Spread}
 
-The characteristics of the coefficient of variation are
+\subsubsection{Coefficient of Variation} 
+
+The coefficient of variation is defined \\ $ CV = \frac{s}{\bar{x}} \times 100\%$
 
 \begin{itemize}
-\item $ CV = \frac{s}{\bar{x}} \times 100\%$
-\item This measure of spread explains the percentage of variation around the average
+
+\item The coefficient of variation is equal to the standard deviation divided by the mean and multiplied by 100 percent.
+It measures the  spread  around the mean  as a percentage. 
+\item It is useful when comparing the variability of two or more  datasets that have different units of measure.
 \end{itemize}
 
 
