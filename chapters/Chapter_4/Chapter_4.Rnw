@@ -261,14 +261,14 @@ Needless to say, when you are evaluating the results of your research, you may s
 Some of you maybe asking, how do we compute the standard deviation?  For those of you who are curious, you may continue to read the remaining proportion of the section.  
 For the others, you may go to the next section.  Remember, there is statistical software and calculators that will compute the standard deviation for you.
 \vspace{2mm}
-\emph{
+
 You will need to know these terms: \\
 $x$ equals a value of a variable in a dataset.
 $\bar{x}$ equals the mean  of the variable in a dataset. 
 $n$ equals the number of values ($x$) in your dataset. 
 
 Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in table 4.3. 
-There is one more way to compute the standard deviation, that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have grasp the basic concept of the standard deviation, you should be okay.}
+There is one more way to compute the standard deviation, that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have grasp the basic concept of the standard deviation, you should be okay.
 
 \section{Variance}
 
