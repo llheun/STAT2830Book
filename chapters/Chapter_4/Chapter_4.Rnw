@@ -167,7 +167,7 @@ The standard deviation is a statistic that measures how closely individual numbe
   y11<-dnorm(x10,mean=23.8,sd=3.68)
   lines(x10,y11)
   text(27,.2,"Residential")
-  lines(c(21,28),c(.15,.18))
+  lines(c(21,25),c(.15,.18))
   text(30,.12,"Urban")
   lines(c(27,30),c(.08,.10))
   
@@ -192,7 +192,7 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
-The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray)  portion represent of the bell-shaped curve together two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
+The yellow portion (white) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and white)  portion represent of the bell-shaped curve together two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and white) portion of the bell-shaped curve represent three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
 
 So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in urban campus setting versus a residential campus.
 
