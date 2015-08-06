@@ -18,9 +18,9 @@ table to find areas above, below and between points of the curve and  express th
 This  Normal Curve is an important concept in statistics.
 
 \begin{itemize}
-\item It is the  distribution pattern that occurs in many observable datasets, such as IQ, grades, etc.
-\item If the sample size  is large enough (i.e., more than 30), the sampling distribution of any distribution is normal.
-\item It is easy to work with and it is a very important groundwork for Inferential Statistics that will be discussed on later chapters.
+\item It is the  distribution pattern that occurs in many observable datasets, such as IQ, grades, GRE, LSAT, etc.
+\item If the sample size  is large enough (i.e., more than 30), the sampling distribution of any distribution is close to normal.
+\item It  is a very important groundwork for Inferential Statistics that will be discussed on later chapters.
 \end{itemize}
 
 \section{Normal Curve Characteristics}
@@ -29,13 +29,14 @@ What are the characteristics of the Normal Curve?
 
 \begin{itemize}
 \item There is symmetry about the mean (average).
-\item Unimodal and no skewness.
-\item mean = median = mode
+\item Unimodal.
 \item The mean divides the curve in to two equal halves.
+\item mean = median = mode
+
 \item It is completely determined by the mean and standard deviation.
-\item Recall: the {\bf{standard deviation}} is the average amount the data is from the mean.  Most of the data are close to the mean but few data points are at the extremes.
-\item The area under the curve is called probability
-\item The total area under the curve (probability) is one.
+\item Recall: the {\bf{standard deviation}} is a measure that is used to quantify the amount of variation or spread of a set of data values.
+\item The area under the curve can be interpreted as probability
+\item The total area under the curve (probability) equals one (1).
 \end{itemize}
  
 <<f5_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped and Symmetric">>=
@@ -74,7 +75,7 @@ $\bar{x} \pm 3SD$
 
 Here is an example of how to use the empirical rule.
 
-Suppose you are concerned the amount of money that students pay for their lunch.  The average lunch costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical-rule to determine the 68-95-99.7 percent. 
+Suppose you are concerned about the amount of money that students pay for their lunch.  The average lunch costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical-rule to determine the 68-95-99.7 percent of student lunch expense. 
 
 \begin{align*}
 \mu \pm \sigma &= 5 \pm 0.5, or \hspace{1mm} 4.5 \hspace{1mm} to \hspace{1mm} 5.5 \\
@@ -110,11 +111,13 @@ SD = \frac{UB - LB}{4} = \frac{30.5 - 8.5}{4} = 5.5 \nonumber
 mean = \frac{UB + LB}{2} = \frac{30.5 + 8.5}{2} = 19.5 \nonumber
 \end{equation}
 
+\item So how do we interpret this data.  It is telling us that on the average college students spend about 5.5 hours on the world-wide web give or take 19.5 hours.
+
 \end{itemize}
 
 \section{Normal Curve and Z-Score}
 
-The IQ scores are normally distributed.  Let's consider the following example.
+The IQ scores are normally distributed.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the normal curve and Z-Score.
 
 \begin{itemize}
 \item A sample of 1,000 females and 1,000 males were selected and their IQ scores were measured.
@@ -145,7 +148,8 @@ The IQ scores are normally distributed.  Let's consider the following example.
 
 \begin{itemize}
 \item The histogram exhibit a bell-shaped curve and symmetrical distribution for both females and males IQ scores.
-\item We will make the assumption that they are normally distributed.  This will allow us to analyze the results using the normal curve.
+\item Based on the above graphics, we see that we may make the 
+assumption that they are normally distributed.  This will allow us to analyze the results using the normal curve.
 \item Notice the two distributions are different.
 \item The measures of central tendency are the same, but the measures of dispersion (spread) are different.
 \item Making the following assumptions about a data set (distribution) will completely determine the particular distribution that we nee to work.
@@ -167,7 +171,7 @@ standardized form called the Z-score.
 \end{itemize}
 
 \begin{itemize}
-\item The Z-score tells us how many standard units (standard deviations) a point is from the mean.
+\item The Z-score tells us how many standard units (standard deviations), that a point, is away from the mean.
 
 Z-score = $Z = \frac{X - mean}{SD}$
 
