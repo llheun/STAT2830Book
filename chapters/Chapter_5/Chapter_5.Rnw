@@ -261,13 +261,13 @@ A female IQ score of 120 is two standard deviation from the IQ score of 100.
 \newpage
 \section{Finding Probabilities Using the Normal Curve}
 
-How to Find Areas Under the Normal Curve illustration.  Recall that the total area under the bell-shaped curve is equal to one.
+How to find Areas Under the Normal Curve (AUC) illustration.  Recall that the total area under the bell-shaped curve is equal to one.
 
 \begin{minipage}[b]{5.5cm}
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC1.png} % requires the graphicx package
 
-This represents column (b) -- Area between mean and Z.
+This represents column (b) -- Area between mean and Z-Score.
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC2.png} % requires the graphicx package
 
@@ -334,7 +334,7 @@ We are asked to find the proportion of males that have an IQ score greater than 
 \begin{minipage}[t]{7cm}
 
 \ \\[-4cm]
-Since the question is asking for those individuals hat have an IQ score greater than 130, we are looking for the are above 130.  First we need to find the associated Z-score.
+Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First we need to find the associated z-score.
 
 \end{minipage} 
 
@@ -349,7 +349,7 @@ Since the question is asking for those individuals hat have an IQ score greater 
 $Z = \frac{X - mean}{SD} = \frac{130 - 100}{20} = 1.5$
 \vspace{3mm}
 
-Then using the Z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5 which is equivalent to the area above an IQ score of 130.
+Then using the Z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5.  It is equivalent to the area above an IQ score of 130.
 
 \end{minipage}
 
@@ -359,7 +359,7 @@ To answer the question, we need the area above the Z-score of 1.5.
 
 \vspace{5mm}
 
-We need to find the Z-score in the table (column (a)), then look under the appropriate column for the desired area.  In this case, it is column (c) and the result is 0.0668.
+We need to find the Z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c) and the result is 0.0668.
 
 \begin{minipage}[t]{6.5cm}
 
@@ -375,7 +375,7 @@ We need to find the Z-score in the table (column (a)), then look under the appro
      Z & Area between & Area  \\
         & Mean and Z    & Beyond Z \\ \hline
         
-     1.50 & 0.4332 & 0.0668  \\
+     \fbox{1.50} & 0.4332 & \fbox{0.0668}  \\
      1,51 & 0.4345 & 0.0655 \\
      1.52 & 0.4357 & 0.0643 \\
      1.53 & 0.4370 & 0.0630 \\ \hline
@@ -384,8 +384,8 @@ We need to find the Z-score in the table (column (a)), then look under the appro
 \end{minipage}
 
 \begin{itemize}
-\item We interpret 0.0668 (or 6.68\%) the area under the curve as all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
-\item Another way of stating this result is that  if you were to randomly select an individual male, the probability that the individual has an IQ score of 130 or greater is 0.0668.
+\item We interpret 0.0668 (or 6.68\%) as area under the curve representing all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
+\item Another way of stating this result is that  if you were to randomly select an individual male from the population, the probability that the individual has an IQ score of 130 or greater is 0.0668.
 \item In addition, $1 - 0.0668 = 0.932$ or 93.32\% of all male individuals have an IQ score below 130.
 \end{itemize}
 
