@@ -162,7 +162,7 @@ Figure 4.3 represents a perfect distribution of ages of students on a residentia
 The standard deviation is a statistic that measures how closely individual numbers from a sample are packed around the average of the dataset.  When the value of the standard deviation is small, the data points will be 
 ``tightly'' clustered together and the slope of the bell-shaped curve will be steep.  Otherwise, when the value of the standard deviation is large, the data points will be ``loosely'' clustered around the mean  and the slope of the bell-shaped curve will be relatively flat.
 
-<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Campus Comporison">>=
+<<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Campus Comparison">>=
 
   x10<-seq(12,35,.1)
   y10<-dnorm(x10,mean=19.2,sd=1.52)
@@ -177,9 +177,8 @@ The standard deviation is a statistic that measures how closely individual numbe
   rm(x10,y10,y11)
 @
 
-
-
-The calculation of the standard deviation value is much more complicated than say the mean.  The following graphic shows the representation of the standard deviation.
+% The calculation of the standard deviation value is much more complicated than say the mean.  
+The following graphic shows the representation of the standard deviation.
 
 
 <<f4_5, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Standard Deviation">>=
@@ -196,11 +195,9 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
+The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray)  portion represent of the bell-shaped curve together two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
 
-
-The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray) portion of the bell-shaped curve represents two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represents three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
-
-So the next question is, ``Why is this concept important?''  Let's explore an example: If you are comparing ages of students in urban campus setting versus a residential campus.
+So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in urban campus setting versus a residential campus.
 
 Let's say urban campus has a higher mean age than the residential campus.  (see Table 4.2 and Table 4.3)  Your first reaction could be that the students on the urban campus are older.
 
