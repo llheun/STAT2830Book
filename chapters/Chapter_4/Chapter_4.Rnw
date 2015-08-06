@@ -267,7 +267,7 @@ $x$ equals a value of a variable in a dataset.
 $\bar{x}$ equals the mean  of the variable in a dataset. 
 $n$ equals the number of values ($x$) in your dataset. }
 
-\emph{Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in table 4.3. 
+\emph{Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in Table 4.3. 
 There is one more way to compute the standard deviation, that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have grasp the basic concept of the standard deviation, you should be
 okay.}
 
