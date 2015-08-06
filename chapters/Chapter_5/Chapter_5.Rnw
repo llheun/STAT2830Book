@@ -9,9 +9,8 @@ By the end of this chapter, you will be able to
 \begin{itemize}
 \item Define and explain the concept of the {\bf{Normal Curve}}.
 \item Convert empirical scores to Z-scores and use Z-scores and the normal curve
-table to find areas above, below and between points of the curve.
-\item Express areas under the normal curve in terms of probabilities.
-\item Utilize the standard normal distribution to solve probability problems.
+table to find areas above, below and between points of the curve and  express them in terms of probabilities.
+\item Utilize the standard normal distribution to solve probability (chance) problems.
 \end{itemize}
 
 \section{Why we should study the Normal Curve}
@@ -19,7 +18,7 @@ table to find areas above, below and between points of the curve.
 This  Normal Curve is an important concept in statistics.
 
 \begin{itemize}
-\item It is the data distribution pattern that occurs in many observable facts, such as IQ, grades, etc.
+\item It is the  distribution pattern that occurs in many observable datasets, such as IQ, grades, etc.
 \item If the sample size  is large enough (i.e., more than 30), the sampling distribution of any distribution is normal.
 \item It is easy to work with and it is a very important groundwork for Inferential Statistics that will be discussed on later chapters.
 \end{itemize}
