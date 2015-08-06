@@ -207,6 +207,21 @@ Calculate the mean and SD.  We verify the normal distribution criteria by drawin
 
     \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/z2zS.png} % requires the graphicx package
 
+<<f5_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped and Symmetric">>=
+
+  x6 <- rnorm(n=1000, mean=100, sd=20)
+  x7 <- numeric(10000)
+  for(i in 1:10000){x7[i] <- mean(sample(x6,size=100))}
+  z7 <- numeric(10000)
+  z7 <- (x7 - mean(x7)) / sd(x7)
+  hist(z7, xlab="Z-Score", ylab="Frequency", main="Male IQ Z-Score")
+  z8 <- seq(-4, 4, 0.1)
+  z9 <- dnorm(z8)*5000
+  lines(z8, z9)
+  rm(x6, x7, z7, z8, z9)
+
+@
+
 We use the z-score transformation 
 
 $Z = \frac{X - mean}{SD}$
