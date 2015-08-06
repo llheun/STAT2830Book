@@ -166,7 +166,6 @@ If you give this concept some thought, it makes sense.  Not many students will b
 @
 
 Let's look at (Figure 4.3) the graphical form of normal distributed data,  we find that most of the data surrounds the mean at 19 or 23.
-
 The x-axis (the horizontal one) represents the ages of students on a residential or urban campuses.  The y-axis (the vertical one) represents data points for each value on the x-axis.   
 
 Figure 4.3 represents a perfect distribution of ages of students on a residential or urban campuses.  However, some graphs may be relatively flat (such as urban campus) which indicates a large value for the standard deviation and while some graphs may  have very steep slopes (residential campus) which indicates a small value for the standard deviation.  But every normal distribution of a dataset will have the shape of a bell.
