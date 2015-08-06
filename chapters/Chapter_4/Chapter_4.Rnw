@@ -142,8 +142,6 @@ Suppose that you are writing a report about the Ages of Student from a residenti
 
 If you give this concept some thought, it makes sense.  Not many students will be in their early teens or in their late twenties.  Most students will be somewhere in between, i.e., late teens and early twenties.  Whereas the urban campus has more students at the extremes, they will be in their mid-teens and early thirties.
 
-Let's look at the graphical form of normal distributed data,  we find that most of the data surrounds the mean at 19 or 23. 
-
 % <<f4_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped curve">>=
 %
 % xyz <- seq(15,23,0.1)
@@ -166,6 +164,8 @@ Let's look at the graphical form of normal distributed data,  we find that most 
   
   rm(x10,y10,y11)
 @
+
+Let's look at (Figure 4.3) the graphical form of normal distributed data,  we find that most of the data surrounds the mean at 19 or 23.
 
 The x-axis (the horizontal one) represents the ages of students on a residential or urban campuses.  The y-axis (the vertical one) represents data points for each value on the x-axis.   
 
