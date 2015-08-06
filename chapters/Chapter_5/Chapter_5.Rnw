@@ -385,7 +385,9 @@ We need to find the Z-score in the table (column (a)), then look under the appro
 
 \begin{itemize}
 \item We interpret 0.0668 (or 6.68\%) as area under the curve representing all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
-\item Another way of stating this result is that  if you were to randomly select an individual male from the population, the probability that the individual has an IQ score of 130 or greater is 0.0668.
+
+\item Another way of stating this result is that  if you were to randomly select an individual male from the population being studied, the probability that the individual has an IQ score of 130 or greater is 0.0668.
+
 \item In addition, $1 - 0.0668 = 0.932$ or 93.32\% of all male individuals have an IQ score below 130.
 \end{itemize}
 
