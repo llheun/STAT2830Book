@@ -169,6 +169,9 @@ The standard deviation is a statistic that measures how closely individual numbe
   plot(x10,y10,xlab="Age (Years", ylab="Proportion of Students", type="l")
   y11<-dnorm(x10,mean=23.8,sd=3.68)
   lines(x10,y11)
+  text(27,.2,"Residential")
+  lines(c(21,27),c(.18,.2))
+  
   rm(x10,y10,y11)
 @
 
