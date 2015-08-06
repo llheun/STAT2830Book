@@ -261,7 +261,7 @@ Needless to say, when you are evaluating the results of your research, you may s
 Some of you maybe asking, how do we compute the standard deviation?  For those of you who are curious, you may continue to read the remaining proportion of the section.  
 For the others, you may go to the next section.  Remember, there is statistical software and calculators that will compute the standard deviation for you.
 \vspace{2mm}
-\emph{}
+\emph{
 You will need to know these terms: \\
 $x$ equals a value of a variable in a dataset.
 $\bar{x}$ equals the mean  of the variable in a dataset. 
