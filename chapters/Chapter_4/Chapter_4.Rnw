@@ -170,7 +170,9 @@ The standard deviation is a statistic that measures how closely individual numbe
   y11<-dnorm(x10,mean=23.8,sd=3.68)
   lines(x10,y11)
   text(27,.2,"Residential")
-  lines(c(21,28),c(.15,.19))
+  lines(c(21,28),c(.15,.17))
+  text(30,.14,"Urban")
+  lines(c(27,30),c(.1,.12))
   
   rm(x10,y10,y11)
 @
