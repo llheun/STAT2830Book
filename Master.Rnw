@@ -8,7 +8,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{epstopdf}
-% \usepackage{exsol} % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
+\usepackage{exsol} % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 % \usepackage{Stat2830book}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
