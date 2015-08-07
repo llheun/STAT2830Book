@@ -324,6 +324,25 @@ Since 1968, voter surveys use inferential statistics.
 		
 \end{enumerate}
 
+% Dad: Here is where you try to typeset your exercises AFTER you install MacTeX 2015.
+
+% Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
+
+% \begin{exercises}
+% 
+%   \begin{exercise}
+%     Here is the first exercise.
+%     \begin{equation}
+%       5 x^2 -3 x = 5
+%     \end{equation}
+%   \end{exercise}
+% 
+%   \begin{solution}
+%     Here is the solution.
+%   \end{solution}
+% 
+% \end{exercises}
+
 %\exercises
 %\exera A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or %widowed.  What is the level of measurement of marital status?
 %\answer{xyx}
