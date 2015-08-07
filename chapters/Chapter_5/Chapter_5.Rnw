@@ -75,7 +75,7 @@ $\bar{x} \pm 3SD$
 
 Here is an example of how to use the empirical rule.
 
-Suppose you are concerned about the amount of money that students pay for their lunch.  The average lunch costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical-rule to determine the 68-95-99.7 percent of student lunch expense. 
+Suppose you are concerned about the amount of money that students pay for their lunch.  The average lunch costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical-rule to determine the three 68-95-99.7 percent of student lunch expense. 
 
 \begin{align*}
 \mu \pm \sigma &= 5 \pm 0.5, or \hspace{1mm} 4.5 \hspace{1mm} to \hspace{1mm} 5.5 \\
@@ -101,10 +101,11 @@ The \emph{Student Monitor} surveyed college students and reported the amount of 
 \begin{itemize}
 \item From the empirical rule, approximately 95 percent of the observations fall within 2 standard deviation from the mean. 
 
-\item Since the upper bound minus the lower bound for 95 percent will yield four standard deviation (SD). \\
-\begin{equation}
-SD = \frac{UB - LB}{4} = \frac{30.5 - 8.5}{4} = 5.5 \nonumber
-\end{equation}
+\item Since the upper bound (UB) minus the lower bound (LB) for 95 percent will yield four standard deviation (SD). \\
+\begin{align*}
+4(SD) &= (UB - LB)
+SD &= \frac{UB - LB}{4} = \frac{30.5 - 8.5}{4} = 5.5 
+\end{align*}
 
 \item  The mean is the central tendency.  \\
 \begin{equation}
@@ -261,7 +262,7 @@ A female IQ score of 120 is two standard deviation from the IQ score of 100.
 \newpage
 \section{Finding Probabilities Using the Normal Curve}
 
-How to find Areas Under the Normal Curve (AUC) illustration.  Recall that the total area under the bell-shaped curve is equal to one.
+How to find an Areas Under the Normal Curve (AUC) illustration.  Recall that the total area under the bell-shaped curve is equal to one.
 
 \begin{minipage}[b]{5.5cm}
 
