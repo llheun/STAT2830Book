@@ -191,6 +191,33 @@ Z-score = $Z = \frac{X - mean}{SD}$
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
+% <<f5_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped and Symmetric">>=
+% tv <- seq(-4,4,.1)
+% yv<-dnorm(tv,0,1)
+% plot(tv,yv,type="l",ylab="Probability",xlab="Z-score")
+% polygon(c(tv[tv<=3],3),c(dnorm(tv[tv<=3],0,1),0),col="red") 
+% polygon(c(tv[tv<=2],2),c(dnorm(tv[tv<=2],0,1),0),col="orange")
+% polygon(c(tv[tv<=1],1),c(dnorm(tv[tv<=1],0,1),0),col="yellow")
+% polygon(c(tv[tv<=-1],-1),c(dnorm(tv[tv<=-1],0,1),0),col="orange")
+% polygon(c(tv[tv<=-2],-2),c(dnorm(tv[tv<=-2],0,1),0),col="red")
+% polygon(c(tv[tv<=-3],-3),c(dnorm(tv[tv<=-3],0,1),0),col="white")
+% text(0,.2,"68%")
+% lines(c(-1,-.5),c(.2,.2))
+% lines(c(.5,1),c(.2,.2))
+% text(0,.15,"95%")
+% lines(c(-2,-.5),c(.15,.15))
+% lines(c(.5,2),c(.15,.15))
+% text(0,.1,"99.7%")
+% lines(c(-3,-1),c(.1,.1))
+% lines(c(-3,-.8),c(.1,.1))
+% lines(c(.8,3),c(.1,.1))
+% lines(c(-3,-3),c(.01,.11))
+% lines(c(3,3),c(0.01,.11))
+% lines(c(-2,-2),c(.06,.16))
+% lines(c(2,2),c(.06,.16))
+% rm(tv, yv)
+% @ 
+
 \ \\[-1cm]
    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zBS4.png} % requires the graphicx package
 
