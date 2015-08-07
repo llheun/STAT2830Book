@@ -328,17 +328,17 @@ Since 1968, voter surveys use inferential statistics.
 
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
 
-% \begin{exercises}
-% 
-%   \begin{exercise}
-%     Here is the first exercise.
-%     \begin{equation}
-%       5 x^2 -3 x = 5
-%     \end{equation}
-%   \end{exercise}
-% 
-%   \begin{solution}
-%     Here is the solution.
-%   \end{solution}
-% 
-% \end{exercises}
+\begin{exercises}
+
+  \begin{exercise}
+    Here is the first exercise.
+    \begin{equation}
+      5 x^2 -3 x = 5
+    \end{equation}
+  \end{exercise}
+
+  \begin{solution}
+    Here is the solution.
+  \end{solution}
+
+\end{exercises}
