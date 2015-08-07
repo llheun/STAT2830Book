@@ -193,11 +193,11 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
-The yellow portion (white) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and white)  portion represent of the bell-shaped curve together two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and white) portion of the bell-shaped curve represent three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
+The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray)  portion represent the bell-shaped curve together two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
 
 So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in urban campus setting versus a residential campus.
 
-Let's say urban campus has a higher mean age than the residential campus.  (see Table 4.2 and Table 4.3 and Figure 4.3)  Your first reaction maybe that the students on the urban campus are older.
+Let's say urban campus has a higher mean age than the residential campus.  (See Table 4.2 and Table 4.3 and Figure 4.3).  Your first reaction maybe that the students on the urban campus are older.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -254,7 +254,7 @@ boxplot(dt4_2$Age ~ dt4_2$Type, xlab="Campus", ylab="Age(years)")
 @
 
 
-But a larger value of the standard deviation from the urban campus tells us that the ages of students at the urban  campus are toward one extreme or the other.   This leads us to ask more questions, such as  the urban campus mean is skewed (See figure 4.5) up because there are older students attending the urban campus.  Or the residential campus mean age  is dragged down because there are younger students attending the residential campus.  By looking the standard deviation, helps us understand the data.
+But a larger value of the standard deviation from the urban campus tells us that the ages of students at the urban  campus are toward one extreme or the other.   This leads us to ask more questions, such as  the urban campus mean is skewed (See Figure 4.5) up because there are older students attending the urban campus.  Or the residential campus mean age  is dragged down because there are younger students attending the residential campus.  By looking the standard deviation, helps us understand the data.
 
 Needless to say, when you are evaluating the results of your research, you may seek the advice of a statistician.  However, if you have a working knowledge of the standard deviation, your time spent with the statistician will be more productive.
 
@@ -277,10 +277,15 @@ The characteristics of the variance are
 
 \begin{itemize}
 \item the standard deviation squared, $s^2$.
+
 \item a good measure of dispersion.
+
 \item uses all the data points in the sample.
-\item describes the ``average'' or typical squred deviation of the scores.  The statistic should give us an idea about how far scores are from each other or from the center of the distribution.
+
+\item describes the ``average'' or typical squared deviation of the scores.  The statistic should give us an idea about how far scores are from each other or from the center of the distribution.
+
 \item increases in value as the scores become more diverse and decrease in value as the scores become less diverse.  This provide for comparison of different distributions.
+
 \item affected by outliers.
 \end{itemize}
 
@@ -288,7 +293,10 @@ The characteristics of the variance are
 
 \subsubsection{Coefficient of Variation} 
 
-The coefficient of variation is defined \\ $ CV = \frac{s}{\bar{x}} \times 100\%$
+The coefficient of variation is defined 
+\begin{equation}
+ CV = \frac{s}{\bar{x}} \times 100\% 
+\end{equation} 
 
 \begin{itemize}
 

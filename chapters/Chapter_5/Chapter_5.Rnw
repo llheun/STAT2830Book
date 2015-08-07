@@ -111,13 +111,13 @@ SD = \frac{UB - LB}{4} = \frac{30.5 - 8.5}{4} = 5.5 \nonumber
 mean = \frac{UB + LB}{2} = \frac{30.5 + 8.5}{2} = 19.5 \nonumber
 \end{equation}
 
-\item So how do we interpret this data.  It is telling us that on the average college students spend about 5.5 hours on the world-wide web give or take 19.5 hours.
+\item So how do we interpret this data.  It is telling us that on the average college students spend about 19.5 hours on the world-wide web give or take 5.5 hours.
 
 \end{itemize}
 
-\section{Normal Curve and Z-Score}
+\section{Normal Curve and Z-score}
 
-The IQ scores are normally distributed.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the normal curve and Z-Score.
+The IQ scores are normally distributed.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the normal curve and Z-score.
 
 \begin{itemize}
 \item A sample of 1,000 females and 1,000 males were selected and their IQ scores were measured.
@@ -152,7 +152,7 @@ The IQ scores are normally distributed.  Let's consider the following simulated 
 assumption that they are normally distributed.  This will allow us to analyze the results using the normal curve.
 \item Notice the two distributions are different.
 \item The measures of central tendency are the same, but the measures of dispersion (spread) are different.
-\item Making the following assumptions about a data set (distribution) will completely determine the particular distribution that we nee to work.
+\item Making the following assumptions about a data set (distribution) will completely determine the particular distribution that we need to work.
 	\begin{itemize}
 	\item {\bf{Shape}} -- we assume bell-shape and symmetry (normal).
 	\item {\bf{Center}} -- mean.
@@ -214,7 +214,7 @@ Calculate the mean and SD.  We verify the normal distribution criteria by drawin
 %  for(i in 1:10000){x7[i] <- mean(sample(x6,size=100))}
 %  z7 <- numeric(10000)
 %  z7 <- (x7 - mean(x7)) / sd(x7)
-%  hist(z7, xlab="Z-Score", ylab="Frequency", main="Male IQ Z-Score")
+%  hist(z7, xlab="Z-score", ylab="Frequency", main="Male IQ Z-score")
 %  z8 <- seq(-4, 4, 0.1)
 %  z9 <- dnorm(z8)*5000
 %  lines(z8, z9)
@@ -222,7 +222,7 @@ Calculate the mean and SD.  We verify the normal distribution criteria by drawin
 %
 % @
 
-We use the z-score transformation 
+We use the Z-score transformation 
 
 $Z = \frac{X - mean}{SD}$
 
@@ -233,7 +233,7 @@ to convert the specific ``normal curve'' to the ``standard normal curve.''
 \vspace{1cm}
 \subsubsection{Example \# 3}
 
-Let's consider an example to compare two z-scores.
+Let's consider an example to compare two Z-scores.
 
 \begin{minipage}[t]{6.5cm}
 
@@ -267,7 +267,7 @@ How to find Areas Under the Normal Curve (AUC) illustration.  Recall that the to
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC1.png} % requires the graphicx package
 
-This represents column (b) -- Area between mean and Z-Score.
+This represents column (b) -- Area between mean and Z-score.
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC2.png} % requires the graphicx package
 
@@ -303,11 +303,11 @@ We can take advantage of the symmetry of the Normal Distribution.
 \begin{minipage}[t]{6.5cm}
 
 \begin{itemize}
-\item You may also notice that even though a z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive z-scores listed in the table.
+\item You may also notice that even though a Z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive Z-scores listed in the table.
 
 \item You can use the symmetry of the distribution to get the result.
 
-\item For example, if you want the proportion {\bf{below}} a z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  z-score of 1.5.
+\item For example, if you want the proportion {\bf{below}} a Z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  Z-score of 1.5.
 
 \end{itemize}
 \end{minipage} \hfill
@@ -334,7 +334,7 @@ We are asked to find the proportion of males that have an IQ score greater than 
 \begin{minipage}[t]{7cm}
 
 \ \\[-4cm]
-Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First we need to find the associated z-score.
+Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First we need to find the associated Z-score.
 
 \end{minipage} 
 
@@ -589,7 +589,7 @@ This indicates that 90 percent of all females IQ scores are lower than 112.8, so
 	\item $-1.82$
 	\item 1.82
 	\item 1.82 lbs.
-	\item You cannot calculate the z-score with the information provided.
+	\item You cannot calculate the Z-score with the information provided.
 	\end{enumerate}
 	
 \item Given the distribution of male weights with mean of 155 and standard deviation of 12, what percent 
