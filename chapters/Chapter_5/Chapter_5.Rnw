@@ -110,7 +110,7 @@ SD &= \frac{UB - LB}{4} = \frac{(30.5 - 8.5)}{4} = 5.5
 \item  The mean is the central tendency.
 \begin{align*}
 2(mean) &= (UB + LB) = (30.5 + 8.5) \\
-mean &= \frac{UB + LB}{2} = \frac{30.5 + 8.5}{2} = 19.5 
+mean &= \frac{UB + LB}{2} = \frac{(30.5 + 8.5)}{2} = 19.5 
 \end{align*}
 
 \item So how do we interpret this data.  It is telling us that on the average college students spend about 19.5 hours on the world-wide web give or take 5.5 hours.
