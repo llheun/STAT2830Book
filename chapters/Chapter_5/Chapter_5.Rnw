@@ -101,16 +101,17 @@ The \emph{Student Monitor} surveyed college students and reported the amount of 
 \begin{itemize}
 \item From the empirical rule, approximately 95 percent of the observations fall within 2 standard deviation from the mean. 
 
-\item Since the upper bound (UB) minus the lower bound (LB) for 95 percent will yield four standard deviation (SD). \\
+\item Since the upper bound (UB) minus the lower bound (LB) for 95 percent will yield four standard deviation (SD). 
 \begin{align*}
 4(SD) &= (UB - LB) = (30.5 - 8.5) \\
-SD &= \frac{UB - LB}{4} = \frac{30.5 - 8.5}{4} = 5.5 
+SD &= \frac{UB - LB}{4} = \frac{(30.5 - 8.5)}{4} = 5.5 
 \end{align*}
 
-\item  The mean is the central tendency.  \\
-\begin{equation}
-mean = \frac{UB + LB}{2} = \frac{30.5 + 8.5}{2} = 19.5 \nonumber
-\end{equation}
+\item  The mean is the central tendency.
+\begin{align*}
+2(mean) &= (UB + LB) = (30.5 + 8.5) \\
+mean &= \frac{UB + LB}{2} = \frac{30.5 + 8.5}{2} = 19.5 
+\end{align*}
 
 \item So how do we interpret this data.  It is telling us that on the average college students spend about 19.5 hours on the world-wide web give or take 5.5 hours.
 
