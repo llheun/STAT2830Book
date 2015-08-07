@@ -8,7 +8,7 @@
 By the end of this chapter, you will be able to
 \begin{itemize}
 \item Define and explain the concept of the {\bf{Normal Curve}}.
-\item Convert empirical scores to Z-scores and use Z-scores and the normal curve
+\item Convert empirical scores to z-scores and use z-scores and the normal curve
 table to find areas above, below and between points of the curve and  express them in terms of probabilities.
 \item Utilize the standard normal distribution to solve probability (chance) problems.
 \end{itemize}
@@ -117,9 +117,9 @@ mean &= \frac{UB + LB}{2} = \frac{(30.5 + 8.5)}{2} = 19.5
 
 \end{itemize}
 
-\section{Normal Curve and Z-score}
+\section{Normal Curve and z-score}
 
-The IQ scores are normally distributed.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the normal curve and Z-score.
+The IQ scores are normally distributed.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the normal curve and z-score.
 
 \begin{itemize}
 \item A sample of 1,000 females and 1,000 males were selected and their IQ scores were measured.
@@ -169,13 +169,13 @@ assumption that they are normally distributed.  This will allow us to analyze th
 	\item To estimate the chance of an event (involving normal distribution) occurring.
 	\end{itemize}
 \item Converting any normal distribution to a standard distribution involves transforming the data into its 
-standardized form called the Z-score.		
+standardized form called the z-score.		
 \end{itemize}
 
 \begin{itemize}
-\item The Z-score tells us how many standard units (standard deviations), that a point, is away from the mean.
+\item The z-score tells us how many standard units (standard deviations), that a point, is away from the mean.
 
-Z-score = $Z = \frac{X - mean}{SD}$
+z-score = $Z = \frac{X - mean}{SD}$
 
 \item The Z-curve is Normal with Mean = 0 and SD = 1.
 \end{itemize}
@@ -251,7 +251,7 @@ Calculate the mean and SD.  We verify the normal distribution criteria by drawin
 %
 % @
 
-We use the Z-score transformation 
+We use the z-score transformation 
 
 $Z = \frac{X - mean}{SD}$
 
@@ -262,7 +262,7 @@ to convert the specific ``normal curve'' to the ``standard normal curve.''
 \vspace{1cm}
 \subsubsection{Example \# 3}
 
-Let's consider an example to compare two Z-scores.
+Let's consider an example to compare two z-scores.
 
 \begin{minipage}[t]{6.5cm}
 
@@ -296,7 +296,7 @@ How to find an Areas Under the Normal Curve (AUC) illustration.  Recall that the
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC1.png} % requires the graphicx package
 
-This represents column (b) -- Area between mean and Z-score.
+This represents column (b) -- Area between mean and z-score.
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC2.png} % requires the graphicx package
 
@@ -332,11 +332,11 @@ We can take advantage of the symmetry of the Normal Distribution.
 \begin{minipage}[t]{6.5cm}
 
 \begin{itemize}
-\item You may also notice that even though a Z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive Z-scores listed in the table.
+\item You may also notice that even though a z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive z-scores listed in the table.
 
 \item You can use the symmetry of the distribution to get the result.
 
-\item For example, if you want the proportion {\bf{below}} a Z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  Z-score of 1.5.
+\item For example, if you want the proportion {\bf{below}} a z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  z-score of 1.5.
 
 \end{itemize}
 \end{minipage} \hfill
@@ -363,7 +363,7 @@ We are asked to find the proportion of males that have an IQ score greater than 
 \begin{minipage}[t]{7cm}
 
 \ \\[-4cm]
-Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First we need to find the associated Z-score.
+Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First we need to find the associated z-score.
 
 \end{minipage} 
 
@@ -378,17 +378,17 @@ Since the question is asking for those individuals that have an IQ score greater
 $Z = \frac{X - mean}{SD} = \frac{130 - 100}{20} = 1.5$
 \vspace{3mm}
 
-Then using the Z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5.  It is equivalent to the area above an IQ score of 130.
+Then using the z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5.  It is equivalent to the area above an IQ score of 130.
 
 \end{minipage}
 
 \vspace{5mm}
 
-To answer the question, we need the area above the Z-score of 1.5.
+To answer the question, we need the area above the z-score of 1.5.
 
 \vspace{5mm}
 
-We need to find the Z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c) and the result is 0.0668.
+We need to find the z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c) and the result is 0.0668.
 
 \begin{minipage}[t]{6.5cm}
 
@@ -413,7 +413,7 @@ We need to find the Z-score in the table (column (a)), then look under the appro
 \end{minipage}
 
 \begin{itemize}
-\item We interpret 0.0668 (or 6.68\%) as area under the curve representing all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
+\item We interpret 0.0668 (or 6.68\%) as area under the curve representing all male individuals have an IQ score above 130 or the associated z-score above 1.50.
 
 \item Another way of stating this result is that  if you were to randomly select an individual male from the population being studied, the probability that the individual has an IQ score of 130 or greater is 0.0668.
 
@@ -436,7 +436,7 @@ Let's explore another example.  We have been asked to find the proportion of fem
 \end{table}
    
 
-First we need to find the two associated Z-scores for these two values:
+First we need to find the two associated z-scores for these two values:
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -447,7 +447,7 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 \vspace{5mm}
 
 \begin{itemize}
-\item Now place the Z-scores on the graph and shade the area that we are interested.
+\item Now place the z-scores on the graph and shade the area that we are interested.
 \item Since we cannot get this area directly from the table we will split the graph into pieces that we read from the table and add them together to get the desired results.
 \end{itemize}
 
@@ -487,7 +487,7 @@ Let's explore another example.  We have been asked to find the proportion of mal
 \end{table}
    
 
-First we need to find the two associated Z-scores for these two values:
+First we need to find the two associated z-scores for these two values:
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -498,7 +498,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \vspace{5mm}
 
 \begin{itemize}
-\item Now place the Z-scores on the graph and shade the area that we are interested.
+\item Now place the z-scores on the graph and shade the area that we are interested.
 \item Since we cannot get this area directly from the table we will split the graph into pieces that we read from the table and add them together to get the desired results.
 \end{itemize}
 
@@ -527,7 +527,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 
 Let's examine another example.  We are asked to find the $90^{th}$ percentile of the IQ scores for females.
 
-First we need to find the area for the probability of 0.900 and the associated Z-score for this probability.
+First we need to find the area for the probability of 0.900 and the associated z-score for this probability.
 
 \vspace{2mm}
 
@@ -543,7 +543,7 @@ First we need to find the area for the probability of 0.900 and the associated Z
 \begin{itemize}
 \item The area to the left of the mean is 0.500, so
 \item the area to the right of the mean is 0.900 - 0.500 = 0.400.
-\item Now, look up the Z-score associated with the area of 0.400.
+\item Now, look up the z-score associated with the area of 0.400.
 \end{itemize}
 
 \end{minipage}
@@ -555,7 +555,7 @@ First we need to find the area for the probability of 0.900 and the associated Z
 
 \begin{itemize}
 \item The area we are looking for is the area between the mean and Z, (column (b).
-\item The Z-score that will have an area between the mean closest to 0.400 is 1.28, since 0.3997
+\item The z-score that will have an area between the mean closest to 0.400 is 1.28, since 0.3997
 is closer to 0.400 than 0.4015.
 \end{itemize}
 
@@ -581,7 +581,7 @@ is closer to 0.400 than 0.4015.
 
 \vspace{3mm}
 
-Now that we have the associated Z-score, we can now find the IQ score of interest $90^{th}$ percentile.
+Now that we have the associated z-score, we can now find the IQ score of interest $90^{th}$ percentile.
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -599,7 +599,7 @@ This indicates that 90 percent of all females IQ scores are lower than 112.8, so
 \samepage
 \item Normal curve table
 \samepage
-\item Z-score
+\item z-score
 \end{itemize}
 
 \newpage
@@ -618,7 +618,7 @@ This indicates that 90 percent of all females IQ scores are lower than 112.8, so
 	\item $-1.82$
 	\item 1.82
 	\item 1.82 lbs.
-	\item You cannot calculate the Z-score with the information provided.
+	\item You cannot calculate the z-score with the information provided.
 	\end{enumerate}
 	
 \item Given the distribution of male weights with mean of 155 and standard deviation of 12, what percent 
