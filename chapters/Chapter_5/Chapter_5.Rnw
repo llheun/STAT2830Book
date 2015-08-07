@@ -586,7 +586,7 @@ Now that we have the associated z-score, we can now find the IQ score of interes
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
 X &= (Z \times SD) + mean \\
-X &=  (1.28 \times 10) + 100 = 112.8 
+X &=  (\fbox{1.28} \times 10) + 100 = 112.8 
 \end{align*}
 
 This indicates that 90 percent of all females IQ scores are lower than 112.8, so this is the $90^{th}$ percentile.
