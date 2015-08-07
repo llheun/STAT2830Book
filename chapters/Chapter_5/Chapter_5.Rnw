@@ -180,7 +180,7 @@ Z-score = $Z = \frac{X - mean}{SD}$
 \item The Z-curve is Normal with Mean = 0 and SD = 1.
 \end{itemize}
 
-\begin{minipage}[t]{6.5cm}
+\begin{minipage}[ht]{6.5cm}
 
 \begin{itemize}
 \item approximately 68 percent of the observations are from $-1$ to $+1$.
@@ -189,7 +189,7 @@ Z-score = $Z = \frac{X - mean}{SD}$
 \end{itemize}
 
 \end{minipage} \hfill
-\begin{minipage}[t]{6.5cm}
+\begin{minipage}[ht]{6.5cm}
 
 \ \\[-1cm]
    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zBS4.png} % requires the graphicx package
