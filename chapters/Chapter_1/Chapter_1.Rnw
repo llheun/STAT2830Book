@@ -282,47 +282,8 @@ Since 1968, voter surveys use inferential statistics.
 \item Variable
 \end{itemize}
 
-
-            
 \newpage      
-\section{Exercises}
-
-\begin{enumerate}
-\item Descriptive statistics allow social researchers to   
-	\begin{enumerate}
-	\item quantify the strength and direction of the relationship between two variables,
-	\item reduce thousands of individual numbers into a few easily understood numbers.
-	\item graphically display the number of respondents according to their gender.
-	\item all of the choices
-	\end{enumerate}
-	
-\item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
-	\begin{enumerate}
-	\item Ordinal 
-	\item Interval-Ratio
-	\item Nominal 
-	\item I don't know
-	\end{enumerate}
-	
-\item Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
-	\begin{enumerate}
-	\item Ordinal 
-	\item Interval-Ratio
-	\item Nominal
-	\item I don't know
-	\end{enumerate}
-
-\item What type of variable is the number of robberies reported in June 2012 in Kalamazoo County?
-	\begin{enumerate}
-	\item Attribute
-	\item Discrete
-	\item Continuous
-	\item Qualitative
-	\end{enumerate}
-	
-\item add more exercises.	
-		
-\end{enumerate}
+% \section{Exercises}
 
 % Dad: Here is where you try to typeset your exercises AFTER you install MacTeX 2015.
 
@@ -330,15 +291,60 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{exercises}
 
-  \begin{exercise}
-    Here is the first exercise.
-    \begin{equation}
-      5 x^2 -3 x = 5
-    \end{equation}
-  \end{exercise}
+\begin{exercise}
+Descriptive statistics allow social researchers to   
+	\begin{enumerate}
+	\item quantify the strength and direction of the relationship between two variables,
+	\item reduce thousands of individual numbers into a few easily understood numbers.
+	\item graphically display the number of respondents according to their gender.
+	\item all of the choices
+	\end{enumerate}
+\end{exercise}	
+\begin{solution}
+All of the choices is the correct answer.
+\end{solution}
 
-  \begin{solution}
-    Here is the solution.
-  \end{solution}
+% 	
+% \item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
+% 	\begin{enumerate}
+% 	\item Ordinal 
+% 	\item Interval-Ratio
+% 	\item Nominal 
+% 	\item I don't know
+% 	\end{enumerate}
+% 	
+% \item Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
+% 	\begin{enumerate}
+% 	\item Ordinal 
+% 	\item Interval-Ratio
+% 	\item Nominal
+% 	\item I don't know
+% 	\end{enumerate}
+% 
+% \item What type of variable is the number of robberies reported in June 2012 in Kalamazoo County?
+% 	\begin{enumerate}
+% 	\item Attribute
+% 	\item Discrete
+% 	\item Continuous
+% 	\item Qualitative
+% 	\end{enumerate}
+% 	
+% \item add more exercises.	
+% 		
+% \end{enumerate}
+% 
+% 
+% 
+% 
+%   \begin{exercise}
+%     Here is the first exercise.
+%     \begin{equation}
+%       5 x^2 -3 x = 5
+%     \end{equation}
+%   \end{exercise}
+% 
+%   \begin{solution}
+%     Here is the solution.
+%   \end{solution}
 
 \end{exercises}
