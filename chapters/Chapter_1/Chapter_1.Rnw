@@ -342,7 +342,3 @@ Since 1968, voter surveys use inferential statistics.
 %   \end{solution}
 % 
 % \end{exercises}
-
-%\exercises
-%\exera A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or %widowed.  What is the level of measurement of marital status?
-%\answer{xyx}
