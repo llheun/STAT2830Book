@@ -284,11 +284,12 @@ Since 1968, voter surveys use inferential statistics.
 
 \pagebreak
 
-\section{Exercises}
+
 
 % Dad: Here is where you try to typeset your exercises AFTER you install MacTeX 2015.
 
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
+\section{Exercises}
 
   \begin{exercise}
   Descriptive statistics allow social researchers to \\  
