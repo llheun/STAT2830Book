@@ -330,7 +330,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  The level of measurement of marital statis is interval-ratio (B).
+	  The level of measurement of marital status is interval-ratio (B).
 	\end{solution}
 
   \begin{exercise}
