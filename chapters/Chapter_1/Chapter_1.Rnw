@@ -284,94 +284,63 @@ Since 1968, voter surveys use inferential statistics.
 
 \pagebreak
 
-% \section{Exercises}
+\section{Exercises}
 
 % Dad: Here is where you try to typeset your exercises AFTER you install MacTeX 2015.
 
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
 
-% \begin{exercises}
-%   
-%   \begin{exercise}
-%   This is the first exercies 1
-%   \end{exercise}
-%   \begin{solution}
-%   this is the answer to ex 1
-%   \end{solution}
-%   
-% \end{exercises}
-
-% \begin{exercise}
-% Solve the following equation for $x \in C$, with $C$ the set of
-% complex numbers:
-% \begin{equation}
-% 5 x^2 -3 x = 5
-% \end{equation}
-% \end{exercise}
-% \begin{solution}
-% Let's start by rearranging the equation, a bit:
-% \begin{eqnarray}
-% 5.7 x^2 - 3.1 x &=& 5.3\\
-% 5.7 x^2 - 3.1 x -5.3 &=& 0
-% \end{eqnarray}
-% \end{solution}
-
-% \begin{exercise}
-% Descriptive statistics allow social researchers to \\  
-% 	A. quantify the strength and direction of the relationship between two variables, \\
-% 	B. reduce thousands of individual numbers into a few easily understood numbers. \\
-% 	C. graphically display the number of respondents according to their gender. \\
-% 	D. all of the choices
-% \end{exercise}	
-% \begin{solution}
-% All of the choices is the correct answer.
-% \end{solution}
-
-% 	
-% \item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
-% 	\begin{enumerate}
-% 	\item Ordinal 
-% 	\item Interval-Ratio
-% 	\item Nominal 
-% 	\item I don't know
-% 	\end{enumerate}
-% 	
-% \item Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
-% 	\begin{enumerate}
-% 	\item Ordinal 
-% 	\item Interval-Ratio
-% 	\item Nominal
-% 	\item I don't know
-% 	\end{enumerate}
-% 
-% \item What type of variable is the number of robberies reported in June 2012 in Kalamazoo County?
-% 	\begin{enumerate}
-% 	\item Attribute
-% 	\item Discrete
-% 	\item Continuous
-% 	\item Qualitative
-% 	\end{enumerate}
-% 	
-% \item add more exercises.	
-% 		
-% \end{enumerate}
-% 
-% 
-% 
-% 
-
-\begin{exercises}
-
   \begin{exercise}
-    Here is the first exercise.
-    \begin{equation}
-      5 x^2 -3 x = 5
-    \end{equation}
-  \end{exercise}
+  Descriptive statistics allow social researchers to \\  
+	  A. quantify the strength and direction of the relationship between two variables, \\
+	  B. reduce thousands of individual numbers into a few easily understood numbers. \\
+	  C. graphically display the number of respondents according to their gender. \\
+	  D. all of the choices
+  \end{exercise}	
   \begin{solution}
-    Here is the solution.
+  All of the choices is the correct answer.
   \end{solution}
 
+	
+  \begin{exercise}
+  A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
+	\begin{enumerate}
+	\item Ordinal 
+	\item Interval-Ratio
+	\item Nominal 
+	\item I don't know
+	\end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	The level of measurement of marital statis is nominal (C).
+	\end{solution}
+	
+  \begin{exercise}
+  Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
+	\begin{enumerate}
+	\item Ordinal 
+	\item Interval-Ratio
+	\item Nominal
+	\item I don't know
+	\end{enumerate}
+	end{exercise}
+	\begin{solution}
+	The level of measurement of marital statis is interval-ratio (B).
+	\end{solution}
+
+  \begin{exercise}
+  What type of variable is the number of robberies reported in June 2014 in Kalamazoo County?
+	\begin{enumerate}
+	\item Attribute
+	\item Discrete
+	\item Continuous
+	\item Qualitative
+	\end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable.
+	 \end{solution}
+	 
 \end{exercises}  
 
 
