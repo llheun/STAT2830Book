@@ -290,16 +290,16 @@ Since 1968, voter surveys use inferential statistics.
 
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
 
-% \begin{exercises}
-% 
-%   \begin{exercise}
-%     This is the first exercise 1
-%   \end{exercise}
-%   \begin{solution}
-%     This is the answer to exercise 1
-%   \end{solution}
-% 
-% \end{exercises}
+\begin{exercises}
+
+  \begin{exercise}
+    This is the first exercise 1
+  \end{exercise}
+  \begin{solution}
+    This is the answer to exercise 1
+  \end{solution}
+
+\end{exercises}
 
 % \begin{exercise}
 % Solve the following equation for $x \in C$, with $C$ the set of
