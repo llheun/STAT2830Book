@@ -291,14 +291,14 @@ Since 1968, voter surveys use inferential statistics.
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
 
 \begin{exercises}
-
-  \begin{exercise} 
-This is the first exercise 1
+  
+  \begin{exercise}
+  This is the first exercies 1
   \end{exercise}
-  \begin{solution} 
-This is the answer to exercise 1
+  \begin{solution}
+  this is the answer to ex 1
   \end{solution}
-
+  
 \end{exercises}
 
 % \begin{exercise}
