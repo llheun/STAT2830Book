@@ -293,7 +293,6 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{exercise}
 Descriptive statistics allow social researchers to \\  
-	\par
 	A. quantify the strength and direction of the relationship between two variables, \\
 	B. reduce thousands of individual numbers into a few easily understood numbers. \\
 	C. graphically display the number of respondents according to their gender. \\
