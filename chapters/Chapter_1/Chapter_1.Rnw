@@ -299,6 +299,7 @@ Since 1968, voter surveys use inferential statistics.
     This is the answer
   \end{solution}
 
+\end{exercises}
 
 % \begin{exercise}
 % Solve the following equation for $x \in C$, with $C$ the set of
@@ -369,4 +370,4 @@ Since 1968, voter surveys use inferential statistics.
 %     Here is the solution.
 %   \end{solution}
 
-\end{exercises}
+
