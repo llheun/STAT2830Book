@@ -292,55 +292,57 @@ Since 1968, voter surveys use inferential statistics.
 \section{Exercises}
 
   \begin{exercise}
-  Descriptive statistics allow social researchers to \\  
-	  A. quantify the strength and direction of the relationship between two variables, \\
-	  B. reduce thousands of individual numbers into a few easily understood numbers. \\
-	  C. graphically display the number of respondents according to their gender. \\
-	  D. all of the choices
+  Descriptive statistics allow social researchers to 
+    \begin{enumerate}
+	  \item quantify the strength and direction of the relationship between two variables, \\
+	  \item reduce thousands of individual numbers into a few easily understood numbers. \\
+	  \item graphically display the number of respondents according to their gender. \\
+	  \item all of the choices
+	  \end{enumerate}
   \end{exercise}	
   \begin{solution}
-  All of the choices is the correct answer.
+    All of the choices is the correct answer.
   \end{solution}
 
 	
   \begin{exercise}
   A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
-	\begin{enumerate}
-	\item Ordinal 
-	\item Interval-Ratio
-	\item Nominal 
-	\item I don't know
-	\end{enumerate}
+	  \begin{enumerate}
+	  \item Ordinal 
+	  \item Interval-Ratio
+	  \item Nominal 
+	  \item I don't know
+	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	The level of measurement of marital statis is nominal (C).
+	  The level of measurement of marital statis is nominal (C).
 	\end{solution}
 	
   \begin{exercise}
   Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
-	\begin{enumerate}
-	\item Ordinal 
-	\item Interval-Ratio
-	\item Nominal
-	\item I don't know
-	\end{enumerate}
-	end{exercise}
+	  \begin{enumerate}
+	  \item Ordinal 
+  	\item Interval-Ratio
+	  \item Nominal
+	  \item I don't know
+	  \end{enumerate}
+	\end{exercise}
 	\begin{solution}
-	The level of measurement of marital statis is interval-ratio (B).
+	  The level of measurement of marital statis is interval-ratio (B).
 	\end{solution}
 
   \begin{exercise}
   What type of variable is the number of robberies reported in June 2014 in Kalamazoo County?
-	\begin{enumerate}
-	\item Attribute
-	\item Discrete
-	\item Continuous
-	\item Qualitative
-	\end{enumerate}
-	\end{exercise}
+	  \begin{enumerate}
+  	\item Attribute
+  	\item Discrete
+  	\item Continuous
+  	\item Qualitative
+  	\end{enumerate}
+  \end{exercise}
 	\begin{solution}
 	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable.
-	 \end{solution}
+	\end{solution}
 	 
 \end{exercises}  
 
