@@ -291,20 +291,29 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{exercises}
 
+
 \begin{exercise}
-Solve the following equation for $x \in C$, with $C$ the set of
-complex numbers:
-\begin{equation}
-5 x^2 -3 x = 5
-\end{equation}
+This is the first exercise
 \end{exercise}
 \begin{solution}
-Let's start by rearranging the equation, a bit:
-\begin{eqnarray}
-5.7 x^2 - 3.1 x &=& 5.3\\
-5.7 x^2 - 3.1 x -5.3 &=& 0
-\end{eqnarray}
+This is the answer
 \end{solution}
+
+
+% \begin{exercise}
+% Solve the following equation for $x \in C$, with $C$ the set of
+% complex numbers:
+% \begin{equation}
+% 5 x^2 -3 x = 5
+% \end{equation}
+% \end{exercise}
+% \begin{solution}
+% Let's start by rearranging the equation, a bit:
+% \begin{eqnarray}
+% 5.7 x^2 - 3.1 x &=& 5.3\\
+% 5.7 x^2 - 3.1 x -5.3 &=& 0
+% \end{eqnarray}
+% \end{solution}
 
 % \begin{exercise}
 % Descriptive statistics allow social researchers to \\  
