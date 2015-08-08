@@ -292,15 +292,30 @@ Since 1968, voter surveys use inferential statistics.
 \begin{exercises}
 
 \begin{exercise}
-Descriptive statistics allow social researchers to \\  
-	A. quantify the strength and direction of the relationship between two variables, \\
-	B. reduce thousands of individual numbers into a few easily understood numbers. \\
-	C. graphically display the number of respondents according to their gender. \\
-	D. all of the choices
-\end{exercise}	
+Solve the following equation for $x \in C$, with $C$ the set of
+complex numbers:
+\begin{equation}
+5 x^2 -3 x = 5
+\end{equation}
+\end{exercise}
 \begin{solution}
-All of the choices is the correct answer.
+Let's start by rearranging the equation, a bit:
+\begin{eqnarray}
+5.7 x^2 - 3.1 x &=& 5.3\\
+5.7 x^2 - 3.1 x -5.3 &=& 0
+\end{eqnarray}
 \end{solution}
+
+% \begin{exercise}
+% Descriptive statistics allow social researchers to \\  
+% 	A. quantify the strength and direction of the relationship between two variables, \\
+% 	B. reduce thousands of individual numbers into a few easily understood numbers. \\
+% 	C. graphically display the number of respondents according to their gender. \\
+% 	D. all of the choices
+% \end{exercise}	
+% \begin{solution}
+% All of the choices is the correct answer.
+% \end{solution}
 
 % 	
 % \item A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
