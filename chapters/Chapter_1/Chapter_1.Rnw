@@ -1,6 +1,6 @@
 %!Rnw root = ../../Master.Rnw
 
-\usepackage{exsol}
+
 \chapter{Why you should use data science?}
 \label{chap:ch1}
 
