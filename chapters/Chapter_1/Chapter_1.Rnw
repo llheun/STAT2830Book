@@ -296,7 +296,7 @@ Since 1968, voter surveys use inferential statistics.
     This is the first exercise 1
   \end{exercise}
   \begin{solution}
-    This is the answer
+    This is the answer to exercise 1
   \end{solution}
 
 \end{exercises}

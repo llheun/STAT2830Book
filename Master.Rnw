@@ -1,5 +1,5 @@
 \documentclass[11pt]{book}
-%\makeanswers\bkchap
+
 \usepackage{exsol}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
