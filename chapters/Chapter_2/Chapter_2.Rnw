@@ -545,52 +545,86 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
 \newpage
 \section{Exercise}
-\begin{enumerate}
-	\item 250 individuals were randomly selected and 195 of them do not smoke. What proportion of individuals are smokers?
-	\begin{enumerate}
-	\samepage
-	\item 78
-	\samepage
-	\item 0.22
-	\samepage
-	\item 78\%
-	\samepage
-	\item 22\%
-	\end{enumerate}
-\item 250 individuals were randomly selected and 195 of them do not smoke.  What is the ratio of nonsmokers to smokers?
-	\begin{enumerate}
-	\item 0.78
-	\item 0.28
-	\item 3.56
-	\item 55
-	\end{enumerate}
 
-\item In a city of a population 25,000, there were 13 murders reported in the prior year.  What is the rate of murder in this city per 100,000?
-	\begin{enumerate}
-	\samepage
-	\item 5.2
-	\samepage
-	\item 52
-	\samepage
-	\item 5.24
-	\samepage
-	\item 0.00052
-	\end{enumerate}
+\begin{exercises}
 
-\item In 1995 the percentage of individuals graduating from the Portage high school was 89 percent, in 2005, the percentage was 83 percent.  What is the percent change?
-	\begin{enumerate}
-	\samepage
-	\item $-6.7\%$
-	\samepage
-	\item $6.7\%$
-	\samepage
-	\item $7.2\%$
-	\samepage
-	\item $-7.2\%$
-	\end{enumerate}
+  \begin{exercise}
+    250 individuals were randomly selected and 195 of them do not smoke. What proportion of individuals are smokers?
+	  \begin{enumerate}
+	  \samepage
+	  \item 78
+	  \samepage
+	  \item 0.22
+	  \samepage
+	  \item 78\%
+	  \samepage
+	  \item 22\%
+  	\end{enumerate}
+  \end{exercise}
+  \begin{solumtion}
+    \begin{equation}
+    (B) p = \frac{250 - 195}{250} = 0.22
+    \end{equation}
+  \end{solution}
+    
+  	
 	
-\newpage	
-\item In a 2013 random sample of employees at Saint Mary's Hospital in Grand Rapids, a hospital administrator collected data about gender and various job categories.
+  \begin{exercise}
+    250 individuals were randomly selected and 195 of them do not smoke.  What is the ratio of nonsmokers to smokers?
+	  \begin{enumerate}
+	  \item 0.78
+	  \item 0.28
+	  \item 3.56
+	  \item 55
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solumtion}
+    \begin{equation}
+    (C) ratio = \frac{195}{250 - 195} = 3.56
+    \end{equation}
+  \end{solution}
+
+  \begin{exercise}
+    In a city of a population 25,000, there were 13 murders reported in the prior year.  What is the rate of murder in this city per 100,000?
+	  \begin{enumerate}
+	  \samepage
+	  \item 5.2
+	  \samepage
+	  \item 52
+	  \samepage
+	  \item 5.24
+	  \samepage
+	  \item 0.00052
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  \begin{equation}
+	  (B)  rate = \frac{13}{25000} \times 100000 = 52 
+	  \end{equation}
+	\end{solution}
+	
+  \begin{exercise} 
+    In 1995 the percentage of individuals graduating from the Portage high school was 89 percent, in 2005, the percentage was 83 percent.  What is the percent change?
+	  \begin{enumerate}
+	  \samepage
+	  \item $-6.7\%$
+	  \samepage
+	  \item $6.7\%$
+	  \samepage
+	  \item $7.2\%$
+	  \samepage
+	  \item $-7.2\%$
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  \begin{equation}
+	    (A)  PC = \frac{(83 - 89)}{89} = -6.7\%
+	  \end{equation}
+	\end{solution}
+	
+	
+  \begin{exercise}
+    In a 2013 random sample of employees at Saint Mary's Hospital in Grand Rapids, a hospital administrator collected data about gender and various job categories.
 
  % Requires the booktabs if the memoir class is not being used
  \begin{table}[ht]
@@ -618,8 +652,16 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \item For doctors, what is the ratio of females to males?
   \item What percentage of the tatal staff are females?
   \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  1. The percentage of females nurses is
+    \begin{equation}
+    A
+  \end{solution}
+    
   
-\item You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
+  \begin{exercise}
+    You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -642,5 +684,8 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \item Ordinal
   \end{enumerate}  
 	
-\end{enumerate}
-
+  \end{exercise}
+  \begin{solution}
+  A
+  \end{solution}
+  
