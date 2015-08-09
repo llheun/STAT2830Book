@@ -563,7 +563,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \end{exercise}
   \begin{solution}
     \begin{equation}
-    (B) p = \frac{250 - 195}{250} = 0.22
+    (2.) p = \frac{250 - 195}{250} = 0.22
     \end{equation}
   \end{solution}
     
@@ -580,7 +580,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\end{exercise}
 	\begin{solution}
     \begin{equation}
-    (C) ratio = \frac{195}{250 - 195} = 3.56
+    (3.) ratio = \frac{195}{250 - 195} = 3.55
     \end{equation}
   \end{solution}
 
@@ -599,7 +599,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\end{exercise}
 	\begin{solution}
 	  \begin{equation}
-	  (B)  rate = \frac{13}{25000} \times 100000 = 52 
+	  (2.)  rate = \frac{13}{25000} \times 100000 = 52 
 	  \end{equation}
 	\end{solution}
 	
@@ -618,7 +618,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\end{exercise}
 	\begin{solution}
 	  \begin{equation}
-	    (A)  PC = \frac{(83 - 89)}{89} = -6.7\%
+	    (1.)  PC = \frac{(83 - 89)}{89} \times 100 = -6.7\%
 	  \end{equation}
 	\end{solution}
 	
