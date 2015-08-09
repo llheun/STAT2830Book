@@ -317,7 +317,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  The level of measurement of marital statis is nominal (C).
+	  The level of measurement of marital statis is nominal (3. ).
 	\end{solution}
 	
   \begin{exercise}
@@ -330,7 +330,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  The level of measurement of marital status is interval-ratio (B).
+	  The level of measurement of marital status is interval-ratio (2. ).
 	\end{solution}
 
   \begin{exercise}
@@ -343,7 +343,7 @@ Since 1968, voter surveys use inferential statistics.
   	\end{enumerate}
   \end{exercise}
 	\begin{solution}
-	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable.
+	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable (3. ).
 	\end{solution}
 	 
 \end{exercises}  

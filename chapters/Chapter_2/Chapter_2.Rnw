@@ -654,26 +654,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \end{enumerate}
   \end{exercise}
   \begin{solution}
-    \begin{enumerate}
-    \item The percentage of nurses who are female is
-      \begin{equation}
-      p_f = \frac{116}{315} \times 100 = 36.8\%
-      \end{equation}
-      
-      \item the proportion of orderlies who are  males is 
-      \begin{equation}
-      p_m = \frac{151}{415}  = 0.367
-      \end{equation}
-      
-      \item the ratio of females to males is 
-      
-      ratio = 18 females docs to 83 males docs or approxiamately 1 female doc to 5 males docs
-      
-      \item percentage of females on the staff is 
-      \begin{equation}
-      p_f = \frac{315}{(315 + 412)} \times 100 = 43.3\%
-      \end{equation}
-    \end{enumerate}
+    {\bf{(1. )}} The percentage of nurses who are female is 36.8\%.  {\bf{(2. )}} The proportion of orderlies who are  males is 0.367.  {\bf{(3. )}} Ratio is  18 females docs to 83 males docs or approximately 1 female doc for every 5 males docs.  {\bf{(4. )}} Percentage of females on the staff is 43.3\%.
   \end{solution}
     
   \begin{exercise}
@@ -702,7 +683,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	
   \end{exercise}
   \begin{solution}
-  A
+  The measure of the lost hours due to traffic is interval-ratio.
   \end{solution}
 
 \end{exercises}
