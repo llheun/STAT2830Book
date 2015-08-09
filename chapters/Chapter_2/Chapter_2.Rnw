@@ -574,7 +574,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \begin{enumerate}
 	  \item 0.78
 	  \item 0.28
-	  \item 3.56
+	  \item 3.55
 	  \item 55
 	  \end{enumerate}
 	\end{exercise}
