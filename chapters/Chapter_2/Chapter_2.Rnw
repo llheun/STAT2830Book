@@ -561,7 +561,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \item 22\%
   	\end{enumerate}
   \end{exercise}
-  \begin{solumtion}
+  \begin{solution}
     \begin{equation}
     (B) p = \frac{250 - 195}{250} = 0.22
     \end{equation}
@@ -688,4 +688,5 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \begin{solution}
   A
   \end{solution}
-  
+
+\end{exercises}
