@@ -650,16 +650,32 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \item What percentage of nurses are females?
   \item What proportion of orderlies are males?
   \item For doctors, what is the ratio of females to males?
-  \item What percentage of the tatal staff are females?
+  \item What percentage of the total staff are females?
   \end{enumerate}
   \end{exercise}
   \begin{solution}
-  1. The percentage of females nurses is
-    \begin{equation}
-    A
+    \begin{enumerate}
+    \item The percentage of nurses who are female is
+      \begin{equation}
+      p_f = \frac{116}{315} \times 100 = 36.8\%
+      \end{equation}
+      
+      \item the proportion of orderlies who are  males is 
+      \begin{equation}
+      p_m = \frac{151}{415}  = 0.367
+      \end{equation}
+      
+      \item the ratio of females to males is 
+      
+      ratio = 18 females docs to 83 males docs or approxiamately 1 female doc to 5 males docs
+      
+      \item percentage of females on the staff is 
+      \begin{equation}
+      p_f = \frac{315}{(315 + 412)} \times 100 = 43.3\%
+      \end{equation}
+    \end{enumerate}
   \end{solution}
     
-  
   \begin{exercise}
     You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
 
