@@ -59,7 +59,7 @@ opts_chunk$set(
 @
 
 
-<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=FALSE>>=
+<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=TRUE>>=
 @
 
 <<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=
