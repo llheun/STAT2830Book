@@ -578,7 +578,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \item 55
 	  \end{enumerate}
 	\end{exercise}
-	\begin{solumtion}
+	\begin{solution}
     \begin{equation}
     (C) ratio = \frac{195}{250 - 195} = 3.56
     \end{equation}
