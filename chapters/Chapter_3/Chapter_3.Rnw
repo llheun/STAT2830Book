@@ -382,7 +382,7 @@ The other measure of location are as follows:
 <<result="asis", echo=FALSE>>=
 
 xdt1 <- c(819.79, 607, 83, 293,591,275,593,519)
-xtab1e(summary(xdt1))
+summary(xdt1)
 @
 
 
