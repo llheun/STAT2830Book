@@ -447,8 +447,8 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 \vspace{5mm}
 
 \begin{itemize}
-\item Now place the z-scores on the graph and shade the area that we are interested.
-\item Since we cannot get this area directly from the table we will split the graph into pieces that we read from the table and add them together to get the desired results.
+\item Now place the z-scores on the graph and shade the area that we are interested in.
+\item Since we cannot get this area directly from the table we will split the graph into pieces which areas we could read from the table and add them together to get the desired results.
 \end{itemize}
 
 \begin{minipage}[b]{5cm}
@@ -459,15 +459,15 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 \begin{minipage}[b]{8cm}
 
 \begin{itemize}
-\item The portion to the left of the mean (between $-1.00$ and $0.00$), we can get by using the symmetry of the normal curve and look up $+1.00$ for column (b) (area between Z and the mean) in the table.  When we look in the table the associate area is 0.3413.
+\item The portion to the left of the mean (between $-1.00$ and $0.00$), we can get by using the symmetry of the normal curve and look up $+1.00$ for column (b) (area between Z and the mean) in the table.  When we look in the table the associated area is 0.3413.
 
-\item The portion to the right of the mean (between $0.00$ and $+2.00$), we can look up for column (b) in the table.   When we look in the table the associate area is 0.4772. 
+\item The portion to the right of the mean (between $0.00$ and $+2.00$), we can look up for column (b) in the table.   When we look in the table the associated area is 0.4772. 
 \end{itemize}
 
 \end{minipage}
 
 \begin{itemize}
-\item The Proportion between $-1.00$ and $+2.00$ = 0.3413 + 0.4772 = 0.8185.
+\item The proportion between $-1.00$ and $+2.00$ is  0.3413 + 0.4772 = 0.8185.
 \item This, the proportion of females with IQ scores between 90 and 120 is 81.85\%.
 \end{itemize}
 
@@ -498,8 +498,8 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \vspace{5mm}
 
 \begin{itemize}
-\item Now place the z-scores on the graph and shade the area that we are interested.
-\item Since we cannot get this area directly from the table we will split the graph into pieces that we read from the table and add them together to get the desired results.
+\item Now place the z-scores on the graph and shade the area that we are interested in.
+\item Since we cannot get this area directly from the table we will split the graph into pieces with areas that we can  read from the table and use them  to get the desired results.
 \end{itemize}
 
 \begin{minipage}[b]{5cm}
@@ -510,15 +510,15 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \begin{minipage}[b]{8cm}
 
 \begin{itemize}
-\item The portion to the left of the mean (between $0.00$ and $0.50$), we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associate area is 0.1915.
+\item For the portion to the left of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associated area is 0.1915.
 
-\item The portion to the right of the mean (between $0.00$ and $+1.00$), we can look up for column (b) in the table.   When we look in the table the associate area is 0.3413. 
+\item The portion to the right of the mean (between $0.00$ and $+1.00$): we can look up for column (b) in the table.   When we look in the table the associated area is 0.3413. 
 \end{itemize}
 
 \end{minipage}
 
 \begin{itemize}
-\item The Proportion between $+0.50$ and $+1.00$ = (area between 0 and $+1.00$) - (area between $+0.50$ and $+1.00$) = 0.3413 - 0.1915 = 0.1498 
+\item The proportion between $+0.50$ and $+1.00$ is (area between 0 and $+1.00$) - (area between $+0.50$ and $+1.00$) = 0.3413 - 0.1915 = 0.1498 
 
 \item Thus, the proportion of males with IQ scores between 110 and 120 is 14.98\%.
 \end{itemize}
@@ -541,8 +541,8 @@ First we need to find the area for the probability of 0.900 and the associated z
 \ \\[-5mm] 
 
 \begin{itemize}
-\item The area to the left of the mean is 0.500, so
-\item the area to the right of the mean is 0.900 - 0.500 = 0.400.
+\item 
+Since the area to the left of the mean is 0.500,  the area to the right of the mean is 0.900 - 0.500 = 0.400.
 \item Now, look up the z-score associated with the area of 0.400.
 \end{itemize}
 
@@ -581,7 +581,7 @@ is closer to 0.400 than 0.4015.
 
 \vspace{3mm}
 
-Now that we have the associated z-score, we can now find the IQ score of interest $90^{th}$ percentile.
+Now that we have the associated z-score, we can  find the IQ score of interest ($90^{th}$ percentile):
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -589,7 +589,7 @@ X &= (Z \times SD) + mean \\
 X &=  (\fbox{1.28} \times 10) + 100 = 112.8 
 \end{align*}
 
-This indicates that 90 percent of all females IQ scores are lower than 112.8, so this is the $90^{th}$ percentile.
+This indicates that 90 percent of all females' IQ scores are lower than 112.8, so this is the $90^{th}$ percentile.
 
 \section{Key Words}
 
@@ -605,7 +605,7 @@ This indicates that 90 percent of all females IQ scores are lower than 112.8, so
 \newpage
 \section{Exercises}
 \begin{enumerate}
-\item Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is at most 41.  What is the standard deviation of this data?
+\item Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is  41.  What is the standard deviation of this data?
 	\begin{enumerate}
 	\item 2
 	\item 2.5
@@ -613,7 +613,7 @@ This indicates that 90 percent of all females IQ scores are lower than 112.8, so
 	\item 4
 	\end{enumerate}
 
-\item Given a distribution of male weights that has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
+\item Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
 	\begin{enumerate}
 	\item $-1.82$
 	\item 1.82
@@ -621,7 +621,7 @@ This indicates that 90 percent of all females IQ scores are lower than 112.8, so
 	\item You cannot calculate the z-score with the information provided.
 	\end{enumerate}
 	
-\item Given the distribution of male weights with mean of 155 and standard deviation of 12, what percent 
+\item Given the distribution of male weights has mean of 155 and standard deviation of 12, what percent 
 of males weight less than 143 pounds?
 	\begin{enumerate}
 	\item 0.1587
