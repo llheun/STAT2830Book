@@ -346,7 +346,7 @@ The other measure of location are as follows:
 	\end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	The three value must be 22.
+	The three value must be 22.  {\bf{2. }}
 	\end{solution}
 	
   \begin{exercise} 
@@ -378,6 +378,14 @@ The other measure of location are as follows:
   \end{enumerate}
   \end{exercise}
   \begin{solution}
+  
+<<result="asis", echo=FALSE>>=
+
+xdt1 <- c(819.79, 607, 83, 293,591,275,593,519)
+xtab1e(summary(xdt1))
+@
+
+
   This data has a positive skewness.
   \end{solution}
   
