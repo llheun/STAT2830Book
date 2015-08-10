@@ -7,7 +7,7 @@
 By the end of this chapter, you will be able to
 \begin{itemize}
 \samepage
-\item Explain the purpose of inferential statistics in generalizing from a sample to a population.
+\item Explain the purpose of inferential statistics. 
 \samepage
 \item Define and explain the basic techniques of random sampling
 \samepage
@@ -31,7 +31,7 @@ By the end of this chapter, you will be able to
 
 What is a population?
 
-A {\bf{population}} is the entire group of subjects that are under consideration for the study.
+A {\bf{population}} is the entire set or collection of subjects that are under consideration for the study.
 
 \begin{itemize}
 \samepage
@@ -59,7 +59,8 @@ A {\bf{sample}} is a selection of a part of a population.
 
 \begin{itemize}
 \samepage
-\item The descriptive statistics for the population are called statistic and are as follows:
+\item Following descriptive statistics will be used to make inference about the population: 
+
 	\begin{itemize}
 	\item $\bar{x}$ -- the sample mean
 	\item $s$ -- the sample standard deviation
@@ -69,7 +70,8 @@ A {\bf{sample}} is a selection of a part of a population.
 \samepage
 \item When selecting a sample, it is critical that the sample be {\bf{representative}} of the population from which it is selected, otherwise, the calculated statistics may have {\bf{bias}} and our conclusions will not be valid.
 \samepage
-\item We can maximize the chances of a representative sample by ensuring that the selection criteria has {\bf{randomness}} as the basis for the sample selection.
+\item A representative sample has to be selected based on 
+ {\bf{randomness}}.
 \end{itemize}
 
 \section{Sample Selection}
@@ -100,18 +102,18 @@ This method does not focus on selecting samples that are representative of the p
 
 \subsection{Probability Sampling}
 
-There are four methods probability sampling, namely,
+There are four main methods of probability sampling:
 
 \begin{enumerate}
 \item {\bf{Simple Random Sampling}} -- Samples are randomly selected from the population.  It can be done using the lottery method, table of random numbers, computer or calculator random number generator. 
 	\begin{itemize} 
-	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Simple Random Sampling}} -- randomly selecting  samples from a list of households.
+	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Simple Random Sampling}} -- randomly selecting  samples from a list of all households in Kalamazoo.
 	\end{itemize}
 
-\item {\bf{Systematic Random Sampling}} -- Select some starting point. then select every $k^{th}$ (such as every $50^{th}$) element in the population.
+\item {\bf{Systematic Random Sampling}} -- Select a starting point in a random fashion. Then select every $k^{th}$ (such as every $50^{th}$) element in the population.
 	\begin{itemize} 
 	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Systematic  Sampling}} -- 
-	every $10^{th}$ household is chosen.
+	every $10^{th}$ household on the list is chosen.
 	\end{itemize}
 	
 \item {\bf{Stratified Random Sampling}} -- Population is divided into subgroups called strata and a simple random sample is chosen from each strata.
