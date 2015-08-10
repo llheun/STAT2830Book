@@ -381,17 +381,29 @@ The other measure of location are as follows:
   
 <<result="asis", echo=FALSE>>=
 
-xdt1 <- c(819.79, 607, 83, 293,591,275,593,519)
+xdt1 <- c(819.79, 607, 83, 293, 591, 275, 593, 519)
 xsumm1 <- summary(xdt1)
-xmed <- xsumm1[3]
-xmean<- xsumm1[4]
 @
 
-\text{The mean is } xmean 
+The mean is 
+<<results="asis", echo=FALSE>>=
+xsumm1[4]
+@ 
 
+The median is 
+<<results="asis", echo=FALSE>>=
+xsumm1[3]
+@ 
 
+There is no mode since there are no duplicates.
 
-  This data has a positive skewness.
+{\bf{1. }} the greater value is the median (555).  {\bf{2. }} There is a negative skewness in the middle half the of the data.
+
+<<f3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Boxplot of Cars per 1000">>=
+boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
+@
+
+{\bf{3. }} When we compare the median to the mean, we find the median (555) is greater the mean (472.6).  Therefore, we can say the the dataset is left skewed.
   \end{solution}
   
   \begin{exercise} 
