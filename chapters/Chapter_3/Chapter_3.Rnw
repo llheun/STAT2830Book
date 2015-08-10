@@ -377,7 +377,7 @@ The other measure of location are as follows:
   \item How do you know?
   \end{enumerate}
   \end{exercise}
-  \begin{solumtion}
+  \begin{solution}
   This data has a positive skewness.
   \end{solution}
   
