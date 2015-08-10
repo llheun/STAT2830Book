@@ -382,8 +382,14 @@ The other measure of location are as follows:
 <<result="asis", echo=FALSE>>=
 
 xdt1 <- c(819.79, 607, 83, 293,591,275,593,519)
-summary(xdt1)
+xsumm1 <- summary(xdt1)
+xmed <- xsumm1[3]
+xmean<- xsumm1[4]
+\text{The mean is } xmean \text{and the median is} xmed.  \text{There is no mode -- no duplicate numbers.}
 @
+
+
+
 
 
   This data has a positive skewness.
