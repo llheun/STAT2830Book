@@ -605,6 +605,7 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 \newpage
 \section{Exercises}
 
+\begin{exercises}
   \begin{exercise}
     Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is  41.  What is the standard deviation of this data?
 	  \begin{enumerate}
