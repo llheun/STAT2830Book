@@ -604,40 +604,72 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 
 \newpage
 \section{Exercises}
-\begin{enumerate}
-\item Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is  41.  What is the standard deviation of this data?
-	\begin{enumerate}
-	\item 2
-	\item 2.5
-	\item 3
-	\item 4
-	\end{enumerate}
 
-\item Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
-	\begin{enumerate}
-	\item $-1.82$
-	\item 1.82
-	\item 1.82 lbs.
-	\item You cannot calculate the z-score with the information provided.
-	\end{enumerate}
+  \begin{exercise}
+    Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is  41.  What is the standard deviation of this data?
+	  \begin{enumerate}
+	  \item 2
+	  \item 2.5
+	  \item 3
+	  \item 4
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  \begin{equation}
+	    SD = \frac{(41 - 32)}{3} = 9
+	  \end{equation}
+	\end{solution}
 	
-\item Given the distribution of male weights has mean of 155 and standard deviation of 12, what percent 
+  \begin{exercise} 
+    Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
+	  \begin{enumerate}
+	  \item $-1.82$
+	  \item 1.82
+	  \item 1.82 lbs.
+	  \item You cannot calculate the z-score with the information provided.
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  \begin{equation}
+	    \frac{173 - 153}{11} = 1.82 lbs
+	  \end{equation}
+	\end{solution}  
+	
+  \begin{exercise} 
+    Given the distribution of male weights has mean of 155 and standard deviation of 12, what percent 
 of males weight less than 143 pounds?
-	\begin{enumerate}
-	\item 0.1587
-	\item 0.3413
-	\item 15.87
-	\item 34.13
-	\end{enumerate}
+	  \begin{enumerate}
+	  \item 0.1587
+	  \item 0.3413
+	  \item 15.87
+	  \item 34.13
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  \begin{align*}
+	    z &= \frac{143 - 155}{12} = -1 \\
+	    P[z < -1] &= 15.87
+	   \end{align*}
+	\end{solution}  
 	
-\item Given the distribution of male weights with mean of 155 and standard deviation of 12, what value 
+	
+  \begin{exercise} 
+    Given the distribution of male weights with mean of 155 and standard deviation of 12, what value 
 represents the $90^{th}$ percentile for male weights?
-	\begin{enumerate}
-	\item 155.00 pounds
-	\item 170.36 pounds
-	\item 179.00 pounds 
-	\item 189.13 puunds
-	\end{enumerate}
-			
+	  \begin{enumerate}
+	   \item 155.00 pounds
+	  \item 170.36 pounds
+	  \item 179.00 pounds 
+	  \item 189.13 puunds
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  \begin{align*}
+	    x &= \mu + Z \sigma \\
+	    x &= 155 + 1.28 \times (12) \\
+	    x &= 170.36
+	 \end{align*}
+  \end{solution}
+  
 \end{enumerate}
 	
