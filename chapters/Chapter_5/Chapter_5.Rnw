@@ -671,5 +671,5 @@ represents the $90^{th}$ percentile for male weights?
 	 \end{align*}
   \end{solution}
   
-\end{enumerate}
+\end{exercises}
 	
