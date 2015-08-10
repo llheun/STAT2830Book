@@ -319,8 +319,10 @@ The other measure of location are as follows:
 
 \section{Exercises}
 
-\begin{enumerate}
-\item The weekly budget for groceries of  six student are as follows: \\
+\begin{exercises}
+
+  \begin{exercise} 
+  The weekly budget for groceries of  six student are as follows: \\
 \$30, \$35, \$40, \$28, \$35, \$25. \\ Compute the mean, median, and mode, respectively.
 	\begin{enumerate}
 	\item 188, 30, 40
@@ -328,17 +330,27 @@ The other measure of location are as follows:
 	\item 32.167, 32.5, 35
 	\item 188, 30, 35
 	\end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	32.167, 32.5, 35 {\bf{(3. )}}
+	\end{solution}
 	
-\item John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
+	
+  \begin{exercise} 
+  John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
 	\begin{enumerate}
 	\item 20
 	\item 22
 	\item 18 
 	\item 24
 	\end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	The three value must be 22.
+	\end{solution}
 	
-\item The following table lists the number of cars per 1000 population for eight nations.  Compute the mean, median, and mode for these data.  
-
+  \begin{exercise} 
+  The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
   \centering
@@ -364,23 +376,31 @@ The other measure of location are as follows:
   \item Is there a positive skew in the data?  
   \item How do you know?
   \end{enumerate}
+  \end{exercise}
+  \begin{solumtion}
+  This data has a positive skewness.
+  \end{solution}
   
+  \begin{exercise} 
+  You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
 
+  \begin{enumerate}
+  \item their region of birth
+  \item the extent they support marijuana legalization (7=strong, 4=neutral, 1=weak)
+  \item the amount of money spent on food, etc.
+  \item number of movies they watched
+  \item quality of cafeteria food (10=excellent, 0=bad)
+  \item religous affiliation.
+  \end{enumerate}
 
-\pagebreak
-\item You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
-
-\begin{itemize}
-\item their region of birth
-\item the extent they support marijuana legalization (7=strong, 4=neutral, 1=weak)
-\item the amount of money spent on food, etc.
-\item number of movies they watched
-\item quality of cafeteria food (10=excellent, 0=bad)
-\item religous affiliation.
-\end{itemize}
-
-Find the most appropriate measures of central tendency for each variable:
-
+  Find the most appropriate measures of central tendency for each variable:
+  \end{exercise}
+  \begin{solution}
+  {\bf{(1. )}} Mode  {\bf{(2. )}} Mode  {\bf{(3. )}} Interval-ratio  {\bf{(4. )}} Interval-ratio  {\bf{(5. )}} Mode  {\bf{(6. )}} Mode
+  \end{solution}
+  
+  \begin{exercise}
+  
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
@@ -405,7 +425,12 @@ Find the most appropriate measures of central tendency for each variable:
   \begin{enumerate}
   \item Find appropriate measures of central tendency for each variable
   \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  
+  xyz
+  \end{solution}
   
   
-\end{enumerate}
+\end{exercises}
 
