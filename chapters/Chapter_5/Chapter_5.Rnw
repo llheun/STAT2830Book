@@ -103,7 +103,7 @@ The \emph{Student Monitor} surveyed college students and reported the amount of 
 
 \item Since the upper bound (UB) minus the lower bound (LB) for 95 percent will yield four standard deviation (SD). 
 \begin{align*}
-4(SD) &= (UB - LB) = (30.5 - 8.5) \\
+(UB - LB) &= (30.5 - 8.5) = 4(SD)  \\
 SD &= \frac{(UB - LB)}{4} = \frac{(30.5 - 8.5)}{4} = 5.5 
 \end{align*}
 
