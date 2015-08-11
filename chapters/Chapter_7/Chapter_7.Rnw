@@ -385,7 +385,6 @@ $ME = CV \times SE$.
     \begin{align*}
       CV &= t_{99, 0.025} \\ 
       CV &= 1.980
-      
     \end{align*}
   \end{solution}
   
