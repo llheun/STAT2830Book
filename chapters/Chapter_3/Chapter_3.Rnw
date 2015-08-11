@@ -455,7 +455,7 @@ boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
   \end{enumerate}
   \end{exercise}
   \begin{solution}
-    {\bf{Birth}} Mode; {\bf{Legal}} Mode;  {\bf{Expense}} Interval-ratio; {\bf{Movies}} Mode; {\bf{Food}} Interval-ratio;  {\bf{Religion}} Mode
+    {\bf{Birth}} Mode; {\bf{Legal}} Mode;  {\bf{Expense}} Interval-ratio; {\bf{Movies}} Interval-ratio; {\bf{Food}} Mode;  {\bf{Religion}} Mode
   
   \end{solution}
   
