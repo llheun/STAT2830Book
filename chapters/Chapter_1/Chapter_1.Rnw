@@ -294,6 +294,7 @@ Since 1968, voter surveys use inferential statistics.
 \begin{exercises}
 
   \begin{exercise}
+  
   Descriptive statistics allow social researchers to 
     \begin{enumerate}
 	  \item quantify the strength and direction of the relationship between two variables, \\
@@ -308,6 +309,7 @@ Since 1968, voter surveys use inferential statistics.
 
 	
   \begin{exercise}
+  
   A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
 	  \begin{enumerate}
 	  \item Ordinal 
@@ -321,6 +323,7 @@ Since 1968, voter surveys use inferential statistics.
 	\end{solution}
 	
   \begin{exercise}
+  
   Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
 	  \begin{enumerate}
 	  \item Ordinal 
@@ -334,6 +337,7 @@ Since 1968, voter surveys use inferential statistics.
 	\end{solution}
 
   \begin{exercise}
+  
   What type of variable is the number of robberies reported in June 2014 in Kalamazoo County?
 	  \begin{enumerate}
   	\item Attribute
