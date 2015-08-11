@@ -293,7 +293,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
 
   \begin{exercise}
 
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What are the hypotheses for this question?
 
@@ -310,42 +310,44 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	
   \begin{exercise}
   
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     Calculate the test statistic.
 
 	  \begin{enumerate}
-	  \item $T = -2.29$
-	  \item $T = +2.29$
-	  \item $Z = -.2.29$
-	  \item $Z = +2.29$
+	  \item $T = -2.14$
+	  \item $T = +2.14$
+	  \item $Z = -.2.14$
+	  \item $Z = +2.14$
 	  \end{enumerate}
 	\end{exercise}  
 	\begin{solution}
-	
+	  \begin{align*}
+	    SE &= \frac{0.7}{\sqrt{25}} = 0.14 \\
+	    t &= \frac{(5.9 - 6.2)}{0.14} = -2.14
+	  \end{align*}   
 	\end{solution}
-	
 	
   \begin{exercise}
   
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What is the sampling distribution and critical value at the 95 percent confidence level?
 
 	  \begin{enumerate}
-	  \item Standard Normal distribution, $CV(z) = -1.645$
-	  \item Standard Normal distribution, $CV(z) = \pm 1.96$
-	  \item T-distribution, $CV(t) = +1.697$
-	  \item T-distribution, $CV(t) = \pm 2.042$
+	  \item Standard Normal distribution, $CV(z) = -1.645 $
+	  \item Standard Normal distribution, $CV(z) = \pm 1.96 $
+	  \item T-distribution, $CV(t) = \pm 1.71 $
+	  \item T-distribution, $CV(t) = \pm 2.064 $
 	  \end{enumerate}	
   \end{exercise}
   \begin{solution}
-  
+    From the distribution of $t$, using row df = 24 and column 0.025, CV(t) = 2.064.
   \end{solution}
   
   \begin{exercise}
   
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What is your conclusion?
 
@@ -357,7 +359,8 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}	
   \end{exercise}
   \begin{solution}
-  
+    Since the test statistic, $ |t| = |-2.14| > t_{.025} = 2.064 $ \\
+    Therefore, reject $H_0$, there is  difference.
   \end{solution}
   
   \begin{exercise}
@@ -374,7 +377,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-  
+    $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
   \end{solution}
   
   \begin{exercise}
@@ -392,7 +395,10 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-  
+    \begin{align*}
+      SE &= \sqrt{\frac{(.6(1-.6))}{150}} = 0.04 \\
+      z = \frac{(.6 - .55)}{0.04} = 1.25
+    \end{align*}  
   \end{solution}
   
   
@@ -410,7 +416,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-  
+    Standard Normal distribution, $CV(z) = \pm1.96$
   \end{solution}
   
   \begin{exercise}
@@ -427,7 +433,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-  
+    Conclude there is no difference, since the population, 55, percent is within the confidence interval.
   \end{solution}
   
   \begin{exercise}
@@ -443,7 +449,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-   
+   No Error was committed.
   \end{solution}
   
 \end{exercises}	
