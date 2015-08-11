@@ -318,155 +318,234 @@ $ME = CV \times SE$.
 \newpage
 
 \section{Exercises}
-\begin{enumerate}
-\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+\begin{exercises}
 
-\begin{center}
-$\bar{X} = 3.38; s = 0.30; n = 100$
-\end{center}
+  \begin{exercise}
+    
+    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
-What is the point estimate?
-	\begin{enumerate}
-	\item 0.0338
-	\item 0.30
-	\item 3.38
-	\item 338
-	\end{enumerate}
+    \begin{center}
+    $\bar{X} = 3.38; s = 0.30; n = 100$
+    \end{center}
+
+    What is the point estimate?
+	    \begin{enumerate}
+	    \item 0.0338
+	    \item 0.30
+    	\item 3.38
+	    \item 338
+	    \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+    The point estimate is $\bar{X} = 3.38$.
+  \end{solution}
+  
+  \begin{exercise}
+  
+    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+
+    \begin{center}
+    $\bar{X} = 3.38; s = 0.30; n = 100$
+    \end{center}
+
+    What is the standard error of your estimate?
+    
+	  \begin{enumerate}
+	  \item 0.003
+	  \item 0.03
+  	\item 0.30
+	  \item 3.38
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	    $SE = \frac{s}{\sqrt{n}} = \frac{0.30}{\sqrt{100}} = 0.03$
+	\end{solution}
 	
-\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+  \begin{exercise}
+  
+    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
-\begin{center}
-$\bar{X} = 3.38; s = 0.30; n = 100$
-\end{center}
+    \begin{center}
+    $\bar{X} = 3.38; s = 0.30; n = 100$
+    \end{center}
 
-What is the standard error of your estimate?
-	\begin{enumerate}
-	\item 0.003
-	\item 0.03
-	\item 0.30
-	\item 3.38
-	\end {enumerate}
+    What is the critical value?
+	  \begin{enumerate}
+	  \samepage
+	  \item 1.658
+	  \samepage
+	  \item 1.671
+	  \samepage
+	  \item 1.980
+	  \samepage
+	  \item 2.000
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+    \begin{align*}
+      CV &= t_{99, 0.025} \\ 
+      CV &= 1.980
+      
+    \end{aligh*}
+  \end{solution}
+  
+  \begin{exercise}
+  
+    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
-\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+    \begin{center}
+    $ \bar{X} = 3.38; s = 0.30; n = 100 $
+    \end{center}
 
-\begin{center}
-$\bar{X} = 3.38; s = 0.30; n = 100$
-\end{center}
+    What is the margin of error?
+	  \begin{enumerate}
+	  \item 0.0318
+	  \item 0.0497
+	  \item 0.0501
+	  \item 0.0594
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+      \begin{align*}
+      SE &= \frac{.3}{\sqrt{100}} = 0.03 \\
+      ME &=  t_{99,0.025} \times SE = 1.980 \times 0.03 = 0.0594 
+    \end{aligh*}
+  \end{solution}
+  
+  
+  \begin{exericse}
+  
+    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
-What is the critical value?
-	\begin{enumerate}
-	\samepage
-	\item 1.658
-	\samepage
-	\item 1.671
-	\samepage
-	\item 1.980
-	\samepage
-	\item 2.000
-	\end{enumerate}
+    \begin{center}
+    $\bar{X} = 3.38; s = 0.30; n = 100$
+    \end{center}
 
-\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+    What is the 95 percent confidence interval?
+	  \begin{enumerate}
+	  \item (3.32, 3.44)
+	  \item (3.32, 3.50)
+	  \item (4.33, 4.43)
+	  \item (4.43, 5.44)
+	  \end{enumerate}
+	  \begin{solution}
+	    \begin{align*}
+	    CI &= \bar{X} \pm ME = 3.38 \pm 0.0595 \\
+	    CI &=   (3.38 - 0.0595, 3.38 + 0.0595) \\
+      CI &= (3.32, 3.44)
+      \en{align*}
+    \end{solution}
+    
+  \begin{exercise}
+  
+    Given the following summary statistics from a random sample:
+    \begin{center}
+    $f = 30; n = 100$
+    \end{center}
 
-\begin{center}
-$\bar{X} = 3.38; s = 0.30; n = 100$
-\end{center}
-
-What is the margin of error?
-	\begin{enumerate}
-	\item 0.0318
-	\item 0.0497
-	\item 0.0501
-	\item 0.0594
-	\end{enumerate}
-
-\item A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
-
-\begin{center}
-$\bar{X} = 3.38; s = 0.30; n = 100$
-\end{center}
-
-What is the 95 percent confidence interval?
-	\begin{enumerate}
-	\item (3.32, 3.44)
-	\item (3.32, 3.50)
-	\item (4.33, 4.43)
-	\item (4.43, 5.44)
-	\end{enumerate}
+    What is the point estimate of the population proportion?
+	    \begin{enumerate}
+	    \item 0.30
+	    \item 1.96
+	    \item 2.282
+	    \item 78
+	    \item 178
+	    \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  $ p = \frac{30}{100} = 0.3 $
+	\end{solution}
 	
-\item Given the following summary statistics from a random sample:
-\begin{center}
-$f = 30; n = 100$
-\end{center}
+  \begin{exercise}
+  
+    Given the following summary statistics from a random sample:
+      \begin{center}
+      $f = 30; n = 100$
+      \end{center}
 
-What is the point estimate of the population proportion?
-	\begin{enumerate}
-	\item 0.30
-	\item 1.96
-	\item 2.282
-	\item 78
-	\item 178
-	\end{enumerate}
+    What is the standard error of the estimate (SE)?
+	  \begin{enumerate}
+	  \item 0.030
+	  \item 0.0458
+	  \item 0.30
+	  \item 1.96
+	  \item 78	
+	  \end{enumerate}	
+	\end{exercise}
+	\begin{solution}
+	  \begin{align*}
+	    SE &= \sqrt{ \frac{ .3(1 - .3)}{100}} \\
+	    SE &= 0.0458 
+	  \end{align*}
+	\end{solution}
 	
-\item Given the following summary statistics from a random sample:
-\begin{center}
-$f = 30; n = 100$
-\end{center}
+  \begin{exercise}
+  
+    Given the following summary statistics from a random sample:
+    \begin{center}
+    $f = 30; n = 100$
+    \end{center}
 
-What is the standard error of the estimate (SE)?
-	\begin{enumerate}
-	\item 0.030
-	\item 0.0458
-	\item 0.30
-	\item 1.96
-	\item 78	
-	\end{enumerate}	
+    What is the critical value at the significance level $\alpha = 0.01$ for a two-tailed test?
+	  \begin{enumerate}
+	  \item 1.645
+	  \item 1.96
+	  \item 2.58
+	  \item 3.32
+	  \item 3.90
+	  \end{enumerate}		
+	\end{exercise}
+	\begin{solution}
+	  \begin{align*}
+	    CV &= z_{0.01/2} = z_{0.005} \\
+	    CV &= 2.58 
+	  \end{align*}
+	\end{solution}
 	
-\item Given the following summary statistics from a random sample:
-\begin{center}
-$f = 30; n = 100$
-\end{center}
+  \begin{exercise}
+  
+    Given the following summary statistics from a random sample:
+      \begin{center}
+      $f = 30; n = 100$
+      \end{center}
 
-What is the critical value at the significance level $\alpha = 0.01$ for a two-tailed test?
-	\begin{enumerate}
-	\item 1.645
-	\item 1.96
-	\item 2.58
-	\item 3.32
-	\item 3.90
-	\end{enumerate}		
-	
-\item Given the following summary statistics from a random sample:
-\begin{center}
-$f = 30; n = 100$
-\end{center}
+    What is the margin of error of the estimate (ME)?	
+	  \begin{enumerate}
+	  \item 0
+  	\item 0.118
+  	\item 0.529
+	  \item 1.96
+	  \item 660
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  $ ME = (CV)(SE) = 2.58 \times 0.0458  = 01182 $
+  \end{solution}
+  
+  \begin{exercise}
+  
+    Given the following summary statistics from a random sample:
+    \begin{center}
+    $f = 30; n = 100$
+    \end{center}
 
-What is the margin of error of the estimate (ME)?	
-	\begin{enumerate}
-	\item 0
-	\item 0.118
-	\item 0.529
-	\item 1.96
-	\item 660
-	\end{enumerate}
+    What is the 99\% confidence interval for the population proportion?	
+	  \begin{enumerate}
+	  \samepage
+	  \item $0.30 \pm 0.10$ 
+	  \samepage
+	  \item $0.30 \pm 0.118$
+	  \samepage
+	  \item $0.30 \pm 100$ 
+	  \samepage
+	  \item $30 \pm 0.118$
+	  \samepage
+	  \item This cannot be calculated with the given information.
+	  \end{enumerate}				
+	\end{exercise}
+	\begin{solution}
+	  $ 0.30 \pm 0.118 $
+	\end{solution}
 	
-\item Given the following summary statistics from a random sample:
-\begin{center}
-$f = 30; n = 100$
-\end{center}
-
-What is the 99\% confidence interval for the population proportion?	
-	\begin{enumerate}
-	\samepage
-	\item $0.30 \pm 0.10$ 
-	\samepage
-	\item $0.30 \pm 0.118$
-	\samepage
-	\item $0.30 \pm 100$ 
-	\samepage
-	\item $30 \pm 0.118$
-	\samepage
-	\item This cannot be calculated with the given information.
-	\end{enumerate}				
-	
-\end{enumerate}
+\end{exercises}
 		
