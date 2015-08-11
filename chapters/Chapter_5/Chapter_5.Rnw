@@ -314,7 +314,7 @@ This represents column (c) -- Area beyond Z, i.e., above Z
         & Mean and Z    & Beyond Z \\ \hline
         
      1.50 & 0.4332 & 0.0668  \\
-     1,51 & 0.4345 & 0.0655 \\
+     1.51 & 0.4345 & 0.0655 \\
      1.52 & 0.4357 & 0.0643 \\
      1.53 & 0.4370 & 0.0630 \\ \hline
      \end{tabular}
