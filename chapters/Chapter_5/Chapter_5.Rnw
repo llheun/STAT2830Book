@@ -586,7 +586,8 @@ Now that we have the associated z-score, we can  find the IQ score of interest (
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
 X &= (Z \times SD) + mean \\
-X &=  (\fbox{1.28} \times 10) + 100 = 112.8 
+X &=  (\fbox{1.28} \times 10) + 100 \\
+X &= 112.8 
 \end{align*}
 
 This indicates that 90 percent of all females' IQ scores are lower than 112.8, so this is the $90^{th}$ percentile.
@@ -605,8 +606,10 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 \newpage
 \section{Exercises}
 
-\begin{exercises}
-  \begin{exercise}
+\begin{exercises} 
+
+  \begin{exercise} 
+  
     Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is  41.  What is the standard deviation of this data?
 	  \begin{enumerate}
 	  \item 2
@@ -622,6 +625,7 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	\end{solution}
 	
   \begin{exercise} 
+  
     Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
 	  \begin{enumerate}
 	  \item $-1.82$
@@ -637,6 +641,7 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	\end{solution}  
 	
   \begin{exercise} 
+  
     Given the distribution of male weights has mean of 155 and standard deviation of 12, what percent 
 of males weight less than 143 pounds?
 	  \begin{enumerate}
@@ -655,6 +660,7 @@ of males weight less than 143 pounds?
 	
 	
   \begin{exercise} 
+  
     Given the distribution of male weights with mean of 155 and standard deviation of 12, what value 
 represents the $90^{th}$ percentile for male weights?
 	  \begin{enumerate}
