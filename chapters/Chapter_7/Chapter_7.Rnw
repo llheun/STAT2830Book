@@ -433,7 +433,7 @@ $ME = CV \times SE$.
 	    CI &= \bar{X} \pm ME = 3.38 \pm 0.0595 \\
 	    CI &=   (3.38 - 0.0595, 3.38 + 0.0595) \\
       CI &= (3.32, 3.44)
-      \en{align*}
+      \end{align*}
     \end{solution}
     
   \begin{exercise}
