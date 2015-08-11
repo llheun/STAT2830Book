@@ -333,7 +333,8 @@ The other measure of location are as follows:
 	\end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	32.167, 32.5, 35 {\bf{(3. )}}
+	{\bf{(3. )}}
+	32.167, 32.5, 35 
 	\end{solution}
 	
   \begin{exercise} 
@@ -347,7 +348,8 @@ The other measure of location are as follows:
 	\end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	The three value must be 22.  {\bf{2. }}
+	{\bf{2. }}
+	The three value must be 22.  
 	\end{solution}
 	
   \begin{exercise} 
@@ -407,7 +409,7 @@ There is no mode since there are no duplicates.
 
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=6cm]{f3_1-1.pdf} 
+   \includegraphics[width=6cm]{figure/f3_1-1.pdf} 
    \caption{Boxplot of Cars per 1000}
    \label{fig:f3_1}
 \end{figure}
