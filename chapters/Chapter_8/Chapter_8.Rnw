@@ -446,5 +446,5 @@ Now if we have enough evidence against the patient, then we can say that the pat
    
   \end{solution}
   
-\end{enumerate}	
+\end{exercises}	
 	
