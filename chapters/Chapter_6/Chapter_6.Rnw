@@ -359,6 +359,8 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 \end{itemize}
  
 
+\pagebreak
+
 \section{Exercises}
 
 \begin{exercises}
