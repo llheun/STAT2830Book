@@ -620,13 +620,13 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	\end{exercise}
 	\begin{solution}
 	  \begin{equation}
-	    SD = \frac{(41 - 32)}{3} = 9
+	    SD = \frac{(41 - 32)}{3} = 3
 	  \end{equation}
 	\end{solution}
 	
   \begin{exercise} 
   
-    Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviation away from the mean weight is 173 lbs.?
+    Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviations away from the mean weight is 173 lbs.?
 	  \begin{enumerate}
 	  \item $-1.82$
 	  \item 1.82
@@ -636,7 +636,7 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	\end{exercise}
 	\begin{solution}
 	  \begin{equation}
-	    \frac{173 - 153}{11} = 1.82 lbs
+	    z = \frac{173 - 153}{11} = 1.82 
 	  \end{equation}
 	\end{solution}  
 	

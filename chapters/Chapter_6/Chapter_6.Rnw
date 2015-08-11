@@ -17,10 +17,10 @@ By the end of this chapter, you will be able to
 	\item Parameter
 	\item Sample
 	\item Statistic
-	\item EPSEM -- 
+	\item EPSEM -- Equal Probability of SElection Method.
 	\end{itemize}
 \samepage
-\item Differentiate between the sampling distribution, the sample, the the population.
+\item Differentiate between the sampling distribution, the sample, the  population.
 \samepage
 \item Explain the two theorems presented.
 	
@@ -139,7 +139,7 @@ There are four main methods of probability sampling:
 There are three types of survey errors.  
 
 \begin{enumerate}
-\item {\bf{Coverage errors}} -- sampling frame \footnote{a sampling frame is the source material or device from which a sample is drawn}
+\item {\bf{Coverage errors}} -- sampling frame\footnote{a sampling frame is the source material or device from which a sample is drawn}
 excludes some segments of the target population.
 \item {\bf{Non-response errors}} -- can cause bias in survey results.
 \item {\bf{Measurement errors}} -- occurs when respondents answer ``incorrectly.''
@@ -404,7 +404,7 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 	
 	\begin{exercise}
 	
-	  An auditor has come to audit the books of your non-profit organization,.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  This method is called
+	  An auditor has come to audit the books of your non-profit organization.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  This method is called
 		  \begin{enumerate}
 		  \samepage
 		  \item cluster sampling
@@ -451,7 +451,7 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 	  The national norm of a science test for tenth graders has a mean of 210 and a standard deviation of 28.  A random sample of 40 tenth graders were selected.  What is the chance that this group will average over 220?
 		  \begin{enumerate}
 		  \item 0.0
-		  \item 0.0199
+		  \item 0.0119
 		  \item 0.3605
 		  \item 0.9881
 		  \end{enumerate}	
