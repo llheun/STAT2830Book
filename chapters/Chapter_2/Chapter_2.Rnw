@@ -549,6 +549,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 \begin{exercises}
 
   \begin{exercise}
+  
     250 individuals were randomly selected and 195 of them do not smoke. What proportion of individuals are smokers?
 	  \begin{enumerate}
 	  \samepage
@@ -570,6 +571,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   	
 	
   \begin{exercise}
+  
     250 individuals were randomly selected and 195 of them do not smoke.  What is the ratio of nonsmokers to smokers?
 	  \begin{enumerate}
 	  \item 0.78
@@ -585,6 +587,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \end{solution}
 
   \begin{exercise}
+  
     In a city of a population 25,000, there were 13 murders reported in the prior year.  What is the rate of murder in this city per 100,000?
 	  \begin{enumerate}
 	  \samepage
@@ -604,6 +607,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	\end{solution}
 	
   \begin{exercise} 
+  
     In 1995 the percentage of individuals graduating from the Portage high school was 89 percent, in 2005, the percentage was 83 percent.  What is the percent change?
 	  \begin{enumerate}
 	  \samepage
@@ -624,6 +628,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	
 	
   \begin{exercise}
+  
     In a 2013 random sample of employees at Saint Mary's Hospital in Grand Rapids, a hospital administrator collected data about gender and various job categories.
 
  % Requires the booktabs if the memoir class is not being used
@@ -658,6 +663,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \end{solution}
     
   \begin{exercise}
+  
     You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
 
 % Requires the booktabs if the memoir class is not being used
