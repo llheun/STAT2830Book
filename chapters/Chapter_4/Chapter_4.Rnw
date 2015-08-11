@@ -324,6 +324,7 @@ It measures the  spread  around the mean  as a percentage.
 \begin{exercises}
 
   \begin{exercise} 
+  
     Given the following data: 16, 31, 33, 42, 28.  \\ What is the range?
 	    \begin{enumerate}
 	    \item 12
@@ -340,7 +341,7 @@ It measures the  spread  around the mean  as a percentage.
 	
   \begin{exercise}
   
-    Given $Q_3 = 20$ and $Q_1 = 10$, an outlier would be any value this is
+    Given $Q_3 = 20$ and $Q_1 = 10$, an outlier would be any value that is
 	  \begin{enumerate}
 	  \item 5
 	  \item 10
