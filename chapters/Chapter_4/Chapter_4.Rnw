@@ -320,31 +320,49 @@ It measures the  spread  around the mean  as a percentage.
 
 \newpage
 \section{Exercises}
-\begin{enumerate}
-\item Given the following data: 16, 31, 33, 42, 28.  \\ What is the range?
-	\begin{enumerate}
-	\item 12
-	\item 17 
-	\item 24 
-	\item 26
-	\end{enumerate}
-	
-\item Given $Q_3 = 20$ and $Q_1 = 10$, an outlier would be any value this is
-	\begin{enumerate}
-	\item 5
-	\item 10
-	\item 35 
-	\item None of the above
-	\end{enumerate}
-	
-\item Given the following data: 1, 2, 3, 4, 5.  What is the standard deviation?
-	\begin{enumerate}
-	\item 1.581
-	\item 2.500
-	\item 4
-	\item 6
-	\end{enumerate}
-				
-	
-\end{enumerate}
 
+\begin{exercises}
+
+  \begin{exercise} 
+    Given the following data: 16, 31, 33, 42, 28.  \\ What is the range?
+	    \begin{enumerate}
+	    \item 12
+	    \item 17 
+	    \item 24 
+	    \item 26
+	    \end{enumerate}
+	 \end{exercise}
+	 \begin{solution}
+	  \begin{align*}
+	    range &= (X_{max} - X_{min}) = 42 - 16 = 26
+	  \end{solution}   
+	
+  \begin{exercise}
+  
+    Given $Q_3 = 20$ and $Q_1 = 10$, an outlier would be any value this is
+	  \begin{enumerate}
+	  \item 5
+	  \item 10
+	  \item 35 
+	  \item None of the above
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  35
+	\end{solution} 
+	
+  \begin{exercise}
+  
+    Given the following data: 1, 2, 3, 4, 5.  What is the standard deviation?
+	  \begin{enumerate}
+	  \item 1.581
+	  \item 2.500
+	  \item 4
+	  \item 6
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  SD = 1.581
+	\end{solution}
+	
+\end{exercises}
