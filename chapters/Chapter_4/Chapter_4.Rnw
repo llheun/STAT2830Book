@@ -349,7 +349,13 @@ It measures the  spread  around the mean  as a percentage.
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  35
+	  \begin{align*}
+	    LB = Q_1 - 1.5(IQR) = 10 - 1.5 (20 - 10) = -5 \\
+	    UB = Q_3 + 1.5(IQR) = 20 + 1.5 (20 - 10) = 35
+	  \end{align*}
+	  
+	  There are no outliers.
+	  
 	\end{solution} 
 	
   \begin{exercise}
