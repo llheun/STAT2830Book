@@ -335,6 +335,7 @@ It measures the  spread  around the mean  as a percentage.
 	 \begin{solution}
 	  \begin{align*}
 	    range &= (X_{max} - X_{min}) = 42 - 16 = 26
+	 \end{align*}   
 	  \end{solution}   
 	
   \begin{exercise}
