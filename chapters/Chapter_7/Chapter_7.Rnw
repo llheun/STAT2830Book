@@ -386,7 +386,7 @@ $ME = CV \times SE$.
       CV &= t_{99, 0.025} \\ 
       CV &= 1.980
       
-    \end{aligh*}
+    \end{align*}
   \end{solution}
   
   \begin{exercise}
@@ -409,7 +409,7 @@ $ME = CV \times SE$.
       \begin{align*}
       SE &= \frac{.3}{\sqrt{100}} = 0.03 \\
       ME &=  t_{99,0.025} \times SE = 1.980 \times 0.03 = 0.0594 
-    \end{aligh*}
+    \end{align*}
   \end{solution}
   
   
