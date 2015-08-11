@@ -428,6 +428,7 @@ $ME = CV \times SE$.
 	  \item (4.33, 4.43)
 	  \item (4.43, 5.44)
 	  \end{enumerate}
+	 \end{exercise}
 	  \begin{solution}
 	    \begin{align*}
 	    CI &= \bar{X} \pm ME = 3.38 \pm 0.0595 \\
