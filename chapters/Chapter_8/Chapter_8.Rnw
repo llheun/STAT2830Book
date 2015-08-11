@@ -287,105 +287,164 @@ Now if we have enough evidence against the patient, then we can say that the pat
 \newpage 
 
 \section{Exercises}
-\begin{enumerate}
-\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
-What are the hypotheses for this question?
+\begin{exercises}
 
-	\begin{enumerate}
-	\item $H_0: \mu = 6.2$ vs. $H_A: \mu = 5.9$
-	\item $H_0: \mu = 6.2$ vs. $H_A: \mu < 6.2$
-	\item $H_0: \mu = 6.2$ vs. $H_A: \mu > 6.2$
-	\item $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
-	\end{enumerate}
 
-\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+  \begin{exercise}
 
-Calculate the test statistic.
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
-	\begin{enumerate}
-	\item $T = -2.29$
-	\item $T = +2.29$
-	\item $Z = -.2.29$
-	\item $Z = +2.29$
-	\end{enumerate}
+    What are the hypotheses for this question?
+
+	  \begin{enumerate}
+	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu = 5.9$
+	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu < 6.2$
+	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu > 6.2$
+  	\item $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
+	\end{solution}
 	
-\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+  \begin{exercise}
+  
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
-What is the sampling distribution and critical value at the 95 percent confidence level?
+    Calculate the test statistic.
 
-	\begin{enumerate}
-	\item Standard Normal distribution, $CV(z) = -1.645$
-	\item Standard Normal distribution, $CV(z) = \pm 1.96$
-	\item T-distribution, $CV(t) = +1.697$
-	\item T-distribution, $CV(t) = \pm 2.042$
-	\end{enumerate}	
+	  \begin{enumerate}
+	  \item $T = -2.29$
+	  \item $T = +2.29$
+	  \item $Z = -.2.29$
+	  \item $Z = +2.29$
+	  \end{enumerate}
+	\end{exercise}  
+	\begin{solution}
+	
+	\end{solution}
+	
+	
+  \begin{exercise}
+  
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
-\item Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    What is the sampling distribution and critical value at the 95 percent confidence level?
 
-What is your conclusion?
+	  \begin{enumerate}
+	  \item Standard Normal distribution, $CV(z) = -1.645$
+	  \item Standard Normal distribution, $CV(z) = \pm 1.96$
+	  \item T-distribution, $CV(t) = +1.697$
+	  \item T-distribution, $CV(t) = \pm 2.042$
+	  \end{enumerate}	
+  \end{exercise}
+  \begin{solution}
+  
+  \end{solution}
+  
+  \begin{exercise}
+  
+    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 1017 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
-	\begin{enumerate}
-	\item Conclude there is a difference.
-	\item Conclude there is no difference.
-	\item Conclude that seniors watch too much TV.
-	\item Conclude that statewide people watch too much TV
-	\end{enumerate}	
+    What is your conclusion?
 
-\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+	  \begin{enumerate}
+	  \item Conclude there is a difference.
+	  \item Conclude there is no difference.
+	  \item Conclude that seniors watch too much TV.
+	  \item Conclude that statewide people watch too much TV
+	  \end{enumerate}	
+  \end{exercise}
+  \begin{solution}
+  
+  \end{solution}
+  
+  \begin{exercise}
+  
+    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
-What are the hypotheses for this question?
+    What are the hypotheses for this question?
 
-	\begin{enumerate}
-	\item $H_0: P_u = 0.55$ vs. $H_A: P_u = 0.49$
-	\item $H_0: P_u = 0.55$ vs. $H_A: P_u > 0.55$
-	\item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
-	\item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
-	\end{enumerate}
+	  \begin{enumerate}
+	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u = 0.49$
+	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u > 0.55$
+	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
+	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  
+  \end{solution}
+  
+  \begin{exercise}
+  
+    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
-\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+    Calculate the test statistic.
 
-Calculate the test statistic.
+	  \begin{enumerate}
+	  \item $T = +1.23$
+	  \item $Z = -1.23$
+	  \item $Z = +1.23$
+	  \item $Z = -1.91$
+	  \item $Z = +1.91$
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  
+  \end{solution}
+  
+  
+  \begin{exercise}
+  
+    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
-	\begin{enumerate}
-	\item $T = +1.23$
-	\item $Z = -1.23$
-	\item $Z = +1.23$
-	\item $Z = -1.91$
-	\item $Z = +1.91$
-	\end{enumerate}
+    What is the sampling distribution and critical value at the 95 percent confidence level?
 
-\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+	  \begin{enumerate}
+	  \item Standard Normal distribution, $CV(z) = \pm1.96$
+	  \item Standard Normal distribution, $CV(z) = \pm1.645$
+	  \item T-distribution, $CV(t) = \pm1.697$
+	  \item T-distribution, $CV(t) = \pm2.042$
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  
+  \end{solution}
+  
+  \begin{exercise}
+  
+    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
-What is the sampling distribution and critical value at the 95 percent confidence level?
+    What is your conclusion?
 
-	\begin{enumerate}
-	\item Standard Normal distribution, $CV(z) = \pm1.96$
-	\item Standard Normal distribution, $CV(z) = \pm1.645$
-	\item T-distribution, $CV(t) = \pm1.697$
-	\item T-distribution, $CV(t) = \pm2.042$
-	\end{enumerate}
-
-\item In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
-
-What is your conclusion?
-
-	\begin{enumerate}
-	\item Conclude there is a difference.
-	\item Conclude there is no difference.
-	\item The proportion of voters who rejected the proposal is less than 60.
-	\item The proportion of voters who rejected the proposal is greater than 60.
-	\end{enumerate}
-
- \item The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward school gives the SSHA to 25 students who are at least 30 years of age and the sample mean was obtained $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
+	  \begin{enumerate}
+	  \item Conclude there is a difference.
+	  \item Conclude there is no difference.
+	  \item The proportion of voters who rejected the proposal is less than 60.
+	  \item The proportion of voters who rejected the proposal is greater than 60.
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  
+  \end{solution}
+  
+  \begin{exercise}
+  
+    The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward school gives the SSHA to 25 students who are at least 30 years of age and the sample mean was obtained $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
  
- 	\begin{enumerate}
-	\item More samples should be taken
-	\item She should change the significance level of the test.
-	\item A Type I Error was committed.
-	\item A Type II Error was committed.
-	\item No Error was committed.
-	\end{enumerate}
- 
+ 	  \begin{enumerate}
+	  \item More samples should be taken
+	  \item She should change the significance level of the test.
+	  \item A Type I Error was committed.
+	  \item A Type II Error was committed.
+	  \item No Error was committed.
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+   
+  \end{solution}
+  
 \end{enumerate}	
 	
