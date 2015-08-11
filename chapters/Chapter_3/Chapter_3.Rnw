@@ -431,7 +431,7 @@ There is no mode since there are no duplicates.
   Find the most appropriate measures of central tendency for each variable:
   \end{exercise}
   \begin{solution}
-  {\bf{(1. )}} Mode  {\bf{(2. )}} Mode  {\bf{(3. )}} Interval-ratio  {\bf{(4. )}} Interval-ratio  {\bf{(5. )}} Mode  {\bf{(6. )}} Mode
+  {\bf{(1. )}} Mode  {\bf{(2. )}} Median  {\bf{(3. )}} Mean  {\bf{(4. )}} Mean  {\bf{(5. )}} Median  {\bf{(6. )}} Mode
   \end{solution}
   
   \begin{exercise}
@@ -462,7 +462,7 @@ There is no mode since there are no duplicates.
   \end{enumerate}
   \end{exercise}
   \begin{solution}
-    {\bf{Birth}} Mode; {\bf{Legal}} Mode;  {\bf{Expense}} Interval-ratio; {\bf{Movies}} Interval-ratio; {\bf{Food}} Mode;  {\bf{Religion}} Mode
+    {\bf{Birth}} Mode=``North''; {\bf{Legal}} Median=3;  {\bf{Expense}} Mean=48.5; {\bf{Movies}} Mean=5.8; {\bf{Food}} Median=6;  {\bf{Religion}} Mode=``Protestant''
   
   \end{solution}
   
