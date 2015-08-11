@@ -9,7 +9,7 @@ By the end of this chapter, you will be able to
 \samepage
 \item Explain the purpose of inferential statistics. 
 \samepage
-\item Define and explain the basic techniques of random sampling
+\item Define and explain the basic techniques of random sampling.
 \samepage
 \item Explain and define these key terms:
 	\begin{itemize}
@@ -70,8 +70,7 @@ A {\bf{sample}} is a selection of a part of a population.
 \samepage
 \item When selecting a sample, it is critical that the sample be {\bf{representative}} of the population from which it is selected, otherwise, the calculated statistics may have {\bf{bias}} and our conclusions will not be valid.
 \samepage
-\item A representative sample has to be selected based on 
- {\bf{randomness}}.
+\item A representative sample has to be selected based on  {\bf{randomness}}.
 \end{itemize}
 
 \section{Sample Selection}
@@ -118,7 +117,7 @@ There are four main methods of probability sampling:
 	
 \item {\bf{Stratified Random Sampling}} -- Population is divided into subgroups called strata and a simple random sample is chosen from each strata.
 	\begin{itemize} 
-	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Stratified  Sampling}} -- 
+	\item Example: {\bf{Target Population}} -- Households in Michigan; \\ {\bf{Stratified  Sampling}} -- 
 	take samples from each county.
 	\end{itemize}
 
@@ -126,6 +125,11 @@ There are four main methods of probability sampling:
 	\begin{itemize} 
 	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Cluster  Sampling}} -- 
 	sampling subdivisions in Kalamazoo.
+	\end{itemize}
+	
+\item {\bf{Mixed Sampling Schemes}}  
+  \begin{itemize} 
+	\item Example: again one or few smaller units randomly selected (counties in Michigan) or some voting districts in Kalamazoo.
 	\end{itemize}
 
 \end{enumerate}
@@ -135,7 +139,8 @@ There are four main methods of probability sampling:
 There are three types of survey errors.  
 
 \begin{enumerate}
-\item {\bf{Coverage errors}} -- sampling frame excludes some segments of the target population.
+\item {\bf{Coverage errors}} -- sampling frame \footnote{a sampling frame is the source material or device from which a sample is drawn}
+excludes some segments of the target population.
 \item {\bf{Non-response errors}} -- can cause bias in survey results.
 \item {\bf{Measurement errors}} -- occurs when respondents answer ``incorrectly.''
 \end{enumerate}
@@ -157,7 +162,11 @@ Z &= \frac{X - \mu}{\sigma} = \frac{72.0 - 69.1}{2.9} = 1
 
    \includegraphics[width=3cm]{chapters/Chapter_6/ext_figure/zAUC9.png} % requires the graphicx package
    
+   The horizontal axis is in standard units.
+   
    \includegraphics[width=3cm]{chapters/Chapter_6/ext_figure/zAUC10.png} % requires the graphicx package
+      
+      The horizontal axis is in Z-score units.
       
 \end{minipage} 
 
@@ -171,10 +180,6 @@ Z &= \frac{X - \mu}{\sigma} = \frac{72.0 - 69.1}{2.9} = 1
 \vspace{5mm}
 
 Now, what if we sample a group of 10 men from our population of men and compute the average of their heights.  We do this 1000 times.  Will 68 percent of the {\bf{groups averages}} be within 66.2 and 72.0 inches tall? 
-
-\vspace{5mm}
-
-The heights of men in the United States,
 
 \subsection{Theorem I}
 
@@ -213,9 +218,9 @@ Z &=  \frac{72.0 - 69.1}{0.92} = 3.15
  
  \item Answer: NO!  99.84 percent of the groups averages will be within 66.2 and 72.0 inches tall.
  
- \item Using the original height data of men in the United States, approximately 68 percent of mean are between 66.2 and 72.0 inches tall.
+ \item Using the original height data of men in the United States, approximately 68 percent of men are between 66.2 and 72.0 inches.
  
- \item But using the average height of men in the United States, we find that 99.84 percent of the groups averages will be from 66.2 and 72.0 inches tall.
+ \item But using the average height of men in the United States, we find that 99.84 percent of the groups averages will be from 66.2 and 72.0 inches.
  \end{itemize}
  
  \begin{minipage}[h]{6.5cm}
@@ -355,61 +360,109 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
  
 
 \section{Exercises}
-\begin{enumerate}
-	\item A recent Poll showed that 69 percent of americans believe that there is a hell.  The poll contacted 1,003 adults by telephone.  The population for this sample survey is
-		\begin{enumerate}
-	 	\samepage
-		\item all adult resident of the United States.
-		\samepage
-		\item the 1,003 people who answered the question.
-		\samepage
-		\item all households in the United States.
-		\samepage
-		\item the 69 percent who answered ``I believe in hell.''
-		\end{enumerate}
-	\item We divide the class into two groups: first year students and others.  We then take a random samples from each group.  This is an example of
-		\begin{enumerate}
-		\samepage
-		\item simple random sampling
-		\samepage
-		\item clustered sampling
-		\samepage
-		\item stratified random sampling
-		\samepage
-		\item systematic random sampling
-		\end{enumerate}
-	\item An auditor has come to audit the books of your non-profit organization,.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  This method is called
-		\begin{enumerate}
-		\samepage
-		\item cluster sampling
-		\samepage
-		\item simple random sampling
-		\samepage
-		\item systemic random sampling
-		\samepage
-		\item stratified random sampling
-		\end{enumerate}
-		
-	\item Height of men example: Mean = 69.1 inches and SD = 2.9 inches.  Given a sample of 10 men.  What proportion will exceed 72.0 inches?
-		\begin{enumerate}
-		\samepage
-		\item 0.08\%
-		\samepage
-		\item 5.8\%
-		\samepage
-		\item 8\%
-		\samepage
-		\item 15.87\%
-		\samepage
-		\item 49.92\%
-		\end{enumerate}
-	\item The national norm of a science test for tenth graders has a mean of 210 and a standard deviation of 28.  A random sample of 40 tenth graders were selected.  What is the chance that this group will average over 220?
-		\begin{enumerate}
-		\item 0.0
-		\item 0.0199
-		\item 0.3605
-		\item 0.9881
-		\end{enumerate}	
+
+\begin{exercises}
+
+  
+	\begin{exercise}
 	
-\end{enumerate}
+	  A recent Poll showed that 69 percent of Americans believe that there is a hell.  The poll contacted 1,003 adults by telephone.  The population for this sample survey is
+		  \begin{enumerate}
+	 	  \samepage
+		  \item all adult resident of the United States.
+		  \samepage
+		  \item the 1,003 people who answered the question.
+		  \samepage
+		  \item all households in the United States.
+		  \samepage
+		  \item the 69 percent who answered ``I believe in hell.''
+		  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  The population for this sample survey is all adult resident of the United States.
+	\end{solution}
+	
+	\begin{exercise}
+	
+	  We divide the class into two groups: first year students and others.  We then take a random samples from each group.  This is an example of
+		  \begin{enumerate}
+		  \samepage
+		  \item simple random sampling
+		  \samepage
+		  \item clustered sampling
+		  \samepage
+		  \item stratified random sampling
+		  \samepage
+		  \item systematic random sampling
+		  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  This is an example of stratified random sampling.
+	\end{solution}  
+	
+	\begin{exercise}
+	
+	  An auditor has come to audit the books of your non-profit organization,.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  This method is called
+		  \begin{enumerate}
+		  \samepage
+		  \item cluster sampling
+		  \samepage
+		  \item simple random sampling
+		  \samepage
+		  \item systemic random sampling
+		  \samepage
+		  \item stratified random sampling
+		  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  This method is called systemic random sampling.
+	\end{solution}  
+	
+	\begin{exercise}
+	
+	  Height of men example: Mean = 69.1 inches and SD = 2.9 inches.  Given a sample of 10 men.  What proportion will exceed 72.0 inches?
+		  \begin{enumerate}
+		  \samepage
+		  \item 0.08\%
+		  \samepage
+		  \item 5.8\%
+		  \samepage
+		  \item 8\%
+		  \samepage
+		  \item 15.87\%
+		  \samepage
+		  \item 49.92\%
+		  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  What proportion will exceed 72.0 inches?  
+	  \begin{align*}
+	  SE &= \frac{SD}{\sqrt{n}} = \frac{2.9}{\sqrt{10}} = 0.9171 \\
+	  Z &= \frac{(X - \mu)}{SE} \\
+	  Z &= \frac{(72.0 - 69.1)}{0.9171} = 3.1623 \\
+	  P[ Z > 3.1623] &= 0.0008
+	  \end{align*}
+	\end{solution}
+	
+	\begin{exercise}
+	
+	  The national norm of a science test for tenth graders has a mean of 210 and a standard deviation of 28.  A random sample of 40 tenth graders were selected.  What is the chance that this group will average over 220?
+		  \begin{enumerate}
+		  \item 0.0
+		  \item 0.0199
+		  \item 0.3605
+		  \item 0.9881
+		  \end{enumerate}	
+	\end{exercise}
+	\begin{solution}
+	  What is the chance that this group will average over 220?
+	  \begin{align*}
+	  SE &= \frac{SD}{\sqrt{n}} = \frac{28}{\sqrt{40}} = 4.4272 \\
+	  Z &= \frac{(X - \mu)}{SE} \\
+	  Z &= \frac{(220 - 210)}{4.4272} = 2.2588 \\
+	  P[ Z > 2.2588] &= 0.0119
+	  \end{align*}
+	  
+	\end{solution}  
+\end{exercises}
 	
