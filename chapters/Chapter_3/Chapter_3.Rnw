@@ -401,9 +401,16 @@ There is no mode since there are no duplicates.
 
 {\bf{1. }} the greater value is the median (555).  {\bf{2. }} There is a negative skewness in the middle half the of the data.
 
-<<f3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Boxplot of Cars per 1000">>=
-boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
-@
+%' <<f3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Boxplot of Cars per 1000">>=
+%' boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
+%' @
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=6cm]{f3_1-1.pdf} 
+   \caption{Boxplot of Cars per 1000}
+   \label{fig:f3_1}
+\end{figure}
 
 {\bf{3. }} When we compare the median to the mean, we find the median (555) is greater the mean (472.6).  Therefore, we can say the the dataset is left skewed.
   \end{solution}
