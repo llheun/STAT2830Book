@@ -413,7 +413,7 @@ $ME = CV \times SE$.
   \end{solution}
   
   
-  \begin{exericse}
+  \begin{exercise}
   
     A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
