@@ -322,6 +322,7 @@ The other measure of location are as follows:
 \begin{exercises}
 
   \begin{exercise} 
+  
   The weekly budget for groceries of  six student are as follows: \\
 \$30, \$35, \$40, \$28, \$35, \$25. \\ Compute the mean, median, and mode, respectively.
 	\begin{enumerate}
@@ -335,8 +336,8 @@ The other measure of location are as follows:
 	32.167, 32.5, 35 {\bf{(3. )}}
 	\end{solution}
 	
-	
   \begin{exercise} 
+  
   John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
 	\begin{enumerate}
 	\item 20
@@ -350,7 +351,8 @@ The other measure of location are as follows:
 	\end{solution}
 	
   \begin{exercise} 
-  The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
+  
+    The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
   \centering
@@ -407,7 +409,8 @@ boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
   \end{solution}
   
   \begin{exercise} 
-  You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
+  
+    You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
 
   \begin{enumerate}
   \item their region of birth
@@ -452,10 +455,9 @@ boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
   \end{enumerate}
   \end{exercise}
   \begin{solution}
-  
+    {\bf{Birth}} Mode; {\bf{Legal}} Mode;  {\bf{Expense}} Interval-ratio; {\bf{Movies}} Mode; {\bf{Food}} Interval-ratio;  {\bf{Religion}} Mode
   
   \end{solution}
   
   
 \end{exercises}
-
