@@ -453,7 +453,7 @@ boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
   \end{exercise}
   \begin{solution}
   
-  xyz
+  
   \end{solution}
   
   
