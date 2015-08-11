@@ -109,7 +109,7 @@ SD &= \frac{(UB - LB)}{4} = \frac{(30.5 - 8.5)}{4} = 5.5
 
 \item  The mean is the central tendency.
 \begin{align*}
-2(mean) &= (UB + LB) = (30.5 + 8.5) \\
+ (UB + LB) &= (30.5 + 8.5) = 2(mean)  \\
 mean &= \frac{(UB + LB)}{2} = \frac{(30.5 + 8.5)}{2} = 19.5 
 \end{align*}
 
