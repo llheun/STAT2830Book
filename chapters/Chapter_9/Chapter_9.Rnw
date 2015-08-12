@@ -488,29 +488,45 @@ Again, the researcher must ask is the effect size $0.125$ important.
 \end{itemize}
 
 \newpage 
-
 \section{Exercises}
-\begin{enumerate}
-\item Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What are the hypotheses for this question?
-	\begin{enumerate}
-	\item $H_0: \mu_1 = \mu_2$ vs. $H_A: \mu_1 < \mu_2$
-	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
-	\item $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 > \mu_2$
-	\item $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 \neq \mu_2$
-	\item $H_0: \mu_1 <\mu_2$ vs. $H_0: \mu_1 > \mu_2$
-	\end{enumerate}
-	
-\item Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What 
-is the sampling distribution and critical value at the 90 percent confidence level?
-	\begin{enumerate}
-	\item Standard Normal (Z) distribution, $CV = \pm1.645$
-	\item Standard Normal (Z) distribution, $CV = \pm1.96$
-	\item Student's $t$ distribution, $CV = \pm2.2281$
-	\item Student's $t$ distribution, $CV = \pm1.8125$
-	\item Cannot be determined with the information provided.
-	\end{enumerate}
 
-\item Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. 
+\begin{exercises}
+
+  \begin{exercise}
+
+    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What are the hypotheses for this question?
+	  \begin{enumerate}
+	  \item $H_0: \mu_1 = \mu_2$ vs. $H_A: \mu_1 < \mu_2$
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
+	  \item $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 > \mu_2$
+	  \item $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 \neq \mu_2$
+	  \item $H_0: \mu_1 <\mu_2$ vs. $H_0: \mu_1 > \mu_2$
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  $H_0: \mu_1 = \mu_2$ vs. $H_0: \mu_1 \neq \mu_2$
+	\end{solution}
+	
+  \begin{exercise}
+  
+    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What 
+is the sampling distribution and critical value at the 90 percent confidence level?
+	  \begin{enumerate}
+	  \item Standard Normal (Z) distribution, $CV = \pm1.645$
+	  \item Standard Normal (Z) distribution, $CV = \pm1.96$
+	  \item Student's $t$ distribution, $CV = \pm2.2281$
+	  \item Student's $t$ distribution, $CV = \pm1.8125$
+	  \item Cannot be determined with the information provided.
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  xyz
+	\end{solution}
+	
+
+  \begin{exercise}
+  
+    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. 
 (Hint: remember that the degrees of freedom is $df = n_1 + n_2 - 2$).
 
 % Requires the booktabs if the memoir class is not being used
@@ -523,63 +539,84 @@ is the sampling distribution and critical value at the 90 percent confidence lev
                             & Not Eq.Var.    &  -1.68  & 9.94 & 0.1244 & -3.33 & 1.984 \\ \hline                               
    \end{tabular}
 
-Given the computer output, what would you conclude with 95 percent confident?
+    Given the computer output, what would you conclude with 95 percent confident?
 
-	\begin{enumerate}
-	\samepage
-	\item Conclude there is a difference.
-	\samepage
-	\item Conclude there is no  difference.
-	\samepage
-	\item The sample size was too small to conclude anything.
-	\samepage
-	\item There is too much variation here to conclude anything.
-	\samepage
-	\item Conclude that you should not get into a car on  Friday's.
-	\end{enumerate}
+	  \begin{enumerate}
+	  \samepage
+	  \item Conclude there is a difference.
+	  \samepage
+	  \item Conclude there is no  difference.
+	  \samepage
+	  \item The sample size was too small to conclude anything.
+	  \samepage
+	  \item There is too much variation here to conclude anything.
+	  \samepage
+	  \item Conclude that you should not get into a car on  Friday's.
+	  \end{enumerate}
+    \end{exercise}
+    \begin{solution}
+      xxx
+    \end{solution}
+    
+  \begin{exercise}
+  
+    A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What are the hypotheses for this question?
+	  \begin{enumerate}
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 \neq P_2$
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
+	  \item $H_0: P_1 < P_2$ vs. $H_A: P_1 = P_2$
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 > P_2$	
+	  \item $H_0: P_1 < P_2$ vs. $H_A: P_1 > P_2$
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+  
+  ccc
+  \end{solution}
+  
+  \begin{exercise}
+  
+  A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What is the sampling distribution and critical value?
+	  \begin{enumerate}
+	  \item Standard Normal (z) distribution, $Z = \pm1.96$.
+	  \item Standard Normal (z) distribution, $Z = \pm1.645$.
+	  \item Student's t distribution, $T = \pm1.9632$.
+	  \item Student's t distribution, $T = +1.6469$
+	  \item Cannot be determined with the information provided
+	  \end{enumerate}
+  \end{exercise}
+  \begin{solution}
+   bbb
+  \end{solution}
+  
+  \begin{exercise}
+  
+    A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ 
+    Given the computer output,  what would you conclude with 95 percent confidence?
 
-\item A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What are the hypotheses for this question?
-	\begin{enumerate}
-	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 \neq P_2$
-	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
-	\item $H_0: P_1 < P_2$ vs. $H_A: P_1 = P_2$
-	\item $H_0: P_1 = P_2$ vs. $H_A: P_1 > P_2$	
-	\item $H_0: P_1 < P_2$ vs. $H_A: P_1 > P_2$
-	\end{enumerate}
-
-\item A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What is the sampling distribution and critical value?
-	\begin{enumerate}
-	\item Standard Normal (z) distribution, $Z = \pm1.96$.
-	\item Standard Normal (z) distribution, $Z = \pm1.645$.
-	\item Student's t distribution, $T = \pm1.9632$.
-	\item Student's t distribution, $T = +1.6469$
-	\item Cannot be determined with the information provided
-	\end{enumerate}
-
-\item A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ 
-Given the computer output, 
-what would you conclude with 95 percent confidence?
-
-
-   \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+    \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
        \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
        Sample & X & N & Sample p \\ \hline
        1 & 347 & 386 & 0.898964 \\
        2 & 305 & 359 & 0.849582 \\                                
-   \end{tabular} \\
-   \begin{tabular}{@{} l @{}} 
-   Difference = p(1) - p(2) \\
-   Estimate for difference: -0.0493816 \\
-   95\% CI for difference: (0.00172287. 0.0970402)  \\
-   Test for difference = 0 (vs not $= 0$: Z = 2.04 P-Value = 0.042 \\ \hline
-   \end{tabular}
-	\begin{enumerate}
-	\item Conclude that there is a difference.
-	\item Conclude that there is no difference.
-	\item Conclude that there is no morality left in marriage.
-	\item There is too much variation here to conclude anything.
-	\item Conclude that both men and women are immoral.
-	\end{enumerate}
-		
-\end{enumerate}
+    \end{tabular} \\
+    \begin{tabular}{@{} l @{}} 
+    Difference = p(1) - p(2) \\
+    Estimate for difference: -0.0493816 \\
+    95\% CI for difference: (0.00172287. 0.0970402)  \\
+    Test for difference = 0 (vs not $= 0$: Z = 2.04 P-Value = 0.042 \\ \hline
+    \end{tabular}
+	  \begin{enumerate}
+	  \item Conclude that there is a difference.
+	  \item Conclude that there is no difference.
+	  \item Conclude that there is no morality left in marriage.
+	  \item There is too much variation here to conclude anything.
+	  \item Conclude that both men and women are immoral.
+	  \end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  xxx
+	\end{solution} 
+	
+\end{exercises}
 	
