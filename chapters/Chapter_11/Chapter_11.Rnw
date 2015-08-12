@@ -393,7 +393,8 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
   \end{exercise}
   \begin{solution}
   
-  aaa
+    $H_0: \mu_1 = \mu_2 = \mu_3$ vs. $H_a:$ at least one mean is different.
+    
   \end{solution}
   
   \begin{exercise}
@@ -433,7 +434,9 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
       \end{enumerate}  
   \end{exercise}
   \begin{solution}
-  bbb
+    
+    Since the $F_{obtained} = 1.84 < F_{critical} = 3.68$, fail to reject $H_0$
+    
   \end{solution}
   
 \end{exercises}
