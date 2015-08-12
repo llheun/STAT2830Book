@@ -546,8 +546,9 @@ We should note one limitation of the simple linear regression.  First correlatio
   
     How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
-beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
-below.  One student drank 9 beers. You see from the scatterplot that his BAC was about
+beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). 
+% A scatterplot of the data appears below.  
+One student drank 9 beers. You see from the scatterplot that his BAC was about
 
     <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
     dt12_4 <- read.csv("data/beers.csv",header=TRUE)
@@ -560,15 +561,15 @@ below.  One student drank 9 beers. You see from the scatterplot that his BAC was
     @
 
     \begin{enumerate}
-    \item 0.019
-    \item 0.19
-    \item 1.9
-    \item 9
-    \item 19
+    \item 0.014
+    \item 0.14
+    \item 1.4
+    \item 14
+    \item 140
     \end{enumerate}
   \end{exercise}
   \begin{solution}
-  aaa
+     $ BAC = -0.012 + 0.0173 (9) = 0.14 $ 
   \end{solution}
   
 \pagebreak 
@@ -599,7 +600,7 @@ below.  The scatterplot shows
       \end{enumerate}
   \end{exercise}
   \begin{solution}
-  bbb
+    A moderately strong positive straight-line relationship between number of beers and BAC.
   \end{solution}
   
 
@@ -614,9 +615,9 @@ below.  A plausible value of the correlation between number of beers and blood a
 
     <<f12_13, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
   
-    plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
-    lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
-    abline( lm_4 )
+    ## plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
+    lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); summary(lm_4)
+    ##abline( lm_4 )
     b_1 <- lm_4$coefficient[2]
     b_0 <- lm_4$coefficient[1]
 
@@ -631,7 +632,7 @@ below.  A plausible value of the correlation between number of beers and blood a
       \end{enumerate}
     \end{exercise}
     \begin{solution}
-    ccc
+       The correllation coefficient is $r = 0.9 = \sqrt{0.81}$ which is the $r^2$ (coefficient of determination).
     \end{solution}
     
 \end{exercises}
