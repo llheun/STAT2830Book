@@ -396,8 +396,9 @@ Now if we have enough evidence against the patient, then we can say that the pat
   \end{exercise}
   \begin{solution}
     \begin{align*}
-      SE &= \sqrt{\frac{(.6(1-.6))}{150}} = 0.04 \\
-      z = \frac{(.6 - .55)}{0.04} = 1.25
+      SE &= \sqrt{\frac{(.55(1-.55))}{150}} = 0.0406 \\
+      z &= \frac{(.6 - .55)}{0.0406}  \\
+       z &= 1.23
     \end{align*}  
   \end{solution}
   
@@ -433,7 +434,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-    Conclude there is no difference, since the population, 55, percent is within the confidence interval.
+    Conclude there is no difference, since the population, 55, percent is within the confidence interval.  The 95 percent CI is (0.5516, 0.6784).
   \end{solution}
   
   \begin{exercise}
