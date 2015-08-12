@@ -552,7 +552,7 @@ below.  One student drank 9 beers. You see from the scatterplot that his BAC was
     <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
     dt12_4 <- read.csv("data/beers.csv",header=TRUE)
     plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
-    lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); lm_4
+    lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); summary(lm_4)
     abline( lm_4 )
     b_1 <- lm_4$coefficient[2]
     b_0 <- lm_4$coefficient[1]
