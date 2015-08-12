@@ -415,7 +415,7 @@ CV & = & 7.815
 	  \item Is there a significant relationship between satisfaction and quality of life.
 	  \item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is most likely to say their satisfaction is high?
 	  \end{enumerate}	
-  \begin{exercise}
+  \end{exercise}
   \begin{solution}
   
   bbb
