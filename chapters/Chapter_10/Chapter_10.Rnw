@@ -356,11 +356,14 @@ CV & = & 7.815
 \newpage
 \section{Exercises}
 
-\begin{enumerate}
-\item At a small liberal arts college, about 45 percent of the students live on-campus in dormitories while 55 percent of the students live off-campus.  College administrators often ask, is academic performance associated with living arrangements?  The results based on a random sample  of 100 students in the following table. 
+\begin{exercises}
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
+  \begin{exercise}
+  
+    At a small liberal arts college, about 45 percent of the students live on-campus in dormitories while 55 percent of the students live off-campus.  College administrators often ask, is academic performance associated with living arrangements?  The results based on a random sample  of 100 students in the following table. 
+
+    % Requires the booktabs if the memoir class is not being used
+    \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
@@ -376,16 +379,22 @@ CV & = & 7.815
    \end{tabular}
    \caption{Residence Status and Academic Performance}
    \label{tab:c10_8}
-\end{table}
+  \end{table}
 	\begin{enumerate}
 	\item Is there a significant relationship between residence status and academic performance.
 	\item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is more likely to have a high GPA?
 	\end{enumerate}
+	\end{exercise}
+	\begin{solution}
+	  aaa
+	\end{solution}
 
-\item A local  city has outsourced some of its planning function.  The contractor has built a database that describes the neighborhoods in the city and has developed a model so that each area can be rated for the ``quality of life'' such as noise, open spaces, walkable area, etc.   She has surveyed a random sample of these areas about their level of satisfaction with their  neighborhoods.  Does the results of the survey agree with the contractor's objective ratings of quality with the respondents' self-reports of satisfaction?
+  \begin{exercise}
+  
+    A local  city has outsourced some of its planning function.  The contractor has built a database that describes the neighborhoods in the city and has developed a model so that each area can be rated for the ``quality of life'' such as noise, open spaces, walkable area, etc.   She has surveyed a random sample of these areas about their level of satisfaction with their  neighborhoods.  Does the results of the survey agree with the contractor's objective ratings of quality with the respondents' self-reports of satisfaction?
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
+    % Requires the booktabs if the memoir class is not being used
+    \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
@@ -397,16 +406,20 @@ CV & = & 7.815
     Moderate & 8 & 16 & 13 \\
     High & 5 & 11 & 20 \\ \hline
      
-   \end{tabular}
-   \caption{Residence Status and Academic Performance}
-   \label{tab:c10_9}
-\end{table}
+    \end{tabular}
+    \caption{Residence Status and Academic Performance}
+    \label{tab:c10_9}
+  \end{table}
 
-	\begin{enumerate}
-	\item Is there a significant relationship between satisfaction and quality of life.
-	\item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is most likely to say their satisfaction is high?
-	\end{enumerate}	
-
-  	
-\end{enumerate}
+	  \begin{enumerate}
+	  \item Is there a significant relationship between satisfaction and quality of life.
+	  \item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is most likely to say their satisfaction is high?
+	  \end{enumerate}	
+  \exercise}
+  \begin{solution}
+  
+  bbb
+  \end{solution}
+  
+\end{exercises}
 	
