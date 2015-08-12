@@ -458,7 +458,7 @@ CV & = & 7.815
 	    
 	  @   
 	  
-	  The quality of life  group is most likely to have a high level of  neighborhood satistfaction.
+	  The quality of life  group is most likely to have a high level of  neighborhood satisfaction.
 	  \end{enumerate}
 	  
   \end{solution}
