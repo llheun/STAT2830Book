@@ -386,7 +386,19 @@ CV & = & 7.815
 	\end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  aaa
+	  \begin{enumerate}
+	 \item Significance test: 
+	  <<results="asis", echo=FALSE>>=
+	    dtA <- c(14,27,12,16,18,13)
+	    mtxA <- matrix(dtA, nrow=3)
+	    chisq.test(mtxA)
+	    
+	  @
+	  
+	  Reviewing the results of the chi-square test, the test statistic ($\chi^2 = 1.6192$) and the $p$-value = 0.445 which is greater than 0.05, we conclude that there is no difference in GPA from students who live on-campus or off-campus.
+	  \item column percents
+	  
+	  \end{enumerate}
 	\end{solution}
 
   \begin{exercise}
