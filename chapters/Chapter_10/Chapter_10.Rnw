@@ -427,7 +427,7 @@ CV & = & 7.815
     High & 5 & 11 & 20 \\ \hline
      
     \end{tabular}
-    \caption{Residence Status and Academic Performance}
+    \caption{Quality of Life and Satisfaction}
     \label{tab:c10_9}
   \end{table}
 
@@ -458,7 +458,7 @@ CV & = & 7.815
 	    
 	  @   
 	  
-	  The on-campus group is most likely to have a high GPA.
+	  The quality of life  group is most likely to have a high level of  neighborhood satistfaction.
 	  \end{enumerate}
 	  
   \end{solution}
