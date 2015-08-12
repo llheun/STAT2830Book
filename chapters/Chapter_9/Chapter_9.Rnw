@@ -494,7 +494,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
 
   \begin{exercise}
 
-    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What are the hypotheses for this question?
+    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What are the hypotheses for this question?
 	  \begin{enumerate}
 	  \item $H_0: \mu_1 = \mu_2$ vs. $H_A: \mu_1 < \mu_2$
 	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
@@ -509,7 +509,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
 	
   \begin{exercise}
   
-    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What 
+    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. \\ What 
 is the sampling distribution and critical value at the 90 percent confidence level?
 	  \begin{enumerate}
 	  \item Standard Normal (Z) distribution, $CV = \pm1.645$
@@ -520,13 +520,12 @@ is the sampling distribution and critical value at the 90 percent confidence lev
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  xyz
+	  From the t-distribution table, choose df row 10 and column significance level 0.05. \\
+	  Student's $t$ distribution, $CV = \pm1.8125$
 	\end{solution}
-	
-
   \begin{exercise}
   
-    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six Friday the $6^{th}$ and six Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. 
+    Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. 
 (Hint: remember that the degrees of freedom is $df = n_1 + n_2 - 2$).
 
 % Requires the booktabs if the memoir class is not being used
@@ -535,7 +534,7 @@ is the sampling distribution and critical value at the 90 percent confidence lev
    \begin{tabular}{@{} p{1.5cm} p{2.1cm} p{1.0cm} p{1.2cm} p{1.3cm} p{1.8cm} p{1.8cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
      & &  \multicolumn{5}{c}{t-test for Equality of Means} \\ \hline
          &    &  t & df & Sig. (2-tailed) & Mean Diff. & Std. Error Diff.   \\ \hline
-   Crashes & Eq.Var.  & -1.66 & 10 & 0.1242 & -3.33 & 2.006 \\
+   Crashes & Eq.Var.  & \fbox{-1.66} & 10 & 0.1242 & -3.33 & 2.006 \\
                             & Not Eq.Var.    &  -1.68  & 9.94 & 0.1244 & -3.33 & 1.984 \\ \hline                               
    \end{tabular}
 
@@ -555,7 +554,7 @@ is the sampling distribution and critical value at the 90 percent confidence lev
 	  \end{enumerate}
     \end{exercise}
     \begin{solution}
-      xxx
+      The test statistics is $|-1.66|$ and significance level is 1.8125.  Since the test statistic is less than the significance level, fail to reject $H_0$.
     \end{solution}
     
   \begin{exercise}
@@ -570,8 +569,7 @@ is the sampling distribution and critical value at the 90 percent confidence lev
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-  
-  ccc
+    $H_0: P_1 = P_2$ vs. $H_A: P_1 \neq P_2$
   \end{solution}
   
   \begin{exercise}
@@ -591,7 +589,7 @@ is the sampling distribution and critical value at the 90 percent confidence lev
 	  \end{enumerate}
   \end{exercise}
   \begin{solution}
-   bbb
+    Standard Normal (z) distribution, $Z = \pm1.96$.
   \end{solution}
   
   \begin{exercise}
@@ -608,7 +606,7 @@ is the sampling distribution and critical value at the 90 percent confidence lev
     \begin{tabular}{@{} l @{}} 
     Difference = p(1) - p(2) \\
     Estimate for difference: -0.0493816 \\
-    95\% CI for difference: (0.00172287. 0.0970402)  \\
+    95\% CI for difference: (0.00172287, 0.0970402)  \\
     Test for difference = 0 (vs not $= 0$: Z = 2.04 P-Value = 0.042 \\ \hline
     \end{tabular}
 	  \begin{enumerate}
@@ -620,7 +618,7 @@ is the sampling distribution and critical value at the 90 percent confidence lev
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  xxx
+	  Conclude that there is a difference, since the test statistic (z = 2.04) is greater than the critical value (z = 1.96).  Therefore, reject $H_0$
 	\end{solution} 
 	
 \end{exercises}
