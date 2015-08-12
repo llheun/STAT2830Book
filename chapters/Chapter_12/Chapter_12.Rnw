@@ -549,7 +549,7 @@ blood alcohol content? Sixteen student volunteers at The Ohio State University d
 beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
 below.  One student drank 9 beers. You see from the scatterplot that his BAC was about
 
-    <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="\# Beers vs. BAC">>=
+    <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
     dt12_4 <- read.csv("data/beers.csv",header=TRUE)
     plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
     lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
@@ -580,7 +580,7 @@ blood alcohol content? Sixteen student volunteers at The Ohio State University d
 beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
 below.  The scatterplot shows
 
-    <<f12_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="\# Beers vs. BAC">>=
+    <<f12_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
   
     plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
     lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
@@ -612,7 +612,7 @@ blood alcohol content? Sixteen student volunteers at The Ohio State University d
 beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
 below.  A plausible value of the correlation between number of beers and blood alcohol content, based on the scatterplot, is
 
-    <<f12_13, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="\# Beers vs. BAC">>=
+    <<f12_13, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
   
     plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
     lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB )
@@ -628,7 +628,6 @@ below.  A plausible value of the correlation between number of beers and blood a
       \item $r$ close to 0.
       \item $r = 0.3$.
       \item $r = 0.9$.
-
       \end{enumerate}
     \end{exercise}
     \begin{solution}
