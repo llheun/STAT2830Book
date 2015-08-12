@@ -578,10 +578,15 @@ is the sampling distribution and critical value at the 90 percent confidence lev
   
   A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? \\ What is the sampling distribution and critical value?
 	  \begin{enumerate}
+	  \samepage
 	  \item Standard Normal (z) distribution, $Z = \pm1.96$.
+	  \samepage
 	  \item Standard Normal (z) distribution, $Z = \pm1.645$.
+	  \samepage
 	  \item Student's t distribution, $T = \pm1.9632$.
+	  \samepage
 	  \item Student's t distribution, $T = +1.6469$
+	  \samepage
 	  \item Cannot be determined with the information provided
 	  \end{enumerate}
   \end{exercise}
