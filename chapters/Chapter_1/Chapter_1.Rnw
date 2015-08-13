@@ -357,10 +357,10 @@ Since 1968, voter surveys use inferential statistics.
   In how many occasions have you used or taken Cannabis?
 
   \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-    \underline[1cm]{\phantom} & Once \\
-    \underline[1cm]{\phantom} & 2 -5 occasions \\
-    \underline[1cm]{\phantom} & 6 - 10 occasions \\
-    \underline[1cm]{\phantom} & More than 10 occasions \\ \hline
+    \underline{        } & Once \\
+    \underline{        } & 2 -5 occasions \\
+    \underline{        } & 6 - 10 occasions \\
+    \underline{        } & More than 10 occasions \\ \hline
    \end{tabular}
    
     \framebox[4cm][r]{ Answer: }
