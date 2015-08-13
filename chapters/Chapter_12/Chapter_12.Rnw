@@ -625,7 +625,7 @@ below.  A plausible value of the correlation between number of beers and blood a
     
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=12cm]{ext_figure/zRegF.png} 
+   \includegraphics[width=12cm]{chapters/Chapter_12/ext_figure/zRegF.png} 
    \caption{Number of Beers vs. BAC}
    \label{fig:f12_13}
 \end{figure}    
