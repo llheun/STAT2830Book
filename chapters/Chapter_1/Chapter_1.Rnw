@@ -397,6 +397,7 @@ Since 1968, voter surveys use inferential statistics.
     Numeric - ratio 
   \end{solution}
 
+\pagebreak
 	\begin{exercise}
 	
 	The following table shows the distribution of weights of 50 female students.
