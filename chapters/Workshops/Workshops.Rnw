@@ -94,8 +94,8 @@ Question options:
     \end{exercise}
     \begin{solution}
       \begin{align*}
-        $rate = \frac{45}{1060} \times 1000 = $
-        
+        rate = \frac{45}{1060} \times 1000 = 
+      \end{align*}  
 <<results="asis", echo=FALSE>>=
           rate1 <- 45 / 1060 * 1000; rate1
           rm(rate1)
