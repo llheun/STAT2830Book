@@ -302,6 +302,8 @@ Since 1968, voter surveys use inferential statistics.
 	  \item graphically display the number of respondents according to their gender. \\
 	  \item all of the choices
 	  \end{enumerate}
+	  
+	  \framebox[5cm][l]{ Answer: }
   \end{exercise}	
   \begin{solution}
     All of the choices is the correct answer.
@@ -317,6 +319,8 @@ Since 1968, voter surveys use inferential statistics.
 	  \item Nominal 
 	  \item I don't know
 	  \end{enumerate}
+	  
+	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\begin{solution}
 	  The level of measurement of marital statis is nominal.
@@ -331,6 +335,8 @@ Since 1968, voter surveys use inferential statistics.
 	  \item Nominal
 	  \item I don't know
 	  \end{enumerate}
+	  
+	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\begin{solution}
 	  The level of measurement of marital status is interval-ratio.
@@ -349,6 +355,8 @@ Since 1968, voter surveys use inferential statistics.
   	\samepage
   	\item Qualitative
   	\end{enumerate}
+  	
+  	\framebox[5cm][l]{ Answer: }
   \end{exercise}
 	\begin{solution}
 	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable.
@@ -371,7 +379,6 @@ Since 1968, voter surveys use inferential statistics.
    \end{table}
    
     \framebox[5cm][l]{ Answer: }
-	 
   \end{exercise} 
   \begin{solution}
     Numeric - interval 
@@ -411,10 +418,28 @@ Since 1968, voter surveys use inferential statistics.
   What percentage of women weigh 40 - 59 kilograms?
    
     \framebox[5cm][l]{ Answer: }
-	 
   \end{exercise} 
   \begin{solution}
     $ p = \frac{(19 + 15)}{50} \times 100 = 68 $
+  \end{solution}
+
+	\begin{exercise}
+	
+	  The General Social Survey (GSS), conducted by the National Opinion Research Center at the university of Chicago, is a major source of data on social attitudes in the U.S.  Once each year 1500 adults are interviewed in their homes all across the country.  The subjects are asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
+	
+    The population for the GSS is 
+    \begin{enumerate}
+    \item the 1500 persons interviewed.
+    \item the University of Chicago.
+    \item the list of questions asked.
+    \item all adult residents of the U.S.
+    \end{enumerate}
+    
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise} 
+  \begin{solution}
+    all adult residents of the U.S.
   \end{solution}
 
 \end{exercises} 
