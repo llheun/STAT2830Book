@@ -26,12 +26,12 @@
     
       A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
       
-      \begin{enumerate}
-      \item all adults with normal vision.
-      \item the 42 students who were fooled.
-      \item the 50 students who served as subjects.
-      \item all students in the PSY 120 class. 
-      \end{enumerate}
+%       \begin{enumerate}
+%       \item all adults with normal vision.
+%       \item the 42 students who were fooled.
+%       \item the 50 students who served as subjects.
+%       \item all students in the PSY 120 class. 
+%       \end{enumerate}
       
       \framebox[6cm][l]{ Answer: }
       
@@ -44,12 +44,12 @@
       
       You want to know the opinions of American school teachers about establishing a national test for high school graduation.  You obtain a list of the members of the National Education Association (the largest teachers' union) and mail a questionnaire to 2500 teachers chosen at random from this list.  In all 1,347 teachers return the questionnaire.  The sample is 
       
-      \begin{enumerate}
-      \item all members of the National Education Association. 
-      \item all American school teachers. 
-      \item the 1,347 teachers who mail back the questionnaire. 
-      \item the 2,500 teachers to whom you mailed the questionnaire. 
-      \end{enumerate}
+%       \begin{enumerate}
+%       \item all members of the National Education Association. 
+%       \item all American school teachers. 
+%       \item the 1,347 teachers who mail back the questionnaire. 
+%       \item the 2,500 teachers to whom you mailed the questionnaire. 
+%       \end{enumerate}
       
       \framebox[6cm][l]{ Answer: }
       
@@ -62,12 +62,12 @@
 
       You measure the age (years), weight (pounds), and marital status (single, married, divorced, or widowed) of 1,400 women.  How many variables did you measure? 
       
-      \begin{enumerate}
-      \item one
-      \item two
-      \item three
-      \item 1,400
-      \end{enumerate}
+%       \begin{enumerate}
+%       \item one
+%       \item two
+%       \item three
+%       \item 1,400
+%       \end{enumerate}
       
       \framebox[6cm][l]{ Answer: }
       
@@ -94,14 +94,16 @@
 
 \end{table} 
 
-      Which state has the highest number of death row prisoners relative to the size of its population?  Question options:
-
-      \begin{enumerate}
-      \item California
-      \item Florida
-      \item Illinois
-      \item Nevada
-      \end{enumerate}
+      Which state has the highest number of death row prisoners relative to the size of its population?  
+      
+%       Question options:
+% 
+%       \begin{enumerate}
+%       \item California
+%       \item Florida
+%       \item Illinois
+%       \item Nevada
+%       \end{enumerate}
       
       \framebox[6cm][l]{ Answer: }
       
