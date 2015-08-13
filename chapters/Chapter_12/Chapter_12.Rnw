@@ -550,15 +550,23 @@ beer. Thirty minutes later, a police officer measured their blood alcohol conten
 % A scatterplot of the data appears below.  
 One student drank 9 beers. You see from the scatterplot that his BAC was about
 
-    <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
-    dt12_4 <- read.csv("data/beers.csv",header=TRUE)
-    ## plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
-    lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); summary(lm_4)
-    ## abline( lm_4 )
-    b_1 <- lm_4$coefficient[2]
-    b_0 <- lm_4$coefficient[1]
+%'     <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
+%'     dt12_4 <- read.csv("data/beers.csv",header=TRUE)
+%'     ## plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
+%'     lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); summary(lm_4)
+%'     ## abline( lm_4 )
+%'     b_1 <- lm_4$coefficient[2]
+%'     b_0 <- lm_4$coefficient[1]
+%' 
+%'     @
 
-    @
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=13cm]{chapters/Chapter_12/ext_figure/zRegF.png} 
+   \caption{Number of Beers vs. BAC}
+   \label{fig:f12_13}
+\end{figure} 
+
 
     \begin{enumerate}
     \item 0.014
@@ -625,9 +633,9 @@ below.  A plausible value of the correlation between number of beers and blood a
     
 \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=12cm]{chapters/Chapter_12/ext_figure/zCorF.png} 
+   \includegraphics[width=13cm]{chapters/Chapter_12/ext_figure/zCorF.png} 
    \caption{Number of Beers vs. BAC}
-   \label{fig:f12_13}
+   \label{fig:f12_14}
 \end{figure}    
 
       \begin{enumerate}
