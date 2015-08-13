@@ -95,10 +95,11 @@ Question options:
     \begin{solution}
       \begin{align*}
         rate = \frac{45}{1060} \times 1000 = 
-        <<results="asis", echo=FALSE>>=
+        
+<<results="asis", echo=FALSE>>=
           rate1 <- 45 / 1060 * 1000; rate1
           rm(rate1)
-        @
+@
         
         Therefore, Nevada has the highest number of death row prisoners.
           
