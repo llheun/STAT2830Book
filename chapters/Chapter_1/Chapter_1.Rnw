@@ -491,7 +491,7 @@ Since 1968, voter surveys use inferential statistics.
   
     <<results="asis", echo=FALSE>>=
       dt1 <- c(19.2 , 17.9 , 20.7 , 17.9 , 15.7 , 19.3 , 19.8 , 18.7 , 15.7 , 17.5)
-      summary(dt1)
+      xtable(summary(dt1))
     @
     
   \end{solution}  
