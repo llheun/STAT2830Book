@@ -21,6 +21,7 @@
 \begin{exercises}
 
     \begin{exercise}  % 1
+    
       A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
       
       \begin{enumerate}
