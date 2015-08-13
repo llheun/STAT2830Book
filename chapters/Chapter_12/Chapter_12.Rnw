@@ -577,7 +577,7 @@ One student drank 9 beers. You see from the scatterplot that his BAC was about
     \end{enumerate}
   \end{exercise}
   \begin{solution}
-     $ BAC = -0.012 + 0.0173 (9) = 0.14 $ 
+     $ BAC = -0.012 + 0.017 (9) = 0.14 $ 
   \end{solution}
   
 \pagebreak 
