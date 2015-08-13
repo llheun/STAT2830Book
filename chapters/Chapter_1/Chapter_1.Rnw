@@ -359,7 +359,7 @@ Since 1968, voter surveys use inferential statistics.
   	\framebox[5cm][l]{ Answer: }
   \end{exercise}
 	\begin{solution}
-	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable.
+	  The number of reported robberies in June 2014 is Kalamazoo County is a continuous variable.
 	\end{solution}
 	
 	\begin{exercise}
@@ -441,5 +441,60 @@ Since 1968, voter surveys use inferential statistics.
   \begin{solution}
     all adult residents of the U.S.
   \end{solution}
+
+	\begin{exercise}
+	
+	  A recent issue of the \emph{New England Journal of Medicine} reported a study of all 122,754 infants born over an 8.5 year period at Parkland Hospital in Dallas, Texas, leaving out multiple births and infants with birth defects.  The researchers  wanted to know if there is a specific birth weight below which infant death and illness increases sharply.
+	  
+    The independent variable in the study is  
+    \begin{enumerate}
+    \item death and illness.
+    \item infants (leaving out multiple births, etc.)
+    \item birth weight.
+    \item Parkland Hospital.
+    \end{enumerate}
+    
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise} 
+  \begin{solution}
+    birth weight.
+  \end{solution}
+  
+  	\begin{exercise}
+	
+	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
+	  
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise} 
+  \begin{solution}
+    \begin{equation}
+    pc = \frac{169.53 - 159.90}{159.90} \times 100 = 6.02\%
+    \end{equation}
+  \end{solution}
+  
+  	\begin{exercise}
+	
+	  Ten states have the following percents of obese adults:
+	  
+	    \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+  19.2 & 17.9 & 20.7 & 17.9 & 15.7 & 19.3 & 19.8 & 18.7 & 15.7 & 17.5 \\ \hline
+   \end{tabular}
+   
+   What is the five number summary?
+	  
+    \framebox[10cm][l]{ Answer: }
+    
+  \end{exercise} 
+  \begin{solution}
+  
+    <<results="asis", echo=FALSE>>=
+      dt1 <- c(19.2 , 17.9 , 20.7 , 17.9 , 15.7 , 19.3 , 19.8 , 18.7 , 15.7 , 17.5)
+      summary(dt1)
+    @
+    
+  \end{solution}  
+  
 
 \end{exercises} 
