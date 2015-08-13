@@ -335,6 +335,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \item Nominal
 	  \item I don't know
 	  \end{enumerate}
+	  \samepage
 	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\begin{solution}
