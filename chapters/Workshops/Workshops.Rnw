@@ -110,6 +110,21 @@
     \end{exercise}
     \begin{solution}
     
+      Rate of California is 
+      <<results="asis", echo=FALSE>>=
+        rate <- 247/28168*1000; rate
+        rm(rate)
+      @  
+      Rate of Florida is 
+      <<results="asis", echo=FALSE>>=
+        rate <- 294/12377*1000; rate
+        rm(rate)
+      @  
+      Rate of Illinois is 
+      <<results="asis", echo=FALSE>>=
+        rate <- 120/11544*1000; rate
+        rm(rate)
+      @  
       Rate of Nevada is 
       <<results="asis", echo=FALSE>>=
         rate <- 45/1060*1000; rate
@@ -248,7 +263,7 @@ It makes no sense to speak of the \underline{xxxxxxxxxx} or the \underline{xxxxx
 
       \begin{exercise}  % 10
       
-      What is the first quartile of the observations 2, –2, 1, –1, 1, 0, 0, 3, 0, 2, 3? 
+      What is the first quartile of the observations \\ 2, –2, 1, –1, 1, 0, 0, 3, 0, 2, 3? 
 
 %       Question options:
 % 
