@@ -19,20 +19,21 @@
 \subsection{Definitions}
 
 \begin{exercises}
-    \begin{exercise}  % 1
-      A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
-      
-      \begin{enumerate}
-      \item all adults with normal vision.
-      \item the 42 students who were fooled.
-      \item the 50 students who served as subjects.
-      \item all students in the PSY 120 class. 
-      \end{enumerate}
-      \framebox[6cm][l]{ Answer: }
-    \end{exercise}
-    \begin{solution}
-      all adults with normal vision.
-    \end{solution}
+
+%     \begin{exercise}  % 1
+%       A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
+%       
+%       \begin{enumerate}
+%       \item all adults with normal vision.
+%       \item the 42 students who were fooled.
+%       \item the 50 students who served as subjects.
+%       \item all students in the PSY 120 class. 
+%       \end{enumerate}
+%       \framebox[6cm][l]{ Answer: }
+%     \end{exercise}
+%     \begin{solution}
+%       all adults with normal vision.
+%     \end{solution}
 
       \begin{exercise}  % 2
       You want to know the opinions of American school teachers about establishing a national test for high school graduation.  You obtain a list of the members of the National Education Association (the largest teachers' union) and mail a questionnaire to 2500 teachers chosen at random from this list.  In all 1,347 teachers return the questionnaire.  The sample is 
