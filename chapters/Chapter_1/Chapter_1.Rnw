@@ -405,7 +405,7 @@ Since 1968, voter surveys use inferential statistics.
   \begin{table}[htbp]
    \centering
   \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-  Weight(kg) & Frequency \\
+  Weight(kg) & Frequency \\ \hline
   30 - 39 & 7 \\
   40 - 49 & 19 \\
   50 - 59 & 15 \\
