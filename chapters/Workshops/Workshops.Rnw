@@ -32,7 +32,7 @@
 %       \item the 50 students who served as subjects.
 %       \item all students in the PSY 120 class. 
 %       \end{enumerate}
-      
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -50,7 +50,7 @@
 %       \item the 1,347 teachers who mail back the questionnaire. 
 %       \item the 2,500 teachers to whom you mailed the questionnaire. 
 %       \end{enumerate}
-      
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -68,7 +68,7 @@
 %       \item three
 %       \item 1,400
 %       \end{enumerate}
-      
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -104,7 +104,7 @@
 %       \item Illinois
 %       \item Nevada
 %       \end{enumerate}
-      
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -134,7 +134,7 @@
 %       \item 31.3\% decrease
 %       \end{enumerate}
   
-      \vspace{3mm}    
+      \vspace{1cm}   
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -162,7 +162,7 @@
 %       \item 31.3\% decrease
 %       \end{enumerate}
   
-      \vspace{3mm}    
+      \vspace{1cm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -190,7 +190,7 @@
 %       \item 37\% plus 41\% is not 100\%.
 %       \end{enumerate}
   
-      \vspace{3mm}    
+      \vspace{1cm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -218,7 +218,7 @@
 %       \item left-skewed, mean, median. 
 %       \end{enumerate}
   
-      \vspace{3mm}    
+      \vspace{1cm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -242,7 +242,7 @@ It makes no sense to speak of the \underline{\phantom{3cm}} or the \underline{\p
 %       \item quartiles, mean, median. 
 %       \end{enumerate}
   
-      \vspace{3mm}    
+      \vspace{1cm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -265,7 +265,7 @@ It makes no sense to speak of the \underline{\phantom{3cm}} or the \underline{\p
 %       \item 2   
 %       \end{enumerate}
   
-      \vspace{3mm}    
+      \vspace{1cm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -279,8 +279,6 @@ It makes no sense to speak of the \underline{\phantom{3cm}} or the \underline{\p
       $Q_1 = 0$ 
       
     \end{solution} 
-
-
 
 \end{exercises}
 
