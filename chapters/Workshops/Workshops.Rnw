@@ -3,6 +3,8 @@
 \chapter{Workshops}
 \label{chap:ch13}
 
+\pagebreak
+
 \section{Workshop 1}
 
 \begin{center}
@@ -56,54 +58,58 @@
       the 1,347 teachers who mail back the questionnaire. 
     \end{solution}  
 
-%       \begin{exercise}  % 3
-%       You measure the age (years), weight (pounds), and marital status (single, married, divorced, or widowed) of 1,400 women.  How many variables did you measure? 
-%       
-%       \begin{enumerate}
-%       \item one
-%       \item two
-%       \item three
-%       \item 1,400
-%       \end{enumerate}
-%       \framebox[6cm][l]{ Answer: }
-%     \end{exercise}
-%     \begin{solution}
-%       three
-%     \end{solution}  
-% 
-%       \begin{exercise}  % 4
-%       Following are data on the populations and numbers of death row prisoners for several states.
-% 
-% % Requires the booktabs if the memoir class is not being used
-% \begin{table}[htbp]
-%    \centering
-%    %\topcaption{Table captions are better up top} % requires the topcapt package
-%    \begin{tabular}{@{} lrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-%     State & Population (thousands) & Death Row Prisoners \\ \hline 
-%     California & 28,168 & 247 \\ 
-%     Florida & 12,377 & 294 \\
-%     Illinois & 11,544 & 120 \\
-%     Nevada & 1,060 & 45 \\ \hline 
-%    \end{tabular}
-% 
-% \end{table} 
-% 
-%  Which state has the highest number of death row prisoners relative to the size of its population?
-% Question options:
-% 
-%       \begin{enumerate}
-%       \item California
-%       \item Florida
-%       \item Illinois
-%       \item Nevada
-%       \end{enumerate}
-%       \framebox[6cm][l]{ Answer: }
-%     \end{exercise}
-%     \begin{solution}
-%    
-%         Therefore, Nevada has the highest number of death row prisoners.
-%           
-%     \end{solution} 
+      \begin{exercise}  % 3
+
+      You measure the age (years), weight (pounds), and marital status (single, married, divorced, or widowed) of 1,400 women.  How many variables did you measure? 
+      
+      \begin{enumerate}
+      \item one
+      \item two
+      \item three
+      \item 1,400
+      \end{enumerate}
+      
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+      three
+    \end{solution}  
+
+      \begin{exercise}  % 4
+      
+      Following are data on the populations and numbers of death row prisoners for several states.
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+    State & Population (thousands) & Death Row Prisoners \\ \hline 
+    California & 28,168 & 247 \\ 
+    Florida & 12,377 & 294 \\
+    Illinois & 11,544 & 120 \\
+    Nevada & 1,060 & 45 \\ \hline 
+   \end{tabular}
+
+\end{table} 
+
+      Which state has the highest number of death row prisoners relative to the size of its population?  Question options:
+
+      \begin{enumerate}
+      \item California
+      \item Florida
+      \item Illinois
+      \item Nevada
+      \end{enumerate}
+      
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+        Therefore, Nevada has the highest number of death row prisoners.
+    \end{solution} 
 
 
 
