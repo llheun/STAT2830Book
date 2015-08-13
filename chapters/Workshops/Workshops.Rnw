@@ -8,7 +8,7 @@
 \section{Workshop 1}
 
 \begin{center}
-\begin{flushleft}\textbf{ \large \hfill Workshop 1 Fall 2014 }\end{flushleft}
+\begin{flushleft}\textbf{ \large \hfill Workshop 1 Fall 2016 }\end{flushleft}
 
 \vspace{4mm}
 \makebox[\textwidth]{Name:\enspace\hrulefill}
@@ -108,7 +108,13 @@
     \end{exercise}
     \begin{solution}
     
+      Rate of Nevada is 
+      <<results="asis", echo=FALSE>>=
+        rate <- 45/1060*1000; rate
+      @  
+      
         Therefore, Nevada has the highest number of death row prisoners.
+        
     \end{solution} 
 
 
