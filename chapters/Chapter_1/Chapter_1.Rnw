@@ -349,7 +349,25 @@ Since 1968, voter surveys use inferential statistics.
 	\begin{solution}
 	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable (3. ).
 	\end{solution}
-	 
-\end{exercises}  
+	
+	\begin{exercise}
+	
+	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.  Determine whether they are categorical or numerical.  Then determine the level measurement. 
 
+  In how many occasions have you used or taken Cannabis?
+
+  \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+    \underline{1cm} & Once \\
+    \underline{1cm} & 2 -5 occasions \\
+    \underline{1cm} & 6 - 10 occasions \\
+    \underline{1cm} & More than 10 occasions \\ \hline
+   \end{tabular}
+	 
+  \end{exercises} 
+
+  Answer: \fbox{3cm}
+
+  \begin{solution}
+  Numeric - interval 
+  \end{solution}
 
