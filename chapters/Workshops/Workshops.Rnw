@@ -204,5 +204,29 @@
       
     \end{solution} 
 
+      \begin{exercise}  % 8
+      
+      When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is
+\underline{\phantom{3cm}}.  When the distribution has this shape, the \underline{\phantom{3cm}} is pulled toward the long tail of the distribution, but the \underline{\phantom{3cm}} is less affected.  The sequence of words to correctly complete this statement is: 
+
+%       Question options:
+% 
+%       \begin{enumerate}
+%       \item right-skewed, mean, standard deviation. 
+%       \item right-skewed, median, mean.
+%       \item right skewed, mean, median.  
+%       \item left-skewed, mean, median. 
+%       \end{enumerate}
+  
+      \vspace{3mm}    
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+      
+      
+    \end{solution} 
+
 \end{exercises}
 
