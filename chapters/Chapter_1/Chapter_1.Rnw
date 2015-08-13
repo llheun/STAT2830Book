@@ -484,7 +484,7 @@ Since 1968, voter surveys use inferential statistics.
    
    What is the five number summary?
 	  
-    \framebox[10cm][l]{ Answer: }
+    \framebox[15cm][l]{ Answer: }
     
   \end{exercise} 
   \begin{solution}
