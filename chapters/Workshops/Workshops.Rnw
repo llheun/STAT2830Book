@@ -150,7 +150,7 @@
 
       \begin{exercise}  % 6
       
-      Michelle's income two years ago was $420,000.  Last year her income was only $100,000.  The percent change in Michelle's income was 
+      Michelle's income two years ago was \$420,000.  Last year her income was only \$100,000.  The percent change in Michelle's income was 
 
 
 %       Question options:
@@ -225,8 +225,62 @@
     \begin{solution}
     
       
+      aaa
+    \end{solution} 
+
+      \begin{exercise}  % 9
+      
+      For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{\phantom{3cm}}.
+It makes no sense to speak of the \underline{\phantom{3cm}} or the \underline{\phantom{3cm}} sex.  The sequence of words to correctly complete this statement is 
+
+%       Question options:
+% 
+%       \begin{enumerate}
+%       \item counts or percents, mean, median.  
+%       \item mode, mean, median. 
+%       \item median, mean, mode.   
+%       \item quartiles, mean, median. 
+%       \end{enumerate}
+  
+      \vspace{3mm}    
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+      bbb
       
     \end{solution} 
+
+      \begin{exercise}  % 10
+      
+      What is the first quartile of the observations 2, –2, 1, –1, 1, 0, 0, 3, 0, 2, 3? 
+
+%       Question options:
+% 
+%       \begin{enumerate}
+%       \item -1
+%       \item 0 
+%       \item 1  
+%       \item 2   
+%       \end{enumerate}
+  
+      \vspace{3mm}    
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+      <<results="asis", echo=FALSE>>=
+      dat1<- c(2, -2, 1, -1, 1, 0, 0, 3, 0, 2, 3)  
+      summary(dat1)
+      rm(dat1)
+      @
+      
+      $Q_1 = 0$ 
+      
+    \end{solution} 
+
+
 
 \end{exercises}
 
