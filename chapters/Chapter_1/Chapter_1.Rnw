@@ -340,9 +340,13 @@ Since 1968, voter surveys use inferential statistics.
   
   What type of variable is the number of robberies reported in June 2014 in Kalamazoo County?
 	  \begin{enumerate}
+  	\samepage
   	\item Attribute
+  	\samepage
   	\item Discrete
+  	\samepage
   	\item Continuous
+  	\samepage
   	\item Qualitative
   	\end{enumerate}
   \end{exercise}
