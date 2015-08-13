@@ -216,7 +216,7 @@
       \begin{exercise}  % 8
       
       When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is
-\underline{xxxxxxxxxx}.  When the distribution has this shape, the \underline{xxxxxxxxxx} is pulled toward the long tail of the distribution, but the \underline{xxxxxxxxxx} is less affected.  The sequence of words to correctly complete this statement is: 
+\underline{\phantom{xxxxxxxxxx}}.  When the distribution has this shape, the \underline{\phantom{xxxxxxxxxx}} is pulled toward the long tail of the distribution, but the \underline{\phantom{xxxxxxxxxx}} is less affected.  The sequence of words to correctly complete this statement is: 
 
 %       Question options:
 % 
@@ -239,8 +239,8 @@
 
       \begin{exercise}  % 9
       
-      For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{xxxxxxxxxx}.
-It makes no sense to speak of the \underline{xxxxxxxxxx} or the \underline{xxxxxxxxxx} sex.  The sequence of words to correctly complete this statement is 
+      For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{\phantom{xxxxxxxxxx}}.
+It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \underline{\phantom{xxxxxxxxxx}} sex.  The sequence of words to correctly complete this statement is 
 
 %       Question options:
 % 
