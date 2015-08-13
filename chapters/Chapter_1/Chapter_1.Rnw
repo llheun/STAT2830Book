@@ -319,7 +319,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  The level of measurement of marital statis is nominal (3. ).
+	  The level of measurement of marital statis is nominal.
 	\end{solution}
 	
   \begin{exercise}
@@ -333,7 +333,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \end{enumerate}
 	\end{exercise}
 	\begin{solution}
-	  The level of measurement of marital status is interval-ratio (2. ).
+	  The level of measurement of marital status is interval-ratio.
 	\end{solution}
 
   \begin{exercise}
@@ -351,7 +351,7 @@ Since 1968, voter surveys use inferential statistics.
   	\end{enumerate}
   \end{exercise}
 	\begin{solution}
-	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable (3. ).
+	  The number of reported robberies in June 2014 is Kalamazoo County is continuous variable.
 	\end{solution}
 	
 	\begin{exercise}
@@ -362,11 +362,11 @@ Since 1968, voter surveys use inferential statistics.
   \begin{table}[htbp]
    \centering
   \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-    \underline{        } & Never \\
-    \underline{        } & Once \\
-    \underline{        } & 2 - 8 occasions \\
-    \underline{        } & 9 - 15 occasions \\
-    \underline{        } & More than 15 occasions \\ \hline
+    \underline{ \phantom{1cm} } & Never \\
+    \underline{ \phantom{1cm} } & Once \\
+    \underline{ \phantom{1cm} } & 2 - 8 occasions \\
+    \underline{ \phantom{1cm} } & 9 - 15 occasions \\
+    \underline{ \phantom{1cm} } & More than 15 occasions \\ \hline
    \end{tabular}
    \end{table}
    
@@ -389,6 +389,32 @@ Since 1968, voter surveys use inferential statistics.
   \end{exercise} 
   \begin{solution}
     Numeric - ratio 
+  \end{solution}
+
+	\begin{exercise}
+	
+	The following table shows the distribution of weights of 50 female students.
+
+  \begin{table}[htbp]
+   \centering
+  \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+  Weight(kg) & Frequency \\
+  30 - 39 & 7 \\
+  40 - 49 & 19 \\
+  50 - 59 & 15 \\
+  60 - 69 & 6 \\
+  70 - 70 & 3 \\ \hline
+  Total & 50 \\ \hline 
+   \end{tabular}
+   \end{table}	
+	
+  What percentage of women weigh 40 - 59 kilograms?
+   
+    \framebox[5cm][l]{ Answer: }
+	 
+  \end{exercise} 
+  \begin{solution}
+    $ p = \frac{(19 + 15)}{50} \times 100 = 68 $
   \end{solution}
 
 \end{exercises} 
