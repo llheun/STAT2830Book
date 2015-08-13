@@ -233,8 +233,8 @@
     \end{exercise}
     \begin{solution}
     
+      right skewed, mean, median.
       
-      aaa
     \end{solution} 
 
       \begin{exercise}  % 9
@@ -257,7 +257,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \end{exercise}
     \begin{solution}
     
-      bbb
+      counts or percents, mean, median.
       
     \end{solution} 
 
