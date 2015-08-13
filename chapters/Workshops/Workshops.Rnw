@@ -263,7 +263,17 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 
       \begin{exercise}  % 10
       
-      What is the first quartile of the observations \\ 2, –2, 1, –1, 1, 0, 0, 3, 0, 2, 3? 
+      What is the first quartile of the observations 
+      
+      \begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   2 & –2 & 1 & –1 & 1 & 0 & 0 & 3 & 0 & 2 & 3?  \\ \hline
+   \end{tabular}
+\end{table}  
+      
+      
 
 %       Question options:
 % 
@@ -322,12 +332,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 \end{table}  
 
       What is the third quartile of the number of study hours? (Use the method used in Chapter 4 slides) 
-
- 
-
-
-
-
+      
 %       Question options:      
 %       \begin{enumerate}
 %       \item 1.5 
@@ -344,7 +349,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     <<results="asis", echo=FALSE>>=
       dat1 <- c(2  , 4  , 22  , 2 ,  1  , 4 ,  1  , 5 ,  5  , 4)
       summary(dat1)
-      
+      rm(dat1)
     @  
      
       Therefore, $Q_3 = 5$
