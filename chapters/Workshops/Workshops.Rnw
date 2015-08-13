@@ -32,7 +32,7 @@
 %       \item the 50 students who served as subjects.
 %       \item all students in the PSY 120 class. 
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{8mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -50,7 +50,7 @@
 %       \item the 1,347 teachers who mail back the questionnaire. 
 %       \item the 2,500 teachers to whom you mailed the questionnaire. 
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{8mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -68,7 +68,7 @@
 %       \item three
 %       \item 1,400
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{8mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -104,7 +104,7 @@
 %       \item Illinois
 %       \item Nevada
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{8mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -149,7 +149,7 @@
 %       \item 31.3\% decrease
 %       \end{enumerate}
   
-      \vspace{9mm}   
+      \vspace{8mm}   
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -176,7 +176,7 @@
 %       \item it is highly unlikely that a sample of 200 undergraduates would have as few as 37% females. 
 %       \end{enumerate}
   
-      \vspace{9mm}    
+      \vspace{8mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -203,7 +203,7 @@
 %       \item pie chart
 %       \end{enumerate}
   
-      \vspace{9mm}    
+      \vspace{8mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -227,7 +227,7 @@
 %       \item left-skewed, mean, median. 
 %       \end{enumerate}
   
-      \vspace{9mm}    
+      \vspace{8mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -251,7 +251,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 %       \item quartiles, mean, median. 
 %       \end{enumerate}
   
-      \vspace{9mm}    
+      \vspace{8mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
