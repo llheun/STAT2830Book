@@ -453,7 +453,7 @@ Since 1968, voter surveys use inferential statistics.
     \item birth weight.
     \item Parkland Hospital.
     \end{enumerate}
-    
+    \samepage
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise} 
