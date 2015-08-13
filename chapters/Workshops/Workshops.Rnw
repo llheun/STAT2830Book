@@ -113,11 +113,48 @@
       Rate of Nevada is 
       <<results="asis", echo=FALSE>>=
         rate <- 45/1060*1000; rate
+        rm(rate)
       @  
       
         Therefore, Nevada has the highest number of death row prisoners.
         
     \end{solution} 
+
+      \begin{exercise}  % 5
+      
+      Michelle's income two years ago was $420,000.  Last year her income was only $100,000.  The percent change in Michelle's income was 
+
+
+%       Question options:
+% 
+%       \begin{enumerate}
+%       \item 76.2\% decrease
+%       \item 23.8\% decrease 
+%       \item 320\% decrease
+%       \item 31.3\% decrease
+%       \end{enumerate}
+  
+      \vspace{3mm}    
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+      Rate of Nevada is 
+      <<results="asis", echo=FALSE>>=
+        pc <- (100000 - 420000) / 420000; pc
+        rm(pc)
+      @  
+      
+        
+        
+    \end{solution} 
+
+
+
+
+	
+
 
 
 
