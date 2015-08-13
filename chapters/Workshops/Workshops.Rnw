@@ -142,7 +142,7 @@
     
       Rate of Nevada is 
       <<results="asis", echo=FALSE>>=
-        pc <- (100000 - 420000) / 420000 * 100; pc
+        pc <- (100000 - 420000) / 420000; pc
         rm(pc)
       @  
       
@@ -178,16 +178,16 @@
 
       \begin{exercise}  % 7
       
-      A student reports that of a sample of 200 college undergraduates, 37\% were female and 41\% were male.  We know that the student has made a mistake because Michelle's income two years ago was \$420,000.  Last year her income was only \$100,000.  The percent change in Michelle's income was 
+      You are writing an article for the college newspaper about the cost of attending college.  You want to make a graph to compare costs at your school and three similar schools.  A good choice of a graph would be a 
 
 
 %       Question options:
 % 
 %       \begin{enumerate}
-%       \item the percentages of males and females would be closer together in a true sample.
-%       \item it is highly unlikely that a sample of 200 undergraduates would have as few as 37\% females.
-%       \item of the possibility of response error. 
-%       \item 37\% plus 41\% is not 100\%.
+%       \item histogram
+%       \item box plot
+%       \item bar chart 
+%       \item pie chart
 %       \end{enumerate}
   
       \vspace{9mm}    
@@ -196,11 +196,7 @@
     \end{exercise}
     \begin{solution}
     
-      Rate of Nevada is 
-      <<results="asis", echo=FALSE>>=
-        pc <- (100000 - 420000) / 420000 * 100; pc
-        rm(pc)
-      @  
+    A good choice of a graph would be a bar chart. 
       
     \end{solution} 
 
