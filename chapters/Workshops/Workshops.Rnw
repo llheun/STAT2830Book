@@ -122,7 +122,7 @@
 
       \begin{exercise}  % 5
       
-      Michelle's income two years ago was $420,000.  Last year her income was only $100,000.  The percent change in Michelle's income was 
+      Michelle's income two years ago was \$420,000.  Last year her income was only \$100,000.  The percent change in Michelle's income was 
 
 
 %       Question options:
@@ -140,9 +140,9 @@
     \end{exercise}
     \begin{solution}
     
-      Rate of Nevada is 
+      Rate of Michelle's income is 
       <<results="asis", echo=FALSE>>=
-        pc <- (100000 - 420000) / 420000; pc
+        pc <- (100000 - 420000) / 420000 *100; pc
         rm(pc)
       @  
       
@@ -150,16 +150,15 @@
 
       \begin{exercise}  % 6
       
-      Michelle's income two years ago was \$420,000.  Last year her income was only \$100,000.  The percent change in Michelle's income was 
-
+      A student reports that of a sample of 200 college undergraduates, 37\% were female and 41\% were male.  We know that the student has made a mistake because 
 
 %       Question options:
 % 
 %       \begin{enumerate}
-%       \item 76.2\% decrease
-%       \item 23.8\% decrease 
-%       \item 320\% decrease
-%       \item 31.3\% decrease
+%       \item 37% plus 41% is not 100%.
+%       \item the percentages of males and females would be closer together in a true sample.
+%       \item of the possibility of response error. 
+%       \item it is highly unlikely that a sample of 200 undergraduates would have as few as 37% females. 
 %       \end{enumerate}
   
       \vspace{9mm}    
@@ -168,12 +167,11 @@
     \end{exercise}
     \begin{solution}
     
-      Rate of Nevada is 
       <<results="asis", echo=FALSE>>=
-        pc <- (100000 - 420000) / 420000 * 100; pc
-        rm(pc)
+        37 + 41
       @  
-      
+        is not equal to 100\%.
+        
     \end{solution} 
 
       \begin{exercise}  % 7
@@ -203,7 +201,7 @@
       \begin{exercise}  % 8
       
       When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is
-\underline{\phantom{3cm}}.  When the distribution has this shape, the \underline{\phantom{3cm}} is pulled toward the long tail of the distribution, but the \underline{\phantom{3cm}} is less affected.  The sequence of words to correctly complete this statement is: 
+\underline{xxxxxxxxxx}.  When the distribution has this shape, the \underline{xxxxxxxxxx} is pulled toward the long tail of the distribution, but the \underline{xxxxxxxxxx} is less affected.  The sequence of words to correctly complete this statement is: 
 
 %       Question options:
 % 
@@ -226,8 +224,8 @@
 
       \begin{exercise}  % 9
       
-      For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{\phantom{3cm}}.
-It makes no sense to speak of the \underline{\phantom{3cm}} or the \underline{\phantom{3cm}} sex.  The sequence of words to correctly complete this statement is 
+      For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{xxxxxxxxxx}.
+It makes no sense to speak of the \underline{xxxxxxxxxx} or the \underline{xxxxxxxxxx} sex.  The sequence of words to correctly complete this statement is 
 
 %       Question options:
 % 
