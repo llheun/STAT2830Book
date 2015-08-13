@@ -362,12 +362,15 @@ Since 1968, voter surveys use inferential statistics.
     \underline{1cm} & 6 - 10 occasions \\
     \underline{1cm} & More than 10 occasions \\ \hline
    \end{tabular}
+   
+    \framebox[4cm][r]{ Answer: }
 	 
-  \end{exercises} 
+  \end{exercise} 
 
-  \framebox[4cm][r]{ Answer: }
+ 
 
   \begin{solution}
   Numeric - interval 
   \end{solution}
 
+\end{exercises} 
