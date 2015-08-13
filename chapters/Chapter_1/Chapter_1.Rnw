@@ -365,7 +365,7 @@ Since 1968, voter surveys use inferential statistics.
 	 
   \end{exercises} 
 
-  Answer: \fbox{3cm}
+  \framebox[4cm][r]{ Answer: }
 
   \begin{solution}
   Numeric - interval 
