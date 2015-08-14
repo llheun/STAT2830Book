@@ -514,7 +514,7 @@ Question options:
     The point estimate is 
     <<results="asis", echo=FALSE>>=
         xbar <- 114.9; xbar 
-        rm(xbar)
+        
     @  
      
     \end{solution}
@@ -541,12 +541,12 @@ Calculate the standard error of your estimate.
     The standard error is 
     <<results="asis", echo=FALSE>>=
         se1 <- 9.3/sqrt(27); se1 
-        rm(se1)
+        
     @  
      
     \end{solution}
     
-            \begin{exercise}  % 8
+    \begin{exercise}  % 8
        
     A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
 
@@ -568,11 +568,66 @@ Determine the critical value.
     The critical value is 
     <<results="asis", echo=FALSE>>=
         cv1 <- qt(0.025,df=26); cv1
-        rm(cv1)
+        
     @  
      
     \end{solution}
     
+    \begin{exercise}  % 9
+    
+    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
+
+Calculate the margin of error. 
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 3.0534
+%       \item 4.8378
+%       \item 3.6798
+%       \item 2.6020
+%       \end{enumerate}
+      \vspace{9mm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    The critical value is 
+    <<results="asis", echo=FALSE>>=
+        me1 <- cv1 * se1; me1
+        
+    @  
+     
+    \end{solution}
+
+    \begin{exercise}  % 10
+    
+    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
+
+Calculate the 95\% confidence interval.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item (110.06, 119.74)
+%       \item (117.50, 112.30)
+%       \item (111.22, 118.58)
+%       \item (110.85, 117.95)
+%       \end{enumerate}
+      \vspace{9mm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    The 95\% CI is 
+    <<results="asis", echo=FALSE>>=
+        lb <- xbar - me1; lb
+        ub <- xbar + me1; ub
+        rm(xbar, cv1, se1, me1, lb, ub)
+        
+    @  
+     
+    \end{solution}
     
     
 \end{exercises}
