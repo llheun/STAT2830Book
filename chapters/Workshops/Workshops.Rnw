@@ -556,7 +556,7 @@ What is the point estimate?
 %       \item 1.706
 %       \item 2.052
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -581,7 +581,7 @@ What is the point estimate?
 %       \item 3.6798
 %       \item 2.6020
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -606,7 +606,7 @@ What is the point estimate?
 %       \item (111.22, 118.58)
 %       \item (110.85, 117.95)
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
