@@ -301,6 +301,8 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 
 \end{exercises}
 
+\pagebreak 
+
 \section{Workshop 2} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{center}
