@@ -54,6 +54,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
       the 1,347 teachers who mail back the questionnaire. 
     \end{solution}  
@@ -72,6 +73,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
       three
     \end{solution}  
@@ -108,6 +110,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
       Rate of California is 
@@ -153,6 +156,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
       Rate of Michelle's income is 
@@ -180,6 +184,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
       <<results="asis", echo=FALSE>>=
@@ -207,6 +212,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
     A good choice of a graph would be a bar chart. 
@@ -231,6 +237,7 @@
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
       right skewed, mean, median.
@@ -255,6 +262,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
       counts or percents, mean, median.
@@ -288,6 +296,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
       <<results="asis", echo=FALSE>>=
       dat1<- c(2, -2, 1, -1, 1, 0, 0, 3, 0, 2, 3)  
@@ -346,7 +355,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
     
     <<results="asis", echo=FALSE>>=
@@ -374,7 +383,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
     
     Therefore, s =
@@ -401,7 +410,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
     
     Therefore, IQR =
@@ -429,7 +438,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
     
         Standard deviation would change.
@@ -452,7 +461,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
     
       The median will be larger than the mean if the distribution is left skewed.
@@ -474,7 +483,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
      
       You made an error in your calculations.
@@ -496,7 +505,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
-    \vspace{2mm}
+    \vspace{1mm}
     \begin{solution}
     
         all the observations have the same value.
@@ -532,6 +541,7 @@ hotdogs.  The plot shows that
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
     The plot shows that most poultry hotdogs brands have fewer calories that most beef and meat hotdogs, but a few poultry hotdogs have more calories that the median beef and meat hotdogs.
@@ -553,6 +563,7 @@ hotdogs.  The plot shows that
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
         
         The box in each box plot marks the range covered by the middle half of the data.
@@ -590,6 +601,7 @@ hotdogs.  The plot shows that
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{1mm}
     \begin{solution}
     
     mean of curve A is less than mean of curve B and standard deviation of curve A is less than standard deviation of curve B.
@@ -620,103 +632,114 @@ hotdogs.  The plot shows that
 
     \begin{exercise}  % 3-1
     
+<<f13_3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.3, fig.height=3.3, fig.cap="Mean Comparison">>=
+
+  x10<-seq(10,85,.1)
+  y10<-dnorm(x10,mean=50,sd=10)
+  plot(x10,y10, type="l")
+  
+@
     
-%'     
-%'     
-%'     
-%'       Here are the number of hours that each of a group of students studied for this exam:
-%' 
-%' \begin{table}[htbp]
-%'    \centering
-%'    %\topcaption{Table captions are better up top} % requires the topcapt package
-%'    \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-%'     2  & 4  & 22  & 2 &  1  & 4 &  1  & 5 &  5  & 4 \\ \hline
-%'    \end{tabular}
-%' 
-%' \end{table}  
-%' 
-%'       What is the third quartile of the number of study hours? (Use the method used in Chapter 4 slides) 
-%'       
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item 1.5 
-%' %       \item 5.5
-%' %       \item 5.0
-%' %       \item 2
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     <<results="asis", echo=FALSE>>=
-%'       dat1 <- c(2  , 4  , 22  , 2 ,  1  , 4 ,  1  , 5 ,  5  , 4)
-%'       summary(dat1)
-%'       rm(dat1)
-%'     @  
-%'      
-%'       Therefore, $Q_3 = 5$
-%'       
-%'     \end{solution}
-%'     
-%'         \begin{exercise}  % 5
-%'     
-%'       Using the scenario from exercise 2-4, calculate the 95\% confidence interval.
-%' 
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item (0.3945, 0.4455)
-%' %       \item (0.1886,0.6514)
-%' %       \item (0.4001,0.4399)
-%' %       \item (0.3545,0.4055)
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     95\% CI is 
-%'     <<results="asis", echo=FALSE>>=
-%'         prop <- 425/1012
-%'         cv1 <- 1.96
-%'         se1 <- sqrt((prop*(1 - prop)/1012))
-%'         me1 <- cv1 * se1
-%'         lb <- prop - me1; lb
-%'         ub <- prop + me1; ub
-%'         rm(prop, cv1, se1, me1, lb, ub)
-%'     @  
-%'      
-%'     \end{solution}
-%'         
-%'     \begin{exercise}  % 2-6
-%'         
-%'     A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
-%' 
-%' What is the point estimate? 
-%' 
-%' 	
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item 114.9
-%' %       \item 9.3
-%' %       \item 4.26
-%' %       \item 2.13
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     The point estimate is 
-%'     <<results="asis", echo=FALSE>>=
-%'         xbar <- 114.9; xbar 
-%'         
-%'     @  
-%'      
-%'     \end{solution}
+      The mean of the normal distribution is 
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 10
+%       \item 50
+%       \item 60
+%       \item 70
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The mean of the normal distribution is 50.
+      
+    \end{solution}
+    
+    \begin{exercise}  % 3-2
+    
+<<f13_3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.3, fig.height=3.3, fig.cap="Mean Comparison">>=
+
+  plot(x10,y10, type="l")
+  
+@
+    
+      The standard deviation of the normal distribtion is (Hint: use the empirical rule.)
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 100
+%       \item 70
+%       \item 20
+%       \item 10
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The standard deviation of the normal distribtion is 10.
+      
+    \end{solution}    
+    
+    \begin{exercise}  % 3-3
+    
+      A number with 60 percent of the data above it is 
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item the $60^{th}$ percentile.
+%       \item the $40^{th}$ percentile.
+%       \item always smaller than the mean.
+%       \item always larger than the mean.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+    A number with 60 percent of the data above it is 
+    the $40^{th}$ percentile.
+
+    \end{solution}
+    
+        
+    \begin{exercise}  % 3-4
+        
+      Scores of adults on the Wechsler Adults Intelligence Scale (a common IQ test) follow a normal distribution.  The middle 99.7\% of scores on this test range from 55 to 145.  What is the standard deviation of the test scores?  
+	
+%       Question options:      
+%       \begin{enumerate}
+%       \item 7.5 points
+%       \item 10 points
+%       \item 15 points
+%       \item 20 points
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+    the standard deviation of the test scores is
+    <<results="asis", echo=FALSE>>=
+        sd1 <- (145 - 55) / 6; sd1 
+    @  
+     
+    \end{solution}
+    
+    
+    
+    
 %'     
 %'         \begin{exercise}  % 2-7
 %'         
