@@ -510,6 +510,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
         calories[35:54] <- beef1[1:20]
         type1 <- c(rep("Poultry",17),rep("Meat",17),rep("Beef",20))
         boxplot(calories ~ type1, xlab="Protein Type", ylab="Calories")
+        rm( poul1, meat1, beef1, calories, type1)
      @ 
         
 Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 brands of meat hotdogs, and 17 brands of poultry 
@@ -593,26 +594,28 @@ hotdogs.  The plot shows that
     
 \end{exercises}
 
-%' \section{Workshop 3} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%' 
-%' \begin{center}
-%' \begin{flushleft}\textbf{ \large \hfill Workshop 3 Fall 2016 }\end{flushleft}
-%' 
-%' \vspace{4mm}
-%' \makebox[\textwidth]{Name:\enspace\hrulefill}
-%' \vspace{4mm}
-%' \makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
-%' \vspace{4mm}
-%' \makebox[\textwidth]{(Week 3: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
-%' \end{center} 
-%' 
-%' 
-%' 
-%' \begin{exercises}
-%' 
-%'     \begin{exercise}  % 3-1
-%'     
-%'     
+\pagebreak
+
+\section{Workshop 3} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{flushleft}\textbf{ \large \hfill Workshop 3 Fall 2016 }\end{flushleft}
+
+\vspace{4mm}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{(Week 3: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
+\end{center} 
+
+
+
+\begin{exercises}
+
+    \begin{exercise}  % 3-1
+    
+    
 %'     
 %'     
 %'     
@@ -816,4 +819,4 @@ hotdogs.  The plot shows that
 %'     
 
 
-%\end{exercises}
+\end{exercises}
