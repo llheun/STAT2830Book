@@ -356,6 +356,47 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       
     \end{solution}
 
+    \begin{exercise}  % 2
+    
+      Here are the number of hours that each of a group of students studied for this exam:
+
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+    2  & 4  & 22  & 2 &  1  & 4 &  1  & 5 &  5  & 4 \\ \hline
+   \end{tabular}
+
+\end{table}  
+
+      What is the standard deviation of the number of study hours? 
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 5.8 
+%       \item 38
+%       \item 6.2
+%       \item 34.2
+%       \end{enumerate}
+      \vspace{9mm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    <<results="asis", echo=FALSE>>=
+      dat1 <- c(2  , 4  , 22  , 2 ,  1  , 4 ,  1  , 5 ,  5  , 4)
+      sd(dat1)
+      rm(dat1)
+    @  
+     
+      Therefore, $s = 6.2$
+      
+    \end{solution}
+
+
+
+
 
 \end{exercises}
 
