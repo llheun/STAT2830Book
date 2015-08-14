@@ -864,33 +864,34 @@ hotdogs.  The plot shows that
      
     \end{solution}
 
-%'     \begin{exercise}  % 2-10
-%'     
-%'     Using the scenario from exercise 2-6, calculate the 95\% confidence interval.
-%' 
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item (110.06, 119.74)
-%' %       \item (117.50, 112.30)
-%' %       \item (111.22, 118.58)
-%' %       \item (110.85, 117.95)
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     The 95\% CI is 
-%'     <<results="asis", echo=FALSE>>=
-%'         lb <- xbar + me1; lb
-%'         ub <- xbar - me1; ub
-%'         rm(xbar, cv1, se1, me1, lb, ub)
-%'         
-%'     @  
-%'      
-%'     \end{solution}
-%'     
-
-
+    \begin{exercise}  % 3-10
+      
+      Suppose that the distribution of Writing SAT scores from your state this year is normally distributed with mean 480 and standard deviation 110 for males. 
+      
+      Mike took the Writing SAT and scored 670.  He did better than approximately \underline{\phantom{xxxxxxxx}} \% of male students taking the test. 
+       
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 4.2
+%       \item 45.8
+%       \item 95.8
+%       \item 99.9
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+    Mike did better than   
+    <<results="asis", echo=FALSE>>=
+        z1 <- (670 - 480)/110
+        (pnorm(z1))*100
+    @  
+    \% of his male peers.
+    
+    \end{solution}
+    
 \end{exercises}
