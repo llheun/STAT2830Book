@@ -501,7 +501,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \begin{exercise}  % 2-8
        
       <<f13_2_1, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Comparing Calories">>=
-        poul1 <- runif(17,min=85,max=175)
+        poul1 <- runif(17,min=85,max=170)
         meat1 <- runif(17,min=105,max=195)
         beef1 <- runif(20,min=110,max=190)
         calories <- numeric(54)
@@ -516,55 +516,69 @@ Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 
 hotdogs.  The plot shows that 
 
           
-      \begin{enumerate}
-      \item most poultry hotdogs brands have fewer calories that most beef and meat hotdogs, but a few poultry hotdogs have more calories that the median beef and meat hotdogs.
-      \item about half of poultry hotdogs brands have fewer calories than the median for beef and meat hotdogs brands.
-      \item all poultry hotdog brands have fewer calories than the median for beef and meat hotdog brands.
-      \item hotdog type is not helpful in predicting calories, because some hotdog brands of each type are high and some of each type are low.
-      \end{enumerate}
+%       \begin{enumerate}
+%       \item most poultry hotdogs brands have fewer calories that most beef and meat hotdogs, but a few poultry hotdogs have more calories that the median beef and meat hotdogs.
+%       \item about half of poultry hotdogs brands have fewer calories than the median for beef and meat hotdogs brands.
+%       \item all poultry hotdog brands have fewer calories than the median for beef and meat hotdog brands.
+%       \item hotdog type is not helpful in predicting calories, because some hotdog brands of each type are high and some of each type are low.
+%       \end{enumerate}
       \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
     \begin{solution}
     
-    The plot shows that
-    most poultry hotdogs brands have fewer calories that most beef and meat hotdogs, but a few poultry hotdogs have more calories that the median beef and meat hotdogs.
+    The plot shows that most poultry hotdogs brands have fewer calories that most beef and meat hotdogs, but a few poultry hotdogs have more calories that the median beef and meat hotdogs.
      
     \end{solution}
     
     \begin{exercise}  % 2-9
     
-    Using the scenario from exercise 2-6, calculate the margin of error. 
+      The box in each box plot marks   
 
 %       Question options:      
 %       \begin{enumerate}
-%       \item 3.0534
-%       \item 4.8378
-%       \item 3.6798
-%       \item 2.6020
+%       \item the span one standard deviation on each side of the mean.
+%       \item the range covered by the middle half of the data.
+%       \item the span two standard deviations on each side of the mean.
+%       \item the range covered by the middle three-quarters of the data. 
 %       \end{enumerate}
       \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
     \begin{solution}
-    
-        The critical value is 
+        
+        The box in each box plot marks the range covered by the middle half of the data.
 
-     
     \end{solution}
 
     \begin{exercise}  % 2-10
     
-    Using the scenario from exercise 2-6, calculate the 95\% confidence interval.
+    
+    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Mean Comparison">>=
+
+  x10<-seq(10,35,.1)
+  y10<-dnorm(x10,mean=19.2,sd=1.52)
+  plot(x10,y10, type="l")
+  y11<-dnorm(x10,mean=23.8,sd=3.68)
+  lines(x10,y11)
+  text(25,.19,"A")
+  lines(c(21,25),c(.15,.18))
+  text(30,.11,"B")
+  lines(c(27,30),c(.08,.10))
+  
+  rm(x10,y10,y11)
+@
+
+    The above graphs of two bell-shaped / symmetric distributions, curve A and curve B.  What is the best description of the relation between curve A and curve B.
 
 %       Question options:      
 %       \begin{enumerate}
-%       \item (110.06, 119.74)
-%       \item (117.50, 112.30)
-%       \item (111.22, 118.58)
-%       \item (110.85, 117.95)
+%       \item mean of curve A is less than mean of curve B and standard deviation of curve A is less than standard deviation of curve B.
+%       \item mean of curve A is less than mean of curve B and standard deviation of curve A is greater than standard deviation of curve B.
+%       \item mean of curve A is greater than mean of curve B and standard deviation of curve A is less than standard deviation of curve B.
+%       \item mean of curve A is greater than mean of curve B and standard deviation of curve A is greater than standard deviation of curve B.
 %       \end{enumerate}
       \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
@@ -572,7 +586,7 @@ hotdogs.  The plot shows that
     \end{exercise}
     \begin{solution}
     
-    The 95\% CI is 
+    mean of curve A is less than mean of curve B and standard deviation of curve A is less than standard deviation of curve B.
     
     \end{solution}
     
