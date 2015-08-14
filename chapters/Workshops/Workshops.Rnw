@@ -551,10 +551,10 @@ Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 
     \begin{solution}
     
     The critical value is 
-    <<results="asis", echo=FALSE>>=
-        me1 <- cv1 * se1; me1
-        
-    @  
+%'     <<results="asis", echo=FALSE>>=
+%'         me1 <- cv1 * se1; me1
+%'         
+%'     @  
      
     \end{solution}
 
@@ -576,12 +576,12 @@ Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 
     \begin{solution}
     
     The 95\% CI is 
-    <<results="asis", echo=FALSE>>=
-        lb <- xbar + me1; lb
-        ub <- xbar - me1; ub
-        rm(xbar, cv1, se1, me1, lb, ub)
-        
-    @  
+%'     <<results="asis", echo=FALSE>>=
+%'         lb <- xbar + me1; lb
+%'         ub <- xbar - me1; ub
+%'         rm(xbar, cv1, se1, me1, lb, ub)
+%'         
+%'     @  
      
     \end{solution}
     
