@@ -632,7 +632,7 @@ hotdogs.  The plot shows that
 
     \begin{exercise}  % 3-1
     
-<<f13_3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.3, fig.height=3.3, fig.cap="Mean Comparison">>=
+<<f13_3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Mean Comparison">>=
 
   x10<-seq(10,85,.1)
   y10<-dnorm(x10,mean=50,sd=10)
@@ -662,7 +662,7 @@ hotdogs.  The plot shows that
     
     \begin{exercise}  % 3-2
     
-<<f13_3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.3, fig.height=3.3, fig.cap="Mean Comparison">>=
+<<f13_3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Mean Comparison">>=
 
   plot(x10,y10, type="l")
   
@@ -786,62 +786,54 @@ hotdogs.  The plot shows that
     @  
      
     \end{solution}    
-
-
-
     
-%'     
-%'         \begin{exercise}  % 2-7
-%'         
-%' 
-%' 
-%'       Using the scenario from exercise 2-6, calculate the standard error of your estimate. 
-%' 
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item 0.3444
-%' %       \item 1.2656
-%' %       \item 0.1722
-%' %       \item 1.7898
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     The standard error is 
-%'     <<results="asis", echo=FALSE>>=
-%'         se1 <- 9.3/sqrt(27); se1 
-%'         
-%'     @  
-%'      
-%'     \end{solution}
-%'     
-%'     \begin{exercise}  % 2-8
-%'        
-%'     Using the scenario from exercise 2-6, determine the critical value. 
-%' 
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item 2.703
-%' %       \item 2.056
-%' %       \item 1.706
-%' %       \item 2.052
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     The critical value is 
-%'     <<results="asis", echo=FALSE>>=
-%'         cv1 <- qt(0.025,df=26); cv1
-%'         
-%'     @  
-%'      
-%'     \end{solution}
+    \begin{exercise}  % 3-7
+        
+      The distribution of scores on an SAT exam is normal, with mean 500 and standard deviation 100.  So the median score on the exam 
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item is less than 500.
+%       \item is equal to 500.
+%       \item is greater than 500.
+%       \item could be anywhere between 400 and 600.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    So the median score on the exam is equal to 500.
+     
+    \end{solution}
+    
+    \begin{exercise}  % 3-8
+           
+     Scores on teh Graduate Record Examination (GRE) follow a normal distribution.  Jennifer's score is 2 standard deviations above the mean.  About what percent of scores are higher than Jennifer's?
+       
+%       Question options:      
+%       \begin{enumerate}
+%       \item 2.5\%
+%       \item 5\%
+%       \item 16\%
+%       \item 50\%
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+    The percent of scores are higher is  
+    <<results="asis", echo=FALSE>>=
+        1 - pnorm(2)
+    @  
+     
+    \end{solution}
+    
+    
 %'     
 %'     \begin{exercise}  % 2-9
 %'     
