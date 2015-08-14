@@ -460,9 +460,7 @@ Calculate the point estimate.
     
     \begin{exercise}  % 5
     
-    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 95\% confidence interval for the proportion of all adults who feel this way.
-
-Calculate the 95\% confidence interval.
+      Using the scenario from exercise 4, calculate the 95\% confidence interval.
 
 %       Question options:      
 %       \begin{enumerate}
@@ -521,9 +519,9 @@ Question options:
     
         \begin{exercise}  % 7
         
-    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
 
-Calculate the standard error of your estimate. 
+
+      Using the scenario from exercise 6, calculate the standard error of your estimate. 
 
 %       Question options:      
 %       \begin{enumerate}
@@ -548,9 +546,7 @@ Calculate the standard error of your estimate.
     
     \begin{exercise}  % 8
        
-    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
-
-Determine the critical value. 
+    Using the scenario from exercise 6, determine the critical value. 
 
 %       Question options:      
 %       \begin{enumerate}
@@ -575,9 +571,7 @@ Determine the critical value.
     
     \begin{exercise}  % 9
     
-    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
-
-Calculate the margin of error. 
+    Using the scenario from exercise 6, calculate the margin of error. 
 
 %       Question options:      
 %       \begin{enumerate}
@@ -602,9 +596,7 @@ Calculate the margin of error.
 
     \begin{exercise}  % 10
     
-    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives a mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
-
-Calculate the 95\% confidence interval.
+    Using the scenario from exercise 6, calculate the 95\% confidence interval.
 
 %       Question options:      
 %       \begin{enumerate}
