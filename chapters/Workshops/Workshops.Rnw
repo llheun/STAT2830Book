@@ -662,13 +662,13 @@ hotdogs.  The plot shows that
     
     \begin{exercise}  % 3-2
     
-<<f13_3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Mean Comparison">>=
-
-  plot(x10,y10, type="l")
-  
-@
+%' <<f13_3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Mean Comparison">>=
+%' 
+%'   plot(x10,y10, type="l")
+%'   
+%' @
     
-      The standard deviation of the normal distribtion is (Hint: use the empirical rule.)
+      Using Figure 13.3, the standard deviation of the normal distribtion is (Hint: use the empirical rule.)
       
 %       Question options:      
 %       \begin{enumerate}
@@ -895,3 +895,25 @@ hotdogs.  The plot shows that
     \end{solution}
     
 \end{exercises}
+
+\pagebreak
+
+\section{Workshop 4} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{flushleft}\textbf{ \large \hfill Workshop 4 Fall 2016 }\end{flushleft}
+
+\vspace{4mm}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{(Week 4: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
+\end{center} 
+
+\begin{exercises}
+
+
+
+
+\begin{exercises}
