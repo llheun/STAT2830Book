@@ -625,4 +625,64 @@ What is the point estimate?
     
 \end{exercises}
 
+\section{Workshop 3} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{center}
+\begin{flushleft}\textbf{ \large \hfill Workshop 3 Fall 2016 }\end{flushleft}
+
+\vspace{4mm}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{(Week 3: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
+\end{center} 
+
+
+
+\begin{exercises}
+
+    \begin{exercise}  % 3-1
+    
+    
+    
+    
+    
+      Here are the number of hours that each of a group of students studied for this exam:
+
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+    2  & 4  & 22  & 2 &  1  & 4 &  1  & 5 &  5  & 4 \\ \hline
+   \end{tabular}
+
+\end{table}  
+
+      What is the third quartile of the number of study hours? (Use the method used in Chapter 4 slides) 
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.5 
+%       \item 5.5
+%       \item 5.0
+%       \item 2
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    <<results="asis", echo=FALSE>>=
+      dat1 <- c(2  , 4  , 22  , 2 ,  1  , 4 ,  1  , 5 ,  5  , 4)
+      summary(dat1)
+      rm(dat1)
+    @  
+     
+      Therefore, $Q_3 = 5$
+      
+    \end{solution}
+
+
+\end{exercises}
