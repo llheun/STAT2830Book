@@ -684,7 +684,7 @@ hotdogs.  The plot shows that
     \vspace{1mm}
     \begin{solution}
     
-      The standard deviation of the normal distribtion is 10.
+      The standard deviation of the normal distribution is 10.
       
     \end{solution}    
     
@@ -737,7 +737,30 @@ hotdogs.  The plot shows that
      
     \end{solution}
     
+    \begin{exercise}  % 3-5
+        
+      What percent of the observations from a normal distribution lie between the standard scores $z = -1$ and $z = 2$?
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 16\%
+%       \item 47.5\%
+%       \item 61\%
+%       \item 81.9\%
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
     
+      $P[ -1 < z < 2 ] = P[z < 2] - P[ z < -1 ] = 
+    <<results="asis", echo=FALSE>>=
+        pnorm(2)- pnorm(-1)
+    @  
+     
+    \end{solution}    
     
     
 %'     
