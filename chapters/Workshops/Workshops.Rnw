@@ -422,6 +422,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \end{exercise}
     \begin{solution}
     
+    Therefore, IQR =
     <<results="asis", echo=FALSE>>=
       dat1 <- c(2  , 4  , 22  , 2 ,  1  , 4 ,  1  , 5 ,  5  , 4)
       
@@ -429,8 +430,6 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       rm(dat1, IQR)
     @  
      
-      Therefore, $IQR = 2.75$
-      
     \end{solution}
 
 
