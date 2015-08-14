@@ -496,7 +496,6 @@ Calculate the point estimate.
 
 What is the point estimate? 
 
-Question options:
 	
 %       Question options:      
 %       \begin{enumerate}
@@ -505,7 +504,7 @@ Question options:
 %       \item 4.26
 %       \item 2.13
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -532,7 +531,7 @@ Question options:
 %       \item 0.1722
 %       \item 1.7898
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
