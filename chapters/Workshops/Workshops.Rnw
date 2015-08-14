@@ -427,7 +427,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       dat1 <- c(2  , 4  , 22  , 2 ,  1  , 4 ,  1  , 5 ,  5  , 4)
       
       IQR(dat1)
-      rm(dat1, IQR)
+      rm(dat1)
     @  
      
     \end{solution}
