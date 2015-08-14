@@ -913,7 +913,13 @@ hotdogs.  The plot shows that
 
 \begin{exercises}
 
-
+  \begin{exercise}
+  lkljlj
+  \end{exercise}
+  \begin{solution}
+  
+  lkjljl
+  \end{solution}
 
 
 \begin{exercises}
