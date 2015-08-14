@@ -403,7 +403,6 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
    \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
     2  & 4  & 22  & 2 &  1  & 4 &  1  & 5 &  5  & 4 \\ \hline
    \end{tabular}
-
 \end{table}  
 
       What is the interquartile range of the number of study hours?
@@ -431,7 +430,36 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
      
     \end{solution}
 
+    \begin{exercise}  % 4
+    
+      An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
 
+Calculate the point estimate.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 0.38
+%       \item 0.42
+%       \item -0.38
+%       \item -0.42
+%       \end{enumerate}
+      \vspace{9mm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    Proportion is 
+    <<results="asis", echo=FALSE>>=
+        prop = 425/1012
+        prop 
+        rm(prop)
+    @  
+     
+    \end{solution}
+    
+    
+    
 
 \end{exercises}
 
