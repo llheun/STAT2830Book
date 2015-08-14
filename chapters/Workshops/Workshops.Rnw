@@ -428,10 +428,9 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \end{exercise}
     \begin{solution}
     
-    Proportion is 
-    <<results="asis", echo=FALSE>>=
+        Proportion is 
         Standard deviation would change.
-    @  
+    
      
     \end{solution}
     
@@ -513,7 +512,8 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 %'         boxplot(calories ~ type1, xlab="Protein Type", ylab="Calories")
 %'      @ 
         
-Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 brands of meat hotdogs, and 17 brands of poultry hotdogs.  The plot shows that 
+Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 brands of meat hotdogs, and 17 brands of poultry 
+hotdogs.  The plot shows that 
 
           
       \begin{enumerate}
@@ -550,11 +550,8 @@ Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 
     \end{exercise}
     \begin{solution}
     
-    The critical value is 
-%'     <<results="asis", echo=FALSE>>=
-%'         me1 <- cv1 * se1; me1
-%'         
-%'     @  
+        The critical value is 
+
      
     \end{solution}
 
@@ -576,13 +573,7 @@ Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 
     \begin{solution}
     
     The 95\% CI is 
-%'     <<results="asis", echo=FALSE>>=
-%'         lb <- xbar + me1; lb
-%'         ub <- xbar - me1; ub
-%'         rm(xbar, cv1, se1, me1, lb, ub)
-%'         
-%'     @  
-     
+    
     \end{solution}
     
     
