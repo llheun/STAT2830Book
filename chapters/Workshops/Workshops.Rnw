@@ -346,6 +346,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
     
     <<results="asis", echo=FALSE>>=
@@ -373,6 +374,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
     
     Therefore, s =
@@ -383,7 +385,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     @  
      
     \end{solution}
-
+    \vspace{2mm}
     \begin{exercise}  % 2-3
     
       Using the scenario from exercise 2-1, what is the interquartile range of the number of study hours?
@@ -399,6 +401,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
     
     Therefore, IQR =
@@ -426,9 +429,9 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
     
-        Proportion is 
         Standard deviation would change.
     
      
@@ -436,7 +439,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
     \begin{exercise}  % 2-5
     
-      For a distribution that is skewed to the left, usually,
+      (For this exercise, consider the five central tendency variables).  For a distribution that is skewed to the left, usually,
 
 %       Question options:      
 %       \begin{enumerate}
@@ -449,9 +452,10 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
     
-      the median will be larger than the mean.
+      The median will be larger than the mean if the distribution is left skewed.
      
     \end{solution}
         
@@ -470,10 +474,10 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
-    
-    The point estimate is 
-    you made an error in your calculations.
+     
+      You made an error in your calculations.
      
     \end{solution}
     
@@ -492,6 +496,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
+    \vspace{2mm}
     \begin{solution}
     
         all the observations have the same value.
@@ -500,7 +505,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
     \begin{exercise}  % 2-8
        
-      <<f13_2_1, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Comparing Calories">>=
+      <<f13_2_1, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3.3, fig.height=3.3, fig.cap="Comparing Calories">>=
         poul1 <- runif(17,min=85,max=170)
         meat1 <- runif(17,min=105,max=195)
         beef1 <- runif(20,min=110,max=190)
@@ -508,7 +513,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
         calories[1:17] <- poul1[1:17]
         calories[18:34] <- meat1[1:17]
         calories[35:54] <- beef1[1:20]
-        type1 <- c(rep("Poultry",17),rep("Meat",17),rep("Beef",20))
+        type1 <- c(rep("Poul",17),rep("Meat",17),rep("Beef",20))
         boxplot(calories ~ type1, xlab="Protein Type", ylab="Calories")
         rm( poul1, meat1, beef1, calories, type1)
      @ 
@@ -557,16 +562,16 @@ hotdogs.  The plot shows that
     \begin{exercise}  % 2-10
     
     
-    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Mean Comparison">>=
+    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.3, fig.height=3.3, fig.cap="Mean Comparison">>=
 
   x10<-seq(10,35,.1)
   y10<-dnorm(x10,mean=19.2,sd=1.52)
   plot(x10,y10, type="l")
   y11<-dnorm(x10,mean=23.8,sd=3.68)
   lines(x10,y11)
-  text(25,.19,"A")
+  text(25,.2,"A")
   lines(c(21,25),c(.15,.18))
-  text(30,.11,"B")
+  text(30,.12,"B")
   lines(c(27,30),c(.08,.10))
   
   rm(x10,y10,y11)
