@@ -5,7 +5,7 @@
 
 \pagebreak
 
-\section{Workshop 1}
+\section{Workshop 1}         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{center}
 \begin{flushleft}\textbf{ \large \hfill Workshop 1 Fall 2016 }\end{flushleft}
@@ -22,7 +22,7 @@
 
 \begin{exercises}
 
-    \begin{exercise}  % 1
+    \begin{exercise}  % 1    
     
       A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
       
@@ -301,7 +301,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 
 \end{exercises}
 
-\section{Workshop 2}
+\section{Workshop 2} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{center}
 \begin{flushleft}\textbf{ \large \hfill Workshop 2 Fall 2016 }\end{flushleft}
@@ -451,14 +451,47 @@ Calculate the point estimate.
     
     Proportion is 
     <<results="asis", echo=FALSE>>=
-        prop = 425/1012
+        prop <- 425/1012
         prop 
         rm(prop)
     @  
      
     \end{solution}
     
+    \begin{exercise}  % 5
     
+    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 95\% confidence interval for the proportion of all adults who feel this way.
+
+Calculate the 95\% confidence interval.
+
+Calculate the point estimate.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item (0.3945, 0.4455)
+%       \item (0.1886,0.6514)
+%       \item (0.4001,0.4399)
+%       \item (0.3545,0.4055)
+%       \end{enumerate}
+      \vspace{9mm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \begin{solution}
+    
+    95\% CI is 
+    <<results="asis", echo=FALSE>>=
+        prop <- 425/1012
+        cv1 <- 1.96
+        se1 <- sqrt((prop*(1 - prop)/1012))
+        me1 <- cv1 * se1
+        lb <- prop - me1; lb
+        ub <- prop + me1; ub
+        rm(prop, cv1, se1, me1, lb, ub)
+    @  
+     
+    \end{solution}
+        
     
 
 \end{exercises}
