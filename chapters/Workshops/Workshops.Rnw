@@ -508,7 +508,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
         calories[1:17] <- poul1[1:17]
         calories[18:34] <- meat1[1:17]
         calories[35:54] <- beef1[1:20]
-        type1 <- c(rep("Poultry", 17), rep("Meat"), 17), rep("Beef"), 20)
+        type1 <- c(rep("Poultry",17),rep("Meat",17),rep("Beef",20))
         boxplot(calories ~ type1, xlab="Protein Type", ylab="Calories")
      @ 
         
