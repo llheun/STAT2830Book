@@ -762,6 +762,33 @@ hotdogs.  The plot shows that
      
     \end{solution}    
     
+    \begin{exercise}  % 3-6
+        
+      Entomologist Heinz Kaefer has a colony of bongo spiders in his lab.  There are 1,000 adult spiders in the colony, and their weights are normally distributed with mean 11 grams and standard deviation 2 grams.  About how many spiders in the colony weigh more than 12 grams?
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item 160
+%       \item 310
+%       \item 690
+%       \item 840
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      $P[ \bar{x} > 12 ] \times 1000 = (1 - P[\bar{x} < 12]) \times 1000 =  (1 - P[z < .5]) \times 1000 =$
+    <<results="asis", echo=FALSE>>=
+        (1 - pnorm(.5)) * 1000
+    @  
+     
+    \end{solution}    
+
+
+
     
 %'     
 %'         \begin{exercise}  % 2-7
