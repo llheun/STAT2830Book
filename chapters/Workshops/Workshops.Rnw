@@ -22,7 +22,7 @@
 
 \begin{exercises}
 
-    \begin{exercise}  % 1    
+    \begin{exercise}  % 1-1    
     
       A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
       
@@ -40,7 +40,7 @@
       all adults with normal vision.
     \end{solution}
 
-      \begin{exercise}  % 2
+      \begin{exercise}  % 1-2
       
       You want to know the opinions of American school teachers about establishing a national test for high school graduation.  You obtain a list of the members of the National Education Association (the largest teachers' union) and mail a questionnaire to 2500 teachers chosen at random from this list.  In all 1,347 teachers return the questionnaire.  The sample is 
       
@@ -58,7 +58,7 @@
       the 1,347 teachers who mail back the questionnaire. 
     \end{solution}  
 
-      \begin{exercise}  % 3
+      \begin{exercise}  % 1-3
 
       You measure the age (years), weight (pounds), and marital status (single, married, divorced, or widowed) of 1,400 women.  How many variables did you measure? 
       
@@ -76,7 +76,7 @@
       three
     \end{solution}  
 
-      \begin{exercise}  % 4
+      \begin{exercise}  % 1-4
       
       Following are data on the populations and numbers of death row prisoners for several states.
 
@@ -135,7 +135,7 @@
         
     \end{solution} 
 
-      \begin{exercise}  % 5
+      \begin{exercise}  % 1-5
       
       Michelle's income two years ago was \$420,000.  Last year her income was only \$100,000.  The percent change in Michelle's income was 
 
@@ -163,7 +163,7 @@
       
     \end{solution} 
 
-      \begin{exercise}  % 6
+      \begin{exercise}  % 1-6
       
       A student reports that of a sample of 200 college undergraduates, 37\% were female and 41\% were male.  We know that the student has made a mistake because 
 
@@ -189,7 +189,7 @@
         
     \end{solution} 
 
-      \begin{exercise}  % 7
+      \begin{exercise}  % 1-7
       
       You are writing an article for the college newspaper about the cost of attending college.  You want to make a graph to compare costs at your school and three similar schools.  A good choice of a graph would be a 
 
@@ -213,7 +213,7 @@
       
     \end{solution} 
 
-      \begin{exercise}  % 8
+      \begin{exercise}  % 1-8
       
       When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is
 \underline{\phantom{xxxxxxxxxx}}.  When the distribution has this shape, the \underline{\phantom{xxxxxxxxxx}} is pulled toward the long tail of the distribution, but the \underline{\phantom{xxxxxxxxxx}} is less affected.  The sequence of words to correctly complete this statement is: 
@@ -237,7 +237,7 @@
       
     \end{solution} 
 
-      \begin{exercise}  % 9
+      \begin{exercise}  % 1-9
       
       For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{\phantom{xxxxxxxxxx}}.
 It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \underline{\phantom{xxxxxxxxxx}} sex.  The sequence of words to correctly complete this statement is 
@@ -261,7 +261,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       
     \end{solution} 
 
-      \begin{exercise}  % 10
+      \begin{exercise}  % 1-10
       
       What is the first quartile of the observations 
       
@@ -320,7 +320,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 
 \begin{exercises}
 
-    \begin{exercise}  % 1
+    \begin{exercise}  % 2-1
     
       Here are the number of hours that each of a group of students studied for this exam:
 
@@ -358,7 +358,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
       
     \end{solution}
 
-    \begin{exercise}  % 2
+    \begin{exercise}  % 2-2
     
       Here are the number of hours that each of a group of students studied for this exam:
 
@@ -395,7 +395,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
      
     \end{solution}
 
-    \begin{exercise}  % 3
+    \begin{exercise}  % 2-3
     
       Here are the number of hours that each of a group of students studied for this exam:
 
@@ -432,7 +432,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
      
     \end{solution}
 
-    \begin{exercise}  % 4
+    \begin{exercise}  % 2-4
     
       An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
 
@@ -462,7 +462,7 @@ Calculate the point estimate.
     
     \begin{exercise}  % 5
     
-      Using the scenario from exercise 4, calculate the 95\% confidence interval.
+      Using the scenario from exercise 2-4, calculate the 95\% confidence interval.
 
 %       Question options:      
 %       \begin{enumerate}
@@ -490,7 +490,7 @@ Calculate the point estimate.
      
     \end{solution}
         
-    \begin{exercise}  % 6
+    \begin{exercise}  % 2-6
         
     A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
 
@@ -522,7 +522,7 @@ What is the point estimate?
         
 
 
-      Using the scenario from exercise 6, calculate the standard error of your estimate. 
+      Using the scenario from exercise 2-6, calculate the standard error of your estimate. 
 
 %       Question options:      
 %       \begin{enumerate}
@@ -547,7 +547,7 @@ What is the point estimate?
     
     \begin{exercise}  % 8
        
-    Using the scenario from exercise 6, determine the critical value. 
+    Using the scenario from exercise 2-6, determine the critical value. 
 
 %       Question options:      
 %       \begin{enumerate}
@@ -572,7 +572,7 @@ What is the point estimate?
     
     \begin{exercise}  % 9
     
-    Using the scenario from exercise 6, calculate the margin of error. 
+    Using the scenario from exercise 2-6, calculate the margin of error. 
 
 %       Question options:      
 %       \begin{enumerate}
@@ -597,7 +597,7 @@ What is the point estimate?
 
     \begin{exercise}  % 10
     
-    Using the scenario from exercise 6, calculate the 95\% confidence interval.
+    Using the scenario from exercise 2-6, calculate the 95\% confidence interval.
 
 %       Question options:      
 %       \begin{enumerate}
