@@ -922,4 +922,4 @@ hotdogs.  The plot shows that
   \end{solution}
 
 
-\begin{exercises}
+\end{exercises}
