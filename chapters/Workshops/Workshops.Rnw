@@ -828,38 +828,42 @@ hotdogs.  The plot shows that
     
     The percent of scores are higher is  
     <<results="asis", echo=FALSE>>=
-        1 - pnorm(2)
+        1 - pnorm(1.96)
     @  
      
     \end{solution}
     
     
-%'     
-%'     \begin{exercise}  % 2-9
-%'     
-%'     Using the scenario from exercise 2-6, calculate the margin of error. 
-%' 
-%' %       Question options:      
-%' %       \begin{enumerate}
-%' %       \item 3.0534
-%' %       \item 4.8378
-%' %       \item 3.6798
-%' %       \item 2.6020
-%' %       \end{enumerate}
-%'       \vspace{1cm}
-%'       \framebox[6cm][l]{ Answer: }
-%'       
-%'     \end{exercise}
-%'     \begin{solution}
-%'     
-%'     The critical value is 
-%'     <<results="asis", echo=FALSE>>=
-%'         me1 <- cv1 * se1; me1
-%'         
-%'     @  
-%'      
-%'     \end{solution}
-%' 
+    
+    \begin{exercise}  % 3-9
+    
+      Suppose that the distribution of Writing SAT scores from your state this year is normally distributed with mean 480 and standard deviation 110 for males. 
+      
+      If someone who scores 700 or higher on the Writing SAT can be considered exceptional, the proportion of exceptional students among male SAT takers is about 
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.5\%
+%       \item 2.28\%
+%       \item 5\%
+%       \item 47.72\%
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+    the proportion of exceptional students among male SAT takers is about 
+    <<results="asis", echo=FALSE>>=
+        z1 <- (700 - 480)/110
+        1 - pnorm(z1)
+        rm(z1)
+    @  
+     
+    \end{solution}
+
 %'     \begin{exercise}  % 2-10
 %'     
 %'     Using the scenario from exercise 2-6, calculate the 95\% confidence interval.
