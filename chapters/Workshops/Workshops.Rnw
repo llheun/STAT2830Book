@@ -811,4 +811,4 @@ Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 
 %'     
 
 
-\end{exercises}
+%\end{exercises}
