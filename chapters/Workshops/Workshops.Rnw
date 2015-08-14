@@ -501,17 +501,17 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
     \begin{exercise}  % 2-8
        
-      <<f13_2_1, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Comparing Calories">>=
-        poul1 <- runif(17,min=85,max=175)
-        meat1 <- runif(17,min=105,max=195)
-        beef1 <- runif(20,min=110,max=190)
-        calories <- numeric(54)
-        calories[1:17] <- poul1[1:17]
-        calories[18:34] <- meat1[1:17]
-        calories[35:54] <- beef1[1:20]
-        type1 <- c(rep("Poultry", 17), rep("Meat"), 17), rep("Beef"), 20)
-        boxplot(calories ~ type1, xlab="Protein Type", ylab="Calories")
-     @ 
+%'       <<f13_2_1, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Comparing Calories">>=
+%'         poul1 <- runif(17,min=85,max=175)
+%'         meat1 <- runif(17,min=105,max=195)
+%'         beef1 <- runif(20,min=110,max=190)
+%'         calories <- numeric(54)
+%'         calories[1:17] <- poul1[1:17]
+%'         calories[18:34] <- meat1[1:17]
+%'         calories[35:54] <- beef1[1:20]
+%'         type1 <- c(rep("Poultry", 17), rep("Meat"), 17), rep("Beef"), 20)
+%'         boxplot(calories ~ type1, xlab="Protein Type", ylab="Calories")
+%'      @ 
         
 Above are box plots of the number of calories in 20 brands of beef hotddogs, 17 brands of meat hotdogs, and 17 brands of poultry hotdogs.  The plot shows that 
 
