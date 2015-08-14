@@ -607,7 +607,7 @@ Question options:
 %       \item (111.22, 118.58)
 %       \item (110.85, 117.95)
 %       \end{enumerate}
-      \vspace{1cm}
+      \vspace{8mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
