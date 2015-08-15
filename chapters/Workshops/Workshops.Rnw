@@ -1608,35 +1608,14 @@ State the appropriate hypothesis.
 
             % A course in statistics is taught to 12 students by the conventional classroom procedure. A second group of 10 students was given the same course by means of programmed materials. At the end of the semester the same examination was given to each group. The 12 students meeting in the classroom made an average grade of 85 with a standard deviation of 4, while the 10 students using programmed materials made an average of 81 with a standard deviation of 5. Test the hypothesis that the two methods of learning are equal using a 0.10 level of significance.
 
-            What will happen if a Type I error was committed?
-
-Question 5 options:
-	
-It will be concluded that the two methods of learning are equal which is the correct decision.
-
-	
-It will be concluded that the two methods of learning are equal when they are not.
-
-	
-It will be concluded that the two methods of learning are not equal when they are.
-
-	
-It will be concluded that the two methods of learning are not equal which is the correct decision.
-
-  
-
-
-
-A course in statistics is taught to 12 students by the conventional classroom procedure. A second group of 10 students was given the same course by means of programmed materials. At the end of the semester the same examination was given to each group. The 12 students meeting in the classroom made an average grade of 85 with a standard deviation of 4, while the 10 students using programmed materials made an average of 81 with a standard deviation of 5. Test the hypothesis that the two methods of learning are equal using a 0.10 level of significance.
-
       Using the scenario in exercise 13.6.1, what will happen if a Type I error was committed?
 
 %       Question options:      
 %       \begin{enumerate}
-%       \item accept $H_0$.
-%       \item reject to reject $H_0$.
-%       \item reject $H_0$ in favor of $H_a$.
-%       \item reject $H_a$ in favor of $H_0$.
+%       \item It will be concluded that the two methods of learning are equal which is the correct decision.
+%       \item It will be concluded that the two methods of learning are equal when they are not.
+%       \item It will be concluded that the two methods of learning are not equal when they are.
+%       \item It will be concluded that the two methods of learning are not equal which is the correct decision.
 %       \end{enumerate}
       \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
