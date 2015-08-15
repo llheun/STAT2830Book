@@ -1785,9 +1785,9 @@ State the appropriate hypothesis.
    \begin{tabular}{@{} lrrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       %\toprule
       & \multicolumn{2}{c}{Pharmacies} \\ \hline
-      Wait times (min.) & HMO Y & Drugstores & Total \\
+      Wait times (min.) & HMO  & Drugstores & Total \\
       $\le 15$ & 75 & 119 & 194 \\
-      16-20 & 44 & 21 65 \\
+      16-20 & 44 & 21 & 65 \\
       $>20$ & 21 & 37 & 58 \\
       Don't know & 10 & 23 & 33 \\
       Total & 150 & 200 & 350 \\ \hline
