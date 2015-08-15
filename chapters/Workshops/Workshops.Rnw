@@ -1514,7 +1514,7 @@ State the appropriate hypothesis.
 %       \item The hypotheses are $H_0: \mu_1 = \mu_2$ vs. $H_a: \mu_1 > \mu_2$
 %       \item The hypotheses are $H_0: \mu_1 > \mu_2$ vs. $H_a: \mu_1 \ne \mu_2$
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -1538,7 +1538,7 @@ State the appropriate hypothesis.
 %       \item 1.363
 %       \item 4.108
 %       \end{enumerate}
-      \vspace{9mm}
+      \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -1604,6 +1604,7 @@ State the appropriate hypothesis.
       
     \end{solution}    
     
+\pagebreak    
     \begin{exercise}  %6-5 
 
             % A course in statistics is taught to 12 students by the conventional classroom procedure. A second group of 10 students was given the same course by means of programmed materials. At the end of the semester the same examination was given to each group. The 12 students meeting in the classroom made an average grade of 85 with a standard deviation of 4, while the 10 students using programmed materials made an average of 81 with a standard deviation of 5. Test the hypothesis that the two methods of learning are equal using a 0.10 level of significance.
