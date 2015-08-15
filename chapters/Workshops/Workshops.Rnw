@@ -1245,7 +1245,7 @@ Identify the population parameter of interest.
   
     % Last year the employees of the city sanitation department donated an average of \$8.00 to the volunteer rescue squad.  Test the hypothesis at the 0.05 level of significance that the average contribution this year is still \$8.00 if a random sample of 12 employees showed an average donation of \$8.90 with a standard deviation of \$1.75.
 
-    Using the scenario of exercise 13.5.1, state the appropriate hypothesies.
+    Using the scenario of exercise 13.5.1, state the appropriate hypotheses.
 
 %       Question options:      
 %       \begin{enumerate}
@@ -1345,5 +1345,140 @@ Identify the population parameter of interest.
  
     \end{solution}
 
+  \begin{exercise}  %5-6 
+  
+    A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
+
+Identify the population parameter of interest.
+    
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item Population proportion.
+%       \item Population mean.
+%       \item 128
+%       \item 129.3
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      Population parameter of interest is 128.
+ 
+    \end{solution}
+
+  \begin{exercise}  %5-7 
+  
+    % A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
+
+    Using the scenario in exercise 13.5.6, state the appropriate hypotheses.
+    
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item The hypotheses are $H_0: \mu = 128$ vs. $H_a: \mu < 128$
+%       \item The hypotheses are $H_0: \mu = 129.3$ vs. $H_a: \mu ne 129.3$
+%       \item The hypotheses are $H_0: \mu = 128$ vs. $H_a: \mu \ne 128$
+%       \item The hypotheses are $H_0: \mu = 128$ vs. $H_a: \mu > 128$
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The appropriate hypotheses are $H_0: \mu = 128$ vs. $H_a: \mu > 128$
+ 
+    \end{solution}
+
+  \begin{exercise}  %5-8 
+  
+    % A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
+
+    Using the scenario in exercise 13.5.6, calculate the test statistic.
+    
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 3.1533
+%       \item 2.6781
+%       \item 2.3214
+%       \item 1.9165
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The  test statistic is 
+      <<results="asis", echo=FALSE>>=
+        xbar1 <- 129.3
+        sd1 <- 2.8
+        se1 <- sd1 / sqrt(25)
+        cv1 <- qt(0.90,df=24)
+        t1  <- (129.3 - 128)/se1; t1
+      @
+ 
+    \end{solution}	
+	
+  \begin{exercise}  %5-9
+  
+    % A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
+
+    Using the scenario in exercise 13.5.6, determine the critical value.
+    
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 2.060
+%       \item 2.064
+%       \item 1.711
+%       \item 1.708
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The critical value is 
+      <<results="asis", echo=FALSE>>=
+        cv1
+      @
+ 
+    \end{solution}	
+
+	
+  \begin{exercise}  %5-10
+  
+    % A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
+
+    Using the scenario in exercise 13.5.6, what is your conclustion?
+    
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item Reject $H_0$ in favor $H_a$
+%       \item Fail to reject $H_0$.
+%       \item Accept $H_0$.
+%       \item Reject $H_a$ in favor $H_0$
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      Your conclustion is reject $H_0$ in favor $H_a$
+      
+    \end{solution}	
 
 \end{exercises}    
