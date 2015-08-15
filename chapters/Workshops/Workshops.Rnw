@@ -1758,6 +1758,8 @@ State the appropriate hypothesis.
       
     \end{solution}
     
+\end{exercises}
+
 \pagebreak
 \section{Workshop 7} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
