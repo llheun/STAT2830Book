@@ -937,7 +937,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
       The point estimate is 
     <<results="asis", echo=FALSE>>=
-        425/1012
+        p1 <- 425/1012
         
     @  
      
@@ -965,8 +965,8 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
       The standard error of your estimate is 
     <<results="asis", echo=FALSE>>=
-        p1 <- 425/1012
-        se1 <- sqrt(p1*(1-p1)/1012)
+        
+        se1 <- sqrt(p1*(1-p1)/1012); se1
         
     @  
      
@@ -994,37 +994,37 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
       The critical value  is 
     <<results="asis", echo=FALSE>>=
-        cv1 <- qnorm(.95)
+        cv1 <- qnorm(.95); cv1
     @  
      
     \end{solution}  
 
-  \begin{exercise}   % 4-4
-  
-    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
-
-    Calculate the margin of error.
-  
-%       Question options:      
-%       \begin{enumerate}
-%       \item 0.0199
-%       \item 0.4543
-%       \item 0.2314
-%       \item 0.0255
-%       \end{enumerate}
-      \vspace{1cm}
-      \framebox[6cm][l]{ Answer: }
-      
-    \end{exercise}
-    \vspace{1mm}
-    \begin{solution}
-    
-      The margin error of your estimate is 
-    <<results="asis", echo=FALSE>>=
-        me1 <- cv1 * se1; me1
-    @  
-     
-    \end{solution}  
+%'   \begin{exercise}   % 4-4
+%'   
+%'     An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
+%' 
+%'     Calculate the margin of error.
+%'   
+%' %       Question options:      
+%' %       \begin{enumerate}
+%' %       \item 0.0199
+%' %       \item 0.4543
+%' %       \item 0.2314
+%' %       \item 0.0255
+%' %       \end{enumerate}
+%'       \vspace{1cm}
+%'       \framebox[6cm][l]{ Answer: }
+%'       
+%'     \end{exercise}
+%'     \vspace{1mm}
+%'     \begin{solution}
+%'     
+%'       The margin error of your estimate is 
+%'     <<results="asis", echo=FALSE>>=
+%'         me1 <- cv1 * se1; me1
+%'     @  
+%'      
+%'     \end{solution}  
 
   \begin{exercise}   % 4-5
   
@@ -1085,32 +1085,32 @@ What is the point estimate?
      
     \end{solution}  
 
-  \begin{exercise}   % 4-7
-  
-    A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
-
-Calculate the standard error of your estimate. 
-
-%       Question options:      
-%       \begin{enumerate}
-%       \item 0.3444
-%       \item 1.7898
-%       \item 0.1722
-%       \item 1.2656
-%       \end{enumerate}
-      \vspace{1cm}
-      \framebox[6cm][l]{ Answer: }
-      
-    \end{exercise}
-    \vspace{1mm}
-    \begin{solution}
-    
-      The  standard error of your estimate is 
-    <<results="asis", echo=FALSE>>=
-         se1
-    @  
-     
-    \end{solution}  
+%'   \begin{exercise}   % 4-7
+%'   
+%'     A randomized comparative experiment studied the effect of diet on blood pressure. Researchers divided 54 healthy white males at random into two groups. One group received a calcium supplement; the other, a placebo. At the beginning of the study, the researchers measured many variables on the subjects. The paper reporting the study gives mean=114.9 and s=9.3 for the seated systolic blood pressure of the 27 members of the placebo group. Give a 95\% confidence interval for the mean blood pressure of the population from which the subjects were recruited.
+%' 
+%' Calculate the standard error of your estimate. 
+%' 
+%' %       Question options:      
+%' %       \begin{enumerate}
+%' %       \item 0.3444
+%' %       \item 1.7898
+%' %       \item 0.1722
+%' %       \item 1.2656
+%' %       \end{enumerate}
+%'       \vspace{1cm}
+%'       \framebox[6cm][l]{ Answer: }
+%'       
+%'     \end{exercise}
+%'     \vspace{1mm}
+%'     \begin{solution}
+%'     
+%'       The  standard error of your estimate is 
+%'     <<results="asis", echo=FALSE>>=
+%'          se1
+%'     @  
+%'      
+%'     \end{solution}  
 
   \begin{exercise}   % 4-8
   
