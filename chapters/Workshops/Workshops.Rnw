@@ -573,7 +573,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \begin{exercise}  % 2-10
     
     
-    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.2, fig.height=3.2, fig.cap="Mean Comparison">>=
+    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.1, fig.height=3.1, fig.cap="Mean Comparison">>=
 
   x10<-seq(10,35,.1)
   y10<-dnorm(x10,mean=19.2,sd=1.52)
@@ -597,7 +597,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 %       \item mean of curve A is greater than mean of curve B and standard deviation of curve A is less than standard deviation of curve B.
 %       \item mean of curve A is greater than mean of curve B and standard deviation of curve A is greater than standard deviation of curve B.
 %       \end{enumerate}
-      \vspace{1cm}
+      \vspace{5mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
