@@ -757,7 +757,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \vspace{1mm}
     \begin{solution}
     
-      $P[ -1 < z < 2 ] = P[z < 2] - P[ z < -1 ] = 
+      $P[ -1 < z < 2 ] = P[z < 2] - P[ z < -1 ] = $
     <<results="asis", echo=FALSE>>=
         pnorm(2)- pnorm(-1)
     @  
@@ -915,7 +915,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 
 \begin{exercises}
 
-  \begin{exercise}
+  \begin{exercise}  %4-1 
   
     An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
 
@@ -935,7 +935,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     \vspace{1mm}
     \begin{solution}
     
-      The point estimate 
+      The point estimate is 
     <<results="asis", echo=FALSE>>=
         425/1012
         
@@ -943,8 +943,116 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
      
     \end{solution}
   
+  \begin{exercise}   % 4-2
   
+    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
 
+    Calculate the standard error of your estimate.
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item 0.0355
+%       \item 0.0897
+%       \item 0.0155
+%       \item 0.2318
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The standard error of your estimate is 
+    <<results="asis", echo=FALSE>>=
+        p1 <- 425/1012
+        se1 <- sqrt(p1*(1-p1)/1012)
+        
+    @  
+     
+    \end{solution}  
 
+  \begin{exercise}   % 4-3
+  
+    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
+
+    Determine the critical value.
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.282
+%       \item 1.645
+%       \item 2.58
+%       \item 1.96
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The critical value  is 
+    <<results="asis", echo=FALSE>>=
+        cv1 <- qnorm(.95)
+    @  
+     
+    \end{solution}  
+
+  \begin{exercise}   % 4-4
+  
+    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
+
+    Calculate the margin of error.
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item 0.0199
+%       \item 0.4543
+%       \item 0.2314
+%       \item 0.0255
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The margin error of your estimate is 
+    <<results="asis", echo=FALSE>>=
+        me1 <- cv1 * se1; me1
+    @  
+     
+    \end{solution}  
+
+  \begin{exercise}   % 4-5
+  
+    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
+
+    Calculate the confidence interval.
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item (0.4001, 0.4399)
+%       \item (0.3545, 0.4055)
+%       \item (0.1886, 0.6514)
+%       \item (0.3945, 0.4455)
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The  confidence interval is 
+    <<results="asis", echo=FALSE>>=
+        lb <- p1 - me1; lb
+        ub <- p1 + me1; ub
+        rm(p1, se1, cv1, me1, lb, ub)
+    @  
+     
+    \end{solution}  
 
 \end{exercises}
