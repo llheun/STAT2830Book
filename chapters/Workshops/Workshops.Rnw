@@ -916,12 +916,36 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 \begin{exercises}
 
   \begin{exercise}
-  lkljlj
-  \end{exercise}
-  \begin{solution}
   
-  lkjljl
-  \end{solution}
+    An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
+
+Calculate the point estimate.
+  
+  \end{exercise}
+  %       Question options:      
+%       \begin{enumerate}
+%       \item -0.38
+%       \item 0.38
+%       \item -0.42
+%       \item 0.42
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The point estimate 
+    <<results="asis", echo=FALSE>>=
+        425/1012
+        
+    @  
+     
+    \end{solution}
+  
+  
+
 
 
 \end{exercises}
