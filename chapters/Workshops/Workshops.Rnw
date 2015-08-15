@@ -1756,6 +1756,138 @@ State the appropriate hypothesis.
     
       It will be concluded that brand A outsells brand B when it does not.
       
-    \end{solution}    
+    \end{solution}
+    
+\pagebreak
+\section{Workshop 7} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{flushleft}\textbf{ \large \hfill Workshop 7 Fall 2016 }\end{flushleft}
+
+\vspace{4mm}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{(Week 7: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
+\end{center} 
+
+\begin{exercises}
+
+  \begin{exercise}  %7-1 
+  
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lrrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      \toprule
+      & \multicolumn{2}{c}{Pharmacies} \\ \hline
+      Wait times (min.) & HMO Y & Drugstores & Total \\
+      $\le 15$ & 75 & 119 & 194 \\
+      16-20 & 44 & 21 65 \\
+      $>20$ & 21 & 37 & 58 \\
+      Don't know & 10 & 23 & 33 \\
+      Total & 150 & 200 & 350 \\ \hline
+      
+   \end{tabular}
+   \caption{Chi-sq = 20.937, DF = 3, p-Value = 0.0000}
+   \label{tab:t13_1}
+\end{table}
+
+      According to the XYZ news, ``about 3 in 10 Armericans wait more than 20 minutes to have a prescription fill.'' Suppose a comparison of waiting times for pharmacies in HMOs and pharmacies in drugstores produced the following results.  
+      
+      Is there sufficient evidence to indicate that there is a difference in waiting times for pharmacies in HMOs and pharmacies in drugstores at the five percent level of significances?
+  
+      State the null and alternate hypotheses.
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item $H_0:$ the type of pharmacies and waiting time are independent vs. $H_a:$ the type of pharmacies and waiting time are dependent  
+%       \item $H_0:$ the type of pharmacies and waiting time are not correlated vs. $H_a:$ the type of pharmacies and waiting time are correlated  
+%       \item $H_0:$ the type of pharmacies and waiting time have a  negative relationship vs. $H_a:$ the type of pharmacies and waiting time have a positive relationship  
+%       \item  $H_0:$ the type of pharmacies and waiting time are dependent vs. $H_a:$ the type of pharmacies and waiting time are independent  
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      $H_0:$ the type of pharmacies and waiting time are independent vs. $H_a:$ the type of pharmacies and waiting time are dependent  
+      
+    \end{solution}
+    
+    \begin{exercise}  %7-2
+  
+      Using the scenario in exercise 13.7.1, determine the chi-square test statistic for this data.
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item 7.016
+%       \item 0
+%       \item 20.937
+%       \item 9.355
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The chi-square test statistic for this data is 20.937.
+      
+    \end{solution}  
+    
+    
+    \begin{exercise}  %7-3
+  
+      Using the scenario in exercise 13.7.1, the critical value for the Chi-square test 5 percent level of significance is 
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item 7.016
+%       \item 0
+%       \item 20.937
+%       \item 9.355
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The critical value for chi-square  is 
+      <<results="asis", echo=FALSE>>=
+        qchisq(0.05,3)
+      @  
+      
+    \end{solution}  
+    
+    \begin{exercise}  %7-4
+  
+      Using the scenario in exercise 13.7.1, the conclusion for this chi-square test is 
+  
+%       Question options:      
+%       \begin{enumerate}
+%       \item type of pharmacies and waiting time has a strong positive relationship.
+%       \item type of pharmacies and waiting time are correlated.
+%       \item type of pharmacies and waiting time are independent.
+%       \item type of pharmacies and waiting time are dependent.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The type of pharmacies and waiting time are dependent.
+      
+      
+    \end{solution}  
     
 \end{exercises}    
