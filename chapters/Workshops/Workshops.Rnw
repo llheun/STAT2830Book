@@ -651,7 +651,7 @@ hotdogs.  The plot shows that
 %       \item 60
 %       \item 70
 %       \end{enumerate}
-      \vspace{1cm}
+      \vspace{5mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
