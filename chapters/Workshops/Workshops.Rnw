@@ -1514,7 +1514,7 @@ State the appropriate hypothesis.
 %       \item The hypotheses are $H_0: \mu_1 = \mu_2$ vs. $H_a: \mu_1 > \mu_2$
 %       \item The hypotheses are $H_0: \mu_1 > \mu_2$ vs. $H_a: \mu_1 \ne \mu_2$
 %       \end{enumerate}
-      \vspace{1cm}
+      \vspace{9mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -1538,7 +1538,7 @@ State the appropriate hypothesis.
 %       \item 1.363
 %       \item 4.108
 %       \end{enumerate}
-      \vspace{1cm}
+      \vspace{9mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
