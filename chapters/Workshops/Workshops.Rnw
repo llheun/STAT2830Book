@@ -637,8 +637,8 @@ hotdogs.  The plot shows that
   x10<-seq(10,85,.1)
   y10<-dnorm(x10,mean=50,sd=10)
   plot(x10,y10, type="l")
-  lines(c(30,0),c(30,0.05))
-  lines(c(70,0),c(70,0.05))
+  lines(c(30,0),c(30,0.01))
+  lines(c(70,0),c(70,0.01))
 @
     
       The mean of the normal distribution is 
