@@ -573,7 +573,7 @@ hotdogs.  The plot shows that
     \begin{exercise}  % 2-10
     
     
-    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.3, fig.height=3.3, fig.cap="Mean Comparison">>=
+    <<f13_2_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.2, fig.height=3.2, fig.cap="Mean Comparison">>=
 
   x10<-seq(10,35,.1)
   y10<-dnorm(x10,mean=19.2,sd=1.52)
@@ -637,11 +637,12 @@ hotdogs.  The plot shows that
   x10<-seq(10,85,.1)
   y10<-dnorm(x10,mean=50,sd=10)
   plot(x10,y10, type="l")
-  lines(c(30,0),c(30,0.01))
-  lines(c(70,0),c(70,0.01))
+  lines(c(30,30),c(0,0.005))
+  lines(c(70,70),c(0,0.005))
+  lines(c(50,50),c(0,0.04))
 @
     
-      The mean of the normal distribution is 
+      Using figure 13.3 the mean of the normal distribution is 
       
 %       Question options:      
 %       \begin{enumerate}
@@ -865,35 +866,35 @@ hotdogs.  The plot shows that
      
     \end{solution}
 
-    \begin{exercise}  % 3-10
-      
-      Suppose that the distribution of Writing SAT scores from your state this year is normally distributed with mean 480 and standard deviation 110 for males. 
-      
-      Mike took the Writing SAT and scored 670.  He did better than approximately \underline{\phantom{xxxxxxxx}} \% of male students taking the test. 
-       
-      
-%       Question options:      
-%       \begin{enumerate}
-%       \item 4.2
-%       \item 45.8
-%       \item 95.8
-%       \item 99.9
-%       \end{enumerate}
-      \vspace{1cm}
-      \framebox[6cm][l]{ Answer: }
-      
-    \end{exercise}
-    \vspace{1mm}
-    \begin{solution}
-    
-    Mike did better than   
-    <<results="asis", echo=FALSE>>=
-        z1 <- (670 - 480)/110
-        (pnorm(z1))*100
-    @  
-    \% of his male peers.
-    
-    \end{solution}
+%'     \begin{exercise}  % 3-10
+%'       
+%'       Suppose that the distribution of Writing SAT scores from your state this year is normally distributed with mean 480 and standard deviation 110 for males. 
+%'       
+%'       Mike took the Writing SAT and scored 670.  He did better than approximately \underline{\phantom{xxxxxxxx}} \% of male students taking the test. 
+%'        
+%'       
+%' %       Question options:      
+%' %       \begin{enumerate}
+%' %       \item 4.2
+%' %       \item 45.8
+%' %       \item 95.8
+%' %       \item 99.9
+%' %       \end{enumerate}
+%'       \vspace{1cm}
+%'       \framebox[6cm][l]{ Answer: }
+%'       
+%'     \end{exercise}
+%'     \vspace{1mm}
+%'     \begin{solution}
+%'     
+%'     Mike did better than   
+%'     <<results="asis", echo=FALSE>>=
+%'         z1 <- (670 - 480)/110
+%'         (pnorm(z1))*100
+%'     @  
+%'     \% of his male peers.
+%'     
+%'     \end{solution}
     
 \end{exercises}
 
