@@ -1604,7 +1604,7 @@ State the appropriate hypothesis.
       
     \end{solution}    
     
-          \begin{exercise}  %6-5 
+    \begin{exercise}  %6-5 
 
             % A course in statistics is taught to 12 students by the conventional classroom procedure. A second group of 10 students was given the same course by means of programmed materials. At the end of the semester the same examination was given to each group. The 12 students meeting in the classroom made an average grade of 85 with a standard deviation of 4, while the 10 students using programmed materials made an average of 81 with a standard deviation of 5. Test the hypothesis that the two methods of learning are equal using a 0.10 level of significance.
 
@@ -1624,9 +1624,137 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-      The correct conclusion is reject $H_0$ in favor $H_a$.
+      It will be concluded that the two methods of learning are not equal when they are.
       
     \end{solution}      
     
+        \begin{exercise}  %6-6
+        
+          A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
+
+          State the appropriate hypothesis.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item The hypotheses are $H_0: p_A > p_B$ vs. $H_0: p_A = p_B$ 
+%       \item The hypotheses are $H_0: p_A = p_B$ vs. $H_0: p_A < p_B$ 
+%       \item The hypotheses are $H_0: p_A < p_B$ vs. $H_0: p_A > p_B$ 
+%       \item The hypotheses are $H_0: p_A = p_B$ vs. $H_0: p_A > p_B$ 
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The hypotheses are $H_0: p_A = p_B$ vs. $H_0: p_A > p_B$
+      
+    \end{solution} 
+    
+    \begin{exercise}  %6-7
+        
+%           A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
+
+          Using the scenario of exercise 13.6.6, calculate the test statistic ($P_{pooled} = 0.2429$).
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.8712
+%       \item 23.08
+%       \item 1.511 
+%       \item 3.917
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The test statistic is 
+      <<results="asis", echo=FALSE>>=
+        p1 <- 56/200
+        p2 <- 29/150
+        se1 <- sqrt( 0.2429 *(1 - 0.2429)/200)
+        se2 <- sqrt( 0.2429 *(1 - 0.2429)/150)
+        se3 <- sqrt( se1^2 + se2^2) 
+        z1 <- (p1 - p2)/se3; z1
+      @
+    \end{solution}    
+   
+    \begin{exercise}  %6-8
+        
+%           A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
+
+          Using the scenario of exercise 13.6.6, find the critical value. 
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.282
+%       \item 1.645
+%       \item 1.96 
+%       \item 2.326
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The critical value is 
+      <<results="asis", echo=FALSE>>=
+        cv1 <- qnorm(.95)
+      @
+    \end{solution}        
+    
+    \begin{exercise}  %6-9
+        
+%           A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
+
+          Using the scenario of exercise 13.6.6, choose the correct conclusion. 
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item Reject $H_0$ in favor of $H_a$
+%       \item Fail to reject $H_0$
+%       \item Accept $H_0$
+%       \item Reject $H_a$ in favor of $H_0$.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The the correct conclusion in reject $H_0$ in favor of $H_a$, since the test statistic (1.87) is greater than the critical value 1.645.
+      
+    \end{solution}  
+    
+    \begin{exercise}  %6-10
+        
+%           A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
+
+          Using the scenario of exercise 13.6.6, what will happen if a Type II error was committed?
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item It will be concluded that brand A does not outsell brand B which would be the correct decision.
+%       \item It will be concluded that brand A outsells brand B which would be the correct decision.
+%       \item It will be concluded that brand A does not outsell brand B when it does.
+%       \item It will be concluded that brand A outsells brand B when it does not.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      It will be concluded that brand A outsells brand B when it does not.
+      
+    \end{solution}    
     
 \end{exercises}    
