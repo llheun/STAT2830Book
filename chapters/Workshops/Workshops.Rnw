@@ -1196,3 +1196,154 @@ What is the point estimate?
     \end{solution} 
 
 \end{exercises}
+
+\pagebreak
+\section{Workshop 5} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{flushleft}\textbf{ \large \hfill Workshop 5 Fall 2016 }\end{flushleft}
+
+\vspace{4mm}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{(Week 5: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
+\end{center} 
+
+\begin{exercises}
+
+  \begin{exercise}  %5-1 
+  
+    Last year the employees of the city sanitation department donated an average of \$8.00 to the volunteer rescue squad.  Test the hypothesis at the 0.05 level of significance that the average contribution this year is still \$8.00 if a random sample of 12 employees showed an average donation of \$8.90 with a standard deviation of \$1.75.
+
+Identify the population parameter of interest.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item Population proportion.
+%       \item Population mean.
+%       \item \$8.00
+%       \item \$8.90
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The population parameter of interest is \$
+    <<results="asis", echo=FALSE>>=
+        mu1 <- 8.00; mu1
+        
+    @  
+     
+    \end{solution}
+    
+  \begin{exercise}  %5-2 
+  
+    % Last year the employees of the city sanitation department donated an average of \$8.00 to the volunteer rescue squad.  Test the hypothesis at the 0.05 level of significance that the average contribution this year is still \$8.00 if a random sample of 12 employees showed an average donation of \$8.90 with a standard deviation of \$1.75.
+
+    Using the scenario of exercise 13.5.1, state the appropriate hypothesies.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item The hypotheses are $H_0: \mu = 8.9$ vs. $H_a: \mu \ne 8.9$
+%       \item The hypotheses are $H_0: \mu = 8$ vs. $H_a: \mu \ne 8$
+%       \item The hypotheses are $H_0: \mu = 8$ vs. $H_a: \mu < 8$
+%       \item The hypotheses are $H_0: \mu = 8$ vs. $H_a: \mu > 8$
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The appropriate hypotheses  are $H_0: \mu = 8$ vs. $H_a: \mu \ne 8$
+ 
+    \end{solution}
+
+  \begin{exercise}  %5-3 
+  
+    % Last year the employees of the city sanitation department donated an average of \$8.00 to the volunteer rescue squad.  Test the hypothesis at the 0.05 level of significance that the average contribution this year is still \$8.00 if a random sample of 12 employees showed an average donation of \$8.90 with a standard deviation of \$1.75.
+
+    Using the scenario of exercise 13.5.1, calculate the test statistic.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.5192
+%       \item 0.1485
+%       \item 1.7815
+%       \item 6.1714
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The  test statistic is 
+      <<results="asis", echo=FALSE>>=
+        sd1 <- 1.75
+        se1 <- sd1/sqrt(12)
+        t1  <- (8.9 - 8)/se1; t1
+      @  
+ 
+    \end{solution}
+
+  \begin{exercise}  %5-4 
+  
+    % Last year the employees of the city sanitation department donated an average of \$8.00 to the volunteer rescue squad.  Test the hypothesis at the 0.05 level of significance that the average contribution this year is still \$8.00 if a random sample of 12 employees showed an average donation of \$8.90 with a standard deviation of \$1.75.
+
+    Using the scenario of exercise 13.5.1, determine the critical value.
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.782
+%       \item 1.796
+%       \item 2.201
+%       \item 2.179
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The critical value is 
+      <<results="asis", echo=FALSE>>=
+        cv1 <- qt(0.025,df=11); cv1
+      @  
+ 
+    \end{solution}
+
+  \begin{exercise}  %5-5 
+  
+    % Last year the employees of the city sanitation department donated an average of \$8.00 to the volunteer rescue squad.  Test the hypothesis at the 0.05 level of significance that the average contribution this year is still \$8.00 if a random sample of 12 employees showed an average donation of \$8.90 with a standard deviation of \$1.75.
+
+    Using the scenario of exercise 13.5.1, what is your conclusion?
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item Reject $H_a$ in favor of $H_0$
+%       \item Accept $H_0$
+%       \item Reject $H_0$ in favor of $H_a$
+%       \item Fail to reject $H_0$
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      Your conclusion is fail to reject $H_0$.
+ 
+    \end{solution}
+
+
+\end{exercises}    
