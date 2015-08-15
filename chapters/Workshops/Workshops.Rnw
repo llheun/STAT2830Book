@@ -919,10 +919,9 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
   
     An October 2004 Gallup Poll asked a sample of 1012 adults whether they thought that having a gun in the house makes it a safer place to be or a more dangerous place to be. The number who thought having a gun in the house makes it a safer place was 425. Find a 90\% confidence interval for the proportion of all adults who feel this way.
 
-Calculate the point estimate.
+    Calculate the point estimate.
   
-  \end{exercise}
-  %       Question options:      
+%       Question options:      
 %       \begin{enumerate}
 %       \item -0.38
 %       \item 0.38
