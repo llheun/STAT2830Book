@@ -937,7 +937,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
       The point estimate is 
     <<results="asis", echo=FALSE>>=
-        p1 <- 425/1012
+        p1 <- 425/1012; p1
         
     @  
      
@@ -1785,7 +1785,7 @@ State the appropriate hypothesis.
    \begin{tabular}{@{} lrrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       %\toprule
       & \multicolumn{2}{c}{Pharmacies} \\ \hline
-      Wait times (min.) & HMO  & Drugstores & Total \\
+      Wait times (min.) & HMO  & Drugstores & Total \\ \hline
       $\le 15$ & 75 & 119 & 194 \\
       16-20 & 44 & 21 & 65 \\
       $>20$ & 21 & 37 & 58 \\
@@ -1891,4 +1891,49 @@ State the appropriate hypothesis.
       
     \end{solution}  
     
+    \begin{exercise}  %7-5
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      %\toprule
+   Training Prog. & \multicolumn{5}{c}{Training Program & Average assembly time (min)} \\ \hline
+       A & 59 & 64 & 57 & 52 \\
+       B & 52 & 58 & 54 & 60 \\
+       C & 58 & 65 & 71 & 63 & 64 \\
+       D & 63 & 62 & 59 & 61 & 62 \\ \hline
+       
+   \end{tabular}
+   \caption{Questions 5 - 10 refer to the following scenario:}
+   \label{tab:t13_2}
+\end{table}    
+    
+      An exeriment was conducted to compare the effectiveness of four training programs, A, B, C, and D in training assemblers of a piece of equipment.  Twenty (20) employees were randomly assigne, five each, to the four programs.  After completion of the courses, each person was required to assemble four pieces of equipment, and the average length of time required to complete the assembly was recorded.  Two of the employees resigned during the course of the program; the remainer were evaluted, producing the data shown in the Table 13.4.
+  
+      Do the data provide sufficient evidence to indicate a difference in mean assembly times for people trained by the four programs?
+      
+      Determine the null and alternate hypotheses.
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item The hypotheses are $H_0: \mu_A = \mu_B = \mu_C = \mu_D$ vs. $H_a: \mu_A > \mu_B > \mu_C > \mu_D$
+%       \item The hypotheses are $H_0: \mu_A = \mu_B = \mu_C = \mu_D$ vs. $H_a:$ all of the population means are different.
+%       \item The hypotheses are $H_0:$ at least one of the population means is different vs. $H_a: \mu_A = \mu_B = \mu_C = \mu_D$ 
+%       \item The hypotheses are $H_0: \mu_A = \mu_B = \mu_C = \mu_D$ vs. $H_a:$ at least one of the population means is different
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The hypotheses are $H_0: \mu_A = \mu_B = \mu_C = \mu_D$ vs. $H_a:$ at least one of the population means is different.
+      
+    \end{solution}  
+
+
+
 \end{exercises}    
