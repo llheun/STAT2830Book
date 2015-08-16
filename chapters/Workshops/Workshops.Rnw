@@ -1899,7 +1899,8 @@ State the appropriate hypothesis.
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} cccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       %\toprule
-  % Training Prog. & \multicolumn{5}{c}{Training Program & Average assembly time (min)} \\ \hline
+   Training Prog. & \multicolumn{5}{c}{Average assembly time (min)} \\ \hline
+  
        A & 59 & 64 & 57 & 52 & \\
        B & 52 & 58 & 54 & 60 & \\
        C & 58 & 65 & 71 & 63 & 64 \\
