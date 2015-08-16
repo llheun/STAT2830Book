@@ -1935,7 +1935,7 @@ State the appropriate hypothesis.
       
     \end{solution}  
   
-        \begin{exercise}  %7-6
+    \begin{exercise}  %7-6
 
         <<results="asis", echo=FALSE>>=
         
@@ -1966,5 +1966,53 @@ State the appropriate hypothesis.
         the test statistic  4.302
       
     \end{solution}  
+
+    \begin{exercise}  %7-7
+
+         Using the above table, find the critical value at 5 percent level of significance from the F-distribution table? 
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item 3.11
+%       \item 3.34 
+%       \item 3.63
+%       \item 3.81
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+        The critical value at 5 percent level of significance is
+        <<results="asis", echo=FALSE>>=
+        qf(0.95,3,14)
+        @
+        
+    \end{solution}  
+
+    \begin{exercise}  %7-8
+
+         Using the above table, what is your conclusion at the 5 percent level of significance?
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item Accept $H_0$.
+%       \item Fail to reject $H_0$.
+%       \item Reject $H_0$ in favor of $H_a$.
+%       \item Inconclusive
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+        Your conclusion at the 5 percent level of significance is to reject $H_0$ in favor of $H_a$.
+        
+    \end{solution}  
+
 
 \end{exercises}    
