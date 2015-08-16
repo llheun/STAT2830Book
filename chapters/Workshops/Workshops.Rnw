@@ -1842,7 +1842,7 @@ State the appropriate hypothesis.
       
     \end{solution}  
     
-    
+\newpage   
     \begin{exercise}  %7-3
   
       Using the scenario in exercise 13.7.1, the critical value for the Chi-square test 5 percent level of significance is 
@@ -1867,7 +1867,7 @@ State the appropriate hypothesis.
       @  
       
     \end{solution}  
-\newpage
+
     \begin{exercise}  %7-4
   
       Using the scenario in exercise 13.7.1, the conclusion for this chi-square test is 
