@@ -2010,9 +2010,60 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-        Your conclusion at the 5 percent level of significance is to reject $H_0$ in favor of $H_a$.
+        Your conclusion at the 5 percent level of significance is to reject $H_0$ in favor of $H_a$ since the test statistic (4.302) is greater than the critical value (3.3439).
         
     \end{solution}  
 
+    \begin{exercise}  %7-9
+    
+    <<f13_7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
+      boxplot(dt1~typ1,xlab="Training Types")
+@
+
+         What can you conclude from the above boxplot?
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item The median assembly time for the group who attended training program C is the highest, followed by training program A, then D and B is the lowest.
+%       \item The standard deviation of assembly time for the group who attended training program C is the highest, followed by training program D, then A and D is the lowest.
+%       \item The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+%       \item The mean assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+        The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+        
+    \end{solution}  
+
+    \begin{exercise}  %7-10
+    
+    <<f13_7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
+      boxplot(dt1~typ1,xlab="Training Types")
+@
+
+         What can you conclude from the above boxplot?
+
+%       Question options:      
+%       \begin{enumerate}
+%       \item The median assembly time for the group who attended training program C is the highest, followed by training program A, then D and B is the lowest.
+%       \item The standard deviation of assembly time for the group who attended training program C is the highest, followed by training program D, then A and D is the lowest.
+%       \item The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+%       \item The mean assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+        The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+        
+    \end{solution}  
 
 \end{exercises}    
