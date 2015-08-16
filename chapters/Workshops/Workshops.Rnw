@@ -2042,7 +2042,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %7-10
     
-    <<f13_7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
+    <<f13_7_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
       boxplot(dt1~typ1,xlab="Training Types")
 @
 
