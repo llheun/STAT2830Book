@@ -1935,6 +1935,36 @@ State the appropriate hypothesis.
       
     \end{solution}  
   
+        \begin{exercise}  %7-6
 
+        <<results="asis", echo=FALSE>>=
+        
+        dt1 <- c(59,64,57,62,52,58,54,60,58,65,71,63,64,63,62,59,61,62)
+        typ1 <- c(rep("A",4),rep("B",4),rep("C",5),rep("D",5))
+        anova1 <- aov(dt1 ~ typ1)
+        summ1 <- summary(anova1)
+        xtable(summ1)
+        @
+        
+         Using the above table, what is the test statistic? 
+  
+     
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 0.024
+%       \item 3.433 
+%       \item 4.30
+%       \item 11.8
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+        the test statistic  4.302
+      
+    \end{solution}  
 
 \end{exercises}    
