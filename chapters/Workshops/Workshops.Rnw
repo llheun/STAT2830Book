@@ -1890,6 +1890,7 @@ State the appropriate hypothesis.
       The type of pharmacies and waiting time are dependent.
       
     \end{solution}  
+  \end{exercise}  
     
     \begin{exercise}  %7-5
 
