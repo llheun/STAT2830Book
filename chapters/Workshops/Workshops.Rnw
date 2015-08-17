@@ -2114,7 +2114,9 @@ State the appropriate hypothesis.
       7.3 
       
     \end{solution}
-    
+
+\pagebreak
+
   \begin{exercise}  %8-2 
   
     Using the above scenario, what does the graph show
@@ -2134,12 +2136,37 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-      she graph shows a clear negative association
+      The graph shows a clear negative association
       
     \end{solution}
     
     
+  \begin{exercise}  %8-3 
+  
+    <<results="asis", echo=FALSE>>=
+      xtable(summary(lm8_3))   
+    @    
+    Using the above table, what is the correlation coefficient, $r$, between the fertility rate and percentage of women at the secondary level?
     
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item a clear negative association
+%       \item very little association
+%       \item a clear positive association
+%       \item a skewed distribution
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The correlation coefficient is
+      
+      
+    \end{solution}   
     
     
 
