@@ -2253,6 +2253,7 @@ State the appropriate hypothesis.
       
     \end{solution}  
 
+\pagebreak
     \begin{exercise}  %8-8 
   
       An educator says that the correlation between students's grades and the type of music (rock, jazz, classical, etc.) they prefer is $r = -0.7$.   This means that 
@@ -2275,6 +2276,156 @@ State the appropriate hypothesis.
       
     \end{solution}  
 
+    \begin{exercise}  %8-9 
+  
+      A study of child development measures the age (months) at which a child begins to talk and also the child's score on an ability test given several years later.  the study asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line, what happens (on the average) when a child starts talking one month later? 
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item The test score goes up 1.3 points.
+%       \item The test score goes up 110 points.  
+%       \item The test score goes down 1.3 points.
+%       \item The test score goes down 110 points.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The test score goes down 1.3 points.
+      
+    \end{solution}  
 
+    \begin{exercise}  %8-10
+  
+      A study showed that students who study more hours tend to do better on statistics exams.  In fact, number of hours studied explained 81\% on the variation in exam scores among the students who participated in the study.  What is the correlation between hours studied and exam scores?
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item $r = 0.9$
+%       \item $r = 0.656$ 
+%       \item $r  = 0.81$
+%       \item $r = -0.656$ 
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      the correlation between hours studied and exam scores is 
+      <<results="asis", echo=FALSE>>=
+        sqrt(.81)
+      @
+      
+      
+    \end{solution}  
+
+    \begin{exercise}  %8-11
+  
+      Lean body mass (your weight leaving out fat) helps predict metabolic rate (how many calories of energy you burn in an hour).  The relationship is roughly a straight line.  The least-squares regression line for predicting metabolic rate (y in calories) from lean body mass (x in kilograms) is $y = 113.2 + 26.9x.  
+      
+      Using this regression line, you predict that a person with lean body mass 50 kilograms will have metabolic rate equal to about how many calories?
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 1.345
+%       \item 140 
+%       \item 1,232
+%       \item 1,458 
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      Tou predict that a person with lean body mass 50 kilograms will have metabolic rate equal to 
+      <<results="asis", echo=FALSE>>=
+        113.2 + 26.9*50
+      @
+      
+    \end{solution}  
+
+    \begin{exercise}  %8-12
+
+      Using the scenario from exercise 13.11, the slope of the regression line is  
+      
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 113.2 -- that is, when x = 0, y = 113.2
+%       \item 26.9 -- that is, when lean body mass goes up by 1 kg, metabolic rate goes up by 26.9 calories.
+%       \item 26.9 -- that is, the mean metabolic rate is 26.9 calories per hour.
+%       \item 113.2 --- that is, the mean metabolic rate is 113.2 calories per hour.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The slope of the regression line is 
+      <<results="asis", echo=FALSE>>=
+        26.9
+      @
+      
+    \end{solution}  
+
+    \begin{exercise}  %8-13
+
+      The least-squares regression line for predicting 1998 percent obsese from 1991 percent obsese is $y = 7.4 + 0.86x$.  In 1991, 14.8\% of Indianan adults were obsese.  Based on this information, what percent would you predict to be obese in 1998?
+      
+%       Question options:      
+%       \begin{enumerate}
+%       \item 5.3\%
+%       \item 12.7\%
+%       \item 20.1\%
+%       \item 7.5%
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The percent prediction to be obese in 1998 is 
+      <<results="asis", echo=FALSE>>=
+        7.4 + 0.86*14.8
+      @
+      
+      
+    \end{solution}  
+
+    \begin{exercise}  %8-14
+
+      Investment advisors now often report correlations.  For example, the correlation between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  This means that the percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is 
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item 90\%
+%       \item 20\%
+%       \item 45\%
+%       \item 67\%
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      The percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is 
+      <<results="asis", echo=FALSE>>=
+        45
+      @
+      
+    \end{solution}  
 
 \end{exercises}    
