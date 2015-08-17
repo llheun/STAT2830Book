@@ -2185,7 +2185,96 @@ State the appropriate hypothesis.
       
     \end{solution}   
     
+  \begin{exercise}  %8-5 
+  
+    A study found a correlation $r = 0.43$ between how many cigarettes a person smokes and how overweight the person is.  You conclude that 
     
+%       Question options:      
+%       \begin{enumerate}
+%       \item people who smoke more tend to be more overweight
+%       \item an arithmetic mistake was made because this is not a possible value of $r$.
+%       \item people who smoke more tend to be less overweight.
+%       \item this is nonsense becuaw correlation makes no sense here.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
     
+      You conclude that this is nonsense becuaw correlation makes no sense here.
+      
+    \end{solution}   
+    
+    \begin{exercise}  %8-6 
+  
+    The correlation between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  This tells us that 
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item taller than average fathers tend to have shorter than average sons.
+%       \item 52\% of all sons are taller that their fathers.
+%       \item taller that average fathers tend to have taller than average sons.
+%       \item sons are on the average, taller than their fathers.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      This tells us that taller than average fathers tend to have shorter than average sons.
+      
+    \end{solution}  
+
+    \begin{exercise}  %8-7 
+  
+      The correlation between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  
+      
+      If fathers' heights were measured in feet (one foot equals 12 inches), and sons' heights were measured in furlongs (one furlong equals 7,920 inches), the correlation coefficient between heights of fathers and heights of sons would be 
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item slightly larger than 0.52.
+%       \item unchanged: equal to  0.52.
+%       \item slightly smaller than 0.52.
+%       \item much smaller than 0.52.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      Correlation coefficient between heights of fathers and heights of sons would be unchanged: equal to 0.52.
+      
+    \end{solution}  
+
+    \begin{exercise}  %8-8 
+  
+      An educator says that the correlation between students's grades and the type of music (rock, jazz, classical, etc.) they prefer is $r = -0.7$.   This means that 
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item students who prefer classical music tend to have higher grades.
+%       \item the educator is confused  because correlation makes no sense in this situation. 
+%       \item there is almost no relation between grades and tastes in music.
+%       \item students who perfer classical music tend to have lower grades.
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      This means that the educator is confused  because correlation makes no sense in this situation.
+      
+    \end{solution}  
+
+
 
 \end{exercises}    
