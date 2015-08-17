@@ -2089,7 +2089,7 @@ State the appropriate hypothesis.
     Data on two variables have been collected for 15 nations.  The variables are fertility rate (average number of children born to each women), education for females (expressed as a percentage of all students at the secondary level who are females).  
 
     <<f13_8_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
-        dt8_3 <- read.csv("data/fertility.csv  ",header=TRUE)
+        dt8_3 <- read.csv("data/fertility.csv",header=TRUE)
         plot(dt8_3$EducationOfFemale,dt8_3$FertilityRate)
 @
   
