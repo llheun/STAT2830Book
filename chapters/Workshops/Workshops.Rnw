@@ -1938,7 +1938,7 @@ State the appropriate hypothesis.
     \begin{exercise}  %7-6
 
         <<results="asis", echo=FALSE>>=
-        
+        ## library(xtable)
         dt1 <- c(59,64,57,62,52,58,54,60,58,65,71,63,64,63,62,59,61,62)
         typ1 <- c(rep("A",4),rep("B",4),rep("C",5),rep("D",5))
         anova1 <- aov(dt1 ~ typ1)
@@ -2038,10 +2038,26 @@ State the appropriate hypothesis.
         
     \end{solution}  
 
+\pagebreak
     \begin{exercise}  %7-10
     
-    <<f13_7_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
-      boxplot(dt1~typ1,xlab="Training Types")
+    <<results="asis", echo=FALSE>>=
+        dt1 <- c(59,64,57,62,52,58,54,60,58,65,71,63,64,63,62,59,61,62)
+        mtx7_10 <- matrix(c(rep("",12)),nrow=3)
+        tt71 <- t.test(dt1[1:4],dt1[5:8])
+        mtx7_10[1,2] <- tt71$estimate[1] - tt71$estimate[2] 
+        tt72 <- t.test(dt1[1:4],dt1[9:13])
+        mtx7_10[1,3] <- tt72$estimate[1] - tt72$estimate[2]
+        tt73 <- t.test(dt1[1:4],dt1[14:18])
+        mtx7_10[1,4] <- tt73$estimate[1] - tt73$estimate[2]
+        tt74 <- t.test(dt1[5:8],dt1[9:13])
+        mtx7_10[2,3] <- tt74$estimate[1] - tt74$estimate[2]
+        tt75 <- t.test(dt1[5:8],dt1[14:18])
+        mtx7_10[2,4] <- tt75$estimate[1] - tt75$estimate[2]
+        tt76 <- t.test(dt1[9:13],dt1[14:18])
+        mtx7_10[3,4] <- tt76$estimate[1] - tt76$estimate[2]
+        
+        xtable(mtx7_10) 
 @
 
          What can you conclude from the above boxplot?
