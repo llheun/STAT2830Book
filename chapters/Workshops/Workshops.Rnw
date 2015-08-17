@@ -2326,7 +2326,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-11
   
-      Lean body mass (your weight leaving out fat) helps predict metabolic rate (how many calories of energy you burn in an hour).  The relationship is roughly a straight line.  The least-squares regression line for predicting metabolic rate (y in calories) from lean body mass (x in kilograms) is $y = 113.2 + 26.9x.  
+      Lean body mass (your weight leaving out fat) helps predict metabolic rate (how many calories of energy you burn in an hour).  The relationship is roughly a straight line.  The least-squares regression line for predicting metabolic rate (y in calories) from lean body mass (x in kilograms) is $y = 113.2 + 26.9x$.  
       
       Using this regression line, you predict that a person with lean body mass 50 kilograms will have metabolic rate equal to about how many calories?
       
