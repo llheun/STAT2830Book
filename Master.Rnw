@@ -10,7 +10,6 @@
 \usepackage{epstopdf}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 \usepackage{verbatim}
-% \usepackage{xtable}
 
 % \usepackage{Stat2830book}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
