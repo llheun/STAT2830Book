@@ -2377,6 +2377,7 @@ State the appropriate hypothesis.
       
     \end{solution}  
 
+\newpage
     \begin{exercise}  %8-13
 
       The least-squares regression line for predicting 1998 percent obsese from 1991 percent obsese is $y = 7.4 + 0.86x$.  In 1991, 14.8\% of Indianan adults were obsese.  Based on this information, what percent would you predict to be obese in 1998?
