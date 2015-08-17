@@ -2404,7 +2404,7 @@ State the appropriate hypothesis.
       
     \end{solution}  
 
-\newpage
+
     \begin{exercise}  %8-14
 
       Investment advisors  often report correlation coefficients.  For example, the correlation coefficient between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  This means that the percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is (Hint: think of the coefficient of determination.) -- 
