@@ -1948,8 +1948,6 @@ State the appropriate hypothesis.
         
          Using the above table, what is the test statistic? 
   
-     
-      
 %       Question options:      
 %       \begin{enumerate}
 %       \item 0.024
