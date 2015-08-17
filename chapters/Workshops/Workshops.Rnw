@@ -2095,7 +2095,7 @@ State the appropriate hypothesis.
         abline(lm8_3)
 @
   
-    Using the above graph, what is the fertility rate of the nation who has the lowest percentage of women at the secondary level?
+    Using Figure 13.3, what is the fertility rate of the nation who has the lowest percentage of women at the secondary level?
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2187,7 +2187,7 @@ State the appropriate hypothesis.
     
   \begin{exercise}  %8-5 
   
-    A study found a correlation $r = 0.43$ between how many cigarettes a person smokes and how overweight the person is.  You conclude that 
+    A study found a correlation coefficient $r = -0.43$ between how many cigarettes a person smokes and how overweight the person is.  You conclude that 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2203,13 +2203,13 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-      You conclude that this is nonsense becuaw correlation makes no sense here.
+      You conclude that people who smoke more tend to be less overweight.
       
     \end{solution}   
     
     \begin{exercise}  %8-6 
   
-    The correlation between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  This tells us that 
+    The correlation coefficient between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  This tells us that 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2225,7 +2225,7 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-      This tells us that taller than average fathers tend to have shorter than average sons.
+      This tells us that taller than average fathers tend to have taller than average sons.
       
     \end{solution}  
 
@@ -2278,7 +2278,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-9 
   
-      A study of child development measures the age (months) at which a child begins to talk and also the child's score on an ability test given several years later.  the study asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line, what happens (on the average) when a child starts talking one month later? 
+      A study of child development measures the age (months) at which a child begins to talk and also the child's score on an ability test given several years later.  The study asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line, what happens (on the average) when a child starts talking one month later? 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2300,7 +2300,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-10
   
-      A study showed that students who study more hours tend to do better on statistics exams.  In fact, number of hours studied explained 81\% on the variation in exam scores among the students who participated in the study.  What is the correlation between hours studied and exam scores?
+      A study showed that students who study more hours tend to do better on statistics exams.  In fact, number of hours studied explained 81\% of the variation in exam scores among the students who participated in the study.  What is the correlation coefficient between hours studied and exam scores?
       
 %       Question options:      
 %       \begin{enumerate}
@@ -2316,7 +2316,7 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-      the correlation between hours studied and exam scores is 
+      The correlation coefficient between hours studied and exam scores is 
       <<results="asis", echo=FALSE>>=
         sqrt(.81)
       @
@@ -2353,7 +2353,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-12
 
-      Using the scenario from exercise 13.11, the slope of the regression line is  
+      Using the scenario from exercise 13.8.11, the slope of the regression line is  
       
       
 %       Question options:      
@@ -2380,7 +2380,7 @@ State the appropriate hypothesis.
 \newpage
     \begin{exercise}  %8-13
 
-      The least-squares regression line for predicting 1998 percent obsese from 1991 percent obsese is $y = 7.4 + 0.86x$.  In 1991, 14.8\% of Indianan adults were obsese.  Based on this information, what percent would you predict to be obese in 1998?
+      The least-squares regression line for predicting 1998 percent obese from 1991 percent obese is $y = 7.4 + 0.86x$.  In 1991, 14.8\% of Indiana adults were obese.  Based on this information, what percent would you predict to be obese in 1998?
       
 %       Question options:      
 %       \begin{enumerate}
@@ -2407,7 +2407,7 @@ State the appropriate hypothesis.
 \newpage
     \begin{exercise}  %8-14
 
-      Investment advisors now often report correlations.  For example, the correlation between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  This means that the percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is 
+      Investment advisors  often report correlation coefficients.  For example, the correlation coefficient between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  This means that the percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is (Hint: think of the coefficient of determination.) -- 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2425,14 +2425,14 @@ State the appropriate hypothesis.
     
       The percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is 
       <<results="asis", echo=FALSE>>=
-        45
+        0.45^2
       @
       
     \end{solution}  
 
     \begin{exercise}  %8-15
 
-      NFL quarterbacks earn more (on the average) that running backs, who in turn earn more than linemen.  The correlation coefficent $r$ between a player's salary and his position.
+      NFL quarterbacks earn more (on the average) than running backs, who in turn earn more than linemen.  The correlation coefficent $r$ between a player's salary and his position.
       
       
     
