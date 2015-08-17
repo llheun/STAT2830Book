@@ -2086,21 +2086,23 @@ State the appropriate hypothesis.
 
   \begin{exercise}  %8-1 
   
-    Data on two variables have been collected for 15 nations.  The variables are fertility rate (average number of children born to each women), education for females (expressed as a percentage of all students at the secondary level who are females).  
+    A researcher collected data on two variables  from  15 nations.  The variables are fertility rate (average number of children born to each women), education for females (expressed as a percentage of all students at the secondary level who are females).  
 
     <<f13_8_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
         dt8_3 <- read.csv("data/fertility.csv",header=TRUE)
         plot(dt8_3$EducationOfFemale,dt8_3$FertilityRate)
+        lm8_3 <- lm(dt8_3$FertilityRate ~ dt8_3$EducationOfFemale)
+        abline(lm8_3)
 @
   
-    Using the above graph, a researcher measured the education of females  in different countries and their fertility rate.  What ?
+    Using the above graph, what is the fertility rate of the nation who has the lowest percentage of women at the secondary level?
     
 %       Question options:      
 %       \begin{enumerate}
-%       \item $H_0:$ the type of pharmacies and waiting time are independent vs. $H_a:$ the type of pharmacies and waiting time are dependent  
-%       \item $H_0:$ the type of pharmacies and waiting time are not correlated vs. $H_a:$ the type of pharmacies and waiting time are correlated  
-%       \item $H_0:$ the type of pharmacies and waiting time have a  negative relationship vs. $H_a:$ the type of pharmacies and waiting time have a positive relationship  
-%       \item  $H_0:$ the type of pharmacies and waiting time are dependent vs. $H_a:$ the type of pharmacies and waiting time are independent  
+%       \item 
+%       \item 
+%       \item 
+%       \item  
 %       \end{enumerate}
       \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
@@ -2109,7 +2111,31 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-      $H_0:$ the type of pharmacies and waiting time are independent vs. $H_a:$ the type of pharmacies and waiting time are dependent.  
+      7.3 
+      
+    \end{solution}
+    
+  \begin{exercise}  %8-2 
+  
+    Using the above scenario, what does the graph show
+    
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item a clear negative association
+%       \item very little association
+%       \item a clear positive association
+%       \item a skewed distribution
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      she graph shows a clear negative association
+      
     \end{solution}
     
     
