@@ -2065,5 +2065,56 @@ State the appropriate hypothesis.
         The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
         
     \end{solution}  
+    
+\end{exercises}    
+    
+\pagebreak
+\section{Workshop 8} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\begin{flushleft}\textbf{ \large \hfill Workshop 8 Fall 2016 }\end{flushleft}
+
+\vspace{4mm}
+\makebox[\textwidth]{Name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{Instructor's name:\enspace\hrulefill}
+\vspace{4mm}
+\makebox[\textwidth]{(Week 8: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
+\end{center} 
+
+\begin{exercises}
+
+  \begin{exercise}  %8-1 
+  
+    Data on two variables have been collected for 15 nations.  The variables are fertility rate (average number of children born to each women), education for females (expressed as a percentage of all students at the secondary level who are females).  
+
+    <<f13_8_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
+        dt8_3 <- read.csv("data/fertility.csv  ",header=TRUE)
+        plot(dt8_3$EducationOfFemale,dt8_3$FertilityRate)
+@
+  
+    Using the above graph, a researcher measured the education of females  in different countries and their fertility rate.  What ?
+    
+%       Question options:      
+%       \begin{enumerate}
+%       \item $H_0:$ the type of pharmacies and waiting time are independent vs. $H_a:$ the type of pharmacies and waiting time are dependent  
+%       \item $H_0:$ the type of pharmacies and waiting time are not correlated vs. $H_a:$ the type of pharmacies and waiting time are correlated  
+%       \item $H_0:$ the type of pharmacies and waiting time have a  negative relationship vs. $H_a:$ the type of pharmacies and waiting time have a positive relationship  
+%       \item  $H_0:$ the type of pharmacies and waiting time are dependent vs. $H_a:$ the type of pharmacies and waiting time are independent  
+%       \end{enumerate}
+      \vspace{1cm}
+      \framebox[6cm][l]{ Answer: }
+      
+    \end{exercise}
+    \vspace{1mm}
+    \begin{solution}
+    
+      $H_0:$ the type of pharmacies and waiting time are independent vs. $H_a:$ the type of pharmacies and waiting time are dependent.  
+    \end{solution}
+    
+    
+    
+    
+    
 
 \end{exercises}    
