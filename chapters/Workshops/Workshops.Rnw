@@ -2067,14 +2067,17 @@ State the appropriate hypothesis.
         ## mtx7_10
 @
 
-         What can you conclude from the above boxplot?
+         Using the above table for a post hoc analysis (column 1 (row 1) refers to training method A, column 2 (row 2) refers to training method B, etc.), for example, row 1  column 2 represents the difference between the time to assemble the part using training method A and training method B.  What can we conclude from this table of  differences about the times to assemble a part using the four different training methods?
 
 %       Question options:      
 %       \begin{enumerate}
-%       \item The median assembly time for the group who attended training program C is the highest, followed by training program A, then D and B is the lowest.
-%       \item The standard deviation of assembly time for the group who attended training program C is the highest, followed by training program D, then A and D is the lowest.
-%       \item The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
-%       \item The mean assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+%       \item The differences for the mean assembly time for employees who attended training programs A and B do not differ as well as the mean assembly time for those who attended training programs A, C, and D.  But the difference for the mean assembly time for employees who attended B and C appear to be different.
+
+%       \item The differences for the mean assembly time for employees who attended training programs A and B do not differ.  But the difference for the mean assembly time for employees who attended B and C appear to be different as well as the mean assembly time for those who attended training programs A, C, and D.
+
+%       \item The information provided is insufficient.
+
+%       \item The differences for the mean assembly time for employees who attended training programs A and B differ as well as the mean assembly time for those who attended training programs A, C, and D.  But the difference for the mean assembly time for employees who attended B and C do not differ differ.
 %       \end{enumerate}
       \vspace{1cm}
       \framebox[6cm][l]{ Answer: }
@@ -2083,7 +2086,7 @@ State the appropriate hypothesis.
     \vspace{1mm}
     \begin{solution}
     
-        The median assembly time for the group who attended training program C is the highest, followed by training program D, then A and B is the lowest.
+        The differences for the mean assembly time for employees who attended training programs A and B do not differ as well as the mean assembly time for those who attended training programs A, C, and D.  But the difference for the mean assembly time for employees who attended B and C appear to be different.
         
     \end{solution}  
     
