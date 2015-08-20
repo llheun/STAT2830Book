@@ -438,6 +438,7 @@ Since 1968, voter surveys use inferential statistics.
    \end{table}	
 	
   What percentage of women weigh 40 - 59 kilograms?
+   
    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
