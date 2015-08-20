@@ -1,0 +1,35 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Why you should use data science?}{3}
+\contentsline {subsection}{\numberline {1.0.1}Objectives}{3}
+\contentsline {section}{\numberline {1.1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1.1}Reasons to Study Data Science}{3}
+\contentsline {subsubsection}{Conduct Research}{3}
+\contentsline {subsubsection}{Study Design}{3}
+\contentsline {subsubsection}{Develop Critical Thinking Skills}{4}
+\contentsline {subsubsection}{Be an Informed Consumer}{4}
+\contentsline {subsubsection}{Know When to Hire a Statistician}{4}
+\contentsline {subsubsection}{To summarize}{4}
+\contentsline {subsubsection}{The Scientific Process, The Wheel of Science}{5}
+\contentsline {subsubsection}{{Research}}{5}
+\contentsline {subsubsection}{{Data science}}{5}
+\contentsline {subsubsection}{{Data}}{6}
+\contentsline {subsubsection}{Theory}{6}
+\contentsline {subsubsection}{Hypothesis}{6}
+\contentsline {subsubsection}{Observations}{6}
+\contentsline {subsubsection}{Empirical Generalizations}{6}
+\contentsline {subsubsection}{Variables and Cases}{6}
+\contentsline {subsubsection}{Variables}{6}
+\contentsline {subsubsection}{Case}{7}
+\contentsline {subsection}{\numberline {1.1.2}Example}{7}
+\contentsline {section}{\numberline {1.2}Types of Statistics}{7}
+\contentsline {subsection}{\numberline {1.2.1}Descriptive Statistics}{7}
+\contentsline {subsection}{\numberline {1.2.2}Inferential Statistics}{8}
+\contentsline {subsubsection}{Inferential Statistics Example}{8}
+\contentsline {section}{\numberline {1.3}Types of Data}{8}
+\contentsline {subsection}{\numberline {1.3.1}Categorical (qualitative data)}{8}
+\contentsline {subsubsection}{Levels of Measurement for Categorical Data}{9}
+\contentsline {subsection}{\numberline {1.3.2}Numerical (quantitative data)}{9}
+\contentsline {subsubsection}{Levels of Measurement for Numerical Data}{9}
+\contentsline {section}{\numberline {1.4}Mindmap of Type of Data}{10}
+\contentsline {section}{\numberline {1.5}Key Words}{11}
+\contentsline {section}{\numberline {1.6}Exercises}{12}
