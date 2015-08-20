@@ -490,6 +490,7 @@ Since 1968, voter surveys use inferential statistics.
   	\begin{exercise}  % 9
 	
 	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
+	  
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
