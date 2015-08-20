@@ -332,10 +332,15 @@ Since 1968, voter surveys use inferential statistics.
   
   Blood alcohol content (BAC) is the concentration of alcohol present in a person's blood.  What is the level of measurement of BAC?
 	  \begin{enumerate}
+	  \samepage
 	  \item Ordinal 
+	  \samepage
   	\item Interval-Ratio
+  	\samepage
 	  \item Nominal
+	  \samepage
 	  \item I don't know
+	  \samepage
 	  \end{enumerate}
 	  \samepage
 	  \vspace{3mm}
