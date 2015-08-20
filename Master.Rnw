@@ -52,7 +52,7 @@ opts_chunk$set(
 @
 
 
-
+\frame{\tableofcontents}
 
 
 <<Ch1, child="chapters/Chapter_1/Chapter_1.Rnw",eval=TRUE>>=
