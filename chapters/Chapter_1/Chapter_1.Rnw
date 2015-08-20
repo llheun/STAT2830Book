@@ -293,7 +293,7 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{exercises}
 
-  \begin{exercise}
+  \begin{exercise}  % 1
   
   Descriptive statistics allow social researchers to 
     \begin{enumerate}
@@ -311,7 +311,7 @@ Since 1968, voter surveys use inferential statistics.
   \end{solution}
 
 	
-  \begin{exercise}
+  \begin{exercise}  % 2
   
   A survey contained a question regarding marital status.  The respondent checked either single, married, divorced, separated or widowed.  What is the level of measurement of marital status?
 	  \begin{enumerate}
@@ -351,7 +351,7 @@ Since 1968, voter surveys use inferential statistics.
 	  The level of measurement of marital status is interval-ratio.
 	\end{solution}
 
-  \begin{exercise}
+  \begin{exercise}  % 3
   
   What type of variable is the number of robberies reported in June 2014 in Kalamazoo County?
 	  \begin{enumerate}
@@ -372,7 +372,7 @@ Since 1968, voter surveys use inferential statistics.
 	  The number of reported robberies in June 2014 is Kalamazoo County is a continuous variable.
 	\end{solution}
 	
-	\begin{exercise}
+	\begin{exercise}  % 4 
 	
 	% \begin{minipage}[[htbp]{6.5cm}
 	
@@ -405,22 +405,22 @@ Since 1968, voter surveys use inferential statistics.
     
   \end{solution}
 
-	\begin{exercise}
+	\begin{exercise}  % 5
 	
 	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.  Determine whether they are categorical or numerical.  Then determine the level measurement. 
 
-  Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{1cm}}
-    \vspace{1cm}
+  Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
+    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
 	 
   \end{exercise} 
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
     Numeric - ratio 
   \end{solution}
 
 \pagebreak
-	\begin{exercise}
+	\begin{exercise}  % 6
 	
 	The following table shows the distribution of weights of 50 female students.
 
@@ -438,15 +438,15 @@ Since 1968, voter surveys use inferential statistics.
    \end{table}	
 	
   What percentage of women weigh 40 - 59 kilograms?
-   \vspace{1cm}
+   \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
     $ p = \frac{(19 + 15)}{50} \times 100 = 68 $
   \end{solution}
 
-	\begin{exercise}
+	\begin{exercise}  % 7 
 	
 	  The General Social Survey (GSS), conducted by the National Opinion Research Center at the university of Chicago, is a major source of data on social attitudes in the U.S.  Once each year 1500 adults are interviewed in their homes all across the country.  The subjects are asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
 	
@@ -461,12 +461,12 @@ Since 1968, voter surveys use inferential statistics.
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
     all adult residents of the U.S.
   \end{solution}
 
-	\begin{exercise}
+	\begin{exercise}  % 8
 	
 	  A recent issue of the \emph{New England Journal of Medicine} reported a study of all 122,754 infants born over an 8.5 year period at Parkland Hospital in Dallas, Texas, leaving out multiple births and infants with birth defects.  The researchers  wanted to know if there is a specific birth weight below which infant death and illness increases sharply.
 	  
@@ -478,43 +478,44 @@ Since 1968, voter surveys use inferential statistics.
     \item Parkland Hospital.
     \end{enumerate}
     \samepage
-    \vspace{1cm}
+    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
     birth weight.
   \end{solution}
   
-  	\begin{exercise}
+  	\begin{exercise}  % 9
 	
 	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
-	  \vspace{1cm}
+	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
     \begin{equation}
     pc = \frac{169.53 - 159.90}{159.90} \times 100 = 6.02\%
     \end{equation}
   \end{solution}
   
-  	\begin{exercise}
+  	\begin{exercise}  % 10
 	
 	  Ten states have the following percents of obese adults:
 	  
 	    \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-  19.2 & 17.9 & 20.7 & 17.9 & 15.7 & 19.3 & 19.8 & 18.7 & 15.7 & 17.5 \\ \hline
-   \end{tabular}
+      19.2 & 17.9 & 20.7 & 17.9 & 15.7 & 19.3 & 19.8 & 18.7 & 15.7 & 17.5 \\ \hline
+      \end{tabular}
    
-   What is the five number summary?
-	  \vspace{1cm}
+      What is the five number summary?
+	  \vspace{5mm}
+	  
     \framebox[13cm][l]{ Answer: }
     
   \end{exercise} 
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
   
     <<results="asis", echo=FALSE>>=
