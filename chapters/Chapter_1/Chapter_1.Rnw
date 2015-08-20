@@ -289,7 +289,7 @@ Since 1968, voter surveys use inferential statistics.
 % Dad: Here is where you try to typeset your exercises AFTER you install MacTeX 2015.
 
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
-\section{Exercises}
+\section{Exercises}    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
 
 \begin{exercises}
 
@@ -302,10 +302,10 @@ Since 1968, voter surveys use inferential statistics.
 	  \item graphically display the number of respondents according to their gender. \\
 	  \item all of the choices
 	  \end{enumerate}
-	  \vspace{1cm}
+	  \vspace{5mm}
 	  \framebox[5cm][l]{ Answer: }
   \end{exercise}
-  \vspace{1mm}
+  \vspace{2mm}
   \begin{solution}
     All of the choices is the correct answer.
   \end{solution}
@@ -320,10 +320,10 @@ Since 1968, voter surveys use inferential statistics.
 	  \item Nominal 
 	  \item I don't know
 	  \end{enumerate}
-	  \vspace{1cm}
+	  \vspace{5mm}
 	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
-	\vspace{1mm}
+	\vspace{2mm}
 	\begin{solution}
 	  The level of measurement of marital statis is nominal.
 	\end{solution}
@@ -338,10 +338,10 @@ Since 1968, voter surveys use inferential statistics.
 	  \item I don't know
 	  \end{enumerate}
 	  \samepage
-	  \vspace{1cm}
+	  \vspace{5mm}
 	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
-	\vspace{1mm}
+	\vspace{2mm}
 	\begin{solution}
 	  The level of measurement of marital status is interval-ratio.
 	\end{solution}
@@ -359,10 +359,10 @@ Since 1968, voter surveys use inferential statistics.
   	\samepage
   	\item Qualitative
   	\end{enumerate}
-  	\vspace{1cm}
+  	\vspace{5mm}
   	\framebox[5cm][l]{ Answer: }
   \end{exercise}
-  \vspace{1mm}
+  \vspace{2mm}
 	\begin{solution}
 	  The number of reported robberies in June 2014 is Kalamazoo County is a continuous variable.
 	\end{solution}
