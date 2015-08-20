@@ -493,7 +493,7 @@ Since 1968, voter surveys use inferential statistics.
 	
 	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
 	  
-	  \vspace{5mm}
+	  \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -504,7 +504,7 @@ Since 1968, voter surveys use inferential statistics.
     \end{equation}
   \end{solution}
   
-  	\begin{exercise}  % 10
+  	\begin{exercise}  % 11
 	
 	  Ten states have the following percents of obese adults:
 	  
@@ -513,7 +513,7 @@ Since 1968, voter surveys use inferential statistics.
       \end{tabular}
    
       What is the five number summary?
-	  \vspace{5mm}
+	  \vspace{1cm}
 	  
     \framebox[13cm][l]{ Answer: }
     
