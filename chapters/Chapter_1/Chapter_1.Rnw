@@ -483,10 +483,11 @@ Since 1968, voter surveys use inferential statistics.
    \end{tabular}
    
    What is the five number summary?
-	  
+	  \vspace{1cm}
     \framebox[13cm][l]{ Answer: }
     
   \end{exercise} 
+  \vspace{1mm}
   \begin{solution}
   
     <<results="asis", echo=FALSE>>=
