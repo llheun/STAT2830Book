@@ -377,9 +377,10 @@ Since 1968, voter surveys use inferential statistics.
     \underline{ \phantom{1cm} } & More than 15 occasions \\ \hline
    \end{tabular}
    \end{table}
-   
+    \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise} 
+  \vspace{1mm}
   \begin{solution}
     Numeric - interval 
   \end{solution}
