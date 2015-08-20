@@ -369,14 +369,14 @@ Since 1968, voter surveys use inferential statistics.
 	
 	\begin{exercise}
 	
-	\begin{minipage}[ht]{6.5cm}
+	\begin{minipage}[t]{6.5cm}
 	
 	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.  Determine whether they are categorical or numerical.  Then determine the level measurement. 
 
   In how many occasions have you used or taken Cannabis?
   
-  \end{minipage} \hfill
-  \begin{minipage}[ht]{6.5cm}
+  \end{minipage} % \hfill
+  \begin{minipage}[t]{6.5cm}
   
   \begin{table}[htbp]
    \centering
