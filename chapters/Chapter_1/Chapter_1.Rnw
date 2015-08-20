@@ -302,7 +302,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \item graphically display the number of respondents according to their gender. \\
 	  \item all of the choices
 	  \end{enumerate}
-	  \vspace{4mm}
+	  \vspace{3mm}
 	  \framebox[5cm][l]{ Answer: }
   \end{exercise}
   \vspace{2mm}
@@ -320,7 +320,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \item Nominal 
 	  \item I don't know
 	  \end{enumerate}
-	  \vspace{4mm}
+	  \vspace{3mm}
 	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -338,7 +338,7 @@ Since 1968, voter surveys use inferential statistics.
 	  \item I don't know
 	  \end{enumerate}
 	  \samepage
-	  \vspace{4mm}
+	  \vspace{3mm}
 	  \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -359,7 +359,7 @@ Since 1968, voter surveys use inferential statistics.
   	\samepage
   	\item Qualitative
   	\end{enumerate}
-  	\vspace{4mm}
+  	\vspace{3mm}
   	\framebox[5cm][l]{ Answer: }
   \end{exercise}
   \vspace{2mm}
@@ -369,14 +369,14 @@ Since 1968, voter surveys use inferential statistics.
 	
 	\begin{exercise}
 	
-	\begin{minipage}[[htbp]{6.5cm}
+	% \begin{minipage}[[htbp]{6.5cm}
 	
 	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.  Determine whether they are categorical or numerical.  Then determine the level measurement. 
 
   In how many occasions have you used or taken Cannabis?
   
-  \end{minipage} \hfill
-  \begin{minipage}[[htbp]{6.5cm}
+  % \end{minipage} \hfill
+  % \begin{minipage}[[htbp]{6.5cm}
   
   \begin{table}[htbp]
    \centering
@@ -389,7 +389,7 @@ Since 1968, voter surveys use inferential statistics.
    \end{tabular}
    \end{table}
    
-  \end{minipage} 
+  % \end{minipage} 
     \vspace{4mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise} 
