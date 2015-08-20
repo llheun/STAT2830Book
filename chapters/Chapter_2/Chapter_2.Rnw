@@ -546,7 +546,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 \newpage
 \section{Exercise}
 
-\begin{exercises}
+\begin{exercises} % 1
 
   \begin{exercise}
   
@@ -561,7 +561,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \samepage
 	  \item 22\%
   	\end{enumerate}
+  	
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     \begin{equation}
     (2.) p = \frac{250 - 195}{250} = 0.22
@@ -570,7 +572,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
     
   	
 	
-  \begin{exercise}
+  \begin{exercise} % 2
   
     250 individuals were randomly selected and 195 of them do not smoke.  What is the ratio of nonsmokers to smokers?
 	  \begin{enumerate}
@@ -580,13 +582,14 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \item 55
 	  \end{enumerate}
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
     \begin{equation}
     (3.) ratio = \frac{195}{250 - 195} = 3.55
     \end{equation}
   \end{solution}
 
-  \begin{exercise}
+  \begin{exercise} % 3
   
     In a city of a population 25,000, there were 13 murders reported in the prior year.  What is the rate of murder in this city per 100,000?
 	  \begin{enumerate}
@@ -600,13 +603,14 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \item 0.00052
 	  \end{enumerate}
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  \begin{equation}
 	  (2.)  rate = \frac{13}{25000} \times 100000 = 52 
 	  \end{equation}
 	\end{solution}
 	
-  \begin{exercise} 
+  \begin{exercise} % 4 
   
     In 1995 the percentage of individuals graduating from the Portage high school was 89 percent, in 2005, the percentage was 83 percent.  What is the percent change?
 	  \begin{enumerate}
@@ -620,14 +624,14 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \item $-7.2\%$
 	  \end{enumerate}
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  \begin{equation}
 	    (1.)  PC = \frac{(83 - 89)}{89} \times 100 = -6.7\%
 	  \end{equation}
 	\end{solution}
 	
-	
-  \begin{exercise}
+  \begin{exercise} % 5
   
     In a 2013 random sample of employees at Saint Mary's Hospital in Grand Rapids, a hospital administrator collected data about gender and various job categories.
 
@@ -658,11 +662,12 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \item What percentage of the total staff are females?
   \end{enumerate}
   \end{exercise}
+  \vspace{2mm} 
   \begin{solution}
     {\bf{(1. )}} The percentage of nurses who are female is 36.8\%.  {\bf{(2. )}} The proportion of orderlies who are  males is 0.367.  {\bf{(3. )}} Ratio is  18 females docs to 83 males docs or approximately 1 female doc for every 5 males docs.  {\bf{(4. )}} Percentage of females on the staff is 43.3\%.
   \end{solution}
     
-  \begin{exercise}
+  \begin{exercise} % 6 
   
     You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
 
@@ -688,8 +693,49 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \end{enumerate}  
 	
   \end{exercise}
+  \vspace{2mm} 
   \begin{solution}
   The measure of the lost hours due to traffic is interval-ratio.
   \end{solution}
+  
+    	\begin{exercise}  % 7
+	
+	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
+	  
+	  \vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+    \begin{equation}
+    pc = \frac{169.53 - 159.90}{159.90} \times 100 = 6.02\%
+    \end{equation}
+  \end{solution}
+  
+  	\begin{exercise}  % 8
+	
+	  Ten states have the following percents of obese adults:
+	  
+	    \begin{tabular}{@{} cccccccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+      19.2 & 17.9 & 20.7 & 17.9 & 15.7 & 19.3 & 19.8 & 18.7 & 15.7 & 17.5 \\ \hline
+      \end{tabular}
+   
+      What is the five number summary?
+	  \vspace{1cm}
+	  
+    \framebox[13cm][l]{ Answer: }
+    
+  \end{exercise} 
+  \vspace{2mm}
+  \begin{solution}
+  
+    <<results="asis", echo=FALSE>>=
+      dt1 <- c(19.2 , 17.9 , 20.7 , 17.9 , 15.7 , 19.3 , 19.8 , 18.7 , 15.7 , 17.5)
+      summary(dt1)
+    @
+    
+  \end{solution}  
+
 
 \end{exercises}
