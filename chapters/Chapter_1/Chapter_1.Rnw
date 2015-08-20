@@ -302,9 +302,10 @@ Since 1968, voter surveys use inferential statistics.
 	  \item graphically display the number of respondents according to their gender. \\
 	  \item all of the choices
 	  \end{enumerate}
-	  
+	  \vspace{1cm}
 	  \framebox[5cm][l]{ Answer: }
-  \end{exercise}	
+  \end{exercise}
+  \vspace{1mm}
   \begin{solution}
     All of the choices is the correct answer.
   \end{solution}
