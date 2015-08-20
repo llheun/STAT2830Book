@@ -468,7 +468,7 @@ Since 1968, voter surveys use inferential statistics.
     all adult residents of the U.S.
   \end{solution}
 
-	\begin{exercise}  % 8
+	\begin{exercise}  % 9
 	
 	  A recent issue of the \emph{New England Journal of Medicine} reported a study of all 122,754 infants born over an 8.5 year period at Parkland Hospital in Dallas, Texas, leaving out multiple births and infants with birth defects.  The researchers  wanted to know if there is a specific birth weight below which infant death and illness increases sharply.
 	  

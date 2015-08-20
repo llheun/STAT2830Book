@@ -685,10 +685,15 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 \end{table}
 
   \begin{enumerate}
+  \samepage
   \item Interval-Ratio
+  \samepage
   \item Mode
+  \samepage
   \item Nominal
+  \samepage
   \item Normal
+  \samepage
   \item Ordinal
   \end{enumerate}  
 	
