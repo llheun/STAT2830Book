@@ -546,9 +546,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 \newpage
 \section{Exercise}
 
-\begin{exercises} % 1
+\begin{exercises}    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-  \begin{exercise}
+  \begin{exercise}  % 1
   
     250 individuals were randomly selected and 195 of them do not smoke. What proportion of individuals are smokers?
 	  \begin{enumerate}
@@ -769,6 +769,24 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
     $ p = \frac{(19 + 15)}{50} \times 100 = 68 $
   \end{solution}
 
-
+  \begin{exercise}  % 10
+	
+	The town Kalamazoo, Michigan, has a population of 75548 and 3549 experienced property crimes and 425 violent crimes during the past year.  Compute a rate for each type of crime per 1,000 population.
+	 
+   \vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+    violent crime rate is 
+    <<results="asis", echo=FALSE>>=
+      425/75548 * 1000 
+    @
+    property crime rate is 
+    <<results="asis", echo=FALSE>>=
+      3549/75548 * 1000 
+    @
+    
+  \end{solution}
 
 \end{exercises}
