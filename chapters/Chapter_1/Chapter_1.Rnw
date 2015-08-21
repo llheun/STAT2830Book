@@ -421,32 +421,6 @@ Since 1968, voter surveys use inferential statistics.
   \end{solution}
 
 \pagebreak
-	\begin{exercise}  % 6
-	
-	The following table shows the distribution of weights of 50 female students.
-
-  \begin{table}[htbp]
-   \centering
-  \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-  Weight(kg) & Frequency \\ \hline
-  30 - 39 & 7 \\
-  40 - 49 & 19 \\
-  50 - 59 & 15 \\
-  60 - 69 & 6 \\
-  70 - 70 & 3 \\ \hline
-  Total & 50 \\ \hline 
-   \end{tabular}
-   \end{table}	
-	
-  What percentage of women weigh 40 - 59 kilograms?
-   
-   \vspace{5mm}
-    \framebox[5cm][l]{ Answer: }
-  \end{exercise}
-  \vspace{2mm}
-  \begin{solution}
-    $ p = \frac{(19 + 15)}{50} \times 100 = 68 $
-  \end{solution}
 
 	\begin{exercise}  % 7 
 	
