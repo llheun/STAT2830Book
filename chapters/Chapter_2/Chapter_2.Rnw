@@ -771,7 +771,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
   \begin{exercise}  % 10
 	
-	The town Kalamazoo, Michigan, has a population of 75548 and 3549 experienced property crimes and 425 violent crimes during the past year.  Compute a rate for each type of crime per 1,000 population.
+	The town Kalamazoo, Michigan, has a population of 75548 and  experienced 3549 property crimes and 425 violent crimes during the past year.  Compute a rate for each type of crime per 1,000 population.
 	 
    \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
