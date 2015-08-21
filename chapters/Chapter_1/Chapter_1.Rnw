@@ -474,9 +474,13 @@ Since 1968, voter surveys use inferential statistics.
 	  
     The independent variable in the study is  
     \begin{enumerate}
+    \samepage
     \item death and illness.
+    \samepage
     \item infants (leaving out multiple births, etc.)
+    \samepage
     \item birth weight.
+    \samepage
     \item Parkland Hospital.
     \end{enumerate}
     \samepage
