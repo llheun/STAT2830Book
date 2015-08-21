@@ -703,6 +703,8 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   The measure of the lost hours due to traffic is interval-ratio.
   \end{solution}
   
+\pagebreak
+
     	\begin{exercise}  % 7
 	
 	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
