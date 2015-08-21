@@ -489,6 +489,25 @@ Since 1968, voter surveys use inferential statistics.
     birth weight.
   \end{solution}
   
+	\begin{exercise}  % 10
+	
+	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  You should also select which statistical method should be used: single variable descriptive statistic or a multi-variable descriptive statistic or inferential statistics.  Recall that it is common for some projects to require more than one type of method.
+	  
+	  Ten years ago, a state reinstituted the death penalty for first degree murder.  Researchers asked, did this change of policy reduce the murder rate?  A team of researchers gathered data on the number of homicides in the state for two-year periods before and after the policy change.  
+	  
+    \vspace{2cm}
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
   
+    Variable: Homicide rate \\
+    Level of Measurement: Interval-ratio \\
+    Type: Continuous \\
+    Application: Descriptive (two variables)
+    
+  \end{solution}
+    
 
 \end{exercises} 
