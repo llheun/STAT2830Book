@@ -33,24 +33,24 @@
 \contentsline {section}{\numberline {1.4}Mindmap of Type of Data}{12}
 \contentsline {section}{\numberline {1.5}Key Words}{13}
 \contentsline {section}{\numberline {1.6}Exercises}{14}
-\contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{17}
-\contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{17}
-\contentsline {subsection}{\numberline {2.1.1}Percentages and Proportions}{18}
-\contentsline {subsubsection}{GSS Example}{18}
-\contentsline {subsubsection}{Interpretation}{19}
-\contentsline {subsection}{\numberline {2.1.2}Ratio}{19}
+\contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{19}
+\contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{19}
+\contentsline {subsection}{\numberline {2.1.1}Percentages and Proportions}{20}
 \contentsline {subsubsection}{GSS Example}{20}
-\contentsline {subsubsection}{Interpretation}{20}
-\contentsline {subsection}{\numberline {2.1.3}Rates}{20}
-\contentsline {subsection}{\numberline {2.1.4}Percent Change}{21}
-\contentsline {section}{\numberline {2.2}Summarizing Categorical Data}{22}
-\contentsline {subsection}{\numberline {2.2.1}Frequency Distribution Table}{22}
-\contentsline {subsection}{\numberline {2.2.2}Construct a frequency distribution table for 2014 GSS survey}{22}
-\contentsline {subsection}{\numberline {2.2.3}Pie Chart}{23}
-\contentsline {subsection}{\numberline {2.2.4}Bar Chart}{24}
-\contentsline {section}{\numberline {2.3}Summarizing Numerical Data}{25}
-\contentsline {subsection}{\numberline {2.3.1}Frequency Distribution Table}{25}
-\contentsline {subsection}{\numberline {2.3.2}Histogram}{26}
-\contentsline {subsection}{\numberline {2.3.3}Boxplot}{27}
-\contentsline {section}{\numberline {2.4}Key Words}{28}
-\contentsline {section}{\numberline {2.5}Exercise}{29}
+\contentsline {subsubsection}{Interpretation}{21}
+\contentsline {subsection}{\numberline {2.1.2}Ratio}{21}
+\contentsline {subsubsection}{GSS Example}{22}
+\contentsline {subsubsection}{Interpretation}{22}
+\contentsline {subsection}{\numberline {2.1.3}Rates}{22}
+\contentsline {subsection}{\numberline {2.1.4}Percent Change}{23}
+\contentsline {section}{\numberline {2.2}Summarizing Categorical Data}{24}
+\contentsline {subsection}{\numberline {2.2.1}Frequency Distribution Table}{24}
+\contentsline {subsection}{\numberline {2.2.2}Construct a frequency distribution table for 2014 GSS survey}{24}
+\contentsline {subsection}{\numberline {2.2.3}Pie Chart}{25}
+\contentsline {subsection}{\numberline {2.2.4}Bar Chart}{26}
+\contentsline {section}{\numberline {2.3}Summarizing Numerical Data}{27}
+\contentsline {subsection}{\numberline {2.3.1}Frequency Distribution Table}{27}
+\contentsline {subsection}{\numberline {2.3.2}Histogram}{28}
+\contentsline {subsection}{\numberline {2.3.3}Boxplot}{29}
+\contentsline {section}{\numberline {2.4}Key Words}{30}
+\contentsline {section}{\numberline {2.5}Exercise}{31}
