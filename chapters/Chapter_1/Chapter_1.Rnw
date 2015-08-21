@@ -433,7 +433,7 @@ Since 1968, voter surveys use inferential statistics.
     \item the list of questions asked.
     \item all adult residents of the U.S.
     \end{enumerate}
-    \vspace{1cm}
+    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
