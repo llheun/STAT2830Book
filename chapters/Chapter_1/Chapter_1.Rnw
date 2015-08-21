@@ -473,7 +473,7 @@ Since 1968, voter surveys use inferential statistics.
 	  
 	  Ten years ago, a state reinstituted the death penalty for first degree murder.  Researchers asked, did this change of policy reduce the murder rate?  A team of researchers gathered data on the number of homicides in the state for two-year periods before and after the policy change.  
 	  
-    \vspace{1cm}
+    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
