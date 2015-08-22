@@ -429,6 +429,7 @@ There is no mode since there are no duplicates.
 \end{figure}
 
 {\bf{3. }} When we compare the median to the mean, we find the median (555) is greater the mean (472.6).  Therefore, we can say the the dataset is left skewed.
+
   \end{solution}
   
   \begin{exercise} % 4
@@ -451,7 +452,9 @@ There is no mode since there are no duplicates.
   \end{exercise}
   \vspace{2m}
   \begin{solution}
+  
   {\bf{(1. )}} Mode  {\bf{(2. )}} Median  {\bf{(3. )}} Mean  {\bf{(4. )}} Mean  {\bf{(5. )}} Median  {\bf{(6. )}} Mode
+  
   \end{solution}
   
   \begin{exercise} % 5
