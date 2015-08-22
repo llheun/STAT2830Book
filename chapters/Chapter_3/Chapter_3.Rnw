@@ -321,7 +321,7 @@ The other measure of location are as follows:
 
 \begin{exercises}
 
-  \begin{exercise} 
+  \begin{exercise} % 1
   
   The weekly budget for groceries of  six student are as follows: \\
 \$30, \$35, \$40, \$28, \$35, \$25. \\ Compute the mean, median, and mode, respectively.
@@ -331,13 +331,18 @@ The other measure of location are as follows:
 	\item 32.167, 32.5, 35
 	\item 188, 30, 35
 	\end{enumerate}
+	
+	\vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
-	{\bf{(3. )}}
-	32.167, 32.5, 35 
+	
+	mean = 32.167, median = 32.5, mode = 35
+	
 	\end{solution}
 	
-  \begin{exercise} 
+  \begin{exercise} % 2
   
   John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
 	\begin{enumerate}
@@ -346,13 +351,18 @@ The other measure of location are as follows:
 	\item 18 
 	\item 24
 	\end{enumerate}
+	
+	\vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
-	{\bf{(2. )}}
+	
 	The three value must be 22.  
+	
 	\end{solution}
 	
-  \begin{exercise} 
+  \begin{exercise} % 3  
   
     The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
 % Requires the booktabs if the memoir class is not being used
@@ -380,7 +390,11 @@ The other measure of location are as follows:
   \item Is there a positive skew in the data?  
   \item How do you know?
   \end{enumerate}
+  
+  \vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
   
 <<result="asis", echo=FALSE>>=
@@ -401,7 +415,7 @@ xsumm1[3]
 
 There is no mode since there are no duplicates.
 
-{\bf{1. }} the greater value is the median (555).  {\bf{2. }} There is a negative skewness in the middle half the of the dataset.  (Refer to Figure 3.1.)
+{\bf{1. }} The greater value is the median (555).  {\bf{2. }} There is a negative skewness in the middle half the of the dataset.  (Refer to Figure 3.1.)
 
 %' <<f3_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Boxplot of Cars per 1000">>=
 %' boxplot(xdt1, horizontal=TRUE, xlab="Cars per 1000")
@@ -417,7 +431,7 @@ There is no mode since there are no duplicates.
 {\bf{3. }} When we compare the median to the mean, we find the median (555) is greater the mean (472.6).  Therefore, we can say the the dataset is left skewed.
   \end{solution}
   
-  \begin{exercise} 
+  \begin{exercise} % 4
   
     You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
 
@@ -431,12 +445,16 @@ There is no mode since there are no duplicates.
   \end{enumerate}
 
   Find the most appropriate measures of central tendency for each variable:
+  
+  \vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
   \end{exercise}
+  \vspace{2m}
   \begin{solution}
   {\bf{(1. )}} Mode  {\bf{(2. )}} Median  {\bf{(3. )}} Mean  {\bf{(4. )}} Mean  {\bf{(5. )}} Median  {\bf{(6. )}} Mode
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 5
   
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -462,7 +480,11 @@ There is no mode since there are no duplicates.
   \begin{enumerate}
   \item Find appropriate measures of central tendency for each variable
   \end{enumerate}
+  
+  \vspace{1cm}
+    \framebox[5cm][l]{ Answer: }
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     {\bf{Birth}} Mode=``North''; {\bf{Legal}} Median=2.5;  {\bf{Expense}} Mean=48.5; {\bf{Movies}} Mean=5.8; {\bf{Food}} Median=6;  {\bf{Religion}} Mode=``Protestant''
   
