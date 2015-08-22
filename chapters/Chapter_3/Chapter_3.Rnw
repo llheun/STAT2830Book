@@ -456,7 +456,8 @@ There is no mode since there are no duplicates.
   {\bf{(1. )}} Mode  {\bf{(2. )}} Median  {\bf{(3. )}} Mean  {\bf{(4. )}} Mean  {\bf{(5. )}} Median  {\bf{(6. )}} Mode
   
   \end{solution}
-  
+
+\pagebreak  
   \begin{exercise} % 5
   
 % Requires the booktabs if the memoir class is not being used
