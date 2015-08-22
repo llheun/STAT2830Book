@@ -332,7 +332,7 @@ The other measure of location are as follows:
 	\item 188, 30, 35
 	\end{enumerate}
 	
-	\vspace{1cm}
+	\vspace{5mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -352,7 +352,7 @@ The other measure of location are as follows:
 	\item 24
 	\end{enumerate}
 	
-	\vspace{1cm}
+	\vspace{5mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -490,5 +490,5 @@ There is no mode since there are no duplicates.
   
   \end{solution}
   
-  
+    
 \end{exercises}
