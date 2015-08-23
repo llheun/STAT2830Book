@@ -442,7 +442,14 @@ There is no mode since there are no duplicates.
   
   \begin{exercise} % 4
   
+\begin{minipage}[ht]{6.5cm}
+
     You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
+
+Find the most appropriate measures of central tendency for each variable:
+
+\end{minipage} ]hfill
+\begin{minipage}[ht]{6.5cm}
 
   \begin{enumerate}
   \item their region of birth
@@ -452,11 +459,12 @@ There is no mode since there are no duplicates.
   \item quality of cafeteria food (10=excellent, 0=bad)
   \item religous affiliation.
   \end{enumerate}
-
-  Find the most appropriate measures of central tendency for each variable:
   
+\end{minipage}
+
   \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2m}
   \begin{solution}
