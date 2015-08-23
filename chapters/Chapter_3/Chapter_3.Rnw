@@ -446,9 +446,9 @@ There is no mode since there are no duplicates.
 
     You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
 
-Find the most appropriate measures of central tendency for each variable:
+Determine the  appropriate measures of central tendency for each variable:
 
-\end{minipage} ]hfill
+\end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
 
   \begin{enumerate}
