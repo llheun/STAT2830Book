@@ -368,6 +368,15 @@ The other measure of location are as follows:
 
 \begin{minipage}[ht]{6.5cm}
 
+  \begin{enumerate}
+  \item Which is greater in value? 
+  \item Is there a positive skew in the data?  
+  \item How do you know?
+  \end{enumerate}
+  
+\end{minipage}
+\begin{minipage}[ht]{6.5cm}
+
 % Requires the booktabs if the memoir class is not being used
 % \begin{table}[htbp]
 %  \centering
@@ -388,16 +397,8 @@ The other measure of location are as follows:
    % \label{tab:t3_9}
 % \end{table}
 
-\end{minipage} \hfill
-\begin{minipage}[ht]{6.5cm}
+\end{minipage} 
 
-  \begin{enumerate}
-  \item Which is greater in value? 
-  \item Is there a positive skew in the data?  
-  \item How do you know?
-  \end{enumerate}
-  
-\end{minipage}
 
   \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
