@@ -365,9 +365,12 @@ The other measure of location are as follows:
   \begin{exercise} % 3  
   
     The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
+
+\begin{minipage}[ht]{6.5cm}
+
 % Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-  \centering
+% \begin{table}[htbp]
+%  \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
   % \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
    \begin{tabular}{@{} lc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
@@ -385,12 +388,17 @@ The other measure of location are as follows:
    \label{tab:t3_9}
 \end{table}
 
+\end{minipage} \hfill
+\begin{minipage}[ht]{6.5cm}
+
   \begin{enumerate}
   \item Which is greater in value? 
   \item Is there a positive skew in the data?  
   \item How do you know?
   \end{enumerate}
   
+\end{minipage}
+
   \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
@@ -431,6 +439,7 @@ There is no mode since there are no duplicates.
 {\bf{3. }} When we compare the median to the mean, we find the median (555) is greater the mean (472.6).  Therefore, we can say the the dataset is left skewed.
 
   \end{solution}
+  
 %'   
 %'   \begin{exercise} % 4
 %'   
