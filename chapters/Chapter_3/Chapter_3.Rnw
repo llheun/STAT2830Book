@@ -398,7 +398,7 @@ The other measure of location are as follows:
 % \end{table}
 \end{minipage} 
 
-  \vspace{1cm}
+  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
   \vspace{2mm}
