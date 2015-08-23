@@ -444,12 +444,12 @@ There is no mode since there are no duplicates.
   
       You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
       
-\begin{minipage}[ht]{6.5cm}
+\begin{minipage}[ht]{4cm}
 
 Determine the  appropriate measures of central tendency for each variable:
 
 \end{minipage} \hfill
-\begin{minipage}[ht]{6.5cm}
+\begin{minipage}[ht]{9cm}
 
   \begin{enumerate}
   \item their region of birth
