@@ -396,9 +396,7 @@ The other measure of location are as follows:
    % \caption{Source: http://www.nationmaster.com}
    % \label{tab:t3_9}
 % \end{table}
-
 \end{minipage} 
-
 
   \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
