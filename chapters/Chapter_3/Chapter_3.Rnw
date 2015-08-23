@@ -342,26 +342,26 @@ The other measure of location are as follows:
 	
 	\end{solution}
 	
-%'   \begin{exercise} % 2
-%'   
-%'   John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
-%' 	\begin{enumerate}
-%' 	\item 20
-%' 	\item 22
-%' 	\item 18 
-%' 	\item 24
-%' 	\end{enumerate}
-%' 	
-%' 	\vspace{5mm}
-%'     \framebox[5cm][l]{ Answer: }
-%' 	\end{exercise}
-%' 	\vspace{2mm}
-%' 	\begin{solution}
-%' 	
-%' 	The three value must be 22.  
-%' 	
-%' 	\end{solution}
-%' 	
+  \begin{exercise} % 2
+  
+  John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
+	\begin{enumerate}
+	\item 20
+	\item 22
+	\item 18 
+	\item 24
+	\end{enumerate}
+	
+	\vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	
+	The three value must be 22.  
+	
+	\end{solution}
+	
 %'   \begin{exercise} % 3  
 %'   
 %'     The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
