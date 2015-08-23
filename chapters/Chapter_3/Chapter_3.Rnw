@@ -384,9 +384,9 @@ The other measure of location are as follows:
    Spain & 593 \\
    United Kingdom & 519 \\ \hline
    \end{tabular}
-   \caption{Source: http://www.nationmaster.com}
-   \label{tab:t3_9}
-\end{table}
+   % \caption{Source: http://www.nationmaster.com}
+   % \label{tab:t3_9}
+% \end{table}
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6.5cm}
