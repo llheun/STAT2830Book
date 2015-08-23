@@ -498,7 +498,7 @@ Determine the  appropriate measures of central tendency for each variable:
 \end{table}
 
   \begin{enumerate}
-  \item Find appropriate measures of central tendency for each variable
+  \item Determine the appropriate measures of central tendency for each variable
   \end{enumerate}
   
   \vspace{1cm}
