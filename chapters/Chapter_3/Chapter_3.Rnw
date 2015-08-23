@@ -462,11 +462,11 @@ Determine the  appropriate measures of central tendency for each variable:
   
 \end{minipage}
 
-  \vspace{1cm}
+\vspace{1cm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  \vspace{2m}
+  \vspace{2mm}
   \begin{solution}
   
   {\bf{(1. )}} Mode  {\bf{(2. )}} Median  {\bf{(3. )}} Mean  {\bf{(4. )}} Mean  {\bf{(5. )}} Median  {\bf{(6. )}} Mode
