@@ -442,9 +442,9 @@ There is no mode since there are no duplicates.
   
   \begin{exercise} % 4
   
+      You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
+      
 \begin{minipage}[ht]{6.5cm}
-
-    You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
 
 Determine the  appropriate measures of central tendency for each variable:
 
