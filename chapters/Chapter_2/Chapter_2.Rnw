@@ -775,9 +775,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   Total & 50 \\ \hline 
    \end{tabular}
    \end{table}	
-	
+	\samepage
   What percentage of women weigh 40 - 59 kilograms?
-   
+  \samepage 
    \vspace{4mm}
    \samepage
     \framebox[5cm][l]{ Answer: }
@@ -794,6 +794,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	 
    \vspace{1cm}
     \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
