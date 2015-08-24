@@ -778,7 +778,8 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	
   What percentage of women weigh 40 - 59 kilograms?
    
-   \vspace{5mm}
+   \vspace{4mm}
+   \samepage
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
