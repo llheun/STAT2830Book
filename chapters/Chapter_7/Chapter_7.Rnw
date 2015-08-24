@@ -24,13 +24,13 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lll @{}}  \hline % Column formatting, @{} suppresses leading/trailing space
-   Statistic & Sample Estimator & Population Parameter \\ \hline
-   mean & $\bar{X} = \frac{sumX}{n}$ & $\mu = \frac{sumX}{N} $ \\
-   variance & $s^2 = \frac{sumSqdDiff}{n - 1}$ & $\sigma^2 = \frac{sumSqdDiff}{N}$ \\
-   standard deviation & $s = \sqrt{s^2}$ & $\sigma = \sqrt{ \sigma^2}$ \\
-   proportion & $P_s = \frac{f_s}{n_s} $ & $P_u = \frac{f_u}{n_u} $ \\ \hline
+   Term  & Parameter & Statistic  \\ \hline
+   Mean  & $\mu = \frac{sumX}{N} $ & & $\bar{X} = \frac{sumX}{n}$ \\
+   Variance  & $\sigma^2 = \frac{sumSqdDiff}{N}$ & & $s^2 = \frac{sumSqdDiff}{n - 1}$ \\
+   Standard Deviation  & $\sigma = \sqrt{ \sigma^2}$ & & $s = \sqrt{s^2}$  \\
+   Proportion  & $P_u = \frac{f_u}{n_u} $ & & $P_s = \frac{f_s}{n_s} $ \\ \hline
    \end{tabular}
-   \caption{Definitions of various statistics}
+   \caption{Definitions}
    \label{tab:s7_1}
 \end{table} 
 
