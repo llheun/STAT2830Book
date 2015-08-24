@@ -113,11 +113,11 @@
 \contentsline {section}{\numberline {7.1}Objective}{81}
 \contentsline {section}{\numberline {7.2}Calculating Confidence Interval for Population Mean}{81}
 \contentsline {subsection}{\numberline {7.2.1}Point Estimates}{81}
-\contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{81}
+\contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{82}
 \contentsline {subsubsection}{Steps for calculating CI for population mean, $\mu $.}{84}
-\contentsline {section}{\numberline {7.3}Calculating Confidence Interval for Population Proportion}{85}
-\contentsline {subsubsection}{Example 3 for Calculating CI for Population Proportion}{86}
-\contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{87}
+\contentsline {section}{\numberline {7.3}Calculating Confidence Interval for Population Proportion}{84}
+\contentsline {subsubsection}{Example 3 for Calculating CI for Population Proportion}{85}
+\contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{86}
 \contentsline {section}{\numberline {7.4}Key Words}{87}
 \contentsline {section}{\numberline {7.5}Exercises}{88}
 \contentsline {chapter}{\numberline {8}Testing One Sample Hypotheses }{93}

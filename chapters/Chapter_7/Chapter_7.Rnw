@@ -36,6 +36,8 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
 
 \subsection{Interval Estimates}
 
+In the preceding chapters we discussed the differences between a population and a sample.  The sample which is a portion of a population of interest, such as researchers found that 15 of 200 households consisted of unmarried couples who were living together.  The reason  for collecting this data the sample statistic are     ???????????????
+
 The {\bf{Interval Estimate}} or {\bf{Confidence Interval}} is a range of values to estimate the true value or a population parameter.  A confidence interval is sometimes abbreviated as {\bf{CI}}.
 
 Let's consider an example by computing a confidence interval for a population mean.  A random sample of 16 females were taken and their IQ scores were measured.  Construct a 95 percent confidence interval for the mean female IQ scores.  The following table has the individual values.
