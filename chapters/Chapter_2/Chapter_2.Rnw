@@ -43,7 +43,7 @@ Disposition  & Frequency & Proportion & Percent \\ \hline
    More than 5 yrs sentence & 167.00 & 0.62 & 62.08 \\ 
     \hline
  \end{tabular}
-   \caption{Frequency Distribution of Dsiposition of Criminal Cases}
+   \caption{Frequency Distribution of Disposition of Criminal Cases}
    \label{tab:t2_1}
  \end{table}
 
@@ -215,7 +215,7 @@ Rate = \frac{f}{n} \times (per) ,
 
 \subsection{Percent Change}
 
-Suppose in just a year 2000, a ??? state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  
+Suppose in just a year 2000, a state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  
 
 \begin{itemize}
 \item What is the percentage change?
@@ -561,6 +561,8 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \samepage
 	  \item 22\%
   	\end{enumerate}
+  	\vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
   	
   \end{exercise}
   \vspace{2mm}
@@ -581,6 +583,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \item 3.55
 	  \item 55
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	  
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
@@ -602,6 +607,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \samepage
 	  \item 0.00052
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
@@ -623,6 +631,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 	  \samepage
 	  \item $-7.2\%$
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
@@ -661,6 +672,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \item For doctors, what is the ratio of females to males?
   \item What percentage of the total staff are females?
   \end{enumerate}
+  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2mm} 
   \begin{solution}
@@ -696,7 +710,9 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \samepage
   \item Ordinal
   \end{enumerate}  
-	
+	\vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2mm} 
   \begin{solution}
@@ -765,6 +781,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
    
    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2mm}
   \begin{solution}

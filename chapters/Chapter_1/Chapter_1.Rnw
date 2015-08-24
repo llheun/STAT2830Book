@@ -51,7 +51,7 @@ The five reasons to study statistics:
 \item to be able to effectively conduct research, 
 \item to be able to read and evaluate journal articles, 
 \item to further develop critical thinking and analytic skills, 
-\item to act a an informed consumer, and 
+\item to act as an informed consumer, and 
 \item to know when you need to hire outside statistical help. % \cite{URL}{knoko}
 \end{itemize} 
 
@@ -73,17 +73,17 @@ The Wheel of Science gives us  a process to refine our thinking about the nature
 
 \subsubsection{{Data}} Data are information collected from the population for further analysis.
 
-\subsubsection{Theory}  Theory is a statement used to explain a situation, eg., 
+\subsubsection{Theory}  Theory is a statement used to explain a situation, e.g., 
 is there a difference about alcohol awareness  between health and safety class and a statistics class among college stadents.
 
-\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, eg.,  
+\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, e.g.,  
 alcohol awareness among college students is the same between  students enrolled in a health and safety class and for those enrolled in a statistics class.
 
-\subsubsection{Observations}  Observations are collected data to test hypothesis, eg., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.
+\subsubsection{Observations}  Observations are collected data to test hypothesis, e.g., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.
 
 
 
-\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing the data, eg., 
+\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing the data, e.g., 
 A study of alcohol awareness among college students reported a higher awareness for students enrolled in a health and safety class than for those enrolled in a statistics class.
 
 \subsubsection{Variables and Cases}
@@ -166,7 +166,7 @@ looking for relationships between three or more variables that describe strength
 
 \subsection{Inferential Statistics}
 
-Inferential statistics makes a general statement about a population based on a sample se;ected from that population.
+Inferential statistics makes a general statement about a population based on a sample selected from that population.
 
 \setlength{\unitlength}{1cm}
 \begin{picture}(8,4)
@@ -196,7 +196,7 @@ Since 1968, voter surveys use inferential statistics.
 \subsection{Categorical (qualitative data)}
 
 \begin{itemize}
-\item characteristics CANNOT be measured.
+\item characteristics CANNOT be measured but must be counted.
 \item e.g., gender, eye color, race, political affiliation, social status, etc.
 \end{itemize}
 
@@ -243,7 +243,7 @@ Since 1968, voter surveys use inferential statistics.
 
 \item An interval numerical  variable has magnitude but the ratio does not make sense.
 	\begin{itemize}
-	\item e.g., GPA (using a 4 point system, a 4 is not twice the value of a 2),  temperature (60 degrees is not twice as warm as 30 degrees).
+	\item e.g., GPA (using a 4 point system, a 4 point is not twice the value of a 2 point),  temperature (60 degrees is not twice as warm as 30 degrees).
 	  
 	\end{itemize} 	
 	
