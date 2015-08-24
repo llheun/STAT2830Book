@@ -680,7 +680,8 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   \begin{solution}
     {\bf{(1. )}} The percentage of nurses who are female is 36.8\%.  {\bf{(2. )}} The proportion of orderlies who are  males is 0.367.  {\bf{(3. )}} Ratio is  18 females docs to 83 males docs or approximately 1 female doc for every 5 males docs.  {\bf{(4. )}} Percentage of females on the staff is 43.3\%.
   \end{solution}
-    
+
+\newpage
   \begin{exercise} % 6 
   
     You have gathered annual person-hours of time lost due to traffic congestion for a randomly selected group of cities for 2014.  What is the  measure of traffic congestion?
@@ -689,11 +690,11 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 \begin{table}[htbp]
    
    %\topcaption{Table captions are better up top} % requires the topcapt package
-  % \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
-   \begin{tabular}{@{} ccccccccc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
-      25 & 22 & 5 & 22 & 7 & 32 & 29 & 32 & 8  \\ 
-      38 & 27 & 22 & 10 & 21 & 21 & 8 & 23 & 21 \\ \hline
-   \end{tabular}
+  % \multicolumn{18}{c}{Time Lost due to Traffic Congestion}
+   {\small{
+   \begin{tabular}{@{} cccccccccccccccccc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
+      25 & 22 & 5 & 22 & 7 & 32 & 29 & 32 & 8 & 38 & 27 & 22 & 10 & 21 & 21 & 8 & 23 & 21 \\ \hline
+   \end{tabular} }}
    % \caption{Remember, \emph{never} use vertical lines in tables.}
    \label{tab:t2_9}
 \end{table}
@@ -719,8 +720,6 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
   The measure of the lost hours due to traffic is interval-ratio.
   \end{solution}
   
-\pagebreak
-
     	\begin{exercise}  % 7
 	
 	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
