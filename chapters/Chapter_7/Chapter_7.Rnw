@@ -154,7 +154,7 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
    \begin{tabular}{@{} cccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       
      & \multicolumn{5}{c}{$\alpha$  for one-tailed tests} \\ \hline
-     & ,1 & .05 & 0.025 & .01 & .005 \\ \hline 
+     & .1 & .05 & 0.025 & .01 & .005 \\ \hline 
           & \multicolumn{5}{c}{$\alpha$ for two-tailed tests} \\ \hline
   $df$  & .2 & .1 & 0.05 & .025 & .01 \\ \hline 
   14 & 1.345 & 1.761 & 2.145 & 2.624 & 2.977 \\
@@ -203,7 +203,7 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 	
 	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we use the {\bf{Z table}} to find the CV.
 	
-	\item If we calculated SE in the previous step using the formula, $\frac{s}{\sqrt{n}}$, we use the {\bf{t-distribution table}}, we need the significance value from the problem (1\% or 5\%, or 10\%) and the degrees of freedom ($df$): $n -1$.  For obtaining this critical value, we look for the values tabulated under the two-sided tests.
+	\item If we calculated SE in the previous step using the formula, $\frac{s}{\sqrt{n}}$, we use the {\bf{t-distribution table}}, we need  $\alpha$  from the problem (1\% or 5\%, or 10\%) and the degrees of freedom ($df$): $n -1$.  
 	\end{itemize} 
 
 \item Calculate the Margin of Error (ME), $ME = CV \times SE$.
