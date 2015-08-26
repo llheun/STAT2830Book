@@ -215,36 +215,36 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 
 Let's look at constructing confidence intervals about a proportion with this example.
 
-A random sample was selected of 100 patients treated in a program for alcoholism and drug dependency over the past 10 years.  It was determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for recidivism.
+A random sample was selected of 100 patients treated in a program for alcoholism and drug dependency over the past 10 years.  It was determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for readmission.
 
 \begin{enumerate}
 \item Identify the {\bf{population parameter}} of interest.
 	\begin{itemize}
-	\item The population parameter of interest is the population proportion ($P_u$) for recidivism.
+	\item The population parameter of interest is the population proportion ($P_u$) for readmission.
 	\end{itemize}
 \item Calculate the {\bf{point estimate}}.
 	\begin{itemize}
 	\item $ P_s = \frac{f}{n} = \frac{53}{100} = 0.53$
 	\end{itemize}
-\item Calculate the {\bf{Standard Error}} of the estimate.
+\item Calculate the {\bf{standard error}} of the estimate.
 	\begin{itemize}
 	\item $SE = \sqrt{ \frac{P_s (1 - P_s)}{n}} = \sqrt{ \frac{0.53 (1 - 0.53)}{100}} = 0.050$
 	\end{itemize}
-\item Determine the {\bf{Critical Value}} using the following table:
+\item Determine the {\bf{critical value}} using the following table:
 
 	\begin{center}
 	   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-      Significance ($\alpha$) & Critical Value \\ \hline
-      0.01 & $\pm 2.58$ \\
-      0.05 & $\pm 1.96$ \\
-      0.10 & $\pm 1.645 $ \\ \hline 
+      $\alpha$ & CV \\ \hline
+      0.01 & $2.58$ \\
+      0.05 & $1.96$ \\
+      0.10 & $1.645 $ \\ \hline 
       \end{tabular}
       \end{center}	
       
       \begin{itemize}
-      \item significance value = $\alpha = 1 - 0.95 = 0.05 \rightarrow CV = Z = \pm 1.96$
+      \item $\alpha = 1 - 0.95 = 0.05 \rightarrow CV = Z = 1.96$
       \end{itemize}
- \item Calculate the {\bf{Margin of Error (ME)}}  
+ \item Calculate the {\bf{margin of error (ME)}}  
  	\begin{itemize}
 	\item $ME = CV \times SE = 1.96 \times 0.05 = 0.098$
 	\end{itemize}
@@ -256,37 +256,37 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 (0.432 &, 0.628)
 \end{align*}
 
-\item Thus, we are 95 percent confident that the true population proportion for recidivism is between 43.2\% and 62.8\%.
+\item Thus, we are 95 percent confident that the true population proportion for readmission is between 43.2\% and 62.8\%.  More discussion???????
 \end{enumerate}
 
-\subsubsection{Example 3 for Calculating CI for Population Proportion}
+\subsubsection{Example 3  Calculating CI for Population Proportion}
 
-A survey was conducted and found that 25 of the 178 households consisted of unmarried couples who were living together.  Find the 95 percent confidence interval for the proportion of unmarried couples living together in households.
+A survey was conducted and found that 25 of the 178 households in Grand Rapids consisted of unmarried couples who were living together.  Find the 95 percent CI for the proportion of unmarried couples living together in Grand Rapids.
 
 \begin{enumerate}
 \item Identify the {\bf{population parameter}} of interest.
 	\begin{itemize}
-	\item The population parameter of interest is the population proportion of unmarried couples living together in households.
+	\item The population parameter of interest is the population proportion of unmarried couples living together in Grand Rapids.
 	\end{itemize}
 
-\item Calculate the {\bf{point estimate}}.  
+\item Calculate the {\bf{point estimate}} (sample proportion).  
 	\begin{itemize}
 	\item $P_s = \frac{f}{n} = \frac{25}{178} = 0.140 $
 	\end{itemize}
 
-\item Calculate the {\bf{Standard Error}} of the estimate.
+\item Calculate the {\bf{standard error}} of the estimate.
 	\begin{itemize}
 	\item $SE = \sqrt{ \frac{P_s (1 - P_s)}{n}} = \sqrt{ \frac{0.14 (1 - 0.14)}{178}} = 0.026$
 	\end{itemize}
 
-\item Determine the {\bf{Critical Value}}.
+\item Determine the {\bf{critical value}}.
 	\begin{itemize}
 	\item Significance value \\
 	$\alpha = 1 - 0.95 = 0.05$ \\
-	$CV = Z = \pm 1.96$ 
+	$CV = Z =  1.96$ 
 	\end{itemize}
 	
-\item Calculate the {\bf{Margin of Error}}.
+\item Calculate the {\bf{margin of error}}.
 	\begin{itemize}
 	\item $ME = CV \times SE = 1.96 \times 0.026 = 0.051 $
 	\end{itemize}
@@ -305,7 +305,7 @@ A survey was conducted and found that 25 of the 178 households consisted of unma
 \subsubsection{Steps for Calculating CI for Population Proportion $P_u$.}
 
 \begin{enumerate}
-\item Identify from the research problem that you need to compute a confidence interval for a population proportion, $P_u$.
+\item Confirm  from the research scenario that you need to compute a confidence interval for a population proportion, $P_u$.
 
 \item Calculate the point estimate: sample proportion $P_s = \frac{f}{n}$, where $n$ is the sample size and $f$ is the observed counts under the category of interest..
 
@@ -316,9 +316,9 @@ $SE = \sqrt{ \frac{P_s(1 - P_s)}{n}}$.
 	\begin{center}
 	   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       Significance ($\alpha$) & Critical Value \\ \hline
-      0.01 & $\pm 2.58$ \\
-      0.05 & $\pm 1.96$ \\
-      0.10 & $\pm 1.645 $ \\ \hline 
+      0.01 & 2.58 \\
+      0.05 & 1.96 \\
+      0.10 & 1.645  \\ \hline 
       \end{tabular}
       \end{center}	
       
@@ -327,12 +327,6 @@ $ME = CV \times SE$.
 
 \item Calculate the confidence interval using the formula: ($P_s - ME, P_s + ME$).
 \end{enumerate}
-
-      
-
-				
-
-
 
 \section{Key Words}
 
@@ -344,16 +338,15 @@ $ME = CV \times SE$.
 \item Efficiency
 \end{itemize}
 
-
-
 \newpage
 
 \section{Exercises}
 \begin{exercises}
 
-  \begin{exercise}
+  \begin{exercise}  % 1
     
-    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+    The next 5 questions refer to the following scenario. ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
+    A random sample of 100 HBO movies released between 2010 to 2015 contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
     \begin{center}
     $\bar{X} = 3.38; s = 0.30; n = 100$
@@ -366,19 +359,17 @@ $ME = CV \times SE$.
     	\item 3.38
 	    \item 338
 	    \end{enumerate}
+	    \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	    
   \end{exercise}
+  \vspace(2mm})
   \begin{solution}
     The point estimate is $\bar{X} = 3.38$.
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 2
   
-    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
-
-    \begin{center}
-    $\bar{X} = 3.38; s = 0.30; n = 100$
-    \end{center}
-
     What is the standard error of your estimate?
     
 	  \begin{enumerate}
@@ -387,20 +378,23 @@ $ME = CV \times SE$.
   	\item 0.30
 	  \item 3.38
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
-	    $SE = \frac{s}{\sqrt{n}} = \frac{0.30}{\sqrt{100}} = 0.03$
+	    $SE = \frac{s}{\sqrt{n}} = \frac{0.30}{\sqrt{100}} = $
+	    <<results="asis", echo=FALSE>>=
+      0.30/sqrt(100)
+      @
+      
 	\end{solution}
 	
-  \begin{exercise}
+  \begin{exercise} % 3
   
-    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
-
-    \begin{center}
-    $\bar{X} = 3.38; s = 0.30; n = 100$
-    \end{center}
-
     What is the critical value?
+    
 	  \begin{enumerate}
 	  \samepage
 	  \item 1.658
@@ -411,7 +405,12 @@ $ME = CV \times SE$.
 	  \samepage
 	  \item 2.000
 	  \end{enumerate}
+	  
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     \begin{align*}
       CV &= t_{99, 0.025} \\ 
@@ -419,22 +418,21 @@ $ME = CV \times SE$.
     \end{align*}
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 4
   
-    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
-
-    \begin{center}
-    $ \bar{X} = 3.38; s = 0.30; n = 100 $
-    \end{center}
-
     What is the margin of error?
+    
 	  \begin{enumerate}
 	  \item 0.0318
 	  \item 0.0497
 	  \item 0.0501
 	  \item 0.0594
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
       \begin{align*}
       SE &= \frac{.3}{\sqrt{100}} = 0.03 \\
@@ -442,15 +440,8 @@ $ME = CV \times SE$.
     \end{align*}
   \end{solution}
   
+  \begin{exercise} % 5 
   
-  \begin{exercise}
-  
-    A random sample of 100 HBO movies contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
-
-    \begin{center}
-    $\bar{X} = 3.38; s = 0.30; n = 100$
-    \end{center}
-
     What is the 95 percent confidence interval?
 	  \begin{enumerate}
 	  \item (3.32, 3.44)
@@ -458,7 +449,11 @@ $ME = CV \times SE$.
 	  \item (4.33, 4.43)
 	  \item (4.43, 5.44)
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	 \end{exercise}
+	 \vspace{2mm}
 	  \begin{solution}
 	    \begin{align*}
 	    CI &= \bar{X} \pm ME = 3.38 \pm 0.0595 \\
@@ -467,7 +462,7 @@ $ME = CV \times SE$.
       \end{align*}
     \end{solution}
     
-  \begin{exercise}
+  \begin{exercise} % 6 
   
     Given the following summary statistics from a random sample:
     \begin{center}
