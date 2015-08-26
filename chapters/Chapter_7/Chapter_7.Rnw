@@ -153,7 +153,7 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} cccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       
-     & \multicolumn{5}{c}{$\aplha$  for one-tailed tests} \\ \hline
+     & \multicolumn{5}{c}{$\alpha$  for one-tailed tests} \\ \hline
      & ,1 & .05 & 0.025 & .01 & .005 \\ \hline 
           & \multicolumn{5}{c}{$\alpha$ for two-tailed tests} \\ \hline
   $df$  & .2 & .1 & 0.05 & .025 & .01 \\ \hline 
