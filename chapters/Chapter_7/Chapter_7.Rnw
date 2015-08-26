@@ -142,7 +142,7 @@ $SE = \frac{s}{\sqrt{n}} = \frac{8.28}{\sqrt{16}} = 2.07$
 
 \item To complete the process of computing a confidence interval, we need the {\bf{critical value (CV)}}.
 	\begin{itemize}
-	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{z table}} to find the CV.
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{z- table}} to find the CV.
 	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{s}{\sqrt{n}}$, we should use the {\bf{t-distribution table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the confidence level (1 - $\alpha$) from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must look  for the values tabulated under two-sided tests. \\ 
 $df = n - 1 = 16 - 1 = 15$ \\
 significance value = $\alpha = 1 - 0.95 = 0.05$
@@ -187,18 +187,18 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
 
 \subsubsection{Steps for calculating CI for population mean, $\mu$.}
  
-So let's examine the steps for calculating the confidence interval for the population mean ($\mu$).
+So let's examine the steps for calculating the CI for the population mean ($\mu$).
 
 \begin{enumerate}
-\item Identify from the research question that we need to calculate a confidence interval for $\mu$.
-\item Calculate the point estimate: sample mean, $\bar{X}$.
-\item Calculate the {\bf{Standard Error}} of the estimate.
+% \item Identify from the research question that we need to calculate a confidence interval for $\mu$.
+\item Calculate the point estimate: sample mean $\bar{X}$.
+\item Calculate the {\bf{standard error}} of the estimate.
 	\begin{itemize} 
-	\item If the population standard deviation, $\sigma$, is given, then $SE = \frac{\sigma}{\sqrt{n}}$.  Note: this value is usually not known.
-	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation, $s$, is calculated (or given), then $SE = \frac{s}{\sqrt{n}}$, where $n$ is the sample size.
+	\item If the population standard deviation, $\sigma$, is known, then $SE = \frac{\sigma}{\sqrt{n}}$.  Note: $\sigma$ is usually not known.
+	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation, $s$, is calculated, then $SE = \frac{s}{\sqrt{n}}$, where $n$ is the sample size.
 	\end{itemize}
 
-\item Determine the Critical Value (CV).
+\item Determine the {\bf{critical value}} (CV).
 	\begin{itemize}
 	
 	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we use the {\bf{Z table}} to find the CV.
