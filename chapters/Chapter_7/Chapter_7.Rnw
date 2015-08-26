@@ -40,14 +40,14 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
 Figure 7.1 shows the idea of a 95 percent confidence interval (CI) in a different form.  It illustrates 50 simple random samples (SRS) drawn from the same population and computing 95 percent CI from each sample.  At the center of each interval is $\bar{x}$ and consequently, varies from sample to sample.  The sampling distribution of $\bar{x}$ appears at the bottom of the graph to illustrate the long term pattern of the variation.  The population $\mu$ is at the center of the sampling distribution.  The 95 percent CI from 50 SRSs are shown above.  The center $\bar{x}$ of each interval is marked with a small circle.  The lines on either side of the circle span the CI.  Most of the 50 CI capture the true value of the population mean $(\mu)$.  The theory says that if we take thousands of samples, 95 percent of the CI will contain $\mu$.
 
 
-<<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=5, fig.cap="50 samples from same population">>=
+<<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=5, fig.cap="50 samples from same population">>=
 
 dddd1 <- runif(120,min=88,max=120);
 popxbar <- mean(dddd1);
 popsd    <- sd(dddd1);
 
-mx1 <- popxbar + 0.7 * popsd;
-mn1 <- popxbar - 0.7 * popsd;
+mx1 <- popxbar + 0.75 * popsd;
+mn1 <- popxbar - 0.75 * popsd;
 
 cv1 <- 1.96;
 plot(c(mn1, mx1), c(1, 50), type="n", xlab="Mean", ylab="sample");
@@ -70,7 +70,7 @@ points(c(mm1), c(i), type="b")
 @
 
 
-The {\bf{Interval Estimate}} or {\bf{Confidence Interval}} is a range of values to estimate the true value or a population parameter.  A confidence interval is sometimes abbreviated as {\bf{CI}}.
+The {\bf{Interval Estimate}} or {\bf{Confidence Interval}} is a range of values to estimate the true value or a population parameter.  A confidence interval is  abbreviated as {\bf{CI}}.
 
 Let's consider an example by computing a confidence interval for a population mean.  A random sample of 16 females were taken and their IQ scores were measured.  Construct a 95 percent confidence interval for the mean female IQ scores.  The following table has the individual values.
 
@@ -82,11 +82,8 @@ Let's consider an example by computing a confidence interval for a population me
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} | cccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-   96 & 105 & 110 & 105 \\
-   117 & 109 & 93 & 107 \\
-   92 & 95 & 99 & 114 \\
-   89 & 108 & 99 & 98 \\ \hline 
+   \begin{tabular}{@{} | cccccccccccccccc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   96 & 105 & 110 & 105 & 117 & 109 & 93 & 107 &  92 & 95 & 99 & 114 &  89 & 108 & 99 & 98 \\ \hline 
    \end{tabular}
 
    \caption{Sample of Female IQ Scores.}
@@ -123,30 +120,30 @@ Let's consider an example by computing a confidence interval for a population me
 \begin{enumerate}
 \item Identify the {\bf{population parameter}} of interest.
 	\begin{itemize} 
-	\item The population parameter of interest is the mean of female IQ scores.
+	\item The population parameter of interest is the mean of IQ scores of all females in Michigan.
 	\end{itemize}
-\item Calculation the {\bf{point estimate}}.
+\item Calculate the {\bf{point estimate:}}.
 	\begin{itemize}
-	\item $ \bar{X} = \frac{96 + 117 + 92 + \cdot + 107 + 114 + 98}{ 16 } = \frac{1636}{16} = 102.25$
+	\item $ \bar{X} = \frac{96 + 117 + 92 + \cdots + 107 + 114 + 98}{ 16 } = \frac{1636}{16} = 102.25$
 	\end{itemize}
-\item Calculate the {\bf{Standard Error}} of the estimate.
+\item Calculate the {\bf{standard error}} of the estimate.
 	\begin{itemize}
-	\item If the population standard deviation, $\sigma$, is given, then $SE = \frac{\sigma}{\sqrt{n}}$.
+	\item If the population standard deviation, $\sigma$, is known, then $SE = \frac{\sigma}{\sqrt{n}}$.
 	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation,
-	$s$, is calculated (or given), then $SE = \frac{s}{\sqrt{n}}$.
+	$s$, is calculated, then $SE = \frac{s}{\sqrt{n}}$.
 	\item $n$ is the sample size.
 	\end{itemize}
-\item Using the data from table 7.3, the variance is \\
+\item Using the data from table 7.3, the variance is 
 $s^2 = \frac{1029}{16 - 1} = 68.6.$
-\item The standard deviation is \\
+\item The standard deviation is 
 $s = \sqrt{s^2} = \sqrt{68.6} = 8.28$.
-\item The standard error of the mean, SE, is \\
+\item The standard error of the mean, SE, is 
 $SE = \frac{s}{\sqrt{n}} = \frac{8.28}{\sqrt{16}} = 2.07$
 
-\item To complete the process of computing a confidence interval, we need the {\bf{Critical Value (CV)}}.
+\item To complete the process of computing a confidence interval, we need the {\bf{critical value (CV)}}.
 	\begin{itemize}
-	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{Z Table}} to find the CV.
-	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{s}{\sqrt{n}}$, we should use the {\bf{t-distribution Table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the significance value from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must for the values tabulated under two-sided tests. \\ 
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{z table}} to find the CV.
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{s}{\sqrt{n}}$, we should use the {\bf{t-distribution table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the confidence level (1 - $\alpha$) from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must look  for the values tabulated under two-sided tests. \\ 
 $df = n - 1 = 16 - 1 = 15$ \\
 significance value = $\alpha = 1 - 0.95 = 0.05$
 
@@ -156,9 +153,9 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} cccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       
-     & \multicolumn{5}{c}{Significance Level for one-tailed tests} \\ \hline
+     & \multicolumn{5}{c}{$\aplha$  for one-tailed tests} \\ \hline
      & ,1 & .05 & 0.025 & .01 & .005 \\ \hline 
-          & \multicolumn{5}{c}{Significance Level for two-tailed tests} \\ \hline
+          & \multicolumn{5}{c}{$\alpha$ for two-tailed tests} \\ \hline
   $df$  & .2 & .1 & 0.05 & .025 & .01 \\ \hline 
   14 & 1.345 & 1.761 & 2.145 & 2.624 & 2.977 \\
   15 & 1.341 & 1.753 & \fbox{2.131} & 2.602 & 2.947 \\
@@ -172,7 +169,7 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
 \item Using the t-table, we find the CV = 2.131
 	\end{itemize}
 	
-\item Calculate the {\bf{Margin of Error (ME)}}.	
+\item Calculate the {\bf{margin of error (ME)}}.	
 	\begin{itemize}
 	\item $ME = CV \times SE = 2.131 \times 2.07 = 4.41 $
 	\end{itemize}
