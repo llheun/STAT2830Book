@@ -414,10 +414,11 @@ $ME = CV \times SE$.
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
-    \begin{align*}
-      CV &= t_{99, 0.025} \\ 
-      CV &= 1.980
-    \end{align*}
+   
+   The critical value is 
+   <<results="asis", echo=FALSE>>=
+    CV1 <- qt(0.975,df=99); CV1
+  @
   \end{solution}
   
   \begin{exercise} % 4
@@ -441,10 +442,16 @@ $ME = CV \times SE$.
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
-      \begin{align*}
-      SE &= \frac{.3}{\sqrt{100}} = 0.03 \\
-      ME &=  t_{99,0.025} \times SE = 1.980 \times 0.03 = 0.0594 
-    \end{align*}
+      SE =
+      <<results="asis", echo=FALSE>>=
+        SE1 <- 0.3/sqrt(100); SE1
+      @
+      
+      ME = 
+      <<results="asis", echo=FALSE>>=
+        ME1 <- CV1 * SE1; ME1 
+      @
+      
   \end{solution}
   
   \begin{exercise} % 5 
