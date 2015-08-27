@@ -105,7 +105,7 @@ Let's consider an example by computing a confidence interval for a population me
    .  & . & . & . \\	
    15 & 114 & 11.75 & 138.06 \\
    16 & 98 & -4.25 & 18.06 \\ \hline 
-   Total & 1636 & 0 & 1029 \\ \hline
+   Total & \fbox{1636} & 0 & 1029 \\ \hline
     
    \end{tabular}
 
@@ -124,7 +124,7 @@ Let's consider an example by computing a confidence interval for a population me
 	\end{itemize}
 \item Calculate the {\bf{point estimate:}}.
 	\begin{itemize}
-	\item $ \bar{X} = \frac{96 + 117 + 92 + \cdots + 107 + 114 + 98}{ 16 } = \frac{1636}{16} = 102.25$
+	\item $ \bar{X} = \frac{96 + 117 + 92 + \cdots + 107 + 114 + 98}{ 16 } = \frac{\fbox{1636}}{16} = 102.25$
 	\end{itemize}
 \item Calculate the {\bf{standard error}} of the estimate.
 	\begin{itemize}
