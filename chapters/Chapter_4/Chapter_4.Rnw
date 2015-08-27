@@ -364,8 +364,8 @@ It measures the  spread  around the mean  as a percentage.
 	\vspace{2mm}
 	\begin{solution}
 	  
-	    LB = Q_1 - 1.5(IQR) = 10 - 1.5 (20 - 10) = -5 \\
-	    UB = Q_3 + 1.5(IQR) = 20 + 1.5 (20 - 10) = 35 \\
+	    LB = $Q_1$ - 1.5(IQR) = 10 - 1.5 (20 - 10) = -5 \\
+	    UB = $Q_3$ + 1.5(IQR) = 20 + 1.5 (20 - 10) = 35 \\
 	  
 	  There are no outliers.
 	  
