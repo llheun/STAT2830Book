@@ -421,9 +421,9 @@ $ME = CV \times SE$.
   \end{solution}
   
   \begin{exercise} % 4
-  \samepage
+  
     What is the margin of error?
-    \samepage
+    
 	  \begin{enumerate}
 	  \samepage
 	  \item 0.0318
