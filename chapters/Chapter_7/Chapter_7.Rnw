@@ -498,10 +498,15 @@ $ME = CV \times SE$.
 
     What is the point estimate of the population proportion for Brazil?
 	    \begin{enumerate}
+	    \samepage
 	    \item 0.92
+	    \samepage
 	    \item 1.96
+	    \samepage
 	    \item 1.09
+	    \samepage
 	    \item 1367
+	    \samepage
 	    \item 1486
 	    \end{enumerate}
 	    
@@ -545,7 +550,7 @@ $ME = CV \times SE$.
 	
   \begin{exercise} % 8
   
-    What is the critical value at the significance level $\alpha = 0.05$ for a two-tailed test?
+    What is the critical value for all nations at the significance level $\alpha = 0.05$ for a two-tailed test?
     
 	  \begin{enumerate}
 	  \item 1.645
@@ -573,10 +578,15 @@ $ME = CV \times SE$.
   
     What is the margin of error of the estimate (ME) for Japan?	
 	  \begin{enumerate}
+	  \samepage
 	  \item 0
+  	\samepage
   	\item 0.0069
+  	\samepage
   	\item 0.01355
+	  \samepage
 	  \item 1.96
+	  \samepage
 	  \item 2113
 	  \end{enumerate}
 	  
