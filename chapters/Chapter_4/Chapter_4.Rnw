@@ -335,7 +335,7 @@ It measures the  spread  around the mean  as a percentage.
 	 \end{exercise}
 	 \begin{solution}
 	    The range is 
-	    range &= (X_{max} - X_{min}) = 42 - 16 =
+	    range = $(X_{max} - X_{min}) = 42 - 16$ =
 	    <<results="asis", echo=FALSE>>=
         42 - 16
       @
