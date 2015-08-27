@@ -366,7 +366,7 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 \begin{exercises}
 
   
-	\begin{exercise}
+	\begin{exercise} % 1
 	
 	  A recent Poll showed that 69 percent of Americans believe that there is a hell.  The poll contacted 1,003 adults by telephone.  The population for this sample survey is
 		  \begin{enumerate}
@@ -379,12 +379,16 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 		  \samepage
 		  \item the 69 percent who answered ``I believe in hell.''
 		  \end{enumerate}
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  The population for this sample survey is all adult resident of the United States.
 	\end{solution}
 	
-	\begin{exercise}
+	\begin{exercise} % 2
 	
 	  We divide the class into two groups: first year students and others.  We then take a random samples from each group.  This is an example of
 		  \begin{enumerate}
@@ -397,12 +401,15 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 		  \samepage
 		  \item systematic random sampling
 		  \end{enumerate}
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  This is an example of stratified random sampling.
 	\end{solution}  
 	
-	\begin{exercise}
+	\begin{exercise} % 3
 	
 	  An auditor has come to audit the books of your non-profit organization.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  This method is called
 		  \begin{enumerate}
@@ -415,12 +422,16 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 		  \samepage
 		  \item stratified random sampling
 		  \end{enumerate}
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  This method is called systemic random sampling.
 	\end{solution}  
 	
-	\begin{exercise}
+	\begin{exercise} % 4
 	
 	  Height of men example: Mean = 69.1 inches and SD = 2.9 inches.  Given a sample of 10 men.  What proportion will exceed 72.0 inches?
 		  \begin{enumerate}
@@ -435,18 +446,22 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 		  \samepage
 		  \item 49.92\%
 		  \end{enumerate}
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  What proportion will exceed 72.0 inches?  
-	  \begin{align*}
-	  SE &= \frac{SD}{\sqrt{n}} = \frac{2.9}{\sqrt{10}} = 0.9171 \\
-	  Z &= \frac{(X - \mu)}{SE} \\
-	  Z &= \frac{(72.0 - 69.1)}{0.9171} = 3.1623 \\
-	  P[ Z > 3.1623] &= 0.0008
-	  \end{align*}
+	  
+	  $SE = \frac{SD}{\sqrt{n}} = \frac{2.9}{\sqrt{10}} = 0.9171$  \\
+	  $Z = \frac{(X - \mu)}{SE} $ \\
+	  $Z = \frac{(72.0 - 69.1)}{0.9171} = 3.1623$ \\
+	  $P[ Z > 3.1623] = 0.0008$
+	  
 	\end{solution}
 	
-	\begin{exercise}
+	\begin{exercise} % 5
 	
 	  The national norm of a science test for tenth graders has a mean of 210 and a standard deviation of 28.  A random sample of 40 tenth graders were selected.  What is the chance that this group will average over 220?
 		  \begin{enumerate}
@@ -455,16 +470,18 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 		  \item 0.3605
 		  \item 0.9881
 		  \end{enumerate}	
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  What is the chance that this group will average over 220?
-	  \begin{align*}
-	  SE &= \frac{SD}{\sqrt{n}} = \frac{28}{\sqrt{40}} = 4.4272 \\
-	  Z &= \frac{(X - \mu)}{SE} \\
-	  Z &= \frac{(220 - 210)}{4.4272} = 2.2588 \\
-	  P[ Z > 2.2588] &= 0.0119
-	  \end{align*}
+	  
+	  $SE = \frac{SD}{\sqrt{n}} = \frac{28}{\sqrt{40}} = 4.4272$ \\
+	  $Z = \frac{(X - \mu)}{SE}$ \\
+	  $Z = \frac{(220 - 210)}{4.4272} = 2.2588$ \\
+	  $P[ Z > 2.2588] = 0.0119$
 	  
 	\end{solution}  
 \end{exercises}
-	
