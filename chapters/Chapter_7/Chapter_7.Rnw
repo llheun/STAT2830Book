@@ -481,7 +481,7 @@ $ME = CV \times SE$.
   \begin{exercise} % 6 
   
     The next 5 questions refer to the following scenario. 
-    Occasionally, the World Values Survey randomly selects samples from various nations from around the world.  In the table below are respondents from two nations who said that they are either ``happy or very happy.''  Calculate the sample proportions and construct a 95 percent confidence interval for each selected nation.
+    Occasionally, the World Values Survey randomly selects samples from various nations from around the world.  In the table below are respondents from five nations who said that they are either ``happy or very happy.''  Calculate the sample proportions and construct a 95 percent confidence interval for each selected nation.
     
     % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
