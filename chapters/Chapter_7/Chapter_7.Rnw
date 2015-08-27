@@ -635,7 +635,8 @@ $ME = CV \times SE$.
       SE1<- sqrt(PROP1*(1 - PROP1)/2000)
       CV1 <- 1.96
       ME1 <- CV1 * SE1
-      PROP1; text("+/-"); ME1
+      PM1 <- "+/-"
+      PROP1; PM1; ME1
       @
 	  
 	\end{solution}
