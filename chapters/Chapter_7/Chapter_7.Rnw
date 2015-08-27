@@ -604,7 +604,7 @@ $ME = CV \times SE$.
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
-	  $ ME = (CV)(SE) = 1.96 \times 0.01355  = $
+	  $ ME = (CV)(SE) = 1.96 \times 0.0069  = $
 	  <<results="asis", echo=FALSE>>=
       CV1 <- 1.96
       PROP1 <- 2113 / 2443
