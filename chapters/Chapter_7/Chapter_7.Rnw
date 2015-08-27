@@ -523,6 +523,7 @@ $ME = CV \times SE$.
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
+	  The point estimate for Brazil is 
 	  $ p = \frac{1367}{1486} = $
 	  <<results="asis", echo=FALSE>>=
     1367/1486
@@ -574,7 +575,7 @@ $ME = CV \times SE$.
 	\vspace{2mm}
 	\begin{solution}
 
-    The critical value is 
+    The critical value for all nations is 
     <<results="asis", echo=FALSE>>=
           qnorm(0.975)
     @

@@ -334,9 +334,12 @@ It measures the  spread  around the mean  as a percentage.
 	    \end{enumerate}
 	 \end{exercise}
 	 \begin{solution}
-	  \begin{align*}
-	    range &= (X_{max} - X_{min}) = 42 - 16 = 26
-	 \end{align*}   
+	    The range is 
+	    range &= (X_{max} - X_{min}) = 42 - 16 =
+	    <<results="asis", echo=FALSE>>=
+        42 - 16
+      @
+	  
 	  \end{solution}   
 	
   \begin{exercise}
