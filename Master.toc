@@ -116,7 +116,7 @@
 \contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{82}
 \contentsline {subsubsection}{Steps for calculating CI for population mean, $\mu $.}{85}
 \contentsline {section}{\numberline {7.3}Calculating Confidence Interval for Population Proportion}{85}
-\contentsline {subsubsection}{Example 3 for Calculating CI for Population Proportion}{86}
+\contentsline {subsubsection}{Example 3 Calculating CI for Population Proportion}{86}
 \contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{87}
 \contentsline {section}{\numberline {7.4}Key Words}{88}
 \contentsline {section}{\numberline {7.5}Exercises}{89}

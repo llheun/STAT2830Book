@@ -349,16 +349,18 @@ $ME = CV \times SE$.
     A random sample of 100 HBO movies released between 2010 to 2015 contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
     \begin{center}
-    $\bar{X} = 3.38; s = 0.30; n = 100$
+    $\bar{X} = 3.38;  s = 0.30;  n = 100$
     \end{center}
 
     What is the point estimate?
+    
 	    \begin{enumerate}
 	    \item 0.0338
 	    \item 0.30
     	\item 3.38
 	    \item 338
 	    \end{enumerate}
+	    
 	    \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
 	    
@@ -428,6 +430,7 @@ $ME = CV \times SE$.
 	  \item 0.0501
 	  \item 0.0594
 	  \end{enumerate}
+	  
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
@@ -443,12 +446,14 @@ $ME = CV \times SE$.
   \begin{exercise} % 5 
   
     What is the 95 percent confidence interval?
+	  
 	  \begin{enumerate}
 	  \item (3.32, 3.44)
 	  \item (3.32, 3.50)
 	  \item (4.33, 4.43)
 	  \item (4.43, 5.44)
 	  \end{enumerate}
+	  
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
