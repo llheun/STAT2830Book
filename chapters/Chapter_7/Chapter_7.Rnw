@@ -236,13 +236,13 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 	   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       $\alpha$ & CV \\ \hline
       0.01 & $2.58$ \\
-      0.05 & $1.96$ \\
+      0.05 & \fbox{1.96} \\
       0.10 & $1.645 $ \\ \hline 
       \end{tabular}
       \end{center}	
       
       \begin{itemize}
-      \item $\alpha = 1 - 0.95 = 0.05 \rightarrow CV = Z = 1.96$
+      \item $\alpha = 1 - 0.95 = 0.05 \rightarrow CV = Z = \fbox{1.96}$
       \end{itemize}
  \item Calculate the {\bf{margin of error (ME)}}  
  	\begin{itemize}
