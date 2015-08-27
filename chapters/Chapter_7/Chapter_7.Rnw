@@ -558,7 +558,7 @@ $ME = CV \times SE$.
 	
   \begin{exercise} % 8
   
-    What is the critical value for all nations at the significance level $\alpha = 0.05$ for a two-tailed test?
+    What is the critical value for all nations at $\alpha = 0.05$ for a two-tailed test?
     
 	  \begin{enumerate}
 	  \item 1.645
