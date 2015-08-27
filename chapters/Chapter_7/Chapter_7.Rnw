@@ -365,7 +365,7 @@ $ME = CV \times SE$.
     \framebox[5cm][l]{ Answer: }
 	    
   \end{exercise}
-  \vspace(2mm})
+  \vspace{2mm}
   \begin{solution}
     The point estimate is $\bar{X} = 3.38$.
   \end{solution}
