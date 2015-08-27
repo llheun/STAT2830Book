@@ -608,7 +608,7 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 
 \begin{exercises} 
 
-  \begin{exercise} 
+  \begin{exercise} % 1 
   
     Test scores for 120 students were found to have a mean of 32.  Suppose the upper bound of the middle 99.7\% is  41.  What is the standard deviation of this data?
 	  \begin{enumerate}
@@ -617,14 +617,17 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	  \item 3
 	  \item 4
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  \begin{equation}
 	    SD = \frac{(41 - 32)}{3} = 3
 	  \end{equation}
 	\end{solution}
 	
-  \begin{exercise} 
+  \begin{exercise} % 2 
   
     Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviations away from the mean weight is 173 lbs.?
 	  \begin{enumerate}
@@ -633,14 +636,17 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	  \item 1.82 lbs.
 	  \item You cannot calculate the z-score with the information provided.
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  \begin{equation}
 	    z = \frac{173 - 153}{11} = 1.82 
 	  \end{equation}
 	\end{solution}  
 	
-  \begin{exercise} 
+  \begin{exercise} % 3
   
     Given the distribution of male weights has mean of 155 and standard deviation of 12, what percent 
 of males weight less than 143 pounds?
@@ -650,16 +656,19 @@ of males weight less than 143 pounds?
 	  \item 15.87
 	  \item 34.13
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
-	  \begin{align*}
-	    z &= \frac{143 - 155}{12} = -1 \\
-	    P[z < -1] &= 15.87
-	   \end{align*}
+	  
+	    $z = \frac{143 - 155}{12} = -1$ \\
+	    $P[z < -1] = 15.87$ 
+	   
 	\end{solution}  
 	
 	
-  \begin{exercise} 
+  \begin{exercise} % 4 
   
     Given the distribution of male weights with mean of 155 and standard deviation of 12, what value 
 represents the $90^{th}$ percentile for male weights?
@@ -669,14 +678,17 @@ represents the $90^{th}$ percentile for male weights?
 	  \item 179.00 pounds 
 	  \item 189.13 puunds
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
-	  \begin{align*}
-	    x &= \mu + Z \sigma \\
-	    x &= 155 + 1.28 \times (12) \\
-	    x &= 170.36
-	 \end{align*}
+	  
+	    $x = \mu + Z \sigma$ \\
+	    $x = 155 + 1.28 \times (12) $ \\
+	    $x = 170.36$
+	 
   \end{solution}
   
-\end{exercises}
+\end{exercises} 
 	
