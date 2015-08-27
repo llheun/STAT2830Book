@@ -323,7 +323,7 @@ It measures the  spread  around the mean  as a percentage.
 
 \begin{exercises}
 
-  \begin{exercise} 
+  \begin{exercise} % 1
   
     Given the following data: 16, 31, 33, 42, 28.  \\ What is the range?
 	    \begin{enumerate}
@@ -332,7 +332,12 @@ It measures the  spread  around the mean  as a percentage.
 	    \item 24 
 	    \item 26
 	    \end{enumerate}
+	    
+	    \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	 \end{exercise}
+	 \vspace{2mm}
 	 \begin{solution}
 	    The range is 
 	    range = $(X_{max} - X_{min}) = 42 - 16$ =
@@ -342,7 +347,7 @@ It measures the  spread  around the mean  as a percentage.
 	  
 	  \end{solution}   
 	
-  \begin{exercise}
+  \begin{exercise} % 2
   
     Given $Q_3 = 20$ and $Q_1 = 10$, an outlier would be any value that is
 	  \begin{enumerate}
@@ -351,7 +356,12 @@ It measures the  spread  around the mean  as a percentage.
 	  \item 35 
 	  \item None of the above
 	  \end{enumerate}
+	  
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  
 	    LB &= Q_1 - 1.5(IQR) = 10 - 1.5 (20 - 10) = -5 \\
@@ -361,7 +371,7 @@ It measures the  spread  around the mean  as a percentage.
 	  
 	\end{solution} 
 	
-  \begin{exercise}
+  \begin{exercise} % 3
   
     Given the following data: 1, 2, 3, 4, 5.  What is the standard deviation?
 	  \begin{enumerate}
@@ -370,7 +380,12 @@ It measures the  spread  around the mean  as a percentage.
 	  \item 4
 	  \item 6
 	  \end{enumerate}
+	  
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  SD = 1.581
 	\end{solution}
