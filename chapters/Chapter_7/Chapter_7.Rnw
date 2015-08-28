@@ -471,11 +471,11 @@ $ME = CV \times SE$.
 	 \end{exercise}
 	 \vspace{2mm}
 	  \begin{solution}
-	    \begin{align*}
-	    CI &= \bar{X} \pm ME = 3.38 \pm 0.0595 \\
-	    CI &=   (3.38 - 0.0595, 3.38 + 0.0595) \\
-      CI &= (3.32, 3.44)
-      \end{align*}
+	    
+	    $CI = \bar{X} \pm ME = 3.38 \pm 0.0595$ \\
+	    $CI =   (3.38 - 0.0595, 3.38 + 0.0595)$ \\
+      $CI = (3.32, 3.44)$
+      
     \end{solution}
     
   \begin{exercise} % 6 
