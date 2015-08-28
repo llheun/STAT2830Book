@@ -542,7 +542,7 @@ We should note one limitation of the simple linear regression.  First correlatio
 
 \begin{exercises}
 
-  \begin{exercise}
+  \begin{exercise} % 1
   
     How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
@@ -575,14 +575,18 @@ One student drank 9 beers. You see from the scatterplot that his BAC was about
     \item 14
     \item 140
     \end{enumerate}
+    \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
      $ BAC = -0.012 + 0.017 (9) = 0.14 $ 
   \end{solution}
   
 \pagebreak 
 
-  \begin{exercise}
+  \begin{exercise} % 2
   
     How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
@@ -607,7 +611,11 @@ below.  The scatterplot shows
       \item a weak positive relationship.
       \item a moderately strong positive straight-line relationship between number of beers and BAC.
       \end{enumerate}
+      \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     A moderately strong positive straight-line relationship between number of beers and BAC.
   \end{solution}
@@ -615,7 +623,7 @@ below.  The scatterplot shows
 
 \pagebreak
 
-  \begin{exercise}
+  \begin{exercise} % 3
   
     How well does the number of beers a student drinks predict his or her
 blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
@@ -646,7 +654,11 @@ below.  A plausible value of the correlation between number of beers and blood a
       \item $r = 0.765$.
       \item $r = 0.875$.
       \end{enumerate}
+      \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
     \end{exercise}
+    \vsapce{2mm}
     \begin{solution}
        The correllation coefficient is $r = 0.875 = \sqrt{0.765}$ where  $r^2$ is the coefficient of determination.
     \end{solution}

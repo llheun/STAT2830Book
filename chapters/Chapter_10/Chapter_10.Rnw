@@ -358,7 +358,7 @@ CV & = & 7.815
 
 \begin{exercises}
 
-  \begin{exercise}
+  \begin{exercise} % 1
   
     At a small liberal arts college, about 45 percent of the students live on-campus in dormitories while 55 percent of the students live off-campus.  College administrators often ask, is academic performance associated with living arrangements?  The results based on a random sample  of 100 students in the following table. 
 
@@ -384,7 +384,11 @@ CV & = & 7.815
 	\item Is there a significant relationship between residence status and academic performance.
 	\item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is more likely to have a high GPA?
 	\end{enumerate}
+	\vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  \begin{enumerate}
 	 \item Significance test: 
@@ -409,7 +413,7 @@ CV & = & 7.815
 	  \end{enumerate}
 	\end{solution}
 
-  \begin{exercise}
+  \begin{exercise}  % 2
   
     A local  city has outsourced some of its planning function.  The contractor has built a database that describes the neighborhoods in the city and has developed a model so that each area can be rated for the ``quality of life'' such as noise, open spaces, walkable area, etc.   She has surveyed a random sample of these areas about their level of satisfaction with their  neighborhoods.  Does the results of the survey agree with the contractor's objective ratings of quality with the respondents' self-reports of satisfaction?
 
@@ -435,7 +439,11 @@ CV & = & 7.815
 	  \item Is there a significant relationship between satisfaction and quality of life.
 	  \item Calculate the column percentages for the table to assess the pattern of the relationship.  Which group is most likely to say their satisfaction is high?
 	  \end{enumerate}	
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  vspace{2mm}
   \begin{solution}
   
   	  \begin{enumerate}

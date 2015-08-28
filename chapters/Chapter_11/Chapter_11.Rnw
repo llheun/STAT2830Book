@@ -355,7 +355,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
 
 \begin{exercises}
 
-  \begin{exercise}
+  \begin{exercise} % 1
   
     A random sample of 18 couples has measured the marital happiness scale in a local community.  The couples were classified by type of relationship: traditional, dual\_career, and cohabitation.  Does marital happiness vary significantly by type of relationship.  The $F_{critical} = 3.68$ at the 5 percent level of significance.
 
@@ -390,14 +390,18 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
     \item $H_0: \mu_1 > \mu_2 > \mu_3$  vs. $H_a:$ all means are equal.
     \item There is not enough information to decide.
     \end{enumerate}
+    \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
   
     $H_0: \mu_1 = \mu_2 = \mu_3$ vs. $H_a:$ at least one mean is different.
     
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 2
   
     A random sample of 18 couples has measured the marital happiness scale in a local community.  The couples were classified by type of relationship: traditional, dual\_career, and cohabitation.  Does marital happiness vary significantly by type of relationship.  The $F_{critical} = 3.68$ at the 5 percent level of significance.
 
@@ -431,8 +435,12 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
       \item Since the $F_{obtained} = 1.84 > F_{critical} = 3.68$, fail to reject $H_0$
       \item Since the $F_{obtained} = 1.84 > F_{critical} = 3.68$, reject $H_0$
       \item There is not enough information to decide.
-      \end{enumerate}  
+      \end{enumerate} 
+      \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vsapce{2mm}
   \begin{solution}
     
     Since the $F_{obtained} = 1.84 < F_{critical} = 3.68$, fail to reject $H_0$
