@@ -658,7 +658,7 @@ below.  A plausible value of the correlation between number of beers and blood a
     \framebox[5cm][l]{ Answer: }
     
     \end{exercise}
-    \vsapce{2mm}
+    \vspace{2mm}
     \begin{solution}
        The correllation coefficient is $r = 0.875 = \sqrt{0.765}$ where  $r^2$ is the coefficient of determination.
     \end{solution}

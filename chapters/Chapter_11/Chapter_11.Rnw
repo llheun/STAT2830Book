@@ -440,7 +440,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  \vsapce{2mm}
+  \vspace{2mm}
   \begin{solution}
     
     Since the $F_{obtained} = 1.84 < F_{critical} = 3.68$, fail to reject $H_0$
