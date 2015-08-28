@@ -291,8 +291,9 @@ Now if we have enough evidence against the patient, then we can say that the pat
 \begin{exercises}
 
 
-  \begin{exercise}
+  \begin{exercise} % 1
 
+    The next 4 questions refer to the following scenario.
     Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What are the hypotheses for this question?
@@ -303,14 +304,18 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu > 6.2$
   	\item $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}
+	\vspace{2mm}
 	\begin{solution}
 	  $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
 	\end{solution}
 	
-  \begin{exercise}
+  \begin{exercise} % 2
   
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    %Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     Calculate the test statistic.
 
@@ -320,17 +325,21 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item $Z = -.2.14$
 	  \item $Z = +2.14$
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
 	\end{exercise}  
+	\vspace{2mm}
 	\begin{solution}
-	  \begin{align*}
-	    SE &= \frac{0.7}{\sqrt{25}} = 0.14 \\
-	    t &= \frac{(5.9 - 6.2)}{0.14} = -2.14
-	  \end{align*}   
+	  
+	    $SE = \frac{0.7}{\sqrt{25}} = 0.14$  \\
+	    $t = \frac{(5.9 - 6.2)}{0.14} = -2.14$
+	  
 	\end{solution}
 	
-  \begin{exercise}
+  \begin{exercise} % 3
   
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+    % Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What is the sampling distribution and critical value at the 95 percent confidence level?
 
@@ -340,14 +349,18 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item T-distribution, $CV(t) = \pm 1.71 $
 	  \item T-distribution, $CV(t) = \pm 2.064 $
 	  \end{enumerate}	
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     From the distribution of $t$, using row df = 24 and column 0.025, CV(t) = 2.064.
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 4
   
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+  %   Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What is your conclusion?
 
@@ -357,14 +370,19 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item Conclude that seniors watch too much TV.
 	  \item Conclude that statewide people watch too much TV
 	  \end{enumerate}	
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     Since the test statistic, $ |t| = |-2.14| > t_{.025} = 2.064 $ \\
     Therefore, reject $H_0$, there is  difference.
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 5
   
+    The next 4 questions refer to the following scenario.
     In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
     What are the hypotheses for this question?
@@ -375,14 +393,18 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 6
   
-    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+    % In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
     Calculate the test statistic.
 
@@ -393,19 +415,23 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item $Z = -1.91$
 	  \item $Z = +1.91$
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
-    \begin{align*}
-      SE &= \sqrt{\frac{(.55(1-.55))}{150}} = 0.0406 \\
-      z &= \frac{(.6 - .55)}{0.0406}  \\
-       z &= 1.23
-    \end{align*}  
+    
+      $SE = \sqrt{\frac{(.55(1-.55))}{150}} = 0.0406$ \\
+      $z = \frac{(.6 - .55)}{0.0406}$  \\
+       $z = 1.23$
+     
   \end{solution}
   
   
-  \begin{exercise}
+  \begin{exercise} % 7
   
-    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+    % In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
     What is the sampling distribution and critical value at the 95 percent confidence level?
 
@@ -415,14 +441,18 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item T-distribution, $CV(t) = \pm1.697$
 	  \item T-distribution, $CV(t) = \pm2.042$
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     Standard Normal distribution, $CV(z) = \pm1.96$
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 8 
   
-    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+    % In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
 
     What is your conclusion?
 
@@ -432,12 +462,16 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item The proportion of voters who rejected the proposal is less than 60.
 	  \item The proportion of voters who rejected the proposal is greater than 60.
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
     Conclude there is no difference, since the population, 55, percent is within the confidence interval.  The 95 percent CI is (0.5516, 0.6784).
   \end{solution}
   
-  \begin{exercise}
+  \begin{exercise} % 9
   
     The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward school gives the SSHA to 25 students who are at least 30 years of age and the sample mean was obtained $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
  
@@ -448,7 +482,11 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \item A Type II Error was committed.
 	  \item No Error was committed.
 	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
+  \vspace{2mm}
   \begin{solution}
    No Error was committed.
   \end{solution}
