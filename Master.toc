@@ -132,61 +132,61 @@
 \contentsline {subsubsection}{General statement about Types of Error during hypotheses testing.}{100}
 \contentsline {section}{\numberline {8.6}Key Words}{101}
 \contentsline {section}{\numberline {8.7}Exercises}{102}
-\contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{105}
-\contentsline {section}{\numberline {9.1}Objective}{105}
-\contentsline {section}{\numberline {9.2}One Sample Case vs. Two Sample Case}{105}
-\contentsline {section}{\numberline {9.3}Hypothesis Testing on Two Sample Means}{106}
-\contentsline {subsection}{\numberline {9.3.1}Example 1}{106}
-\contentsline {subsection}{\numberline {9.3.2}Example 2}{109}
-\contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{112}
-\contentsline {subsection}{\numberline {9.4.1}Example 1}{112}
-\contentsline {subsection}{\numberline {9.4.2}Example 2}{114}
-\contentsline {section}{\numberline {9.5}Key Words}{115}
-\contentsline {section}{\numberline {9.6}Exercises}{116}
-\contentsline {chapter}{\numberline {10}Testing Equality of two or more Proportions }{119}
-\contentsline {section}{\numberline {10.1}Objective}{119}
-\contentsline {section}{\numberline {10.2}Chi-square Test for Independence}{119}
-\contentsline {subsection}{\numberline {10.2.1}Example 1}{119}
-\contentsline {subsection}{\numberline {10.2.2}Example 2}{122}
-\contentsline {section}{\numberline {10.3}Chi-square Goodness-of-Fit Test}{124}
-\contentsline {subsection}{\numberline {10.3.1}Example 1}{124}
-\contentsline {section}{\numberline {10.4}Key Words}{126}
-\contentsline {section}{\numberline {10.5}Exercises}{127}
-\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{129}
-\contentsline {section}{\numberline {11.1}Objective}{129}
-\contentsline {section}{\numberline {11.2}What is ANOVA?}{129}
-\contentsline {subsection}{\numberline {11.2.1}Example 1}{130}
-\contentsline {subsection}{\numberline {11.2.2}Example 2}{132}
-\contentsline {section}{\numberline {11.3}Key Words}{135}
-\contentsline {section}{\numberline {11.4}Exercises}{136}
-\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{137}
-\contentsline {section}{\numberline {12.1}Objective}{137}
-\contentsline {section}{\numberline {12.2}What is Correlation?}{137}
-\contentsline {subsection}{\numberline {12.2.1}Example 1}{138}
-\contentsline {section}{\numberline {12.3}What is Linear Regression?}{141}
-\contentsline {subsubsection}{Interpreting Scatter Plot}{141}
-\contentsline {subsubsection}{Does a Relationship Exist?}{141}
-\contentsline {subsubsection}{How Strong is the association?}{141}
-\contentsline {subsubsection}{Predicting response variable using the scatter plot}{142}
-\contentsline {subsubsection}{The Regression Line}{143}
-\contentsline {subsubsection}{Determining the y-intercept (a)}{143}
-\contentsline {subsubsection}{Determine the slope (b) }{144}
-\contentsline {subsubsection}{Prediction}{145}
-\contentsline {subsubsection}{Interpreting the Regression}{145}
-\contentsline {subsubsection}{Descriptive Statistics}{145}
-\contentsline {subsubsection}{Correlation matrix}{146}
-\contentsline {subsubsection}{Scatter plot}{146}
-\contentsline {subsubsection}{Regression Equation}{147}
-\contentsline {subsubsection}{Diagnostics}{148}
-\contentsline {subsubsection}{Summary}{148}
-\contentsline {section}{\numberline {12.4}Key Words}{149}
-\contentsline {section}{\numberline {12.5}Exercises}{151}
-\contentsline {chapter}{\numberline {13}Workshops}{155}
-\contentsline {section}{\numberline {13.1}Workshop 1}{156}
-\contentsline {section}{\numberline {13.2}Workshop 2}{158}
-\contentsline {section}{\numberline {13.3}Workshop 3}{160}
-\contentsline {section}{\numberline {13.4}Workshop 4}{162}
-\contentsline {section}{\numberline {13.5}Workshop 5}{164}
-\contentsline {section}{\numberline {13.6}Workshop 6}{166}
-\contentsline {section}{\numberline {13.7}Workshop 7}{168}
-\contentsline {section}{\numberline {13.8}Workshop 8}{172}
+\contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{107}
+\contentsline {section}{\numberline {9.1}Objective}{107}
+\contentsline {section}{\numberline {9.2}One Sample Case vs. Two Sample Case}{107}
+\contentsline {section}{\numberline {9.3}Hypothesis Testing on Two Sample Means}{108}
+\contentsline {subsection}{\numberline {9.3.1}Example 1}{108}
+\contentsline {subsection}{\numberline {9.3.2}Example 2}{111}
+\contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{114}
+\contentsline {subsection}{\numberline {9.4.1}Example 1}{114}
+\contentsline {subsection}{\numberline {9.4.2}Example 2}{116}
+\contentsline {section}{\numberline {9.5}Key Words}{117}
+\contentsline {section}{\numberline {9.6}Exercises}{118}
+\contentsline {chapter}{\numberline {10}Testing Equality of two or more Proportions }{121}
+\contentsline {section}{\numberline {10.1}Objective}{121}
+\contentsline {section}{\numberline {10.2}Chi-square Test for Independence}{121}
+\contentsline {subsection}{\numberline {10.2.1}Example 1}{121}
+\contentsline {subsection}{\numberline {10.2.2}Example 2}{124}
+\contentsline {section}{\numberline {10.3}Chi-square Goodness-of-Fit Test}{126}
+\contentsline {subsection}{\numberline {10.3.1}Example 1}{126}
+\contentsline {section}{\numberline {10.4}Key Words}{128}
+\contentsline {section}{\numberline {10.5}Exercises}{129}
+\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{131}
+\contentsline {section}{\numberline {11.1}Objective}{131}
+\contentsline {section}{\numberline {11.2}What is ANOVA?}{131}
+\contentsline {subsection}{\numberline {11.2.1}Example 1}{132}
+\contentsline {subsection}{\numberline {11.2.2}Example 2}{134}
+\contentsline {section}{\numberline {11.3}Key Words}{137}
+\contentsline {section}{\numberline {11.4}Exercises}{138}
+\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{139}
+\contentsline {section}{\numberline {12.1}Objective}{139}
+\contentsline {section}{\numberline {12.2}What is Correlation?}{139}
+\contentsline {subsection}{\numberline {12.2.1}Example 1}{140}
+\contentsline {section}{\numberline {12.3}What is Linear Regression?}{143}
+\contentsline {subsubsection}{Interpreting Scatter Plot}{143}
+\contentsline {subsubsection}{Does a Relationship Exist?}{143}
+\contentsline {subsubsection}{How Strong is the association?}{143}
+\contentsline {subsubsection}{Predicting response variable using the scatter plot}{144}
+\contentsline {subsubsection}{The Regression Line}{145}
+\contentsline {subsubsection}{Determining the y-intercept (a)}{145}
+\contentsline {subsubsection}{Determine the slope (b) }{146}
+\contentsline {subsubsection}{Prediction}{147}
+\contentsline {subsubsection}{Interpreting the Regression}{147}
+\contentsline {subsubsection}{Descriptive Statistics}{147}
+\contentsline {subsubsection}{Correlation matrix}{148}
+\contentsline {subsubsection}{Scatter plot}{148}
+\contentsline {subsubsection}{Regression Equation}{149}
+\contentsline {subsubsection}{Diagnostics}{150}
+\contentsline {subsubsection}{Summary}{150}
+\contentsline {section}{\numberline {12.4}Key Words}{151}
+\contentsline {section}{\numberline {12.5}Exercises}{153}
+\contentsline {chapter}{\numberline {13}Workshops}{157}
+\contentsline {section}{\numberline {13.1}Workshop 1}{158}
+\contentsline {section}{\numberline {13.2}Workshop 2}{160}
+\contentsline {section}{\numberline {13.3}Workshop 3}{162}
+\contentsline {section}{\numberline {13.4}Workshop 4}{164}
+\contentsline {section}{\numberline {13.5}Workshop 5}{166}
+\contentsline {section}{\numberline {13.6}Workshop 6}{168}
+\contentsline {section}{\numberline {13.7}Workshop 7}{170}
+\contentsline {section}{\numberline {13.8}Workshop 8}{174}
