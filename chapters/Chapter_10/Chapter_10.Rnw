@@ -443,7 +443,7 @@ CV & = & 7.815
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  vspace{2mm}
+  \vspace{2mm}
   \begin{solution}
   
   	  \begin{enumerate}
