@@ -13,7 +13,7 @@ distribution and the population.
 of the confidence interval.
 \end{itemize}
 
-\section{Calculating Confidence Interval for Population Mean}
+\section{Calculating CI for Population Mean}
 
 \subsection{Point Estimates}
 
@@ -24,11 +24,11 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lll @{}}  \hline % Column formatting, @{} suppresses leading/trailing space
-   Term  & Parameter & Statistic  \\ \hline
+   Term  & Parameter & Statistic  \\ \hline \vspace{1mm}
    Mean  & $\mu = \frac{sumX}{N} $  & $\bar{X} = \frac{sumX}{n}$ \\
    Variance  & $\sigma^2 = \frac{sumSqdDiff}{N}$  & $s^2 = \frac{sumSqdDiff}{n - 1}$ \\
    Standard Deviation  & $\sigma = \sqrt{ \sigma^2}$  & $s = \sqrt{s^2}$  \\
-   Proportion  & $P_u = \frac{f_u}{n_u} $  & $P_s = \frac{f_s}{n_s} $ \\ \hline
+   Proportion  & $P_u = \frac{f_u}{n_u} $  & $P_s = \frac{f_s}{n_s} $ \\ \hline \vspace{1mm}
    \end{tabular}
    \caption{Definitions}
    \label{tab:s7_1}
@@ -37,7 +37,7 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
 \subsection{Interval Estimates}
 
 
-Figure 7.1 shows the idea of a 95 percent confidence interval (CI) in a different form.  It illustrates 50 simple random samples (SRS) drawn from the same population and computing 95 percent CI from each sample.  At the center of each interval is $\bar{x}$ and consequently, varies from sample to sample.  The sampling distribution of $\bar{x}$ appears at the bottom of the graph to illustrate the long term pattern of the variation.  The population $\mu$ is at the center of the sampling distribution.  The 95 percent CI from 50 SRSs are shown above.  The center $\bar{x}$ of each interval is marked with a small circle.  The lines on either side of the circle span the CI.  Most of the 50 CI capture the true value of the population mean $(\mu)$.  The theory says that if we take thousands of samples, 95 percent of the CI will contain $\mu$.
+Figure 7.1 shows the idea of a 95 percent confidence interval (CI) in a different form.  It illustrates 50 simple random samples (SRS) drawn from the same population and computing 95 percent CI from each sample.  At the center of each interval is $\bar{x}$ and consequently, varies from sample to sample.  The sampling distribution of $\bar{x}$ appears at the bottom of the graph to illustrate the long term pattern of the variation.  The population $\mu$ is at the center of the sampling distribution.  The 95 percent CIs from 50 SRSs are shown below.  The center $\bar{x}$ of each interval is marked with a small circle.  The lines on either side of the circle span the CI.  Most of the 50 CI capture the true value of the population mean $(\mu)$.  The theory says that if we take thousands of samples, 95 percent of the CI will contain $\mu$.
 
 
 <<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=5, fig.cap="50 samples from same population">>=
@@ -64,7 +64,7 @@ col1 <- "black"
 if(Ub1 < popxbar ){col1 <- "red"} 
 if(popxbar  < Lb1){col1 <- "red"} 
 lines(c(Lb1, Ub1), c(i, i), col=col1);
-points(c(mm1), c(i), type="b")
+points(c(mm1), c(i), type="p")
 }
 
 @
@@ -132,15 +132,16 @@ Let's consider an example by computing a confidence interval for a population me
 	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation,
 	$s$, is calculated, then $SE = \frac{s}{\sqrt{n}}$.
 	\item $n$ is the sample size.
+  \item Using the data from table 7.3, the variance is 
+  $s^2 = \frac{\fbox{1029}}{16 - 1} = 68.6.$
+  \item The standard deviation is 
+  $s = \sqrt{s^2} = \sqrt{68.6} = 8.28$.
+  \item The standard error of the mean, SE, is 
+  $SE = \frac{s}{\sqrt{n}} = \frac{8.28}{\sqrt{16}} = 2.07$	
 	\end{itemize}
-\item Using the data from table 7.3, the variance is 
-$s^2 = \frac{\fbox{1029}}{16 - 1} = 68.6.$
-\item The standard deviation is 
-$s = \sqrt{s^2} = \sqrt{68.6} = 8.28$.
-\item The standard error of the mean, SE, is 
-$SE = \frac{s}{\sqrt{n}} = \frac{8.28}{\sqrt{16}} = 2.07$
 
-\item To complete the process of computing a confidence interval, we need the {\bf{critical value (CV)}}.
+
+\item To complete the process of computing a CI, we need the {\bf{critical value (CV)}}.
 	\begin{itemize}
 	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{z- table}} to find the CV.
 	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{s}{\sqrt{n}}$, we should use the {\bf{t-distribution table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the confidence level (1 - $\alpha$) from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must look  for the values tabulated under two-sided tests. \\ 
@@ -211,7 +212,7 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 \end{enumerate}	
 
 
-\section{Calculating Confidence Interval for Population Proportion}
+\section{Calculating CI for Population Proportion}
 
 Let's look at constructing confidence intervals about a proportion with this example.
 
@@ -256,7 +257,7 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 (       0.432 &, 0.628)
 \end{align*}
 
-\item Thus, we are 95 percent confident that the true population proportion for readmission is between 43.2\% and 62.8\%.  More discussion???????
+\item Thus, we are 95 percent confident that the true population proportion for readmission to program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  
 \end{enumerate}
 
 \subsubsection{Example 3  Calculating CI for Population Proportion}
