@@ -251,9 +251,9 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 \item Calculate the {\bf{confidence interval}}.  CI: $(P_s - ME, P_s + ME$)	
 
 \begin{align*}
-(P_s - ME &, P_s + ME) \\
+(    P_s - ME &, P_s + ME) \\
 (0.53 - 0.098 &, 0.53 + 0.098) \\
-(0.432 &, 0.628)
+(       0.432 &, 0.628)
 \end{align*}
 
 \item Thus, we are 95 percent confident that the true population proportion for readmission is between 43.2\% and 62.8\%.  More discussion???????
