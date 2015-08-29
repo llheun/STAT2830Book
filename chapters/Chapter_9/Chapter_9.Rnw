@@ -127,7 +127,7 @@ is there evidence that the data is a mixture (potentially of two distinct popula
                                 
    \end{tabular}
    \caption{Independent Samples Test.}
-   \label{tab:c9_2}
+   \label{tab:c9_3}
 \end{table}
 
 		
