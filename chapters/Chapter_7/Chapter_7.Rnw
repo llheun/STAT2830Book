@@ -24,11 +24,11 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lll @{}}  \hline % Column formatting, @{} suppresses leading/trailing space
-   Term  & Parameter & Statistic  \\ \hline \vspace{1mm}
+   Term  & Parameter & Statistic  \\ \hline 
    Mean  & $\mu = \frac{sumX}{N} $  & $\bar{X} = \frac{sumX}{n}$ \\
    Variance  & $\sigma^2 = \frac{sumSqdDiff}{N}$  & $s^2 = \frac{sumSqdDiff}{n - 1}$ \\
    Standard Deviation  & $\sigma = \sqrt{ \sigma^2}$  & $s = \sqrt{s^2}$  \\
-   Proportion  & $P_u = \frac{f_u}{n_u} $  & $P_s = \frac{f_s}{n_s} $ \\ \hline \vspace{1mm}
+   Proportion  & $P_u = \frac{f_u}{n_u} $  & $P_s = \frac{f_s}{n_s} $ \\ \hline 
    \end{tabular}
    \caption{Definitions}
    \label{tab:s7_1}
