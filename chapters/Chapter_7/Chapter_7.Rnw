@@ -247,7 +247,7 @@ A random sample was selected of 100 patients treated in a program for alcoholism
       \end{itemize}
  \item Calculate the {\bf{margin of error (ME)}}  
  	\begin{itemize}
-	\item $ME = CV \times SE = 1.96 \times 0.05 = 0.098$
+	\item $ME = CV \times SE = 1.96 \times 0.050 = 0.098$
 	\end{itemize}
 \item Calculate the {\bf{confidence interval}}.  CI: $(P_s - ME, P_s + ME$)	
 
@@ -257,7 +257,9 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 (       0.432 &, 0.628)
 \end{align*}
 
-\item Thus, we are 95 percent confident that the true population proportion for readmission to program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  
+\item Thus, we are 95 percent confident that the true population proportion for readmission to the program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  Suppose you want a 99 percent confidence level.  You find $\alpha = 0.01$ and the CV = 2.5758 amd the ME = 0.129.  
+
+The higher CI of 99 percent yields an interval of the true population proportion for readmission to the program for alcoholism and drug dependency is between 40.1\% and 65.9\%.  Given the current sample size of 53 persons of 100 who were readmitted to the program for alcoholism and drug dependency.  You can gain confidence (from 95\% to 99\%) at the expense of precision, as the ME increases from 0.098 to 0.129.
 \end{enumerate}
 
 \subsubsection{Example 3  Calculating CI for Population Proportion}
@@ -300,7 +302,7 @@ A survey was conducted and found that 25 of the 178 households in Grand Rapids c
 (0.089 &, 0.191)
 \end{align*}
 
-\item Thus, we are 95 percent confident that the true population proportion of unmarried couples living together in households is between 8.9\% and 19.1\%.
+\item Thus, we are 95 percent confident that the true population proportion of unmarried couples living together in households in Grand Rapids is between 8.9\% and 19.1\%.
 \end{enumerate}
 
 \subsubsection{Steps for Calculating CI for Population Proportion $P_u$.}
@@ -310,7 +312,7 @@ A survey was conducted and found that 25 of the 178 households in Grand Rapids c
 
 \item Calculate the point estimate: sample proportion $P_s = \frac{f}{n}$, where $n$ is the sample size and $f$ is the observed counts under the category of interest..
 
-\item Calculate the {\bf{Standard Error}} of the estimate using the formula: \\
+\item Calculate the {\bf{Standard Error}} of the estimate using the formula: 
 $SE = \sqrt{ \frac{P_s(1 - P_s)}{n}}$.
 
 \item Determine the Critical Value (CV) using the following table: \\
@@ -323,7 +325,7 @@ $SE = \sqrt{ \frac{P_s(1 - P_s)}{n}}$.
       \end{tabular}
       \end{center}	
       
-\item Calculate the Margin of Error:  \\
+\item Calculate the Margin of Error:
 $ME = CV \times SE$.
 
 \item Calculate the confidence interval using the formula: ($P_s - ME, P_s + ME$).
@@ -592,7 +594,7 @@ $ME = CV \times SE$.
   	\samepage
   	\item 0.0069
   	\samepage
-  	\item 0.01355
+  	\item 0.01357
 	  \samepage
 	  \item 1.96
 	  \samepage
