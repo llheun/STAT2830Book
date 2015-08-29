@@ -257,9 +257,10 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 (       0.432 &, 0.628)
 \end{align*}
 
-\item Thus, we are 95 percent confident that the true population proportion for readmission to the program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  Suppose you want a 99 percent confidence level.  You find $\alpha = 0.01$ and the CV = 2.5758 amd the ME = 0.129.  
+\item Thus, we are 95 percent confident that the true population proportion for readmission to a program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  Suppose you want a 99 percent confidence level.  You find $\alpha = 0.01$ and the CV = 2.5758 amd the ME = 0.129.  
 
-The higher CI of 99 percent yields an interval of the true population proportion for readmission to the program for alcoholism and drug dependency is between 40.1\% and 65.9\%.  Given the current sample size of 53 persons of 100 who were readmitted to the program for alcoholism and drug dependency.  You can gain confidence (from 95\% to 99\%) at the expense of precision, as the ME increases from 0.098 to 0.129.
+The higher CI of 99 percent yields an interval of the true population proportion for readmission to a program for alcoholism and drug dependency is between 40.1\% and 65.9\%.  Given the current sample size of 100 persons; 53  were readmitted to the program for 
+alcoholism and drug dependency.  You gain confidence (from 95\% to 99\%) at the expense of precision, as the ME increases from 0.098 to 0.129.
 \end{enumerate}
 
 \subsubsection{Example 3  Calculating CI for Population Proportion}
