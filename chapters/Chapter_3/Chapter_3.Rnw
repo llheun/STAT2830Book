@@ -540,23 +540,24 @@ Determine the  appropriate measures of central tendency for each variable:
       The mean for 2005 is
       <<results="asis", echo=FALSE>>=
           dt1 <- read.csv("chapters/Chapter_3/data/caseLoad.csv",header=TRUE)
-          mean(dt1$CaseLoad[dt1$Year==2005])
+          cl2005 <- dt1$CaseLoad[dt1$Year == 2005]
+          mean(cl2005)
       @
       
       The median for 2005 is
       <<results="asis", echo=FALSE>>=
-          median(dt1$CaseLoad[dt1$Year==2005])
+          median(cl2005)
       @    
   
         The mean for 2015 is
       <<results="asis", echo=FALSE>>=
-          
-          mean(dt1$CaseLoad[dt1$Year==2015])
+          cl2015 <- dt1$CaseLoad[dt1$Year == 2015]
+          mean(cl2015)
       @
       
       The median for 2015 is
       <<results="asis", echo=FALSE>>=
-          median(dt1$CaseLoad[dt1$Year==2015])
+          median(cl2015)
       @    
   
   \end{solution}
