@@ -1,4 +1,4 @@
-%!Rnw root = ../../Master.Rnw
+dt1%!Rnw root = ../../Master.Rnw
 
 \chapter{Measures of Central Tendency}
 \label{chap:ch3}
@@ -538,10 +538,12 @@ Determine the  appropriate measures of central tendency for each variable:
   \begin{solution}
       
       The mean for 2005 is
-      <<t3_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
-          dt1 <- read.csv("chapters/Chapter_3/data/caseLoad.csv",header=TRUE)
-          cl2005 <- dt1$CaseLoad[dt1$Year == 2005]
-          mean(cl2005)
+      %<<t3_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
+         % dt1 <- read.csv("chapters/Chapter_3/data/caseLoad.csv",header=TRUE)
+      <<results="asis", echo=FALSE>>=
+        cl2005 <- c(50,	64,	55,	64,	60,	53,	56,	50,	51,	45,	46,	46,	50,	56,	63,	65,	53,	54,	58,	69)
+        cl2015 <- c(57,	47,	46,	59,	59,	50,	57,	52,	41,	66,	65,	52,	57,	75,	65,	76,	43,	56,	52,	67)
+        mean(cl2005)
       @
       
       The median for 2005 is
@@ -549,7 +551,7 @@ Determine the  appropriate measures of central tendency for each variable:
           median(cl2005)
       @    
   
-        The mean for 2015 is
+        The mean for , is
       <<results="asis", echo=FALSE>>=
           cl2015 <- dt1$CaseLoad[dt1$Year == 2015]
           mean(cl2015)
