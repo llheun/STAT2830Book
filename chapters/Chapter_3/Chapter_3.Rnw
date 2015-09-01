@@ -1,4 +1,4 @@
-dt1%!Rnw root = ../../Master.Rnw
+%!Rnw root = ../../Master.Rnw
 
 \chapter{Measures of Central Tendency}
 \label{chap:ch3}
