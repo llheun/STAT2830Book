@@ -538,7 +538,7 @@ Determine the  appropriate measures of central tendency for each variable:
   \begin{solution}
       
       The mean for 2005 is
-      <<results="asis", echo=FALSE>>=
+      <<t3_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
           dt1 <- read.csv("chapters/Chapter_3/data/caseLoad.csv",header=TRUE)
           cl2005 <- dt1$CaseLoad[dt1$Year == 2005]
           mean(cl2005)
