@@ -532,7 +532,7 @@ Determine the  appropriate measures of central tendency for each variable:
 
   Has the average caseload increased, decreased, or stayed the same?
   
-  \vspace{5mm}
+  \vspace{4mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
   \vspace{2mm}
@@ -576,7 +576,6 @@ Determine the  appropriate measures of central tendency for each variable:
    9  & 13 & 10 & 11 & 11 \\
    40 & 26 & 39 & 38 & 44 \\
    32 & 37 & 41 & 27 & 22 \\ \hline
-   
    \end{tabular}
     \caption{Racial Predice Index}
    \label{tab:t3_12}
@@ -584,7 +583,7 @@ Determine the  appropriate measures of central tendency for each variable:
   
   Calculate the mean and median scores of these data.
   
-	\vspace{5mm}
+	\vspace{4mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -619,7 +618,6 @@ Determine the  appropriate measures of central tendency for each variable:
    11 & 9  & 10 & 20 & 10 \\
    35 & 10 & 30 & 41 & 40 \\
    15 & 30 & 40 & 26 & 21 \\ \hline
-   
    \end{tabular}
     \caption{Racial Predice Index}
    \label{tab:t3_12}
@@ -627,7 +625,7 @@ Determine the  appropriate measures of central tendency for each variable:
   
   Calculate the mean and median scores of these data.  
   
-	\vspace{5mm}
+	\vspace{4mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
