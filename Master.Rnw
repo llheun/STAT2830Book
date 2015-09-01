@@ -21,8 +21,6 @@
 
 \begin{document}
 
-
-
 \maketitle
 %\section{}
 %\subsection{}

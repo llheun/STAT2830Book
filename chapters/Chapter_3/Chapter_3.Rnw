@@ -315,7 +315,7 @@ The other measure of location are as follows:
 \item $X_i$ (``x-sub-i'') 
 \end{itemize}
 
-\pagebreak
+\newpage
 
 \section{Exercises}
 
