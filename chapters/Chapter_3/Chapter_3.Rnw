@@ -603,4 +603,50 @@ Determine the  appropriate measures of central tendency for each variable:
   @
 	
 	\end{solution}  
+	
+	  \begin{exercise} % 8
+  
+  The same 25 students completed the same survey during their senior year.  Compute the mean and median for this second set of scores,
+  and compare them to the scores from four years earlier.   What happened?
+  
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} ccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   50 & 27 & 31 & 35 & 41 \\ 
+   11 & 45 & 50 & 37 & 43 \\
+   11 & 9  & 10 & 20 & 10 \\
+   35 & 10 & 30 & 41 & 40 \\
+   15 & 30 & 40 & 26 & 21 \\ \hline
+   
+   \end{tabular}
+    \caption{Racial Predice Index}
+   \label{tab:t3_12}
+\end{table}
+  
+  Calculate the mean and median scores of these data.  
+  
+	\vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	
+	The mean is 
+	<<results="asis", echo=FALSE>>=
+	e3dat8 <- c(50, 27, 31, 35, 41, 11, 45, 50, 37, 43, 11, 9, 10, 20, 10, 35, 10, 30, 41, 40, 15, 30, 40, 26, 21)
+	  
+	mean(e3dat8)
+  @
+	
+	The median is 
+	<<results="asis", echo=FALSE>>=
+
+	median(e3dat8)
+	rm(e3dat8)
+  @
+	
+	\end{solution}  
+	
 \end{exercises}
