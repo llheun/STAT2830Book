@@ -549,9 +549,8 @@ Determine the  appropriate measures of central tendency for each variable:
           median(cl2005)
       @    
   
-        The mean for , is
+        The mean for 2015 is
       <<results="asis", echo=FALSE>>=
-          cl2015 <- dt1$CaseLoad[dt1$Year == 2015]
           mean(cl2015)
       @
       
