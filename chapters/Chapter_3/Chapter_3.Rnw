@@ -620,7 +620,7 @@ Determine the  appropriate measures of central tendency for each variable:
    15 & 30 & 40 & 26 & 21 \\ \hline
    \end{tabular}
     \caption{Racial Predice Index}
-   \label{tab:t3_12}
+   \label{tab:t3_13}
 \end{table}
   
   Calculate the mean and median scores of these data.  
