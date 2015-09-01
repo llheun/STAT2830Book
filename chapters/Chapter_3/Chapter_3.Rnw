@@ -404,18 +404,19 @@ The other measure of location are as follows:
   \vspace{2mm}
   \begin{solution}
   
+  
 <<result="asis", echo=FALSE>>=
 
 xdt1 <- c(819.79, 607, 83, 293, 591, 275, 593, 519)
 xsumm1 <- summary(xdt1)
 @
 
- 
+    The mean is 
 <<results="asis", echo=FALSE>>=
 xsumm1[4]
 @ 
 
- 
+    The median is 
 <<results="asis", echo=FALSE>>=
 xsumm1[3]
 @ 
@@ -510,56 +511,56 @@ Determine the  appropriate measures of central tendency for each variable:
   
   \end{solution}
   
-\newpage  
-  \begin{exercise} % 6
-  
-    For the next 2 questions, use the following scenario.
-    As a leader of a Kalamazoo social services agency, you are concerned that your staff has an increased caseload of clients compared to 10 years ago.  The case loads of each worker are reported in the following table for years 2005 and 2015.  
-    
-    
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} ccccccccccccccccccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-   2005 & 50&64&55&64&60&53&56&50&51&45&46&46&50&56&63&65&53&54&58&69 \\
-   2015 & 57&47&46&59&59&50&57&52&41&66&65&52&57&75&65&76&43&56&52&67 \\ \hline
-   \end{tabular}
-    \caption{Central tendency}
-   \label{tab:t3_11}
-\end{table}
-
-  Has the average caseload increased, decreased, or stayed the same?
-  
-  \vspace{5mm}
-    \framebox[5cm][l]{ Answer: }
-  \end{exercise}
-  \vspace{2mm}
-  \begin{solution}
-      
-      The mean for 2005 is
-      <<results="asis", echo=FALSE>>=
-        cl2005 <- c(50,	64,	55,	64,	60,	53,	56,	50,	51,	45,	46,	46,	50,	56,	63,	65,	53,	54,	58,	69)
-        cl2015 <- c(57,	47,	46,	59,	59,	50,	57,	52,	41,	66,	65,	52,	57,	75,	65,	76,	43,	56,	52,	67)
-        mean(cl2005)
-      @
-      
-      The median for 2005 is
-      <<results="asis", echo=FALSE>>=
-          median(cl2005)
-      @    
-  
-        The mean for 2015 is
-      <<results="asis", echo=FALSE>>=
-          mean(cl2015)
-      @
-      
-      The median for 2015 is
-      <<results="asis", echo=FALSE>>=
-          median(cl2015)
-      @    
-  
-  \end{solution}
+%' \newpage  
+%'   \begin{exercise} % 6
+%'   
+%'     For the next 2 questions, use the following scenario.
+%'     As a leader of a Kalamazoo social services agency, you are concerned that your staff has an increased caseload of clients compared to 10 years ago.  The case loads of each worker are reported in the following table for years 2005 and 2015.  
+%'     
+%'     
+%' % Requires the booktabs if the memoir class is not being used
+%' \begin{table}[htbp]
+%'    \centering
+%'    %\topcaption{Table captions are better up top} % requires the topcapt package
+%'    \begin{tabular}{@{} ccccccccccccccccccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+%'    2005 & 50&64&55&64&60&53&56&50&51&45&46&46&50&56&63&65&53&54&58&69 \\
+%'    2015 & 57&47&46&59&59&50&57&52&41&66&65&52&57&75&65&76&43&56&52&67 \\ \hline
+%'    \end{tabular}
+%'     \caption{Central tendency}
+%'    \label{tab:t3_11}
+%' \end{table}
+%' 
+%'   Has the average caseload increased, decreased, or stayed the same?
+%'   
+%'   \vspace{5mm}
+%'     \framebox[5cm][l]{ Answer: }
+%'   \end{exercise}
+%'   \vspace{2mm}
+%'   \begin{solution}
+%'       
+%'       The mean for 2005 is
+%'       <<results="asis", echo=FALSE>>=
+%'         cl2005 <- c(50,	64,	55,	64,	60,	53,	56,	50,	51,	45,	46,	46,	50,	56,	63,	65,	53,	54,	58,	69)
+%'         cl2015 <- c(57,	47,	46,	59,	59,	50,	57,	52,	41,	66,	65,	52,	57,	75,	65,	76,	43,	56,	52,	67)
+%'         mean(cl2005)
+%'       @
+%'       
+%'       The median for 2005 is
+%'       <<results="asis", echo=FALSE>>=
+%'           median(cl2005)
+%'       @    
+%'   
+%'         The mean for 2015 is
+%'       <<results="asis", echo=FALSE>>=
+%'           mean(cl2015)
+%'       @
+%'       
+%'       The median for 2015 is
+%'       <<results="asis", echo=FALSE>>=
+%'           median(cl2015)
+%'       @    
+%'   
+%'   \end{solution}
     
     
 \end{exercises}
