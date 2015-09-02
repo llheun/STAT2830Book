@@ -647,4 +647,40 @@ Determine the  appropriate measures of central tendency for each variable:
 	
 	\end{solution}  
 	
+		  \begin{exercise} % 9
+  
+  A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of the 15 girls are listed below:
+  
+    <<t3_14, , echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
+	    t3_14a <- read.csv("chapters/Chapter_3/testing.csv", header=TRUE)
+	    xtable(t3_14a)
+	    
+	  @
+  
+
+  
+  Calculate the mean and median pretest scores.  
+  
+	\vspace{4mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	
+	The mean is 
+	<<results="asis", echo=FALSE>>=
+	e3dat8 <- c(50, 27, 31, 35, 41, 11, 45, 50, 37, 43, 11, 9, 10, 20, 10, 35, 10, 30, 41, 40, 15, 30, 40, 26, 21)
+	  
+	mean(e3dat8)
+  @
+	
+	The median is 
+	<<results="asis", echo=FALSE>>=
+
+	median(e3dat8)
+	rm(e3dat8)
+  @
+	
+	\end{solution}  
+	
 \end{exercises}
