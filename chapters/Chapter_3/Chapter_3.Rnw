@@ -650,8 +650,8 @@ Determine the  appropriate measures of central tendency for each variable:
   
   A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of the 15 girls are listed below:
   
-    <<t3_14, , echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
-	    t3_14a <- read.csv("chapters/Chapter_3/data/testing.csv", header=TRUE)
+    <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
+	    t3_14a <- read.csv("data/testing.csv", header=TRUE)
 	    xtable(t3_14a)
 	    
 	  @
