@@ -738,6 +738,7 @@ Determine the  appropriate measures of central tendency for each variable:
 	
     <<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
 	  diff3 <- posttest3 - pretest3
+	  diff3
 	  boxplot(diff3)
 	  @
 	  
