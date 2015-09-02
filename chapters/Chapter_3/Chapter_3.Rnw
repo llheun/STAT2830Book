@@ -650,12 +650,41 @@ Determine the  appropriate measures of central tendency for each variable:
   
   A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of the 15 girls are listed below:
   
-    <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
-	    t3_14a <- read.csv("data/testing.csv", header=TRUE)
-	    xtable(t3_14a)
-	    
-	  @
-  
+%'     <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
+%' 	    t3_14a <- read.csv("data/testing.csv", header=TRUE)
+%' 	    xtable(t3_14a)
+%' 	    
+%' 	  @
+	  
+ % latex table generated in R 3.2.1 by xtable 1.7-4 package
+ % Wed Sep  2 09:06:12 2015
+ \begin{table}[ht]
+ \centering
+ \begin{tabular}{rrrrr}
+   \hline
+   case & posttest & pretest & diff \\ 
+   \hline
+    1 &  12 &   8 &   4 \\ 
+      2 &  13 &   7 &   6 \\ 
+      3 &  12 &  10 &   2 \\ 
+      4 &  19 &  15 &   4 \\ 
+      5 &   8 &  10 &  -2 \\ 
+      6 &  17 &  10 &   7 \\ 
+      7 &  12 &   3 &   9 \\ 
+      8 &  11 &  10 &   1 \\ 
+      9 &   7 &   5 &   2 \\ 
+     10 &  12 &  15 &  -3 \\ 
+     11 &  21 &  13 &   8 \\ 
+     12 &   5 &   4 &   1 \\ 
+     13 &  15 &  10 &   5 \\ 
+     14 &  11 &   8 &   3 \\ 
+     15 &  20 &  12 &   8 \\ 
+    \hline
+ \end{tabular}
+ \caption{Pre and Post Test Results}
+ \label{tab:t3_14}
+\end{table}
+	  
 
   
   Calculate the mean and median pretest scores.  
@@ -668,16 +697,16 @@ Determine the  appropriate measures of central tendency for each variable:
 	
 	The mean is 
 	<<results="asis", echo=FALSE>>=
-	e3dat8 <- c(50, 27, 31, 35, 41, 11, 45, 50, 37, 43, 11, 9, 10, 20, 10, 35, 10, 30, 41, 40, 15, 30, 40, 26, 21)
+	pretest3 <- c(12,13,12,19,8,17,12,11,7,12,21,5,15,11,20)
 	  
-	mean(e3dat8)
+	mean(pretest3)
   @
 	
 	The median is 
 	<<results="asis", echo=FALSE>>=
 
-	median(e3dat8)
-	rm(e3dat8)
+	median(pretest3)
+	rm(pretest3)
   @
 	
 	\end{solution}  
