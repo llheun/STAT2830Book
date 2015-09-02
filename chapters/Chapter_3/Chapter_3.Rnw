@@ -530,8 +530,7 @@ Determine the  appropriate measures of central tendency for each variable:
 \end{table}
 
   Has the average caseload increased, decreased, or stayed the same?
-  
-  \vspace{3mm}
+  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
   \vspace{2mm}
@@ -582,7 +581,7 @@ Determine the  appropriate measures of central tendency for each variable:
   
   Calculate the mean and median scores of these data.
   
-	\vspace{4mm}
+	\vspace{2mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -624,7 +623,7 @@ Determine the  appropriate measures of central tendency for each variable:
   
   Calculate the mean and median scores of these data.  
   
-	\vspace{4mm}
+	\vspace{2mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -648,7 +647,8 @@ Determine the  appropriate measures of central tendency for each variable:
 	
 		  \begin{exercise} % 9
   
-  A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of the 15 girls are listed below:
+  The next 2 questions refer to the following scenario.
+  A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of a random sample of  15 girls are listed below:
   
 %'     <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
 %' 	    t3_14a <- read.csv("data/testing.csv", header=TRUE)
@@ -687,7 +687,7 @@ Determine the  appropriate measures of central tendency for each variable:
 	  
 
   
-  Calculate the mean and median pretest scores.  
+  Calculate the mean and median pre and post test scores.
   
 	\vspace{4mm}
     \framebox[5cm][l]{ Answer: }
@@ -695,20 +695,55 @@ Determine the  appropriate measures of central tendency for each variable:
 	\vspace{2mm}
 	\begin{solution}
 	
-	The mean is 
+	The pretest mean is 
 	<<results="asis", echo=FALSE>>=
 	pretest3 <- c(12,13,12,19,8,17,12,11,7,12,21,5,15,11,20)
 	  
 	mean(pretest3)
   @
 	
-	The median is 
+	The pretest median is 
 	<<results="asis", echo=FALSE>>=
 
 	median(pretest3)
-	rm(pretest3)
+	
+  @
+
+	The posttest mean is 
+	<<results="asis", echo=FALSE>>=
+	posttest3 <- c(12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
+	  
+	mean(posttest3)
+  @
+	
+	The pretest median is 
+	<<results="asis", echo=FALSE>>=
+
+	median(posttest3)
+	
   @
 	
 	\end{solution}  
+	 
+	 
+  		  \begin{exercise} % 10
+  
+   Interpret these statistics.
+  
+	\vspace{4mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	
+    <<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
+	  diff3 <- posttest3 - pretest3
+	  boxplot(diff3)
+	  @
+	  
+	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
+	  
+	\end{solution}  
+	
 	
 \end{exercises}
