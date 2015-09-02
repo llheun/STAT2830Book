@@ -517,7 +517,6 @@ Determine the  appropriate measures of central tendency for each variable:
     For the next 2 questions, use the following scenario.
     As a leader of a Kalamazoo social services agency, you are concerned that your staff has an increased caseload of clients compared to 10 years ago.  The case loads of each worker are reported in the following table for years 2005 and 2015.  
     
-    
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
@@ -532,7 +531,7 @@ Determine the  appropriate measures of central tendency for each variable:
 
   Has the average caseload increased, decreased, or stayed the same?
   
-  \vspace{4mm}
+  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
   \vspace{2mm}
@@ -652,7 +651,7 @@ Determine the  appropriate measures of central tendency for each variable:
   A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of the 15 girls are listed below:
   
     <<t3_14, , echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
-	    t3_14a <- read.csv("chapters/Chapter_3/testing.csv", header=TRUE)
+	    t3_14a <- read.csv("chapters/Chapter_3/data/testing.csv", header=TRUE)
 	    xtable(t3_14a)
 	    
 	  @
