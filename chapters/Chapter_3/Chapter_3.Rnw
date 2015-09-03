@@ -732,8 +732,8 @@ Determine the  appropriate measures of central tendency for each variable:
    <<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
 	    dat3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12,12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
 	    testType3 <- c(rep("PRE", 15), rep("POST", 15))
-	    boxplot( dat3 ~ testType3)
-	@
+	    ## boxplot( dat3 ~ testType3)
+	  @
   
 	\vspace{4mm}
     \framebox[5cm][l]{ Answer: }
@@ -741,13 +741,18 @@ Determine the  appropriate measures of central tendency for each variable:
 	\vspace{2mm}
 	\begin{solution}
 	
-    <<f3_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
-	    	pretest3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12)  
-	      posttest3 <- c(12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
-	      diff3 <- posttest3 - pretest3
-	      ## diff3
-	      ## boxplot(diff3)
-	  @
+    \begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[ht]
+
+{\centering \includegraphics[width=\maxwidth]{figure/f3_2-1} 
+
+}
+
+\caption[Box plot of Post - Pre Test Scores]{Box plot of Post - Pre Test Scores}\label{fig:f3_2}
+\end{figure}
+
+
+\end{knitrout}
 	  
 	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
 	  
