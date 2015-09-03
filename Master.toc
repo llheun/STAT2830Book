@@ -68,125 +68,125 @@
 \contentsline {section}{\numberline {3.7}Other Measures of Location}{41}
 \contentsline {section}{\numberline {3.8}Key Words}{42}
 \contentsline {section}{\numberline {3.9}Exercises}{43}
-\contentsline {chapter}{\numberline {4}Measures of Dispersion }{47}
-\contentsline {section}{\numberline {4.1}Objective}{47}
-\contentsline {section}{\numberline {4.2}Definition of Dispersion}{47}
-\contentsline {section}{\numberline {4.3}Range}{48}
-\contentsline {section}{\numberline {4.4}Interquartile Range}{48}
-\contentsline {section}{\numberline {4.5}Standard Deviation}{50}
-\contentsline {section}{\numberline {4.6}Variance}{54}
-\contentsline {section}{\numberline {4.7}Other Measures of Spread}{55}
-\contentsline {subsubsection}{Coefficient of Variation}{55}
-\contentsline {section}{\numberline {4.8}Key Words}{55}
-\contentsline {section}{\numberline {4.9}Exercises}{56}
-\contentsline {chapter}{\numberline {5}Normal Curve}{57}
-\contentsline {section}{\numberline {5.1}Objectives}{57}
-\contentsline {section}{\numberline {5.2}Why we should study the Normal Curve}{57}
-\contentsline {section}{\numberline {5.3}Normal Curve Characteristics}{57}
-\contentsline {section}{\numberline {5.4}Empirical Rule}{59}
-\contentsline {subsubsection}{Example \# 1}{59}
-\contentsline {subsubsection}{Example \# 2}{60}
-\contentsline {section}{\numberline {5.5}Normal Curve and z-score}{60}
-\contentsline {subsubsection}{Example \# 3}{63}
-\contentsline {section}{\numberline {5.6}Finding Probabilities Using the Normal Curve}{64}
-\contentsline {subsubsection}{Example \# 4}{65}
-\contentsline {subsubsection}{Example \# 5}{66}
-\contentsline {subsubsection}{Example \# 6}{67}
-\contentsline {subsubsection}{Example \# 7}{68}
-\contentsline {section}{\numberline {5.7}Key Words}{69}
-\contentsline {section}{\numberline {5.8}Exercises}{70}
-\contentsline {chapter}{\numberline {6}Inferential Statistics }{73}
-\contentsline {section}{\numberline {6.1}Objective}{73}
-\contentsline {section}{\numberline {6.2}Population}{73}
-\contentsline {section}{\numberline {6.3}Sample}{74}
-\contentsline {section}{\numberline {6.4}Sample Selection}{74}
-\contentsline {subsection}{\numberline {6.4.1}Non-probability Sampling}{75}
-\contentsline {subsection}{\numberline {6.4.2}Probability Sampling}{75}
-\contentsline {section}{\numberline {6.5}Types of Survey Errors}{76}
-\contentsline {section}{\numberline {6.6}Distribution of Sample Average}{76}
-\contentsline {subsection}{\numberline {6.6.1}Theorem I}{77}
-\contentsline {subsection}{\numberline {6.6.2}Theorem II -- Central Limit Theorem}{79}
-\contentsline {section}{\numberline {6.7}Estimation of Population Mean}{79}
-\contentsline {section}{\numberline {6.8}Key Words}{81}
-\contentsline {section}{\numberline {6.9}Exercises}{82}
-\contentsline {chapter}{\numberline {7}Estimation }{85}
-\contentsline {section}{\numberline {7.1}Objective}{85}
-\contentsline {section}{\numberline {7.2}Calculating CI for Population Mean}{85}
-\contentsline {subsection}{\numberline {7.2.1}Point Estimates}{85}
-\contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{86}
-\contentsline {subsubsection}{Steps for calculating CI for population mean, $\mu $.}{89}
-\contentsline {section}{\numberline {7.3}Calculating CI for Population Proportion}{89}
-\contentsline {subsubsection}{Example 3 Calculating CI for Population Proportion}{90}
-\contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{91}
-\contentsline {section}{\numberline {7.4}Key Words}{92}
-\contentsline {section}{\numberline {7.5}Exercises}{93}
-\contentsline {chapter}{\numberline {8}Testing One Sample Hypotheses }{97}
-\contentsline {section}{\numberline {8.1}Objective}{97}
-\contentsline {section}{\numberline {8.2}Why do hypothesis testing?}{97}
-\contentsline {section}{\numberline {8.3}Hypothesis Testing on One Sample Mean}{98}
-\contentsline {subsection}{\numberline {8.3.1}KNOWN population standard deviation}{98}
-\contentsline {subsection}{\numberline {8.3.2}UNKNOWN population standard deviation}{99}
-\contentsline {section}{\numberline {8.4}Hypothesis Testing on One Sample Proportion}{100}
-\contentsline {section}{\numberline {8.5}Type of Error}{101}
-\contentsline {subsubsection}{Let's consider another example.}{102}
-\contentsline {subsubsection}{General statement about Types of Error during hypotheses testing.}{102}
-\contentsline {section}{\numberline {8.6}Key Words}{103}
-\contentsline {section}{\numberline {8.7}Exercises}{104}
-\contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{109}
-\contentsline {section}{\numberline {9.1}Objective}{109}
-\contentsline {section}{\numberline {9.2}One Sample Case vs. Two Sample Case}{109}
-\contentsline {section}{\numberline {9.3}Hypothesis Testing on Two Sample Means}{110}
-\contentsline {subsection}{\numberline {9.3.1}Example 1}{110}
-\contentsline {subsection}{\numberline {9.3.2}Example 2}{113}
-\contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{116}
-\contentsline {subsection}{\numberline {9.4.1}Example 1}{116}
-\contentsline {subsection}{\numberline {9.4.2}Example 2}{118}
-\contentsline {section}{\numberline {9.5}Key Words}{119}
-\contentsline {section}{\numberline {9.6}Exercises}{120}
-\contentsline {chapter}{\numberline {10}Testing Equality of two or more Proportions }{123}
-\contentsline {section}{\numberline {10.1}Objective}{123}
-\contentsline {section}{\numberline {10.2}Chi-square Test for Independence}{123}
-\contentsline {subsection}{\numberline {10.2.1}Example 1}{123}
-\contentsline {subsection}{\numberline {10.2.2}Example 2}{126}
-\contentsline {section}{\numberline {10.3}Chi-square Goodness-of-Fit Test}{128}
-\contentsline {subsection}{\numberline {10.3.1}Example 1}{128}
-\contentsline {section}{\numberline {10.4}Key Words}{130}
-\contentsline {section}{\numberline {10.5}Exercises}{131}
-\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{133}
-\contentsline {section}{\numberline {11.1}Objective}{133}
-\contentsline {section}{\numberline {11.2}What is ANOVA?}{133}
-\contentsline {subsection}{\numberline {11.2.1}Example 1}{134}
-\contentsline {subsection}{\numberline {11.2.2}Example 2}{136}
-\contentsline {section}{\numberline {11.3}Key Words}{139}
-\contentsline {section}{\numberline {11.4}Exercises}{140}
-\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{143}
-\contentsline {section}{\numberline {12.1}Objective}{143}
-\contentsline {section}{\numberline {12.2}What is Correlation?}{143}
-\contentsline {subsection}{\numberline {12.2.1}Example 1}{144}
-\contentsline {section}{\numberline {12.3}What is Linear Regression?}{147}
-\contentsline {subsubsection}{Interpreting Scatter Plot}{147}
-\contentsline {subsubsection}{Does a Relationship Exist?}{147}
-\contentsline {subsubsection}{How Strong is the association?}{147}
-\contentsline {subsubsection}{Predicting response variable using the scatter plot}{148}
-\contentsline {subsubsection}{The Regression Line}{149}
-\contentsline {subsubsection}{Determining the y-intercept (a)}{149}
-\contentsline {subsubsection}{Determine the slope (b) }{150}
-\contentsline {subsubsection}{Prediction}{151}
-\contentsline {subsubsection}{Interpreting the Regression}{151}
-\contentsline {subsubsection}{Descriptive Statistics}{151}
-\contentsline {subsubsection}{Correlation matrix}{152}
-\contentsline {subsubsection}{Scatter plot}{152}
-\contentsline {subsubsection}{Regression Equation}{153}
-\contentsline {subsubsection}{Diagnostics}{154}
-\contentsline {subsubsection}{Summary}{154}
-\contentsline {section}{\numberline {12.4}Key Words}{155}
-\contentsline {section}{\numberline {12.5}Exercises}{157}
-\contentsline {chapter}{\numberline {13}Workshops}{161}
-\contentsline {section}{\numberline {13.1}Workshop 1}{162}
-\contentsline {section}{\numberline {13.2}Workshop 2}{164}
-\contentsline {section}{\numberline {13.3}Workshop 3}{166}
-\contentsline {section}{\numberline {13.4}Workshop 4}{168}
-\contentsline {section}{\numberline {13.5}Workshop 5}{170}
-\contentsline {section}{\numberline {13.6}Workshop 6}{172}
-\contentsline {section}{\numberline {13.7}Workshop 7}{174}
-\contentsline {section}{\numberline {13.8}Workshop 8}{178}
+\contentsline {chapter}{\numberline {4}Measures of Dispersion }{49}
+\contentsline {section}{\numberline {4.1}Objective}{49}
+\contentsline {section}{\numberline {4.2}Definition of Dispersion}{49}
+\contentsline {section}{\numberline {4.3}Range}{50}
+\contentsline {section}{\numberline {4.4}Interquartile Range}{50}
+\contentsline {section}{\numberline {4.5}Standard Deviation}{52}
+\contentsline {section}{\numberline {4.6}Variance}{56}
+\contentsline {section}{\numberline {4.7}Other Measures of Spread}{57}
+\contentsline {subsubsection}{Coefficient of Variation}{57}
+\contentsline {section}{\numberline {4.8}Key Words}{57}
+\contentsline {section}{\numberline {4.9}Exercises}{58}
+\contentsline {chapter}{\numberline {5}Normal Curve}{59}
+\contentsline {section}{\numberline {5.1}Objectives}{59}
+\contentsline {section}{\numberline {5.2}Why we should study the Normal Curve}{59}
+\contentsline {section}{\numberline {5.3}Normal Curve Characteristics}{59}
+\contentsline {section}{\numberline {5.4}Empirical Rule}{61}
+\contentsline {subsubsection}{Example \# 1}{61}
+\contentsline {subsubsection}{Example \# 2}{62}
+\contentsline {section}{\numberline {5.5}Normal Curve and z-score}{62}
+\contentsline {subsubsection}{Example \# 3}{65}
+\contentsline {section}{\numberline {5.6}Finding Probabilities Using the Normal Curve}{66}
+\contentsline {subsubsection}{Example \# 4}{67}
+\contentsline {subsubsection}{Example \# 5}{68}
+\contentsline {subsubsection}{Example \# 6}{69}
+\contentsline {subsubsection}{Example \# 7}{70}
+\contentsline {section}{\numberline {5.7}Key Words}{71}
+\contentsline {section}{\numberline {5.8}Exercises}{72}
+\contentsline {chapter}{\numberline {6}Inferential Statistics }{75}
+\contentsline {section}{\numberline {6.1}Objective}{75}
+\contentsline {section}{\numberline {6.2}Population}{75}
+\contentsline {section}{\numberline {6.3}Sample}{76}
+\contentsline {section}{\numberline {6.4}Sample Selection}{76}
+\contentsline {subsection}{\numberline {6.4.1}Non-probability Sampling}{77}
+\contentsline {subsection}{\numberline {6.4.2}Probability Sampling}{77}
+\contentsline {section}{\numberline {6.5}Types of Survey Errors}{78}
+\contentsline {section}{\numberline {6.6}Distribution of Sample Average}{78}
+\contentsline {subsection}{\numberline {6.6.1}Theorem I}{79}
+\contentsline {subsection}{\numberline {6.6.2}Theorem II -- Central Limit Theorem}{81}
+\contentsline {section}{\numberline {6.7}Estimation of Population Mean}{81}
+\contentsline {section}{\numberline {6.8}Key Words}{83}
+\contentsline {section}{\numberline {6.9}Exercises}{84}
+\contentsline {chapter}{\numberline {7}Estimation }{87}
+\contentsline {section}{\numberline {7.1}Objective}{87}
+\contentsline {section}{\numberline {7.2}Calculating CI for Population Mean}{87}
+\contentsline {subsection}{\numberline {7.2.1}Point Estimates}{87}
+\contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{88}
+\contentsline {subsubsection}{Steps for calculating CI for population mean, $\mu $.}{91}
+\contentsline {section}{\numberline {7.3}Calculating CI for Population Proportion}{91}
+\contentsline {subsubsection}{Example 3 Calculating CI for Population Proportion}{92}
+\contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{93}
+\contentsline {section}{\numberline {7.4}Key Words}{94}
+\contentsline {section}{\numberline {7.5}Exercises}{95}
+\contentsline {chapter}{\numberline {8}Testing One Sample Hypotheses }{99}
+\contentsline {section}{\numberline {8.1}Objective}{99}
+\contentsline {section}{\numberline {8.2}Why do hypothesis testing?}{99}
+\contentsline {section}{\numberline {8.3}Hypothesis Testing on One Sample Mean}{100}
+\contentsline {subsection}{\numberline {8.3.1}KNOWN population standard deviation}{100}
+\contentsline {subsection}{\numberline {8.3.2}UNKNOWN population standard deviation}{101}
+\contentsline {section}{\numberline {8.4}Hypothesis Testing on One Sample Proportion}{102}
+\contentsline {section}{\numberline {8.5}Type of Error}{103}
+\contentsline {subsubsection}{Let's consider another example.}{104}
+\contentsline {subsubsection}{General statement about Types of Error during hypotheses testing.}{104}
+\contentsline {section}{\numberline {8.6}Key Words}{105}
+\contentsline {section}{\numberline {8.7}Exercises}{106}
+\contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{111}
+\contentsline {section}{\numberline {9.1}Objective}{111}
+\contentsline {section}{\numberline {9.2}One Sample Case vs. Two Sample Case}{111}
+\contentsline {section}{\numberline {9.3}Hypothesis Testing on Two Sample Means}{112}
+\contentsline {subsection}{\numberline {9.3.1}Example 1}{112}
+\contentsline {subsection}{\numberline {9.3.2}Example 2}{115}
+\contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{118}
+\contentsline {subsection}{\numberline {9.4.1}Example 1}{118}
+\contentsline {subsection}{\numberline {9.4.2}Example 2}{120}
+\contentsline {section}{\numberline {9.5}Key Words}{121}
+\contentsline {section}{\numberline {9.6}Exercises}{122}
+\contentsline {chapter}{\numberline {10}Testing Equality of two or more Proportions }{125}
+\contentsline {section}{\numberline {10.1}Objective}{125}
+\contentsline {section}{\numberline {10.2}Chi-square Test for Independence}{125}
+\contentsline {subsection}{\numberline {10.2.1}Example 1}{125}
+\contentsline {subsection}{\numberline {10.2.2}Example 2}{128}
+\contentsline {section}{\numberline {10.3}Chi-square Goodness-of-Fit Test}{130}
+\contentsline {subsection}{\numberline {10.3.1}Example 1}{130}
+\contentsline {section}{\numberline {10.4}Key Words}{132}
+\contentsline {section}{\numberline {10.5}Exercises}{133}
+\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{135}
+\contentsline {section}{\numberline {11.1}Objective}{135}
+\contentsline {section}{\numberline {11.2}What is ANOVA?}{135}
+\contentsline {subsection}{\numberline {11.2.1}Example 1}{136}
+\contentsline {subsection}{\numberline {11.2.2}Example 2}{138}
+\contentsline {section}{\numberline {11.3}Key Words}{141}
+\contentsline {section}{\numberline {11.4}Exercises}{142}
+\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{145}
+\contentsline {section}{\numberline {12.1}Objective}{145}
+\contentsline {section}{\numberline {12.2}What is Correlation?}{145}
+\contentsline {subsection}{\numberline {12.2.1}Example 1}{146}
+\contentsline {section}{\numberline {12.3}What is Linear Regression?}{149}
+\contentsline {subsubsection}{Interpreting Scatter Plot}{149}
+\contentsline {subsubsection}{Does a Relationship Exist?}{149}
+\contentsline {subsubsection}{How Strong is the association?}{149}
+\contentsline {subsubsection}{Predicting response variable using the scatter plot}{150}
+\contentsline {subsubsection}{The Regression Line}{151}
+\contentsline {subsubsection}{Determining the y-intercept (a)}{151}
+\contentsline {subsubsection}{Determine the slope (b) }{152}
+\contentsline {subsubsection}{Prediction}{153}
+\contentsline {subsubsection}{Interpreting the Regression}{153}
+\contentsline {subsubsection}{Descriptive Statistics}{153}
+\contentsline {subsubsection}{Correlation matrix}{154}
+\contentsline {subsubsection}{Scatter plot}{154}
+\contentsline {subsubsection}{Regression Equation}{155}
+\contentsline {subsubsection}{Diagnostics}{156}
+\contentsline {subsubsection}{Summary}{156}
+\contentsline {section}{\numberline {12.4}Key Words}{157}
+\contentsline {section}{\numberline {12.5}Exercises}{159}
+\contentsline {chapter}{\numberline {13}Workshops}{163}
+\contentsline {section}{\numberline {13.1}Workshop 1}{164}
+\contentsline {section}{\numberline {13.2}Workshop 2}{166}
+\contentsline {section}{\numberline {13.3}Workshop 3}{168}
+\contentsline {section}{\numberline {13.4}Workshop 4}{170}
+\contentsline {section}{\numberline {13.5}Workshop 5}{172}
+\contentsline {section}{\numberline {13.6}Workshop 6}{174}
+\contentsline {section}{\numberline {13.7}Workshop 7}{176}
+\contentsline {section}{\numberline {13.8}Workshop 8}{180}
