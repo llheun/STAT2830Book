@@ -744,11 +744,23 @@ Determine the  appropriate measures of central tendency for each variable:
 
     \begin{figure}[ht]
 
-    {\centering \includegraphics[width=\maxwidth]{figure/f3_2-1} }
+    \centering 
+    \includegraphics[width=5cm]{figure/f3_2-1} 
 
-    \caption[Box plot of Post - Pre Test Scores]{Box plot of Post - Pre Test Scores}\label{fig:f3_2}
+    \caption[Box plot of Post - Pre Test Scores]{Box plot of Post - Pre Test Scores}
+    \label{fig:f3_2}
     \end{figure}
 
+    The  sex ed pretest  mean is 
+    <<results="asis", echo=FALSE>>=
+	     mean(dat3[1:15])
+	   @
+	   
+	 The sex ed posttest mean is 
+	  <<results="asis", echo=FALSE>>=
+	      mean(dat3[16:30]) 
+	  @   
+	    
 	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
 	  
 	\end{solution}  
