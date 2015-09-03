@@ -741,19 +741,15 @@ Determine the  appropriate measures of central tendency for each variable:
 	\vspace{2mm}
 	\begin{solution}
 	
-    \begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{figure}[ht]
+   % \begin{knitrout}
+    %\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+    \begin{figure}[ht]
 
-{\centering \includegraphics[width=\maxwidth]{figure/f3_2-1} 
-
-}
+    {\centering \includegraphics[width=\maxwidth]{figure/f3_2-1} }
 
 \caption[Box plot of Post - Pre Test Scores]{Box plot of Post - Pre Test Scores}\label{fig:f3_2}
 \end{figure}
 
-
-\end{knitrout}
-	  
 	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
 	  
 	\end{solution}  
