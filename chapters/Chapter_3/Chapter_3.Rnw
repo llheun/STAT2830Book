@@ -741,7 +741,7 @@ Determine the  appropriate measures of central tendency for each variable:
 	\vspace{2mm}
 	\begin{solution}
 	
-    <<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
+    <<f3_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
 	    	pretest3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12)  
 	      posttest3 <- c(12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
 	      diff3 <- posttest3 - pretest3
