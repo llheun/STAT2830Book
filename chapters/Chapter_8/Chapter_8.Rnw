@@ -117,7 +117,24 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 Let's explore this example: A random sample of 40 people used the Weight Watchers diet for one year, their mean weight loss was 3.0 pounds with a standard deviation of 4.9 pounds.  Assuming the weight loss data is approximately normally distributed and using a significance level of 5 percent, test the claim that people really succeed in the weight loss on the Weight Watchers plan,
 the mean weight loss was greater than 0 pounds.  Is the weight loss program effective?
 
-Use the following obtained data values: $\mu_0 = 0$, \hspace{2mm}  $n = 40$ \hspace{2mm} $s = 4.9$ \hspace{2mm} $\bar{X} = 3.0$ \hspace{2mm} $\alpha = 0.05$ 
+Use the following obtained data values: 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     Variable & Data Value \\ \hline
+     population mean ($\mu_0$) & 0 \\
+     sample size (n) & 40 \\
+     sample mean ($\bar{X}$) & 3 \\
+     sample SD ($s$) & 4.9 \\
+     $\alpha$ level & 0.05 \\ \hline
+     
+   \end{tabular}
+   \caption{Weight Watchers Data }
+   \label{tab:s8_3}
+\end{table}
 
 \begin{enumerate}
 \item Identify the population parameter of interest. 
@@ -164,9 +181,28 @@ Use the following obtained data values: $\mu_0 = 0$, \hspace{2mm}  $n = 40$ \hsp
 
 \section{Hypothesis Testing on One Sample Proportion}
 
-Let's investigate a one sample proportion.  Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly differenct from the statewide rate at $\alpha = 0.05$?
+Let's investigate a one sample proportion.  
+
+Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly differenct from the statewide rate at $\alpha = 0.05$?
 
 The researcher used the following obtained data values: $n = 207$ \hspace{3mm} $f = 83$ \hspace{3mm} $\alpha = 0.05$ \hspace{3mm} $P_u = 0.35$ 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     Variable & Data Value \\ \hline
+     population proportion ($P_u$) & 0.35 \\
+     sample size (n) & 207 \\
+     sample frequency ($f$) & 83 \\
+     $\alpha$ level & 0.05 \\ \hline
+     
+   \end{tabular}
+   \caption{Cases Cleared by Arrest }
+   \label{tab:s8_3}
+\end{table}
+
 
 \begin{enumerate}
 \item Identify that the population parameter of interest.
@@ -318,7 +354,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
   \begin{exercise} % 1
 
     The next 4 questions refer to the following scenario.
-    In 2010, the population of Michigan on the average watches 6.2 hours of TV per day.  A researcher from Kalamazoo Health department asked; is this number the same for the citizens of Kalamazoo?  What are the hypotheses for this question?
+    In 2010, the population of Michigan on the average watched 6.2 hours of TV per day.  A researcher from Kalamazoo Health department asked; is this number the same for the citizens of Kalamazoo?  What are the hypotheses for this question?
 
 	  \begin{enumerate}
 	  \item $H_0: \mu \neq 6.2$ vs. $H_A: \mu = 6.2$
@@ -329,7 +365,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  
 	  A random sample of 25 senior citizens in the Kalamazoo report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 	  
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
 	\end{exercise}
@@ -345,13 +381,13 @@ Now if we have medical evidence about the patient, then we can say that the pati
     Calculate the test statistic.
 
 	  \begin{enumerate}
-	  \item $T = -2.14$
-	  \item $T = +2.14$
-	  \item $Z = -2.14$
-	  \item $Z = +2.14$
+	  \item $-2.14$
+	  \item $+2.14$
+	  \item $+0.14$
+	  \item $+0.70$
 	  
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
 	\end{exercise}  
@@ -375,7 +411,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item T-distribution, $CV_t =  1.71 $
 	  \item T-distribution, $CV_t =  2.064 $
 	  \end{enumerate}	
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -391,12 +427,12 @@ Now if we have medical evidence about the patient, then we can say that the pati
     What is your conclusion?
 
 	  \begin{enumerate}
-	  \item Conclude there is a difference.
-	  \item Conclude there is no difference.
-	  \item Conclude that seniors watch too much TV.
-	  \item Conclude that statewide people watch too much TV
+	  \item There is a significant difference.
+	  \item There is not significant difference.
+	  \item Seniors watch too much TV.
+	  \item Statewide people watch too much TV
 	  \end{enumerate}	
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -419,7 +455,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -441,7 +477,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item $ -1.96$
 	  \item $ +1.96$
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -467,7 +503,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item T-distribution, $CV_t = 1.697$
 	  \item T-distribution, $CV_t = 2.042$
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -488,7 +524,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item The proportion of voters who rejected the proposal is less than 60.
 	  \item The proportion of voters who rejected the proposal is greater than 60.
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
