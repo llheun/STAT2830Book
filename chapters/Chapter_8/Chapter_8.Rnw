@@ -168,7 +168,7 @@ Use the following obtained data values:
 \item Making decision  based on the {\bf{CV}} from the t-distribution table.
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: \mu > 0$,
-	\item  and since $ T  = 3.87 > 1.697$.  
+	\item  and since $ T  = 3.87 > 1.697 \sim 1.6849$.  
 	\item Hence, reject $H_0$.
 	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 3, important.
 	\end{itemize}
@@ -227,7 +227,7 @@ The researcher used the following obtained data values:
 \item Decision based on {\bf{critical value (CV)}} at {\bf{level of significance}} 0.05 (5 percent).
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: P_u \neq  0.35 $,
-	\item and since $ Z  = 1.54 < 1.96$,   
+	\item and since $ Z  = 1.51 < 1.96$,   
 	\item we failed to reject $H_0$.
 	\item Although the test is not significant, as  researchers, we must ask ourselves, is the size effect, 0.05, important.
 	\end{itemize}
