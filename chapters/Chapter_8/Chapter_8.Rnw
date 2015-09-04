@@ -365,7 +365,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  
 	  A random sample of 25 senior citizens in the Kalamazoo report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 	  
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
 	\end{exercise}
@@ -387,7 +387,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item $+0.70$
 	  
 	  \end{enumerate}
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
 	\end{exercise}  
@@ -411,7 +411,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item T-distribution, $CV_t =  1.71 $
 	  \item T-distribution, $CV_t =  2.064 $
 	  \end{enumerate}	
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -432,7 +432,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item Seniors watch too much TV.
 	  \item Statewide people watch too much TV
 	  \end{enumerate}	
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -455,7 +455,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
 	  \end{enumerate}
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -477,7 +477,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item $ -1.96$
 	  \item $ +1.96$
 	  \end{enumerate}
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -503,7 +503,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item T-distribution, $CV_t = 1.697$
 	  \item T-distribution, $CV_t = 2.042$
 	  \end{enumerate}
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -524,7 +524,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item The proportion of voters who rejected the proposal is less than 60.
 	  \item The proportion of voters who rejected the proposal is greater than 60.
 	  \end{enumerate}
-	  \vspace{3mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -544,13 +544,33 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item A Type II error was committed.
 	  \item No error was committed.
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
    No Error was committed.
+  \end{solution}
+  
+    \begin{exercise} % 10
+  
+    The students at Kalamazoo Central High School cut an average of 2.5 classes per month.  A random sample of 60 seniors averages 2.6 cuts per month, with a standard deviations of 0.75.  Are seniors significantly greater from the student body?  Use an $\alpha$ level of 0.05.  (\emph{HINT:} This wording implies a one-tailed test of significance.)  To answer this question, use the five-step procedure.  
+    
+	  \vspace{2mm}
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+   
+    $H_0: \mu = 2.5$ vs. $H_1: \mu > 2.5$ \\
+    $SE = \frac{0.75}{\sqrt{60}} = 0.0968$ \\
+    $T = \frac{(2.6 - 2.5)}{0.0968}  = 1.0328 $ \\
+    $T_{0.05,59} = 1.6711$ \\
+    Since the $T < T_{0.05,59}$; fail to reject $H_0$. \\
+    Seniors are not significant greater than the student body. \\
+    
   \end{solution}
   
 \end{exercises}	
