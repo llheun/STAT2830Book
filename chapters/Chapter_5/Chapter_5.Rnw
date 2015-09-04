@@ -499,6 +499,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 
 \begin{itemize}
 \item Now place the z-scores on the graph and shade the area that we are interested in.
+
 \item Since we cannot get this area directly from the table we will split the graph into pieces with areas that we can  read from the table and use them  to get the desired results.
 \end{itemize}
 
