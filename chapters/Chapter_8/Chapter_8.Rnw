@@ -185,7 +185,7 @@ Let's investigate a one sample proportion.
 
 Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly differenct from the statewide rate at $\alpha = 0.05$?
 
-The researcher used the following obtained data values: $n = 207$ \hspace{3mm} $f = 83$ \hspace{3mm} $\alpha = 0.05$ \hspace{3mm} $P_u = 0.35$ 
+The researcher used the following obtained data values: 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]

@@ -128,7 +128,7 @@
 \contentsline {subsection}{\numberline {8.3.2}UNKNOWN population standard deviation}{99}
 \contentsline {section}{\numberline {8.4}Hypothesis Testing on One Sample Proportion}{101}
 \contentsline {section}{\numberline {8.5}Type of Error}{102}
-\contentsline {subsubsection}{Let's consider another example.}{102}
+\contentsline {subsubsection}{Let's consider another example.}{103}
 \contentsline {subsubsection}{General statement about Types of Error during hypotheses testing.}{103}
 \contentsline {section}{\numberline {8.6}Key Words}{104}
 \contentsline {section}{\numberline {8.7}Exercises}{105}
