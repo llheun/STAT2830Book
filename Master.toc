@@ -123,15 +123,15 @@
 \contentsline {chapter}{\numberline {8}Testing One Sample Hypotheses }{97}
 \contentsline {section}{\numberline {8.1}Objective}{97}
 \contentsline {section}{\numberline {8.2}Why do hypothesis testing?}{97}
-\contentsline {section}{\numberline {8.3}Hypothesis Testing on One Sample Mean}{98}
+\contentsline {section}{\numberline {8.3}Testing Hypothesis about One Sample Mean}{98}
 \contentsline {subsection}{\numberline {8.3.1}KNOWN population standard deviation}{98}
 \contentsline {subsection}{\numberline {8.3.2}UNKNOWN population standard deviation}{99}
 \contentsline {section}{\numberline {8.4}Hypothesis Testing on One Sample Proportion}{100}
 \contentsline {section}{\numberline {8.5}Type of Error}{101}
 \contentsline {subsubsection}{Let's consider another example.}{102}
 \contentsline {subsubsection}{General statement about Types of Error during hypotheses testing.}{102}
-\contentsline {section}{\numberline {8.6}Key Words}{103}
-\contentsline {section}{\numberline {8.7}Exercises}{104}
+\contentsline {section}{\numberline {8.6}Key Words}{104}
+\contentsline {section}{\numberline {8.7}Exercises}{105}
 \contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{109}
 \contentsline {section}{\numberline {9.1}Objective}{109}
 \contentsline {section}{\numberline {9.2}One Sample Case vs. Two Sample Case}{109}

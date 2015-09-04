@@ -53,7 +53,22 @@ Let's consider this example.  Statewide, the average score on the college entran
 
 A simple random sample of 125 senior students from Littlewood showed a mean verbal score on the college entrance exam of 502.  {\bf{Is there a significant difference at}} $\alpha = 0.05$?
 
-Given: $\mu_0 = 453$, \hspace{3mm} $\sigma = 95$ \hspace{3mm} $n = 125$ \hspace{3mm} $\bar{X} = 502$ \hspace{3mm} $\alpha = 0.05$ 
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} cc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     Variable & Data Value \\ \hline
+     population mean ($\mu_0$) & 453 \\
+     population SD ($\sigma$) & 95 \\
+     sample size (n) & 125 \\
+     sample mean ($\bar{X}$) & 502 \\
+     $\alpha$ & 0.05 \\ \hline
+     
+   \end{tabular}
+   \caption{Littlewood High School Data }
+   \label{tab:s8_2}
+\end{table}
 
 \begin{enumerate}
 \item Identify the population parameter of interest. 
