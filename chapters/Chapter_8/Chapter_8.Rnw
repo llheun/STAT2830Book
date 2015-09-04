@@ -78,24 +78,31 @@ Given: $\mu_0 = 453$, \hspace{3mm} $\sigma = 95$ \hspace{3mm} $n = 125$ \hspace{
 
 \item Decision is based on the {\bf{Critical Value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
 	\begin{itemize}
+	
 	\item The alternate hypothesis is $H_A: \mu > 453$,
+	
 	\item  and since $ Z  = 5.77 > 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.
+	
 	\item Hence, reject $H_0$.
+	
 	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important.
 	\end{itemize}
+
 \item Conclusion in non-statistical language.
 	\begin{itemize}
+
 	\item There is evidence in the data (at 0.05 significance level) that the results' obtained from Littlewood high school are higher than the average on state college entrance examination. 
-	a significant difference between that  results and those obtained from Littlewood HS.
+	
 	\end{itemize}
 		
 \end{enumerate}		
 	 	
 \subsection{UNKNOWN population standard deviation}
 
-Let's explore this example: A random sample of 40 people used the Weight Watchers diet for one year, their mean weight loss was 3.0 pounds with a standard deviation of 4.9 pounds.  Assuming the weight loss data is approximately normally distributed and using a significance level of 5 percent, test the claim that the mean weight loss was greater than 0 pounds.  Based on these findings, does the weight loss program appear to be effective?
+Let's explore this example: A random sample of 40 people used the Weight Watchers diet for one year, their mean weight loss was 3.0 pounds with a standard deviation of 4.9 pounds.  Assuming the weight loss data is approximately normally distributed and using a significance level of 5 percent, test the claim that people really succeed in the weight loss on the Weight Watchers plan,
+the mean weight loss was greater than 0 pounds.  Is the weight loss program effective?
 
-Given: $\mu_0 = 0$, \hspace{3mm}  $n = 40$ \hspace{3mm} $s = 4.9$ \hspace{3mm} $\bar{X} = 3.0$ \hspace{3mm} $\alpha = 0.05$ 
+Use the following obtained data values: $\mu_0 = 0$, \hspace{2mm}  $n = 40$ \hspace{2mm} $s = 4.9$ \hspace{2mm} $\bar{X} = 3.0$ \hspace{2mm} $\alpha = 0.05$ 
 
 \begin{enumerate}
 \item Identify the population parameter of interest. 
@@ -118,14 +125,15 @@ Given: $\mu_0 = 0$, \hspace{3mm}  $n = 40$ \hspace{3mm} $s = 4.9$ \hspace{3mm} $
 	T &= \frac{point Estimate (\bar{X}) - hypothesized Value (\mu_0) }{SE}  = \frac{3.0 - 0}{0.775} = \frac{3.0}{0.775} = 3.87 \nonumber
 	\end{align*}
 
-\item Determine the {\bf{Critical Value (CV)}}.
+\item Determine the {\bf{critical value (CV)}}.
+    To obtain the CV, we need to remember since we are using the estimated standard deviation from the sample and not from the population.  It is necessary to use a different table.
 	\begin{itemize}
 	\item $df = n - 1 = 40 - 1 = 39$ and $\alpha = 0.05$
 	\item Since $H_A: \mu > 0$, this is a one-tailed test.
 	\item From the t-table, $CV = 1.697$
 	\end{itemize}
 
-\item Making decision  based on the {\bf{Critical Value (CV)}} from the t-distribution table.
+\item Making decision  based on the {\bf{CV}} from the t-distribution table.
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: \mu > 0$,
 	\item  and since $ T  = 3.87 > 1.697$.  
@@ -134,54 +142,54 @@ Given: $\mu_0 = 0$, \hspace{3mm}  $n = 40$ \hspace{3mm} $s = 4.9$ \hspace{3mm} $
 	\end{itemize}
 \item Conclusion in non-statistical language.
 	\begin{itemize}
-	\item There is evidence that the mean weight loss is greater than zero; the program is effective. 
+	\item Statistically, there is evidence that the mean weight loss is greater than zero; people do on the average loss weight.  However, there could be different expectations.
 	\end{itemize}
 		
 \end{enumerate}		
 
 \section{Hypothesis Testing on One Sample Proportion}
 
-Let's investigate a one sample proportion.  Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Are the local robberies arrest rate significantly from the statewide rate at $\alpha = 0.05$?
+Let's investigate a one sample proportion.  Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly differenct from the statewide rate at $\alpha = 0.05$?
 
-Given: $n = 207$ \hspace{3mm} $f = 83$ \hspace{3mm} $\alpha = 0.05$ \hspace{3mm} $P_u = 0.35$ 
+The researcher used the following obtained data values: $n = 207$ \hspace{3mm} $f = 83$ \hspace{3mm} $\alpha = 0.05$ \hspace{3mm} $P_u = 0.35$ 
 
 \begin{enumerate}
 \item Identify that the population parameter of interest.
 	\begin{itemize}
-	\item From the problem statement, we are asked for the proportion of robberies that have been cleared by an arrest.
+	\item From the problem statement, we are interested in the proportion of robberies that have been cleared by an arrest.
 	\end{itemize}
 \item Formulate the null hypothesis ($H_0$).
 	\begin{itemize}
-	\item $H_0: P_u = 0.35$  (The local robberies arrest rate is same with the statewide rate.)
+	\item $H_0: P_u = 0.35$  (The local robberies arrest rate is same as the statewide rate.)
 	\end{itemize}
 \item Formulate the alternate hypothesis ($H_A$).
 	\begin{itemize}
-	\item $H_A: P_u \neq 0.35$  (The local robberies arrest rate significantly different from the statewide rate.)
+	\item $H_A: P_u \neq 0.35$  (The local robberies arrest rate is significantly different from the statewide rate.)
 	\end{itemize}	
-\item Calculate the Test Statistic.
+\item Calculate the test statistic.
 	\begin{align*}
 	P_s &= \frac{f}{n} = \frac{83}{207} = 0.40 \\ \nonumber
 	SE &= \sqrt{ \frac{P_u (1 - P_u)}{n}} = \sqrt{ \frac{ 0.35(1 - 0.35)}{207}} = 0.0332 \\ \nonumber
 	Z &= \frac{point Estimate (P_s) - hypothesized Value (P_u) }{SE}  = \frac{ 0.40 - 0.35 }{0.0332} = 1.51 \nonumber
 	\end{align*}
 	
-\item Decision based on {\bf{Critical Value (CV)}} at {\bf{level of significance}} 0.05 or 5 percent.
+\item Decision based on {\bf{critical value (CV)}} at {\bf{level of significance}} 0.05 (5 percent).
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: P_u \neq  0.35 $,
-	\item  and since $ |Z|  = 1.54 < 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.   
-	\item Hence, failed to reject $H_0$.
+	\item and since $ Z  = 1.54 < 1.96$,   
+	\item we failed to reject $H_0$.
 	\item Although the test is not significant, as  researchers, we must ask ourselves, is the size effect, 0.05, important.
 	\end{itemize}
 \item Conclusion in non-statistical language.
 	\begin{itemize}
-	\item There is insufficient evidence to conclude that there is a difference between the  statewide results and the local arrest rate for robberies with 95 percent confidence. 
+	\item There is insufficient evidence in the data to conclude that there is a difference between the  statewide results and the local arrest rate for robberies with 95 percent confidence. 
 	\end{itemize}
 		
 \end{enumerate}			
 		 
 \section{Type of Error}
 
-Whenever we use the hypotheses testing, there is always a chance that we may obtain a sample that draw a wrong conclusion.  Let's look at the court system.  In the USA, the defendant is presumed innocent, so our Hypotheses will look like this: \\
+Whenever we use the hypotheses testing, there is always a chance that we may obtain a sample that leads us to a wrong conclusion.  Let's look at the court system.  In the USA, the defendant is presumed innocent, so our hypotheses will look like this: \\
 $H_0:$ the defendant is not guilty. \\
 $H_A:$ the defendant is guilty. \\
 Now if we have enough evidence against the defendant, then we can say that the defendant is guilty.  Now let's look at the following table to see how an error can happen in this situation.
@@ -193,8 +201,8 @@ Now if we have enough evidence against the defendant, then we can say that the d
    \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
      Decision (`What we say') & Guilty & Not Guilty \\ \hline 
-     Guilty & OK & Type I Error \\ 
-     Not Guilty & Type II Error & OK \\ \hline
+     Guilty & correct & Type I Error \\ 
+     Not Guilty & Type II Error & correct \\ \hline
      
    \end{tabular}
   % \caption{Remember, \emph{never} use vertical lines in tables.}
@@ -211,7 +219,7 @@ Now if we have enough evidence against the defendant, then we can say that the d
 Deciding whether a patient is HIV positive: \\
 $H_0:$ the patient is not HIV positive. \\
 $H_A:$ the patient is HIV positive. \\
-Now if we have enough evidence against the patient, then we can say that the patient is HIV positive.  Now let's look at the following table to see how an error can happen in this situation.
+Now if we have medical evidence about the patient, then we can say that the patient is HIV positive.  Now let's look at the following table to see how an error can happen in this situation.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -220,8 +228,8 @@ Now if we have enough evidence against the patient, then we can say that the pat
    \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
      Decision (`What we say') & Guilty & Not Guilty \\ \hline 
-     HIV positive  & OK & Type I Error (false positive)  \\ 
-     Not HIV positive & Type II Error (false negative) & OK \\ \hline
+     HIV positive  & correct & Type I Error (false positive)  \\ 
+     Not HIV positive & Type II Error (false negative) & correct \\ \hline
      
    \end{tabular}
   % \caption{Remember, \emph{never} use vertical lines in tables.}
@@ -242,8 +250,8 @@ Now if we have enough evidence against the patient, then we can say that the pat
    \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
      Decision (`What we say') & Guilty & Not Guilty \\ \hline 
-     Reject $H_0$  & OK & Type I Error   \\ 
-     Fail to reject $H_0$ & Type II Error  & OK \\ \hline
+     Reject $H_0$  & correct & Type I Error   \\ 
+     Fail to reject $H_0$ & Type II Error  & correct \\ \hline
      
    \end{tabular}
   % \caption{Remember, \emph{never} use vertical lines in tables.}
@@ -295,16 +303,17 @@ Now if we have enough evidence against the patient, then we can say that the pat
   \begin{exercise} % 1
 
     The next 4 questions refer to the following scenario.
-    Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
-
-    What are the hypotheses for this question?
+    In 2010, the population of Michigan on the average watches 6.2 hours of TV per day.  A researcher from Kalamazoo Health department asked; is this number the same for the citizens of Kalamazoo?  What are the hypotheses for this question?
 
 	  \begin{enumerate}
-	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu = 5.9$
+	  \item $H_0: \mu \neq 6.2$ vs. $H_A: \mu = 6.2$
 	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu < 6.2$
 	  \item $H_0: \mu = 6.2$ vs. $H_A: \mu > 6.2$
   	\item $H_0: \mu = 6.2$ vs. $H_A: \mu \neq 6.2$
 	  \end{enumerate}
+	  
+	  A random sample of 25 senior citizens in the Kalamazoo report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
+	  
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
@@ -323,8 +332,9 @@ Now if we have enough evidence against the patient, then we can say that the pat
 	  \begin{enumerate}
 	  \item $T = -2.14$
 	  \item $T = +2.14$
-	  \item $Z = -.2.14$
+	  \item $Z = -2.14$
 	  \item $Z = +2.14$
+	  
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -345,10 +355,10 @@ Now if we have enough evidence against the patient, then we can say that the pat
     What is the sampling distribution and critical value at the 95 percent confidence level?
 
 	  \begin{enumerate}
-	  \item Standard Normal distribution, $CV(z) = -1.645 $
-	  \item Standard Normal distribution, $CV(z) = \pm 1.96 $
-	  \item T-distribution, $CV(t) = \pm 1.71 $
-	  \item T-distribution, $CV(t) = \pm 2.064 $
+	  \item Standard Normal distribution, $CV_z = -1.645 $
+	  \item Standard Normal distribution, $CV_z =  1.96 $
+	  \item T-distribution, $CV_t =  1.71 $
+	  \item T-distribution, $CV_t =  2.064 $
 	  \end{enumerate}	
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -410,11 +420,11 @@ Now if we have enough evidence against the patient, then we can say that the pat
     Calculate the test statistic.
 
 	  \begin{enumerate}
-	  \item $T = +1.23$
-	  \item $Z = -1.23$
-	  \item $Z = +1.23$
-	  \item $Z = -1.91$
-	  \item $Z = +1.91$
+	  \item $ +1.23$
+	  \item $ -1.23$
+	  \item $ +0.218$
+	  \item $ -1.96$
+	  \item $ +1.96$
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -437,10 +447,10 @@ Now if we have enough evidence against the patient, then we can say that the pat
     What is the sampling distribution and critical value at the 95 percent confidence level?
 
 	  \begin{enumerate}
-	  \item Standard Normal distribution, $CV(z) = \pm1.96$
-	  \item Standard Normal distribution, $CV(z) = \pm1.645$
-	  \item T-distribution, $CV(t) = \pm1.697$
-	  \item T-distribution, $CV(t) = \pm2.042$
+	  \item Standard Normal distribution, $CV_z = 1.96$
+	  \item Standard Normal distribution, $CV_z = 1.645$
+	  \item T-distribution, $CV_t = 1.697$
+	  \item T-distribution, $CV_t = 2.042$
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -448,7 +458,7 @@ Now if we have enough evidence against the patient, then we can say that the pat
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
-    Standard Normal distribution, $CV(z) = \pm1.96$
+    Standard Normal distribution, $CV(z) = 1.96$
   \end{solution}
   
   \begin{exercise} % 8 
@@ -458,8 +468,8 @@ Now if we have enough evidence against the patient, then we can say that the pat
     What is your conclusion?
 
 	  \begin{enumerate}
-	  \item Conclude there is a difference.
-	  \item Conclude there is no difference.
+	  \item There is a significant difference.
+	  \item There is not a significant difference.
 	  \item The proportion of voters who rejected the proposal is less than 60.
 	  \item The proportion of voters who rejected the proposal is greater than 60.
 	  \end{enumerate}
@@ -474,14 +484,14 @@ Now if we have enough evidence against the patient, then we can say that the pat
   
   \begin{exercise} % 9
   
-    The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward school gives the SSHA to 25 students who are at least 30 years of age and the sample mean was obtained $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
+    The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward college gives the SSHA to 25 students who are at least 30 years of age and obtains a sample mean,  $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
  
  	  \begin{enumerate}
 	  \item More samples should be taken
 	  \item She should change the significance level of the test.
-	  \item A Type I Error was committed.
-	  \item A Type II Error was committed.
-	  \item No Error was committed.
+	  \item A Type I error was committed.
+	  \item A Type II error was committed.
+	  \item No error was committed.
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
