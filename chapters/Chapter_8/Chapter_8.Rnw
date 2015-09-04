@@ -4,28 +4,28 @@
 \label{chap:ch8}
 
 \section{Objective}
-By the end of this material, you will be able to
+By the end of this chapter, you will be able to
 \begin{itemize}
 \item Explain the logic of hypothesis testng
 \item Define and explain the elements of hypothesis testing
 	\begin{enumerate}
-	\item Assumptions
-	\item Null and Alternative Hypotheses
-	\item Identify the appropriate critical statistic and rejection region
-	\item Perform the appropriate test for one-sample test (both one and 
+	\item Verify assumptions
+	\item State null and alternative Hypotheses
+	\item Identify the appropriate critical values  and rejection region
+	\item Perform the appropriate test based on data in one-sample (both one and 
 	two-tailed tests).
 	\item Identify the appropriate conclusion based on the test and be able to 
 	explain Type I and Type II errors and how they relate to the selection of the 
 	significance of the test   $\alpha$ and $\beta$ risks).
-	\item Effect Size
+	\item Comment on the effect size.
 	\end{enumerate}
 \end{itemize}
 
 \section{Why do hypothesis testing?}
   
 \begin{itemize}
-\item Hypothesis testing is done to challenge the truth about some claim regarding  a population parameter.
-\item For example: A sociologist is assessing the effectiveness of a rehabilitation program for alcoholics in her city.  The program serves a large area and she cannot test every single client.  Instead, she draws a simple random sample of 127 people from the list of all clients and questions them on a variety of issues.  She notices that, on average, the people in her sample miss fewer days of work each year than workers in the city as a whole.
+\item Hypothesis testing is done to challenge the statement about some claim regarding  a population parameter.
+\item For example: A sociologist is assessing the effectiveness of a rehabilitation program for alcoholics in her city.  The program serves a large area and she cannot examine every single client.  Instead, she draws a simple random sample of 127 people from the list of all clients and questions them on a variety of issues.  She notices that, on average, the people in her sample miss fewer days of work each year than workers in the city as a whole.
 
 \item So, ``are people in this program more reliable workers than people in the community in general given the information below?''
 
@@ -39,14 +39,14 @@ By the end of this material, you will be able to
      $\sigma = 1.43$ days per year & $n = 127$ \\ \hline
      
    \end{tabular}
-   \caption{Absenteeism }
+   \caption{Days being Absent from Work }
    \label{tab:s8_1}
 \end{table}
 
-\item To answer this question, we perform a hypothesis test.
+\item To study this question, we perform a hypothesis test.
 \end{itemize}
 
-\section{Hypothesis Testing on One Sample Mean}
+\section{Testing Hypothesis about One Sample Mean}
 \subsection{KNOWN population standard deviation}
 
 Let's consider this example.  Statewide, the average score on the college entrance exam (verbal test) is 453, with a standard deviation of 95.  The administrators of Littlewood Regional High School are interested in this question, ``Does their program do a better job of preparing their students for the college entrance exam?''  
@@ -66,7 +66,7 @@ Given: $\mu_0 = 453$, \hspace{3mm} $\sigma = 95$ \hspace{3mm} $n = 125$ \hspace{
 	\end{itemize}
 \item Formulate the alternate hypothesis ($H_A$).
 	\begin{itemize}
-	\item $H_A: \mu \neq 453$; (There is a significant difference between the state college entrance examination results and those obtained from Littlewood HS).
+	\item $H_A: \mu > 453$; (There is a significant difference between the state college entrance examination results and those obtained from Littlewood HS).
 	\end{itemize}
 	
 \item Calculate the Test Statistic: 
@@ -78,14 +78,15 @@ Given: $\mu_0 = 453$, \hspace{3mm} $\sigma = 95$ \hspace{3mm} $n = 125$ \hspace{
 
 \item Decision is based on the {\bf{Critical Value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
 	\begin{itemize}
-	\item The alternate hypothesis is $H_A: \mu \neq 453$,
-	\item  and since $| Z | = 5.77 > 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.
+	\item The alternate hypothesis is $H_A: \mu > 453$,
+	\item  and since $ Z  = 5.77 > 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.
 	\item Hence, reject $H_0$.
 	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important.
 	\end{itemize}
 \item Conclusion in non-statistical language.
 	\begin{itemize}
-	\item There is a significant difference between that state college entrance examination results and those obtained from Littlewood HS.
+	\item There is evidence in the data (at 0.05 significance level) that the results' obtained from Littlewood high school are higher than the average on state college entrance examination. 
+	a significant difference between that  results and those obtained from Littlewood HS.
 	\end{itemize}
 		
 \end{enumerate}		
