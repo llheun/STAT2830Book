@@ -216,7 +216,7 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 
 Let's look at constructing confidence intervals about a proportion with this example.
 
-A random sample was selected of 100 patients treated in a program for alcoholism and drug dependency over the past 10 years.  It was determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for readmission.
+A random sample was selected of 100 patients treated in a program for alcoholism and drug dependency over the past 10 years.  It was determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for readmission.  (Some people might start drinking again but not come for a treatment for the second time.)
 
 \begin{enumerate}
 \item Identify the {\bf{population parameter}} of interest.
