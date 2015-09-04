@@ -106,7 +106,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 \item Conclusion in non-statistical language.
 	\begin{itemize}
 
-	\item There is evidence in the data (at 0.05 significance level) that the results' obtained from Littlewood high school are higher than the average on state college entrance examination. 
+	\item There is evidence in the data (at 0.05 significance level) that the results' obtained from Littlewood High School are higher than the average on state college entrance examination. 
 	
 	\end{itemize}
 		
@@ -137,7 +137,7 @@ Use the following obtained data values:
 \end{table}
 
 \begin{enumerate}
-\item Identify the population parameter of interest. 
+\item Identify the population parameter of interest.  (See Table 8.3)
 	\begin{itemize}
 	\item We want to look at the population mean  ($\mu$) of the weight loss.
 	\end{itemize}
@@ -150,7 +150,7 @@ Use the following obtained data values:
 	\item $H_A: \mu > 0$; (The mean weight loss is greater than zero; the program is effective.)
 	\end{itemize}
 	
-\item Calculate the Test Statistic: 
+\item Calculate the test statistic: 
 	
 	\begin{align*}
 	SE &= \frac{s}{\sqrt{n}} = \frac{4.9}{\sqrt{40}} = 0.775 \\ \nonumber 
@@ -183,7 +183,7 @@ Use the following obtained data values:
 
 Let's investigate a one sample proportion.  
 
-Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly differenct from the statewide rate at $\alpha = 0.05$?
+Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly different from the statewide rate at $\alpha = 0.05$?
 
 The researcher used the following obtained data values: 
 
@@ -354,7 +354,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
   \begin{exercise} % 1
 
     The next 4 questions refer to the following scenario.
-    In 2010, the population of Michigan on the average watched 6.2 hours of TV per day.  A researcher from Kalamazoo Health department asked; is this number the same for the citizens of Kalamazoo?  What are the hypotheses for this question?
+    In 2010, the population of Michigan on the average watched 6.2 hours of TV per day.  A researcher from Kalamazoo Health department asked; is this number the same for the senior citizens of Kalamazoo?  What are the hypotheses for this question?
 
 	  \begin{enumerate}
 	  \item $H_0: \mu \neq 6.2$ vs. $H_A: \mu = 6.2$
@@ -375,8 +375,6 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	\end{solution}
 	
   \begin{exercise} % 2
-  
-    %Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     Calculate the test statistic.
 
@@ -385,7 +383,6 @@ Now if we have medical evidence about the patient, then we can say that the pati
 	  \item $+2.14$
 	  \item $+0.14$
 	  \item $+0.70$
-	  
 	  \end{enumerate}
 	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
@@ -421,8 +418,6 @@ Now if we have medical evidence about the patient, then we can say that the pati
   \end{solution}
   
   \begin{exercise} % 4
-  
-  %   Statewide, the population as a whole watches 6.2 hours of TV per day.  A random sample of 25 senior citizens in the state report watching an average of 5.9 hours per day with a standard deviation of 0.7 hours.  Is the difference significant?
 
     What is your conclusion?
 
@@ -450,7 +445,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
     What are the hypotheses for this question?
 
 	  \begin{enumerate}
-	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u = 0.49$
+	  \item $H_0: P_u \neq 0.55$ vs. $H_A: P_u = 0.55$
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u > 0.55$
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u < 0.55$
 	  \item $H_0: P_u = 0.55$ vs. $H_A: P_u \neq 0.55$
@@ -490,7 +485,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
      
   \end{solution}
   
-  
+\newpage  
   \begin{exercise} % 7
   
     % In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
