@@ -96,7 +96,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	
 	\item The alternate hypothesis is $H_A: \mu > 453$,
 	
-	\item  and since $ Z  = 5.77 > 1.96$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.
+	\item  and since $ Z  = 5.77 > 1.645$, i.e., $|Z|$ means the absolute value of $Z$ or the positive value of $Z$.
 	
 	\item Hence, reject $H_0$.
 	
