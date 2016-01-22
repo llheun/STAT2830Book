@@ -3,17 +3,17 @@
 \chapter{Dataset Descriptive Information}
 \label{chap:ch2}
 
-By the end of this chapter, you will be able to:
+\subsection{Objectives}
 
+By the end of this chapter, you will be able to:
 \begin{itemize}
-\item Explain the purpose of descriptive statistics in making data comprehensible.
+  \item Use descriptive statistics to make data understandable.
+  \item Summarize and analyze data using graphical methods.
 %\item Compute and interpret percentages, proportions, ratios, rates, and percentage change.
 %\item Construct and analyze frequency distributions for variables at each of the three levels of measurement.
-\item Summarize and analyze data using graphical methods.
 \end{itemize}
 
 The data from a research project cannot articulate by itself.  As social scientists, we must compute  descriptive statistics so that we can quickly understand the results of the project.  We as researchers use data science (statistics) to elucidate the results.  In this chapter, we will consider graphics, percentages, rates, and tables.  While these single value descriptive statistics are not rigorous, but are very useful for giving project results without doubt. 
-
 
 \section{Descriptive Statistics for Categorical Data}
 
@@ -21,54 +21,64 @@ The data from a research project cannot articulate by itself.  As social scienti
 
  \begin{figure}[ht]
     \centering
-    \includegraphics[width=5.7cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
+    \includegraphics[width=4.9cm]{chapters/Chapter_2/ext_figure/zRV2.png} % requires the graphicx package
     \caption{Categorical Random Variable}
     \label{fig:RV2}
  \end{figure}
 
 \subsection{Percentages and Proportions}
 
-A sample of various court sentencing results were collected and the results are displayed in the summary table below.  Compute the proportion and percent of sentenced acquitted.
+The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are  asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues. 
+\subsubsection{GSS Example}
 
- % latex table generated in R 3.2.0 by xtable 1.7-4 package
- % Fri Jul 17 08:00:24 2015
- \begin{table}[ht]
- \centering
- \begin{tabular}{lrrr}  \hline
-    &  \multicolumn{3}{c}{Statistic}  \\
-Disposition  & Frequency & Proportion & Percent \\ \hline
- Acquitted (A) & 10.00 & 0.04 & 3.72 \\ 
-   Suspended (S) & 20.00 & 0.07 & 7.43 \\ 
-   Less than 5 yrs sentence & 72.00 & 0.27 & 26.77 \\ 
-   More than 5 yrs sentence & 167.00 & 0.62 & 62.08 \\ 
-    \hline
- \end{tabular}
-   \caption{Frequency Distribution of Disposition of Criminal Cases}
-   \label{tab:t2_1}
- \end{table}
+After reviewing this data from the GSS (See Table: 2.1), compute the  percent of persons who indicate that voting is a very important responsibility of being a citizen.
 
-%\begin{comment}
-% <<t2_1, echo=FALSE>>=
-%  dt2_1 <- read.csv("data/sentence.csv",header=TRUE)
-%  t2_1 <- table(dt2_1$Sentence)
-%  Frequency <- sort(t2_1)
-%  tot2_1 <- sum(t2_1)
-%  Proportion <- Frequency / tot2_1 
-%  Percent    <- Proportion * 100
-%  t2_2       <- cbind( Frequency, Proportion, Percent )
-%  xtable(t2_2)
-%  rm(t2_1)
-%  rm(dt2_1)
-%  rm(Frequency)
-%  rm(t2_2)
-% @
-% \end{comment}
+<<echo=FALSE>>=
+  gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
+  ## attach(gss14)
+  ## names(gss14)
+  tbl21 <- table(gss14$voteelec, gss14$sex)
+  ## tbl21
+  tbl22 <- tbl21[2:8,]
+  ## tbl22
+  tbl23 <- tbl22[,1] + tbl22[,2]
+  ## tbl23
+  tbl24 <- tbl23 / sum(tbl23) * 100 
+  
+  tbl26 <- cbind(tbl23, tbl24)
+  ## xtable(tbl26)
+  
+@
 
+% latex table generated in R 3.2.2 by xtable 1.7-4 package
+% Mon Jan 18 08:58:35 2016
+\begin{table}[ht]
+\centering
+\caption{How Important Always to Vote in Election}
+\begin{tabular}{lrr}
+ \hline
+& Count & Percent \\ 
+ \hline
+ Not at All Important & 53 & 4.28 \\ 
+ 2 & 21 & 1.70 \\ 
+ 3 & 40 & 3.23 \\ 
+ 4 & 77 & 6.22 \\ 
+ 5 & 119 & 9.62 \\ 
+ 6 & 155 & 12.53 \\ 
+ Very Important  & \fbox{772} & 62.41 \\ 
+  \hline
+Total & \fbox{1237} & 100.00 \\ \hline  
+\end{tabular}
+\label{tab:t2_1}
+\end{table}
 
 \begin{align*}
-	proportion_A &= \frac{10}{269} = 0.0372   \\
-	percent_A    &= \frac{10}{269} \times 100 = 3.72\%   \\
+	proportion &= \frac{772}{1237} = 0.6241   \\
+	percent    &= \frac{ \fbox{772}}{ \fbox{1237}} \times 100 = 62.41\%   \\
 \end{align*}
+
+\subsubsection{Interpretation}
+ The percent  of persons who indicate that voting is a very important responsibility of a citizen is 62.41 percent.
 
 The following describe the general form of the equation for proportions and percentages.
 
@@ -82,7 +92,7 @@ The following describe the general form of the equation for proportions and perc
 and \emph{n} is the number of cases in all categories.
 \end{itemize}
 
-To summarize:
+\subsubsection{To summarize:}
 
 \begin{itemize} 
 \item Proportions are numbers that are always between zero and one.
@@ -90,64 +100,72 @@ To summarize:
 \item To convert a percent to a proportion, divide it by 100.
 \end{itemize}
 
-\subsubsection{GSS Example}
-The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are  asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.  After reviewing this data from the GSS (See Table: 2.2), compute the proportion and percent of persons who indicate that voting is a very important responsibility of being a female citizen.
+\subsubsection{GSS Example, continued}
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} | lcc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-     % \toprule
-     &  \multicolumn{2}{c}{Gender}  \\ 
-     % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-        Voting  &  Male & Female \\ \hline
-          Not important  & 68 & 48 \\
-          Somewhat important  & 160 & 134 \\
-          Very important  & 437 & \fbox{366} \\ 
-          Can't choose & 21 & 26 \\ \hline
-          Total & 686  & \fbox{574} \\ \hline
-          
-   \end{tabular}
-   \caption{Frequency Distribution of Voting}
-   \label{tab:t2_2}
-\end{table} 
+After reviewing this data from the GSS (See Table: 2.2), compute the percent of females who indicate that voting is a very important responsibility of being a citizen.
+
+<<echo=FALSE>>=
+  ## xtable(tbl21)
+@
+
+% latex table generated in R 3.2.2 by xtable 1.7-4 package
+% Mon Jan 18 09:48:24 2016
+\begin{table}[ht]
+\centering
+    \caption{Frequency Distribution of Voting}
+    \label{tab:t2_2}
+\begin{tabular}{lrr}
+&  \multicolumn{2}{c}{Gender}  \\ \hline
+ & Male & Female \\ \hline
+Not at All Important &24&29\\
+2 & 7& 14\\
+3 &20& 20\\
+4 &36& 41\\
+5 &50& 69\\
+6 &84& 71\\
+Very Important & 320& \fbox{452} \\ \hline
+Total & 541      & \fbox{696} \\ \hline
+\end{tabular}
+\end{table}
 
 \begin{align*} 
-	proportion_F &= \frac{366}{574} = 0.6376  \\
-	percent_F    &= \frac{366}{574} \times 100 = 63.76\% 
+	proportion_F &= \frac{452}{696} = 0.6494  \\
+	percent_F    &= \frac{ \fbox{452}}{ \fbox{696}} \times 100 = 64.94\% 
 \end{align*}	
 
-
 \subsubsection{Interpretation}
- The percent  of women who indicate that voting is a very important responsibility of a citizen is 63.76 percent.
+ The percent  of women who indicate that voting is a very important responsibility of a citizen is 64.94 percent.
  
  
 \subsection{Ratio}
 
 The \emph{ratio} is relation between two similar magnitudes in respect to the number of times the first contains the second.
 
-Let's consider a STAT 2830  class of 25 females and 20 males, compute the following: 
+\subsubsection{GSS Example, continued}
+
+After reviewing the data from the GSS (See Table 2.2), compute the ratio  of females to males who indicate that voting  is not very important responsibility (level 2) of being a citizen.  The GSS survey indicated 14 females and 7 males, compute the following: 
 
 \begin{enumerate}
 \item  The ratio of females to males: 
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{25}{20} = \frac{5}{4}
+Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{14}{7} = \frac{2}{1} 
 \end{equation}
-  \begin{itemize}
-  \item This means that there are five females for every four  males in the class.
-  \end{itemize}
 
-\item   The ratio of male to females:
+{\bf{Interpretation}}  \\
+This means that there are two females for every   male,  who indicate that voting  is not very important responsibility (level 2) of being a citizen.
+
+
+\item   The ratio of males to females:
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{20}{25} = \frac{4}{5}
+Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{7}{14} = \frac{1}{2}
 \end{equation}
 
-  \begin{itemize}
-  \item This means that there are four males for every five females in the class.
-  \end{itemize}
+{\bf{Interpretation}}  \\
+This means that there is a male for every two  females,  who indicate that voting  is not very important responsibility (level 2) of being a citizen.
+
+
 \end{enumerate}
 
 
@@ -164,49 +182,37 @@ Ratio = \frac{f_1}{f_2},
   \end{itemize}
 \end{itemize}
 
-\subsubsection{GSS Example}
-
-After reviewing the data from the GSS (See Table 2.2), compute the ratio  of males to females who indicate that voting is a very important responsibility of being a citizen.
-
-\begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{437}{366}
-\end{equation}
-
-\subsubsection{Interpretation}
-
-This means that there are 437 males for every 366 females who indicated that voting is a very important responsibility of being a citizen.
-
 \subsection{Rates}
 
-Suppose a town of 85,000 residents  had 10 homicides last year, what is the homicide rate per (100,000) in this town.
+Suppose Kalamazoo  (population of 75,000) had 9 homicides in 2012 [3], what is the homicide rate per (100,000) in this town.
 
 \begin{itemize}
 \item Homicide rate is the number of deaths divided by the population size.
 
 \begin{equation}
-homicideRate = \frac{f}{n} = \frac{10}{85000} = 0.0001176
+homicideRate = \frac{f}{n} = \frac{9}{75000} = 0.00012
 \end{equation}
   \begin{itemize}
   \item Because this is  a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
   \end{itemize}
 
 \begin{equation}
-homicideRatePer100000  = \frac{10}{85000} \times 100,000 = 11.76,
+homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12,
 \end{equation}
   \begin{itemize}
-  \item which is read as 11.76 homicides per 100.000 population.  This is a convenient comparison statistic between groups of widely differing populations.
+  \item which is read as 12 homicides per 100,000 population.  This is a convenient comparison statistic between groups of widely differing populations.
   \end{itemize}
 
 \item Rates are used when the proportion of occurrences are small to obtain a measure that can be used to compare measures with different population sizes.
 
-\item Rates are usually multiplied by some power of 10 to eliminate decimal points.
+\item Rates are usually multiplied by some power of 10 to eliminate leading zeros.
 
 \begin{equation}
 Rate = \frac{f}{n} \times (per) , 
 \end{equation}
 
   \begin{itemize}
-  \item where \emph{f} is the number of occurrences, \emph{n} is the total possible occurences, and \emph{per} is the multiplier for the rate.
+  \item where \emph{f} is the number of occurrences, \emph{n} is the total possible occurrences, and \emph{per} is the multiplier for the rate.
   \end{itemize}
 
 \end{itemize}
@@ -215,18 +221,18 @@ Rate = \frac{f}{n} \times (per) ,
 
 \subsection{Percent Change}
 
-Suppose in just a year 2000, a state had a homicide rate of 6.5 and in 2010 had a homicide rate of 9.2 (reported as homicides per 100,000 population).  
+Suppose Kalamazoo had a homicide rate of 12 in 2012 and in 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
 
 \begin{itemize}
 \item What is the percentage change?
 \begin{eqnarray}
 PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
-                          & = & \frac{9.2 - 6.5}{6.5} \times 100\%  \nonumber \\
-                          & = & \frac{2.7}{6.5} \times 100\%  = 41.5\%  \nonumber 
+                          & = & \frac{7.9 - 12}{12} \times 100\%  \nonumber \\
+                          & = & \frac{-4.1}{12} \times 100\%  = -34.2\%  \nonumber 
 \end{eqnarray}
                           
   \begin{itemize}
-  \item Notice that 6.5 is used as $f_1$ since this the the earlier time (2000 versus 2010).  This results in a 41.5 percent increase in the homicide rate.  This is consistent with the reported rates since 9.2 is an increase over 6.5.
+  \item Notice that 12 is used as $f_1$ since this the the earlier time (2012 versus 2014).  This results in a 34.2 percent decrease in the homicide rate.  This is consistent with the reported rates since 7.9 is a decrease over 12.
   \end{itemize}
   
 
@@ -285,7 +291,7 @@ Let's look at the frequency distribution tables for categorical data.
    \label{tab:t2_3}
 \end{table}
 
-\item Construct a frequency distribution Table for gender of individuals.	
+\item Construct a frequency distribution Table 2.4 for gender of individuals.	
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -304,7 +310,7 @@ Let's look at the frequency distribution tables for categorical data.
    \label{tab:t2_4}
 \end{table}
 
-\item Construct a frequency distribution table for satisfaction level of individuals. 
+\item Construct a frequency distribution Table 2.5 for satisfaction level of individuals. 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -326,42 +332,49 @@ Let's look at the frequency distribution tables for categorical data.
 \end{table}
 \end{itemize}
 
-\subsection{Construct a frequency distribution table for 2014  GSS survey}
+\subsection{Construct a frequency distribution  for the data from the GSS survey in Table 2.6}
 
+<<echo=FALSE>>=
+   tbl27 <- table(gss14$marital, gss14$sex)
+   tbl28 <- tbl27[,1] + tbl27[,2]
+   tbl29 <- cbind(tbl27, tbl28)
+   ## xtable(tbl29)
+@
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lccccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-      % \multicolumn{2}{c}{Item} \\
-      % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Statistic & Married & Widowed & Divorced & Separated & Never Married \\ \hline 
-      Frequency & 1158 & 209 & 411 & 81 & 675 \\
-      Percent     & 45.7\% & 8.2\% & 16.2 & 3.2\% & 26.6\% \\ \hline
-      
-   \end{tabular}
-   \caption{Frequency Distribution for Marital Status}
-   \label{tab:t2_6}
+% latex table generated in R 3.2.3 by xtable 1.7-4 package
+% Thu Jan 21 13:12:45 2016
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{lrrrr}
+   \hline
+  & Male & Female & Total & Percent \\ 
+   \hline
+    Married & 552 & 606 & 1158 & 45.7 \\ 
+    Never Married & 326 & 349 & 675 & 26.6 \\ 
+    Divorced & 169 & 242 & 411 & 16.2 \\     
+    Widowed &  57 & 152 & 209 & 8.2 \\ 
+    Separated &  35 &  46 &  81 & 3.2 \\ \hline
+    Total & 1139 & 1395 & 2534 \\ \hline
+
+ \end{tabular}
 \end{table}
+
+
+
 
 \pagebreak
 \subsection{Pie Chart}
 
 The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=2.8, fig.height=2.8, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
-f2_1 <- read.csv("data/GSS2014.csv",header=TRUE)
-tmp1 <- f2_1$marital
-tmp2 <- tmp1[tmp1 != "NA"]
-tmp3 <- table(tmp2)
-tmp4 <- sort(tmp3, decreasing = TRUE)
-tmp5 <- tmp4 * 100 / sum(tmp4)
-Percent <- tmp5[1:5]
-
-lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
-pie( Percent, labels= lbls )
+   tbl30 <- sort(tbl28, decreasing = TRUE)
+   tbl31 <- tbl30[1:5]
+   Percent <- tbl31 * 100 / sum(tbl31)
+   
+   lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
+   pie( Percent, labels= lbls, radius=1)
 
 @
 
@@ -374,13 +387,7 @@ Let's look at the marital status from the GSS 2014 survey.
 ## f2_1 <- read.spss("data/GSS2014.sav")
 
 ## Percent
-barplot( Percent, ylab="Percent", xlab="Marital Status",  legend.text=c("1-Married","2-Widowed","3-Divorced","4-Separated","5-Never Married") )
-
-rm(tmp1)
-rm(tmp2)
-rm(tmp3)
-rm(tmp4)
-rm(tmp5)
+barplot( Percent, ylab="Percent", xlab="Marital Status",  legend.text=c("1-Married","5-Never Married","3-Divorced","2-Widowed","4-Separated") )
 
 @
 
@@ -411,7 +418,7 @@ rm(tmp5)
  
 \subsection{Frequency Distribution Table}
 
-The GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of educaton of the household.  The data, from this survey, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the overall years of educaton structure.
+The GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of education of the household.  The data, from this survey, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the overall years of education structure.
 
 \begin{itemize}
 \item Determine number of classes, minimum, maximum, range and interval size.
@@ -468,7 +475,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 
-\item Histograms are very useful in examing the ``shape'' of the distribution, for example: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
+\item Histograms are very useful in examming the ``shape'' of the distribution, for example: Bell-shaped and symmetrical.  Skewed (left or right),   Multi-modal.
 
 \item Symmetric and Multi-Modal Distributions
 
@@ -808,5 +815,39 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
     @
     
   \end{solution}
+  \end{exercises}
+  
+\pagebreak  
 
-\end{exercises}
+\section{Appendix}
+
+
+  \subsection{Crosstabulation}
+  \begin{enumerate}
+    \item Choose from the  MENU BAR: \\
+      {\bf{ANALYZE}} $>$ {\bf{DESCRIPTIVE STATISTICS}} $>$ {\bf{CROSSTABS}}
+      
+      \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=12cm]{chapters/Chapter_2/ext_figure/spss2-3.png} % requires the graphicx package
+        \caption{Crosstabs dialog box}
+        \label{fig:apndx2-1}
+      \end{figure}
+    \item Select {\it{HOW IMPORTANT ALWAYS TO VOTE IN ELECTIONS (voteelect)}} as the row varible.
+    \item Select {\it{RESPONDENTS SEX (sex)}} as the column varible.
+    \item Click OK to run the procedure.
+    
+  \end{enumerate}  
+
+      \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=12cm]{chapters/Chapter_2/ext_figure/spss2-1.png} % requires the graphicx package
+        \caption{Crosstabulation table}
+        \label{fig:apndx2-2}
+      \end{figure}
+      
+The cells of the table reveal the number of cases for each joint merging of values, e.g., 320 individuals who think that it is important always to vote in election are male.  None of the numbers displayed in the table are significantly different which means that the categories are independent.  We will discuss why in chapter 7.
+
+
+
+
