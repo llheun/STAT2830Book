@@ -1,63 +1,57 @@
 %!Rnw root = ../../Master.Rnw
 
 
-\chapter{Why you should use data science?}
+\chapter{Why  should we  use data science?}
 \label{chap:ch1}
 
-
 \subsection{Objectives}
-By the end of this chapter, you will be able to:
+By the end of this chapter, we will be able to:
 \begin{itemize}
-\item Distinguish between three applications of statistics and identify
-situations in which each is appropriate
-\item Distinguish between discrete and continuous variables and cite
-examples of each
-\item Identify and describe three levels of measurement and cite examples
-of variable from each type.
+\item Discern statistical methods and identify the environments where they can be  appropriately used.
+\item Recognize the types of variables (discrete or continuous) and give examples of each type.
+\item Remember and explain the three levels of measurement and give examples of each level.
+
 \end{itemize}     
      
 \section{Introduction}     
 \subsection{Reasons to Study Data Science}
-\subsubsection{Conduct Research}
-
-The first reason is to administer a  research projects. Without  statistics you will have a tough time making decisions based on the data that you collected for your research project. Statistics provides you with  tools to make an informed decision. You will be able to decide which of the possibilities is more likely to be true. You will base this decision on your knowledge of  inferential statistics. 
-
-\subsubsection{Study Design}
-
-The second reason to study statistics is that you will be equipped to read scientific journals. Most technical journals that you will read contain some form of statistics. Usually, you will find them in the results section of the report. If you are not familiar with statistics, the information contained in this section will be meaningless.  An understanding of introductory statistics will provide you with the fundamental skills necessary to read and evaluate most results sections. The ability to extract meaning from journal articles and the ability to critically evaluate research from a statistical perspective are fundamental skills that will enhance your knowledge and understanding in related programs of study. 
-
-\subsubsection{Develop Critical Thinking Skills}
-
-The third reason is to further develop critical and analytic thinking skills.  After completing high school and introductory undergraduate coursework, you will have at your disposal a variety of critical thinking and analytic skills. The study of statistics will serve to enhance and further develop these skills. By doing well in statistics, you will develop and use formal logical thinking abilities that are both high level and creative. 
 
 \subsubsection{Be an Informed Consumer}
 
-The fourth reason to study statistics is to be an informed consumer. Like any other tool, statistics can be used or abused.  Yes, it is true that some individuals do actively lie and mislead with statistics. More often, however, well meaning individuals unintentionally report erroneous statistical conclusions. If you know some of the basic statistical concepts, you will be in a better position to evaluate the information that you have been given. 
+The first reason to study statistics [1] % \cite{Reason5}  
+is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that we have been given. 
+
+\subsubsection{Study Design}
+
+The second reason  is that we will be equipped to look at scientific journals.  Most  journals that we will read contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the underlying skills  to scrutinize and evaluate most of the appendix.  The capacity to pull meaningful information from the journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
+
+\subsubsection{Conduct Research}
+
+The third reason is to administer a  research projects. Without  statistics we will have a tough time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new ten step program is better  than the legacy twelve step program.  There are two possibilities:  either the new program is better than the old program or the new program is worse or the same as the old program.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
+
+\subsubsection{Develop Critical Thinking Skills}
+
+The fourth reason is to develop critical  thinking skills.  After completing high school and an introductory undergraduate coursework, we will have a toolbox  of critical thinking and analytic skills. The study of statistics will serve to increase and further develop these skills. By doing well in statistics, we will develop and use formal logical thinking capacities that are both creative and high level. 
 
 \subsubsection{Know When to Hire a Statistician}
 
-The fifth reason to have a working knowledge of statistics is to know when you need  help from a statistician.  Most of us know enough about our cars to know when to take it into the shop.  Usually, we do not attempt the repair ourselves because we do not want to cause any irreparable damage.  Also, we try to know enough to speak intelligibly with service center employee to insure that we do not get 
-a whole new motor (big bucks) when all we need is a new fuel filter (a few bucks).
-We should use the same logic when 
-employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by attempting to  analyze the data  yourself with widely available statistical software.  
-It is very easy to analyze data that is either  
-inappropriate or incomplete  because we had not used the services of a competent statistian.
-As with the service center employee discussed above, it is also important to have enough statistical knowledge to discuss your project and the data analyses you want computed with the statistician you hire. In other words, you want to be able to make sure that your statistician is on the right track. 
+The fifth reason to have basic statistical knowledge is to know when we need help from a professional statistician.  Most of us know enough about our cars to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we try to be informed enough to talk with service center employee to insure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by  analyzing the data  ourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is also important to have enough statistical knowledge to discuss our project and the data analyses we want computed with the statistician we hire. In other words, we want  to make sure that the statistician that we hire  understands our research problem. 
 
 \subsubsection{To summarize}
 
 The five reasons to study statistics: 
 \begin{itemize}
-\item to be able to effectively conduct research, 
+\item to act as an informed consumer, 
 \item to be able to read and evaluate journal articles, 
+\item to be able to effectively conduct research, 
 \item to further develop critical thinking and analytic skills, 
-\item to act as an informed consumer, and 
-\item to know when you need to hire outside statistical help. % \cite{URL}{knoko}
+\item to know when we need to hire outside statistical help. % \cite{URL}{knoko}
 \end{itemize} 
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
-The Wheel of Science gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  The wheel has four parts that will be defined below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
+The Wheel of Science  [Wallace, 1971]  % \cite{Wallace1971}  
+gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  The wheel has four parts that will be defined below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
 
 
 \begin{figure}[htbp]
@@ -67,33 +61,57 @@ The Wheel of Science gives us  a process to refine our thinking about the nature
    \label{fig:WS}
 \end{figure}
 
-\subsubsection{{Research}} Research  is the systematic inquiry into the study of situations to establish facts and reach new conclusion.
+\subsubsection{Research} Research  is the systematic inquiry into the study of situations to establish facts and reach new conclusion.
 
-\subsubsection{{Data science}}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
+\subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
 
 \subsubsection{{Data}} Data are information collected from the population for further analysis.
 
-\subsubsection{Theory}  Theory is a statement used to explain a situation, e.g., 
-is there a difference about alcohol awareness  between health and safety class and a statistics class among college stadents.
+\subsubsection{Theory}  Theory is a statement used to explain a situation, e.g.,  is there a difference about alcohol awareness  between health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
+  \begin{itemize}
+  \item personal traits (laziness), or
+  \item structural failing (not enough jobs).
+  \end{itemize}
+  
+This shows the richness of social science research.  Research involves measurements whether using a survey to sample a population about the upcoming election or obtaining the amount of lead in the drinking water of two nearby cities.  
 
-\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, e.g.,  
-alcohol awareness among college students is the same between  students enrolled in a health and safety class and for those enrolled in a statistics class.
+\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, e.g.,  alcohol awareness among college students is the same between students enrolled in a health and safety class and for those enrolled in a statistics class.  As we review our hypothesis, we will continue the research process by considering the following step:
+\begin{itemize}
+  \item Who is the population,
+  \item How many cases (sample size),
+  \item What measurements to take, and
+  \item many other related issues.
+\end{itemize}  
 
-\subsubsection{Observations}  Observations are collected data to test hypothesis, e.g., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.
+\subsubsection{Observations}  Observations are the collected data to test hypothesis, e.g., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.  Observations requires the following:
+\begin{itemize}
+  \item planning: 
+  \begin{itemize}
+    \item Who, What, Where, Why, When, and How.
+  \end{itemize}  
+  \item implementation: 
+  \begin{itemize}
+    \item Collecting, Storing, Retrieving,  Analyzing, and, Reporting.  
+  \end{itemize}
+\end{itemize}  
+
+So why is this process important, let's suppose that there are 50 cases in the control group and 50 cases in the test group.  Each case answers 11 questions.  There are 1,100 pieces of data to collect, store, retrieve, analyze, and report.  Therefore, it is necessary to be organized while doing research. 
 
 
+\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., A study of alcohol awareness among college students reported a higher awareness for students enrolled in a health and safety class than for those enrolled in a statistics class.
+\begin{itemize}
+  \item interpretation of the data, and 
+  \item conclusion, Did the data support our hypothesis. 
+\end{itemize}
 
-\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing the data, e.g., 
-A study of alcohol awareness among college students reported a higher awareness for students enrolled in a health and safety class than for those enrolled in a statistics class.
-
-\subsubsection{Variables and Cases}
+\subsection{Variables and Cases}
 
 \subsubsection{Variables}
 
 \begin{itemize}
 \item Variables are attributes of a person (case).
   \begin{itemize}
-  \item Examples: socio-economic stats such as age, gender, race, and social class.
+  \item Examples: socio-economic statistics such as age, gender, race, and social class.
   \end{itemize}
 
 \item Theories and hypotheses are asserting the association between variables.
@@ -118,15 +136,55 @@ Describe  the color of eyes of students in this class.
 
 \begin{itemize}
 \item Variable is color of eyes of students
-\item Data is color such as black, blue, brown, green, hazel.
+\item Data are colors such as black, blue, brown, green, hazel.
 \item Cases are students from this class.
 \item Appropriate analysis include:
 	\begin{itemize}
 	\item frequency (number) of students who have brown eyes.
 	\item percent of students who have blue eyes.
-	\item bar chart showing the percentage of each color of eyes.
+	\item bar chart showing the frequency of each color of eyes.
 	\end{itemize}
+\item The figures below illustrate these methods.	
 \end{itemize}	
+
+<<echo=FALSE>>=
+eyeColor <- c("blue","blue","blue","blue","blue","blue","blue","blue","green","green","green","green","green","green","green","green","hazel","hazel","brown","brown","brown","brown","brown","brown","brown","brown","brown","brown","brown","brown" )
+tbl1 <- table(eyeColor)
+
+@
+
+\begin{minipage}[t]{3cm}
+
+Frequency Table
+
+\vspace{1cm}
+% latex table generated in R 3.2.2 by xtable 1.7-4 package
+% Wed Jan 13 14:40:19 2016
+%\begin{table}[ht]
+% \centering
+\begin{tabular}{lrr}
+   \hline
+   Eye Color & Freq. & Percent \\
+   \hline
+ blue &   8 & 27 \\
+   brown &  12 & 40 \\
+   green &   8 & 27  \\
+   hazel &   2 & 6 \\
+    \hline
+ \end{tabular}
+% \end{table}
+ 
+\end{minipage} \hfill
+\begin{minipage}[t]{8cm}
+
+      Bar Chart
+      
+<<plt1, echo=FALSE, fig.path='figure/', fig.align='center', fig.width=3, fig.height=3, fig.show='hold', par=TRUE>>=
+  barplot(tbl1, xlab="Eye Color", ylab="Frequency")
+@      
+  
+\end{minipage}
+
      
 \section{Types of Statistics}
 
@@ -148,8 +206,7 @@ numerical, graphical,  % averages, percentages, charts and graphs:
 \item {\bf{Bivariate}} descriptive statistics -- summarizes {\bf{two variables at a time}}, such as 
 looking for relationships between two variables that describe strength and direction.
 	\begin{itemize}
-	\item The relationship between college juniors and seniors credit card debt is  positive and strong.
-	
+	\item The relationship between age and happiness.
 	\end{itemize}	
 
 \item {\bf{Multivariate}} descriptive statistics -- summarizes {\bf{three or more variables at a time}}, such as 
@@ -168,18 +225,21 @@ looking for relationships between three or more variables that describe strength
 
 Inferential statistics makes a general statement about a population based on a sample selected from that population.
 
+\begin{center}
 \setlength{\unitlength}{1cm}
-\begin{picture}(8,4)
-\put(2,2){\circle{1}}
+\begin{picture}(6,3)
+\put(2,2){\circle{2}}
 \put(5,2){\circle{0.6}}
 \put(3,2){\vector(4,0){1}}
 \put(1.9,1.9){{\bf{P}}}
-\put(4.9,1.9){{\bf{S}}}
+\put(4.9,1.9){{\bf{s}}}
 \end{picture}
+\end{center}
+
 
 \begin{itemize}
 \item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of budget, or other limitations.
-\item Samples (S) are part of the population,  while a sample represents a part of the population it has a manageable size.
+\item Samples (S) are part of the population  and has a manageable size.
 \end{itemize}
 
 \subsubsection{Inferential Statistics Example}
@@ -205,12 +265,12 @@ Since 1968, voter surveys use inferential statistics.
 \begin{itemize}
 \item Nominal categorical variable has no order:
 	\begin{itemize}
-	\item e.g., The scores are labels and ordering does not exist.
-	\item e.g., gender, SSN, the names of food pantries in Kalamazoo County.
+	\item The scores are labels and ordering does not exist.
+	\item e.g., gender, Social Security Number (SSN), the names of food pantries in Kalamazoo County.
 	\end{itemize} 
 \item Ordinal categorical variable has order:
 	\begin{itemize}
-	\item e.g., The scores can be ranked and ordering does exist.
+	\item The scores can be ranked and ordering does exist.
 	\item e.g., The management structure of at city hall (mayor, department heads, etc.), class levels (freshman, sophomore, junior, and senior), social-economic status (poor, middle class, and rich).
 	\end{itemize}
 \end{itemize}
@@ -250,7 +310,7 @@ Since 1968, voter surveys use inferential statistics.
 \end{itemize}
 
 \newpage
-\section{Mindmap of Type of Data}
+\section{Mindmap of Types of Data}
 
 \begin{figure}[htbp]
    \centering
@@ -260,6 +320,7 @@ Since 1968, voter surveys use inferential statistics.
 \end{figure}
 
 \pagebreak
+
 \section{Key Words}
 
 \begin{itemize}
@@ -281,6 +342,8 @@ Since 1968, voter surveys use inferential statistics.
 \item Theory
 \item Variable
 \end{itemize}
+
+
 
 \pagebreak
 
@@ -325,7 +388,7 @@ Since 1968, voter surveys use inferential statistics.
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
-	  The level of measurement of marital statis is nominal.
+	  The level of measurement of marital status is nominal.
 	\end{solution}
 	
   \begin{exercise} % 3
@@ -348,7 +411,7 @@ Since 1968, voter surveys use inferential statistics.
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
-	  The level of measurement of marital status is interval-ratio.
+	  The level of measurement of marital status is category - nomonal.
 	\end{solution}
 
   \begin{exercise}  % 4
@@ -376,9 +439,9 @@ Since 1968, voter surveys use inferential statistics.
 	
 	% \begin{minipage}[[htbp]{6.5cm}
 	
-	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.  Determine whether they are categorical or numerical.  Then determine the level measurement. 
-
-  In how many occasions have you used or taken Cannabis?
+	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.    In how many occasions have you used or taken Cannabis?
+  
+  Determine whether the data are categorical or numerical and the level measurement.
   
   % \end{minipage} \hfill
   % \begin{minipage}[[htbp]{6.5cm}
@@ -407,9 +470,9 @@ Since 1968, voter surveys use inferential statistics.
 
 	\begin{exercise}  % 6
 	
-	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.  Determine whether they are categorical or numerical.  Then determine the level measurement. 
-
-  Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
+	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
+  
+Determine whether they are categorical or numerical and the level of measurement.   
     
     \vspace{4mm}
     \framebox[5cm][l]{ Answer: }
@@ -469,9 +532,9 @@ Since 1968, voter surveys use inferential statistics.
   
 	\begin{exercise}  % 9
 	
-	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  You should also select which statistical method should be used: single variable descriptive statistic or a multi-variable descriptive statistic or inferential statistics.  Recall that it is common for some projects to require more than one type of method.
+	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  We should also select which statistical method should be used: {\emph{single variable descriptive statistic}} or {\emph{a multi-variable descriptive statistic}} or {\emph{inferential statistics.}}  Recall that it is common for some projects to require more than one type of method.
 	  
-	  Ten years ago, a state reinstituted the death penalty for first degree murder.  Researchers asked, did this change of policy reduce the murder rate?  A team of researchers gathered data on the number of homicides in the state for two-year periods before and after the policy change.  
+	  Ten years ago, a state re-instituted the death penalty for first degree murder.  Researchers asked, did this change of policy reduce the murder rate?  A team of researchers gathered data on the number of homicides in the state for two-year periods before and after the policy change.  
 	  
     \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
@@ -489,9 +552,15 @@ Since 1968, voter surveys use inferential statistics.
     
 	\begin{exercise}  % 10
 	
-	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  You should also select which statistical method should be used: single variable descriptive statistic or a multi-variable descriptive statistic or inferential statistics.  Recall that it is common for some projects to require more than one type of method.
+	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  We should also select which statistical method should be used: {\emph{single variable descriptive statistic}} or {\emph{a multi-variable descriptive statistic}} or {\emph{inferential statistics}}.  Recall that it is common for some projects to require more than one type of method.
 	  
-	  Your relative is running for a sit on the city commission and has hired you to question a sample of voters about their concerns.  Specificially, she want a profile of voters that will tell her what percentage belong to each political party, what percentage are male or female, and what percentage favor or oppose the widening of the main street in the city.
+	  Our relative is running for a sit on the city commission and has hired us to question a sample of voters about their concerns.  Specifically, she wants a profile of voters that will tell her:
+	  
+\begin{itemize}
+\item  what percentage belong to each political party, 
+\item  what percentage are male or female, and 
+\item  what percentage favor or oppose the widening of the main street in the city.
+\end{itemize}
 	  
     \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -508,3 +577,24 @@ Since 1968, voter surveys use inferential statistics.
   \end{solution}    
 
 \end{exercises} 
+
+\pagebreak
+
+% \section{References}
+
+\begin{thebibliography}{99}
+
+  \bibitem{Reason5}
+    URL: http://lsc.cornell.edu/Sidebars/Stats Lab PDFs/Topic2.pdf
+    
+  \bibitem{Wallace1971}
+    Walter Wallace.
+    {\em The Logic of Science in Sociology} 
+    Chicago: Aldine-Atherton, 1971
+    
+    \bibitem{Homicide1}
+    URL: http://www.usa.com/kalamazoo-mi-crime-and-crime-rate.htm
+  
+  % Followed by interesting articles. Keep the list short. 
+
+\end{thebibliography}

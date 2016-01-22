@@ -310,6 +310,8 @@ Let's look at the frequency distribution tables for categorical data.
    \label{tab:t2_4}
 \end{table}
 
+\pagebreak
+
 \item Construct a frequency distribution Table 2.5 for satisfaction level of individuals. 
 
 % Requires the booktabs if the memoir class is not being used
@@ -345,6 +347,8 @@ Let's look at the frequency distribution tables for categorical data.
 % Thu Jan 21 13:12:45 2016
 \begin{table}[ht]
  \centering
+ \caption{Frequency Distribution of Marital Status from GSS 2014 Survey}
+ \label{tab:t2_6}
  \begin{tabular}{lrrrr}
    \hline
   & Male & Female & Total & Percent \\ 
@@ -359,47 +363,46 @@ Let's look at the frequency distribution tables for categorical data.
  \end{tabular}
 \end{table}
 
-
-
-
 \pagebreak
+
+\subsection{Bar Chart}
+
+Let's look at the marital status from the GSS 2014 survey.  The bars represent the categories and the heights of the bars correspond to the percent or number of cases in each category.  The bar chart always has gaps between the bars to indicate categorical type of data.
+
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+## f2_1 <- read.spss("data/GSS2014.sav")
+    tbl30 <- sort(tbl28, decreasing = TRUE)
+    tbl31 <- tbl30[1:5]
+    Percent <- tbl31 * 100 / sum(tbl31)
+
+## Percent
+    barplot( Percent, ylab="Percent", xlab="Marital Status",  legend.text=c("1-Married","5-Never Married","3-Divorced","2-Widowed","4-Separated") )
+
+@
+
 \subsection{Pie Chart}
 
 The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
-   tbl30 <- sort(tbl28, decreasing = TRUE)
-   tbl31 <- tbl30[1:5]
-   Percent <- tbl31 * 100 / sum(tbl31)
-   
-   lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
-   pie( Percent, labels= lbls, radius=1)
+
+
+    lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
+    pie( Percent, labels= lbls, radius=.9)
 
 @
 
-\pagebreak
-\subsection{Bar Chart}
+% \pagebreak
 
-Let's look at the marital status from the GSS 2014 survey.
 
-<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.3, fig.height=4.3, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
-## f2_1 <- read.spss("data/GSS2014.sav")
 
-## Percent
-barplot( Percent, ylab="Percent", xlab="Marital Status",  legend.text=c("1-Married","5-Never Married","3-Divorced","2-Widowed","4-Separated") )
 
-@
 
-\begin{itemize}
-\item The bars represent the categories and the heights of the bars correspond to the percent or number of cases in each category.
+ 
 
-\item The bar chart always has gaps between the bars to indicate categorical type of data.
-\end{itemize}
-
-\pagebreak
-
-\newpage 
+% \pagebreak
+\newpage
 \section{Summarizing Numerical Data}
 
  \begin{figure}[ht]
@@ -822,7 +825,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 \section{Appendix}
 
 
-  \subsection{Crosstabulation}
+  \subsection{Cross tabulation}
   \begin{enumerate}
     \item Choose from the  MENU BAR: \\
       {\bf{ANALYZE}} $>$ {\bf{DESCRIPTIVE STATISTICS}} $>$ {\bf{CROSSTABS}}
@@ -834,7 +837,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
         \label{fig:apndx2-1}
       \end{figure}
     \item Select {\it{HOW IMPORTANT ALWAYS TO VOTE IN ELECTIONS (voteelect)}} as the row varible.
-    \item Select {\it{RESPONDENTS SEX (sex)}} as the column varible.
+    \item Select {\it{RESPONDENTS SEX (sex)}} as the column variable.
     \item Click OK to run the procedure.
     
   \end{enumerate}  
@@ -842,7 +845,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
       \begin{figure}[htbp]
         \centering
         \includegraphics[width=12cm]{chapters/Chapter_2/ext_figure/spss2-1.png} % requires the graphicx package
-        \caption{Crosstabulation table}
+        \caption{Cross-tabulation table}
         \label{fig:apndx2-2}
       \end{figure}
       
