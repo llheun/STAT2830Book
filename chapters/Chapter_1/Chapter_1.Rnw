@@ -309,12 +309,12 @@ Since 1968, voter surveys use inferential statistics.
 	
 \end{itemize}
 
-\newpage
+% \newpage
 \section{Mindmap of Types of Data}
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=13cm]{chapters/Chapter_1/ext_figure/zRV1.png} % requires the graphicx package
+   \includegraphics[width=13cm, height=7.3cm]{chapters/Chapter_1/ext_figure/zRV1.png} % requires the graphicx package
    \caption{Mind map of a Random Variable }
    \label{fig:RV}
 \end{figure}

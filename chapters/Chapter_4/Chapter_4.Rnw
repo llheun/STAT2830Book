@@ -72,7 +72,7 @@ The following are characteristics of the {\bf{Range ($R$)}}:
 
 \section{Interquartile Range}
 
-An illustration of the interquartile range of a variable.  We will use data from the GSS 2014, Years of Education of the United Stats households.  See figure 4.2.
+An illustration of the interquartile range of a variable.  We will use data from the GSS 2014, Years of Education of the United Stats households.  See Figure 4.2.
 
 <<f4_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
 
@@ -389,5 +389,96 @@ It measures the  spread  around the mean  as a percentage.
 	\begin{solution}
 	  SD = 1.581
 	\end{solution}
+	
+	\begin{exercise}  % 4
+	
+	  The next 2 exercises refer to the following scenario.
+	  Table 4.4 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.   Describe the spread variables of the distribution.
+	  
+	  % Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \caption{2013 Expenditure on Health as a Percentage of GDP.}
+   \begin{tabular}{@{} lr | lr | lr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+    Country & Percent & Country & Percent & Country & Percent \\ \hline
+    Argentina & 7.3 & Greece & 9.8 & Saudi Arabia & 3.2 \\ 
+    Australia & 9.4 & India & 4.0  & South Africa & 8.9 \\
+    Austria   & 11.0 & Indonesia & 3.1 & Spain & 8.9 \\
+    Belgium & 11.2 & Israel & 7.2 & Sweden & 9.7 \\
+    Brazil & 9.7 & Italy & 9.1 & Switzerland & 11.5 \\
+    Canada & 10.9 & Japan & 10.3 & Thailand & 4.6 \\
+    Chile & 7.7 & Malaysia & 4.0 & Turkey & 5.6 \\
+    China & 5.6 & Mexico & 6.2 & UK & 9.1 \\
+    Congo & 4.1 & Netherland & 12.9 & USA & 17.1 \\
+    Denmark & 10.6 & Norway & 9.6 & Venezuela & 3.6 \\
+    France & 11.7 & Poland & 6.7 & & \\
+    Germany & 11.3 & Russian Fed. & 6.5 & & \\ \hline
+    
+   \end{tabular}
+   
+   \label{tab:t4_4_4}
+\end{table}
+
+	\end{exercise}
+	\vspace{3cm}
+	\begin{solution}
+	
+	    The range is 
+		  <<results="asis", echo=FALSE>>=
+        tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
+        max(tbl4_1$PercentGDP) - min(tbl4_1$PercentGDP)
+      @
+	 
+	    The IQR is 
+		  <<results="asis", echo=FALSE>>=
+        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
+       IQR(tbl4_1$PercentGDP)
+      @
+	 
+	    The standard deviation is 
+		  <<results="asis", echo=FALSE>>=
+        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
+       sd(tbl4_1$PercentGDP)
+      @
+      
+      The coefficient of variation is 
+		  <<results="asis", echo=FALSE>>=
+        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
+       sd(tbl4_1$PercentGDP) / mean(tbl4_1$PercentGDP) * 100
+      @
+	 
+      The variance is 
+		  <<results="asis", echo=FALSE>>=
+        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
+       sd(tbl4_1$PercentGDP)^2 
+      @
+	    
+	\end{solution}
+	
+  \begin{exercise}	% 5
+  	
+  	Using Table 4.4 are there any outliers?
+  	
+  \end{exercise}
+  \vspace{2cm}
+  \begin{solution}
+  
+      The outlier is 
+      <<results="asis", echo=FALSE>>=
+        mx5 <- max(tbl4_1$PercentGDP)
+        mn5 <- min(tbl4_1$PercentGDP)
+        UF5 <- quantile(tbl4_1$PercentGDP, 3/4) + 1.5*IQR(tbl4_1$PercentGDP)
+        LF5 <- quantile(tbl4_1$PercentGDP, 1/4) - 1.5*IQR(tbl4_1$PercentGDP)
+        if(mx5 > UF5)mx5
+        if(mn5 < LF5)mn5
+      @     
+      
+  \end{solution}
+  
+  	
+	
+	
+	
 	
 \end{exercises}
