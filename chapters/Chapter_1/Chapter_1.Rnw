@@ -18,7 +18,7 @@ By the end of this chapter, we will be able to:
 
 \subsubsection{Be an Informed Consumer}
 
-The first reason to study statistics [1] % \cite{Reason5}  
+The first reason to study statistics  \cite{Reason:2015}  
 is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that we have been given. 
 
 \subsubsection{Study Design}
@@ -45,12 +45,12 @@ The five reasons to study statistics:
 \item to be able to read and evaluate journal articles, 
 \item to be able to effectively conduct research, 
 \item to further develop critical thinking and analytic skills, 
-\item to know when we need to hire outside statistical help. % \cite{URL}{knoko}
+\item to know when we need to hire outside statistical help.  \cite{Reason:2015}
 \end{itemize} 
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
-The Wheel of Science  [Wallace, 1971]  % \cite{Wallace1971}  
+The Wheel of Science \cite{Wallace:1971}  
 gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  The wheel has four parts that will be defined below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
 
 
@@ -343,15 +343,11 @@ Since 1968, voter surveys use inferential statistics.
 \item Variable
 \end{itemize}
 
-
-
 \pagebreak
 
-
-
 % Dad: Here is where you try to typeset your exercises AFTER you install MacTeX 2015.
-
 % Be sure to uncomment the \usepackage{exsol} line Master.tex before you try to typeset these exercises.
+
 \section{Exercises}    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%.
 
 \begin{exercises}
@@ -581,20 +577,6 @@ Determine whether they are categorical or numerical and the level of measurement
 \pagebreak
 
 % \section{References}
+\bibliographystyle{plain}
+\bibliography{mybibliography}
 
-\begin{thebibliography}{99}
-
-  \bibitem{Reason5}
-    URL: http://lsc.cornell.edu/Sidebars/Stats Lab PDFs/Topic2.pdf
-    
-  \bibitem{Wallace1971}
-    Walter Wallace.
-    {\em The Logic of Science in Sociology} 
-    Chicago: Aldine-Atherton, 1971
-    
-    \bibitem{Homicide1}
-    URL: http://www.usa.com/kalamazoo-mi-crime-and-crime-rate.htm
-  
-  % Followed by interesting articles. Keep the list short. 
-
-\end{thebibliography}

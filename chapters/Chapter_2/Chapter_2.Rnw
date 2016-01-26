@@ -80,17 +80,17 @@ Total & \fbox{1237} & 100.00 \\ \hline
 \subsubsection{Interpretation}
  The percent  of persons who indicate that voting is a very important responsibility of a citizen is 62.41 percent.
 
-The following describe the general form of the equation for proportions and percentages.
+The following describe the general form of the equation for proportions (Equation 2.1) and percentages (Equation 2.2).
 
 \begin{eqnarray}
 	proportion   &=& \frac{f}{n}   \\ 
 	percent  &=& \frac{f}{n} \times 100\%  
 \end{eqnarray}
 
-\begin{itemize}
-\item where \emph{f} is the number of cases in a category
-and \emph{n} is the number of cases in all categories.
-\end{itemize}
+%\begin{itemize}
+%\item 
+where \emph{f} is the number of cases in a category and \emph{n} is the number of cases in all categories.
+%\end{itemize}
 
 \subsubsection{To summarize:}
 
@@ -118,7 +118,7 @@ After reviewing this data from the GSS (See Table: 2.2), compute the percent of 
 &  \multicolumn{2}{c}{Gender}  \\ \hline
  & Male & Female \\ \hline
 Not at All Important &24&29\\
-2 & 7& 14\\
+2 & \fbox{7} & \fbox{14} \\
 3 &20& 20\\
 4 &36& 41\\
 5 &50& 69\\
@@ -177,9 +177,10 @@ This means that there is a male for every two  females,  who indicate that votin
 \begin{equation}
 Ratio = \frac{f_1}{f_2}, 
 \end{equation}
-  \begin{itemize}
-  \item where $f_1$ is the number of cases in the first category and $f_2$ is the number of cases in the second category.
-  \end{itemize}
+ % \begin{itemize}
+%  \item 
+where $f_1$ is the number of cases in the first category and $f_2$ is the number of cases in the second category.
+  %  \end{itemize}
 \end{itemize}
 
 \subsection{Rates}
@@ -192,16 +193,18 @@ Suppose Kalamazoo  (population of 75,000) had 9 homicides in 2012 [3], what is t
 \begin{equation}
 homicideRate = \frac{f}{n} = \frac{9}{75000} = 0.00012
 \end{equation}
-  \begin{itemize}
-  \item Because this is  a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
-  \end{itemize}
+ % \begin{itemize}
+ % \item 
+  Because this is  a small fraction, it is reported as the homicide rate per 100,000 individuals, or 
+  % \end{itemize}
 
 \begin{equation}
 homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12,
 \end{equation}
-  \begin{itemize}
-  \item which is read as 12 homicides per 100,000 population.  This is a convenient comparison statistic between groups of widely differing populations.
-  \end{itemize}
+  % \begin{itemize}
+  % \item 
+  which is read as 12 homicides per 100,000 population.  This is a convenient comparison statistic between groups of widely differing populations.
+  % \end{itemize}
 
 \item Rates are used when the proportion of occurrences are small to obtain a measure that can be used to compare measures with different population sizes.
 
@@ -211,9 +214,10 @@ homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12,
 Rate = \frac{f}{n} \times (per) , 
 \end{equation}
 
-  \begin{itemize}
-  \item where \emph{f} is the number of occurrences, \emph{n} is the total possible occurrences, and \emph{per} is the multiplier for the rate.
-  \end{itemize}
+  % \begin{itemize}
+  % \item 
+  where \emph{f} is the number of occurrences, \emph{n} is the total possible occurrences, and \emph{per} is the multiplier for the rate.
+  % \end{itemize}
 
 \end{itemize}
 
@@ -231,9 +235,10 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
                           & = & \frac{-4.1}{12} \times 100\%  = -34.2\%  \nonumber 
 \end{eqnarray}
                           
-  \begin{itemize}
-  \item Notice that 12 is used as $f_1$ since this the the earlier time (2012 versus 2014).  This results in a 34.2 percent decrease in the homicide rate.  This is consistent with the reported rates since 7.9 is a decrease over 12.
-  \end{itemize}
+  % \begin{itemize}
+  % \item 
+  Notice that 12 is used as $f_1$ since this the the earlier time (2012 versus 2014).  This results in a 34.2 percent decrease in the homicide rate.  This is consistent with the reported rates since 7.9 is a decrease over 12.
+  % \end{itemize}
   
 
 \item The percent change measures social change.  It is telling us
@@ -242,10 +247,10 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
 \begin{equation}
 PercentChange = \frac{f_2 - f_1}{f_1} \times 100\% ,
 \end{equation}
-  \begin{itemize}
-  \item where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).  The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
-  
-  \end{itemize}
+  % \begin{itemize}
+  % \item 
+  where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).  The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
+  %\end{itemize}
 
 \end{itemize}
 
@@ -275,6 +280,7 @@ Let's look at the frequency distribution tables for categorical data.
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Raw data from X Counseling Center.}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} p{1.2cm} p{1.3cm} p{1.5cm} p{2cm} p{1cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
@@ -287,9 +293,11 @@ Let's look at the frequency distribution tables for categorical data.
       L & Male & Married & 3 & 18 \\
       N & Female & Married & 1 & 22 \\ \hline      
    \end{tabular}
-   \caption{Raw data from xxxx Counseling Center.}
+   
    \label{tab:t2_3}
 \end{table}
+
+\newpage
 
 \item Construct a frequency distribution Table 2.4 for gender of individuals.	
 
@@ -310,7 +318,7 @@ Let's look at the frequency distribution tables for categorical data.
    \label{tab:t2_4}
 \end{table}
 
-\pagebreak
+% \pagebreak
 
 \item Construct a frequency distribution Table 2.5 for satisfaction level of individuals. 
 
@@ -335,6 +343,8 @@ Let's look at the frequency distribution tables for categorical data.
 \end{itemize}
 
 \subsection{Construct a frequency distribution  for the data from the GSS survey in Table 2.6}
+
+We need to use SPSS software to construct Table 2.6, because there are 2534 cases. 
 
 <<echo=FALSE>>=
    tbl27 <- table(gss14$marital, gss14$sex)
@@ -367,7 +377,7 @@ Let's look at the frequency distribution tables for categorical data.
 
 \subsection{Bar Chart}
 
-Let's look at the marital status from the GSS 2014 survey.  The bars represent the categories and the heights of the bars correspond to the percent or number of cases in each category.  The bar chart always has gaps between the bars to indicate categorical type of data.
+Using the percent column from Table 2.6, let's use a bar chart to summarize  the marital status from the GSS 2014 survey.  The bars represent the categories and the heights of the bars correspond to the percent or number of cases in each category.  The bar chart always has gaps between the bars to indicate categorical type of data.
 
 <<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 ## f2_1 <- read.spss("data/GSS2014.sav")
@@ -380,48 +390,41 @@ Let's look at the marital status from the GSS 2014 survey.  The bars represent t
 
 @
 
+
 \subsection{Pie Chart}
 
-The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
+Using the percent column from Table 2.6, let's use a pie chart to summarize  the marital status from the GSS 2014 survey.  The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
 
 <<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
-
-
 
     lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
     pie( Percent, labels= lbls, radius=.9)
 
 @
 
-% \pagebreak
+\newpage 
 
-
-
-
-
- 
-
-% \pagebreak
-\newpage
 \section{Summarizing Numerical Data}
 
- \begin{figure}[ht]
-    \centering
-    \includegraphics[width=5cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
-    \caption{Categorical Random Variable}
-    \label{fig:RV3}
- \end{figure}
+Numerical data is the second type of random variable (See Figure 2.4) that we can summarize. As we explained earlier in this chapter,  categorical variables can only be counted where as numerical variables  can be summarized using the following procedures:
 
 \begin{itemize}
-\item Frequency Distribution Table
-\item Histogram
-\item Line Chart
-\item Box Plot
+  \item Frequency Distribution Table
+  \item Histogram
+  \item Line Chart
+  \item Box Plot
 \end{itemize}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=5cm]{chapters/Chapter_2/ext_figure/zRV3.png} % requires the graphicx package
+    \caption{Numerical  Random Variable}
+    \label{fig:RV3}
+\end{figure}
  
 \subsection{Frequency Distribution Table}
 
-The GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of education of the household.  The data, from this survey, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the overall years of education structure.
+As we said earlier, the GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of education of the household.  The data, from this survey, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the overall years of education structure.
 
 \begin{itemize}
 \item Determine number of classes, minimum, maximum, range and interval size.
@@ -434,6 +437,7 @@ The GSS 2014 is a sociological survey used to collect data on demographic charac
   
  % Requires the booktabs if the memoir class is not being used
  \begin{table}[htbp]
+  \caption{Frequency Distribution of Years of Education from GSS 2014 Survey.}
     \centering
     %\topcaption{Table captions are better up top} % requires the topcapt package
     \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
@@ -446,23 +450,23 @@ The GSS 2014 is a sociological survey used to collect data on demographic charac
      4 - 6 & 34 & 1.3\% & 2.2\% \\
      6 - 8 & 51 & 2.0\% & 4.2\% \\
      8 - 10 & 143 & 5.6\% & 9.8\% \\
-     10 - 12 & 823 & 32.4\% & 42.2\% \\
+     10 - 12 & \fbox{823} & 32.4\% & 42.2\% \\
      12 - 14 & 511 & 20.1\% & 62.3\% \\
      14 - 16 & 585 & 23.1\% & 85.4\% \\
      16 - 18 & 217 & 8.6\% & 94.0\% \\
      18 - 20 & 152 & 6.0\% & 100.\% \\ \hline 
      
     \end{tabular}
-    \caption{Frequency Distribution of Years of Education from GSS 2014 Survey.}
+    
     \label{tab:t2_7}
  \end{table}
 
 \pagebreak
 \subsection{Histogram}
 
-<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3>>=
+<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.7, fig.height=4.7>>=
 
-YearsOfEducation <- f2_1$educ[ f2_1$educ < 89]
+YearsOfEducation <- gss14$educ[ gss14$educ < 89]
 
 hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
@@ -472,9 +476,9 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 
 \begin{itemize}
-\item The bars represent the categories and the heights of the bars correspond to the percentage or number of cases in each category.
+\item The bars represent the subcategories and the heights of each bar corresponds to the percentage or number of cases in each subcategory.
 
-\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the frequency for the sub-group 10-12 years is 823 of 2538 or 32.4 percent.  In this text, we will set the bars to the same width. 
+\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the frequency for the sub-group 10-12 years is \fbox{823} of 2538 or 32.4 percent.  In this text, we will set the bars to the same width. 
 
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 
@@ -512,7 +516,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
   
 \subsection{Boxplot}
 
-<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=3, fig.height=3, fig.cap="Year of Education">>=
+<<msboxplot, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.7, fig.height=4.7>>=
 
 boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
@@ -521,7 +525,7 @@ boxplot(YearsOfEducation, xlab="Years of Education", horizontal=TRUE)
 
 \begin{itemize}
 \item It is a graphical summary  of the middle 50 percent of the data.
-\item It is useful for comparing distributions of two or more variables.
+\item It is useful for comparing distributions of two or more categorical variables.
 \item It is built on  the five number summary.
 	\begin{itemize}
 	\samepage
