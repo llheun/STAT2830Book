@@ -319,14 +319,18 @@ The three central tendency are displayed in the following table:
       Statistic & Value \\ \hline
       Mean & \Sexpr{mn3} \\
       Median & \Sexpr{med3} \\
-      Mode & \Sexpr{mode3} \\ \hline
+      Mode & 12 \\ \hline
       
    \end{tabular}
    \caption{Central Tendency Statistics}
    \label{tab:t3}
 \end{table}
 
+Section 3.10 shows the SPSS procedure.
 
+\subsection{Importance}
+
+Why is central tendency important?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
   
 \section{Key Words}
 \begin{itemize}
