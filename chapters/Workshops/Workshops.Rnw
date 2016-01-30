@@ -115,22 +115,22 @@
     
       Rate of California is 
       <<results="asis", echo=FALSE>>=
-        rate <- 247/28168*1000; rate
+        rate <- 247/28168*1000; print(rate)
         rm(rate)
       @  
       Rate of Florida is 
       <<results="asis", echo=FALSE>>=
-        rate <- 294/12377*1000; rate
+        rate <- 294/12377*1000; print(rate)
         rm(rate)
       @  
       Rate of Illinois is 
       <<results="asis", echo=FALSE>>=
-        rate <- 120/11544*1000; rate
+        rate <- 120/11544*1000; print(rate)
         rm(rate)
       @  
       Rate of Nevada is 
       <<results="asis", echo=FALSE>>=
-        rate <- 45/1060*1000; rate
+        rate <- 45/1060*1000; print(rate)
         rm(rate)
       @  
       
@@ -161,7 +161,7 @@
     
       Rate of Michelle's income is 
       <<results="asis", echo=FALSE>>=
-        pc <- (100000 - 420000) / 420000 *100; pc
+        pc <- (100000 - 420000) / 420000 *100; print(pc)
         rm(pc)
       @  
       

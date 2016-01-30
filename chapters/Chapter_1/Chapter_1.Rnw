@@ -407,7 +407,7 @@ Since 1968, voter surveys use inferential statistics.
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
-	  The level of measurement of marital status is category - nomonal.
+	  The level of measurement of marital status is category - nominal.
 	\end{solution}
 
   \begin{exercise}  % 4

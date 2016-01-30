@@ -843,25 +843,36 @@ The following bullets summarize the boxplot:
     \item Choose from the  MENU BAR: \\
       {\bf{ANALYZE}} $>$ {\bf{DESCRIPTIVE STATISTICS}} $>$ {\bf{CROSSTABS}}
       
-      \begin{figure}[htbp]
-        \centering
-        \includegraphics[width=12cm]{chapters/Chapter_2/ext_figure/spss2-3.png} % requires the graphicx package
-        \caption{Crosstabs dialog box}
-        \label{fig:apndx2-1}
-      \end{figure}
-    \item Select {\it{HOW IMPORTANT ALWAYS TO VOTE IN ELECTIONS (voteelect)}} as the row varible.
+
+    \item Select {\it{HOW IMPORTANT ALWAYS TO VOTE IN ELECTIONS (voteelect)}} as the row variable.
     \item Select {\it{RESPONDENTS SEX (sex)}} as the column variable.
     \item Click OK to run the procedure.
     
   \end{enumerate}  
 
-      \begin{figure}[htbp]
-        \centering
-        \includegraphics[width=12cm]{chapters/Chapter_2/ext_figure/spss2-1.png} % requires the graphicx package
-        \caption{Cross-tabulation table}
-        \label{fig:apndx2-2}
-      \end{figure}
-      
+\begin{minipage}[ht]{8cm}
+
+%      \begin{figure}[htbp]
+%        \centering
+        \includegraphics[width=7.9cm]{chapters/Chapter_2/ext_figure/spss2-3.png} % requires the graphicx package
+%        \caption{Crosstabs dialog box}
+%        \label{fig:apndx2-1}
+%      \end{figure}
+
+\end{minipage} \hfill
+\begin{minipage}[ht]{7cm}
+
+%      \begin{figure}[htbp]
+%        \centering
+        \includegraphics[width=6.9cm]{chapters/Chapter_2/ext_figure/spss2-1.png} % requires the graphicx package
+%        \caption{Cross-tabulation table}
+%        \label{fig:apndx2-2}
+%      \end{figure}
+
+\end{minipage} 
+
+\vspace{2mm}
+
 The cells of the table reveal the number of cases for each joint merging of values, e.g., 320 individuals who think that it is important always to vote in election are male.  None of the numbers displayed in the table are significantly different which means that the categories are independent.  We will discuss why in chapter 7.
 
 

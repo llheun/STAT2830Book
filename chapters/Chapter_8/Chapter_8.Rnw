@@ -200,7 +200,7 @@ The researcher used the following obtained data values:
      
    \end{tabular}
    \caption{Cases Cleared by Arrest }
-   \label{tab:s8_3}
+   \label{tab:s8_3a}
 \end{table}
 
 
