@@ -31,8 +31,9 @@
 \contentsline {subsection}{\numberline {1.3.2}Numerical (quantitative data)}{12}
 \contentsline {subsubsection}{Levels of Measurement for Numerical Data}{12}
 \contentsline {section}{\numberline {1.4}Mindmap of Types of Data}{13}
-\contentsline {section}{\numberline {1.5}Key Words}{14}
-\contentsline {section}{\numberline {1.6}Exercises}{15}
+\contentsline {section}{\numberline {1.5}Summary}{13}
+\contentsline {section}{\numberline {1.6}Key Words}{14}
+\contentsline {section}{\numberline {1.7}Exercises}{15}
 \contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{21}
 \contentsline {subsection}{\numberline {2.0.1}Objectives}{21}
 \contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{21}
