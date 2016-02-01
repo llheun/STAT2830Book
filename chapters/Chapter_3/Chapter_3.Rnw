@@ -329,7 +329,7 @@ The three central tendency values are displayed in the following table (Table 3.
 
 Section 3.10 shows the SPSS procedure.
 
-\subsection{Summary}
+\section{Summary}
 
 Why is central tendency important?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
   

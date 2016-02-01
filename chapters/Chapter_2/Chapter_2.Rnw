@@ -550,7 +550,11 @@ The following bullets summarize the boxplot:
 	\end{itemize}
 \end{itemize}
 	
-\pagebreak
+\section{Summary}
+
+The objective of this chapter was to use descriptive statistics to summarize categorical and numerical data.  We built frequency tables and charts and graphs to tell others about our research.  We also computed percentages, proportions, ratios, and percent changes all to communicate our results to an outside audience.  We were able to use these descriptive statistic to build graphs (boxplots, charts (bar, line, and pie), and histograms).  These graphical presentations often help our audience to comprehend the complexity of the problem that we are examining.
+
+% \pagebreak
 \section{Key Words}
 \begin{itemize}
 \item Bar chart

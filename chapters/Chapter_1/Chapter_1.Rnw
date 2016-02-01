@@ -321,10 +321,7 @@ Since 1968, voter surveys use inferential statistics.
 
 \section{Summary}
 
-\begin{enumerate}
-\item The purpose of statistics is the collecting, storing, retrieving, and analyzing data so that sociology researcher can discern statistical methods and identify the environments where they can be  appropriately used to make sense of social communities.
-\item As sociology researchers, we need to recognize the types of variables (categorical or numerical) so that we can choose the correct method (descriptive and inferential) to test the difference between two or more variables.
-\item As researchers, we understand the levels of measurement:
+ The purpose of statistics is the collecting, storing, retrieving, and analyzing data so that sociology researcher can discern statistical methods and identify the environments where they can be  appropriately used to make sense of social communities.  As sociology researchers, we need to recognize the types of variables (categorical or numerical) so that we can choose the correct method (descriptive and inferential) to test the difference between two or more variables.  As researchers, we understand the levels of measurement determine the type of analysis, such as:
   \begin{itemize}
   \item Categorical
     \begin{itemize}
@@ -337,10 +334,10 @@ Since 1968, voter surveys use inferential statistics.
     \item Ratio (continuous (age) or discrete (number of brother and sisters))
     \end{itemize}
   \end{itemize}
-  
-so that we can choose an appropriate SPSS procedure to analyze our collected data.  We will determine those methods in chapter 8.
 
-\end{enumerate}
+Therefore, we can choose an appropriate SPSS procedure to analyze our collected data.  We will determine those methods in chapter 3.
+
+
 % \pagebreak
 
 \section{Key Words}
