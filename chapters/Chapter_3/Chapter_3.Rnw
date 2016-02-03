@@ -1,6 +1,6 @@
 %!Rnw root = ../../Master.Rnw
 
-\chapter{Measures of Central Tendency}
+\chapter{Measures of Location}
 \label{chap:ch3}
 
 \section{Objective}

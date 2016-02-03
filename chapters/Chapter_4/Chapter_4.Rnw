@@ -1,6 +1,6 @@
 %!Rnw root = ../../Master.Rnw
 
-\chapter{Measures of Dispersion }
+\chapter{Measures of Spread}
 \label{chap:ch4}
 
 \section{Objective}
@@ -305,6 +305,9 @@ It measures the  spread  around the mean  as a percentage.
 \item It is useful when comparing the variability of two or more  datasets that have different units of measure.
 \end{itemize}
 
+\section{Summary}
+
+Why is dispersion important?  The dispersion of data measures the diversity in the distribution of values (scores).  If we take  variables of dispersion(spread) and location (central tendency) together, their presentation gives us volumes of information about the population that we are studying.  Recall there are five such spread variables: range, IQR, standard deviation, variance, and coefficient of variation.
 
 \section{Key Words}
 
@@ -340,11 +343,8 @@ It measures the  spread  around the mean  as a percentage.
 	 \vspace{2mm}
 	 \begin{solution}
 	    The range is 
-	    range = $(X_{max} - X_{min}) = 42 - 16$ =
-	    <<results="asis", echo=FALSE>>=
-        42 - 16
-      @
-	  
+	    range = $(X_{max} - X_{min}) = 42 - 16 = 26$
+
 	  \end{solution}   
 	
   \begin{exercise} % 2
@@ -424,35 +424,45 @@ It measures the  spread  around the mean  as a percentage.
 	\vspace{3cm}
 	\begin{solution}
 	
-	    The range is 
-		  <<results="asis", echo=FALSE>>=
+	    
+<<results="asis", echo=FALSE>>=
         tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-        max(tbl4_1$PercentGDP) - min(tbl4_1$PercentGDP)
-      @
+        range444 <- max(tbl4_1$PercentGDP) - min(tbl4_1$PercentGDP)
+@
 	 
-	    The IQR is 
-		  <<results="asis", echo=FALSE>>=
-        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       IQR(tbl4_1$PercentGDP)
-      @
+	 The range is \Sexpr("%.1f", range444).
 	 
-	    The standard deviation is 
-		  <<results="asis", echo=FALSE>>=
+	    
+<<results="asis", echo=FALSE>>=
         ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       sd(tbl4_1$PercentGDP)
-      @
+       iqr444 <- IQR(tbl4_1$PercentGDP)
+@
+
+  The IQR is \Sexpr("%.1f", iqr444)
+	 
+	    
+<<results="asis", echo=FALSE>>=
+        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
+       sd444 <- sd(tbl4_1$PercentGDP)
+@
+    
+    The standard deviation is \Sexpr("%.2f", sd444)
       
-      The coefficient of variation is 
-		  <<results="asis", echo=FALSE>>=
+      
+<<results="asis", echo=FALSE>>=
         ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       sd(tbl4_1$PercentGDP) / mean(tbl4_1$PercentGDP) * 100
-      @
+       cv444 <- sd(tbl4_1$PercentGDP) / mean(tbl4_1$PercentGDP) * 100
+@
 	 
-      The variance is 
-		  <<results="asis", echo=FALSE>>=
+	 The coefficient of variation is \Sexpr("%.2f", cv444)
+	 
+      
+<<results="asis", echo=FALSE>>=
         ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       sd(tbl4_1$PercentGDP)^2 
-      @
+       var444 <- sd(tbl4_1$PercentGDP)^2 
+@
+	  
+	  The variance is \Sexpr("%.2f", var444)
 	    
 	\end{solution}
 	
@@ -464,20 +474,38 @@ It measures the  spread  around the mean  as a percentage.
   \vspace{2cm}
   \begin{solution}
   
-      The outlier is 
+      
       <<results="asis", echo=FALSE>>=
         mx5 <- max(tbl4_1$PercentGDP)
         mn5 <- min(tbl4_1$PercentGDP)
         UF5 <- quantile(tbl4_1$PercentGDP, 3/4) + 1.5*IQR(tbl4_1$PercentGDP)
         LF5 <- quantile(tbl4_1$PercentGDP, 1/4) - 1.5*IQR(tbl4_1$PercentGDP)
-        if(mx5 > UF5)mx5
-        if(mn5 < LF5)mn5
+        if(mx5 > UF5){mx5b <- sprintf("%.1f", mx5)} else{mx5b <- "No UB outlier"} 
+        if(mn5 < LF5){mn5a <- sprintf("%.1f", mn5)} else{mn5a <- "No LB outlier"}
       @     
+      The LB outlier is \Sexpr(mn5a) and the UP outlier is \Sexpr(mx5b)
       
   \end{solution}
   
-  	
-	
+  \begin{exercise}  % 6
+  
+  You are planning to study for your statistics examination with a group of classmates, one of whom you particularly want to impress.  This student has volunteered to use SPSS to produce the needed descriptive summaries, tables, and charts for a data set that has several categorical and numerical variable assigned by the statistics professor as a study guide.  This student shows you the printout and says ``I've got it all -- means, standard deviations, medians, charts, and boxplots -- of all our variables.  The problems are, some of the output appears weird -- like boxplots for gender and for major and pie charts for GPA and height.  Also, I don't understand why my professor told us that we cannot get the descriptive statistics for some of the variable; I got them for everyting!  See, the mean for height is 68.23, the mean for GPA is 2.76. the mean for gender is 1.5, the mean for major is 4.33.''  What is you reply?
+  
+  \end{exercise}
+  \vspace{2cm}
+  \begin{solution}
+  
+  First we must determine the data types for each variable:
+  \begin{itemize}
+  \item height is numeric, ratio continuous
+  \item GPA is numeric, interval
+  \item gender is categorical, nominal
+  \item major is categorical, nominal
+  \end{itemize}
+  
+  Note: numerical variables can use the mean, standard deviation, median, histograms, and line charts; while categorical variables can use frequency tables, mode, bar and pie charts  can only be computed for numerical.   
+  
+	\end{solution}
 	
 	
 	

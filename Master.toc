@@ -61,7 +61,7 @@
 \contentsline {section}{\numberline {2.6}Exercise}{35}
 \contentsline {section}{\numberline {2.7}Appendix}{39}
 \contentsline {subsection}{\numberline {2.7.1}Cross tabulation}{39}
-\contentsline {chapter}{\numberline {3}Measures of Central Tendency}{41}
+\contentsline {chapter}{\numberline {3}Measures of Location}{41}
 \contentsline {section}{\numberline {3.1}Objective}{41}
 \contentsline {section}{\numberline {3.2}Three Common Measures}{42}
 \contentsline {section}{\numberline {3.3}Mean}{42}
@@ -74,8 +74,20 @@
 \contentsline {subsubsection}{Skewed}{44}
 \contentsline {section}{\numberline {3.7}Other Measures of Location}{45}
 \contentsline {subsubsection}{GSS Example}{46}
-\contentsline {subsection}{\numberline {3.7.1}Summary}{46}
-\contentsline {section}{\numberline {3.8}Key Words}{46}
-\contentsline {section}{\numberline {3.9}Exercises}{47}
-\contentsline {section}{\numberline {3.10}Appendix}{51}
-\contentsline {subsection}{\numberline {3.10.1}Central Tendency}{51}
+\contentsline {section}{\numberline {3.8}Summary}{46}
+\contentsline {section}{\numberline {3.9}Key Words}{46}
+\contentsline {section}{\numberline {3.10}Exercises}{47}
+\contentsline {section}{\numberline {3.11}Appendix}{51}
+\contentsline {subsection}{\numberline {3.11.1}Central Tendency}{51}
+\contentsline {chapter}{\numberline {4}Measures of Spread}{53}
+\contentsline {section}{\numberline {4.1}Objective}{53}
+\contentsline {section}{\numberline {4.2}Definition of Dispersion}{53}
+\contentsline {section}{\numberline {4.3}Range}{54}
+\contentsline {section}{\numberline {4.4}Interquartile Range}{54}
+\contentsline {section}{\numberline {4.5}Standard Deviation}{56}
+\contentsline {section}{\numberline {4.6}Variance}{60}
+\contentsline {section}{\numberline {4.7}Other Measures of Spread}{61}
+\contentsline {subsubsection}{Coefficient of Variation}{61}
+\contentsline {section}{\numberline {4.8}Summary}{61}
+\contentsline {section}{\numberline {4.9}Key Words}{61}
+\contentsline {section}{\numberline {4.10}Exercises}{62}
