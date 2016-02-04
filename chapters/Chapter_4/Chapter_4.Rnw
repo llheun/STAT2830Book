@@ -336,7 +336,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	    \item 26
 	    \end{enumerate}
 	    
-	    \vspace{5mm}
+	    \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
     
 	 \end{exercise}
@@ -349,16 +349,11 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	
   \begin{exercise} % 2
   
-    Given $Q_3 = 20$ and $Q_1 = 10$, an outlier would be any value that is
-	  \begin{enumerate}
-	  \item 5
-	  \item 10
-	  \item 35 
-	  \item None of the above
-	  \end{enumerate}
+    Given $Q_3 = 20$ and $Q_1 = 10$, an outlier is any value that is
+	 
 	  
-	  \vspace{5mm}
-    \framebox[5cm][l]{ Answer: }
+	  \vspace{6mm}
+    \framebox[10cm][l]{ Answer: }
     
 	\end{exercise}
 	\vspace{2mm}
@@ -367,7 +362,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	    LB = $Q_1$ - 1.5(IQR) = 10 - 1.5 (20 - 10) = -5 \\
 	    UB = $Q_3$ + 1.5(IQR) = 20 + 1.5 (20 - 10) = 35 \\
 	  
-	  There are no outliers.
+	  An outlier is any value that is less than -5 or greater than 35.
 	  
 	\end{solution} 
 	
@@ -387,13 +382,13 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
-	  SD = 1.581
+	  $ SD 1, 2, 3, 4, 5 is \sqrt{ \frac{10}{4 }} = 1.581 $
 	\end{solution}
 	
 	\begin{exercise}  % 4
 	
 	  The next 2 exercises refer to the following scenario.
-	  Table 4.4 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.   Describe the spread variables of the distribution.
+	  Table 4.4 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.   
 	  
 	  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -420,6 +415,8 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
    \label{tab:t4_4_4}
 \end{table}
 
+  Describe the spread variables of the distribution.
+
 	\end{exercise}
 	\vspace{3cm}
 	\begin{solution}
@@ -428,47 +425,27 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 <<results="asis", echo=FALSE>>=
         tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
         range444 <- max(tbl4_1$PercentGDP) - min(tbl4_1$PercentGDP)
+        iqr444 <- IQR(tbl4_1$PercentGDP)
+        sd444 <- sd(tbl4_1$PercentGDP)
+        cv444 <- sd(tbl4_1$PercentGDP) / mean(tbl4_1$PercentGDP) * 100
+        var444 <- sd(tbl4_1$PercentGDP)^2 
 @
 	 
-	 The range is \Sexpr("%.1f", range444).
+	  The range is \Sexpr{range444}.
 	 
-	    
-<<results="asis", echo=FALSE>>=
-        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       iqr444 <- IQR(tbl4_1$PercentGDP)
-@
-
-  The IQR is \Sexpr("%.1f", iqr444)
+    The IQR is \Sexpr{iqr444}
 	 
-	    
-<<results="asis", echo=FALSE>>=
-        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       sd444 <- sd(tbl4_1$PercentGDP)
-@
-    
-    The standard deviation is \Sexpr("%.2f", sd444)
+    The standard deviation is \Sexpr{sd444}
       
-      
-<<results="asis", echo=FALSE>>=
-        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       cv444 <- sd(tbl4_1$PercentGDP) / mean(tbl4_1$PercentGDP) * 100
-@
+	  The coefficient of variation is \Sexpr{cv444}
 	 
-	 The coefficient of variation is \Sexpr("%.2f", cv444)
-	 
-      
-<<results="asis", echo=FALSE>>=
-        ## tbl4_1 <- read.csv("data/2013TEoHpGDP.csv",header=TRUE)
-       var444 <- sd(tbl4_1$PercentGDP)^2 
-@
-	  
-	  The variance is \Sexpr("%.2f", var444)
+	  The variance is \Sexpr{var444}
 	    
 	\end{solution}
 	
   \begin{exercise}	% 5
   	
-  	Using Table 4.4 are there any outliers?
+  	Using the data from Table 4.4 are there any outliers?
   	
   \end{exercise}
   \vspace{2cm}
@@ -483,7 +460,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
         if(mx5 > UF5){mx5b <- sprintf("%.1f", mx5)} else{mx5b <- "No UB outlier"} 
         if(mn5 < LF5){mn5a <- sprintf("%.1f", mn5)} else{mn5a <- "No LB outlier"}
       @     
-      The LB outlier is \Sexpr(mn5a) and the UP outlier is \Sexpr(mx5b)
+      The LB outlier is \Sexpr{mn5a} and the UP outlier is \Sexpr{mx5b}.
       
   \end{solution}
   
@@ -503,10 +480,9 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
   \item major is categorical, nominal
   \end{itemize}
   
-  Note: numerical variables can use the mean, standard deviation, median, histograms, and line charts; while categorical variables can use frequency tables, mode, bar and pie charts  can only be computed for numerical.   
+  Note: numerical variables can use the mean, standard deviation, median, histograms, and line charts; while categorical variables can use frequency tables, mode, bar and pie charts.
   
 	\end{solution}
-	
 	
 	
 \end{exercises}
