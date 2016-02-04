@@ -736,33 +736,29 @@ Determine the  appropriate measures of central tendency for each variable:
 	\vspace{2mm}
 	\begin{solution}
 	
-	The pretest mean is 
-	<<results="asis", echo=FALSE>>=
+
+<<results="asis", echo=FALSE>>=
 	pretest3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12)
-	  
-	mean(pretest3)
-  @
-	
-	The pretest median is 
-	<<results="asis", echo=FALSE>>=
-
-	median(pretest3)
-	
-  @
-
-	The posttest mean is 
-	<<results="asis", echo=FALSE>>=
+	mn3a <-  mean(pretest3)
+@
+	The pretest mean is  \Sexpr{mn3a}	
+ 
+<<results="asis", echo=FALSE>>=
+	med3a <- median(pretest3)
+@
+	The pretest median is \Sexpr{med3a}
+ 
+<<results="asis", echo=FALSE>>=
 	posttest3 <- c(12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
-	  
-	mean(posttest3)
-  @
+	mn3a <- mean(posttest3)
+@
+	The posttest mean is	\Sexpr{mn3a}
 	
-	The pretest median is 
-	<<results="asis", echo=FALSE>>=
+<<results="asis", echo=FALSE>>=
+	med3b <- median(posttest3)
+@
+The pretest median is \Sexpr{med3b}
 
-	median(posttest3)
-	
-  @
 	
 	\end{solution}  
 	 
@@ -770,11 +766,11 @@ Determine the  appropriate measures of central tendency for each variable:
   		  \begin{exercise} % 10
   
    Interpret these statistics.
-   <<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
+<<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
 	    dat3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12,12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
 	    testType3 <- c(rep("PRE", 15), rep("POST", 15))
 	    ## boxplot( dat3 ~ testType3)
-	  @
+@
   
 	\vspace{4mm}
     \framebox[5cm][l]{ Answer: }
@@ -792,15 +788,16 @@ Determine the  appropriate measures of central tendency for each variable:
     \label{fig:f3_2}
     \end{figure}
 
-    The  sex ed pretest  mean is 
-    <<results="asis", echo=FALSE>>=
-	     mean(dat3[1:15])
-	   @
+   
+<<results="asis", echo=FALSE>>=
+	     mn3a <- mean(dat3[1:15])
+@
+	    The  sex ed pretest  mean is \Sexpr{mn3a}
 	   
-	 The sex ed posttest mean is 
-	  <<results="asis", echo=FALSE>>=
-	      mean(dat3[16:30]) 
-	  @   
+<<results="asis", echo=FALSE>>=
+	      mn3b <- mean(dat3[16:30]) 
+@ 
+	   The sex ed posttest mean is \Sexpr{mn3b}.
 	    
 	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
 	  
