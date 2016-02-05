@@ -305,6 +305,41 @@ It measures the  spread  around the mean  as a percentage.
 \item It is useful when comparing the variability of two or more  datasets that have different units of measure.
 \end{itemize}
 
+\subsubsection{GSS Example}
+
+Let's use the data from the GSS  to find the range, interquartile range, Standard Deviation and variance of the highest year of school completed.
+
+<<echo=FALSE>>=
+  gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
+  educ4 <- gss14$educ[gss14$educ < 98]
+  rng4 <- max(educ4) - min(educ4)
+  iqr4 <- IQR(educ4)
+  sd4  <- sd(educ4)
+  var4 <- sd4^2
+@
+
+The four  spread values are displayed in the following table (Table 4.4): 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+    \centering
+    %\topcaption{Table captions are better up top} % requires the topcapt package
+    \begin{tabular}{@{} lr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+       % \toprule
+       % \multicolumn{2}{c}{Item} \\
+       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
+       Statistic & Value \\ \hline
+       Range & \Sexpr{rng4} \\
+       IQR & \Sexpr{iqr4} \\
+       Standard Deviation & \Sexpr{sd4} \\ 
+      Variance & \Sexpr{var4} \\ \hline
+    \end{tabular}
+    \caption{Dispersion Statistics}
+    \label{tab:t4_4}
+\end{table}
+
+Section 4.11 shows the SPSS procedure.
+
 \section{Summary}
 
 Why is dispersion important?  The dispersion of data measures the diversity in the distribution of values (scores).  If we take  variables of dispersion(spread) and location (central tendency) together, their presentation gives us volumes of information about the population that we are studying.  Recall there are five such spread variables: range, IQR, standard deviation, variance, and coefficient of variation.
@@ -486,3 +521,56 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	
 	
 \end{exercises}
+
+\section{Appendix}
+
+
+  \subsection{Central Tendency}
+  \begin{enumerate}
+    \item Choose from the  MENU BAR: \\
+      {\bf{ANALYZE}} $>$ {\bf{DESCRIPTIVE STATISTICS}} $>$ {\bf{FREQUENCIES...}}
+    \item Select {\it{HIGHEST YEAR OF SCHOOL COMPLETED (educ)}} 
+    \item Select {\it{Statistics...}} 
+    \item Select {\it{Percentile values}}
+      \begin{itemize}
+      \item {it{Quartiles}}
+      \end{itemize}
+    \item Select {\it{Dispersion }}
+      \begin{itemize}
+      \item {it{St. deviation}}
+      \item {it{Variance}}
+      \item {it{Range}}
+      \item {it{Minimum}}
+      \item {it{Maximum}}
+      \end{itemize}
+    
+    \item Click \fbox{CONTINUE} to exit Statistics...
+    \item Click \fbox{OK} to run the procedure.
+    
+  \end{enumerate}  
+  
+\begin{minipage}[ht]{9cm}
+
+%  \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=8.5cm]{chapters/Chapter_4/ext_figure/4-0MMM.png} % requires the graphicx package
+%        \caption{Frequencies dialog box}
+%        \label{fig:apndx3-1}
+%      \end{figure}   
+
+The figure shows the dialog box.
+
+\end{minipage} \hfill  
+\begin{minipage}[ht]{6cm}
+ 
+ %     \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=5cm]{chapters/Chapter_4/ext_figure/4-1MMM.png} % requires the graphicx package
+%       \caption{Central Tendency Statistics}
+%       \label{fig:apndx3-2}
+%      \end{figure}
+
+The table reveals the range, standard deviation, variance and quantiles of highest year of school completed. 
+
+\end{minipage}
+

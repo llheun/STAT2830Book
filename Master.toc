@@ -88,6 +88,9 @@
 \contentsline {section}{\numberline {4.6}Variance}{60}
 \contentsline {section}{\numberline {4.7}Other Measures of Spread}{61}
 \contentsline {subsubsection}{Coefficient of Variation}{61}
+\contentsline {subsubsection}{GSS Example}{61}
 \contentsline {section}{\numberline {4.8}Summary}{61}
-\contentsline {section}{\numberline {4.9}Key Words}{61}
-\contentsline {section}{\numberline {4.10}Exercises}{62}
+\contentsline {section}{\numberline {4.9}Key Words}{62}
+\contentsline {section}{\numberline {4.10}Exercises}{63}
+\contentsline {section}{\numberline {4.11}Appendix}{65}
+\contentsline {subsection}{\numberline {4.11.1}Central Tendency}{65}
