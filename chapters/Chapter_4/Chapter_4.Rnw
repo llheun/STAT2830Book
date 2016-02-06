@@ -362,74 +362,101 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 \begin{exercises}
 
   \begin{exercise} % 1
-  
-    Given the following data: 16, 31, 33, 42, 28.  \\ What is the range?
-	    \begin{enumerate}
-	    \item 12
-	    \item 17 
-	    \item 24 
-	    \item 26
-	    \end{enumerate}
-	    
-	    \vspace{3mm}
-    \framebox[5cm][l]{ Answer: }
-    
-	 \end{exercise}
-	 \vspace{2mm}
-	 \begin{solution}
-	    The range is 
-	    range = $(X_{max} - X_{min}) = 42 - 16 = 26$
 
-	  \end{solution}   
+  The weekly budget for groceries from six student are as follows: 
+  \begin{center}  \begin{tabular}{@{} cccccc @{}} \hline
+    \$30& \$35& \$40& \$28& \$35& \$25 \\ \hline
+  \end{tabular} \end{center}
+  
+    What is the range?
+	\begin{enumerate}
+	\item 5.49
+	\item 7
+	\item 30.14
+	\item 15
+	\end{enumerate}
 	
+	\vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  
+	  The range is $(X_{max} - X_{min}) = 40 - 25 = 15 $
+	
+	\end{solution}
+
+
   \begin{exercise} % 2
   
-    Given $Q_3 = 20$ and $Q_1 = 10$, an outlier is any value that is
-	 
+    Using the data from exercise 4.10-1, where $Q_1 = 28$ and $Q_3 = 35$, \\ is there an outlier among the weekly budget for groceries? 
 	  
-	  \vspace{6mm}
-    \framebox[10cm][l]{ Answer: }
+	  \vspace{3cm}
+    \framebox[5cm][l]{ Answer: }
     
 	\end{exercise}
 	\vspace{2mm}
 	\begin{solution}
 	  
-	    LB = $Q_1$ - 1.5(IQR) = 10 - 1.5 (20 - 10) = -5 \\
-	    UB = $Q_3$ + 1.5(IQR) = 20 + 1.5 (20 - 10) = 35 \\
+	    LB = $Q_1$ - 1.5(IQR) = 28 - 1.5 (35 - 28) = 17.5 \\
+	    UB = $Q_3$ + 1.5(IQR) = 35 + 1.5 (35 - 28) = 45.5 \\
 	  
-	  An outlier is any value that is less than -5 or greater than 35.
+	  An outlier is any value that is less than 17.5 or greater than 45.5; therefore, no outliers in this set of data.
 	  
 	\end{solution} 
 	
   \begin{exercise} % 3
-  
-    Given the following data: 1, 2, 3, 4, 5.  What is the standard deviation?
-	  \begin{enumerate}
-	  \item 1.581
-	  \item 2.500
-	  \item 4
-	  \item 6
-	  \end{enumerate}
-	  
-	  \vspace{5mm}
+
+The following table lists the number of cars per 1000 population for eight nations. \\ What is the standard deviation?
+
+\vspace{2mm}
+
+% Requires the booktabs if the memoir class is not being used
+% \begin{table}[htbp]
+%  \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+  % \multicolumn{9}{c}{Time Lost due to Traffic Congestion}
+   \begin{tabular}{@{} lc @{}} \hline  % Column formatting, @{} suppresses leading/trailing space
+   Nation & cars per 1000 population \\ \hline
+   United States & 819.79 \\
+   Canada & 607 \\
+   China & 83 \\
+   Russia & 293 \\
+   Japan & 591 \\
+   Mexico & 275 \\
+   Spain & 593 \\
+   United Kingdom & 519 \\ \hline
+   \end{tabular}
+   % \caption{Source: http://www.nationmaster.com}
+   % \label{tab:t3_9}
+% \end{table}
+
+
+  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
-    
-	\end{exercise}
-	\vspace{2mm}
-	\begin{solution}
-	  $ SD 1, 2, 3, 4, 5 is \sqrt{ \frac{10}{4 }} = 1.581 $
-	\end{solution}
-	
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+<<result="asis", echo=FALSE>>=
+
+xdt1 <- c(819.79, 607, 83, 293, 591, 275, 593, 519)
+sd1 <- sd(xdt1)
+@
+
+    The standard deviation is \Sexpr{sd1}
+ 
+  \end{solution}
+
 	\begin{exercise}  % 4
 	
-	  The next 2 exercises refer to the following scenario.
-	  Table 4.4 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.   
+	  The next 2 exercises refer to the following scenario.  Table 4.5 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.   
 	  
 	  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \caption{2013 Expenditure on Health as a Percentage of GDP.}
+   \caption{2013 Expenditure on Health as a Percentage of GDP. \cite{Health:2013}}
    \begin{tabular}{@{} lr | lr | lr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
     Country & Percent & Country & Percent & Country & Percent \\ \hline
     Argentina & 7.3 & Greece & 9.8 & Saudi Arabia & 3.2 \\ 
@@ -447,13 +474,13 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
     
    \end{tabular}
    
-   \label{tab:t4_4_4}
+   \label{tab:t4_4_5}
 \end{table}
 
-  Describe the spread variables of the distribution.
+  Describe and interpret the spread variables of the distribution.  (Hint: think of the range, standard deviation, variance, and interquartile range.)
 
 	\end{exercise}
-	\vspace{3cm}
+	\vspace{4cm}
 	\begin{solution}
 	
 	    
@@ -480,10 +507,10 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	
   \begin{exercise}	% 5
   	
-  	Using the data from Table 4.4 are there any outliers?
+  	Using the data from Table 4.5 are there any outliers?
   	
   \end{exercise}
-  \vspace{2cm}
+  \vspace{3.5cm}
   \begin{solution}
   
       
@@ -501,7 +528,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
   
   \begin{exercise}  % 6
   
-  You are planning to study for your statistics examination with a group of classmates, one of whom you particularly want to impress.  This student has volunteered to use SPSS to produce the needed descriptive summaries, tables, and charts for a data set that has several categorical and numerical variable assigned by the statistics professor as a study guide.  This student shows you the printout and says ``I've got it all -- means, standard deviations, medians, charts, and boxplots -- of all our variables.  The problems are, some of the output appears weird -- like boxplots for gender and for major and pie charts for GPA and height.  Also, I don't understand why my professor told us that we cannot get the descriptive statistics for some of the variable; I got them for everyting!  See, the mean for height is 68.23, the mean for GPA is 2.76. the mean for gender is 1.5, the mean for major is 4.33.''  What is you reply?
+  You are planning to study for your statistics examination with a group of classmates, one of whom you particularly want to impress.  This student has volunteered to use SPSS to produce the needed descriptive summaries, tables, and charts for a data set that has several categorical and numerical variable assigned by the statistics professor as a study guide.  This student shows you the printout and says ``I've got it all -- means, standard deviations, medians, charts, and boxplots -- of all our variables.  The problems are, some of the output appears weird -- like boxplots for gender and  major and pie charts for GPA and height.  Also, I don't understand why my professor told us that we cannot get the descriptive statistics for some of the variable; I got them for everyting!  See, the mean for height is 68.23, the mean for GPA is 2.76. the mean for gender is 1.5, the mean for major is 4.33.''  What is you reply?
   
   \end{exercise}
   \vspace{2cm}
@@ -515,7 +542,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
   \item major is categorical, nominal
   \end{itemize}
   
-  Note: numerical variables can use the mean, standard deviation, median, histograms, and line charts; while categorical variables can use frequency tables, mode, bar and pie charts.
+Note: numerical variables can use the mean, standard deviation, median, histograms, and line charts; while categorical variables can use frequency tables, mode, bar and pie charts.  For example, the graphics for gender and major should be a bar or pie chart because they are categorical variables, and the graphics for GPA and height should be box plots or histograms.   
   
 	\end{solution}
 	
@@ -523,7 +550,6 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 \end{exercises}
 
 \section{Appendix}
-
 
   \subsection{Central Tendency}
   \begin{enumerate}
@@ -533,20 +559,19 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
     \item Select {\it{Statistics...}} 
     \item Select {\it{Percentile values}}
       \begin{itemize}
-      \item {it{Quartiles}}
+      \item Choose {\it{Quartiles}}
       \end{itemize}
     \item Select {\it{Dispersion }}
       \begin{itemize}
-      \item {it{St. deviation}}
-      \item {it{Variance}}
-      \item {it{Range}}
-      \item {it{Minimum}}
-      \item {it{Maximum}}
+      \item Choose {\it{St. deviation}}
+      \item Choose {\it{Variance}}
+      \item Choose {\it{Range}}
+      \item Choose {\it{Minimum}}
+      \item Choose {\it{Maximum}}
       \end{itemize}
     
     \item Click \fbox{CONTINUE} to exit Statistics...
     \item Click \fbox{OK} to run the procedure.
-    
   \end{enumerate}  
   
 \begin{minipage}[ht]{9cm}
@@ -573,4 +598,5 @@ The figure shows the dialog box.
 The table reveals the range, standard deviation, variance and quantiles of highest year of school completed. 
 
 \end{minipage}
+
 
