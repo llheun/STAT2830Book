@@ -566,6 +566,7 @@ Determine the  appropriate measures of central tendency for each variable:
 \end{table}
 
   Has the average caseload increased, decreased, or stayed the same?
+  
   \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
   \end{exercise}
@@ -590,7 +591,7 @@ The median for 2015 is \Sexpr{med3b}.
     
   \begin{exercise} % 7
   
-  A survey of 25 randomly selected freshmen at WMU was completed to measure their degree of racial prejudice (a higher score indicate more prejudice).  
+  A survey of 25 randomly selected Freshmen at WMU was completed to measure their degree of racial prejudice (a higher score indicate more prejudice).  
   
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -603,7 +604,7 @@ The median for 2015 is \Sexpr{med3b}.
    40 & 26 & 39 & 38 & 44 \\
    32 & 37 & 41 & 27 & 22 \\ \hline
    \end{tabular}
-    \caption{Racial Prejudice Index}
+    \caption{Freshmen Racial Prejudice Index}
    \label{tab:t3_12}
 \end{table}
   
@@ -631,7 +632,7 @@ The median for 2015 is \Sexpr{med3b}.
 	
 	  \begin{exercise} % 8
   
-  The same 25 students completed the same survey during their senior year.  Compute the mean and median for this second set of scores,
+  The same 25 students completed the same survey during their Senior year.  Compute the mean and median for this second set of scores,
   and compare them to the scores from four years earlier.   What happened?
   
 % Requires the booktabs if the memoir class is not being used
@@ -645,7 +646,7 @@ The median for 2015 is \Sexpr{med3b}.
    35 & 10 & 30 & 41 & 40 \\
    15 & 30 & 40 & 26 & 21 \\ \hline
    \end{tabular}
-    \caption{Racial Prejudice Index}
+    \caption{Senior Racial Prejudice Index}
    \label{tab:t3_13}
 \end{table}
   
@@ -657,19 +658,16 @@ The median for 2015 is \Sexpr{med3b}.
 	\vspace{2mm}
 	\begin{solution}
 	
-	The mean is 
-	<<results="asis", echo=FALSE>>=
+	 
+<<results="asis", echo=FALSE>>=
 	e3dat8 <- c(50, 27, 31, 35, 41, 11, 45, 50, 37, 43, 11, 9, 10, 20, 10, 35, 10, 30, 41, 40, 15, 30, 40, 26, 21)
 	  
-	mean(e3dat8)
-  @
-	
-	The median is 
-	<<results="asis", echo=FALSE>>=
-
-	median(e3dat8)
+	mn38 <- mean(e3dat8)
+	md38 <- median(e3dat8)
 	rm(e3dat8)
-  @
+@
+  
+  The mean is \Sexpr{mn38}, and the median is \Sexpr{md38}
 	
 	\end{solution}  
 	
@@ -757,7 +755,7 @@ The pretest median is \Sexpr{med3b}
 	    ## boxplot( dat3 ~ testType3)
 @
   
-	\vspace{4mm}
+	\vspace{4cm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}

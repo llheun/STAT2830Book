@@ -391,7 +391,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
   
     Using the data from exercise 4.10-1, where $Q_1 = 28$ and $Q_3 = 35$, \\ is there an outlier among the weekly budget for groceries? 
 	  
-	  \vspace{3cm}
+	  \vspace{2.5cm}
     \framebox[5cm][l]{ Answer: }
     
 	\end{exercise}
@@ -407,7 +407,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 	
   \begin{exercise} % 3
 
-The following table lists the number of cars per 1000 population for eight nations. \\ What is the standard deviation?
+The following table lists the number of cars per 1000 population for eight nations.  
 
 \vspace{2mm}
 
@@ -430,7 +430,10 @@ The following table lists the number of cars per 1000 population for eight natio
    % \caption{Source: http://www.nationmaster.com}
    % \label{tab:t3_9}
 % \end{table}
-
+  
+\vspace{2mm}
+  
+  What is the standard deviation?
 
   \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -510,7 +513,7 @@ sd1 <- sd(xdt1)
   	Using the data from Table 4.5 are there any outliers?
   	
   \end{exercise}
-  \vspace{3.5cm}
+  \vspace{3.9cm}
   \begin{solution}
   
       
@@ -532,7 +535,7 @@ sd1 <- sd(xdt1)
   
   
   \end{exercise}
-  \vspace{2cm}
+  \vspace{3cm}
   \begin{solution}
   
   First we must determine the data types for each variable:
@@ -546,6 +549,49 @@ sd1 <- sd(xdt1)
 Note: numerical variables can use the mean, standard deviation, median, histograms, and line charts; while categorical variables can use frequency tables, mode, bar and pie charts.  For example, the graphics for gender and major should be a bar or pie chart because they are categorical variables, and the graphics for GPA and height should be box plots or histograms.   
   
 	\end{solution}
+	
+  \begin{exercise} % 7
+  
+  A survey of 25 randomly selected freshmen at WMU was completed to measure their degree of racial prejudice (a higher score indicate more prejudice).  
+  
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} ccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   45 & 30 & 35 & 30 & 42 \\ 
+   50 & 43 & 40 & 32 & 48 \\
+   9  & 13 & 10 & 11 & 11 \\
+   40 & 26 & 39 & 38 & 44 \\
+   32 & 37 & 41 & 27 & 22 \\ \hline
+   \end{tabular}
+    \caption{Freshmen Racial Prejudice Index}
+   \label{tab:t4_12}
+\end{table}
+  
+  Calculate the range, interquartile, standard deviation, and variance scores of these data.
+  
+	\vspace{2mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	
+	
+	<<results="asis", echo=FALSE>>=
+	e4dat7 <- c(45, 30, 35, 30,42, 50, 43, 40, 32, 48, 9, 13, 10, 11, 11, 40, 26, 39, 38, 44, 32, 37, 41, 27, 22)
+	
+  r47    <- max(e4dat7) - min(e4dat7)
+  iqr47  <- IQR(e4dat7)
+  sd47   <- sd(e4dat7)
+  var47  <- sd47^2
+  rm(r47)
+  @
+	
+	The range is \Sexpr(r47), interquartile range is \Sexpr{iqr47}, standard deviation is \Sexpr{sd47}, and variance is \Sexpr{var47}.
+	
+
+	\end{solution}  
 	
 	
 \end{exercises}

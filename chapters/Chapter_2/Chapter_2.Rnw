@@ -738,7 +738,7 @@ The objective of this chapter was to use descriptive statistics to summarize cat
   \samepage
   \item Ordinal
   \end{enumerate}  
-	\vspace{5mm}
+	\vspace{2mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -751,7 +751,7 @@ The objective of this chapter was to use descriptive statistics to summarize cat
 	
 	  In August 2008, the price of Apple Computer common stock rose from \$159.90 per share to \$169.53 per share.  What percent increase is this? 
 	  
-	  \vspace{1cm}
+	  \vspace{9mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
@@ -771,7 +771,7 @@ The objective of this chapter was to use descriptive statistics to summarize cat
       \end{tabular}
    
       What is the five number summary?
-	  \vspace{1cm}
+	  \vspace{9mm}
 	  
     \framebox[13cm][l]{ Answer: }
     
@@ -804,13 +804,11 @@ The objective of this chapter was to use descriptive statistics to summarize cat
    \end{table}	
 	\samepage
   What percentage of women weigh 40 - 59 kilograms?
-  \samepage 
-   \vspace{4mm}
-   \samepage
-    \framebox[5cm][l]{ Answer: }
+  \vspace{1mm}
+  \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
-  \vspace{2mm}
+  % \vspace{1mm}
   \begin{solution}
     $ p = \frac{(19 + 15)}{50} \times 100 = 68 $
   \end{solution}
