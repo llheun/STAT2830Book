@@ -514,21 +514,22 @@ sd1 <- sd(xdt1)
   \begin{solution}
   
       
-      <<results="asis", echo=FALSE>>=
+<<results="asis", echo=FALSE>>=
         mx5 <- max(tbl4_1$PercentGDP)
         mn5 <- min(tbl4_1$PercentGDP)
         UF5 <- quantile(tbl4_1$PercentGDP, 3/4) + 1.5*IQR(tbl4_1$PercentGDP)
         LF5 <- quantile(tbl4_1$PercentGDP, 1/4) - 1.5*IQR(tbl4_1$PercentGDP)
         if(mx5 > UF5){mx5b <- sprintf("%.1f", mx5)} else{mx5b <- "No UB outlier"} 
         if(mn5 < LF5){mn5a <- sprintf("%.1f", mn5)} else{mn5a <- "No LB outlier"}
-      @     
+@     
       The LB outlier is \Sexpr{mn5a} and the UP outlier is \Sexpr{mx5b}.
       
   \end{solution}
   
   \begin{exercise}  % 6
   
-  You are planning to study for your statistics examination with a group of classmates, one of whom you particularly want to impress.  This student has volunteered to use SPSS to produce the needed descriptive summaries, tables, and charts for a data set that has several categorical and numerical variable assigned by the statistics professor as a study guide.  This student shows you the printout and says ``I've got it all -- means, standard deviations, medians, charts, and boxplots -- of all our variables.  The problems are, some of the output appears weird -- like boxplots for gender and  major and pie charts for GPA and height.  Also, I don't understand why my professor told us that we cannot get the descriptive statistics for some of the variable; I got them for everyting!  See, the mean for height is 68.23, the mean for GPA is 2.76. the mean for gender is 1.5, the mean for major is 4.33.''  What is you reply?
+  You are preparing  for the  sociology statistics final exam with some your classmates.   A classmate has volunteered to use SPSS to make the needed charts and tables for a data set that has several categorical and numerical variables that were assigned by the statistics professor to use as a study guide.  The classmate shows you the reports and says ``See, I've got them all -- boxplots, charts, means, medians, and standard deviations for all our variables along with graphs.  Also, I don't understand why  Professor Doe told us that we cannot use  descriptive statistics for some of the variables; I got descriptive statistics for everything!  See, the mean for height is 67, the mean for GPA is 2.8. the mean for gender is 1.45, the mean for major course of study is 4.56.''  However, as you review the report  something about the output appears weird -- like boxplots for gender and  major course of study and pie charts for grade point average and height.  What is your reply?
+  
   
   \end{exercise}
   \vspace{2cm}
