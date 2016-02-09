@@ -483,7 +483,7 @@ sd1 <- sd(xdt1)
   Describe and interpret the spread variables of the distribution.  (Hint: think of the range, standard deviation, variance, and interquartile range.)
 
 	\end{exercise}
-	\vspace{4cm}
+	\vspace{4.5cm}
 	\begin{solution}
 	
 	    
@@ -597,7 +597,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
   rm(e4dat7)
   @
 	
-	The range is \Sexpr(r47), interquartile range is \Sexpr{iqr47}, standard deviation is \Sexpr{sd47}, and variance is \Sexpr{var47}.
+	The range is \Sexpr{r47}, interquartile range is \Sexpr{iqr47}, standard deviation is \Sexpr{sd47}, and variance is \Sexpr{var47}.
 	
 	\end{solution}  
 	

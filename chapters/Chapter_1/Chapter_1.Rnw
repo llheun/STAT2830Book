@@ -19,15 +19,15 @@ By the end of this chapter, we will be able to:
 \subsubsection{Be an Informed Consumer}
 
 The first reason to study statistics  \cite{Reason:2015}  
-is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that we have been given. 
+is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that we have been given. 
 
 \subsubsection{Study Design}
 
-The second reason  is that we will be equipped to look at scientific journals.  Most  journals that we will read contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the underlying skills  to scrutinize and evaluate most of the appendix.  The capacity to pull meaningful information from the journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
+The second reason  is that we will be equipped to look at scientific journals.  Most  journals that we will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the underlying skills  to scrutinize and evaluate most of the appendix.  The capacity to pull meaningful information from the journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
 
 \subsubsection{Conduct Research}
 
-The third reason is to administer a  research projects. Without  statistics we will have a tough time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new ten step program is better  than the legacy twelve step program.  There are two possibilities:  either the new program is better than the old program or the new program is worse or the same as the old program.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
+The third reason is to administer   research projects. Without  statistics,  we will have a tough time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new ten step program is better  than the legacy twelve step program.  There are two possibilities:  either the new program is better than the old program or the new program is worse or the same as the old program.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
 
 \subsubsection{Develop Critical Thinking Skills}
 
@@ -35,7 +35,7 @@ The fourth reason is to develop critical  thinking skills.  After completing hig
 
 \subsubsection{Know When to Hire a Statistician}
 
-The fifth reason to have basic statistical knowledge is to know when we need help from a professional statistician.  Most of us know enough about our cars to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we try to be informed enough to talk with service center employee to insure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by  analyzing the data  ourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is also important to have enough statistical knowledge to discuss our project and the data analyses we want computed with the statistician we hire. In other words, we want  to make sure that the statistician that we hire  understands our research problem. 
+The fifth reason to have basic statistical knowledge is to know when we need help from a professional statistician.  Most of us know enough about our cars to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we try to be informed enough to talk with service center employee to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by  analyzing the data  yourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is also important to have enough statistical knowledge to discuss our project and the data analyzes we want to be computed with the statistician we hire. In other words, we want  to make sure that the statistician that we hire  understands our research problem. 
 
 \subsubsection{To summarize}
 
@@ -61,7 +61,7 @@ gives us  a process to refine our thinking about the nature of social interactio
    \label{fig:WS}
 \end{figure}
 
-\subsubsection{Research} Research  is the systematic inquiry into the study of situations to establish facts and reach new conclusion.
+\subsubsection{Research} Research  is the systematic inquiry into the study of situations to establish facts and reach a new conclusion.
 
 \subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
 
