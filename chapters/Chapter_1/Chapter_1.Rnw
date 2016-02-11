@@ -43,7 +43,7 @@ The five reasons to study statistics:
 \begin{itemize}
 \item to act as an informed consumer, 
 \item to be able to read and evaluate journal articles, 
-\item to be able to effectively conduct research, 
+\item to be able to  conduct research, 
 \item to further develop critical thinking and analytic skills, 
 \item to know when we need to hire outside statistical help.  \cite{Reason:2015}
 \end{itemize} 
@@ -51,7 +51,7 @@ The five reasons to study statistics:
 \subsubsection{The Scientific Process, The Wheel of Science}
 
 The Wheel of Science \cite{Wallace:1971}  
-gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  The wheel has four parts that will be defined below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
+gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  We will define the four part of the wheel below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
 
 
 \begin{figure}[htbp]
@@ -67,15 +67,15 @@ gives us  a process to refine our thinking about the nature of social interactio
 
 \subsubsection{{Data}} Data are information collected from the population for further analysis.
 
-\subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  between health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
+\subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  among health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
   \begin{itemize}
   \item personal traits (laziness), or
   \item structural failing (not enough jobs).
   \end{itemize}
   
-This shows the richness of social science research.  Research involves measurements whether using a survey to sample a population about the upcoming election or obtaining the amount of lead in the drinking water of two nearby cities.  
+These examples show the richness of social science research.  Research involves measurements whether using a survey to sample a population about the upcoming election or obtaining the amount of lead in the drinking water of two nearby cities.  
 
-\subsubsection{Hypothesis}  The hypothesis is an explanation about an association between events, e.g.,  alcohol awareness among college students is the same between students enrolled in a health and safety class and for those enrolled in a statistics class.  As we review our hypothesis, we will continue the research process by considering the following step:
+\subsubsection{Hypothesis}  The hypothesis is an explanation for an association between events, e.g.,  alcohol awareness among college students is the same between students enrolled in a health and safety class and for those enrolled in a statistics course.  As we review our hypothesis, we will continue the research process by considering the following step:
 \begin{itemize}
   \item Who is the population,
   \item How many cases (sample size),
@@ -83,7 +83,7 @@ This shows the richness of social science research.  Research involves measureme
   \item many other related issues.
 \end{itemize}  
 
-\subsubsection{Observations}  Observations are the collected data to test a hypothesis, e.g., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.  Observations requires the following:
+\subsubsection{Observations}  Observations are the collected data to test a hypothesis, e.g., a random sample of sophomores registered for  a health and safety class and those enrolled in a statistics course which surveys alcohol awareness.  Observations requires the following:
 \begin{itemize}
   \item planning: 
   \begin{itemize}
@@ -95,10 +95,10 @@ This shows the richness of social science research.  Research involves measureme
   \end{itemize}
 \end{itemize}  
 
-So why is this process important, let's suppose that there are 50 cases in the control group and 50 cases in the test group.  Each case answers 11 questions.  There are 1,100 pieces of data to collect, store, retrieve, analyze, and report.  Therefore, it is necessary to be organized while doing research. 
+So why is this process necessary, let's suppose that there are 50 cases in the control group and 50 cases in the test group.  Each case answers 11 questions.  There are 1,100 pieces of data to collect, store, retrieve, analyze, and report.  Therefore, it is necessary to be organized while doing research. 
 
 
-\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., A study of alcohol awareness among college students reported a higher awareness for students enrolled in a health and safety class than for those enrolled in a statistics class.
+\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., research on alcohol understanding among college students published a higher awareness for students enrolled in a health and safety college course than for those enrolled in a college statistics course.
 \begin{itemize}
   \item interpretation of the data, and 
   \item conclusion: Did the data support our hypothesis. 
@@ -116,7 +116,7 @@ So why is this process important, let's suppose that there are 50 cases in the c
 
 \item Theories and hypotheses are asserting the association between variables.
   \begin{itemize}
-  \item A theory may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
+  \item A belief may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
   \end{itemize}
 
 \end{itemize}
@@ -137,12 +137,12 @@ Describe  the color of eyes of students in this class.
 \begin{itemize}
 \item Variable is color of eyes of students
 \item Data are colors such as black, blue, brown, green, hazel.
-\item Cases are students from this class.
+\item Cases are students from this course.
 \item Appropriate analysis include:
 	\begin{itemize}
 	\item frequency (number) of students who have brown eyes.
-	\item percent of students who have blue eyes.
-	\item bar chart showing the frequency of each color of eyes.
+	\item percent of classmates who have blue eyes.
+	\item bar chart showing the percentage of each color of eyes.
 	\end{itemize}
 \item The figures below illustrate these methods.	
 \end{itemize}	
@@ -150,6 +150,7 @@ Describe  the color of eyes of students in this class.
 <<echo=FALSE>>=
 eyeColor <- c("blue","blue","blue","blue","blue","blue","blue","blue","green","green","green","green","green","green","green","green","hazel","hazel","brown","brown","brown","brown","brown","brown","brown","brown","brown","brown","brown","brown" )
 tbl1 <- table(eyeColor)
+prct1 <- tbl1 * 100 / sum(tbl1) 
 
 @
 
@@ -180,7 +181,7 @@ Frequency Table
       Bar Chart
       
 <<plt1, echo=FALSE, fig.path='figure/', fig.align='center', fig.width=3, fig.height=3, fig.show='hold', par=TRUE>>=
-  barplot(tbl1, xlab="Eye Color", ylab="Frequency")
+  barplot(prct1, xlab="Eye Color", ylab="Percent")
 @      
   
 \end{minipage}
@@ -196,21 +197,20 @@ Descriptive statistics are used to explain the basic features of the data in a s
 There are three methods of describing data.
 
 \begin{enumerate}
-\item {\bf{Univariate}} descriptive statistics -- summarizes {\bf{one variable at a time}}, such as 
-numerical, graphical,  % averages, percentages, charts and graphs:
+\item When we summarize {\bf{one variable at a time}}, we call that {\bf{Univariate}} descriptive statistics:
 	\begin{itemize}
 	\item The average IQ of the class is 120,  also range, variance, etc. 
 	\item The percent of females taking Stat 2830 this semester is 55 percent.
 	\end{itemize}
 
-\item {\bf{Bivariate}} descriptive statistics -- summarizes {\bf{two variables at a time}}, such as 
+\item When we summarize {\bf{two variables at a time}}, we call that {\bf{Bivariate}} descriptive statistics, such as 
 looking for relationships between two variables that describe strength and direction.
 	\begin{itemize}
 	\item The relationship between age and happiness.
+	\item The association between income and food insecurity.
 	\end{itemize}	
 
-\item {\bf{Multivariate}} descriptive statistics -- summarizes {\bf{three or more variables at a time}}, such as 
-looking for relationships between three or more variables that describe strength and direction.
+\item When we summarize {\bf{three or more variables at a time}}, we call that {\bf{Multivariate}} descriptive statistics, such as looking for relationships among three or more variables that describe strength and direction.
 	\begin{itemize}
 	\item It has been alleged that obvious consumption is a way for men to show their status to other males.  
 	A recent study looked at the changes in testosterone level in response to changes in his status created by 
