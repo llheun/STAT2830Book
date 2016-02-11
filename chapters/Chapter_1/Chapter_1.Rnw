@@ -7,7 +7,7 @@
 \subsection{Objectives}
 By the end of this chapter, we will be able to:
 \begin{itemize}
-\item Discern statistical methods and identify the environments where they can be  appropriately used.
+\item Discern statistical methods and identify the environments where we can use them appropriately.
 \item Recognize the types of variables (discrete or continuous) and give examples of each type.
 \item Remember and explain the three levels of measurement and give examples of each level.
 
@@ -19,23 +19,23 @@ By the end of this chapter, we will be able to:
 \subsubsection{Be an Informed Consumer}
 
 The first reason to study statistics  \cite{Reason:2015}  
-is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that we have been given. 
+is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that our clients gave us. 
 
 \subsubsection{Study Design}
 
-The second reason  is that we will be equipped to look at scientific journals.  Most  journals that we will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the underlying skills  to scrutinize and evaluate most of the appendix.  The capacity to pull meaningful information from the journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
+The second reason  is that we will be equipped to look at scientific journals.  Most  journals that we will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the necessary skills  to scrutinize and evaluate most of the appendix.  The capacity to pull useful information from the journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
 
 \subsubsection{Conduct Research}
 
-The third reason is to administer   research projects. Without  statistics,  we will have a tough time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new ten step program is better  than the legacy twelve step program.  There are two possibilities:  either the new program is better than the old program or the new program is worse or the same as the old program.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
+The third reason is to administer   research projects. Without  statistics,  we will have a terrible time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new ten step program is better  than the legacy twelve step program.  There are two possibilities:  either the new program is better than the old program or the new curriculum is worse or the same as the old curriculum.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
 
 \subsubsection{Develop Critical Thinking Skills}
 
-The fourth reason is to develop critical  thinking skills.  After completing high school and an introductory undergraduate coursework, we will have a toolbox  of critical thinking and analytic skills. The study of statistics will serve to increase and further develop these skills. By doing well in statistics, we will develop and use formal logical thinking capacities that are both creative and high level. 
+The fourth reason is to develop critical  thinking skills.  After completing high school and introductory undergraduate coursework, we will have a toolbox  of critical thinking and analytic skills. The study of statistics will serve to increase and further develop these skills. By doing well in statistics, we will develop and use formal logical thinking capacities that are both creative and high level. 
 
 \subsubsection{Know When to Hire a Statistician}
 
-The fifth reason to have basic statistical knowledge is to know when we need help from a professional statistician.  Most of us know enough about our cars to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we try to be informed enough to talk with service center employee to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive in terms of resources and time.  It does not make sense to risk an entire project by  analyzing the data  yourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is also important to have enough statistical knowledge to discuss our project and the data analyzes we want to be computed with the statistician we hire. In other words, we want  to make sure that the statistician that we hire  understands our research problem. 
+The fifth reason to have basic statistical knowledge is to know when we need help from a professional statistician.  We should be aware of our cars to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we attempt to be informed enough to talk with service center employee to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive regarding of resources and time.  We should not risk the entire project by  analyzing the data  yourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is important to have enough statistical knowledge to discuss our project and the data analysis with the statistician that we hire.  In other words, we want the statistician, that we hire, to understand our research problem.
 
 \subsubsection{To summarize}
 
@@ -67,7 +67,7 @@ gives us  a process to refine our thinking about the nature of social interactio
 
 \subsubsection{{Data}} Data are information collected from the population for further analysis.
 
-\subsubsection{Theory}  Theory is a statement used to explain a situation, e.g.,  is there a difference about alcohol awareness  between health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
+\subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  between health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
   \begin{itemize}
   \item personal traits (laziness), or
   \item structural failing (not enough jobs).
@@ -75,7 +75,7 @@ gives us  a process to refine our thinking about the nature of social interactio
   
 This shows the richness of social science research.  Research involves measurements whether using a survey to sample a population about the upcoming election or obtaining the amount of lead in the drinking water of two nearby cities.  
 
-\subsubsection{Hypothesis}  Hypothesis is an explanation about an association between events, e.g.,  alcohol awareness among college students is the same between students enrolled in a health and safety class and for those enrolled in a statistics class.  As we review our hypothesis, we will continue the research process by considering the following step:
+\subsubsection{Hypothesis}  The hypothesis is an explanation about an association between events, e.g.,  alcohol awareness among college students is the same between students enrolled in a health and safety class and for those enrolled in a statistics class.  As we review our hypothesis, we will continue the research process by considering the following step:
 \begin{itemize}
   \item Who is the population,
   \item How many cases (sample size),
@@ -83,7 +83,7 @@ This shows the richness of social science research.  Research involves measureme
   \item many other related issues.
 \end{itemize}  
 
-\subsubsection{Observations}  Observations are the collected data to test hypothesis, e.g., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.  Observations requires the following:
+\subsubsection{Observations}  Observations are the collected data to test a hypothesis, e.g., a random sample of students enrolled in a health and safety class and those enrolled in a statistics class which surveys alcohol awareness.  Observations requires the following:
 \begin{itemize}
   \item planning: 
   \begin{itemize}
@@ -101,7 +101,7 @@ So why is this process important, let's suppose that there are 50 cases in the c
 \subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., A study of alcohol awareness among college students reported a higher awareness for students enrolled in a health and safety class than for those enrolled in a statistics class.
 \begin{itemize}
   \item interpretation of the data, and 
-  \item conclusion, Did the data support our hypothesis. 
+  \item conclusion: Did the data support our hypothesis. 
 \end{itemize}
 
 \subsection{Variables and Cases}
@@ -124,7 +124,7 @@ So why is this process important, let's suppose that there are 50 cases in the c
 \subsubsection{Case}
 
 \begin{itemize}
-\item Case is a collection of variables from a person (entity).
+\item The case is a collection of variables from a person (entity).
   \begin{itemize}
   \item Cases are from groups; for example, members from churches or unions or cities or states.
   \end{itemize}
@@ -238,7 +238,7 @@ Inferential statistics makes a general statement about a population based on a s
 
 
 \begin{itemize}
-\item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of budget, or other limitations.
+\item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of the budget, or other limitations.
 \item Samples (S) are part of the population  and has a manageable size.
 \end{itemize}
 
@@ -247,7 +247,7 @@ Inferential statistics makes a general statement about a population based on a s
 Since 1968, voter surveys use inferential statistics.
 
 \begin{itemize}
-\item A random sample of voters are polled about their voting preferences.
+\item A random sample of voters is  polled about their voting preferences.
 \item The results are used to estimate the voting preferences of all voters.
 \item e.g., The Democrat candidate will receive about 48 percent of the vote in Kalamazoo County.
 \end{itemize}
@@ -291,9 +291,9 @@ Since 1968, voter surveys use inferential statistics.
 	
 		\begin{itemize}
 		\item {\bf{Discrete}}
-		\item result of a counting process (whole number values)
+		\item the result of a counting process (whole number values)
 		\item results of question ``how many?''
-		\item e.g., number of children per family.
+		\item e.g., the number of children per family.
 		
 		\item {\bf{Continuous}}
 		
