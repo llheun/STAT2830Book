@@ -212,10 +212,10 @@ looking for relationships between two variables that describe strength and direc
 
 \item When we summarize {\bf{three or more variables at a time}}, we call that {\bf{Multivariate}} descriptive statistics, such as looking for relationships among three or more variables that describe strength and direction.
 	\begin{itemize}
-	\item It has been alleged that obvious consumption is a way for men to show their status to other males.  
+	\item It has been alleged that conspicuous consumption is a way for men to show their status to other males.  
 	A recent study looked at the changes in testosterone level in response to changes in his status created by 
 	using a product such as an old car versus a new sports car.  The subjects of the study were told to drive 
-	on a busy urban avenue or on a less traveled rural highway.
+	on a busy urban avenue or a less traveled rural highway.
 
 	\end{itemize}	
 \end{enumerate}
