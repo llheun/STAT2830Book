@@ -212,8 +212,8 @@ looking for relationships between two variables that describe strength and direc
 
 \item When we summarize {\bf{three or more variables at a time}}, we call that {\bf{Multivariate}} descriptive statistics, such as looking for relationships among three or more variables that describe strength and direction.
 	\begin{itemize}
-	\item It has been alleged that conspicuous consumption is a way for men to show their status to other males.  
-	A recent study looked at the changes in testosterone level in response to changes in his status created by 
+	\item Anonymous sources say that conspicuous consumption is a way for men to show their status to other males.  
+	\item A recent study looked at the changes in testosterone level in response to changes in his status created by 
 	using a product such as an old car versus a new sports car.  The subjects of the study were told to drive 
 	on a busy urban avenue or a less traveled rural highway.
 
@@ -238,7 +238,7 @@ Inferential statistics makes a general statement about a population based on a s
 
 
 \begin{itemize}
-\item Population (P) contains all cases.  Usually, it is very large which makes a complete enumeration of all values nearly impossible because of the budget, or other limitations.
+\item Population (P) contains all cases.  Usually, it is enormous which makes a complete enumeration of all values nearly impossible because of the budget, or other limitations.
 \item Samples (S) are part of the population  and has a manageable size.
 \end{itemize}
 
@@ -247,7 +247,7 @@ Inferential statistics makes a general statement about a population based on a s
 Since 1968, voter surveys use inferential statistics.
 
 \begin{itemize}
-\item A random sample of voters is  polled about their voting preferences.
+\item The media (electronic and print) selects a random sample of the electorate about their voting preferences.
 \item The results are used to estimate the voting preferences of all voters.
 \item e.g., The Democrat candidate will receive about 48 percent of the vote in Kalamazoo County.
 \end{itemize}
@@ -256,7 +256,7 @@ Since 1968, voter surveys use inferential statistics.
 \subsection{Categorical (qualitative data)}
 
 \begin{itemize}
-\item characteristics CANNOT be measured but must be counted.
+\item characteristics CANNOT be measured, but the researcher must count each instance.
 \item e.g., gender, eye color, race, political affiliation, social status, etc.
 \end{itemize}
 
@@ -268,9 +268,9 @@ Since 1968, voter surveys use inferential statistics.
 	\item The scores are labels and ordering does not exist.
 	\item e.g., gender, Social Security Number (SSN), the names of food pantries in Kalamazoo County.
 	\end{itemize} 
-\item Ordinal categorical variable has order:
+\item The researcher can rank or categorize {\bf{ordinal categorical variables}}.
 	\begin{itemize}
-	\item The scores can be ranked and ordering does exist.
+	\item The scores can be listed, and ordering does exist.
 	\item e.g., The management structure of at city hall (mayor, department heads, etc.), class levels (freshman, sophomore, junior, and senior), social-economic status (poor, middle class, and rich).
 	\end{itemize}
 \end{itemize}
@@ -287,7 +287,7 @@ Since 1968, voter surveys use inferential statistics.
 
 \begin{itemize}
 
-\item A ratio numerical variable has a meaningful zero value, a proportion is allowed, and has magnitude.
+\item A numerical ratio  variable has a meaningful zero value, a proportion is allowed, and has magnitude.
 	
 		\begin{itemize}
 		\item {\bf{Discrete}}
@@ -297,13 +297,13 @@ Since 1968, voter surveys use inferential statistics.
 		
 		\item {\bf{Continuous}}
 		
-		\item has scores that can be subdivided infinitely (at least theoretically)
+		\item there can be an infinite subdivision of scores (at least theoretically)
 		\item e.g., age, time, distance to school.
 		\end{itemize}
 
-\item An interval numerical  variable has magnitude but the ratio does not make sense.
+\item A numerical interval variable has magnitude, but the ratio does not make sense.
 	\begin{itemize}
-	\item e.g., GPA (using a 4 point system, a 4 point is not twice the value of a 2 point),  temperature (60 degrees is not twice as warm as 30 degrees).
+	\item e.g., GPA (a 4 point is not twice the value of a 2 point),  temperature (99 degrees is not three times as warm as 33 degrees).
 	  
 	\end{itemize} 	
 	
@@ -485,7 +485,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 	\begin{exercise}  % 6
 	
-	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
+	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007} \cite{AA2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
   
 Determine whether they are categorical or numerical and the level of measurement.   
     
