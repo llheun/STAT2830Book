@@ -485,7 +485,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 	\begin{exercise}  % 6
 	
-	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007} \cite{AA2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
+	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007} \cite{Teen:2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
   
 Determine whether they are categorical or numerical and the level of measurement.   
     
