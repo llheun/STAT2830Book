@@ -42,7 +42,7 @@ The fifth reason to have basic statistical knowledge is to know when we need hel
 The five reasons to study statistics: 
 \begin{itemize}
 \item to act as an informed consumer, 
-\item to be able to read and evaluate journal articles, 
+\item to review and evaluate journal articles, 
 \item to be able to  conduct research, 
 \item to further develop critical thinking and analytic skills, 
 \item to know when we need to hire outside statistical help.  \citep{Reason2015}
