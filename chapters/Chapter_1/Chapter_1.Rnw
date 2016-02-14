@@ -454,9 +454,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 	
 	% \begin{minipage}[[htbp]{6.5cm}
 	
-	The following items were taken from a 2007 survey of drug use from young UK children \citep{Teen2007}.  In how many occasions have you used or taken Cannabis?
-  
-  Determine whether the data are categorical or numerical and the level measurement.
+	The team of researchers took the following items from a 2007 survey of drug use among young UK children \citep{Teen2007}.  In how many occasions have you used or taken Cannabis?  Determine whether the data are categorical or numerical and the level measurement.
   
   % \end{minipage} \hfill
   % \begin{minipage}[[htbp]{6.5cm}

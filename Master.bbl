@@ -5,18 +5,18 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Lab(2015)]{Reason2015}
+Stats Lab.
+\newblock Why study statistics?
+\newblock http://lsc.cornell.edu/Sidebars/StatsLabPDFs/Topic2.pdf, 12 2015.
+\newblock URL \url{http://lsc.cornell.edu/Sidebars/StatsLabPDFs/Topic2.pdf}.
+
 \bibitem[Sam~Clemens(2008)]{Teen2007}
 Sarah Lynch Soazig Nicholson Sarah~Pigott Sam~Clemens, Dhriti~Jotangia.
 \newblock \emph{Drug use, smoking and drinking among young people in England in
   2007}.
 \newblock The Health and Social Care Information Centre, 35 Northampton Square,
   London, EC1V 0AX, 2008.
-
-\bibitem[StatsLab(2015)]{Reason2015}
-StatsLab.
-\newblock Why study statistics?
-\newblock \url{http://lsc.cornell.edu/Sidebars/StatsLabPDFs/Topic2.pdf}, 2015.
-\newblock [Online; accessed 15-December-2015].
 
 \bibitem[Wallace(1971)]{Wallace1971}
 Walter Wallace.
