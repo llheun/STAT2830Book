@@ -459,7 +459,7 @@ sd1 <- sd(xdt1)
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \caption{2013 Expenditure on Health as a Percentage of GDP. \cite{Health:2013}}
+   \caption{2013 Expenditure on Health as a Percentage of GDP. \citet{Health:2013}.
    \begin{tabular}{@{} lr | lr | lr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
     Country & Percent & Country & Percent & Country & Percent \\ \hline
     Argentina & 7.3 & Greece & 9.8 & Saudi Arabia & 3.2 \\ 

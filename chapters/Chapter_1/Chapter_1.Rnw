@@ -18,7 +18,7 @@ By the end of this chapter, we will be able to:
 
 \subsubsection{Be an Informed Consumer}
 
-The first reason to study statistics  \cite{Reason:2015}  
+The first reason to study statistics  \citep{Reason2015}  
 is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that our clients gave us. 
 
 \subsubsection{Study Design}
@@ -45,12 +45,12 @@ The five reasons to study statistics:
 \item to be able to read and evaluate journal articles, 
 \item to be able to  conduct research, 
 \item to further develop critical thinking and analytic skills, 
-\item to know when we need to hire outside statistical help.  \cite{Reason:2015}
+\item to know when we need to hire outside statistical help.  \citep{Reason2015}
 \end{itemize} 
 
 \subsubsection{The Scientific Process, The Wheel of Science}
 
-The Wheel of Science \cite{Wallace:1971}  
+The Wheel of Science \citep{Wallace1971}  
 gives us  a process to refine our thinking about the nature of social interactions.  See Figure 1.1.  We will define the four part of the wheel below:  Theory, Hypotheses, Observations, and Empirical Generalizations.
 
 
@@ -454,7 +454,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 	
 	% \begin{minipage}[[htbp]{6.5cm}
 	
-	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007}.    In how many occasions have you used or taken Cannabis?
+	The following items were taken from a 2007 survey of drug use from young UK children \citep{Teen2007}.  In how many occasions have you used or taken Cannabis?
   
   Determine whether the data are categorical or numerical and the level measurement.
   
@@ -485,7 +485,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 	\begin{exercise}  % 6
 	
-	The following items were taken from the \emph{Survey of Smoking, Drinking and Drug Use among School Children in England in 2007} \cite{Teen:2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
+	The researchers asked students the following questions from a 2007 survey of drug use from young UK children \citep{Teen2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
   
 Determine whether they are categorical or numerical and the level of measurement.   
     
@@ -596,6 +596,6 @@ Determine whether they are categorical or numerical and the level of measurement
 \pagebreak
 
 % \section{References}
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 \bibliography{mybibliography}
 
