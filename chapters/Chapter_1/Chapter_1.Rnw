@@ -483,9 +483,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 	\begin{exercise}  % 6
 	
-	The researchers asked students the following questions from a 2007 survey of drug use from young UK children \citep{Teen2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}
-  
-Determine whether they are categorical or numerical and the level of measurement.   
+	The researchers asked students the following questions from a 2007 survey of drug use among young UK children \citep{Teen2007}.    Write the number of glasses of liquors (e.g., Baileys, gin, tequila, vodka) drunk in the last seven days.  \underline{\phantom{xxxx}}.   Determine whether they are categorical or numerical and the level of measurement.   
     
     \vspace{4mm}
     \framebox[5cm][l]{ Answer: }
@@ -500,7 +498,7 @@ Determine whether they are categorical or numerical and the level of measurement
 
 	\begin{exercise}  % 7
 	
-	  The General Social Survey (GSS), conducted by the National Opinion Research Center at the university of Chicago, is a major source of data on social attitudes in the U.S.  Once each year 1500 adults are interviewed in their homes all across the country.  The subjects are asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
+	  The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a primary source of data on social attitudes in the U.S.  Once each year, researchers from UC interview 1500 adults in their homes all across the country.  They ask subjects their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues \citep{GSS2014}.
 	
     The population for the GSS is 
     \begin{enumerate}
@@ -520,7 +518,7 @@ Determine whether they are categorical or numerical and the level of measurement
 
 	\begin{exercise}  % 8
 	
-	  A recent issue of the \emph{New England Journal of Medicine} reported a study of all 122,754 infants born over an 8.5 year period at Parkland Hospital in Dallas, Texas, leaving out multiple births and infants with birth defects.  The researchers  wanted to know if there is a specific birth weight below which infant death and illness increases sharply.
+	  A recent issue of the \emph{New England Journal of Medicine} reported a study of all 122,754 infants born over an 8.5 year period at Parkland Hospital in Dallas, Texas, leaving out multiple births and babies with birth defects.  The researchers  wanted to know if there is a specific birth weight below which infant death and illness increases sharply.
 	  
     The independent variable in the study is  
     \begin{enumerate}
@@ -545,9 +543,9 @@ Determine whether they are categorical or numerical and the level of measurement
   
 	\begin{exercise}  % 9
 	
-	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  We should also select which statistical method should be used: {\emph{single variable descriptive statistic}} or {\emph{a multi-variable descriptive statistic}} or {\emph{inferential statistics.}}  Recall that it is common for some projects to require more than one type of method.
+	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  As researchers, we should select the correct statistical method: {\emph{single variable descriptive statistic}} or {\emph{a multi-variable descriptive statistic}} or {\emph{inferential statistics.}}  Recall that it is common for some projects to require more than one type of method.
 	  
-	  Ten years ago, a state re-instituted the death penalty for first degree murder.  Researchers asked, did this change of policy reduce the murder rate?  A team of researchers gathered data on the number of homicides in the state for two-year periods before and after the policy change.  
+	  Ten years ago, a state re-instituted the execution for first-degree murder.  Researchers asked, did this change of policy reduce capital crime?  A team of researchers gathered data on the number of homicides in the state for two-year periods before and after the policy change.  
 	  
     \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
@@ -565,9 +563,9 @@ Determine whether they are categorical or numerical and the level of measurement
     
 	\begin{exercise}  % 10
 	
-	  For the following research project, classify all variables in terms of levels of measurement and reveal whether they're continuous and discrete.  We should also select which statistical method should be used: {\emph{single variable descriptive statistic}} or {\emph{a multi-variable descriptive statistic}} or {\emph{inferential statistics}}.  Recall that it is common for some projects to require more than one type of method.
+	  For the following research project, classify all variables regarding levels of measurement and reveal whether they're continuous and discrete.  We should also select which statistical method should be used: {\emph{single variable descriptive statistic}} or {\emph{a multi-variable descriptive statistic}} or {\emph{inferential statistics}}.  Recall that it is common for some projects to require more than one type of method.
 	  
-	  Our relative is running for a sit on the city commission and has hired us to question a sample of voters about their concerns.  Specifically, she wants a profile of voters that will tell her:
+	  Our relative is running for a seat on the city commission and has hired us to poll a random sample of voters about their concerns.  Specifically, she wants a profile of the electorate that will tell her:
 	  
 \begin{itemize}
 \item  what percentage belong to each political party, 
