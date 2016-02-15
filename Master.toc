@@ -41,10 +41,10 @@
 \contentsline {subsubsection}{GSS Example}{24}
 \contentsline {subsubsection}{Interpretation}{24}
 \contentsline {subsubsection}{To summarize:}{25}
-\contentsline {subsubsection}{GSS Example, continued}{25}
+\contentsline {subsubsection}{GSS Example continued}{25}
 \contentsline {subsubsection}{Interpretation}{26}
 \contentsline {subsection}{\numberline {2.1.2}Ratio}{26}
-\contentsline {subsubsection}{GSS Example, continued}{26}
+\contentsline {subsubsection}{GSS Example continued}{26}
 \contentsline {subsection}{\numberline {2.1.3}Rates}{27}
 \contentsline {subsection}{\numberline {2.1.4}Percent Change}{27}
 \contentsline {section}{\numberline {2.2}Summarizing Categorical Data}{28}

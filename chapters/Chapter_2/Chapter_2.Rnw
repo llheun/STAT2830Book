@@ -5,7 +5,7 @@
 
 \subsection{Objectives}
 
-By the end of this chapter, you will be able to:
+After reading chapter two and doing the exercises, you will be able to:
 \begin{itemize}
   \item Use descriptive statistics to make data understandable.
   \item Summarize and analyze data using graphical methods.
@@ -28,10 +28,11 @@ The data from a research project cannot articulate by itself.  As social scienti
 
 \subsection{Percentages and Proportions}
 
-The General Social Survey (GSS), conducted by the National Opinion Research Center at the University of Chicago, is a major source of data on social attitudes in the U.S.  Once each year, 1500 adults are interviewed in their homes all across the country.  The subjects are  asked their opinions about sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues. 
+National Opinion Research Center (NORC) (U of C) administers the General Social Survey (GSS), and is a primary source of data on social attitudes in the U.S. \citep{GSS2014}  Once each year; NORC employees interview 1500 adults in their homes all across the country.  The subjects are asked their opinions on sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
+
 \subsubsection{GSS Example}
 
-After reviewing this data from the GSS (See Table: 2.1), compute the  percent of persons who indicate that voting is a very important responsibility of being a citizen.
+After reviewing this data from the GSS (See Table: 2.1), compute the  percent of persons who indicate that voting is a vital  responsibility of being a citizen.
 
 <<echo=FALSE>>=
   gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
@@ -59,13 +60,13 @@ After reviewing this data from the GSS (See Table: 2.1), compute the  percent of
  \hline
 & Count & Percent \\ 
  \hline
- Not at All Important & 53 & 4.28 \\ 
+ 1 Not at All Important & 53 & 4.28 \\ 
  2 & 21 & 1.70 \\ 
  3 & 40 & 3.23 \\ 
  4 & 77 & 6.22 \\ 
  5 & 119 & 9.62 \\ 
  6 & 155 & 12.53 \\ 
- Very Important  & \fbox{772} & 62.41 \\ 
+ 7 Very Important  & \fbox{772} & 62.41 \\ 
   \hline
 Total & \fbox{1237} & 100.00 \\ \hline  
 \end{tabular}
@@ -78,7 +79,7 @@ Total & \fbox{1237} & 100.00 \\ \hline
 \end{align*}
 
 \subsubsection{Interpretation}
- The percent  of persons who indicate that voting is a very important responsibility of a citizen is 62.41 percent.
+ The percent  of persons who indicate that voting is a crucial responsibility of a citizen is 62.41 percent.
 
 The following describe the general form of the equation for proportions (Equation 2.1) and percentages (Equation 2.2).
 
@@ -89,7 +90,7 @@ The following describe the general form of the equation for proportions (Equatio
 
 %\begin{itemize}
 %\item 
-where \emph{f} is the number of cases in a category and \emph{n} is the number of cases in all categories.
+where \emph{f} is the number of cases in a category and \emph{n} is, the number of subjects in all sub-groups.
 %\end{itemize}
 
 \subsubsection{To summarize:}
@@ -97,12 +98,12 @@ where \emph{f} is the number of cases in a category and \emph{n} is the number o
 \begin{itemize} 
 \item Proportions are numbers that are always between zero and one.
 \item To convert  a proportion to a percent,  multiply it  by 100.
-\item To convert a percent to a proportion, divide it by 100.
+\item To convert a percent to fraction, divide it by 100.
 \end{itemize}
 
-\subsubsection{GSS Example, continued}
+\subsubsection{GSS Example continued}
 
-After reviewing this data from the GSS (See Table: 2.2), compute the percent of females who indicate that voting is a very important responsibility of being a citizen.
+After reviewing this data from the GSS (See Table: 2.2), compute the percent of females who indicate that voting is a crucial responsibility of being a citizen.
 
 <<echo=FALSE>>=
   ## xtable(tbl21)
@@ -116,14 +117,14 @@ After reviewing this data from the GSS (See Table: 2.2), compute the percent of 
     \label{tab:t2_2}
 \begin{tabular}{lrr}
 &  \multicolumn{2}{c}{Gender}  \\ \hline
- & Male & Female \\ \hline
-Not at All Important &24&29\\
+Voting & Male & Female \\ \hline
+1 Not at All Important &24&29\\
 2 & \fbox{7} & \fbox{14} \\
 3 &20& 20\\
 4 &36& 41\\
 5 &50& 69\\
 6 &84& 71\\
-Very Important & 320& \fbox{452} \\ \hline
+7 Very Important & 320& \fbox{452} \\ \hline
 Total & 541      & \fbox{696} \\ \hline
 \end{tabular}
 \end{table}
@@ -134,16 +135,16 @@ Total & 541      & \fbox{696} \\ \hline
 \end{align*}	
 
 \subsubsection{Interpretation}
- The percent  of women who indicate that voting is a very important responsibility of a citizen is 64.94 percent.
+ The percent  of women who indicate that voting is a paramount responsibility of a citizen is 64.94 percent.
  
  
 \subsection{Ratio}
 
-The \emph{ratio} is relation between two similar magnitudes in respect to the number of times the first contains the second.
+The \emph{ratio} is a relation between two similar magnitudes on the number of times the first contains the second.
 
-\subsubsection{GSS Example, continued}
+\subsubsection{GSS Example continued}
 
-After reviewing the data from the GSS (See Table 2.2), compute the ratio  of females to males who indicate that voting  is not very important responsibility (level 2) of being a citizen.  The GSS survey indicated 14 females and 7 males, compute the following: 
+After reviewing the data from the GSS (See Table 2.2), compute the ratio  of females to males who indicate that voting is not vital responsibility (level 2) of being a citizen.  The GSS survey showed that 14 females and 7 males, compute the following: 
 
 \begin{enumerate}
 \item  The ratio of females to males: 
@@ -153,7 +154,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{14}{7} = \frac{2
 \end{equation}
 
 {\bf{Interpretation}}  \\
-This means that there are two females for every   male,  who indicate that voting  is not very important responsibility (level 2) of being a citizen.
+The ratio indicates that there are two females for every male,  which denotes that voting  is not very important responsibility (level 2) of being a citizen.
 
 
 \item   The ratio of males to females:
@@ -163,7 +164,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{7}{14} = \frac{1
 \end{equation}
 
 {\bf{Interpretation}}  \\
-This means that there is a male for every two  females,  who indicate that voting  is not very important responsibility (level 2) of being a citizen.
+The ratio indicates that there is a male for every two females,  which denotes that voting  is not very important responsibility (level 2) of being a citizen.
 
 
 \end{enumerate}
@@ -185,10 +186,10 @@ where $f_1$ is the number of cases in the first category and $f_2$ is the number
 
 \subsection{Rates}
 
-Suppose Kalamazoo  (population of 75,000) had 9 homicides in 2012 [3], what is the homicide rate per (100,000) in this town.
+Suppose Kalamazoo  (population of 75,000) had nine homicides in 2012 \citep{Homicide2016}, what is the homicide rate per (100,000) in this town.
 
 \begin{itemize}
-\item Homicide rate is the number of deaths divided by the population size.
+\item The homicide rate is the number of deaths divided by the population size.
 
 \begin{equation}
 homicideRate = \frac{f}{n} = \frac{9}{75000} = 0.00012
@@ -203,10 +204,10 @@ homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12,
 \end{equation}
   % \begin{itemize}
   % \item 
-  which is read as 12 homicides per 100,000 population.  This is a convenient comparison statistic between groups of widely differing populations.
+  We read the results as 12 homicides per 100,000 population.  The rate is a good comparison statistic between groups of widely differing populations.
   % \end{itemize}
 
-\item Rates are used when the proportion of occurrences are small to obtain a measure that can be used to compare measures with different population sizes.
+\item We use the rate when the proportion of occurrences are so small to obtain a measure that can be used to compare quantities with different population sizes.
 
 \item Rates are usually multiplied by some power of 10 to eliminate leading zeros.
 
@@ -225,7 +226,7 @@ Rate = \frac{f}{n} \times (per) ,
 
 \subsection{Percent Change}
 
-Suppose Kalamazoo had a homicide rate of 12 in 2012 and in 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
+Suppose Kalamazoo had a homicide rate of 12 in 2012 and 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
 
 \begin{itemize}
 \item What is the percentage change?
@@ -237,19 +238,21 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
                           
   % \begin{itemize}
   % \item 
-  Notice that 12 is used as $f_1$ since this the the earlier time (2012 versus 2014).  This results in a 34.2 percent decrease in the homicide rate.  This is consistent with the reported rates since 7.9 is a decrease over 12.
+  
+  Notice we use 12 as $f_1$ since this the earlier time (2012 versus 2014). The percent change results in a 34.2 percent decrease in the homicide rate. The percent change is consistent with the reported rates since 7.9 is a reduction over 12.
+ 
   % \end{itemize}
   
 
 \item The percent change measures social change.  It is telling us
- how a variable has increased (positive rate) or decreased (negative rate) over a certain span of time.
+ how a variable has increased (positive rate) or decreased (negative rate) over a determined span of time.
 
 \begin{equation}
 PercentChange = \frac{f_2 - f_1}{f_1} \times 100\% ,
 \end{equation}
   % \begin{itemize}
   % \item 
-  where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).  The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
+  Where $f_1$ is the first frequency (starting point) and $f_2$ is the second frequency (ending point).  The results express the size (and direction) of the change in scores $(f_2 - f_1)$ as a percentage to the score at the earlier time $(f_1)$.
   %\end{itemize}
 
 \end{itemize}
@@ -273,9 +276,9 @@ Since categorical data only has labels, there are few options for summarizing su
 Let's look at the frequency distribution tables for categorical data.
 
 \begin{itemize}
-\item Frequency distribution are tables that report the number of cases in each category of a variable.
+\item The frequency distribution is tables that report the number of cases in each sub-category of a variable.
 
-\item This data (Table 2.3) was collected from a counseling center as reported below.  
+\item This data (Table 2.3) was collected from a counseling center as described below.  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -377,7 +380,7 @@ We need to use SPSS software to construct Table 2.6, because there are 2534 case
 
 \subsection{Bar Chart}
 
-Using the percent column from Table 2.6, let's use a bar chart to summarize  the marital status from the GSS 2014 survey.  The bars represent the categories and the heights of the bars correspond to the percent or number of cases in each category.  The bar chart always has gaps between the bars to indicate categorical type of data.
+Using the percent column from Table 2.6, let's use a bar chart to summarize  the marital status from the GSS 2014 survey.  The bars represent the categories, and the heights of the bars correspond to the percent or number of cases in each category.  The bar chart always has gaps between the bars to indicate a specific type of data.
 
 <<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 ## f2_1 <- read.spss("data/GSS2014.sav")
@@ -393,7 +396,7 @@ Using the percent column from Table 2.6, let's use a bar chart to summarize  the
 
 \subsection{Pie Chart}
 
-Using the percent column from Table 2.6, let's use a pie chart to summarize  the marital status from the GSS 2014 survey.  The slices represent the categories and the size of the slice corresponds to the percent of cases in each category.
+Using the percent column from Table 2.6, let's use a pie chart to summarize  the marital status from the GSS 2014 survey.  The slices symbolize the sub-categories, and the size of the slice corresponds to the percent of cases in each sub-category.
 
 <<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
@@ -406,7 +409,7 @@ Using the percent column from Table 2.6, let's use a pie chart to summarize  the
 
 \section{Summarizing Numerical Data}
 
-Numerical data is the second type of random variable (See Figure 2.4) that we can summarize. As we explained earlier in this chapter,  categorical variables can only be counted where as numerical variables  can be summarized using the following procedures:
+Numerical data is the second type of random variable (See Figure 2.4) that we can summarize. As we explained earlier in this chapter,  categorical variables can only be counted whereas numerical variables  can be summarized using the following procedures:
 
 \begin{itemize}
   \item Frequency Distribution Table
@@ -424,11 +427,11 @@ Numerical data is the second type of random variable (See Figure 2.4) that we ca
  
 \subsection{Frequency Distribution Table}
 
-Earlier in this chapter we looked at the GSS 2014 is a sociological survey used to collect data on demographic characteristics and attitudes of residents of the United States. The survey is conducted face-to-face with an in-person interview by the National Opinion Research Center at the University of Chicago, of adults (18+) in randomly selected households.  An example of a survey question is about the years of education of the household.  The data, from this survey, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the overall years of education structure.  But before we can build a frequency distribution table, we categorized the numbers by using the following steps:  
+An example of a GSS 2014 survey question is about the years of education of the household.  The data, from this study, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the total years of education structure.  But before we can build a frequency distribution table, we categorized the numbers by using the following steps:  
 
 \begin{enumerate}
-\item Determine number of classes, minimum, maximum, range and interval size.
-\item \# of classes: generally, we take the square root of the sample size, $\sqrt{2538} = 50.4$, but in this case, this value exceeds 10 which is the maximum number of suggested bars.
+\item Determine the number of classes, minimum, maximum, range and interval size.
+\item \# of classes: generally, we take the square root of the sample size, $\sqrt{2538} = 50.4$, but in this case, this value exceeds ten which is the maximum number of suggested bars.
 \item $minimum = 0$
 \item $maximum = 20$
 \item $range = 20 - 0 $
