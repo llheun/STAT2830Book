@@ -10,7 +10,7 @@
 \usepackage{epstopdf}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 \usepackage{verbatim}
-\usepackage[authoryear]{natbib}
+% \usepackage[authoryear]{natbib}
 % \usepackage{cite}
 % \usepackage{url}
 
