@@ -10,7 +10,7 @@
 \usepackage{epstopdf}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 \usepackage{verbatim}
-% \usepackage[authoryear]{natbib}
+\usepackage[authoryear]{natbib}
 % \usepackage{cite}
 % \usepackage{url}
 
@@ -60,7 +60,7 @@ opts_chunk$set(
 @
 
 
-<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=FALSE>>=
+<<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=TRUE>>=
 @
 
 <<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=

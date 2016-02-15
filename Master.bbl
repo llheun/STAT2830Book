@@ -1,34 +1,26 @@
-\begin{thebibliography}{4}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{1}
 
-\bibitem[Lab(2015)]{Reason2015}
+\bibitem{Reason2015}
 Stats Lab.
 \newblock Why study statistics?
 \newblock http://lsc.cornell.edu/Sidebars/StatsLabPDFs/Topic2.pdf, 12 2015.
-\newblock URL \url{http://lsc.cornell.edu/Sidebars/StatsLabPDFs/Topic2.pdf}.
 
-\bibitem[Sam~Clemens(2008)]{Teen2007}
+\bibitem{Teen2007}
 Sarah Lynch Soazig Nicholson Sarah~Pigott Sam~Clemens, Dhriti~Jotangia.
-\newblock \emph{Drug use, smoking and drinking among young people in England in
+\newblock {\em Drug use, smoking and drinking among young people in England in
   2007}.
 \newblock The Health and Social Care Information Centre, 35 Northampton Square,
   London, EC1V 0AX, 2008.
 
-\bibitem[Trustees(2016)]{GSS2014}
+\bibitem{GSS2014}
 Board Trustees.
 \newblock General social survey (gss).
 \newblock www.norc.org/Research/Projects/Pages/general-social-survey.aspx, 02
   2016.
-\newblock URL
-  \url{www.norc.org/Research/Projects/Pages/general-social-survey.aspx}.
 
-\bibitem[Wallace(1971)]{Wallace1971}
+\bibitem{Wallace1971}
 Walter Wallace.
-\newblock \emph{The Logic of Science in Sociology}.
+\newblock {\em The Logic of Science in Sociology}.
 \newblock Aldine-Atherton, Chicago, 2nd edition, 1971.
 
 \end{thebibliography}

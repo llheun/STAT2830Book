@@ -13,11 +13,11 @@ By the end of this chapter, you will be able to:
 %\item Construct and analyze frequency distributions for variables at each of the three levels of measurement.
 \end{itemize}
 
-The data from a research project cannot articulate by itself.  As social scientists, we must compute  descriptive statistics so that we can quickly understand the results of the project.  We as researchers use data science (statistics) to elucidate the results.  In this chapter, we will consider graphics, percentages, rates, and tables.  While these single value descriptive statistics are not rigorous, but are very useful for giving project results without doubt. 
+The data from a research project cannot articulate by itself.  As social scientists, we must compute  descriptive statistics so that we can quickly understand the results of the project.  We as researchers use data science (statistics) to elucidate the results.  In this chapter, we will consider graphics, percentages, rates, and tables.  While these single value descriptive statistics are not rigorous, they are very useful for giving project results. 
 
 \section{Descriptive Statistics for Categorical Data}
 
-{\bf{Percents, proportions, rates, and ratio}} are the primary statistics for categorical data and are used for either nominal or ordinal data.
+{\bf{Percents, proportions, rates, and ratio}} are the primary statistics for categorical data, and we use them for either nominal or ordinal data.
 
  \begin{figure}[ht]
     \centering
