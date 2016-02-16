@@ -409,7 +409,7 @@ Using the percent column from Table 2.6, let's use a pie chart to summarize  the
 
 \section{Summarizing Numerical Data}
 
-Numerical data is the second type of random variable (See Figure 2.4) that we can summarize. As we explained earlier in this chapter,  categorical variables can only be counted whereas numerical variables  can be summarized using the following procedures:
+Numerical data is the second type of variable (See Figure 2.4) that we can summarize. As we explained earlier in this chapter,  categorical variables can only be counted whereas numerical variables  can be summarized using the following procedures:
 
 \begin{itemize}
   \item Frequency Distribution Table
@@ -481,13 +481,13 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 
 \begin{itemize}
-\item The bars of a histogram represent the subcategories and the heights of each bar corresponds to the percentage or number of cases in each subcategory.
+\item The bars of a histogram represent the sub-categories and the heights of each bar correspond to the percentage or number of cases in each subcategory.
 
-\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the frequency for the sub-group 10-12 years is \fbox{823} of 2538 or 32.4 percent.  In this text, we will set the bars to the same width. 
+\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the rate for the sub-group 10-12 years is \fbox{823} of 2538 or 32.4 percent.  In this text, we will set the bars to the same width. 
 
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 
-\item Histograms are very useful in examming the ``shape'' of the structure (distribution), for example: Bell-shaped (symmetrical),  Skewed (left or right),   Multi-modal.
+\item Histograms are very useful in examing the ``shape'' of the structure (distribution), for example, Bell-shaped (symmetrical),  Skewed (left or right),   Multi-modal.
 
 \item Symmetric and Multi-Modal Distributions
 
@@ -538,7 +538,7 @@ The following bullets summarize the boxplot:
 \begin{itemize}
 \item It is a graphical summary  of the middle 50 percent of the data.
 \item It is useful for comparing distributions of two or more categorical variables.
-\item It is built on  the five number summary.
+\item It uses the following five number summary:
 	\begin{itemize}
 	\samepage
 	\item Minimum = 6
@@ -555,7 +555,7 @@ The following bullets summarize the boxplot:
 	
 \section{Summary}
 
-The objective of this chapter was to use descriptive statistics to summarize categorical and numerical data.  We built frequency tables and charts and graphs to tell others about our research.  We also computed percentages, proportions, ratios, and percent changes all to communicate our results to an outside audience.  We were able to use these descriptive statistic to build graphs (boxplots, charts (bar, line, and pie), and histograms).  These graphical presentations often help our audience to comprehend the complexity of the problem that we are examining.
+The objective of this chapter was to use descriptive statistics to summarize categorical and numerical data.  We built frequency tables and charts and graphs to tell others about our research.  We also computed percentages, proportions, ratios, and percent changes all to communicate our results to an outside audience.  We were able to use the descriptive statistic to build graphs (boxplots, charts (bar, line, and pie), and histograms).  These graphical presentations often help our audience to comprehend the complexity of the problem that we are examining.
 
 % \pagebreak
 \section{Key Words}
@@ -580,7 +580,7 @@ The objective of this chapter was to use descriptive statistics to summarize cat
 
   \begin{exercise}  % 1
   
-    250 individuals were randomly selected and 195 of them do not smoke. What proportion of individuals are smokers?
+    The researcher randomly selected 250 individuals and 195 of them do not smoke. What proportion of individuals are smokers?
 	  \begin{enumerate}
 	  \samepage
 	  \item 78
@@ -606,7 +606,7 @@ The objective of this chapter was to use descriptive statistics to summarize cat
 	
   \begin{exercise} % 2
   
-    250 individuals were randomly selected and 195 of them do not smoke.  What is the ratio of nonsmokers to smokers?
+    The researcher randomly selected 250 people, and 195 of them do not smoke.  What is the ratio of nonsmokers to smokers?
 	  \begin{enumerate}
 	  \item 0.78
 	  \item 0.28
@@ -626,7 +626,7 @@ The objective of this chapter was to use descriptive statistics to summarize cat
 
   \begin{exercise} % 3
   
-    In a city of a population 25,000, there were 13 murders reported in the prior year.  What is the rate of murder in this city per 100,000?
+    In a city with a population 25,000, there were 13 murders reported in the prior year.  What is the homicide rate in this city per 100,000?
 	  \begin{enumerate}
 	  \samepage
 	  \item 5.2
