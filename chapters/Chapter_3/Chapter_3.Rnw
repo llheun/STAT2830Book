@@ -5,7 +5,7 @@
 
 \section{Objective}
 
-By the end of this chapter, you will be able to
+After reading chapter three and doing the exercises, you will be able to:
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
