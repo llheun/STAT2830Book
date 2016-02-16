@@ -18,7 +18,7 @@ By the end of this chapter, we will be able to:
 
 \subsubsection{Be an Informed Consumer}
 
-The first reason to study statistics  \citep{Reason2015}  
+The first reason to study statistics  \cite{Reason2015}  
 is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that our clients gave us. 
 
 \subsubsection{Study Design}

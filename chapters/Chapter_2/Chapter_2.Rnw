@@ -28,7 +28,7 @@ The data from a research project cannot articulate by itself.  As social scienti
 
 \subsection{Percentages and Proportions}
 
-National Opinion Research Center (NORC) (U of C) administers the General Social Survey (GSS), and is a primary source of data on social attitudes in the U.S. \citep{GSS2014}  Once each year; NORC employees interview 1500 adults in their homes all across the country.  The subjects are asked their opinions on sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
+National Opinion Research Center (NORC) (U of C) administers the General Social Survey (GSS), and is a primary source of data on social attitudes in the U.S. \cite{GSS2014}  Once each year; NORC employees interview 1500 adults in their homes all across the country.  The subjects are asked their opinions on sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
 
 \subsubsection{GSS Example}
 
@@ -186,7 +186,7 @@ where $f_1$ is the number of cases in the first category and $f_2$ is the number
 
 \subsection{Rates}
 
-Suppose Kalamazoo  (population of 75,000) had nine homicides in 2012 \citep{Homicide2016}, what is the homicide rate per (100,000) in this town.
+Suppose Kalamazoo  (population of 75,000) had nine homicides in 2012 \cite{Homicide2016}, what is the homicide rate per (100,000) in this town.
 
 \begin{itemize}
 \item The homicide rate is the number of deaths divided by the population size.
