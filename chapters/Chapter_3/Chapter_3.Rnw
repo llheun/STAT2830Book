@@ -213,7 +213,7 @@ Left Skewed
 \begin{itemize}
 \item Balanced Distribution
 \item Often bell-shaped
-\item The mean, median, and mode have approximately the same value.
+\item The statistics (mean, median, and mode) have approximately the same value.
 \end{itemize}
 
 \subsubsection{Skewed}
@@ -257,40 +257,40 @@ There was a typo when 50 was entered into the dataset when the value should have
   
   \end{itemize}
 
-\item The mean, median, and mode are different values.  Notice that the mean will always be pulled from the median in the direction of the extreme values.
+\item The statistics (mean, median, and mode) are different values.  Notice that the mean value pulls away from the median in the direction of the extreme values.
 \end{itemize}
 
 \section{Other Measures of Location}
 
-The other measure of location are as follows:
+The other measure of central tendency are as follows:
 
 \begin{itemize} 
 \samepage
-\item Percentage: point below which a specific percentage of cases fall.
+\item Percentage: point below which a particular percentage of cases fall.
 \samepage
 \item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, children's height in age groups.
 \samepage
 \item Quartiles: divides distribution into quarters ($Q_1 = 25$, $Q_2 = 50$, $Q_3 = 75$).
 \samepage
   \begin{itemize}
-  \item e.g., the median falls at the 50th percentile (or the 2nd quartile or the 5th decile.)
+  \item e.g., the median falls in the $50^{th}$ percentile (or the $2^{nd}$ quartile or the $5^{th}$ decile.)
   \end{itemize}
 \samepage
-\item Mid-range: $ mr = \frac{Minimum + Maximum}{2} $
+\item Mid-range: $ MR = \frac{Minimum + Maximum}{2} $
 \samepage
-\item Mid-hinge: $ mh = \frac{Q_1 + Q_3}{2} $
+\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2} $
 \samepage
 \item Calculate a percentile
 	\begin{itemize}
-	\item Sort scores in order from low to high
-	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example: the 80th percentile is 0.8).
+	\item Sort scores in ascending order
+	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).
 	
 	\end{itemize}
 		
 	\item Example
 		\begin{itemize}
-		\item In a sample of 70 test scores, we want to find the 3rd quartile (or the 75th percentile),
-		\item $70 \times 0.75 = 52.5$ is the $75^{th}$ percentile.  This means that the location of the $75^{th}$ percentile lays between the $52^{nd}$ and the $53^{rd}$ values in the list of test scores.
+		\item In a sample of 70 test scores, we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item $70 \times 0.75 = 52.5$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is located between the         $52^{nd}$ and the $53^{rd}$ values in the list of 70 test scores.
 		\end{itemize}
 		  	
 \end{itemize}
@@ -307,7 +307,7 @@ Let's use the data from the GSS  to find the mean, median, and mode of the highe
 
 @
 
-The three central tendency values are displayed in the following table (Table 3.9): 
+The report displays the three central tendency values in the following table (Table 3.9): 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -331,7 +331,7 @@ Section 3.11 shows the SPSS procedure.
 
 \section{Summary}
 
-Why is central tendency important?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
+Why is central tendency necessary?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
   
 \section{Key Words}
 \begin{itemize}
@@ -408,7 +408,7 @@ Why is central tendency important?  We use central tendency to compare treatment
 	
   \begin{exercise} % 3  
   
-    The following table lists the number of cars per 1000 population for eight nations. Compute the mean, median, and mode for these data.  
+    The following table lists the number of cars per 1000 population for eight nations. Compute the three central tendency variables (mean, median, and mode) for these data.  
 
 \begin{minipage}[ht]{6.5cm}
 
@@ -550,8 +550,8 @@ Determine the  appropriate measures of central tendency for each variable:
 \newpage  
   \begin{exercise} % 6
   
-    For the next 2 questions, use the following scenario.
-    As a leader of a Kalamazoo social services agency, you are concerned that your staff has an increased caseload of clients compared to 10 years ago.  The case loads of each worker are reported in the following table for years 2005 and 2015.  
+    For the next two questions, use the following scenario.
+    As a leader of a Kalamazoo social services agency, you are concerned that your staff has an increased caseload of clients compared to 10 years ago.  The case load of each worker is reported in the following table for years 2005 and 2015.  
     
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -561,7 +561,7 @@ Determine the  appropriate measures of central tendency for each variable:
    2005 & 50&64&55&64&60&53&56&50&51&45 \\ & 46&46&50&56&63&65&53&54&58&69 \\ \hline
    2015 & 57&47&46&59&59&50&57&52&41&66 \\ & 65&52&57&75&65&76&43&56&52&67 \\ \hline
    \end{tabular}
-    \caption{Central tendency}
+    \caption{Central Tendency}
    \label{tab:t3_11}
 \end{table}
 
@@ -591,7 +591,7 @@ The median for 2015 is \Sexpr{med3b}.
     
   \begin{exercise} % 7
   
-  A survey of 25 randomly selected Freshmen at WMU was completed to measure their degree of racial prejudice (a higher score indicate more prejudice).  
+  The admissions department at WMU gave 25 randomly selected Freshmen a national prejudice survey.  The administration will use these scores in four years to see if higher education affects prejudice.
   
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -673,8 +673,8 @@ The median for 2015 is \Sexpr{med3b}.
 	
 		  \begin{exercise} % 9
   
-  The next 2 questions refer to the following scenario.
-  A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of a random sample of  15 girls are listed below:
+  The next two questions refer to the following scenario.
+  A local social service agency has started a sex education course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The listing of scores of a random sample of  15 girls is below:
   
 %'     <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
 %' 	    t3_14a <- read.csv("data/testing.csv", header=TRUE)
