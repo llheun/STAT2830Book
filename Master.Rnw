@@ -10,7 +10,7 @@
 \usepackage{epstopdf}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 \usepackage{verbatim}
-\usepackage{natbib}
+% \usepackage{natbib}
 \usepackage{url}
 
 
@@ -65,7 +65,7 @@ opts_chunk$set(
 <<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=TRUE>>=
 @
 
-<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=TRUE>>=
+<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=FALSE>>=
 @
 
 <<Ch5, child="chapters/Chapter_5/Chapter_5.Rnw",eval=FALSE>>=
@@ -94,6 +94,9 @@ opts_chunk$set(
 @
 
 <<Ch13, child="chapters/Workshops/Workshops.Rnw",eval=FALSE>>=
+@
+
+<<Ch14, child="chapters/xbibliography/xbibliography.Rnw",eval=TRUE>>=
 @
 
 \end{document}

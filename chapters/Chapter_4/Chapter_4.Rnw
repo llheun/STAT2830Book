@@ -5,10 +5,10 @@
 
 \section{Objective}
 
-By the end of this chapter, you will be able to
+After reading chapter four and doing the exercises, you will be able to
 \begin{itemize}
 \item Explain the concept of measures of dispersion and the information they convey.
-\item Compute and explain:
+\item Compute and explain the following:
 	\begin{itemize}
 	\item The range ({\bf{R}}).
 	\item The interquartile range ({\bf{IQR}}) 

@@ -12,45 +12,45 @@ while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Sam Clemens, Dhriti Jotangia, Sarah Lynch, Soazig Nicholson, Sarah Pigott" for entry Teen2007
 while executing---line 1090 of file plain.bst
 Warning--can't use both author and editor fields in Teen2007
-You've used 6 entries,
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            538 strings with 4825 characters,
-and the built_in function-call counts, 1313 in all, are:
-= -- 122
-> -- 42
+            533 strings with 4717 characters,
+and the built_in function-call counts, 1103 in all, are:
+= -- 102
+> -- 35
 < -- 0
-+ -- 19
-- -- 12
-* -- 57
-:= -- 228
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 23
++ -- 16
+- -- 10
+* -- 49
+:= -- 193
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 52
-empty$ -- 133
-format.name$ -- 12
-if$ -- 281
+cite$ -- 6
+duplicate$ -- 45
+empty$ -- 111
+format.name$ -- 10
+if$ -- 235
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 5
 missing$ -- 4
-newline$ -- 33
-num.names$ -- 12
-pop$ -- 44
+newline$ -- 28
+num.names$ -- 10
+pop$ -- 36
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 15
 quote$ -- 0
-skip$ -- 40
+skip$ -- 33
 stack$ -- 0
-substring$ -- 31
-swap$ -- 7
+substring$ -- 26
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
+type$ -- 16
 warning$ -- 1
-while$ -- 12
-width$ -- 7
-write$ -- 65
+while$ -- 10
+width$ -- 6
+write$ -- 55
 (There were 4 error messages)
