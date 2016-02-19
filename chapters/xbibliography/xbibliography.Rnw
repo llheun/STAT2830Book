@@ -1,7 +1,7 @@
 %!Rnw root = ../../Master.Rnw
 
 \chapter{References}
-\label{chap:Ch14}
+\label{chap:ch14}
 
 % \section{References}
 \bibliographystyle{plain}
