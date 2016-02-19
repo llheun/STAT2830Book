@@ -228,7 +228,7 @@ Inferential statistics makes a general statement about a population based on a s
 \begin{center}
 \setlength{\unitlength}{1cm}
 \begin{picture}(6,3)
-\put(2,2){\circle{2}}
+\put(2,2){\circle{2.1}}
 \put(5,2){\circle{0.6}}
 \put(3,2){\vector(4,0){1}}
 \put(1.9,1.9){{\bf{P}}}

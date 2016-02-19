@@ -79,3 +79,18 @@
 \contentsline {section}{\numberline {3.10}Exercises}{49}
 \contentsline {section}{\numberline {3.11}Appendix}{53}
 \contentsline {subsection}{\numberline {3.11.1}Central Tendency}{53}
+\contentsline {chapter}{\numberline {4}Measures of Spread}{55}
+\contentsline {section}{\numberline {4.1}Objective}{55}
+\contentsline {section}{\numberline {4.2}Definition of Dispersion}{55}
+\contentsline {section}{\numberline {4.3}Range}{56}
+\contentsline {section}{\numberline {4.4}Interquartile Range}{56}
+\contentsline {section}{\numberline {4.5}Standard Deviation}{58}
+\contentsline {section}{\numberline {4.6}Variance}{62}
+\contentsline {section}{\numberline {4.7}Other Measures of Spread}{63}
+\contentsline {subsubsection}{Coefficient of Variation}{63}
+\contentsline {subsubsection}{GSS Example}{63}
+\contentsline {section}{\numberline {4.8}Summary}{63}
+\contentsline {section}{\numberline {4.9}Key Words}{64}
+\contentsline {section}{\numberline {4.10}Exercises}{65}
+\contentsline {section}{\numberline {4.11}Appendix}{69}
+\contentsline {subsection}{\numberline {4.11.1}Dispersion}{69}

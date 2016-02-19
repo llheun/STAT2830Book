@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Master.aux
+The style file: plain.bst
+Database file #1: mybibliography.bib
+Too many commas in name 1 of "Sam Clemens, Dhriti Jotangia, Sarah Lynch, Soazig Nicholson, Sarah Pigott" for entry Teen2007
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Sam Clemens, Dhriti Jotangia, Sarah Lynch, Soazig Nicholson, Sarah Pigott" for entry Teen2007
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Sam Clemens, Dhriti Jotangia, Sarah Lynch, Soazig Nicholson, Sarah Pigott" for entry Teen2007
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Sam Clemens, Dhriti Jotangia, Sarah Lynch, Soazig Nicholson, Sarah Pigott" for entry Teen2007
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in Teen2007
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            538 strings with 4825 characters,
+and the built_in function-call counts, 1313 in all, are:
+= -- 122
+> -- 42
+< -- 0
++ -- 19
+- -- 12
+* -- 57
+:= -- 228
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 52
+empty$ -- 133
+format.name$ -- 12
+if$ -- 281
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 33
+num.names$ -- 12
+pop$ -- 44
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 40
+stack$ -- 0
+substring$ -- 31
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 1
+while$ -- 12
+width$ -- 7
+write$ -- 65
+(There were 4 error messages)

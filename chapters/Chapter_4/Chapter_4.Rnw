@@ -453,13 +453,13 @@ sd1 <- sd(xdt1)
 
 	\begin{exercise}  % 4
 	
-	  The next 2 exercises refer to the following scenario.  Table 4.5 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.   
+	  The next 2 exercises refer to the following scenario.  Table 4.5 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
 	  
 	  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \caption{2013 Expenditure on Health as a Percentage of GDP. \citet{Health:2013}.
+   \caption{2013 Expenditure on Health as a Percentage of GDP.}
    \begin{tabular}{@{} lr | lr | lr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
     Country & Percent & Country & Percent & Country & Percent \\ \hline
     Argentina & 7.3 & Greece & 9.8 & Saudi Arabia & 3.2 \\ 
@@ -652,7 +652,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	
 			  \begin{exercise} % 9
   
-  The next 2 questions refer to the following scenario.
+  The next two questions refer to the following scenario.
   A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of a random sample of  15 girls are listed below:
   
 %'     <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
@@ -723,45 +723,45 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	\end{solution}  
 	 
 	 
-  \begin{exercise} % 10
-  
-   Interpret these statistics.
+   \begin{exercise} % 10
+
+    Interpret these statistics.
 <<f4_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=
-	    dat3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12,12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
-	    testType3 <- c(rep("PRE", 15), rep("POST", 15))
-	    ## boxplot( dat3 ~ testType3)
+ 	    dat3 <- c(8,7,10,15,10,10,3,10,5,15,13,4,10,8,12,12,13,12,19,8,17,12,11,7,12,20,5,15,11,20)
+ 	    testType3 <- c(rep("PRE", 15), rep("POST", 15))
+ 	    ## boxplot( dat3 ~ testType3)
 @
-  
-	\vspace{4cm}
-    \framebox[5cm][l]{ Answer: }
-	\end{exercise}
-	\vspace{2mm}
-	\begin{solution}
-	
 
-    \begin{figure}[ht]
+ 	\vspace{4cm}
+     \framebox[5cm][l]{ Answer: }
+ 	\end{exercise}
+ 	\vspace{2mm}
+ 	\begin{solution}
 
-    \centering 
-    \includegraphics[width=5cm]{figure/f4_6-1} 
 
-    \caption[Box plot of Post - Pre Test Scores]{Box plot of Post - Pre Test Scores}
-    \label{fig:f4_6}
-    \end{figure}
+     \begin{figure}[ht]
 
-   
+     \centering
+     \includegraphics[width=5cm]{figure/f4_6-1}
+
+     \caption[Box plot of Post - Pre Test Scores]{Box plot of Post - Pre Test Scores}
+     \label{fig:f4_6}
+     \end{figure}
+
+
 <<results="asis", echo=FALSE>>=
-	     mn3a <- mean(dat3[1:15])
+ 	     mn3a <- mean(dat3[1:15])
 @
-	    The  sex ed pretest  mean is \Sexpr{mn3a}
-	   
+ 	    The  sex education pretest  mean is \Sexpr{mn3a}
+
 <<results="asis", echo=FALSE>>=
-	      mn3b <- mean(dat3[16:30]) 
-@ 
-	   The sex ed posttest mean is \Sexpr{mn3b}.
-	    
-	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
-	  
-	\end{solution}  
+ 	      mn3b <- mean(dat3[16:30])
+@
+ 	   The sex education posttest mean is \Sexpr{mn3b}.
+
+ 	  After reviewing the box plot of the differences between posttest and pretest scores, it appears that the students learned the subject material.
+
+ 	\end{solution}
 	
 	
 \end{exercises}
