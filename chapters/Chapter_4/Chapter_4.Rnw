@@ -188,11 +188,11 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
-The following graphic (Figure 4.4) shows the representation of the standard deviation.  The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and accounts for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray)  portion represent the bell-shaped curve together two standard deviations from either side of the mean and accounts for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and accounts for approximately 99.7 percent of the students from residential campus.  
+The following graphic (Figure 4.4) shows the representation of the standard deviation.  The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and accounts for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray) portion represent the middle two standard deviations and account for around 95 percent of the students from residential college.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and accounts for approximately 99.7 percent of the students from residential campus.  
 
 So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in the urban campus setting versus a residential school.
 
-Let's say an urban school has a higher mean age than the residential campus.  (See Table 4.2 and Table 4.3 and Figure 4.3).  Your first reaction maybe that the students on the urban campus are older.
+Let's say an urban school has a higher mean age than the residential college.  (See Table 4.2 and Table 4.3 and Figure 4.3).  Your first reaction may be that the students on the urban campus are older than students in the residential college.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -249,21 +249,17 @@ boxplot(dt4_2$Age ~ dt4_2$Type, xlab="Campus", ylab="Age(years)")
 @
 
 
-But a larger value of the standard deviation from the urban campus tells us that the ages of students at the urban  campus are toward one extreme or the other.   This leads us to ask more questions, such as  the urban campus mean is skewed (See Figure 4.5) up because there are older students attending the urban campus.  Or the residential campus mean age  is dragged down because there are younger students attending the residential campus.  By looking the standard deviation, helps us understand the data.
+But a larger value of the standard deviation from the urban university tells us that the ages of students at the urban  campus are toward one extreme or the other.   Naturally, we should then ask why is the data skewed when students go to an urban college (See Figure 4.5) because older students attend it.  Or the residential campus mean age is dragged down because younger students participate in the residential campus classes.  By looking the standard deviation, helps us understand the data.
 
-Needless to say, when you are evaluating the results of your research, you may seek the advice of a statistician.  However, if you have a working knowledge of the standard deviation, your time spent with the statistician will be more productive.
+Needless to say, when you are evaluating the results of your research, you may seek the advice of a statistician.  However, if you have knowledge of the standard deviation, your time with the statistician will be productive.
 
-Some of you maybe asking, how do we compute the standard deviation?  For those of you who are curious, you may continue to read the remaining proportion of the section.  
-For the others, you may go to the next section.  Remember, there is statistical software and calculators that will compute the standard deviation for you.
+Some of you may be asking, how do we compute the standard deviation?  For those of you who are curious, you may continue to read the remaining proportion of the section.  For the others, you may go to the next section.  Remember, there are statistical software and calculators that will compute the standard deviation for you.
 \vspace{2mm}
 
 \emph{You will need to know these terms: \\
-$x$ equals a value of a variable in a dataset.
-$\bar{x}$ equals the mean  of the variable in a dataset. 
-$n$ equals the number of values ($x$) in your dataset. }
+$X$ equals a value of a variable in a dataset.  $\bar{X}$ equals the mean  of the variable in a dataset.   $N$ equals the number of values ($x$) in your dataset. }
 
-\emph{Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We need to take the square root of the last number as we did in Table 4.3. 
-There is one more way to compute the standard deviation, that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have grasp the basic concept of the standard deviation, you should be
+\emph{Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We are required to take the square root of the number as we did in Table 4.3.  There is one more way to compute the standard deviation; that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have, grasp the basic concept of the standard deviation, you should be
 okay.}
 
 \section{Variance}
@@ -271,15 +267,15 @@ okay.}
 The characteristics of the variance are
 
 \begin{itemize}
-\item the standard deviation squared, $s^2$.
+\item the standard deviation squared, $s^2$,
 
-\item a good measure of dispersion.
+\item a good measure of dispersion,
 
-\item uses all the data points in the sample.
+\item uses all the data points in the sample,
 
-\item describes the ``average'' or typical squared deviation of the scores.  The statistic should give us an idea about how far scores are from each other or from the center of the distribution.
+\item describes the ``average'' or typical squared deviation of the scores.  The statistic should give us an idea of how far scores are from each other or the center of the distribution,
 
-\item increases in value as the scores become more diverse and decrease in value as the scores become less diverse.  This provide for comparison of different distributions.
+\item increases in value as the scores become more diverse and decrease in value as the scores become less diverse.  This provide for comparison of different distributions,
 
 \item affected by outliers.
 \end{itemize}

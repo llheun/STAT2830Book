@@ -90,7 +90,7 @@
 \contentsline {subsubsection}{Coefficient of Variation}{63}
 \contentsline {subsubsection}{GSS Example}{63}
 \contentsline {section}{\numberline {4.8}Summary}{63}
-\contentsline {section}{\numberline {4.9}Key Words}{64}
+\contentsline {section}{\numberline {4.9}Key Words}{63}
 \contentsline {section}{\numberline {4.10}Exercises}{65}
 \contentsline {section}{\numberline {4.11}Appendix}{69}
 \contentsline {subsection}{\numberline {4.11.1}Dispersion}{69}
