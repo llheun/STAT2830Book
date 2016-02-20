@@ -17,7 +17,7 @@ After reading chapter four and doing the exercises, you will be able to
 	\item The sample standard deviation  (denoted as {\bf{$s$}}).
 	\item The population standard deviation  (denoted as {\bf{$\sigma$}}).
 	\end{itemize}
-\item Select the  measure of dispersion appropriate for the problem that you are working on.
+\item Select the  measure of dispersion appropriate for your current problem.
 \end{itemize}
 	
 \section{Definition of Dispersion}
@@ -27,7 +27,7 @@ What is dispersion (variation or spread)?  Dispersion is
 \begin{itemize}
 \item how much does an observation vary.
 \item how much an observation misses the center.
-\item Note: There are ways to measure variability of categorical data, but it will not be discussed in this course.
+\item Note: There are ways to measure the variability of categorical data, but we will not discuss them in this course.
 
 \end{itemize}
 
@@ -61,13 +61,13 @@ $Range = R = max - min = 30 - 18 = 12 $
 The following are characteristics of the {\bf{Range ($R$)}}:
 
 \begin{itemize}
-\item The range is the easiest measure of dispersion to calculate and is simply the total spread of the data,
+\item The range is simply the total spread of the data, and it is easy to calculate,
 
-\item It is highly affected by extreme values (outliers) thus one extreme value can exaggerate the  variation 
-(spread) of the dataset.
+\item It is highly affected by extreme values (outliers) thus; one exceptional value can exaggerate the variation 
+(dispersion) of the dataset.
 
 \item It only includes two values from the dataset (minimum and maximum), has limited power for interpretation, and 
- has limited use in more advanced statistical analysis of problems.
+ has limited use in more advanced statistical analysis of numerical data.
 \end{itemize}
 
 \section{Interquartile Range}
@@ -108,15 +108,13 @@ $UpperBound = Q_3 + (1.5 \times IQR) = 16 + (1.5 \times 4) = 22$
 
 \item The {\bf{IQR}} shows the range of the middle 50\% of the data.
 
-\item {\bf{IQR}} avoids some of the problems of the range being exaggerated by extreme or unusual values
-(outliers).
+\item {\bf{IQR}} avoids some of the problems of the range, i.e., extreme values (outliers).
 
-\item The {\bf{IQR}} is also calculated using only two data values and so does not have a
-high content of information and so it has limited  use for statistical analysis problems but it is easily understood and interpreted.
+\item The {\bf{IQR}} is also calculated using only two data values and so does not have a high content of information, and so it has limited use for statistical analysis problems, but it is easily understood and interpreted.
 
-\item The boxplot (figure 4.2)  provides a very useful and informative chart for describing a distribution.
+\item The boxplot (Figure 4.2)  provides a very useful and informative chart for describing a distribution.
 
-\item The boxplot utilizes what is called the 5-number summary:
+\item The boxplot uses the 5-number summary:
 	\begin{itemize}
 	\item Minimum
 	\item $Q_1$ ($1^{st}$ quartile)
@@ -132,15 +130,15 @@ whiskers (longer whiskers on one side indicate a skewed distribution).
 
 \section{Standard Deviation}
 
-The standard deviation is a puzzling concept that we will not use very often, but that does not mean we should not understand the idea. 
+The standard deviation is a difficult concept that we will not use very often, but that does not mean we should not understand the idea. 
 
-The standard deviation is a type of ``average of the deviations from the sample mean'' and will frequently help us find the story behind the data.  Statisticians have developed an idea called the ``normal distribution'' that may help us understand the idea of the standard deviation.
+The standard deviation is a type of ``average of the deviations from the sample mean'' and will frequently help us find the story behind the data.  Statisticians have developed an idea called the ``normal distribution'' that may help us understand the concept of the standard deviation.
 
-The normal distribution of data indicates that most of the our sample will be close to the average of the sample data.  Whereas very few of those observations will be at either extreme.
+The Normal Distribution of dataset indicates that most of our sample will be close to the average of the sample data whereas very few of those observations will be at either extreme.
 
-Suppose that you are writing a report about the Ages of Student from a residential campus  versus the Ages of Students from an urban campus.  Like most datasets,  the numbers for the age of most student on a residential campus will probably be normally distributed, i.e., the age of most students on a residential campus will be close to the mean, while very few ages will be greater than the mean or very few ages will be less than the mean. 
+Suppose that you are writing a report about the Ages of Student from a residential campus  versus the Ages of Students from an urban school.  Like most datasets,  the numbers for the age of most student on a residential campus will probably be normally distributed.  In other words, the age of most students on a residential campus will be close to the mean and very few student ages will be greater than the average or very few age groups will be less than the average. 
 
-If you give this concept some thought, it makes sense.  Not many students will be in their early teens or in their late twenties.  Most students will be somewhere in between, i.e., late teens and early twenties.  Whereas the urban campus has more students at the extremes, they will be in their mid-teens and early thirties.
+If you give this concept some thought, it makes sense.  Not many students will be in their early teens or their late twenties.  Most students will be somewhere in between, i.e., late teens and early twenties whereas the urban campus has more students at the extremes, they will be in their mid-teens and early thirties.
 
 % <<f4_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Bell-Shaped curve">>=
 %
@@ -154,7 +152,7 @@ If you give this concept some thought, it makes sense.  Not many students will b
 
   x10<-seq(12,35,.1)
   y10<-dnorm(x10,mean=19.2,sd=1.52)
-  plot(x10,y10,xlab="Age (Years", ylab="Proportion of Students", type="l")
+  plot(x10,y10,xlab="Age (Years)", ylab="Proportion of Students", type="l")
   y11<-dnorm(x10,mean=23.8,sd=3.68)
   lines(x10,y11)
   text(27,.2,"Residential")
@@ -165,24 +163,21 @@ If you give this concept some thought, it makes sense.  Not many students will b
   rm(x10,y10,y11)
 @
 
-Let's look at (Figure 4.3) the graphical form of normal distributed data,  we find that most of the data surrounds the mean at 19 or 23.
+Let's look at (Figure 4.3) the graphical form of normally distributed data,  we find that most of the data surround the mean at 19 or 23.
 The x-axis (the horizontal one) represents the ages of students on a residential or urban campuses.  The y-axis (the vertical one) represents data points for each value on the x-axis.   
 
-Figure 4.3 represents a perfect distribution of ages of students on a residential or urban campuses.  However, some graphs may be relatively flat (such as urban campus) which indicates a large value for the standard deviation and while some graphs may  have very steep slopes (residential campus) which indicates a small value for the standard deviation.  But every normal distribution of a dataset will have the shape of a bell.
+Figure 4.3 accounts for a perfect distribution of ages of students on a residential or urban campuses.  However, some graphs may be relatively flat (such as urban campus) which indicates a larger value for the standard deviation and while some graphs may  have very steep slopes (residential school) which show a small value for the standard deviation.  But every normal distribution of a dataset will have the shape of a bell.
 
-The standard deviation is a statistic that measures how closely individual numbers from a sample are packed around the average of the dataset.  When the value of the standard deviation is small (residential campus), the data points will be 
-``tightly'' clustered together and the slope of the bell-shaped curve will be steep.  Otherwise, when the value of the standard deviation is large (urban campus), the data points will be ``loosely'' clustered around the mean  and the slope of the bell-shaped curve will be relatively flat.
+The standard deviation is a statistic that measures the closeness of the individual numbers are around the average of the dataset. When the value of the standard deviation is small (residential school), the data points will be  ``tightly'' clustered together, and the slope of the bell-shaped curve will be steep.  Otherwise, when the value of the standard deviation is large (urban campus), the data points will be ``loosely'' clustered around the mean  and the slope of the bell-shaped curve will be relatively flat.
 
 
 
 % The calculation of the standard deviation value is much more complicated than say the mean.  
-The following graphic (Figure 4.4) shows the representation of the standard deviation.
-
 
 <<f4_4, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Standard Deviation">>=
 
 xyz <- seq(15,23,0.1)
-plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age (years)")
+plot(xyz,dnorm(xyz,19,1),type="l",ylab="Proportion of Students",xlab="Age(years)")
 polygon(c(xyz[xyz<=22],22), c(dnorm(xyz[xyz<=22], 19,1), 0.000554), col="red")
 polygon(c(xyz[xyz<=21],21), c(dnorm(xyz[xyz<=21], 19,1), 0.000554), col="orange")
 polygon(c(xyz[xyz<=20],20), c(dnorm(xyz[xyz<=20], 19,1), 0.000554), col="yellow")
@@ -193,11 +188,11 @@ polygon(c(xyz[xyz<=16],16), c(dnorm(xyz[xyz<=16], 19,1), 0.000554), col="white")
 rm(xyz)
 @
 
-The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and this will account for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray)  portion represent the bell-shaped curve together two standard deviations from either side of the mean and this will account for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and this will account for approximately 99 percent of the students from residential campus.  
+The following graphic (Figure 4.4) shows the representation of the standard deviation.  The yellow portion (light gray) of the bell-shaped curve represents one standard deviation from either side of the  mean and accounts for approximately 68 percent of the students from residential campus.  The orange and yellow (medium gray and light gray)  portion represent the bell-shaped curve together two standard deviations from either side of the mean and accounts for approximately 95 percent of the students from residential campus.  And, the red, orange, and yellow (dark gray, medium gray, and light gray) portion of the bell-shaped curve represent three standard deviations from either side of the mean and accounts for approximately 99.7 percent of the students from residential campus.  
 
-So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in urban campus setting versus a residential campus.
+So the next question is, ``Why is this concept important?''  Let's explore an example:  comparing ages of students in the urban campus setting versus a residential school.
 
-Let's say urban campus has a higher mean age than the residential campus.  (See Table 4.2 and Table 4.3 and Figure 4.3).  Your first reaction maybe that the students on the urban campus are older.
+Let's say an urban school has a higher mean age than the residential campus.  (See Table 4.2 and Table 4.3 and Figure 4.3).  Your first reaction maybe that the students on the urban campus are older.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -765,6 +760,11 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	
 	
 \end{exercises}
+
+% \section{References}
+\bibliographystyle{plain}
+\bibliography{mybibliography}
+
 
 \section{Appendix}
 

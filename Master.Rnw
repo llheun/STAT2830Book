@@ -27,6 +27,10 @@
 %\section{}
 %\subsection{}
 
+% \section{References}
+\bibliographystyle{plain}
+\bibliography{mybibliography}
+
 \vspace{10cm}
 
 Copyright \copyright 2015 by Loren L. Heun at Western Michigan University \\ \newline
@@ -55,6 +59,8 @@ opts_chunk$set(
 \tableofcontents
 
 
+
+
 <<Ch1, child="chapters/Chapter_1/Chapter_1.Rnw",eval=TRUE>>=
 @
 
@@ -65,7 +71,7 @@ opts_chunk$set(
 <<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=TRUE>>=
 @
 
-<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=FALSE>>=
+<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=TRUE>>=
 @
 
 <<Ch5, child="chapters/Chapter_5/Chapter_5.Rnw",eval=FALSE>>=
@@ -96,7 +102,5 @@ opts_chunk$set(
 <<Ch13, child="chapters/Workshops/Workshops.Rnw",eval=FALSE>>=
 @
 
-<<Ch14, child="chapters/xbibliography/xbibliography.Rnw",eval=TRUE>>=
-@
 
 \end{document}
