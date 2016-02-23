@@ -25,7 +25,7 @@ After reading chapter four and doing the exercises, you will be able to
 What is dispersion (variation or spread)?  Dispersion is 
    
 \begin{itemize}
-\item how much does an observation vary.
+\item how much do observations vary.
 \item how much an observation misses the center.
 \item Note: There are ways to measure the variability of categorical data, but we will not discuss them in this course.
 
@@ -49,14 +49,14 @@ An illustration of the range of a variable.
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\ \hline
+       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & \fbox{30} & 22 & 19 & \fbox{18} \\ \hline
       
    \end{tabular}
     \caption{Ages of Urban Campus students}
    \label{tab:t4_1}
 \end{table}
 
-$Range = R = max - min = 30 - 18 = 12 $
+$Range = R = maximum - minimum = 30 - 18 = 12 $
 
 The following are characteristics of the {\bf{Range ($R$)}}:
 
@@ -72,7 +72,7 @@ The following are characteristics of the {\bf{Range ($R$)}}:
 
 \section{Interquartile Range}
 
-An illustration of the interquartile range of a variable.  We will use data from the GSS 2014, Years of Education of the United Stats households.  See Figure 4.2.
+An illustration of the interquartile range (IQR) of a variable.  We will use data from the GSS 2014, Years of Education of the United Stats households.  See Figure 4.2.
 
 <<f4_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
 
@@ -264,20 +264,20 @@ okay.}
 
 \section{Variance}
 
-The characteristics of the variance are
+The features of the variance:
 
 \begin{itemize}
-\item the standard deviation squared, $s^2$,
+\item Its value is the standard deviation squared, $s^2$.
 
-\item a good measure of dispersion,
+\item It is a good measure of dispersion.
 
-\item uses all the data points in the sample,
+\item It uses all the values in the sample.
 
-\item describes the ``average'' or typical squared deviation of the scores.  The statistic should give us an idea of how far scores are from each other or the center of the distribution,
+\item It describes the typical squared deviation of the scores.  The statistic should give us an idea of how far scores are from the center of the distribution.
 
-\item increases in value as the scores become more diverse and decrease in value as the scores become less diverse.  This provide for comparison of different distributions,
+\item Its value becomes larger when the scores become dissimilar.  The converse is also true. 
 
-\item affected by outliers.
+\item It is affected by outliers.
 \end{itemize}
 
 \section{Other Measures of Spread}
@@ -291,14 +291,14 @@ The coefficient of variation is defined
 
 \begin{itemize}
 
-\item The coefficient of variation is equal to the standard deviation divided by the mean and multiplied by 100 percent.
-It measures the  spread  around the mean  as a percentage. 
-\item It is useful when comparing the variability of two or more  datasets that have different units of measure.
+\item The coefficient of variation (CV)  is equal to the standard deviation multiplied by 100 percent and divided by the average.
+It measures the  spread  around the arithmetic mean as a percentage. 
+\item We use it to compare the variability of two or more sets of data that have different units of measure.
 \end{itemize}
 
 \subsubsection{GSS Example}
 
-Let's use the data from the GSS  to find the range, interquartile range, Standard Deviation and variance of the highest year of school completed.
+Let's use the data from the GSS  to find the range, interquartile range, Standard Deviation and Variance of the highest year of school completed.
 
 <<echo=FALSE>>=
   gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
@@ -309,7 +309,7 @@ Let's use the data from the GSS  to find the range, interquartile range, Standar
   var4 <- sd4^2
 @
 
-The four  spread values are displayed in the following table (Table 4.4): 
+The following table displays the four spread values (Table 4.4): 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -333,7 +333,7 @@ Section 4.11 shows the SPSS procedure.
 
 \section{Summary}
 
-Why is dispersion important?  The dispersion of data measures the diversity in the distribution of values (scores).  If we take  variables of dispersion(spread) and location (central tendency) together, their presentation gives us volumes of information about the population that we are studying.  Recall there are five such spread variables: range, IQR, standard deviation, variance, and coefficient of variation.
+Why is it necessary to understand dispersion?  The dispersion, of data, measures the diversity in the distribution of values (scores).  If we take  variables of dispersion(spread) and location (central tendency) together, their presentation gives us volumes of information about the population that we are studying.  Recall there are five such spread variables: range, interquartile range, standard deviation, variance, and coefficient of variation.
 
 \section{Key Words}
 
@@ -354,7 +354,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 
   \begin{exercise} % 1
 
-  The weekly budget for groceries from six student are as follows: 
+  The weekly budget for groceries from six students are as follows: 
   \begin{center}  \begin{tabular}{@{} cccccc @{}} \hline
     \$30& \$35& \$40& \$28& \$35& \$25 \\ \hline
   \end{tabular} \end{center}
@@ -380,7 +380,7 @@ Why is dispersion important?  The dispersion of data measures the diversity in t
 
   \begin{exercise} % 2
   
-    Using the data from exercise 4.10-1, where $Q_1 = 28$ and $Q_3 = 35$, \\ is there an outlier among the weekly budget for groceries? 
+    Using the data from Exercise 4.10-1, where $Q_1 = 28$ and $Q_3 = 35$, \\ is there an outlier among the weekly budget for groceries? 
 	  
 	  \vspace{2.5cm}
     \framebox[5cm][l]{ Answer: }
@@ -444,7 +444,7 @@ sd1 <- sd(xdt1)
 
 	\begin{exercise}  % 4
 	
-	  The next 2 exercises refer to the following scenario.  Table 4.5 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health expenditures divided by GDP. Health expenditures include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
+	  The next two exercises refer to the following scenario.  Table 4.5 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health costs divided by GDP. Health fees include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
 	  
 	  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -522,7 +522,7 @@ sd1 <- sd(xdt1)
   
   \begin{exercise}  % 6
   
-  You are preparing  for the  sociology statistics final exam with some your classmates.   A classmate has volunteered to use SPSS to make the needed charts and tables for a data set that has several categorical and numerical variables that were assigned by the statistics professor to use as a study guide.  The classmate shows you the reports and says ``See, I've got them all -- boxplots, charts, means, medians, and standard deviations for all our variables along with graphs.  Also, I don't understand why  Professor Doe told us that we cannot use  descriptive statistics for some of the variables; I got descriptive statistics for everything!  See, the mean for height is 67, the mean for GPA is 2.8. the mean for gender is 1.45, the mean for major course of study is 4.56.''  However, as you review the report  something about the output appears weird -- like boxplots for gender and  major course of study and pie charts for grade point average and height.  What is your reply?
+  You are preparing  for the  sociology statistics final exam with some your classmates.   A classmate has volunteered to use SPSS to make the needed charts and tables for a data set that has several categorical and numerical variables that were assigned by the statistics professor to use as a study guide.  The classmate shows you the reports and says ``See, I've got them all -- boxplots, charts, means, medians, and standard deviations for all our variables along with graphs.  Also, I don't understand why  Professor Doe told us that we cannot use  descriptive statistics for some of the variables; I got descriptive statistics for everything!  See, the mean for height is 67, the average for GPA is 2.8. The midpoint for gender is 1.45, the average for the major course of study is 4.56.''  However, as you review the report  something about the output appears weird -- like boxplots for gender and  major course of study and pie charts for grade point average and height.  What is your reply?
   
   
   \end{exercise}
@@ -543,7 +543,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	
   \begin{exercise} % 7
   
-  A survey of 25 randomly selected freshmen at WMU was completed to measure their degree of racial prejudice (a higher score indicate more prejudice).  
+  A survey of 25 randomly selected freshmen at WMU.  It measured their degree of racial prejudice. 
 
 \vspace{2mm}  
 \begin{minipage}[ht]{6cm} 
@@ -644,7 +644,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 			  \begin{exercise} % 9
   
   The next two questions refer to the following scenario.
-  A local social service agency has started a sex ed course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The scores of a random sample of  15 girls are listed below:
+  A local social service agency has started a sex education course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  Table 4.6 lists the scores of a random sample of 15 girls: 
   
 %'     <<t3_14,echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Test Scores">>=
 %' 	    t3_14a <- read.csv("data/testing.csv", header=TRUE)
@@ -758,8 +758,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 \end{exercises}
 
 % \section{References}
-\bibliographystyle{plain}
-\bibliography{mybibliography}
+
 
 
 \section{Appendix}
@@ -812,4 +811,5 @@ The table reveals the range, standard deviation, variance and quantiles of highe
 
 \end{minipage}
 
-
+%\bibliographystyle{plain}
+%\bibliography{mybibliography}

@@ -5,11 +5,11 @@
 
 \section{Objectives}
 
-By the end of this chapter, you will be able to
+After reading chapter five and doing the exercises, you will be able to
 \begin{itemize}
 \item Define and explain the concept of the {\bf{Normal Curve}}.
-\item Convert empirical scores to z-scores and use z-scores and the normal curve
-table to find areas above, below and between points of the curve and  express them in terms of probabilities.
+\item Convert empirical scores to z-scores and use z-scores and the Normal Distribution curve
+table to find areas above, below and between points of the curve and  express them regarding of probabilities.
 \item Utilize the standard normal distribution to solve probability (chance) problems.
 \end{itemize}
 
@@ -18,9 +18,9 @@ table to find areas above, below and between points of the curve and  express th
 This  Normal Curve is an important concept in statistics.
 
 \begin{itemize}
-\item It is the  distribution pattern that occurs in many observable datasets, such as IQ, grades, GRE, LSAT, etc.
-\item If the sample size  is large enough (i.e., more than 30), the sampling distribution of any distribution is close to normal.
-\item It  is a very important groundwork for Inferential Statistics that will be discussed on later chapters.
+\item It is the  distribution pattern that occurs in many open datasets, such as IQ, grades, GRE, LSAT, etc.
+\item If we select a sample of more than 30, then the sampling distribution of any distribution is close to normal.
+\item It  is the vital groundwork for Inferential Statistics that we will discuss in later chapters.
 \end{itemize}
 
 \section{Normal Curve Characteristics}
@@ -30,10 +30,10 @@ What are the characteristics of the Normal Curve?
 \begin{itemize}
 \item There is symmetry about the mean (average).
 \item Unimodal.
-\item The mean divides the curve in to two equal halves.
+\item The mean divides the bell-shaped curve into two halves.
 \item mean = median = mode
 
-\item It is completely determined by the mean and standard deviation.
+\item The mean and standard deviation determines the Normal Distribution curve.
 \item Recall: the {\bf{standard deviation}} is a measure that is used to quantify the amount of variation or spread of a set of data values.
 \item The area under the curve can be interpreted as probability
 \item The total area under the curve (probability) equals one (1).
@@ -693,3 +693,6 @@ represents the $90^{th}$ percentile for male weights?
   
 \end{exercises} 
 	
+	
+\bibliographystyle{plain}
+\bibliography{mybibliography}	
