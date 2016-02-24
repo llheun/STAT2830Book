@@ -153,14 +153,14 @@ The distribution of the IQ scores is normal or is bell-shaped.  Let's consider t
 \item Based on the above graphics, we see that we may make the 
 assumption that we can use the normal distribution.  This fact allows us to analyze the results using the normal curve.
 \item Notice the two distributions are different.
-\item The measures of central tendency are the same, but the measures of dispersion (spread) are different.
+\item The measures of location are the same, but the measures of dispersion (spread) are different.
 \item Making the following assumptions about a data set (distribution) will ultimately determine the particular distribution that we need to work.
 	\begin{itemize}
-	\item {\bf{Shape}} -- we assume bell-shape and symmetry (normal).
+	\item {\bf{Shape}} -- we assume bell-shaped curve and symmetry.
 	\item {\bf{Center}} -- mean.
 	\item {\bf{Dispersion}} -- standard deviation
 	\end{itemize}
-\item The further statistical analysis will be based on the normal curve chosen.
+\item We will use the bell-shaped curve for the statistical analysis.
 \item Now, we will associate the particular normal distribution to a very characteristic normal curve called the standard normal curve.
 \item The standard normal curve has a mean of zero (0) and standard deviation one (1).
 \item Why study the standard form of the normal curve?
@@ -255,7 +255,7 @@ We use the z-score transformation
 
 $Z = \frac{X - mean}{SD}$
 
-to convert the specific ``normal curve'' to the ``standard normal curve.''
+to convert the particular ``normal curve'' to the ``standard normal curve.''
 
 \end{minipage}
 
@@ -290,17 +290,17 @@ A female IQ score of 120 is two standard deviation from the IQ score of 100.
 \newpage
 \section{Finding Probabilities Using the Normal Curve}
 
-How to find an Areas Under the Normal Curve (AUC) illustration.  Recall that the total area under the bell-shaped curve is equal to one.
+How to find Areas Under the Normal Curve (AUC) illustration.  Recall that the total area under the bell-shaped curve is equal to one.
 
 \begin{minipage}[b]{5.5cm}
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC1.png} % requires the graphicx package
 
-This represents column (b) -- Area between mean and z-score.
+This AUC represents column (b) -- Area between mean and z-score.
 
     \includegraphics[width=5cm]{chapters/Chapter_5/ext_figure/zAUC2.png} % requires the graphicx package
 
-This represents column (c) -- Area beyond Z, i.e., above Z
+This AUC represents column (c) -- Area beyond Z, i.e., above Z
 
 \end{minipage} \hfill
 \begin{minipage}[b]{7.5cm}
@@ -320,7 +320,7 @@ This represents column (c) -- Area beyond Z, i.e., above Z
      \end{tabular}
      
  \vspace{3mm}     
-Notice that column (b) and column (c) will always add to 0.5.  This is because of the symmetry of the normal curve and the area above the mean (center) is 0.5 and column (b) and (c) split this 0.5 in two pieces.
+Notice that column (b) and column (c) will always add to 0.5.  This fact is because of the symmetry of the bell-shaped curve and the area above the mean (center) is 0.5 and column (b) and (c) split this 0.5 into two pieces.
 
 \end{minipage}
  
@@ -352,8 +352,8 @@ We can take advantage of the symmetry of the Normal Distribution.
 \vspace{5mm}
 
 \subsubsection{Example \# 4}
-Let's consider another  example.  Let's say that  the mean male IQ score is 100 and  standard deviation is 20.  
-We are asked to find the proportion of males that have an IQ score greater than 130.
+Let's consider another  example.  Let's say that  the mean male IQ score is 100 and the standard deviation is 20.  
+We are asked to find the proportion of men that have an IQ score higher than 130.
 
 \begin{minipage}[t]{6cm}
 
@@ -384,11 +384,11 @@ Then using the z-score and the Area Under the Normal Curve table, we can find th
 
 \vspace{5mm}
 
-To answer the question, we need the area above the z-score of 1.5.
+To answer the question, we need the AUC above the z-score of 1.5.
 
 \vspace{5mm}
 
-We need to find the z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c) and the result is 0.0668.
+We need to find the z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c), and the result is 0.0668.
 
 \begin{minipage}[t]{6.5cm}
 
@@ -413,16 +413,16 @@ We need to find the z-score in the table (column (a)), then look under the appro
 \end{minipage}
 
 \begin{itemize}
-\item We interpret 0.0668 (or 6.68\%) as area under the curve representing all male individuals have an IQ score above 130 or the associated z-score above 1.50.
+\item We interpret 0.0668 (or 6.68\%) as an area under the curve representing all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
 
-\item Another way of stating this result is that  if you were to randomly select an individual male from the population being studied, the probability that the individual has an IQ score of 130 or greater is 0.0668.
+\item Another way of stating this result is that  if we were to select a single male randomly from the studied population, the probability that the individual has an IQ score of 130, or greater is 0.0668.
 
 \item In addition, $1 - 0.0668 = 0.932$ or 93.32\% of all male individuals have an IQ score below 130.
 \end{itemize}
 
 \subsubsection{Example \# 5}
 
-Let's explore another example.  We have been asked to find the proportion of females with an IQ scores between 90 and 130. 
+Let's explore another example.  We have been asked to find the proportion of females with IQ scores between 90 and 130. 
 \vspace{2mm}
 
 \begin{table}
@@ -448,7 +448,7 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 
 \begin{itemize}
 \item Now place the z-scores on the graph and shade the area that we are interested in.
-\item Since we cannot get this area directly from the table we will split the graph into pieces which areas we could read from the table and add them together to get the desired results.
+\item Since we cannot get this area directly from the table, we will split the graph into pieces which areas we could read from the table and add them together to get the desired results.
 \end{itemize}
 
 \begin{minipage}[b]{5cm}
@@ -459,16 +459,16 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 \begin{minipage}[b]{8cm}
 
 \begin{itemize}
-\item The portion to the left of the mean (between $-1.00$ and $0.00$), we can get by using the symmetry of the normal curve and look up $+1.00$ for column (b) (area between Z and the mean) in the table.  When we look in the table the associated area is 0.3413.
+\item The portion to the left of the mean (between $-1.00$ and $0.00$), we can get by using the symmetry of the Normal Distribution curve and look up $+1.00$ for column (b) (an area between Z and the mean) on the table.  When we look at the table, the associated area is 0.3413.
 
-\item The portion to the right of the mean (between $0.00$ and $+2.00$), we can look up for column (b) in the table.   When we look in the table the associated area is 0.4772. 
+\item The portion to the right of the mean (between $0.00$ and $+2.00$), we can look up for column (b) in the table.   When we look at the table, the associated area is 0.4772. 
 \end{itemize}
 
 \end{minipage}
 
 \begin{itemize}
 \item The proportion between $-1.00$ and $+2.00$ is  0.3413 + 0.4772 = 0.8185.
-\item This, the proportion of females with IQ scores between 90 and 120 is 81.85\%.
+\item This probability is 81.85\%, i.e., the proportion of females with IQ scores between 90 and 120.
 \end{itemize}
 
 \subsubsection{Example \# 6}
@@ -498,7 +498,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \vspace{5mm}
 
 \begin{itemize}
-\item Now place the z-scores on the graph and shade the area that we are interested in.
+\item Now place the Z-scores on the graph and shade the area between .5 and 1.0.
 
 \item Since we cannot get this area directly from the table we will split the graph into pieces with areas that we can  read from the table and use them  to get the desired results.
 \end{itemize}
@@ -511,7 +511,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \begin{minipage}[b]{8cm}
 
 \begin{itemize}
-\item For the portion to the left of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associated area is 0.1915.
+\item For the AUC to the left of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associated area is 0.1915.
 
 \item The portion to the right of the mean (between $0.00$ and $+1.00$): we can look up for column (b) in the table.   When we look in the table the associated area is 0.3413. 
 \end{itemize}
@@ -528,7 +528,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 
 Let's examine another example.  We are asked to find the $90^{th}$ percentile of the IQ scores for females.
 
-First we need to find the area for the probability of 0.900 and the associated z-score for this probability.
+First we need to locate the area of the probability of 0.900 and the associated Z-score for this likeihood.
 
 \vspace{2mm}
 
@@ -555,8 +555,8 @@ Since the area to the left of the mean is 0.500,  the area to the right of the m
 
 
 \begin{itemize}
-\item The area we are looking for is the area between the mean and Z, (column (b).
-\item The z-score that will have an area between the mean closest to 0.400 is 1.28, since 0.3997
+\item The area we are looking for is the AUC between the mean and Z, (column (b).
+\item The z-score that will have an area between the mean closest to 0.400 is 1.28 since 0.3997
 is closer to 0.400 than 0.4015.
 \end{itemize}
 
@@ -582,7 +582,7 @@ is closer to 0.400 than 0.4015.
 
 \vspace{3mm}
 
-Now that we have the associated z-score, we can  find the IQ score of interest ($90^{th}$ percentile):
+Now that we have the associated Z-score, we can  find the IQ score of interest ($90^{th}$ percentile):
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -591,7 +591,7 @@ X &=  (\fbox{1.28} \times 10) + 100 \\
 X &= 112.8 
 \end{align*}
 
-This indicates that 90 percent of all females' IQ scores are lower than 112.8, so this is the $90^{th}$ percentile.
+This value indicates that 90 percent of all females' IQ scores are lower than 112.8, so it is the $90^{th}$ percentile.
 
 \section{Key Words}
 
@@ -630,7 +630,7 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	
   \begin{exercise} % 2 
   
-    Given a distribution of male weights  has a mean of 153 lbs. and standard deviation of 11 lbs., how many standard deviations away from the mean weight is 173 lbs.?
+    Given a distribution of male weights  has a mean of 153 lbs and standard deviation of 11 pounds, how many standard deviations away from the average weight is 173 lbs?
 	  \begin{enumerate}
 	  \item $-1.82$
 	  \item 1.82
@@ -649,8 +649,8 @@ This indicates that 90 percent of all females' IQ scores are lower than 112.8, s
 	
   \begin{exercise} % 3
   
-    Given the distribution of male weights has mean of 155 and standard deviation of 12, what percent 
-of males weight less than 143 pounds?
+    Given the distribution of male weights has a mean of 155 and standard deviation of 12, what percent 
+of men weight less than 143 pounds?
 	  \begin{enumerate}
 	  \item 0.1587
 	  \item 0.3413
@@ -671,8 +671,8 @@ of males weight less than 143 pounds?
 	
   \begin{exercise} % 4 
   
-    Given the distribution of male weights with mean of 155 and standard deviation of 12, what value 
-represents the $90^{th}$ percentile for male weights?
+    Given the distribution of male weights with a mean of 155 and standard deviation of 12, what value 
+represents the $90^{th}$ percentile for weights of men?
 	  \begin{enumerate}
 	   \item 155.00 pounds
 	  \item 170.36 pounds
