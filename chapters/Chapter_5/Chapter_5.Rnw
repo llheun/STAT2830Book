@@ -54,13 +54,13 @@ polygon(c(xyzz[xyzz<=0],0), c(dnorm(xyzz[xyzz<=0],0,1),0000),col="white")
 Given a bell-shaped distribution of measurements, the approximately 
 \begin{itemize}
 \samepage 
-\item 68\% of the observations are within 1 standard deviation (SD) of the mean or a total of 2 SD \\
+\item 68\% of the observations are within one standard deviation (SD) of the mean or a total of 2 SD \\
 $\bar{x} \pm 1SD$
 \samepage 
-\item 95\% of the observations are within 2 standard deviation (SD) of the mean or a total of 4 SD \\
+\item 95\% of the collected data are within two standard deviations (SD) of the mean or a total of 4 SD \\
 $\bar{x} \pm 2SD$
 \samepage 
-\item 99.7\% of the observations are within 3 standard deviation (SD) of the mean or a total of 6 SD \\
+\item 99.7\% of the observations are within three standard deviations (SD) of the mean or a total of 6 SD \\
 $\bar{x} \pm 3SD$
 \end{itemize}
 
@@ -73,9 +73,9 @@ $\bar{x} \pm 3SD$
 
 \subsubsection{Example \# 1}
 
-Here is an example of how to use the empirical rule.
+We will use the following regarding the empirical rule.
 
-Suppose you are concerned about the amount of money that students pay for their lunch.  The average lunch costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical-rule to determine the three 68-95-99.7 percent of student lunch expense. 
+Suppose you are concerned about the amount of money that students pay for their lunch.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
 
 \begin{align*}
 \mu \pm \sigma &= 5 \pm 0.5, or \hspace{1mm} 4.5 \hspace{1mm} to \hspace{1mm} 5.5 \\
@@ -87,7 +87,7 @@ Suppose you are concerned about the amount of money that students pay for their 
 \samepage
 \item 68\% of the students pay between \$4.50 to \$5.50 for their lunch.
 \samepage
-\item 95\% of the students pay between \$4.00 to \$6.00 for their lunch.
+\item 95\% of the students pay between \$4.00 to \$6.00 for their meal.
 \samepage
 \item 99.7\% of the students pay between \$3.50 to \$6.50 for their lunch.
 \end{itemize}
@@ -96,12 +96,12 @@ Suppose you are concerned about the amount of money that students pay for their 
 
 Here is another example of how to use the empirical rule.
 
-The \emph{Student Monitor} surveyed college students and reported the amount of time spent per week  on the world-wide web.  Suppose the lower bound of the middle 95 percent of values is at least 8.5 hours and the upper bound is at most 30.5 hours.  What is the standard deviation of this data?  What is the mean time that students spent on the world-wide web? 
+The \emph{Student Monitor} surveyed college students and reported the amount of time spent per week  on internet sites.  Assume the lower bound of the middle 95 percent of values is at least 8.5 hours and the upper limit is at most 30.5 hours.  What is the standard deviation of this data?  What is the mean time that students spent on the world-wide-web? 
 
 \begin{itemize}
-\item From the empirical rule, approximately 95 percent of the observations fall within 2 standard deviation from the mean. 
+\item From the empirical rule, approximately 95 percent of the observations fall within two standard deviations from the average. 
 
-\item Since the upper bound (UB) minus the lower bound (LB) for 95 percent will yield four standard deviation (SD). 
+\item Since the upper bound (UB) minus the lower bound (LB) for 95 percent will yield four standard deviations (SD). 
 \begin{align*}
 (UB - LB) &= (30.5 - 8.5) = 4(SD)  \\
 SD &= \frac{(UB - LB)}{4} = \frac{(30.5 - 8.5)}{4} = 5.5 
@@ -113,18 +113,18 @@ SD &= \frac{(UB - LB)}{4} = \frac{(30.5 - 8.5)}{4} = 5.5
 mean &= \frac{(UB + LB)}{2} = \frac{(30.5 + 8.5)}{2} = 19.5 
 \end{align*}
 
-\item So how do we interpret this data.  It is telling us that on the average college students spend about 19.5 hours on the world-wide web give or take 5.5 hours.
+\item So how do we interpret this data?  It is telling us that on the average college students spend about 19.5 hours on the world-wide web give or take 5.5 hours.
 
 \end{itemize}
 
 \section{Normal Curve and z-score}
 
-The IQ scores are normally distributed.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the normal curve and z-score.
+The distribution of the IQ scores is normal or is bell-shaped.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the bell-shaped curve and z-score.
 
 \begin{itemize}
-\item A sample of 1,000 females and 1,000 males were selected and their IQ scores were measured.
+\item A sample of 1,000 females and 1,000 males were selected, and their IQ scores were measured.
 
-\item The female IQ scores had a mean of 100 with a standard deviation 10 and the male IQ scores had a mean of 100 with a standard deviation 20.
+\item The female IQ scores had an average of 100 with a standard deviation 10, and the male IQ scores had a mean of 100 with a standard deviation 20.
 
 \item Using descriptive statistical techniques, we will look at histograms for both female and male IQ scores.
 \end{itemize}
@@ -151,17 +151,17 @@ The IQ scores are normally distributed.  Let's consider the following simulated 
 \begin{itemize}
 \item The histogram exhibit a bell-shaped curve and symmetrical distribution for both females and males IQ scores.
 \item Based on the above graphics, we see that we may make the 
-assumption that they are normally distributed.  This will allow us to analyze the results using the normal curve.
+assumption that we can use the normal distribution.  This fact allows us to analyze the results using the normal curve.
 \item Notice the two distributions are different.
 \item The measures of central tendency are the same, but the measures of dispersion (spread) are different.
-\item Making the following assumptions about a data set (distribution) will completely determine the particular distribution that we need to work.
+\item Making the following assumptions about a data set (distribution) will ultimately determine the particular distribution that we need to work.
 	\begin{itemize}
 	\item {\bf{Shape}} -- we assume bell-shape and symmetry (normal).
 	\item {\bf{Center}} -- mean.
 	\item {\bf{Dispersion}} -- standard deviation
 	\end{itemize}
-\item Further statistical analysis will be based on the normal curve chosen.
-\item Now, we will associate the particular normal distribution to a very special normal curve called the standard normal curve.
+\item The further statistical analysis will be based on the normal curve chosen.
+\item Now, we will associate the particular normal distribution to a very characteristic normal curve called the standard normal curve.
 \item The standard normal curve has a mean of zero (0) and standard deviation one (1).
 \item Why study the standard form of the normal curve?
 	\begin{itemize}
