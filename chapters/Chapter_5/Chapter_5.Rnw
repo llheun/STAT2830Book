@@ -668,7 +668,8 @@ of men weight less than 143 pounds?
 	   
 	\end{solution}  
 	
-	
+\newpage
+
   \begin{exercise} % 4 
   
     Given the distribution of male weights with a mean of 155 and standard deviation of 12, what value 
@@ -690,6 +691,31 @@ represents the $90^{th}$ percentile for weights of men?
 	    $x = 170.36$
 	 
   \end{solution}
+  
+  \begin{exercise} % 5 
+  
+    
+    Given the distribution of male weights with a mean of 155 and standard deviation of 12, what value 
+represents the $90^{th}$ percentile for weights of men?
+	  \begin{enumerate}
+	   \item 155.00 pounds
+	  \item 170.36 pounds
+	  \item 179.00 pounds 
+	  \item 189.13 puunds
+	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  
+	    $x = \mu + Z \sigma$ \\
+	    $x = 155 + 1.28 \times (12) $ \\
+	    $x = 170.36$
+	 
+  \end{solution}  
+  
+  
   
 \end{exercises} 
 	
