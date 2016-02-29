@@ -354,6 +354,7 @@ Why is it necessary to understand dispersion?  The dispersion, of data, measures
 
   \begin{exercise} % 1
 
+
   The weekly budget for groceries from six students are as follows: 
   \begin{center}  \begin{tabular}{@{} cccccc @{}} \hline
     \$30& \$35& \$40& \$28& \$35& \$25 \\ \hline
@@ -380,6 +381,7 @@ Why is it necessary to understand dispersion?  The dispersion, of data, measures
 
   \begin{exercise} % 2
   
+  
     Using the data from Exercise 4.10-1, where $Q_1 = 28$ and $Q_3 = 35$, \\ is there an outlier among the weekly budget for groceries? 
 	  
 	  \vspace{2.5cm}
@@ -397,6 +399,7 @@ Why is it necessary to understand dispersion?  The dispersion, of data, measures
 	\end{solution} 
 	
   \begin{exercise} % 3
+
 
 The following table lists the number of cars per 1000 population for eight nations.  
 
@@ -443,6 +446,7 @@ sd1 <- sd(xdt1)
   \end{solution}
 
 	\begin{exercise}  % 4
+	
 	
 	  The next two exercises refer to the following scenario.  Table 4.5 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health costs divided by GDP. Health fees include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
 	  
@@ -501,6 +505,7 @@ sd1 <- sd(xdt1)
 	
   \begin{exercise}	% 5
   	
+  	
   	Using the data from Table 4.5 are there any outliers?
   	
   \end{exercise}
@@ -522,6 +527,7 @@ sd1 <- sd(xdt1)
   
   \begin{exercise}  % 6
   
+  
   You are preparing  for the  sociology statistics final exam with some your classmates.   A classmate has volunteered to use SPSS to make the needed charts and tables for a data set that has several categorical and numerical variables that were assigned by the statistics professor to use as a study guide.  The classmate shows you the reports and says ``See, I've got them all -- boxplots, charts, means, medians, and standard deviations for all our variables along with graphs.  Also, I don't understand why  Professor Doe told us that we cannot use  descriptive statistics for some of the variables; I got descriptive statistics for everything!  See, the mean for height is 67, the average for GPA is 2.8. The midpoint for gender is 1.45, the average for the major course of study is 4.56.''  However, as you review the report  something about the output appears weird -- like boxplots for gender and  major course of study and pie charts for grade point average and height.  What is your reply?
   
   
@@ -542,6 +548,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	\end{solution}
 	
   \begin{exercise} % 7
+  
   
   A survey of 25 randomly selected freshmen at WMU.  It measured their degree of racial prejudice. 
 
@@ -594,6 +601,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	
 	  \begin{exercise} % 8
   
+  
   The same 25 students completed the same survey during their Senior year.  Compute the mean and median for this second set of scores, and compare them to the scores from four years earlier.   What happened?
 
 \begin{minipage}[ht]{6cm}  
@@ -642,6 +650,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	\end{solution}  
 	
 			  \begin{exercise} % 9
+  
   
   The next two questions refer to the following scenario.
   A local social service agency has started a sex education course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  Table 4.6 lists the scores of a random sample of 15 girls: 
@@ -715,6 +724,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 	 
 	 
    \begin{exercise} % 10
+
 
     Interpret these statistics.
 <<f4_6, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=

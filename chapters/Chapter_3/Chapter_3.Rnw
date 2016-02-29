@@ -366,6 +366,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 
   \begin{exercise} % 1
   
+  
   The weekly budget for groceries of  six student are as follows: \\
 \$30, \$35, \$40, \$28, \$35, \$25. \\ Compute the mean, median, and mode, respectively.
 	\begin{enumerate}
@@ -388,6 +389,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 	
   \begin{exercise} % 2
   
+  
   John got 16 and 22 on his two Stat 2830 quizzes.  What score must he have on his next quiz to have an average of exactly 20 for his three quizzes?
 	\begin{enumerate}
 	\item 20
@@ -407,6 +409,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 	\end{solution}
 	
   \begin{exercise} % 3  
+  
   
     The following table lists the number of cars per 1000 population for eight nations. Compute the three central tendency variables (mean, median, and mode) for these data.  
 
@@ -479,6 +482,7 @@ xsumm1 <- summary(xdt1)
   
   \begin{exercise} % 4
   
+  
       You are a researcher for a mid-sized city.  You have collected six types of variables from a random sample of students from a large university.  These variables include:
       
 \begin{minipage}[ht]{4cm}
@@ -512,6 +516,7 @@ Determine the  appropriate measures of central tendency for each variable:
 
 %' \pagebreak  
   \begin{exercise} % 5
+  
   
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -549,6 +554,7 @@ Determine the  appropriate measures of central tendency for each variable:
   
 \newpage  
   \begin{exercise} % 6
+  
   
     For the next two questions, use the following scenario.
     As a leader of a Kalamazoo social services agency, you are concerned that your staff has an increased caseload of clients compared to 10 years ago.  The case load of each worker is reported in the following table for years 2005 and 2015.  
@@ -591,6 +597,7 @@ The median for 2015 is \Sexpr{med3b}.
     
   \begin{exercise} % 7
   
+  
   The admissions department at WMU gave 25 randomly selected Freshmen a national prejudice survey.  The administration will use these scores in four years to see if higher education affects prejudice.
   
 % Requires the booktabs if the memoir class is not being used
@@ -632,6 +639,7 @@ The median for 2015 is \Sexpr{med3b}.
 	
 	  \begin{exercise} % 8
   
+  
   The same 25 students completed the same survey during their Senior year.  Compute the mean and median for this second set of scores,
   and compare them to the scores from four years earlier.   What happened?
   
@@ -672,6 +680,7 @@ The median for 2015 is \Sexpr{med3b}.
 	\end{solution}  
 	
 		  \begin{exercise} % 9
+  
   
   The next two questions refer to the following scenario.
   A local social service agency has started a sex education course for teen girls.  The girls took a 20-question exam for general information about sex, anatomy and physiology upon entry and again after completing the course.  The listing of scores of a random sample of  15 girls is below:
@@ -747,6 +756,7 @@ The pretest median is \Sexpr{med3b}
 	 
 	 
   		  \begin{exercise} % 10
+  
   
    Interpret these statistics.
 <<f3_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Post - Pre Test Scores">>=

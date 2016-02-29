@@ -77,8 +77,8 @@
 \contentsline {section}{\numberline {3.8}Summary}{50}
 \contentsline {section}{\numberline {3.9}Key Words}{50}
 \contentsline {section}{\numberline {3.10}Exercises}{51}
-\contentsline {section}{\numberline {3.11}Appendix}{55}
-\contentsline {subsection}{\numberline {3.11.1}Central Tendency}{55}
+\contentsline {section}{\numberline {3.11}Appendix}{56}
+\contentsline {subsection}{\numberline {3.11.1}Central Tendency}{56}
 \contentsline {chapter}{\numberline {4}Measures of Spread}{57}
 \contentsline {section}{\numberline {4.1}Objective}{57}
 \contentsline {section}{\numberline {4.2}Definition of Dispersion}{57}
