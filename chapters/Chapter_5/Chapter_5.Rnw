@@ -722,7 +722,7 @@ represents the $25^{th}$ percentile for weights of men?
 	\begin{exercise}  % 6
 	
 	
-	 Table 5.1 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health costs divided by GDP. Health fees include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
+	 The next two exercise refer to the following scenario.  Table 5.1 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health costs divided by GDP. Health fees include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
 	  
 	  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -763,9 +763,34 @@ represents the $25^{th}$ percentile for weights of men?
 	 
 	  The value of the $85^{th}$ percentile is \Sexpr{tmp51}.
 	  
-	  There are three countries: USA, Netherland, and France.
+	  There are three countries: USA(17.1), Netherland (12.9), and France (11.7).
 	   
 	\end{solution}  
+	
+		\begin{exercise}  % 6
+		
+		
+	  The mean and standard deviaion are 8.30 and 3.224, respectively.  What countries are in the top 15 percent?  Hint: find the value of the $85^{th}$ percentile and compare it to the Percentage of GDP.
+	  
+	  \end{exercise}
+	  \vspace{1.5cm}
+	  \begin{solution}
+	  
+	  <<results="asis", echo=FALSE>>=
+  
+  tmp51 <- qnorm(.15, mean=8.3, sd=3.224)
+
+@
+
+	  The value of the $15^{th}$ percentile is \Sexpr{tmp51}.
+	  
+	  There are six countries: Indonesia (3.1), Saudi Arabia (3.2), Venezuela (3.6), India (4.0), Malaysia (4.0), and Thailand (4.6).
+	  
+	\end{solution}  
+	  
+	
+	
+	
   
   
 \end{exercises} 
