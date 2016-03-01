@@ -676,13 +676,13 @@ of men weight less than 143 pounds?
   \begin{exercise} % 4 
   
    
-    Given the distribution of male weights with a mean of 155 and standard deviation of 12, what value 
-represents the $90^{th}$ percentile for weights of men?
+    Given the distribution of male poundage with a mean of 155 and standard deviation of 12, what value 
+represents the $90^{th}$ percentile for weights of men (in pounds)?
 	  \begin{enumerate}
-	   \item 155.00 pounds
-	  \item 170.36 pounds
-	  \item 179.00 pounds 
-	  \item 189.13 puunds
+	   \item 155.00 
+	  \item 170.36
+	  \item 179.00 
+	  \item 189.13 
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -699,13 +699,13 @@ represents the $90^{th}$ percentile for weights of men?
   \begin{exercise} % 5 
   
     
-    Given the distribution of male weights with a mean of 155 and standard deviation of 12, what value 
-represents the $25^{th}$ percentile for weights of men?
+    Given the distribution of male poundage with a mean of 155 and standard deviation of 12, what value 
+represents the $25^{th}$ percentile for weights of men (in pounds)?
 	  \begin{enumerate}
-	   \item 155.00 pounds
-	  \item 163.10 pounds
-	  \item 146.91 pounds 
-	  \item 131.00 puunds
+	   \item 155.00 
+	  \item 163.10 
+	  \item 146.91  
+	  \item 131.00 
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -722,7 +722,7 @@ represents the $25^{th}$ percentile for weights of men?
 	\begin{exercise}  % 6
 	
 	
-	 The next two exercise refer to the following scenario.  Table 5.1 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health costs divided by GDP. Health fees include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
+	 The next five activities refer to the following scenario.  Table 5.1 shows the 2013 total expenditure on health as a percentage of GDP in 34  countries.  The health expenditure per capita is the sum of private and public health costs divided by GDP. Health fees include emergency aid, family-planning services, health functions, and nutrition activities, but exclude services of sanitation and potable water.  \cite{Health2013}
 	  
 	  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -749,7 +749,7 @@ represents the $25^{th}$ percentile for weights of men?
    \label{tab:t5_6_1}
 \end{table}
 
-  The mean and standard deviaion are 8.30 and 3.224, respectively.  What countries are in the top 15 percent?  Hint: find the value of the $85^{th}$ percentile and compare it to the Percentage of GDP.
+  Suppose that the mean and standard deviations are 8.30 and 3.224, respectively, are population parameters.  What countries are in the top 15 percent?  Hint: find the value of the $85^{th}$ percentile and compare it to the Percentage of GDP.
 
 	\end{exercise}
 	\vspace{1.5cm}
@@ -767,10 +767,69 @@ represents the $25^{th}$ percentile for weights of men?
 	   
 	\end{solution}  
 	
-		\begin{exercise}  % 6
+		\begin{exercise}  % 7
 		
 		
-	  The mean and standard deviaion are 8.30 and 3.224, respectively.  What countries are in the top 15 percent?  Hint: find the value of the $85^{th}$ percentile and compare it to the Percentage of GDP.
+	  The mean and standard deviation are 8.30 and 3.224, respectively.  What countries are in the bottom 15 percent?  Hint: find the value of the $15^{th}$ percentile and compare it to the Percentage of GDP.
+	  
+	  \end{exercise}
+	  \vspace{2cm}
+	  \begin{solution}
+	  
+	  <<results="asis", echo=FALSE>>=
+  
+  tmp52 <- qnorm(.15, mean=8.3, sd=3.224)
+
+@
+
+	  The value of the $15^{th}$ percentile is \Sexpr{tmp52}.
+	  
+	  There are six countries: Indonesia (3.1), Saudi Arabia (3.2), Venezuela (3.6), India (4.0), Malaysia (4.0), and Thailand (4.6).
+	  
+	\end{solution}  
+	  
+		\begin{exercise}  % 8
+		
+		
+	  The mean and standard deviation are 8.30 and 3.224, respectively.  What percentage of countries 2013 Expenditures on Health as a share of GDP had values below 7.3?   Hint: find the probability of the mean being less than 7.3 and compare it to the Percentage of GDP.
+	  
+	  \end{exercise}
+	  \vspace{2cm}
+	  \begin{solution}
+	  
+	  <<results="asis", echo=FALSE>>=
+  
+  tmp53 <- pnorm(7.3, mean=8.3, sd=3.224)
+
+@
+
+    The probability of having a mean less than 7.3 ($P[ \bar{x} < 7.3 ]$) is \Sexpr{tmp53}.
+	  
+	\end{solution}  	
+	
+			\begin{exercise}  % 9
+		
+		
+	  The mean and standard deviation are 8.30 and 3.224, respectively.  What percentage of countries 2013 Expenditures on Health as a share of GDP had values above 9.3?   Hint: find the probability of the mean being greater than 9.3.
+	  
+	  \end{exercise}
+	  \vspace{2cm}
+	  \begin{solution}
+	  
+	  <<results="asis", echo=FALSE>>=
+  
+  tmp54 <- pnorm(9.3, mean=8.3, sd=3.224)
+
+@
+
+    The probability of having a mean greater than 9.3 ($P[ \bar{x} > 9.3 ]$) is \Sexpr{tmp54}.
+	  
+	\end{solution}  
+  
+  			\begin{exercise}  % 10
+		
+		
+	  The mean and standard deviation are 8.30 and 3.224, respectively.  What percentage of countries 2013 Expenditures on Health as a share of GDP had values between 7.3 and 9.3?   Hint: find the probability of the mean being between 7.3 and  9.3.
 	  
 	  \end{exercise}
 	  \vspace{1.5cm}
@@ -778,19 +837,13 @@ represents the $25^{th}$ percentile for weights of men?
 	  
 	  <<results="asis", echo=FALSE>>=
   
-  tmp51 <- qnorm(.15, mean=8.3, sd=3.224)
+  tmp55 <- pnorm(9.3, mean=8.3, sd=3.224) - pnorm(7.3, mean=8.3, sd=3.224)
 
 @
 
-	  The value of the $15^{th}$ percentile is \Sexpr{tmp51}.
-	  
-	  There are six countries: Indonesia (3.1), Saudi Arabia (3.2), Venezuela (3.6), India (4.0), Malaysia (4.0), and Thailand (4.6).
+    The probability of having a mean between 7.3 and  9.3 ($P[ 7.3 < \bar{x} < 9.3 ]$) is \Sexpr{tmp55}.
 	  
 	\end{solution}  
-	  
-	
-	
-	
   
   
 \end{exercises} 
