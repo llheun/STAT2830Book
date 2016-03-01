@@ -4,7 +4,7 @@
 \label{chap:ch6}
   
 \section{Objective}
-By the end of this chapter, you will be able to
+After reading chapter six and doing the exercises, you will be able to
 \begin{itemize}
 \samepage
 \item Explain the purpose of inferential statistics. 
@@ -485,3 +485,8 @@ SE &= \frac{1.5}{\sqrt{100}} = 0.15
 	  
 	\end{solution}  
 \end{exercises}
+
+
+
+\bibliographystyle{plain}
+\bibliography{mybibliography}	

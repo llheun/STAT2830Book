@@ -849,5 +849,5 @@ represents the $25^{th}$ percentile for weights of men (in pounds)?
 \end{exercises} 
 	
 	
-\bibliographystyle{plain}
-\bibliography{mybibliography}	
+% \bibliographystyle{plain}
+% \bibliography{mybibliography}	
