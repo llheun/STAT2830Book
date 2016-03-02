@@ -43,9 +43,9 @@ A {\bf{population}} is the entire set or collection of subjects that are under c
 	\item $P_u$ -- the population proportion
 	\end{itemize}
 \samepage
-\item The parameters are generally not known unless you work for the census bureau.
+\item The parameters are not known unless you work for the census bureau.
 \samepage
-\item The intent of the researcher is to identify these characteristics within a known degree of accuracy through the examination of a sample.
+\item The intent of the researcher is to identify these characteristics with a known degree of accuracy through the examination of a sample.
 \samepage
 \item It is this process of extending the results from a sample to a population that is called {\bf{inferential statistics}}.
 \end{itemize}

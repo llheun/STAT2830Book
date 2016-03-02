@@ -110,3 +110,17 @@
 \contentsline {subsubsection}{Example \# 7}{84}
 \contentsline {section}{\numberline {5.7}Key Words}{85}
 \contentsline {section}{\numberline {5.8}Exercises}{86}
+\contentsline {chapter}{\numberline {6}Inferential Statistics }{89}
+\contentsline {section}{\numberline {6.1}Objective}{89}
+\contentsline {section}{\numberline {6.2}Population}{89}
+\contentsline {section}{\numberline {6.3}Sample}{90}
+\contentsline {section}{\numberline {6.4}Sample Selection}{90}
+\contentsline {subsection}{\numberline {6.4.1}Non-probability Sampling}{91}
+\contentsline {subsection}{\numberline {6.4.2}Probability Sampling}{91}
+\contentsline {section}{\numberline {6.5}Types of Survey Errors}{92}
+\contentsline {section}{\numberline {6.6}Distribution of Sample Average}{92}
+\contentsline {subsection}{\numberline {6.6.1}Theorem I}{93}
+\contentsline {subsection}{\numberline {6.6.2}Theorem II -- Central Limit Theorem}{95}
+\contentsline {section}{\numberline {6.7}Estimation of Population Mean}{95}
+\contentsline {section}{\numberline {6.8}Key Words}{97}
+\contentsline {section}{\numberline {6.9}Exercises}{98}
