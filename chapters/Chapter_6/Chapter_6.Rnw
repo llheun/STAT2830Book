@@ -68,24 +68,24 @@ A {\bf{sample}} is a selection of a part of a population.
 	\item $P_s$ -- the sample proportion
 	\end{itemize}
 \samepage
-\item When selecting a sample, it is critical that the sample be {\bf{representative}} of the population from which it is selected, otherwise, the calculated statistics may have {\bf{bias}} and our conclusions will not be valid.
+\item When we selecting a sample, it is critical that the sample is {\bf{representative}} of the population.  Otherwise, the calculated statistics may have a {\bf{bias}} and our conclusions will not be valid.
 \samepage
 \item A representative sample has to be selected based on  {\bf{randomness}}.
 \end{itemize}
 
 \section{Sample Selection}
 
-How do we select the sample from the population?
+How do we choose the sample from the population?
 
 \begin{enumerate}
-\item {\bf{Probability Sampling}} -- subjects are chosen by chance 
+\item {\bf{Probability Sampling}} -- we take the subjects by chance 
 	\begin{itemize}
-	\item The principle of {\bf{EPSEM}} ({\bf{E}}qual {\bf{P}}robability of {\bf{SE}}lection {\bf{M}}ethod):  each member of the population has exactly the same chance of being selected in the sample.
+	\item We use the principle of {\bf{EPSEM}} ({\bf{E}}qual {\bf{P}}robability of {\bf{SE}}lection {\bf{M}}ethod) to make sure that  we choose each member of the population with the same chance. 
 	\end{itemize}
 \item {\bf{Non-probability Sampling}} -- can be used for informal and less scientific studies.
 \end{enumerate}
 
-Note: Non-probability sampling tend to be less representative of the population, i.e., biased.
+Note: Non-probability sampling tends to be less representative of the population, i.e., biased.
 	
 \subsection{Non-probability Sampling}
 
@@ -96,7 +96,7 @@ There are two methods non-probability sampling, namely,
 \item {\bf{Voluntary Response}} -- subjects choose whether or not to respond.
 \end{enumerate}
 
-This method does not focus on selecting samples that are representative of the population but rather on getting a sample that is easy to obtain (low cost, limely, etc.).
+This method does not focus on selecting samples that are representative of the population but rather on getting a sample that is easy to obtain (low cost, timely, etc.).
 
 
 \subsection{Probability Sampling}
@@ -106,25 +106,25 @@ There are four main methods of probability sampling:
 \begin{enumerate}
 \item {\bf{Simple Random Sampling}} -- Samples are randomly selected from the population.  It can be done using the lottery method, table of random numbers, computer or calculator random number generator. 
 	\begin{itemize} 
-	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Simple Random Sampling}} -- randomly selecting  samples from a list of all households in Kalamazoo.
+	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Simple Random Sampling}} -- randomly selecting  samples from a list of all families in Kalamazoo.
 	\end{itemize}
 
 \item {\bf{Systematic Random Sampling}} -- Select a starting point in a random fashion. Then select every $k^{th}$ (such as every $50^{th}$) element in the population.
 	\begin{itemize} 
 	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Systematic  Sampling}} -- 
-	every $10^{th}$ household on the list is chosen.
+	we choose every $10^{th}$ house on the list.
 	\end{itemize}
 	
-\item {\bf{Stratified Random Sampling}} -- Population is divided into subgroups called strata and a simple random sample is chosen from each strata.
+\item {\bf{Stratified Random Sampling}} -- Population is divided into subgroups called strata, and we take a random sample from each stratum.
 	\begin{itemize} 
 	\item Example: {\bf{Target Population}} -- Households in Michigan; \\ {\bf{Stratified  Sampling}} -- 
 	take samples from each county.
 	\end{itemize}
 
-\item {\bf{Cluster Sampling}} -- Population is divided into subgroups called clusters and clusters are  randomly  chosen as samples.
+\item {\bf{Cluster Sampling}} -- Population, is divided into subgroups called clusters, and we want groups at random.
 	\begin{itemize} 
 	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Cluster  Sampling}} -- 
-	sampling subdivisions in Kalamazoo.
+	Sampling subdivisions in Kalamazoo.
 	\end{itemize}
 	
 \item {\bf{Mixed Sampling Schemes}}  
@@ -139,7 +139,7 @@ There are four main methods of probability sampling:
 There are three types of survey errors.  
 
 \begin{enumerate}
-\item {\bf{Coverage errors}} -- sampling frame\footnote{a sampling frame is the source material or device from which a sample is drawn}
+\item {\bf{Coverage errors}} -- sampling frame\footnote{a sampling frame is the source material or device from which we draw a sample}
 excludes some segments of the target population.
 \item {\bf{Non-response errors}} -- can cause bias in survey results.
 \item {\bf{Measurement errors}} -- occurs when respondents answer ``incorrectly.''
@@ -147,7 +147,7 @@ excludes some segments of the target population.
 
 \section{Distribution of Sample Average}
 
-Before discussing the distribution of a sample average, let's review the normal distribution with this example.
+Before discussing the distribution of a sample average, let's review the bell-shaped distribution with this example.
 The heights, of United States men, follow a normal distribution with mean 69.1 inches and standard deviation 2.9 inches.  What proportion of U.S. males are between 66.2 and 72 inches tall?
 
 \begin{minipage}[h]{6.5cm}
@@ -179,11 +179,11 @@ Z &= \frac{X - \mu}{\sigma} = \frac{72.0 - 69.1}{2.9} = 1
  
 \vspace{5mm}
 
-Now, what if we sample a group of 10 men from our population of men and compute the average of their heights.  We do this 1000 times.  Will 68 percent of the {\bf{groups averages}} be within 66.2 and 72.0 inches tall? 
+Now, what if we sample a group of 10 men from our population of men and compute the average of their heights.  We do this 1000 times.  Will 68 percent of the {\bf{groups means}} be within 66.2 and 72.0 inches tall? 
 
 \subsection{Theorem I}
 
-If a population has a normal shaped histogram with mean, $\mu$, and standard deviation, $\sigma$, then $n$-member averages will have a normal shaped histogram with mean, $\mu$, and standard deviation, $\frac{\sigma}{\sqrt{n}}$.
+If a population has a bell-shaped histogram with mean, $\mu$, and standard deviation, $\sigma$, then $n$-member averages will have a bell-shaped histogram with mean, $\mu$, and standard deviation, $\frac{\sigma}{\sqrt{n}}$.
 
 Notation: 
 
@@ -194,7 +194,7 @@ X &\sim N(\mu, \sigma) \\
 
 The height of men in the United States follows a normal distribution with mean 69.1 inches and standard deviation 2.9 inches.
 
-We sampled a group of 10 men from our population of men and computed the average of their heights.  We did this 1000 times.  Will 68 percent of the groups averages be within 66.2 and 72.0 inches tall?
+We sampled a group of 10 men from our population of men and computed the average of their heights.  We did this 1000 times.  Will 68 percent of the groups means be within 66.2 and 72.0 inches tall?
 
 Using THEOREM I, sample mean of $\bar{X} = 69.1$ and $SD$ of $\bar{X} = \frac{2.9}{\sqrt{10}} = 0.92$.
 
@@ -220,7 +220,7 @@ Z &=  \frac{72.0 - 69.1}{0.92} = 3.15
  
  \item Using the original height data of men in the United States, approximately 68 percent of men are between 66.2 and 72.0 inches.
  
- \item But using the average height of men in the United States, we find that 99.84 percent of the groups averages will be from 66.2 and 72.0 inches.
+ \item But using the average height of men in the United States, we find that 99.84 percent of the groups means will be from 66.2 and 72.0 inches.
  \end{itemize}
  
  \begin{minipage}[h]{6.5cm}
@@ -250,9 +250,9 @@ Now let's apply the Central Limit Theorem.
 
 \begin{itemize}
 \samepage
-\item The histogram of averages tends to look like the normal cure even when the histogram of individuals does not (and get closer to the normal curve as the sample size get larger).
+\item The histogram of averages tends to look like the bell-shaped curve even when the histogram of individuals does not (and get closer to the standard curve as the sample size get larger).
 \samepage
-\item The mean of the averages is the same as the mean of the individuals.
+\item The mean of the averages is the same as the typical value of the individuals.
 \samepage
 \item The standard deviation of the averages equals the standard deviation of individuals divided by $\sqrt{n}$.
 \samepage
@@ -263,9 +263,9 @@ Now let's apply the Central Limit Theorem.
 
 \end{itemize}
 
-Let's verify theorem II by taking different samples sizes from our GSS 2014 Survey while looking at the time at current job.  
+Let's verify theorem II by taking different samples sizes from our GSS 2014 Survey while looking at the time at a current job.  
 
-The outcome of selecting a sample of size, 1, 10, 25, and 100 are presented in the following table.
+We present the outcomes of selecting a sample of size, 1, 10, 25, and 100 in the following table.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -301,16 +301,16 @@ Now let's look at the histograms of the averages.
    
 \end{minipage} 
 
-Let's look at the standard deviations of the means as the samples sizes get larger.  Notice that with larger sample sizes, the normal distribution is more closely focused around the population mean and has a smaller standard deviation of the mean.
+Let's look at the standard deviations of the means as the samples sizes increase.  We notice that with larger sample sizes, the bell-shaped distribution is closer to the population mean and has a smaller standard deviation of the mean.
 
 \section{Estimation of Population Mean}
 
-What if we DO NOT KNOW the population mean or it's distribution?
+What if we DO NOT KNOW the population mean, or it's distribution?
 
 \begin{itemize} 
 \item the population mean $\mu$ is estimated using the sample mean $\bar{X}$.
 
-\item This estimate tend to miss by an amount called the {\bf{standard error (SE)}} of the mean, which is calculated as 
+\item This approximation tends to miss by an amount called the {\bf{standard error (SE)}} of the mean, which we calculate as 
 
 \begin{equation} 
 SE = \frac{s}{\sqrt{n}} \nonumber 
@@ -323,18 +323,18 @@ Let's examine this idea using the following examples.
 What is the average length of stay for an undergraduate student at WMU?
 
 \begin{enumerate}
-\item Suppose 25 graduating students were randomly selected and asked about their length of stay.  Suppose that the sample averaged 5.3 years, with a standard deviation of 1.5 years.  Then the WMU average stay is estemated as \underline{\phantom{xxxxxxxxx}} years give or take \underline{\phantom{xxxxxxxxx}} years or so.
+\item Suppose we selected 25 graduating students and asked them about their length of residence.  Assume that the sample averaged 5.3 years, with a standard deviation of 1.4 years.  Then the average stay for WMU graduating students is estimated as \underline{\phantom{xxxxxxxxx}} years give or take \underline{\phantom{xxxxxxxxx}} years or so.
 
 \begin{align*}
 \bar{X} &= 5.3  \\
-SE &= \frac{1.5}{\sqrt{25}} = 0.3
+SE &= \frac{1.4}{\sqrt{25}} = 0.28
 \end{align*}
 
-\item A second sample of 100 students were interviewed.  The mean and standard deviation for the second sample were 5.3 years and 1.5 years, respectively.  Calculate an estimate for the WMU average stay and provide a standard error for your estimate. 
+\item We interviewed a second sample of 100 students.  The mean and standard deviation for the second sample were 5.3 years and 1.4 years, respectively.  Calculate an approximation for the WMU average stay and provide a standard error of our estimate. 
 
 \begin{align*}
 \bar{X} &= 5.3  \\
-SE &= \frac{1.5}{\sqrt{100}} = 0.15
+SE &= \frac{1.4}{\sqrt{100}} = 0.14
 \end{align*}
 \end{enumerate}
 
