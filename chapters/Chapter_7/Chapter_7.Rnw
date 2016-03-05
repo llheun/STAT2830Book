@@ -654,4 +654,9 @@ $ME = CV \times SE$.
 	\end{solution}
 	
 \end{exercises}
+
+
+
+\bibliographystyle{plain}
+\bibliography{mybibliography}	
 		
