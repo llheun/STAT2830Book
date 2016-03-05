@@ -68,9 +68,9 @@ A {\bf{sample}} is a selection of a part of a population.
 	\item $P_s$ -- the sample proportion
 	\end{itemize}
 \samepage
-\item When we selecting a sample, it is critical that the sample is {\bf{representative}} of the population.  Otherwise, the calculated statistics may have a {\bf{bias}} and our conclusions will not be valid.
+\item When we select a sample, it is critical that the sample is {\bf{representative}} of the population.  Otherwise, the calculated statistics may have a {\bf{bias}} and our conclusions will not be valid.
 \samepage
-\item A representative sample has to be selected based on  {\bf{randomness}}.
+\item {\bf{Randomness}} is a method of selecting a representative sample from our target population.
 \end{itemize}
 
 \section{Sample Selection}
@@ -368,7 +368,8 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
   
 	\begin{exercise} % 1
 	
-	  A recent Poll showed that 69 percent of Americans believe that there is a hell.  The poll contacted 1,003 adults by telephone.  The population for this sample survey is
+	
+	  A recent Poll uncovered that 69 percent of Americans believed that there is a hell.  The poll contacted 1,003 adults by telephone.  The population for this sample survey is
 		  \begin{enumerate}
 	 	  \samepage
 		  \item all adult resident of the United States.
@@ -377,7 +378,7 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
 		  \samepage
 		  \item all households in the United States.
 		  \samepage
-		  \item the 69 percent who answered ``I believe in hell.''
+		  \item the 69 percent who answered: ``I believe in hell.''
 		  \end{enumerate}
 		   \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -390,12 +391,13 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
 	
 	\begin{exercise} % 2
 	
-	  We divide the class into two groups: first year students and others.  We then take a random samples from each group.  This is an example of
+	
+	  We divide the class into two groups: first-year students and others.  We then take random samples from each batch.  We call this method an example of
 		  \begin{enumerate}
 		  \samepage
-		  \item simple random sampling
-		  \samepage
 		  \item clustered sampling
+		  \samepage
+		  \item simple random sampling
 		  \samepage
 		  \item stratified random sampling
 		  \samepage
@@ -411,7 +413,8 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
 	
 	\begin{exercise} % 3
 	
-	  An auditor has come to audit the books of your non-profit organization.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  This method is called
+	
+	  An auditor has come to audit the books of your non-profit organization.  She randomly chooses one of the first ten entries of the ledger.  This entry and every tenth entry is selected.  We call this method:
 		  \begin{enumerate}
 		  \samepage
 		  \item cluster sampling
@@ -430,8 +433,53 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
 	\begin{solution}
 	  This method is called systemic random sampling.
 	\end{solution}  
-	
+
 	\begin{exercise} % 4
+	
+	
+	  We divide the class of all Stat 2830 students into three sections: 1) MW 9 a.m., 2) TR 9 a.m. and 3) TR 1 p.m.  We then take a random group as our sample and ask each student our survey questions.  We call this an example of
+		  \begin{enumerate}
+		  \samepage
+		  \item simple random sampling
+		  \samepage
+		  \item clustered sampling
+		  \samepage
+		  \item stratified random sampling
+		  \samepage
+		  \item systematic random sampling
+		  \end{enumerate}
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  This is an example of cluster sampling.
+	\end{solution}  
+
+	\begin{exercise} % 5
+	
+	
+	  We assign a unique identification code to each student who registered for Stat 2830 this semester.  We will now choose a student (case) identification code that matches a computer randomly generated a list of the identification code and ask each chosen student our survey questions.  We call this an example of
+		  \begin{enumerate}
+		  \samepage
+		  \item simple random sampling
+		  \samepage
+		  \item clustered sampling
+		  \samepage
+		  \item stratified random sampling
+		  \samepage
+		  \item systematic random sampling
+		  \end{enumerate}
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  This is an example of simple random sampling.
+	\end{solution}  
+	
+	\begin{exercise} % 6
+	
 	
 	  Height of men example: Mean = 69.1 inches and SD = 2.9 inches.  Given a sample of 10 men.  What proportion will exceed 72.0 inches?
 		  \begin{enumerate}
@@ -461,9 +509,10 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
 	  
 	\end{solution}
 	
-	\begin{exercise} % 5
+	\begin{exercise} % 7
 	
-	  The national norm of a science test for tenth graders has a mean of 210 and a standard deviation of 28.  A random sample of 40 tenth graders were selected.  What is the chance that this group will average over 220?
+	
+	  The national norm for a science test for tenth graders has a mean of 210 and a standard deviation of 28.  A random sample of 40 tenth graders was selected.  What is the chance that this group will average over 220?
 		  \begin{enumerate}
 		  \item 0.0
 		  \item 0.0119
@@ -481,9 +530,87 @@ SE &= \frac{1.4}{\sqrt{100}} = 0.14
 	  $SE = \frac{SD}{\sqrt{n}} = \frac{28}{\sqrt{40}} = 4.4272$ \\
 	  $Z = \frac{(X - \mu)}{SE}$ \\
 	  $Z = \frac{(220 - 210)}{4.4272} = 2.2588$ \\
-	  $P[ Z > 2.2588] = 0.0119$
+	  $P[ Z > 2.2588 ] = 0.0119$
 	  
-	\end{solution}  
+	\end{solution}
+	
+		\begin{exercise} % 8
+	
+	
+    Thirty-six families meet for a fund-raising event.  Assume that each household's contribution has a bell-shaped distribution with a mean of 120 dollars and standard deviation of 40 dollars.  What is the chance that the contributions will exceed 4,680 dollars?
+		  \begin{enumerate}
+		  \item 0.0
+		  \item 0.0668
+		  \item 0.4013
+		  \item 0.9332
+		  \end{enumerate}	
+		   \vspace{5mm}
+     \framebox[5cm][l]{ Answer: }
+    
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  What is the chance that the contributions will exceed 130 (4,680/36) dollars?
+	  
+	  $SE = \frac{SD}{\sqrt{n}} = \frac{40}{\sqrt{36}} = 6.6667$ \\
+	  $Z = \frac{(X - \mu)}{SE}$ \\
+	  $Z = \frac{(130 - 120)}{6.6667} = 1.5$ \\
+	  $P[ Z > 1.5 ] = 0.06681$
+	  
+	\end{solution}
+\newpage	
+			\begin{exercise} % 9
+	
+	
+    Thirty-six families meet for a fund-raising event.  Assume that each household's contribution has a bell-shaped distribution with a mean of 120 dollars and standard deviation of 40 dollars.  What is the chance that the contributions will be less than 4,140 dollars?
+		  \begin{enumerate}
+		  \item 0.0
+		  \item 0.2266
+		  \item 0.4503
+		  \item 0.7734
+		  \end{enumerate}	
+		   \vspace{5mm}
+     \framebox[5cm][l]{ Answer: }
+    
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  What is the chance that the contributions will be less than 115 (4,140/36) dollars?
+	  
+	  $SE = \frac{SD}{\sqrt{n}} = \frac{40}{\sqrt{36}} = 6.6667$ \\
+	  $Z = \frac{(X - \mu)}{SE}$ \\
+	  $Z = \frac{(115 - 120)}{6.6667} = -0.75$ \\
+	  $P[ Z < -0.75 ] = 0.2266$
+	  
+	\end{solution}
+	
+				\begin{exercise} % 10
+	
+	
+    Thirty-six families meet for a fund-raising event.  Assume that each household's contribution has a bell-shaped distribution with a mean of 120 dollars and standard deviation of 40 dollars.  What is the chance that the contributions will be between 4140 and 4500 dollars?
+		  \begin{enumerate}
+		  \item 0.0
+		  \item 0.0995
+		  \item 0.5467
+		  \item 0.9005
+		  \end{enumerate}	
+		   \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	   What is the chance that the contributions will be between 115 (4140/36) and 125 (4500/36) dollars?
+	  
+	  $SE = \frac{SD}{\sqrt{n}} = \frac{40}{\sqrt{36}} = 6.6667$ \\
+	  $Z = \frac{(X - \mu)}{SE}$ \\
+	  $Z_1 = \frac{(115 - 120)}{6.6667} = -0.75$ \\
+	  $Z_2 = \frac{(125 - 120)}{6.6667} = 0.75$ \\
+	  $P[ -0.75 < Z < 0.75 ] = 0.5467$
+	  
+	\end{solution}
+	
+	
 \end{exercises}
 
 
