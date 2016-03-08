@@ -4,12 +4,12 @@
 \label{chap:ch7}
 
 \section{Objective}
-By the end of this material, you will be able to
+After reading chapter seven and doing the exercises, you will be able to
 \begin{itemize}
 \item Explain the logic of estimation and the role of the sample, sampling 
 distribution and the population.
-\item Construct and interpret confidence intervals for sample means and sample proportions.
-\item Explain the relationships between confidence levels, sample size, and the width 
+\item Make and interpret intervals for sample means and sample proportions.
+\item Describe the relationships between trust levels, sample size, and the width 
 of the confidence interval.
 \end{itemize}
 
@@ -17,7 +17,7 @@ of the confidence interval.
 
 \subsection{Point Estimates}
 
-A {\bf{point estimate}} is a single value (or point) used to approximate a population parameter.  Referring back to the years on current job, we had an estimated value of 8.4 years.  Now let's look at some definitions.
+A {\bf{point estimate}} is a single value (or point) used to approximate a population parameter.  Referring to the years on a current job, we had an approximated value of 8.4 years.  Now let's look at some definitions.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]

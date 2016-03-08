@@ -124,3 +124,14 @@
 \contentsline {section}{\numberline {6.7}Estimation of Population Mean}{96}
 \contentsline {section}{\numberline {6.8}Key Words}{98}
 \contentsline {section}{\numberline {6.9}Exercises}{99}
+\contentsline {chapter}{\numberline {7}Estimation }{103}
+\contentsline {section}{\numberline {7.1}Objective}{103}
+\contentsline {section}{\numberline {7.2}Calculating CI for Population Mean}{103}
+\contentsline {subsection}{\numberline {7.2.1}Point Estimates}{103}
+\contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{104}
+\contentsline {subsubsection}{Steps for calculating CI for population mean, $\mu $.}{107}
+\contentsline {section}{\numberline {7.3}Calculating CI for Population Proportion}{107}
+\contentsline {subsubsection}{Example 3 Calculating CI for Population Proportion}{108}
+\contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{109}
+\contentsline {section}{\numberline {7.4}Key Words}{110}
+\contentsline {section}{\numberline {7.5}Exercises}{111}
