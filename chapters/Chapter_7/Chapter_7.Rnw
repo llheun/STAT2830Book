@@ -143,8 +143,8 @@ Let's consider an example by computing a confidence interval for a population me
 
 \item To complete the process of computing a CI, we need the {\bf{critical value (CV)}}.
 	\begin{itemize}
-	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}}$, we should use the {\bf{z- table}} to find the CV.
-	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{s}{\sqrt{n}}$, we should use the {\bf{t-distribution table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the confidence level (1 - $\alpha$) from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must look  for the values tabulated under two-sided tests. \\ 
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}},$  we should use the {\bf{z- table}} to locate the CV.
+	\item if we calculated the {\bf{SE}} in the last step using the method $\frac{s}{\sqrt{n}},$ we should use the {\bf{t-distribution table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the confidence level (1 - $\alpha$) from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must look  for the values tabulated under two-sided tests. \\ 
 $df = n - 1 = 16 - 1 = 15$ \\
 significance value = $\alpha = 1 - 0.95 = 0.05$
 
@@ -163,7 +163,7 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
   16 & 1.337 & 1.746 & 2.120 & 2.583 & 2.921 \\ \hline
   
    \end{tabular}
-   \caption{Distribution of $t$}
+   \caption{Distribution of $t$ \cite[Page 473]{Healey2012}}
    \label{tab:s7_4}
 \end{table}
 
@@ -186,7 +186,7 @@ significance value = $\alpha = 1 - 0.95 = 0.05$
 			
 \end{enumerate}
 
-\subsubsection{Steps for calculating CI for population mean, $\mu$.}
+\subsubsection{Steps for calculating CI for a population mean, $\mu$.}
  
 So let's examine the steps for calculating the CI for the population mean ($\mu$).
 
@@ -202,13 +202,13 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 \item Determine the {\bf{critical value}} (CV).
 	\begin{itemize}
 	
-	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we use the {\bf{Z table}} to find the CV.
+	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we would use the {\bf{Z table}} to find the CV.
 	
-	\item If we calculated SE in the previous step using the formula, $\frac{s}{\sqrt{n}}$, we use the {\bf{t-distribution table}}, we need  $\alpha$  from the problem (1\% or 5\%, or 10\%) and the degrees of freedom ($df$): $n -1$.  
+	\item If we calculated SE in the last step using the method, $\frac{s}{\sqrt{n}}$, we would use the {\bf{t-distribution table}}, we need  $\alpha$  from the problem (1\% or 5\%, or 10\%) and the degrees of freedom ($df$): $n -1$.  
 	\end{itemize} 
 
 \item Calculate the Margin of Error (ME), $ME = CV \times SE$.
-\item Calculate the confidence interval using the formula: ($\bar{X} - ME, 	\bar{X} + ME$).
+\item Calculate the confidence interval using the formula: (($\bar{X} - ME), 	(\bar{X} + ME$)).
 \end{enumerate}	
 
 
