@@ -37,10 +37,10 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
 \subsection{Interval Estimates}
 
 
-Figure 7.1 shows the idea of a 95 percent confidence interval (CI) in a different form.  It illustrates 50 simple random samples (SRS) drawn from the same population and computing 95 percent CI from each sample.  At the center of each interval is $\bar{x}$ and consequently, varies from sample to sample.  The sampling distribution of $\bar{x}$ appears at the bottom of the graph to illustrate the long term pattern of the variation.  The population $\mu$ is at the center of the sampling distribution.  The 95 percent CIs from 50 SRSs are shown below.  The center $\bar{x}$ of each interval is marked with a small circle.  The lines on either side of the circle span the CI.  Most of the 50 CI capture the true value of the population mean $(\mu)$.  The theory says that if we take thousands of samples, 95 percent of the CI will contain $\mu$.
+Figure 7.1 shows the idea of a 95 percent confidence interval (CI) in a different form.  It illustrates 50 simple random samples (SRS) drawn from the same population and computing 95 percent CI from each sample.  At the center of each interval is the sample mean, $\bar{x}$ and consequently, changes from survey to survey.  The sampling spread of $\bar{x}$ appears at the bottom of the graph to illustrate the long term pattern of the variation.  The population mean, $\mu$, is at the center of the sampling distribution.  Figure 7.1 shows the 95 percent CIs from 50 SRSs.  We marked the center $\bar{x}$ of each interval with a small circle.  The lines on either side of the ring span the CI.  Most of the 50 CI capture the true value of the population mean, $\mu$.  The theory says that if we take thousands of samples, 95 percent of the CI will contain $\mu$.
 
 
-<<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=5, fig.cap="50 samples from same population">>=
+<<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=5, fig.cap="50 samples from the same population">>=
 
 dddd1 <- runif(120,min=88,max=120);
 popxbar <- mean(dddd1);
@@ -70,9 +70,9 @@ points(c(mm1), c(i), type="p")
 @
 
 
-The {\bf{Interval Estimate}} or {\bf{Confidence Interval}} is a range of values to estimate the true value or a population parameter.  A confidence interval is  abbreviated as {\bf{CI}}.
+The {\bf{Interval Estimate}} or {\bf{Confidence Interval}} is a range of values to estimate the real value or a population parameter.  We abbreviate the confidence interval as {\bf{CI}}.
 
-Let's consider an example by computing a confidence interval for a population mean.  A random sample of 16 females were taken and their IQ scores were measured.  Construct a 95 percent confidence interval for the mean female IQ scores.  The following table has the individual values.
+Let's consider an example by computing a confidence interval for a population mean.  We took a random sample of 16 females and measured their IQ scores.  Set up a 95 percent confidence interval for the average female IQ scores.  The following table has the individual values.
 
 
 
@@ -120,19 +120,19 @@ Let's consider an example by computing a confidence interval for a population me
 \begin{enumerate}
 \item Identify the {\bf{population parameter}} of interest.
 	\begin{itemize} 
-	\item The population parameter of interest is the mean of IQ scores of all females in Michigan.
+	\item We are interested in the mean of IQ scores of all females in Michigan, which is the population parameter.
 	\end{itemize}
 \item Calculate the {\bf{point estimate:}}.
 	\begin{itemize}
 	\item $ \bar{X} = \frac{96 + 117 + 92 + \cdots + 107 + 114 + 98}{ 16 } = \frac{\fbox{1636}}{16} = 102.25$
 	\end{itemize}
-\item Calculate the {\bf{standard error}} of the estimate.
+\item Calculate the {\bf{standard error (SE)}} of the estimate.
 	\begin{itemize}
-	\item If the population standard deviation, $\sigma$, is known, then $SE = \frac{\sigma}{\sqrt{n}}$.
+	\item If the population standard deviation, $\sigma$, is known, then $SE = \frac{\sigma}{\sqrt{n}}.$
 	\item If the population standard deviation is {\bf{unknown}} and the sample standard deviation,
 	$s$, is calculated, then $SE = \frac{s}{\sqrt{n}}$.
-	\item $n$ is the sample size.
-  \item Using the data from table 7.3, the variance is 
+	\item We denote the sample size as $n$.
+  \item The variance is 
   $s^2 = \frac{\fbox{1029}}{16 - 1} = 68.6.$
   \item The standard deviation is 
   $s = \sqrt{s^2} = \sqrt{68.6} = 8.28$.
