@@ -569,4 +569,8 @@ Now if we have medical evidence about the patient, then we can say that the pati
   \end{solution}
   
 \end{exercises}	
+
+\bibliographystyle{plain}
+\bibliography{mybibliography}	
+
 	

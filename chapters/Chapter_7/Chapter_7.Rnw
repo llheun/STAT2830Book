@@ -657,6 +657,5 @@ $ME = CV \times SE$.
 
 
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}	
+
 		
