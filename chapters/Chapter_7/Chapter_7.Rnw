@@ -216,7 +216,7 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 
 Let's look at constructing confidence intervals about a proportion with this example.
 
-A random sample was selected of 100 patients treated in a program for alcoholism and drug dependency over the past 10 years.  It was determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for readmission.  (Some people might start drinking again but not come for a treatment for the second time.)
+The study selected a random sample from 100 patients that we treated in a program for alcoholism and drug addiction over the past ten years.  The study determined that 53 of the patients had been readmitted to the program at least once.  Find a 95 percent confidence interval for the population proportion for readmission.  (Some people might start drinking again but not come for  treatment for the second time.)
 
 \begin{enumerate}
 \item Identify the {\bf{population parameter}} of interest.
@@ -257,10 +257,10 @@ A random sample was selected of 100 patients treated in a program for alcoholism
 (       0.432 &, 0.628)
 \end{align*}
 
-\item Thus, we are 95 percent confident that the true population proportion for readmission to a program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  Suppose you want a 99 percent confidence level.  You find $\alpha = 0.01$ and the CV = 2.5758 amd the ME = 0.129.  
+\item Thus, our confidence level is 95 percent that the actual population proportion for readmission to a program for alcoholism and drug dependency is between 43.2\% and 62.8\%.  Suppose you want a 99 percent confidence level.  You find $\alpha = 0.01$ and the CV = 2.5758 and the ME = 0.129.  
 
-The higher CI of 99 percent yields an interval of the true population proportion for readmission to a program for alcoholism and drug dependency is between 40.1\% and 65.9\%.  Given the current sample size of 100 persons; 53  were readmitted to the program for 
-alcoholism and drug dependency.  You gain confidence (from 95\% to 99\%) at the expense of precision, as the ME increases from 0.098 to 0.129.
+The higher CI of 99 percent yields an interval of the actual population proportion for readmission to a program for alcoholism and drug dependency is between 40.1\% and 65.9\%.  Given the current sample size of 100 persons; the study readmitted 53 to the program for 
+alcoholism and drug addiction.  You gain confidence (from 95\% to 99\%) at the expense of precision, as the ME increases from 0.098 to 0.129.
 \end{enumerate}
 
 \subsubsection{Example 3  Calculating CI for Population Proportion}
@@ -309,11 +309,11 @@ A survey was conducted and found that 25 of the 178 households in Grand Rapids c
 \subsubsection{Steps for Calculating CI for Population Proportion $P_u$.}
 
 \begin{enumerate}
-\item Confirm  from the research scenario that you need to compute a confidence interval for a population proportion, $P_u$.
+\item Confirm  from the research scenario that you need to calculate a confidence interval for a population proportion, $P_u$.
 
-\item Calculate the point estimate: sample proportion $P_s = \frac{f}{n}$, where $n$ is the sample size and $f$ is the observed counts under the category of interest..
+\item Calculate the point estimate: sample proportion $P_s = \frac{f}{n}$, where $n$ is the sample size and $f$ is the observed counts for the category of interest.
 
-\item Calculate the {\bf{Standard Error}} of the estimate using the formula: 
+\item Calculate the {\bf{Standard Error}} of the population estimate using the formula: 
 $SE = \sqrt{ \frac{P_s(1 - P_s)}{n}}$.
 
 \item Determine the Critical Value (CV) using the following table: \\
@@ -329,7 +329,7 @@ $SE = \sqrt{ \frac{P_s(1 - P_s)}{n}}$.
 \item Calculate the Margin of Error:
 $ME = CV \times SE$.
 
-\item Calculate the confidence interval using the formula: ($P_s - ME, P_s + ME$).
+\item Calculate the confidence interval using the formula: (($P_s - ME), (P_s + ME$)).
 \end{enumerate}
 
 \section{Key Words}
@@ -376,7 +376,7 @@ $ME = CV \times SE$.
   
   \begin{exercise} % 2
   
-    What is the standard error of your estimate?
+    Compute the standard error.  
     
 	  \begin{enumerate}
 	  \item 0.003
@@ -484,8 +484,8 @@ $ME = CV \times SE$.
     
   \begin{exercise} % 6 
   
-    The next 5 questions refer to the following scenario. 
-    Occasionally, the World Values Survey randomly selects samples from various nations from around the world.  In the table below are respondents from five nations who said that they are either ``happy or very happy.''  Calculate the sample proportions and construct a 95 percent confidence interval for each selected nation.
+    The next five questions refer to the following scenario. 
+    Occasionally, the World Values Survey randomly selects samples from various nations from around the world.  In the table below are respondents from five countries who said that they are either ``happy or jubilant.''  Calculate the sample proportions and construct a 95 percent confidence interval for each selected nation.
     
     % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -620,7 +620,7 @@ $ME = CV \times SE$.
   
   \begin{exercise} % 10
   
-    What is the 95 percent confidence interval for the population proportion for Mexico?	
+    Construct a 95 percent confidence interval for the population proportion of Mexico?	
     
 	  \begin{enumerate}
 	  \samepage
@@ -632,7 +632,7 @@ $ME = CV \times SE$.
 	  \samepage
 	  \item $9.43 \pm 1.18$
 	  \samepage
-	  \item This cannot be calculated with the given information.
+	  \item We cannot compute the CI  with the given information.
 	  \end{enumerate}		
 	  
 	  \vspace{5mm}
