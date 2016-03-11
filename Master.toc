@@ -135,3 +135,15 @@
 \contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{109}
 \contentsline {section}{\numberline {7.4}Key Words}{110}
 \contentsline {section}{\numberline {7.5}Exercises}{111}
+\contentsline {chapter}{\numberline {8}Testing One Sample Hypotheses }{115}
+\contentsline {section}{\numberline {8.1}Objective}{115}
+\contentsline {section}{\numberline {8.2}Why do hypothesis testing?}{115}
+\contentsline {section}{\numberline {8.3}Testing Hypothesis about One Sample Mean}{116}
+\contentsline {subsection}{\numberline {8.3.1}KNOWN population standard deviation}{116}
+\contentsline {subsection}{\numberline {8.3.2}UNKNOWN population standard deviation}{117}
+\contentsline {section}{\numberline {8.4}Hypothesis Testing on One Sample Proportion}{119}
+\contentsline {section}{\numberline {8.5}Type of Error}{120}
+\contentsline {subsubsection}{Let's consider another example.}{121}
+\contentsline {subsubsection}{General statement about Types of Error during hypotheses testing.}{121}
+\contentsline {section}{\numberline {8.6}Key Words}{122}
+\contentsline {section}{\numberline {8.7}Exercises}{123}

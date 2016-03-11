@@ -4,10 +4,11 @@
 \label{chap:ch8}
 
 \section{Objective}
-By the end of this chapter, you will be able to
+After reading chapter eight and doing the exercises, you will be able to
+
 \begin{itemize}
-\item Explain the logic of hypothesis testng
-\item Define and explain the elements of hypothesis testing
+\item Explain the logic of hypothesis testing
+\item Define and describe the elements of hypothesis testing
 	\begin{enumerate}
 	\item Verify assumptions
 	\item State null and alternative Hypotheses
@@ -16,7 +17,7 @@ By the end of this chapter, you will be able to
 	two-tailed tests).
 	\item Identify the appropriate conclusion based on the test and be able to 
 	explain Type I and Type II errors and how they relate to the selection of the 
-	significance of the test   $\alpha$ and $\beta$ risks).
+	significance of the trial   $\alpha$ and $\beta$ risks).
 	\item Comment on the effect size.
 	\end{enumerate}
 \end{itemize}
