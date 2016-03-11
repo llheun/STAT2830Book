@@ -60,9 +60,9 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      Variable & Data Value \\ \hline
-     population mean ($\mu_0$) & 453 \\
-     population SD ($\sigma$) & 95 \\
-     sample size (n) & 125 \\
+     the population means ($\mu_0$) & 453 \\
+     the population SD ($\sigma$) & 95 \\
+     the sample size (n) & 125 \\
      sample mean ($\bar{X}$) & 502 \\
      $\alpha$ level & 0.05 \\ \hline
      
@@ -92,7 +92,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	Z &=  \frac{point Estimate (\bar{X}) - hypothesized Value (\mu_0) }{SE}  = \frac{502 - 453}{8.497} = \frac{49}{8.497} = 5.77 \nonumber
 	\end{align*}
 
-\item Decision is based on the {\bf{Critical Value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
+\item Decision is based on the {\bf{critical value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
 	\begin{itemize}
 	
 	\item The alternate hypothesis is $H_A: \mu > 453$,
@@ -104,7 +104,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important.
 	\end{itemize}
 
-\item Conclusion in non-statistical language.
+\item The conclusion in non-statistical language.
 	\begin{itemize}
 
 	\item There is evidence in the data (at 0.05 significance level) that the results' obtained from Littlewood High School are higher than the average on state college entrance examination. 
