@@ -50,9 +50,9 @@ After reading chapter eight and doing the exercises, you will be able to
 \section{Testing Hypothesis about One Sample Mean}
 \subsection{KNOWN population standard deviation}
 
-Let's consider this example.  Statewide, the average score on the college entrance exam (verbal test) is 453, with a standard deviation of 95.  The administrators of Littlewood Regional High School are interested in this question, ``Does their program do a better job of preparing their students for the college entrance exam?''  
+Let's consider this example.  Statewide, the average score on the College Entrance Exam (CEE) verbal test is 453, with a standard deviation of 95.  The administrators of Littlewood Regional High School are interested in this question, ``Does their program prepare their students for the CEE?''  
 
-A simple random sample of 125 senior students from Littlewood showed a mean verbal score on the college entrance exam of 502.  {\bf{Is there a significant difference at}} $\alpha = 0.05$?
+A simple random sample of 125 senior students from Littlewood showed a mean verbal score on the CEE of 502.  {\bf{Is there a significant difference at}} $\alpha = 0.05$?
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -63,7 +63,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
      the population means ($\mu_0$) & 453 \\
      the population SD ($\sigma$) & 95 \\
      the sample size (n) & 125 \\
-     sample mean ($\bar{X}$) & 502 \\
+     the sample mean ($\bar{X}$) & 502 \\
      $\alpha$ level & 0.05 \\ \hline
      
    \end{tabular}
@@ -78,11 +78,11 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	\end{itemize}
 \item Formulate the null hypothesis ($H_0$).
 	\begin{itemize}
-	\item $H_0: \mu = 453$; (There is no significant difference between the state college entrance examination results and those obtained from Littlewood HS).
+	\item $H_0: \mu = 453$; (The null hypothesis asks, "Is the value of mean of the  sample test score the same as the value of the average of the population test score ($\mu = 453$)?)
 	\end{itemize}
 \item Formulate the alternate hypothesis ($H_A$).
 	\begin{itemize}
-	\item $H_A: \mu > 453$; (There is a significant difference between the state college entrance examination results and those obtained from Littlewood HS).
+	\item $H_A: \mu > 453$; (The alternative hypothesis asks, "Is the value of the mean of the sample test score greater than the value of the average of the population test score ($\mu > 453$)?).
 	\end{itemize}
 	
 \item Calculate the Test Statistic: 
@@ -92,7 +92,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	Z &=  \frac{point Estimate (\bar{X}) - hypothesized Value (\mu_0) }{SE}  = \frac{502 - 453}{8.497} = \frac{49}{8.497} = 5.77 \nonumber
 	\end{align*}
 
-\item Decision is based on the {\bf{critical value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
+\item We base our decision on the {\bf{critical value (CV)}} at a {\bf{level of significance}} 0.05 or 5\%. 
 	\begin{itemize}
 	
 	\item The alternate hypothesis is $H_A: \mu > 453$,
@@ -101,7 +101,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	
 	\item Hence, reject $H_0$.
 	
-	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important.
+	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 49, important, i.e., (the point estimate $(\bar{X}$) - hypothesized value ($\mu$))?
 	\end{itemize}
 
 \item The conclusion in non-statistical language.
@@ -115,7 +115,7 @@ A simple random sample of 125 senior students from Littlewood showed a mean verb
 	 	
 \subsection{UNKNOWN population standard deviation}
 
-Let's explore this example: A random sample of 40 people used the Weight Watchers diet for one year, their mean weight loss was 3.0 pounds with a standard deviation of 4.9 pounds.  Assuming the weight loss data is approximately normally distributed and using a significance level of 5 percent, test the claim that people really succeed in the weight loss on the Weight Watchers plan,
+Let's explore this example: A random sample of 40 people used the Weight Watchers diet for one year, their mean weight loss was 3.0 pounds with a standard deviation of 4.9 pounds.  Assuming the weight loss data is approximately normally distributed and using a significance level of 5 percent, test the claim that people succeed in the weight loss on the Weight Watchers plan,
 the mean weight loss was greater than 0 pounds.  Is the weight loss program effective?
 
 Use the following obtained data values: 
@@ -124,12 +124,11 @@ Use the following obtained data values:
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-     Variable & Data Value \\ \hline
-     population mean ($\mu_0$) & 0 \\
-     sample size (n) & 40 \\
-     sample mean ($\bar{X}$) & 3 \\
-     sample SD ($s$) & 4.9 \\
+   \begin{tabular}{@{} lcc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+     Variable & Populuation Data Values & Sample Data Values \\ \hline
+     Mean ($\mu_0$) & 0 & 3  \\
+     SD ($s$)  & & 4.9 \\
+     Sample size (n) & & 40 \\
      $\alpha$ level & 0.05 \\ \hline
      
    \end{tabular}
@@ -159,21 +158,21 @@ Use the following obtained data values:
 	\end{align*}
 
 \item Determine the {\bf{critical value (CV)}}.
-    To obtain the CV, we need to remember since we are using the estimated standard deviation from the sample and not from the population.  It is necessary to use a different table.
+    To obtain the CV, we need to remember since we are using the estimated standard deviation from the sample and not from the population.  Using a different table is necessary.
 	\begin{itemize}
 	\item $df = n - 1 = 40 - 1 = 39$ and $\alpha = 0.05$
 	\item Since $H_A: \mu > 0$, this is a one-tailed test.
 	\item From the t-table, $CV = 1.697$
 	\end{itemize}
 
-\item Making decision  based on the {\bf{CV}} from the t-distribution table.
+\item Making the decision  based on the {\bf{CV}} from the t-distribution table.
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: \mu > 0$,
 	\item  and since $ T  = 3.87 > 1.697 \sim 1.6849$.  
 	\item Hence, reject $H_0$.
-	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 3, important.
+	\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, 3, important, i.e., (the point estimate $(\bar{X}$ - hypothesized value ($\mu$))?
 	\end{itemize}
-\item Conclusion in non-statistical language.
+\item The conclusion in non-statistical language.
 	\begin{itemize}
 	\item Statistically, there is evidence that the mean weight loss is greater than zero; people do on the average loss weight.  However, there could be different expectations.
 	\end{itemize}
@@ -184,7 +183,7 @@ Use the following obtained data values:
 
 Let's investigate a one sample proportion.  
 
-Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher takes a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and finds that 83 of the robberies and 80 of the assaults were cleared by arrest.  Is the local robberies arrest rate significantly different from the statewide rate at $\alpha = 0.05$?
+Statewide, the police clear by arrest 35 percent of the robberies and 42 percent of the aggravated assaults reported to them.  A researcher took a random sample of all the robberies ($n = 207$) and aggravated assaults ($n = 178$) reported to a metropolitan police department in one year and found that the police department cleared 80 of the 83 of the robberies by arrests.  Is the local robberies arrest rate significantly different from the statewide rate at $\alpha = 0.05$?
 
 The researcher used the following obtained data values: 
 
@@ -225,26 +224,26 @@ The researcher used the following obtained data values:
 	Z &= \frac{point Estimate (P_s) - hypothesized Value (P_u) }{SE}  = \frac{ 0.40 - 0.35 }{0.0332} = 1.51 \nonumber
 	\end{align*}
 	
-\item Decision based on {\bf{critical value (CV)}} at {\bf{level of significance}} 0.05 (5 percent).
+\item Decision-based on {\bf{critical value (CV)}} at the {\bf{level of significance}} 0.05 (5 percent).
 	\begin{itemize}
 	\item The alternate hypothesis is $H_A: P_u \neq  0.35 $,
 	\item and since $ Z  = 1.51 < 1.96$,   
 	\item we failed to reject $H_0$.
 	\item Although the test is not significant, as  researchers, we must ask ourselves, is the size effect, 0.05, important.
 	\end{itemize}
-\item Conclusion in non-statistical language.
+\item The conclusion in non-statistical language.
 	\begin{itemize}
-	\item There is insufficient evidence in the data to conclude that there is a difference between the  statewide results and the local arrest rate for robberies with 95 percent confidence. 
+	\item From the data, we cannot conclude that there is a difference between the  statewide results and the local arrest rate for robberies with 95 percent confidence. 
 	\end{itemize}
 		
 \end{enumerate}			
 		 
 \section{Type of Error}
 
-Whenever we use the hypotheses testing, there is always a chance that we may obtain a sample that leads us to a wrong conclusion.  Let's look at the court system.  In the USA, the defendant is presumed innocent, so our hypotheses will look like this: \\
+Whenever we use the hypotheses testing, there is always a chance that we may obtain a sample that leads us to a wrong conclusion.  Let's look at the court system.  In the USA, the defendant is presumed innocent, so our hypotheses will seem like this: \\
 $H_0:$ the defendant is not guilty. \\
 $H_A:$ the defendant is guilty. \\
-Now if we have enough evidence against the defendant, then we can say that the defendant is guilty.  Now let's look at the following table to see how an error can happen in this situation.
+Now if we have enough evidence against the defendant, then we can say that the accused is guilty.  Now let's look at the following table to see how an error can happen in this situation.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -262,16 +261,16 @@ Now if we have enough evidence against the defendant, then we can say that the d
 \end{table}
 
 \begin{itemize} 
-\item The type I error concludes that the defendant is guilty when he is actually not guilty.
-\item The type II error concludes that the defendant is not guilty when he is actually  guilty.
+\item The type I error concludes that the defendant is guilty when he is not guilty.
+\item The type II error finds that the accused is not guilty when he is guilty.
 \end{itemize}
 
 \subsubsection{Let's consider another example.}
 
-Deciding whether a patient is HIV positive: \\
+Deciding whether a patient is HIV infected: \\
 $H_0:$ the patient is not HIV positive. \\
 $H_A:$ the patient is HIV positive. \\
-Now if we have medical evidence about the patient, then we can say that the patient is HIV positive.  Now let's look at the following table to see how an error can happen in this situation.
+Now if we have medical evidence about the patient, then we can say that the patient is HIV infected.  Now let's look at the following table to see how an error can happen in this situation.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -289,11 +288,11 @@ Now if we have medical evidence about the patient, then we can say that the pati
 \end{table}
 
 \begin{itemize} 
-\item The type I error concludes that the patient is HIV positive when he is actually not.
-\item The type II error concludes that the patient is HIV negative when he is actually  HIV positive.
+\item The type I error concludes that the patient is HIV infected when he is not.
+\item The type II error finds that the patient is HIV negative when he is actually HIV positive.
 \end{itemize}
 
-\subsubsection{General statement about Types of Error during hypotheses testing.}
+\subsubsection{A general statement about Types of Error during hypotheses testing.}
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -313,12 +312,12 @@ Now if we have medical evidence about the patient, then we can say that the pati
 \begin{itemize} 
 \item {\bf{Type I Error}}
 	\begin{itemize}
-	\item error in rejecting the null hypothesis ($H_0$) when in fact $H_0$ is true.
-	\item the probability of committing this error is $\alpha$ (level of significance).
+	\item Error in rejecting the null hypothesis ($H_0$) when in fact $H_0$ is true,
+	\item The probability of committing this error is $\alpha$ (level of significance).
 	\end{itemize}
 \item {\bf{Type II Error}}
 	\begin{itemize}
-	\item error in not rejecting the null hypothesis when $H_0$ is false.
+	\item Error in not rejecting the null hypothesis when $H_0$ is false.
 	\end{itemize}
 	
 \end{itemize}
@@ -354,8 +353,8 @@ Now if we have medical evidence about the patient, then we can say that the pati
 
   \begin{exercise} % 1
 
-    The next 4 questions refer to the following scenario.
-    In 2010, the population of Michigan on the average watched 6.2 hours of TV per day.  A researcher from Kalamazoo Health department asked; is this number the same for the senior citizens of Kalamazoo?  What are the hypotheses for this question?
+    The next four questions refer to the following scenario.
+    In 2010, the population of Michigan on the average watched 6.2 hours of TV per day.  A researcher from Kalamazoo Health Department asked; is this number the same for the senior citizens of Kalamazoo?  What are the hypotheses for this question?
 
 	  \begin{enumerate}
 	  \item $H_0: \mu \neq 6.2$ vs. $H_A: \mu = 6.2$
@@ -424,7 +423,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
 
 	  \begin{enumerate}
 	  \item There is a significant difference.
-	  \item There is not significant difference.
+	  \item There is not a significant difference.
 	  \item Seniors watch too much TV.
 	  \item Statewide people watch too much TV
 	  \end{enumerate}	
@@ -440,8 +439,8 @@ Now if we have medical evidence about the patient, then we can say that the pati
   
   \begin{exercise} % 5
   
-    The next 4 questions refer to the following scenario.
-    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the voters rejected the proposal.  Is the difference significant?
+    The next four questions refer to the following scenario.
+    In a recent statewide election, 55 percent of the voters rejected a proposal to institute a state lottery.  In a random sample of 150 urban precincts, 60 percent of the electorate rejected the proposal.  Is the difference significant?
 
     What are the hypotheses for this question?
 
@@ -531,14 +530,14 @@ Now if we have medical evidence about the patient, then we can say that the pati
   
   \begin{exercise} % 9
   
-    The Survey of Study Habits and Attitudes (SSHA) is a psychological test that measures the motivation, attitude, toward school, and study habits of students.  Scores range from 0 to 200.  The mean score for U.S. college students is about 115, and standard deviation is about 30.  A teacher who suspects that older students have better attitudes toward college gives the SSHA to 25 students who are at least 30 years of age and obtains a sample mean,  $\bar{x} = 127.8$.    She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_0: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
+    The  Study Habits and Attitudes Survey (SSHA) is a cognitive test that evaluates the study habits of students and the attitude and motivation, toward school.  The range of scores is from 0 to 200.  The average score for U.S. college students is 115 with a standard deviation 30.  A teacher who suspects that older students have better attitudes toward college gives the SSHA to 25 students who are older than 29 years of age and obtains a sample mean,  $\bar{x} = 127.8$.  \cite[Page 1]{SSHA2016}  She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_A: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
  
  	  \begin{enumerate}
-	  \item More samples should be taken
+	  \item The researcher should take more samples.
 	  \item She should change the significance level of the test.
-	  \item A Type I error was committed.
-	  \item A Type II error was committed.
-	  \item No error was committed.
+	  \item She committed a Type I error.
+	  \item She committed a Type II error.
+	  \item She committed no mistake.
 	  \end{enumerate}
 	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
@@ -551,7 +550,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
   
     \begin{exercise} % 10
   
-    The students at Kalamazoo Central High School cut an average of 2.5 classes per month.  A random sample of 60 seniors averages 2.6 cuts per month, with a standard deviations of 0.75.  Are seniors significantly greater from the student body?  Use an $\alpha$ level of 0.05.  (\emph{HINT:} This wording implies a one-tailed test of significance.)  To answer this question, use the five-step procedure.  
+    The students at Kalamazoo Central High School cut an average of 2.5 classes per month.  A random sample of 60 seniors averages 2.6 cuts per month, with the standard deviations of 0.75.  Are seniors significantly greater from the student body?  Use an $\alpha$ level of 0.05.  (\emph{HINT:} This wording implies a one-tailed test of significance.)  To answer this question, use the five-step procedure.  
     
 	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
