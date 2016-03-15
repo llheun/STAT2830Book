@@ -147,3 +147,14 @@
 \contentsline {subsubsection}{A general statement about Types of Error during hypotheses testing.}{121}
 \contentsline {section}{\numberline {8.6}Key Words}{122}
 \contentsline {section}{\numberline {8.7}Exercises}{123}
+\contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{127}
+\contentsline {section}{\numberline {9.1}Objective}{127}
+\contentsline {section}{\numberline {9.2}One-Sample Case vs. Two-Sample Case}{127}
+\contentsline {section}{\numberline {9.3}Hypothesis Testing on Two Sample Means}{128}
+\contentsline {subsection}{\numberline {9.3.1}Example 1}{128}
+\contentsline {subsection}{\numberline {9.3.2}Example 2}{131}
+\contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{134}
+\contentsline {subsection}{\numberline {9.4.1}Example 1}{134}
+\contentsline {subsection}{\numberline {9.4.2}Example 2}{136}
+\contentsline {section}{\numberline {9.5}Key Words}{137}
+\contentsline {section}{\numberline {9.6}Exercises}{138}

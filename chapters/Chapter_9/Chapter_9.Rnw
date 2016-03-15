@@ -4,7 +4,7 @@
 \label{chap:ch9}
 
 \section{Objective}
-By the end of this material, you will be able to
+After reading chapter nine and doing the exercises, you will be able to
 \begin{itemize}
 \item Identify and cite examples of when a two-sample test is appropriate.
 \item Explain an independent random sample.
@@ -13,18 +13,18 @@ proportions following the 5-step process and interpret the results.
 \item Effect Size
 \end{itemize}
 
-\section{One Sample Case vs. Two Sample Case}
+\section{One-Sample Case vs. Two-Sample Case}
   
-There are two important differences between the one-sample case considered in the last chapter and the two-sample case situation.
+There are two significant differences between the one-sample case considered in the last chapter and the two-sample case situation.
 
 \begin{enumerate}
 \item The one-sample case required that a single random sample was selected while the two-sample case requires that two independent random samples are selected.
 	\begin{itemize}
-	\item selecting samples from one of the samples will not affect the probabilities in selecting samples for the other case.
+	\item Selecting samples from one of the samples will not affect the probabilities of selecting samples for the other circumstances.
 	\end{itemize}
 \item The second difference is the construction of the null and alternate hypotheses.
 	\begin{itemize}
-	\item Instead of comparing the results against a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
+	\item Instead of comparing the results to a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
 	\end{itemize}
 \end{enumerate}
 		
@@ -494,6 +494,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
 
   \begin{exercise} %1 
   
+  
     The next 3 questions refer to the following scenario. 
     Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means.
     
@@ -516,6 +517,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
 	
   \begin{exercise} % 2
   
+  
     % Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means.  
     
     What is the sampling distribution and critical value at the 90 percent confidence level?
@@ -535,6 +537,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
 	  Student's $t$ distribution, $CV = 1.8125$
 	\end{solution}
   \begin{exercise} % 3
+  
   
     % Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means. 
 (Hint: remember that the degrees of freedom is $df = n_1 + n_2 - 2$).
@@ -574,7 +577,8 @@ Again, the researcher must ask is the effect size $0.125$ important.
     
   \begin{exercise} % 4
     
-    The next 3 quesions refer to the following scenario.
+    
+    The next three quesions refer to the following scenario.
     A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant?
     
     What are the hypotheses for this question?
@@ -595,6 +599,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
   \end{solution}
   
   \begin{exercise} % 5 
+  
   
       % A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant?  
   
@@ -621,6 +626,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
   \end{solution}
   
   \begin{exercise} % 6
+  
   
     % A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? 
     
@@ -655,4 +661,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
 	\end{solution} 
 	
 \end{exercises}
+	
+\bibliographystyle{plain}
+\bibliography{mybibliography}	
 	

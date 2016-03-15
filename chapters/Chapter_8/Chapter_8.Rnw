@@ -530,7 +530,8 @@ Now if we have medical evidence about the patient, then we can say that the pati
   
   \begin{exercise} % 9
   
-    The  Study Habits and Attitudes Survey (SSHA) is a cognitive test that evaluates the study habits of students and the attitude and motivation, toward school.  The range of scores is from 0 to 200.  The average score for U.S. college students is 115 with a standard deviation 30.  A teacher who suspects that older students have better attitudes toward college gives the SSHA to 25 students who are older than 29 years of age and obtains a sample mean,  $\bar{x} = 127.8$.  \cite[Page 1]{SSHA2016}  She wants to examine the following hypotheses: $H_0: \mu = 115$ and $H_A: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
+  
+The  Study Habits and Attitudes Survey (SSHA) \cite[Page 1]{SSHA2016} is a cognitive test that evaluates the study habits, attitudes and motivation of students, toward school.  The range of scores is from 0 to 200.  The average score for U.S. college students is 115 with a standard deviation 30.  A teacher who suspects that older students have better attitudes toward higher education gives the SSHA survey to 25 students who are older than 29 years of age and obtains a sample mean,  $\bar{x} = 127.8$. She examined the following hypotheses: $H_0: \mu = 115$ and $H_A: \mu > 115$.  Based on this scenario, she tests the hypotheses.  She rejects $H_0$.  What type of error was committed here (if any)?
  
  	  \begin{enumerate}
 	  \item The researcher should take more samples.
@@ -550,7 +551,8 @@ Now if we have medical evidence about the patient, then we can say that the pati
   
     \begin{exercise} % 10
   
-    The students at Kalamazoo Central High School cut an average of 2.5 classes per month.  A random sample of 60 seniors averages 2.6 cuts per month, with the standard deviations of 0.75.  Are seniors significantly greater from the student body?  Use an $\alpha$ level of 0.05.  (\emph{HINT:} This wording implies a one-tailed test of significance.)  To answer this question, use the five-step procedure.  
+  
+The students at Kalamazoo Central High School cut an average of 2.5 classes per month.  A random sample of 60 seniors averages 2.6 cuts per month, with the standard deviations of 0.75.  Are seniors significantly greater from the student body?  Use an $\alpha$ level of 0.05.  (\emph{HINT:} This wording implies a one-tailed test of significance.)  To answer this question, use the five-step procedure.  
     
 	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
@@ -570,7 +572,6 @@ Now if we have medical evidence about the patient, then we can say that the pati
   
 \end{exercises}	
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}	
+
 
 	
