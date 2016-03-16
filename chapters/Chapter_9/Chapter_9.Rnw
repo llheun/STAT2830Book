@@ -28,13 +28,13 @@ There are two significant differences between the one-sample case considered in 
 	\end{itemize}
 \end{enumerate}
 		
-\section{Hypothesis Testing on Two Sample Means}
+\section{Hypothesis Testing for Two Sample Means}
 
 \subsection{Example 1}
 
-Although self-concept in a recent study was measured on a scale with values ranging from 20 to 80, many  researchers in this field prefer to think of this kind of variable as having only two possible values: low self-concept or high self-concept.  We will define those with scores at or below the median to be low self-concept students and those with scores above the median to be high self-concept students.  Do high self-concept students have grade point averages (GPA) that are different from low self-concept students.
+Although many researchers in this field measured self-concept in a recent study on a scale with values ranging from 20 to 80, some of them prefer to think of this kind of variable as dichogamous: low self-concept or high self-concept.  We will define low self-concept students as those with scores at or below the median.  Also, we will identify high self-concept students as those with scores above the median.  Do high self-concept students have grade point averages (GPA) that are different from low self-concept students.
 % i.e., $H_0: \mu_1 = \mu_2$ vs. $H_A: \mu_1 \neq \mu_2$?  
-Let's use SPSS to test this hypothesis.  Let ``1'' represent low self-concept students and ``2'' represent high self-concept students.  When reviewing the histogram and the boxplot, it appears that there maybe two populations.
+Let's use SPSS to test this hypothesis.  Let ``1'' represent low self-concept students, and ``2'' represent high self-concept students.  When reviewing the histogram and the boxplot, it appears that there maybe two populations.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -54,7 +54,7 @@ Let's use SPSS to test this hypothesis.  Let ``1'' represent low self-concept st
 
 Looking at GPA of students with both low self-concept and high self-concept, 
 % it appears that we may have two different populations.  
-is there evidence that the data is a mixture (potentially of two distinct populations).
+is there evidence that the data is a mixture (potentially of two distinct populations)?
 
 \begin{minipage}[h]{6.5cm}
 
@@ -69,14 +69,14 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 
 \begin{itemize}
 \samepage
-\item Let's look at the GPA confidence intervals. 
+\item Let's look at the GPA confidence intervals (CI). 
 	\begin{itemize}
 	\samepage
-	\item 95 percent confidence interval for the population mean GPA of low self-concept students: (5.7, 7.1).
+	\item 95 percent CI for the average population GPA of low self-concept students: (5.7, 7.1).
 	\samepage
-	\item 95 percent confidence interval for the population mean GPA of high self-concept students: (8.0, 8.9).
+	\item 95 percent CI for the population mean GPA of high self-concept students: (8.0, 8.9).
 	\samepage
-	\item After reviewing the two intervals, we notice that the two intervals do not over lap.  
+	\item After reviewing the two CIs, we notice that the two CIs do not overlap.  
 	\end{itemize}
 \samepage
 \item Next, we want to evaluate the hypothesis.  Is there evidence that a difference between  the GPA of  low self-concept students and high self-concept students at 5 percent significance level?  To answer this, do  hypotheses testing on the two-sample means.  Use the five-step model presented in Chapter 8.
@@ -132,10 +132,10 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 
 		
 		\samepage
-		\item Now let's consider the information in table 9.2.  We notice that there are two rows
+		\item Now let's consider the information in Table 9.2.  We notice that there are two rows
 			\begin{itemize}
 			\item EqVar means the variances of both independent groups are the same.
-			\item Not Eq.Var. means the ratio of the larger variance divided by the smaller variance is greater than two.
+			\item Not Eq.Var. means the ratio of the larger variance divided by, the smaller variance is greater than two.
 			\item We will use the Not Eq.Var row since the ratio of the two variances is greater than two.
 			\end{itemize}
 				
@@ -143,7 +143,7 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 		\item The test statistic $t = \frac{Mean Diff.}{SE} = \frac{-2.051538}{0.416718} = -4.923$   
 		\samepage
 		\item Sampling Distribution and Rejection Region \\
-		Sampling distribution: student t distribution (two-tailed), $\alpha = 0.05$ \\
+		Sampling distribution: Student t distribution (two-tailed), $\alpha = 0.05$ \\
 		Degrees of freedom (\emph{df}) is 62.929 from table 9.2 \\
 		$CV = -1.998$ 
 		\samepage
@@ -151,14 +151,14 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 		\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, $-2.05$, important on a 10 point scale.  Since this is a drop of 20 percent, we can say that the difference is meaningful.
 		
 		\end{itemize}
-	\item Conclusion in non-statistical language. \\
+	\item The conclusion in non-statistical language. \\
 	We can conclude with 95 percent confidence that the GPA of students with high self-concept is different than the GPA of students with low self-concept.
 	
 	\item Examination of Type I and Type II Errors.
 		\begin{itemize} 
 		\item Since we rejected the null hypothesis that there ``is no difference between the two means'' we may have committed a Type I error, or 
 		\item Concluding that the GPA of students with high self-concept is different than the GPA of students with low self-concept when there is no difference.
-		\item If we had failed to reject the null hypothesis, we may have committed a Type II error, or 
+		\item If we had failed to reject the null hypothesis, we might have committed a Type II error, or 
 		\item Failing to conclude to reject that the GPA of students with high self-concept is different than the GPA of students with low self-concept when in fact it is true.
 		\end{itemize}
 		

@@ -150,7 +150,7 @@
 \contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{127}
 \contentsline {section}{\numberline {9.1}Objective}{127}
 \contentsline {section}{\numberline {9.2}One-Sample Case vs. Two-Sample Case}{127}
-\contentsline {section}{\numberline {9.3}Hypothesis Testing on Two Sample Means}{128}
+\contentsline {section}{\numberline {9.3}Hypothesis Testing for Two Sample Means}{128}
 \contentsline {subsection}{\numberline {9.3.1}Example 1}{128}
 \contentsline {subsection}{\numberline {9.3.2}Example 2}{131}
 \contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{134}
