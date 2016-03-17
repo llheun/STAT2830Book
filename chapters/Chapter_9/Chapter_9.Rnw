@@ -134,8 +134,8 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 		\samepage
 		\item Now let's consider the information in Table 9.2.  We notice that there are two rows
 			\begin{itemize}
-			\item EqVar means the variances of both independent groups are the same.
-			\item Not Eq.Var. means the ratio of the larger variance divided by, the smaller variance is greater than two.
+			\item EqVar indicates the variances of both independent groups are the same.
+			\item Not Eq.Var stands for the ratio of the larger variance divided by; the smaller variance is greater than two.
 			\item We will use the Not Eq.Var row since the ratio of the two variances is greater than two.
 			\end{itemize}
 				
@@ -170,7 +170,7 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 
 Are college students who live on campus more involved in campus life than students who commute to campus?
 
-The following data report the average number of hours per week students devote to extracurricular activities.  Is the difference between these randomly selected samples of commuter and residential students significant?
+The following data report the average number of hours per week students devote to extra-curricular activities.  Is the difference between these randomly selected samples of commuter and residential students significant?
 
 When reviewing the histogram and the boxplot, it appears that there maybe two populations.
 
@@ -190,7 +190,7 @@ When reviewing the histogram and the boxplot, it appears that there maybe two po
 \end{table}
 
 
-If we look at hours of students that either reside on or  off campus,
+If we look at hours of students that either resides on or  off campus,
  is there evidence that the data is a mixture (potentially of two distinct populations).
 
 \begin{minipage}[h]{6.5cm}
@@ -206,20 +206,20 @@ If we look at hours of students that either reside on or  off campus,
 
 \begin{itemize}
 \samepage
-\item Let's look at the hours confidence intervals. 
+\item Let's look at the hours confidence intervals (CI). 
 	\begin{itemize}
 	\samepage
-	\item 95 percent confidence interval for the population mean Hours of  students who reside on campus: (9.86, 10.44).
+	\item 95 percent CI for the population mean Hours of  students who reside on campus: (9.86, 10.44).
 	\samepage
-	\item 95 percent confidence interval for the population mean Hours of  students who reside off campus: (11.67, 12.30).
+	\item 95 percent CI for the population mean Hours of  students who reside off-campus: (11.67, 12.30).
 	\samepage
-	\item After reviewing the two intervals, we notice that the two intervals do not over lap.  
+	\item After reviewing the two CIs, we notice that the two intervals do not overlap.  
 	\end{itemize}
 \samepage
 \item Next, we want to evaluate the hypothesis.  Is there evidence that a difference between  the extracurricular Hours and two levels of where students reside (on or off campus)?  To answer this, do  hypotheses testing on the two-sample means.  Use the five-step model presented in Chapter 8.
 
 	\begin{enumerate}
-	\item Identify from the scenario that this problem is about the two-sample means of extracurricular Hours and the two levels of where students reside.
+	\item Identify from the scenario that this problem is about the two-sample means of extra-curricular Hours and the two levels of where students reside.
 	\samepage
 	\item Formulate the null hypothesis:
 		\begin{itemize}
@@ -266,11 +266,11 @@ If we look at hours of students that either reside on or  off campus,
 
 		
 		\samepage
-		\item Now let's consider the information in table 9.4.  We notice that there are two rows
+		\item Now let's consider the information in Table 9.4.  We notice that there are two rows
 			\begin{itemize}
-			\item EqVar means the variances of both independent groups are the same.
-			\item Not Eq.Var. means the ratio of the larger variance divided by the smaller variance is greater than two.
-			\item We will use the Eq.Var row since the ratio of the two variances is less than than two.
+			\item EqVar indicates the variances of both independent groups are the same.
+			\item Not Eq.Var stands for the ratio of the larger variance divided by; the smaller variance is greater than two.
+			\item We will use the Eq.Var row since the ratio of the two variances is less than two.
 			\end{itemize}
 				
 		\samepage
@@ -294,7 +294,7 @@ If we look at hours of students that either reside on or  off campus,
 		\item Since we rejected the null hypothesis that there ``is no difference between the two means'' we may have committed a Type I error, or 
 		\item Concluding that there is a difference between the involvement of students who live on campus versus those who commute when there is no difference.
 		
-		\item If we had failed to reject the null hypothesis, we may have committed a Type II error, or 
+		\item If we had failed to reject the null hypothesis, we might have committed a Type II error, or 
 		\item Failing to conclude that there is a difference between the involvement of students who live on campus versus those who commute when there is a difference.
 		
 		\end{itemize}
@@ -310,14 +310,14 @@ If we look at hours of students that either reside on or  off campus,
 \section{Hypothesis Testing on Two Sample Proportions}
 
 
-Again, we note the two important differences between the one-sample case considered in the last chapter and the two-sample case:
+Again, we note the two significant differences between the one-sample case considered in the last chapter and the two-sample case:
 
 \begin{enumerate}
 \item The one-sample case requires that a single random sample is selected while the two-sample case requires the two independent random samples are selected.
 	\begin{itemize}
-	\item this means that selecting samples from one of the sample will not affect the probabilities in selecting samples for the other case.
+	\item This means that selecting samples from one of the sample will not affect the probabilities of selecting samples for the other case.
 	\end{itemize}
-\item The second difference is in the construction of the null and alternate hypotheses"
+\item The second difference is in the construction of the null and alternate hypotheses."
 	\begin{itemize}
 	\item Instead of comparing the results against a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
 	\end{itemize}
@@ -345,7 +345,7 @@ One program is designed for divorce counseling.  The key feature of the program 
 \end{table}
 \end{itemize}
 
-Did the program work?  (Or at five percent level of significance, is the proportion of divorces of clients on special program significantly lower than the proportion of divorces of clients on the regular program?)
+Did the program work?  (Or at five percent level of significance, is the proportion of divorces of clients on particular program significantly lower than the proportion of divorces of clients on the regular program?)
 
 \begin{enumerate}
 \item Identify from the research, what is being compared.  In the scenario, we want to compare two proportions -- special or regular program.
