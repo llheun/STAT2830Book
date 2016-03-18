@@ -88,8 +88,7 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 		\begin{itemize}
 		\item $H_0: \mu_l = \mu_h$
 		  \begin{itemize}
-		  \item where \emph{l} indicates low self-concept students and 
-		  \item \emph{h} indicates high self-concept students.
+		  \item where \emph{l} indicates low self-concept students and \emph{h} denotes high self-concept students.
 		  \end{itemize}
 		\end{itemize}
 	\samepage
@@ -181,7 +180,7 @@ When reviewing the histogram and the boxplot, it appears that there maybe two po
    \begin{tabular}{@{} p{4.3cm} p{2.2cm} p{1cm} p{1.5cm} p{1.5cm} p{1.5cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
       \multicolumn{6}{c}{Group Statistics} \\ \hline
              &  Residence & N & Mean & Std.Dev & Std.Error   \\ \hline
-     extracurrilcular activities &  Off & 157 & 12.0 & 2.00 & 0.159 \\
+     extracurricular activities &  Off & 157 & 12.0 & 2.00 & 0.159 \\
                                 &   On  & 174 & 10.2 & 1.95 & 0.148 \\ \hline 
                                 
    \end{tabular}
@@ -256,7 +255,7 @@ If we look at hours of students that either resides on or  off campus,
    \begin{tabular}{@{} p{3.4cm} p{2.1cm} p{1.0cm} p{1.2cm} p{1.3cm} p{1.8cm} p{1.8cm} @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
      & &  \multicolumn{5}{c}{t-test for Equality of Means} \\ \hline
          &    &  t & df & Sig. (2-tailed) & Mean Diff. & Std. Error Diff.   \\ \hline
-   extracurr. activities & Eq.Var.  & 8.491 & 329 & 0.0 & 1.84 & 0.2167 \\
+   extracurr. activities & Eq.Var.  & 8.491 & \fbox{329} & 0.0 & 1.84 & 0.2167 \\
                             & Not Eq.Var.    &  8.481  & 323.887 & 0.0 & 1.84 & 0.2169  \\ \hline 
                                 
    \end{tabular}
@@ -268,8 +267,9 @@ If we look at hours of students that either resides on or  off campus,
 		\samepage
 		\item Now let's consider the information in Table 9.4.  We notice that there are two rows
 			\begin{itemize}
-			\item EqVar indicates the variances of both independent groups are the same.
-			\item Not Eq.Var stands for the ratio of the larger variance divided by; the smaller variance is greater than two.
+			\item Recall that $s^2$ denotes the variance of each group. 
+			\item We use EqVar if the ratio $\frac{larger  s^2}{smaller  s^2} = 1.$
+			\item We use Not Eq.Var if the ratio $\frac{larger  s^2}{smaller  s^2} > 2.$
 			\item We will use the Eq.Var row since the ratio of the two variances is less than two.
 			\end{itemize}
 				
@@ -277,16 +277,16 @@ If we look at hours of students that either resides on or  off campus,
 		\item The test statistic $t = \frac{Mean Diff.}{SE} = \frac{1.84}{0.2167} = 8.491$   
 		\samepage
 		\item Sampling Distribution and Rejection Region \\
-		Sampling distribution: student t distribution (two-tailed), $\alpha = 0.05$ \\
-		Degrees of freedom (\emph{df}) is 329 from table 9.4 \\
+		Sampling distribution: Student t distribution (two-tailed), $\alpha = 0.05$ \\
+		Degrees of freedom (\emph{df}) is 329 from Table 9.4 \\
 		$CV = 1.96$ 
 		\samepage
 		\item Since $| t | = | 8.491 | > | CV | = | 1.96 |$,we reject the null hypothesis.
 		\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, $1.84$, important. 
 		
 		\end{itemize}
-	\item Conclusion in non-statistical language. \\
-	We can conclude with 95 percent confidence that extracurricular hours of students who reside either on-campus or off-campus. 
+	\item Put the conclusion in non-statistical language. \\
+	With 95 percent confidence, we can conclude that extracurricular hours of students who reside either on-campus or off-campus is different. 
 	
 	
 	\item Examination of Type I and Type II Errors.
@@ -315,27 +315,27 @@ Again, we note the two significant differences between the one-sample case consi
 \begin{enumerate}
 \item The one-sample case requires that a single random sample is selected while the two-sample case requires the two independent random samples are selected.
 	\begin{itemize}
-	\item This means that selecting samples from one of the sample will not affect the probabilities of selecting samples for the other case.
+	\item Here we mean that selecting samples from one of the sample will not affect the probabilities of selecting samples for the other case.
 	\end{itemize}
 \item The second difference is in the construction of the null and alternate hypotheses."
 	\begin{itemize}
-	\item Instead of comparing the results against a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
+	\item Instead of comparing the results to a single population mean or proportion, the samples will be assumed to come from a single homogenous population.
 	\end{itemize}
 \end{enumerate}
 
 \subsection{Example 1}
 
-One program is designed for divorce counseling.  The key feature of the program is its counselors who are married couples working in teams.  About half of all clients have been randomly assigned to this special program and half to the regular program.
+Our new program is designed for divorce counseling.  The key feature of the program is its counselors who are married couples working in teams.  About half of all clients have been randomly assigned to this new curriculum and a half to the regular program.
 
 \begin{itemize}
-\item The results for random samples of couples from both programs are reported here.  In terms of preventing divorce, did the program work?
+\item Table 9.5 reports the results for random samples of couples from both programs.  Regarding of preventing divorce, did the program work?
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lrr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       &  \multicolumn{2}{c}{Program} \\ \hline  
-     Divorce &  Special & Regular \\ \hline 
+     Divorce &  New & Regular \\ \hline 
       No  & 41 & 48 \\
       Yes & 37 & 34 \\ \hline
       Sample Size & 78 & 82 \\ \hline
@@ -345,18 +345,18 @@ One program is designed for divorce counseling.  The key feature of the program 
 \end{table}
 \end{itemize}
 
-Did the program work?  (Or at five percent level of significance, is the proportion of divorces of clients on particular program significantly lower than the proportion of divorces of clients on the regular program?)
+Did the new program work?  (Or at five percent level of significance, is the proportion of divorces of clients on new program significantly lower than the proportion of divorces of clients on the regular program?)
 
 \begin{enumerate}
-\item Identify from the research, what is being compared.  In the scenario, we want to compare two proportions -- special or regular program.
+\item Identify from the research, what is being compared.  In this scenario, we want to compare two proportions -- new or regular program.
 \item Formulate the null hypothesis.
 	\begin{itemize}
-	\item $H_0: P_s = P_r$
+	\item $H_0: P_n = P_r$
 	\end{itemize}
 \item Formulate the alternate hypothesis: \\
 Since the question asks if the program worked (divorce rate decreased), we will perform a one-tailed test.
 	\begin{itemize}
-	\item $H_A: P_s < P_r$
+	\item $H_A: P_n < P_r$
 	\end{itemize}
 \item Calculating the Test Statistic:
 
@@ -381,27 +381,29 @@ Z = \frac{P_{1s} - P_{2s}}{SE} = \frac{.5256 - .5854}{0.0786} = -0.76
        \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
        Sample & X & N & Sample p \\ \hline
        1 & 41 & 78 & 0.525641 \\
-       2 & 48 & 82 & 0.585266 \\                                
-   \end{tabular} \\
+       2 & 48 & 82 & 0.585266 \\ \hline                               
+   \end{tabular} 
+   
+ \vspace{3mm}  
    \begin{tabular}{@{} l @{}} 
    Difference = p(1) - p(2) \\
    Estimate for difference: -0.0597248 \\
    95\% upper bound for difference: 0.0693371 \\
-   Test for difference = 0 (vs $< 0$: Z = -0.76 P-Value = 0.224 \\ \hline
+   Test for difference = 0 (vs $< 0$): Z = -0.76, P-Value = 0.224 \\
    \end{tabular}
   \end{center} 
      
-\item Making the decision at the 5 percent level of significance.  \\
+\item How do we decide which program is more useful at the 5 percent level of significance?  \\
 Since $Z = -0.76 > -1.645$ and p-value = 0.224 $> 0.05$, we failed to reject the null hypothesis.  \\
 Again, the researcher must ask is the effect size $-0.0597$ important.
-\item Conclusion in non-statistical language.  There is not enough evidence to conclude that  the special program is more effective than the regular program in preventing divorce with 95 percent confidence. 
+\item Let's state the conclusion in non-statistical language.  We do not have sufficient statistical evidence to conclude that  the new program is more effective than the regular program in preventing divorce with 95 percent confidence. 
 
 \item Examination of Type I and Type II errors:
 	\begin{itemize}
 	\item If we had rejected the null hypothesis that there ``is no difference between the two proportions'' we may have committed a type I error, or 
-	\item Concluding that the special program is  more effective than the regular program in preventing divorce when the truth is, it is not.
+	\item Concluding that the new program is  more effective than the regular program in preventing divorce when the truth is, it is not.
 	\item Since we had failed to reject the null hypothesis, we may have committed a type II error, or 
-	\item Failing to conclude that the special program is more effective than the regular program in preventing divorce when the truth is, it is more effective.
+	\item Failing to conclude that the new program is more effective than the regular program in preventing divorce when the truth is, it is more useful.
 	\end{itemize}
 
 \end{enumerate}
@@ -452,7 +454,9 @@ Since the question asks if the new program is more effective,  we will perform a
        Sample & X & N & Sample p \\ \hline
        1 & 13 & 52 & 0.250000 \\
        2 & 7 & 56 & 0.125000 \\                                
-   \end{tabular} \\
+   \end{tabular} 
+   
+   \vspace{3mm}
    \begin{tabular}{@{} l @{}} 
    Difference = p(1) - p(2) \\
    Estimate for difference: 0.125  \\
@@ -464,7 +468,7 @@ Since the question asks if the new program is more effective,  we will perform a
 \item Making the decision at the 5 percent level of significance.  \\
 Since $Z = 1.67 > 1.645$ and p-value = 0.047 $< 0.05$, we reject the null hypothesis.  \\
 Again, the researcher must ask is the effect size $0.125$ important.
-\item Conclusion in non-statistical language.  Thus, the peer program is more effective than the regular program in program in improving depression with 95 percent confidence.
+\item The conclusion in non-statistical language.  Thus, the peer program is more effective than the regular program in program in improving depression with 95 percent confidence.
 
 \item Examination of Type I and Type II errors:
 	\begin{itemize}
