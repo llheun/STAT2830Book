@@ -325,7 +325,7 @@ Again, we note the two significant differences between the one-sample case consi
 
 \subsection{Example 1}
 
-Our new program is designed for divorce counseling.  The key feature of the program is its counselors who are married couples working in teams.  About half of all clients have been randomly assigned to this new curriculum and a half to the regular program.
+Researchers developed a new program for divorce counseling.  The key feature of the program is its counselors who are married couples working in teams.  They randomly assigned about half of all clients to the new curriculum and a half to the regular program.
 
 \begin{itemize}
 \item Table 9.5 reports the results for random samples of couples from both programs.  Regarding of preventing divorce, did the program work?
@@ -345,7 +345,7 @@ Our new program is designed for divorce counseling.  The key feature of the prog
 \end{table}
 \end{itemize}
 
-Did the new program work?  (Or at five percent level of significance, is the proportion of divorces of clients on new program significantly lower than the proportion of divorces of clients on the regular program?)
+Did the new program work?  (Or at five percent level of significance, is the proportion of divorces of clients on new program significantly lower than the percentage of divorces of patients in the regular program?)
 
 \begin{enumerate}
 \item Identify from the research, what is being compared.  In this scenario, we want to compare two proportions -- new or regular program.
@@ -384,7 +384,7 @@ Z = \frac{P_{1s} - P_{2s}}{SE} = \frac{.5256 - .5854}{0.0786} = -0.76
        2 & 48 & 82 & 0.585266 \\ \hline                               
    \end{tabular} 
    
- \vspace{3mm}  
+ \vspace{2mm}  
    \begin{tabular}{@{} l @{}} 
    Difference = p(1) - p(2) \\
    Estimate for difference: -0.0597248 \\
@@ -396,11 +396,11 @@ Z = \frac{P_{1s} - P_{2s}}{SE} = \frac{.5256 - .5854}{0.0786} = -0.76
 \item How do we decide which program is more useful at the 5 percent level of significance?  \\
 Since $Z = -0.76 > -1.645$ and p-value = 0.224 $> 0.05$, we failed to reject the null hypothesis.  \\
 Again, the researcher must ask is the effect size $-0.0597$ important.
-\item Let's state the conclusion in non-statistical language.  We do not have sufficient statistical evidence to conclude that  the new program is more effective than the regular program in preventing divorce with 95 percent confidence. 
+\item Let's state the conclusion in non-statistical language.  We can conclude with 95 percent confidence that the new program is not more useful than the regular program in preventing divorce.
 
 \item Examination of Type I and Type II errors:
 	\begin{itemize}
-	\item If we had rejected the null hypothesis that there ``is no difference between the two proportions'' we may have committed a type I error, or 
+	\item If we had rejected the null hypothesis that there ``is no difference between the two proportions'' we might have committed a type I error, or 
 	\item Concluding that the new program is  more effective than the regular program in preventing divorce when the truth is, it is not.
 	\item Since we had failed to reject the null hypothesis, we may have committed a type II error, or 
 	\item Failing to conclude that the new program is more effective than the regular program in preventing divorce when the truth is, it is more useful.
@@ -410,10 +410,10 @@ Again, the researcher must ask is the effect size $-0.0597$ important.
 	
 \subsection{Example 2}
 
-The agency is also experimenting with a peer counseling for depressed children.  A random sample of children from the experimental and regular counseling programs was selected.
+The agency is experimenting with a peer counseling for mentally depressed children.  They assigned a random sample of children to the peer, and regular counseling programs.
 
 \begin{itemize}
-\item The results of the number of children who were judged to be ``much improved'' are shown below.  Is the new program more effective?
+\item The results of the number of children who were judged to be ``much improved'' are shown below.  
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
@@ -430,19 +430,19 @@ The agency is also experimenting with a peer counseling for depressed children. 
 \end{table}
 \end{itemize}
 
-Is the new program more effective?  To answer this,  hypotheses testing on two sample proportions must be done.
+Is peer counseling more useful?  To answer this question, they establish the hypotheses testing on two sample proportions.
 
 \begin{enumerate}
-\item Identify from the research, what is being compared.  In the scenario, we want to compare two proportions -- special or regular counseling.
+\item The researchers \emph{identify} the problem; the agency is comparing what variables. In the scenario, they want to compare two proportions – peer versus regular counseling.
 \item Formulate the null hypothesis.
 	\begin{itemize}
 	\item $H_0: P_p = P_r$
 	  \begin{itemize}
-	  \item p = peer and r = regular
+	  \item p indicating peer and r indicating regular
 	  \end{itemize}
 	\end{itemize}
 \item Formulate the alternate hypothesis: \\
-Since the question asks if the new program is more effective,  we will perform a one-tailed test (much-improved rate increased) test.
+The question asks which program is more useful: regular or peer counseling.  We will perform a one-tailed test (much-improved rate increased).
 	\begin{itemize}
 	\item $H_A: P_p > P_r$
 	\end{itemize}
@@ -452,8 +452,8 @@ Since the question asks if the new program is more effective,  we will perform a
    \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
        \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
        Sample & X & N & Sample p \\ \hline
-       1 & 13 & 52 & 0.250000 \\
-       2 & 7 & 56 & 0.125000 \\                                
+       p & 13 & 52 & 0.250000 \\
+       r & 7 & 56 & 0.125000 \\ \hline                            
    \end{tabular} 
    
    \vspace{3mm}
@@ -461,27 +461,27 @@ Since the question asks if the new program is more effective,  we will perform a
    Difference = p(1) - p(2) \\
    Estimate for difference: 0.125  \\
    95\% upper bound for difference: 0.247637 \\
-   Test for difference = 0 (vs $> 0$: Z = 1.67 P-Value = 0.0474 \\ \hline
+   Test for difference = 0 (vs $> 0$): Z = 1.67, P-Value = 0.0474 \\ 
    \end{tabular}
   \end{center} 
      
-\item Making the decision at the 5 percent level of significance.  \\
-Since $Z = 1.67 > 1.645$ and p-value = 0.047 $< 0.05$, we reject the null hypothesis.  \\
+\item How do we decide which program is more useful?  \\
+Since $Z = 1.67 > Z^* \footnote{Critical Value} = 1.645$ and p-value = 0.047 $< \alpha = 0.05$, therefore, we reject the null hypothesis. \\
 Again, the researcher must ask is the effect size $0.125$ important.
-\item The conclusion in non-statistical language.  Thus, the peer program is more effective than the regular program in program in improving depression with 95 percent confidence.
+\item State the conclusion in non-statistical language.  Peer counseling is more effective than regular counseling in a program to improve mental depression in children with 95 percent confidence.
 
 \item Examination of Type I and Type II errors:
 	\begin{itemize}
-	\item Since we had rejected the null hypothesis that there ``is no difference between the two proportions'' we may have committed a type I error, or 
-	\item Concluding that the peer  program is  more effective than the regular program in improving depression when in, it's not.
-	\item If we had failed to reject the null hypothesis, we may have committed a type II error, or 
-	\item Failing to conclude that the peer program is more effective than the regular program in 
-	improving depression when the truth is, it is more effective.
+	\item Since we had rejected the null hypothesis that there ``is no difference between the two proportions'' we might have committed a type I error, or 
+	\item Concluding that peer counseling is more effective than regular counseling in improving mental depression when it is not.
+	\item If we had failed to decline the null hypothesis, we might have committed a type II error, or 
+	\item Failing to conclude that peer counseling is more effective than regular counseling in 
+	improving mental depression when in truth, it is more useful.
 	\end{itemize}
 
 \end{enumerate}
 
-
+\pagebreak
 \section{Key Words}
 
 \begin{itemize}
@@ -499,7 +499,7 @@ Again, the researcher must ask is the effect size $0.125$ important.
   \begin{exercise} %1 
   
   
-    The next 3 questions refer to the following scenario. 
+    The next three questions refer to the following scenario. 
     Is Friday the $13^{th}$ unlucky?  Researchers collected the data on the numbers of hospital admissions resulting from motor vehicle crashes from a sample of six (6) Friday the $6^{th}$ and six (6) Friday the $13^{th}$.  Use a 5 percent significance to test if the results indicate a difference between the two sample means.
     
     What are the hypotheses for this question?
@@ -639,14 +639,14 @@ Again, the researcher must ask is the effect size $0.125$ important.
     \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
        \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
        Sample & X & N & Sample p \\ \hline
-       1 & 347 & 386 & 0.898964 \\
-       2 & 305 & 359 & 0.849582 \\                                
+       1 (women) & 347 & 386 & 0.898964 \\
+       2 (men) & 305 & 359 & 0.849582 \\ \hline                               
     \end{tabular} \\
     \begin{tabular}{@{} l @{}} 
     Difference = p(1) - p(2) \\
     Estimate for difference: -0.0493816 \\
     95\% CI for difference: (0.00172287, 0.0970402)  \\
-    Test for difference = 0 (vs not $= 0$: Z = 2.04 P-Value = 0.042 \\ \hline
+    Test for difference = 0 (vs not $= 0$): Z = 2.04, P-Value = 0.042 \\ 
     \end{tabular}
 	  \begin{enumerate}
 	  \item Conclude that there is a difference.
@@ -663,6 +663,100 @@ Again, the researcher must ask is the effect size $0.125$ important.
 	\begin{solution}
 	  Conclude that there is a difference, since the test statistic (z = 2.04) is greater than the critical value (z = 1.96).  Therefore, reject $H_0$
 	\end{solution} 
+	
+	  \begin{exercise} % 7
+    
+    
+    The next four quesions refer to the following scenario.
+    Suppose about half of the public safety officers in Kalamazoo, Michigan, had finalize a special curriculum in investigative procedures.  Did the course increase their effectiveness in clearing crimes by arrest?  The results of the survey are reported below:
+    
+    \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+      & \multicolumn{2}{c}{Frequency Distribution} \\ \hline
+        & Trained (1) & Untrained (2) & Total \\ \hline
+       Cleared & 75 & 49 & 124 \\
+       Uncleared & 85 & 66 & 151 \\ \hline 
+       Total     & 160 & 115 & 275 \\ \hline
+    \end{tabular} \\   
+    
+    What are the hypotheses for this question?
+	  \begin{enumerate}
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 \neq P_2$
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 < P_2$
+	  \item $H_0: P_1 < P_2$ vs. $H_A: P_1 = P_2$
+	  \item $H_0: P_1 = P_2$ vs. $H_A: P_1 > P_2$	
+	  \item $H_0: P_1 < P_2$ vs. $H_A: P_1 > P_2$
+	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+    $H_0: P_1 = P_2$ vs. $H_A: P_1 > P_2$
+  \end{solution}
+  
+  \begin{exercise} % 8 
+  
+  
+      % A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant?  
+  
+      What is the sampling distribution and critical value?  Use a 5 percent significance to test if the difference in significant?
+	  \begin{enumerate}
+	  \samepage
+	  \item Standard Normal (z) distribution, $Z = \pm1.96$.
+	  \samepage
+	  \item Standard Normal (z) distribution, $Z = \pm1.645$.
+	  \samepage
+	  \item Student's t distribution, $T = \pm1.9632$.
+	  \samepage
+	  \item Student's t distribution, $T = +1.6469$
+	  \samepage
+	  \item Cannot be determined with the information provided
+	  \end{enumerate} 
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+    Standard Normal (z) distribution, $Z = \pm1.645$.
+  \end{solution}
+  
+  \begin{exercise} % 9
+  
+  
+    % A Pew Research Center poll asked randomly selected subjects if they agreed with the statement that ``It is morally wrong for married people to have an affair.''  Among the 386 women surveyed, 347 agreed and among the 359 men, 305 agreed.  Use a 5 percent significance to test if the difference in significant? 
+    
+    Given the computer output,  what would you conclude with 95 percent confidence?
+
+    \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space   
+       \multicolumn{4}{c}{Test and CI for Two Proportion} \\ \hline
+       Sample & X & N & Sample p \\ \hline
+       1 (women) & 347 & 386 & 0.898964 \\
+       2 (men) & 305 & 359 & 0.849582 \\ \hline                               
+    \end{tabular} \\
+    \begin{tabular}{@{} l @{}} 
+    Difference = p(1) - p(2) \\
+    Estimate for difference: -0.0493816 \\
+    95\% CI for difference: (0.00172287, 0.0970402)  \\
+    Test for difference = 0 (vs not $= 0$): Z = 2.04, P-Value = 0.042 \\ 
+    \end{tabular}
+	  \begin{enumerate}
+	  \item Conclude that there is a difference.
+	  \item Conclude that there is no difference.
+	  \item Conclude that there is no morality left in marriage.
+	  \item There is too much variation here to conclude anything.
+	  \item Conclude that both men and women are immoral.
+	  \end{enumerate}
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+	\end{exercise}
+	\vspace{2mm}
+	\begin{solution}
+	  Conclude that there is a difference, since the test statistic (z = 2.04) is greater than the critical value (z = 1.96).  Therefore, reject $H_0$
+	\end{solution} 
+	
 	
 \end{exercises}
 	
