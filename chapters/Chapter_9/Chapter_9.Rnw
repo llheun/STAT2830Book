@@ -764,11 +764,11 @@ Again, the researcher must ask is the effect size $0.125$ important.
     Given the computer output, Exercise 9.6-9, the 95 percent confidence interval for the difference between the proportion of cases closed by arrest between the PSO, who received the IPC and those PSO who did not get the IPC was (-0.0763, 0.1616).  Which of the following is an appropriate interpretation?
     
 	  \begin{enumerate}
-	  \item we are confident that there was no difference in the proportion of PSO, who received the IPC  training and the PSO, who did not get the IPC since zero is between the lower and upper bounds of the CI.
+	  \item we are confident that there was no difference in the proportion of PSO, who received the IPC  training and the PSO, who did not get the IPC since zero is within the bounds of the CI.
 	  \item With 95 percent confidence, we can conclude there was no difference in the proportion of PSO, who received the sampled IPC training and the sampled PSO, who did not get the IPC since zero is between the lower and upper bounds of the CI.
-	  \item With 95 percent confidence, we can conclude there was a difference in the proportion of PSO, who received the IPC  training and the PSO, who did not get the IPC since zero is between the lower and upper bounds of the CI.
+	  \item With 95 percent confidence, we can conclude there was a difference in the proportion of PSO, who received the IPC  training and the PSO, who did not get the IPC since zero is within the bounds of the CI.
 	  \item There is too much variation here to conclude anything.
-	  \item With 95 percent confidence, we can conclude there was no difference in the proportion of PSO, who received the IPC  training and the PSO, who did not get the IPC since zero is between the lower and upper bounds of the CI.
+	  \item With 95 percent confidence, we can conclude there was no difference in the proportion of PSO, who received the IPC  training and the PSO, who did not get the IPC since zero is within the bounds of the CI.
 	  \end{enumerate}
 	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
