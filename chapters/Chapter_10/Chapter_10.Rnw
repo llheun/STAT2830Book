@@ -7,18 +7,21 @@
 After reading chapter ten and doing the exercises, you will be able to
 \begin{itemize}
 \item Point out and cite examples of when more than two sample proportion is appropriate.
-\item Perform a test of hypothesis for more than two-sample  
+\item Perform a test of hypothesis for more than two sample  
 proportions following the 5-step process and interpret the results.
 \end{itemize}
 
 \section{Chi-square Test for Independence}
   
-The Chi-square is a test that compares two or more categories that are mutually exclusive.  It is a non-parametric test that compares proportions observed in a research study to the  expected proportions.  If the difference between the observed proportion and the expected proportion are similar, [$(P_1 - P_2) \sim 0$] then we would not expect a significant difference between the two proportions; however, as this difference becomes larger, the calculated Chi-square value also increases.  [These differences are equal to the sum of all the squares of deviations, [(observed counts minus expected counts) squared] divided by the expected counts.]
+The Chi-square is a test that compares two or more categories that are mutually exclusive.  It is a non-parametric test that compares proportions observed in a research study to the  expected proportions.  
+
+
+If the difference between the observed proportion and the expected proportion are similar, [$(P_1 - P_2) \sim 0$] then we would not expect a significant difference between the two proportions. However, if the difference between the observed proportion and the expected proportion diverge, then we can expect the size of the Chi-square value to become larger. [These differences are equal to the sum of all the squares of deviations, [(observed counts minus expected counts) squared] divided by the expected counts.]
 The Chi-square becomes significant when it exceeds the value in the chi-square table.  We will examine this process shortly.   
 
 \subsection{Example 1}
 
-In a study of drug usage by students at a large university, data was obtained regarding hard liquor experience of smokers and non-smokers.
+In a survey of drug use among students at WMU, data compared usage of alcohol and smoking. Table 10.1 presents the results of the study:
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -37,13 +40,11 @@ In a study of drug usage by students at a large university, data was obtained re
    \label{tab:c10_1}
 \end{table}
 
-In this study, the interest is whether or not liquor experience is independent of smoking.  A common perception of the researcher is that those who had hard-liquor are more likely to be smokers.
-
-Test if hard liquor use is independent of smoking at $\alpha = 0.05$.
+In this study, the researchers were testing the relationship between the liquor experience and smoking.  Most people in this field of research believe that there is a relationship between smoking and drinking hard liquor.  So they set-up an experiment to see if smoking is independent hard liquor use at $\alpha = 0.05$.
 
 \begin{itemize}
-\item If there is association or dependence, then we would expect that more students who never had hard liquor are also non-smokers.  Also, those who had hard-liquor are likely to be smokers.
-\item On the other hand, if there is no association or dependence, then we would expect the same proportion of students who are non-smokers and smokers.
+\item If there is a relationship between drinkers of hard liquor and smokers, then we would assume that more students who never smoked are also non-drinkers of hard liquor. Also, those who drink hard liquor are likely to be smokers.
+\item In other words, if there is no association or independence, then we would expect the same proportion of students who are non-smokers and smokers.
 \item Note: hard-liquor use and smoking are the two variables, and each variable has two categories or level.
 \end{itemize}
 

@@ -161,8 +161,8 @@
 \contentsline {chapter}{\numberline {10}Testing Equality of two or more Proportions }{145}
 \contentsline {section}{\numberline {10.1}Objective}{145}
 \contentsline {section}{\numberline {10.2}Chi-square Test for Independence}{145}
-\contentsline {subsection}{\numberline {10.2.1}Example 1}{145}
-\contentsline {subsection}{\numberline {10.2.2}Example 2}{148}
+\contentsline {subsection}{\numberline {10.2.1}Example 1}{146}
+\contentsline {subsection}{\numberline {10.2.2}Example 2}{147}
 \contentsline {section}{\numberline {10.3}Chi-square Goodness-of-Fit Test}{150}
 \contentsline {subsection}{\numberline {10.3.1}Example 1}{150}
 \contentsline {section}{\numberline {10.4}Key Words}{152}
