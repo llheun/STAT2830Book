@@ -476,7 +476,6 @@ CV & = & 7.815
   
 \end{exercises}
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}	
+
 	
 	

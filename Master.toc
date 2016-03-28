@@ -167,3 +167,10 @@
 \contentsline {subsection}{\numberline {10.3.1}Example 1}{150}
 \contentsline {section}{\numberline {10.4}Key Words}{152}
 \contentsline {section}{\numberline {10.5}Exercises}{153}
+\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{155}
+\contentsline {section}{\numberline {11.1}Objective}{155}
+\contentsline {section}{\numberline {11.2}What is ANOVA?}{155}
+\contentsline {subsection}{\numberline {11.2.1}Example 1}{156}
+\contentsline {subsection}{\numberline {11.2.2}Example 2}{158}
+\contentsline {section}{\numberline {11.3}Key Words}{161}
+\contentsline {section}{\numberline {11.4}Exercises}{162}
