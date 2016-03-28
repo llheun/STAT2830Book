@@ -19,13 +19,13 @@ relationships between variables.
 
 \section{What is ANOVA?}
 
-The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means a one time by using variances.  For example, you could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  You should note that the one-way ANOVA is an overall test statistic which will not allow you to determine the specific group that  was significantly different from the other groups.  It only indicates that you have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
+The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means a one time by using variations.  For example, you could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  You should note that the one-way ANOVA is an overall test statistic which will not allow you to determine the specific group that  was significantly different from the other groups.  It only indicates that you have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
 
 
 \subsection{Example 1}
 
 \begin{itemize}
-\item Are the means for categories A, B, and C significantly different at 5 percent of signifance?
+\item Are the means for categories A, B, and C significantly different at 5 percent of significance?
 
 \begin{minipage}[ht]{6.5cm}
 % Requires the booktabs if the memoir class is not being used
@@ -86,17 +86,16 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
    \begin{tabular}{@{} ll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Model: & Independent random samples \\
-             & Level of Measurement is interval-ratio \\
-             & Populations are normally distributed \\
-             & Population variances are equal \\ \hline 
-             
+      1 & Random samples are independent; \\
+       2      & Level of Measurement is interval-ratio; \\
+        3     & The distribution of populations is normal; \\
+         4    & Population variations are equal. \\ \hline 
    \end{tabular}
-   \caption{Assumptions }
+   \caption{Model Assumptions \cite[Page 249]{Healey2012} }
    \label{tab:t11_2}
 \end{table}
 
-\item Step 2.  Stating the Hypotheses.
+\item Step 2. State the Hypotheses.
 
  $H_0: \mu_A = \mu_B = \mu_c$ (all of the population means are equal) \\
  $H_a:$ at least one of the population means $(\mu)$ is different. \\
@@ -142,7 +141,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
    Error & 6 & 12 & 2 &  &  \\  \hline
    Total & 8 & 38 \\ \hline
  \end{tabular}
- \caption{SPSS output}
+ \caption{SPSS output \cite[Page 269]{Healey2012}}
  \label{tab:t11_4}
  \end{table}
  
@@ -156,7 +155,7 @@ MS_{Error} &= 2 \\
 F_{obtained} &= 6.5 
 \end{align*}
 
-\item Step 5: Making a Decision and interpreting the Results of the Test
+\item Step 5: Deciding and interpreting the Results of the Test
 
 \begin{align*}
 F_{obtained} &= 6.5 \\
@@ -165,7 +164,7 @@ pvalue &= 0.031 \\
 \alpha &= 0.05 \\
 \end{align*}
 
-Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Category means is different.
+Since $6.5 > 5.14$, we reject the null hypothesis.  Thus, at least, one of the Category means is different.
 
 \end{itemize}
 
@@ -174,7 +173,7 @@ Since $6.5 > 5.14$, we reject the null hypothesis.  Thus at least one of the Cat
 
 \begin{itemize}
 \item 
-Does the percentage of voter turn-out change significantly by the type of election?  A analyst at the state level of government chose a random sample of precincts to elucidate the findings.  You have been called in to help with the analysis.  Assess the results.
+Does the percentage of voter turn out to change significantly by the type of election?  An analyst at the state level of government chose a random sample of precincts to elucidate the findings.  Since you had a stat course in college, your supervisor asked you to help with the analysis.  Assess the results.
 
 \begin{minipage}[ht]{5cm}
 % Requires the booktabs if the memoir class is not being used
@@ -233,7 +232,7 @@ Does the percentage of voter turn-out change significantly by the type of electi
 @
 
 
-Based on the above samples, does there appear to be a difference between the three sample means?  But is this difference real?  We will use the five step model to confirm our initial assumption. 
+Based on the above samples, does there appear to be a difference between the three sample means?  But is this difference real?  We will use the five-step model to confirm our initial assumption. 
 
 % \pagebreak
 
@@ -247,19 +246,19 @@ Based on the above samples, does there appear to be a difference between the thr
    \begin{tabular}{@{} ll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Model: & Independent random samples \\
-             & Level of Measurement is interval-ratio \\
-             & Populations are normally distributed \\
-             & Population variances are equal \\ \hline 
+      1 & Random samples are independent; \\
+       2      & Level of Measurement is interval-ratio; \\
+        3     & The distribution of populations is normal; \\
+         4    & Population variances are equal. \\ \hline 
              
    \end{tabular}
-   \caption{Assumptions }
+   \caption{Model Assumptions \cite[Page 249]{Healey2012} }
    \label{tab:t11_7}
 \end{table}
 
 Note: that there is an outlier in the local elections that may affect the conclusions we draw from this analysis.
 
-\item Step 2.  Stating the Hypotheses.
+\item Step 2.  State the Hypotheses.
 
  $H_0: \mu_{local} = \mu_{state} = \mu_{national}$ (all of the population means are equal) \\
  $H_a:$ at least one of the population means $(\mu)$ is different. \\
@@ -321,16 +320,16 @@ MS_{Error} &= 220 \\
 F_{obtained} &= 7.59 
 \end{align*}
 
-\item Step 5: Making a Decision and interpreting the Results of the Test
+\item Step 5: Deciding and interpreting the Results of the Test
 
 \begin{align*}
 F_{obtained} &= 7.59 \\
 F_{critical} &= 3.32 \\
-pvalue &= 0.002 \\
+p-value &= 0.002 \\
 \alpha &= 0.05 \\
 \end{align*}
 
-Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the Elect.type means is different.
+Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the Elect.type average is different.
 
 
 \end{itemize}
@@ -357,7 +356,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
 
   \begin{exercise} % 1
   
-    A random sample of 18 couples has measured the marital happiness scale in a local community.  The couples were classified by type of relationship: traditional, dual\_career, and cohabitation.  Does marital happiness vary significantly by type of relationship.  The $F_{critical} = 3.68$ at the 5 percent level of significance.
+    A random sample of 18 couples has measured the marital happiness scale in a local community.  The researcher classified couples by type of relationship: traditional, dual\_career, and cohabitation.  Does marital satisfaction vary significantly by type of relationship?  The $F_{critical} = 3.68$ at the 5 percent level of significance.
 
   %<<t11_3, echo=FALSE>>=
   %  
@@ -403,7 +402,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus at least one of the El
   
   \begin{exercise} % 2
   
-    A random sample of 18 couples has measured the marital happiness scale in a local community.  The couples were classified by type of relationship: traditional, dual\_career, and cohabitation.  Does marital happiness vary significantly by type of relationship.  The $F_{critical} = 3.68$ at the 5 percent level of significance.
+    A random sample of 18 couples has measured the marital happiness scale in a local community.  The researcher classified couples by type of relationship: traditional, dual\_career, and cohabitation.  Does marital satisfaction vary significantly by type of relationship?  The $F_{critical} = 3.68$ at the 5 percent level of significance.
 
     %<<t11_3, echo=FALSE>>=
     %  
