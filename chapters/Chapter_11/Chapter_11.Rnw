@@ -4,9 +4,9 @@
 \label{chap:ch11}
 
 \section{Objective}
-By the end of this chapter, you will be able to
+After reading chapter eleven and doing the exercises, you will be able to
 \begin{itemize}
-\item Identify and cite examples of when an ANOVA test is appropriate.
+\item Point out and cite examples of when an ANOVA test is appropriate.
 \item Explain the logic of hypothesis testing as applied to ANOVA.
 \item Perform the ANOVA test of following the 5-step process and interpret
 the results.

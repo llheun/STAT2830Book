@@ -66,13 +66,13 @@ In this example.
 \begin{center}
 \begin{tabular}{@{} ll @{}} 
 $H_0:$ & Hard-liquor use and smoking are independent  \\
-$H_A:$ &  Hard-liquor use and smoking are dependent.
+$H_A:$ &  Hard-liquor utilization and smoking are dependent.
 \end{tabular}
 \end{center}
  
 Note: When \emph{independent}, then we expect the same proportion of smokers per group.  But if \emph{dependent}, the proportions will differ.
 
-\item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+\item Step 3.  Deciding the Sampling Distribution and Set up the Critical Region.
 
 \begin{tabular}{@{} rcl @{}}
 Sampling Distribution & = & $\chi^2$ distribution \\
@@ -109,7 +109,7 @@ f_e &= \frac{RowTotal \times ColumnTotal}{GrandTotal} \\
  &= 14.18 
 \end{align*}
      
-We have provided a SPSS output of the Chi-square analysis.  Note the test statistic is the \emph{Pearson Chi-square Value}.    
+We have provided an SPSS output of the Chi-square analysis.  Note the test statistic is the \emph{Pearson Chi-square Value}.    
      
 \begin{figure}[htbp]
    \centering
@@ -120,7 +120,7 @@ We have provided a SPSS output of the Chi-square analysis.  Note the test statis
 
           
 
-\item Step 5.  Making a Decision and Interpreting the Results of the Test.
+\item Step 5.  Producing a Decision and Interpreting the Results of the Test.
 	\begin{itemize}
 	\samepage
 	\item Since the $\chi^2$ (14.18) $>$ CV(3.841) and p-value (0.00) $< \alpha (0.05)$, reject the null hypothesis.
@@ -132,7 +132,7 @@ We have provided a SPSS output of the Chi-square analysis.  Note the test statis
 
 \subsection{Example 2}
 
-A random sample of 100 social work majors have been classified in terms of whether the Council on Social Work Education has accredited their undergraduate programs (the \emph{independent variable}) and whether they were hired in social work positions within three months of graduation (the \emph{dependent variable}).
+We have classified a random sample of 100 social work majors regarding whether the Council on Social Work Education has accredited their undergraduate programs (the \emph{independent variable}) and whether they are working in social work positions within three months of graduation (the \emph{dependent variable}).
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -152,12 +152,12 @@ A random sample of 100 social work majors have been classified in terms of wheth
 \end{table}
 
 
-From table 10.3, Can we conclude from these data at a 5 percent level of significance that the employment status is dependent on the Accreditation Status?
+From Table 10.3, Can we conclude from these data at a 5 percent level of significance that the employment situation is dependent on the Accreditation Status?
 
 \begin{itemize}
-\item If there is association or dependence, then we would expect that more accredited social worker working in their field.  Likewise, we would expect that more non-accredited social worker not working in their field.
+\item If there is association or dependence, then we would expect that more accredited social worker was working in their field.  Likewise, we would expect that more non-accredited social worker is not operating in their sector.
 
-\item On the other hand, if there is no association, then we would expect that fewer accredited social worker working in their field.  Likewise, we would expect that more non-accredited social worker working in their field.
+\item On the other hand, if there is no association, then we would expect that fewer accredited social worker was working in their field.  Likewise, we would expect that more non-accredited social worker is working in their sector.
 
 \end{itemize}
 
@@ -174,7 +174,7 @@ $H_A:$ &  Employment Status and Accreditation Status are dependent
 \end{tabular}
 \end{center}
  
-\item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+\item Step 3. Deciding the Sampling Distribution and Set up the Critical Region.
 
 \begin{tabular}{@{} rcl @{}}
 Sampling Distribution & = & $\chi^2$ distribution \\
@@ -211,7 +211,7 @@ There is another way to look at this data.
    
 \end{minipage}
 
-We have provided a SPSS output of the Chi-square analysis.  Note: the test statistic is the \emph{Pearson Chi-square Value}. 
+We have provided an SPSS output of the Chi-square analysis.  Note: the test statistic is the \emph{Pearson Chi-square Value}. 
      
 \begin{figure}[htbp]
    \centering
@@ -232,7 +232,7 @@ We have provided a SPSS output of the Chi-square analysis.  Note: the test stati
 
 \section{Chi-square Goodness-of-Fit Test}
 
-When you try to fit a statistical model to observed data, you may wonder how well the model actually reflects the data.  How ``close'' are the observed values to those which would be expected under the fitted model?  One statistical test that addresses this issue is the \emph{chi-square goodness of fit test}.
+When you try to fit a statistical model to observed data, you may wonder how well the model demonstrate the data. The Chi-square goodness of fit test measures how “close” observed values are to the expected values under the fitted model. 
 
 \subsection{Example 1}
 
@@ -280,7 +280,7 @@ Now let's consider the five-step model presented in Chapter 8.
 \end{table}
 
 \begin{itemize}
-\item Step 1. Read the table carefully
+\item Step 1. Read the tabulation carefully
 \item Step 2. Stating the Hypotheses 
 
 \begin{center}
@@ -290,7 +290,7 @@ $H_A:$ &  There is a difference in the attendance by Class.
 \end{tabular}
 \end{center}
  
-\item Step 3.  Selecting the Sampling Distribution and Establishing the Critical Region.
+\item Step 3.  Deciding the Sampling Distribution and Establishing the Critical Region.
 
 \begin{tabular}{@{} rcl @{}}
 Sampling Distribution & = & $\chi^2$ distribution \\
@@ -325,12 +325,12 @@ CV & = & 7.815
      
          
 
-\item Step 5.  Making a Decision and Interpreting the Results of the Test.
+\item Step 5.  Producing a Decision and Interpreting the Results of the Test.
 	\begin{itemize}
 	\samepage
 	\item Since the $\chi^2$ (33.79) $>$ CV(7.815) and p-value (0.000) $< \alpha (0.05)$, reject the null hypothesis.
 	\samepage
-	\item There is a difference in the support for the basketball team by class with 95 percent confidence.
+	\item There is a difference in encouraging the basketball team by class with 95 percent confidence.
 	\end{itemize}
 	 
 \end{itemize}
