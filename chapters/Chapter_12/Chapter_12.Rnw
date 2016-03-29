@@ -8,10 +8,10 @@ After reading chapter twelve and doing the exercises, you will be able to
 \begin{itemize}
 
 \item Interpret  a scatter plot.
-\item Interpret the correlation coefficent $r$ and $r^2$.
-\item Find and eludicate the regression line and use it to predict values of the response variable.
-\item Put into words the concepts of total, unexplained, and explained variation.
-\item Use correlation and regression techniques to evaluate two variable relationships.
+\item Interpret the correlation coefficient $r$ and $r^2$.
+\item Find and elucidate the regression line and use it to predict values of the response variable.
+\item Put into words the concepts of the total, unexplained, and explained variation.
+\item Use correlation and regression techniques to evaluate two-variable relationships.
 
 \end{itemize}
   
@@ -19,13 +19,13 @@ After reading chapter twelve and doing the exercises, you will be able to
 
 \section{What is Correlation?}
 
-The correlation is a common and useful statistics.  It is a single number from $-1$ to $+1$ that indicates the strength of relationship between the two variables.  If the number is between $-0.3$ and $+0.3 $, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship.   The following example shows us how to interpret the results.
+The correlation is a common and useful statistics.  It is a single number from $-1$ to $+1$ that indicates the strength of the relationship between the two variables.  If the number is between $-0.3$ and $+0.3 $, then we will say that the relationship is weak or non-existent. Otherwise, we will say that the relationship is either moderate or strong.  By the way, the closer we are to a $-1$ or a $+1$ the stronger the relationship.   The following example shows us how to interpret the results.
 
 \subsection{Example 1}
 
 \begin{minipage}[ht]{7cm}
 
-Let's look at the relationship between the height (in meters) and self esteem (1 - 5 scale where 5 means  higher esteem).  Let's hypothesize that height of  a male  affects the male's self esteem.  We probably don't need to be concerned about the direction of causality, it is  imlikely that self esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  By not using females heights  will simplify  the analysis.
+Let's hypothesize that height of a male  affects the male's self-esteem.  We probably don't need to be concerned about the direction of causality; it is  unlikely that self-esteem causes a person's height.  We select a random sample of twenty males because we know that male heights are different from female heights.  By not using females heights  will simplify  the analysis.
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6cm}
@@ -69,9 +69,9 @@ Person & Height & Self.esteem \\ \hline
   
 @
 
-As we review the scatter plot, we see that the direction of the relationship is positive, (i.e., as height increases, self esteem increases).  
+As we review the scatter plot, we see that the direction of the relationship is positive, (i.e., as height increases, self-esteem increases).  
 
-Based on the above graphic (Figure: 12.1), there appears to be a relationship between the two variables -- height and self esteem.  But is this relationship real?  We will use the five step model to confirm our initial assumption. 
+Based on the above graphic (Figure: 12.1), there appears to be a relationship between the two variables -- height and self-esteem.  But is this relationship real?  We will use the five-step model to confirm our initial assumption. 
 
 \begin{itemize}
 \item {\bf{Step 1.}}  Making Assumptions and Meeting Test Requirements.
@@ -84,23 +84,23 @@ Based on the above graphic (Figure: 12.1), there appears to be a relationship be
    \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Model: & Random sampling  \\
-             & Level of Measurement is interval-ratio \\
-             & Bivariate normal distribution \\
-             & Linear relationship \\
-             & Variance of $Y$ scores is uniform for all $X$ values. \\
-             & Sampling distribution is bell-shaped. \\ \hline
+      1& Random sampling  \\
+       2      & Level of Measurement is interval-ratio \\
+        3     & Bivariate normal distribution \\
+         4    & Linear relationship \\
+          5   & The variance of $Y$ scores is uniform for all $X$ values. \\
+           6  & The sampling distribution is bell-shaped. \\ \hline
              
    \end{tabular}
-   \caption{Assumptions }
+   \caption{Model Assumptions }
    \label{tab:t12_1}
 \end{table}
 
 
 
-\item {\bf{Step 2.}}  Stating the Hypotheses.
+\item {\bf{Step 2.}}  State the Hypotheses.
 
- $H_0: \rho = 0$ (there is no relationship between height and self esteem) \\
+ $H_0: \rho = 0$ (there is no relationship between height and self-esteem) \\
  $H_a: \rho \neq 0$  ($\rho$ represents the population correlation coefficient.)
  
  \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.
@@ -133,7 +133,7 @@ t_{obtained} &= r \sqrt{ \frac{n - 2}{1 - r^2}} \\
               &= 4.4145 \\
 \end{align*}
 
-From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r = 0.721$.  Using the above equation, the test statistic is 4.41.
+From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r = 0.721$.  In step 4, we compute the correlation coefficient value as 4.41.
 
   \begin{figure}[ht]
     \centering
@@ -142,9 +142,9 @@ From figure (12.2, SPSS printout), we find Pearson Correlation coefficient, $r =
     \label{fig:f12_2}
  \end{figure}
   
-\item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
+\item {\bf{Step 5:}} Deciding and Interpreting the Results of the Test
 
-Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus we can say that there is a strong, positive relationship  between male height and male self esteem.
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 4.41 > 2.10 $), we reject the null hypothesis.  Thus, we can say that there is a strong, positive relationship  between male height and male self-esteem.
 
 \end{itemize}
 
@@ -153,12 +153,12 @@ Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ val
 
 \section{What is Linear Regression?}
 
-Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  If there is an obvious (linear) relationship between the two variables, then the simple linear regression is the correct method.  Let's examine an example that will help explain the process.
+Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  The researcher will choose the linear regression model if there is an apparent (linear) relationship.  Let's examine an example that will help explain the process.
 
 \vspace{5mm}
 \begin{minipage}[ht]{7cm}
 
-Let's examine the relationship between the percent change of city population growth  from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable that we want to predict.  
+Let's consider the relationship between the percent change of city population growth  from 2000 and 2008 and the number of annual car thefts.  As a researcher, we review the level of measurement and find that both variables are interval-ratio.  So we consider using the scatter plot.  It has two dimensions, the x-axis which is the explanatory (X) variable and the y-axis which is the response (Y) variable that we want to predict.  
 
 \end{minipage} \hfill
 \begin{minipage}[ht]{6cm}
@@ -201,19 +201,19 @@ Let's examine the relationship between the percent change of city population gro
 
 \subsubsection{Interpreting Scatter Plot}
 
-The pattern of points on the graph seem to indicate that  city growth (percent change from 2000 to 2008)  increases so does the number of auto thefts increase.  
-To demonstrate this pattern, we can draw a straight line that approximates the best fit among the points (See figure 12.3).
+The pattern of points on the graph seems to indicate that  city growth (percent change from 2000 to 2008)  increases so does the number of auto thefts increase.  
+To demonstrate this pattern, we can draw a straight line that approximates the best fit for the points (See figure 12.3).
 
 \subsubsection{Does a Relationship Exist?}
 
-The definition of an assocation states that the relationship of two variables will vary in the same direction either positive or negative.  As the \emph{X}-variable increases, the \emph{Y}-variable will increase (decrease if the direction is negative).  
-If a relationship exists between these two variables, then the best fitted line through the points will not be parallel with the x-axis.
+The definition of an association states that the relationship between two variables will vary in the same direction either positive or negative.  As the \emph{X}-variable increases, the \emph{Y}-variable will increase (decrease if the direction is negative).  
+If a linear relationship exists between these two variables, then the best-fitted line through the points will not be parallel with the x-axis.
 % In other words, the \emph{X-Y} pair represents a point on the scatter plot.  
 In a subsequent section, we will use a statistical method to test this hypothesis.
 
 \subsubsection{How Strong is the association?}
 
-The strength of this relationship is assessed by the density around the fitted regression line.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are posited away from the line, the relationship become weaker.  What we are really talking about here is the correlation coefficient.
+The density around the fitted regression line assesses the strength of this relationship.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are posited away from the line, the relationship becomes weaker.  What we are talking about here is the correlation coefficient.
 
 From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a strong correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
 
