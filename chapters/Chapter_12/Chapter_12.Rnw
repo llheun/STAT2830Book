@@ -213,9 +213,9 @@ In a subsequent section, we will use a statistical method to test this hypothesi
 
 \subsubsection{How Strong is the association?}
 
-The density around the fitted regression line assesses the strength of this relationship.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  When these points are posited away from the line, the relationship becomes weaker.  What we are talking about here is the correlation coefficient.
+The density around the fitted regression line assesses the strength of this relationship.  If the relationship is perfect, then the points of \emph{X - Y} will lie  on the fitted regression line.  Otherwise, the relationship becomes weaker when the data points are away from the fitted regression line.  What we are talking about here is the correlation coefficient.
 
-From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a strong correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
+From Figure 12.4 (SPSS printout), we find Pearson Correlation coefficient, $r = 0.773$ indicating that we have a high correlation between city growth and car theft.  Note the arrow is pointing to the correlation coefficient.
 
   \begin{figure}[ht]
     \centering
@@ -226,26 +226,26 @@ From figure (12.4, SPSS printout), we find Pearson Correlation coefficient, $r =
 
 \subsubsection{Predicting response variable using the scatter plot}
 
-We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship of city growth and annual car thefts shown in figure 12.3.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 20 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop an model for making this prediction.
+We can use the scatter plot for prediction.  To show this procedure, let's look at the relationship between city growth and annual car thefts illustrated in Figure 12.3.  Let's say that we want to predict the number of car thefts in a city that has grown by 20 percent from 2000 to 2008.  The predicted score on \emph{Y} (indicated by $\hat{Y}$) to discriminate between the predictions of \emph{Y} from the actual \emph{Y} scores.  First we should locate 20 on the x-axis and then draw a straight line parallel with the y-axis and to the regression line.  From the regression line, draw another line that is parallel to the x-axis to the y-axis.  The predicted \emph{Y} ($\hat{Y}$) is found at the point where the line crosses the y-axis.  We predict that, cities that has grown by 20 percent from 2000 to 2008, the number of car thefts would be around 600 per year.  Later, we will develop a model for making this prediction.
 
 \subsubsection{The Regression Line}
 
-Using the above method is crude because trying to fit a line through a cloud of points by using a free hand.  A mathematical method has been developed and implemented in many statistical programs, such as SPSS, MINITAB, SAS, R, etc., to solve this basic equation:
+Using the above method is crude because trying to fit a line through a cloud of points by using a free hand.  A mathematical method has been developed and implemented in many statistical programs, such as SPSS, MINITAB, SAS, R, etc., to solve this fundamental equation:
 
 \begin{equation}
 Y = a + bX
 \end{equation}
 
 \begin{align*}
-Y &= dependentVariable \\
+Y &= DependentVariable \\
 a &= Y-intercept \\
 b &= Slope \\
-X &= independentVariable \\ 
+X &= IndependentVariable \\ 
 \end{align*}
 
 \subsubsection{Determining the y-intercept (a)}
 
-From the SPSS output figure 12.5, let's determine the y-intercept of this  problem.
+From the SPSS output Figure 12.5, let's determine the y-intercept of this  problem.
 
   \begin{figure}[ht]
     \centering
@@ -254,15 +254,15 @@ From the SPSS output figure 12.5, let's determine the y-intercept of this  probl
     \label{fig:f12_5}
  \end{figure}
  
- After reviewing figure 12.5, we find column B and row (Constant) (a) is 139.954.  Our interpretation of the y-intercept is that when \emph{X} = 0, 139.954.  Now keep this number in mind as we determine the slope, because we will use these two numbers to predict the annual car theft based on the percent change that a city experienced from 2000 to 2008. 
+ After reviewing Figure 12.5, we find column B and row (Constant) (a) is 139.954.  Our interpretation of the y-intercept is that when \emph{X} = 0, 139.954.  Now keep this number in mind as we determine the slope because we will use these two numbers to predict the annual car theft based on the percent change that a city experienced from 2000 to 2008. 
 
 \subsubsection{Determine the slope (b) }
 
-From the SPSS output figure 12.5, let's determine the slope of this  problem.
+From the SPSS output Figure 12.5, let's identify the slope of this  problem.
 
 
  
-After reviewing figure 12.5, we find column B and row Growth that the slope (b) is 22.665.  Our interpretation of the slope is that as the percentage change of the cities growth increases by 1 percent, the number of car thefts increase by 22.665 per year.  Let's evaluate the slope with the five step model. 
+After reviewing Figure 12.5, we find column B and row Growth that the slope (b) is 22.665.  Our interpretation of the slope is that as the percentage change of the cities growth increases by 1 percent, the number of car thefts increases by 22.665 per year.  Let's evaluate the slope with the five step model. 
  
 \begin{itemize}
 \item {\bf{Step 1.}}  Making Assumptions and Meeting Test Requirements.
@@ -275,23 +275,23 @@ After reviewing figure 12.5, we find column B and row Growth that the slope (b) 
    \begin{tabular}{@{} rl @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
-      Model: & Random sampling  \\
-             & Level of Measurement is interval-ratio \\
-             & Bivariate normal distribution \\
-             & Linear relationship \\
-             & Variance of $Y$ scores is uniform for all $X$ values. \\
-             & Sampling distribution is bell-shaped. \\ \hline
+      1 & Random sampling  \\
+      2       & Level of Measurement is interval-ratio \\
+      3       & Bivariate normal distribution \\
+      4       & Linear relationship \\
+      5       & Variance of $Y$ scores is uniform for all $X$ values. \\
+      6       & The sampling distribution is bell-shaped. \\ \hline
              
    \end{tabular}
-   \caption{Assumptions }
+   \caption{Model Assumptions }
    \label{tab:t12_3}
 \end{table}
 
 
 
-\item {\bf{Step 2.}}  Stating the Hypotheses.
+\item {\bf{Step 2.}}  State the Hypotheses.
 
- $H_0: \beta = 0$ (there is no relationship between height and self esteem) \\
+ $H_0: \beta = 0$ (there is no relationship between height and self-esteem) \\
  $H_a: \beta \neq 0$ (where $\beta$ represents the population slope.)
  
  \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.
@@ -320,7 +320,7 @@ The test statistic is determined from  the following table.
 
 
 
-From figure (12.6, SPSS printout), we find the slope (b) = 22.665.  The test statistic $t$ is 3.443, from row Growth and column $t$.
+From Figure (12.6, SPSS printout), we find the slope (b) = 22.665.  The test statistic $t$ is 3.443, from row Growth and column $t$.
 
 
   \begin{figure}[ht]
@@ -330,9 +330,9 @@ From figure (12.6, SPSS printout), we find the slope (b) = 22.665.  The test sta
     \label{fig:f12_6}
  \end{figure}
   
-\item {\bf{Step 5:}} Making a Decision and interpreting the Results of the Test
+\item {\bf{Step 5:}} Making a Decision and Interpreting the Results of the Test
 
-Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 3.443 > 2.2060 $), we reject the null hypothesis. Thus we can interpret the slope by saying as the percent change of a city increases by one, the number of annual car thefts increases by 22.7.
+Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ value ($ 3.443 > 2.2060 $), we reject the null hypothesis. Thus we can interpret the slope by saying as the percent change in  city increases by one, the number of annual car thefts increases by 22.7.
 
 \end{itemize} 
  
@@ -352,11 +352,11 @@ We can now say that a city that had percent change growth of 20 percent will hav
 
 \subsubsection{Interpreting the Regression}
 
-What variables can she collect to predict the final exam score of an Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered,  (four explainatory varibles (MT1, MT2, Proj, HW)), data from 64 of her statistics class students and did the following analysis.  
+What variables can she collect to predict the final exam score of an Introductory Statistics course?  Statistics instructors have been asking this question for a long time.  An instructor gathered,  (four explanatory variables (MT1, MT2, Proj, HW)), data from 64 of her statistics class students and did the following analysis.  
 
 \subsubsection{Descriptive Statistics}
 
-The basic descriptive statistics for the variables are reported in table 12.5.  The average final exam score is 156.1 with a score ranging  from 75 to 191.  The average mid-term 1 exam score is 86.1 with a score ranging from 50 to 99.  As consultants, we should ask ourselves, what explainatory variables should we use to predict the final exam score.   
+Table 12.5 reports the basic descriptive statistics for the variables.  The average final exam score is 156.1 with a score ranging  from 75 to 191.  The mean mid-term  test one score is 86.1 with a score ranging from 50 to 99.  As consultants, we should ask ourselves, what explanatory variables should we use to predict the final exam score.   
 
  % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -381,9 +381,9 @@ The basic descriptive statistics for the variables are reported in table 12.5.  
   \samepage
   \item Final -- Final exam score
   \samepage
-  \item MT1 -- Midterm 1 exam score
+  \item MT1 -- Midterm exam one score
   \samepage
-  \item MT2 -- Midterm 2 exam score 
+  \item MT2 -- Midterm exam two score 
   \samepage
   \item Proj -- Project score 
   \samepage
@@ -409,15 +409,15 @@ The basic descriptive statistics for the variables are reported in table 12.5.  
       Proj & 0.087 & 0.101 & -0.032 & 1 \\
       HW      & 0.273 & 0.301 & 0.218 & 0.093 & 1 \\ \hline
    \end{tabular}
-   \caption{Pearson Correlation Coefficent }
+   \caption{Pearson Correlation Coefficient }
    \label{tab:t12_6}
 \end{table}
 
-After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This tells us that we have a strong positive relationship between the average final exam score and the average mid-term 1 exam score.  The coefficient of determination ($r^2 = 0.564$) which tells us that the med-term 1 score explains 56.4 percent of the variance in the final exam score.  
+After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This number tells us that we have a strong positive relationship between the mean final exam score and the average mid-term exam one score.  The coefficient of determination ($r^2 = 0.564$) which tells us that the mid-term one score explains 56.4 percent of the variance in the final exam score.  
 
 \subsubsection{Scatter plot}
 
-The next step in assessing an assocation between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term 1 exam score on the horizontal, \emph{X}, axis. 
+The next step in assessing an association between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term exam one score on the horizontal, \emph{X}, axis. 
 
 <<f12_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
   dt12_3 <- read.csv("data/grades.csv",header=TRUE)
