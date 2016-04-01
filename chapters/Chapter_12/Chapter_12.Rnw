@@ -379,7 +379,7 @@ Table 12.5 reports the basic descriptive statistics for the variables.  The aver
 \item Where 
   \begin{itemize}
   \samepage
-  \item Final -- Final exam score
+  \item Final --  Exam score
   \samepage
   \item MT1 -- Midterm exam one score
   \samepage
@@ -413,11 +413,11 @@ Table 12.5 reports the basic descriptive statistics for the variables.  The aver
    \label{tab:t12_6}
 \end{table}
 
-After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This number tells us that we have a strong positive relationship between the mean final exam score and the average mid-term exam one score.  The coefficient of determination ($r^2 = 0.564$) which tells us that the mid-term one score explains 56.4 percent of the variance in the final exam score.  
+After reviewing the correlation matrix (Table 12.6), we see that at the intersection of Final and MT1 has a correlation coefficient ($r = 0.751$) which is the largest number in the matrix.  This number tells us that we have a strong positive relationship between the mean final exam score and the mean mid-term exam one score.  The coefficient of determination ($r^2 = 0.564$) which tells us that the mid-term one score explains 56.4 percent of the variance in the final exam score.  
 
 \subsubsection{Scatter plot}
 
-The next step in assessing an association between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term exam one score on the horizontal, \emph{X}, axis. 
+The next step in assessing an association between two interval-ratio variables is the scatter plot.  Figure 12.7 displays the final exam scores on the vertical, \emph{Y}, axis, and the mid-term evaluation one score on the horizontal, \emph{X}, axis. 
 
 <<f12_7, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Mid-term 1 Exam">>=
   dt12_3 <- read.csv("data/grades.csv",header=TRUE)
@@ -429,7 +429,7 @@ The next step in assessing an association between two interval-ratio variables i
 
 @
  
-What can we say about the relationship?  The regression line is \emph{not} horizontal, so there is a relationship between these two variables.  The points are scattered around the regression line and we can see that we have a strong positive relationship. 
+What can we say about the relationship?  The regression line is \emph{not} horizontal, so there is an association between these two variables.  The graph shows points scattered around the regression line, and we can see that we have a strong positive relationship. 
 
 \subsubsection{Regression Equation}
 
@@ -442,14 +442,14 @@ The next step is to determine the regression equation.
     \label{fig:f12_8}
  \end{figure}
 
-After reviewing figure 12.8, we find the \emph{Y}-intercept (\emph{a}) is 18.586, row (constant) and column B.  The slope (\emph{b}) is 1.597, row MT1 and column B.
+After reviewing Figure 12.8, we find the \emph{Y}-intercept (\emph{a}) is 18.586, row (constant) and column B.  The slope (\emph{b}) is 1.597, row MT1 and column B.
 
 \begin{align*}
 Y &= a + bX \\
 Final &= 18.586 + 1.597(MT1)
 \end{align*}
 
-Ths interpretation of the slope is as mid-term 1 exam score increase by one unit, the final exam score increase by 1.597 points.
+The interpretation of the slope is as mid-term one exam scores increase by one unit, the final exam score increase by 1.597 points.
 
 \subsubsection{Diagnostics}
 
@@ -457,21 +457,21 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 \item Coefficient of determination:
   \begin{itemize}
   \item $r^2 = \frac{explained Variation}{total Variation}$
-  \item The explained variation is measured from the average of the \emph{Y}-variable to the predicted \emph{Y}-variable.
-  \item The unexplained variation is measured from the observed \emph{Y}-variable to the predicted \emph{Y}-variable.
-  \item The total variation is measured from the observed \emph{Y}-variable to the average of the \emph{Y}-variable.
+  \item We measure the explained variation from the average of the \emph{Y}-variable to the predicted \emph{Y}-variable.
+  \item We compute the unexplained variation from the observed \emph{Y}-variable to the predicted \emph{Y}-variable.
+  \item We determine the total change from the observed \emph{Y}-variable to the average of the \emph{Y}-variable.
   \end{itemize}
 
 \item There is one other thing that we should look at --  residuals.  
   \begin{itemize}
-  \item For each data point, we should have a computed residual:
+  \item For each data point, we should compute the difference:
   
   \begin{equation}
   Residual_i =  observedValue_i - predictedValue_i
   \end{equation}
 
 
-  \item The histogram of the residuals should be  bell-shaped as in figure 12.9
+  \item The histogram of the residuals should be  bell-shaped as in Figure 12.9
 
   
 %\begin{minipage}[ht]{6.5cm}
@@ -492,7 +492,7 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 
 %\end{minipage}
 
-  \item Let's look at figure 12.9.  Here we have a nearly normal-shaped curve can be drawn over the histogram.
+  \item Let's look at Figure 12.9.  Here we can draw a nearly normal-shaped curve over the histogram.
   \end{itemize}
 
 \item Another assumption that we need to consider is homoscedasticity, i.e., is the variance of \emph{Y} scores uniform across all values of \emph{X}.
@@ -509,9 +509,9 @@ Ths interpretation of the slope is as mid-term 1 exam score increase by one unit
 
 \subsubsection{Summary}
 
-To conclude this analysis, the linear regression equation, the correlation coefficient, and coefficient of determination suggest that there is a strong, positive relationship between the first mid-term exam score  and the final exam score.  The amount of unexplained variation (total variation (100) - explained variation (55) = 45) suggests that there maybe other variables beside first mid-term exam that have important influence on the final exam score.
+To conclude this analysis, the linear regression equation, the correlation coefficient, and coefficient of determination suggest that there exist a positive and strong relationship between the first mid-term exam score  and the final exam score.  The amount of unexplained variation (total variation (100) - explained variation (55) = 45) suggests that there may be other variables besides first mid-term exam that have a significant influence on the final exam score.
 
-We should note one limitation of the simple linear regression.  First correlation is not the same as causation.  In other words, when two variables are highly correlated, this does not necessarily mean that there is a causal relationship.  These results could be taken as support for the proposition that higher mid-term exam scores lead to higher final exam scores, the mere existence of a relationship -- even a strong relationship in the direction predicted by the theory -- does not prove that one variable causes the other.
+We should note one limitation of the simple linear regression.  First correlation is not the same as causation.  In other words, two variables that are highly correlated does not necessarily suggest that there is a causal relationship.  We could take these results to support the proposition that higher mid-term exam scores lead to higher final exam scores, the mere existence of a relationship -- even a strong connection in the direction predicted by the theory -- does not prove that one variable causes the other.
 
 
 
@@ -544,11 +544,11 @@ We should note one limitation of the simple linear regression.  First correlatio
 
   \begin{exercise} % 1
   
+  
     How well does the number of beers a student drinks predict his or her
-blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
-beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). 
+blood alcohol content (BAC)? Sociology researchers, at Ohio State University, wanted to know if there is a relationship between the amount of beer consumed and BAC. The researchers assigned the number of cans of beer to each student. After each student had consumed the assigned number of beers,  thirty minutes later, an officer of the law measured the students BAC. \cite{OSU2016}
 % A scatterplot of the data appears below.  
-One student drank 9 beers. You see from the scatterplot that his BAC was about
+One student drank nine beers. You see from the scatter plot that his BAC was about
 
 %'     <<f12_11, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
 %'     dt12_4 <- read.csv("data/beers.csv",header=TRUE)
@@ -588,10 +588,10 @@ One student drank 9 beers. You see from the scatterplot that his BAC was about
 
   \begin{exercise} % 2
   
+  
     How well does the number of beers a student drinks predict his or her
-blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
-beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
-below.  The scatterplot shows
+blood alcohol content (BAC)? Sociology researchers, at Ohio State University, wanted to know if there is a relationship between the amount of beer consumed and BAC. The researchers assigned the number of cans of beer to each student. After each student had consumed the assigned number of beers,  thirty minutes later, an officer of the law measured the students BAC. \cite{OSU2016}
+A scatterplot of the data appears below.  The scatterplot shows
 
     <<f12_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
   
@@ -606,10 +606,10 @@ below.  The scatterplot shows
 
       \begin{enumerate}
       \item a weak negative relationship.
-      \item a moderately strong negative relationship.
-      \item almost no relationship.
-      \item a weak positive relationship.
-      \item a moderately strong positive straight-line relationship between number of beers and BAC.
+      \item a moderately high negative correlation.
+      \item almost no connection.
+      \item a small positive correlation.
+      \item a moderately high positive straight-line relationship between some beers and BAC.
       \end{enumerate}
       \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -625,10 +625,10 @@ below.  The scatterplot shows
 
   \begin{exercise} % 3
   
+  
     How well does the number of beers a student drinks predict his or her
-blood alcohol content? Sixteen student volunteers at The Ohio State University drank a randomly assigned number of cans of
-beer. Thirty minutes later, a police officer measured their blood alcohol content (BAC). A scatterplot of the data appears
-below.  A plausible value of the correlation between number of beers and blood alcohol content, based on the scatterplot, is
+blood alcohol content (BAC)? Sociology researchers, at Ohio State University, wanted to know if there is a relationship between the amount of beer consumed and BAC. The researchers assigned the number of cans of beer to each student. After each student had consumed the assigned number of beers,  thirty minutes later, an officer of the law measured the students BAC. \cite{OSU2016}
+A scatterplot of the data appears below.  A plausible value of the correlation between number of beers and blood alcohol content, based on the scatterplot, is
 
 %'     <<f12_13, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
 %'   
@@ -665,5 +665,3 @@ below.  A plausible value of the correlation between number of beers and blood a
     
 \end{exercises}
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}	

@@ -24,7 +24,7 @@
 
     \begin{exercise}  % 1-1    
     
-      A psychologist wants to know if adults with normal vision can be fooled by a certain optical illusion.  She recruits 50 students from her PSY 120 class and finds that 42 of them are fooled by the illusion.  The population in this study is 
+      A psychologist wants to know the following: Can certain optical illusions fool adults with normal vision?  She randomly selected 50 students from her PSY 120 class and found that 42 of them were fooled by the illusion.  The population in this study is 
       
 %       \begin{enumerate}
 %       \item all adults with normal vision.
@@ -96,7 +96,7 @@
 
 \end{table} 
 
-      Which state has the highest number of death row prisoners relative to the size of its population?  
+      Which state has the highest number of death row prisoners about the size of its population?  
       
 %       Question options:
 % 
@@ -169,7 +169,7 @@
 
       \begin{exercise}  % 1-6
       
-      A student reports that of a sample of 200 college undergraduates, 37\% were female and 41\% were male.  We know that the student has made a mistake because 
+      A student reports that of a sample of 200 college undergraduates, 37\% were female, and 41\% were male.  How do we know that the student made a mistake?
 
 %       Question options:
 % 
@@ -196,7 +196,7 @@
 
       \begin{exercise}  % 1-7
       
-      You are writing an article for the college newspaper about the cost of attending college.  You want to make a graph to compare costs at your school and three similar schools.  A good choice of a graph would be a 
+      You are writing an article for the college newspaper about the cost of attending college.  You want to make a graph compare costs at your school and three similar schools.  A good choice of a graphic would be a 
 
 
 %       Question options:
@@ -221,8 +221,7 @@
 
       \begin{exercise}  % 1-8
       
-      When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is
-\underline{\phantom{xxxxxxxxxx}}.  When the distribution has this shape, the \underline{\phantom{xxxxxxxxxx}} is pulled toward the long tail of the distribution, but the \underline{\phantom{xxxxxxxxxx}} is less affected.  The sequence of words to correctly complete this statement is: 
+      When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is  \underline{\phantom{xxxxxxxxxx}}.  When the distribution has this shape, the \underline{\phantom{xxxxxxxxxx}} is pulled toward the long tail of the distribution, but the \underline{\phantom{xxxxxxxxxx}} is less affected.  The words that correctly complete this statement are:
 
 %       Question options:
 % 
@@ -2479,3 +2478,6 @@ State the appropriate hypothesis.
     \end{solution}  
 
 \end{exercises}    
+
+\bibliographystyle{plain}
+\bibliography{mybibliography}	
