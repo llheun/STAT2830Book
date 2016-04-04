@@ -18,13 +18,12 @@
 \makebox[\textwidth]{(Week 1: Due date: \underline{\phantom{xxxxxxxxxxxx}}) }
 \end{center} 
 
-
-
 \begin{exercises}
 
     \begin{exercise}  % 1-1    
     
-      A psychologist wants to know the following: Can certain optical illusions fool adults with normal vision?  She randomly selected 50 students from her PSY 120 class and found that 42 of them were fooled by the illusion.  The population in this study is 
+    
+      A psychologist wants to know the following: Can certain optical illusions fool adults with normal vision?  She randomly selected 50 students from her PSY 120 class and found that the illustion fooled 42 of them.  The population in this study is 
       
 %       \begin{enumerate}
 %       \item all adults with normal vision.
@@ -32,7 +31,7 @@
 %       \item the 50 students who served as subjects.
 %       \item all students in the PSY 120 class. 
 %       \end{enumerate}
-      \vspace{8mm}
+      \vspace{6mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -42,7 +41,8 @@
 
       \begin{exercise}  % 1-2
       
-      You want to know the opinions of American school teachers about establishing a national test for high school graduation.  You obtain a list of the members of the National Education Association (the largest teachers' union) and mail a questionnaire to 2500 teachers chosen at random from this list.  In all 1,347 teachers return the questionnaire.  The sample is 
+      
+      As a researcher, you are interested in the impact of a national test for high school graduation.  So you acquired a list of National Education Association (NEA) members and randomly selected and sent a survey to 2,500 high school teachers.  Of 2,500 surveys, only 1,347 teachers sent back the questionnaire.   The sample is 
       
 %       \begin{enumerate}
 %       \item all members of the National Education Association. 
@@ -50,7 +50,7 @@
 %       \item the 1,347 teachers who mail back the questionnaire. 
 %       \item the 2,500 teachers to whom you mailed the questionnaire. 
 %       \end{enumerate}
-      \vspace{8mm}
+      \vspace{6mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -61,7 +61,8 @@
 
       \begin{exercise}  % 1-3
 
-      You measure the age (years), weight (pounds), and marital status (single, married, divorced, or widowed) of 1,400 women.  How many variables did you measure? 
+
+      As a researcher team, your group measured the age (years),  marital status (single, married, divorced, or widowed), and weight (pounds), of 1,400 women. How many variables did you measure? 
       
 %       \begin{enumerate}
 %       \item one
@@ -69,7 +70,7 @@
 %       \item three
 %       \item 1,400
 %       \end{enumerate}
-      \vspace{8mm}
+      \vspace{6mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -79,6 +80,7 @@
     \end{solution}  
 
       \begin{exercise}  % 1-4
+      
       
       Following are data on the populations and numbers of death row prisoners for several states.
 
@@ -106,7 +108,7 @@
 %       \item Illinois
 %       \item Nevada
 %       \end{enumerate}
-      \vspace{8mm}
+      \vspace{6mm}
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -140,6 +142,7 @@
 
       \begin{exercise}  % 1-5
       
+      
       Michelle's income two years ago was \$420,000.  Last year her income was only \$100,000.  The percent change in Michelle's income was 
 
 
@@ -152,7 +155,7 @@
 %       \item 31.3\% decrease
 %       \end{enumerate}
   
-      \vspace{8mm}   
+      \vspace{4mm}   
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -169,6 +172,7 @@
 
       \begin{exercise}  % 1-6
       
+      
       A student reports that of a sample of 200 college undergraduates, 37\% were female, and 41\% were male.  How do we know that the student made a mistake?
 
 %       Question options:
@@ -180,7 +184,7 @@
 %       \item it is highly unlikely that a sample of 200 undergraduates would have as few as 37% females. 
 %       \end{enumerate}
   
-      \vspace{8mm}    
+      \vspace{4mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -196,7 +200,8 @@
 
       \begin{exercise}  % 1-7
       
-      You are writing an article for the college newspaper about the cost of attending college.  You want to make a graph compare costs at your school and three similar schools.  A good choice of a graphic would be a 
+      
+      You are writing an article for the college newspaper about the cost of attending college.  You want to make a graph compare prices at your school and three similar schools.  A good choice of a graphic would be a 
 
 
 %       Question options:
@@ -208,7 +213,7 @@
 %       \item pie chart
 %       \end{enumerate}
   
-      \vspace{8mm}    
+      \vspace{4mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -221,7 +226,8 @@
 
       \begin{exercise}  % 1-8
       
-      When dealing with financial data (such as salaries or lawsuit settlements), we often find that the shape of the distribution is  \underline{\phantom{xxxxxxxxxx}}.  When the distribution has this shape, the \underline{\phantom{xxxxxxxxxx}} is pulled toward the long tail of the distribution, but the \underline{\phantom{xxxxxxxxxx}} is less affected.  The words that correctly complete this statement are:
+      
+      When tackling with financial data (such as salaries or lawsuit settlements), we usually find that the distribution appearance is  \underline{\phantom{xxxxxxxxxx}}.  When the frequency distribution has this shape, the \underline{\phantom{xxxxxxxxxx}} is pulled toward the long tail of the distribution, but the \underline{\phantom{xxxxxxxxxx}} is less affected.  The words that correctly complete this statement are:
 
 %       Question options:
 % 
@@ -232,7 +238,7 @@
 %       \item left-skewed, mean, median. 
 %       \end{enumerate}
   
-      \vspace{8mm}    
+      \vspace{4mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -244,6 +250,7 @@
     \end{solution} 
 
       \begin{exercise}  % 1-9
+      
       
       For categorical variables (like a person's occupation or sex) it only makes sense to speak of \underline{\phantom{xxxxxxxxxx}}.
 It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \underline{\phantom{xxxxxxxxxx}} sex.  The sequence of words to correctly complete this statement is 
@@ -257,7 +264,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 %       \item quartiles, mean, median. 
 %       \end{enumerate}
   
-      \vspace{8mm}    
+      \vspace{4mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -270,7 +277,8 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 
       \begin{exercise}  % 1-10
       
-      What is the first quartile of the observations 
+      
+      Of the observations in the following table, what is the first quartile?
       
       \begin{table}[htbp]
    \centering
@@ -291,7 +299,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
 %       \item 2   
 %       \end{enumerate}
   
-      \vspace{9mm}    
+      \vspace{1mm}    
       \framebox[6cm][l]{ Answer: }
       
     \end{exercise}
@@ -587,7 +595,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
   rm(x10,y10,y11)
 @
 
-    The above graphs of two bell-shaped / symmetric distributions, curve A and curve B.  What is the best description of the relation between curve A and curve B.
+    The above graphs of two bell-shaped / symmetric distributions, curve A and curve B.  What are the best description of the relation between curve A and curve B.
 
 %       Question options:      
 %       \begin{enumerate}
@@ -765,7 +773,7 @@ It makes no sense to speak of the \underline{\phantom{xxxxxxxxxx}} or the \under
     
     \begin{exercise}  % 3-6
         
-      Entomologist Heinz Kaefer has a colony of bongo spiders in his lab.  There are 1,000 adult spiders in the colony, and their weights are normally distributed with mean 11 grams and standard deviation 2 grams.  About how many spiders in the colony weigh more than 12 grams?
+      Entomologist Heinz Kaefer has a colony of bongo spiders in his lab.  There are 1,000 adult spiders in the colony, and their weights are typically distributed with mean 11 grams and standard deviation 2 grams.  About how many spiders in the colony weigh more than 12 grams?
     
 %       Question options:      
 %       \begin{enumerate}
@@ -1346,7 +1354,7 @@ Identify the population parameter of interest.
 
   \begin{exercise}  %5-6 
   
-    A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
+    Sherwin-Williams fills cans of paint using a machine that has been calibrated to fill the receptacles to contain an average of 129 ounces each.  The Qualify Control (QC) division wants to test whether their machine meets this specification, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is there strong evidence that the filling machine is set too high and thus is no longer calibrated correctly? (Use significance level 0.05)
 
 Identify the population parameter of interest.
     
@@ -1459,7 +1467,7 @@ Identify the population parameter of interest.
   
     % A paint manufacturer fills cans of paint using a machine that has been calibrated to fill the cans to contain an average of 128 ounces each.  To test whether their machine has come out of calibration, the manufacturer takes a random sample of 25 cans and finds that they average 129.3 ounces with a standard deviation of 2.8 ounces.  Is this strong evidence that the filling machine is set too high and thus is no longer calibrated properly? (Use significance level 0.05)
 
-    Using the scenario in exercise 13.5.6, what is your conclustion?
+    Using the scenario in exercise 13.5.6, what is your conclusion?
     
 
 %       Question options:      
@@ -1501,7 +1509,7 @@ Identify the population parameter of interest.
 
   \begin{exercise}  %6-1 
   
-      A course in statistics is taught to 12 students by the conventional classroom procedure. A second group of 10 students was given the same course by means of programmed materials. At the end of the semester the same examination was given to each group. The 12 students meeting in the classroom made an average grade of 85 with a standard deviation of 4, while the 10 students using programmed materials made an average of 81 with a standard deviation of 5. Test the hypothesis that the two methods of learning are equal using a 0.10 level of significance.
+      A statistics instructor designed an experiment where one section was taught to 12 students (Group A) using the conventional procedure. The second section of 10 students (Group B) was prepared the same course using programmed materials. When the semester ended, the instructor administered the same examination to each group. Group A with 12 students had a mean grade of 85 with a standard deviation of 4, while Group B with ten students using programmed materials had a mean grade of 81 with a standard deviation of 5. The statistics instructor tested the hypothesis that the two methods of learning are the same using a 0.10 level of significance.
 
 State the appropriate hypothesis.
 
@@ -1630,7 +1638,7 @@ State the appropriate hypothesis.
     
         \begin{exercise}  %6-6
         
-          A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
+          A cigarette-manufacturing firm distributes two brands of cigarettes. It found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can the marketing division conclude at the 0.05 level of significance that brand A outsells brand B?
 
           State the appropriate hypothesis.
 
@@ -1737,7 +1745,7 @@ State the appropriate hypothesis.
         
 %           A cigarette-manufacturing firm distributes two brands of cigarettes. If it is found that 56 of 200 smokers prefer brand A and that 29 of 150 smokers prefer brand B, can we conclude at the 0.05 level of significance that brand A outsells brand B?
 
-          Using the scenario of exercise 13.6.6, what will happen if a Type II error was committed?
+          Using the scenario of exercise 13.6.6, what will happen if we commit a Type II error?
 
 %       Question options:      
 %       \begin{enumerate}
@@ -1796,9 +1804,9 @@ State the appropriate hypothesis.
    \label{tab:t13_1}
 \end{table}
 
-      According to the XYZ news, ``about 3 in 10 Armericans wait more than 20 minutes to have a prescription fill.'' Suppose a comparison of waiting times for pharmacies in HMOs and pharmacies in drugstores produced the following results.  
+      According to the XYZ news, ``about 3 in 10 Americans wait more than 20 minutes to have a prescription filled.'' Suppose a comparison of times waiting for service at HMOs and pharmacies in drugstores produced the following results.  
       
-      Is there sufficient evidence to indicate that there is a difference in waiting times for pharmacies in HMOs and pharmacies in drugstores at the five percent level of significances?
+      Is there sufficient evidence to indicate that a difference in the time that customer waits for service at pharmacies in HMOs and pharmacies in drugstores at the five percent level of significances?
   
       State the null and alternate hypotheses.
   
@@ -1910,9 +1918,9 @@ State the appropriate hypothesis.
    \label{tab:t13_2}
 \end{table}    
     
-      An exeriment was conducted to compare the effectiveness of four training programs, A, B, C, and D in training assemblers of a piece of equipment.  Twenty (20) employees were randomly assigne, five each, to the four programs.  After completion of the courses, each person was required to assemble four pieces of equipment, and the average length of time required to complete the assembly was recorded.  Two of the employees resigned during the course of the program; the remainer were evaluted, producing the data shown in the Table 13.4.
+      An experiment was conducted to compare the effectiveness of four training programs, A, B, C, and D in training assemblers of a piece of equipment.  Researchers assigned twenty (20) employees randomly, five each, to the four programs.  After completing the courses, each person assembled four pieces of equipment, and the researchers recorded the mean the to complete the assembly.  Two of the employees resigned during the program; the remainer were evaluated, producing the data shown in the Table 13.4.
   
-      Do the data provide sufficient evidence to indicate a difference in mean assembly times for people trained by the four programs?
+      Do the data provide enough evidence to indicate a difference in mean assembly times for people trained by the four programs?
       
       Determine the null and alternate hypotheses.
       
@@ -2066,7 +2074,7 @@ State the appropriate hypothesis.
         ## mtx7_10
 @
 
-         Using the above table for a post hoc analysis (column 1 (row 1) refers to training method A, column 2 (row 2) refers to training method B, etc.), for example, row 1  column 2 represents the difference between the time to assemble the part using training method A and training method B.  What can we conclude from this table of  differences about the times to assemble a part using the four different training methods?
+         Using the above table for a post hoc analysis (column 1 (row 1) refers to training method A, column 2 (row 2) rerates to training method B, etc.), for example, row 1  column 2 represents the difference between the time to assemble the part using training method A and training method B.  What can we conclude from this table of  differences between the times to assemble a part using the four different training methods?
 
 %       Question options:      
 %       \begin{enumerate}
