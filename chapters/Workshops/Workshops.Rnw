@@ -1804,7 +1804,7 @@ State the appropriate hypothesis.
    \label{tab:t13_1}
 \end{table}
 
-      According to the XYZ news, ``about 3 in 10 Americans wait more than 20 minutes to have a prescription filled.'' Suppose a comparison of times waiting for service at HMOs and pharmacies in drugstores produced the following results.  
+      According to the XYZ News, ``about 3 in 10 Americans wait more than 20 minutes to have a prescription filled.'' Suppose a comparison of times waiting for service at HMOs and pharmacies in drugstores produced the following results.  
       
       Is there sufficient evidence to indicate that a difference in the time that customer waits for service at pharmacies in HMOs and pharmacies in drugstores at the five percent level of significances?
   
@@ -1918,9 +1918,9 @@ State the appropriate hypothesis.
    \label{tab:t13_2}
 \end{table}    
     
-      An experiment was conducted to compare the effectiveness of four training programs, A, B, C, and D in training assemblers of a piece of equipment.  Researchers assigned twenty (20) employees randomly, five each, to the four programs.  After completing the courses, each person assembled four pieces of equipment, and the researchers recorded the mean the to complete the assembly.  Two of the employees resigned during the program; the remainer were evaluated, producing the data shown in the Table 13.4.
+      An experiment was conducted to compare the effectiveness of four training programs, A, B, C, and D in training assemblers of a piece of equipment.  Researchers assigned twenty (20) employees randomly, five each, to the four programs.  After completing the courses, each person assembled four pieces of equipment, and the researchers recorded the mean the to complete the assembly.  Two of the employees resigned during the program; the remainder were evaluated, producing the data shown in the Table 13.4.
   
-      Do the data provide enough evidence to indicate a difference in mean assembly times for people trained by the four programs?
+      Do the data provide significant evidence to indicate a difference in mean assembly times for people trained by the four programs?
       
       Determine the null and alternate hypotheses.
       
@@ -2074,7 +2074,7 @@ State the appropriate hypothesis.
         ## mtx7_10
 @
 
-         Using the above table for a post hoc analysis (column 1 (row 1) refers to training method A, column 2 (row 2) rerates to training method B, etc.), for example, row 1  column 2 represents the difference between the time to assemble the part using training method A and training method B.  What can we conclude from this table of  differences between the times to assemble a part using the four different training methods?
+         Using the above table for a post hoc analysis (column 1 (row 1) refers to training method A, column 2 (row 2) relates to training method B, etc.).  What can we conclude from this table of  differences between the times to assemble a part using the four different training methods?
 
 %       Question options:      
 %       \begin{enumerate}
@@ -2117,7 +2117,7 @@ State the appropriate hypothesis.
 
   \begin{exercise}  %8-1 
   
-    A researcher collected data on two variables  from  15 nations.  The variables are fertility rate (average number of children born to each women), education for females (expressed as a percentage of all students at the secondary level who are females).  
+    A researcher collected data on two variables from 15 nations. The variables are fertility rate (average number of children born to each woman), and female education level (expressed as a percentage of all students at the secondary school who are not male). 
 
     <<f13_8_3, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3, fig.height=3, fig.cap="Comparison Training Methods">>=
         dt8_3 <- read.csv("data/fertility.csv",header=TRUE)
@@ -2174,7 +2174,7 @@ State the appropriate hypothesis.
     
   \begin{exercise}  %8-3 
   
-    Using the above graph, what is the level of the correlation coefficient, $r$, between the fertility rate and percentage of women at the secondary level (weak, moderate, and strong)?
+    Using the above graph, what is the level of the correlation coefficient, $r$, between the fertility rate and percentage of women at the secondary school (weak, moderate, and strong)?
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2196,7 +2196,7 @@ State the appropriate hypothesis.
     
   \begin{exercise}  %8-4 
   
-    A study of the effects of TV measured how many hours of TV each of 125 grade school children watched per weeks during a school year and their reading scores.  Which variable should we put on the horizontal axis of the scatterplot of the data?
+    A study of the effects of TV measured how many hours of TV each of 125-grade school children watched per weeks during a school year and their reading scores.  Which variable should we put on the horizontal axis of the scatterplot of the data?
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2240,7 +2240,7 @@ State the appropriate hypothesis.
     
     \begin{exercise}  %8-6 
   
-    The correlation coefficient between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  This tells us that 
+    The correlation coefficient between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  It tells us that 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2262,9 +2262,9 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-7 
   
-      The correlation between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  
+      The relationship between the heights of fathers and the heights of their (adult) sons is $r = 0.52$.  
       
-      If fathers' heights were measured in feet (one foot equals 12 inches), and sons' heights were measured in furlongs (one furlong equals 7,920 inches), the correlation coefficient between heights of fathers and heights of sons would be 
+      If fathers heights were measured in feet (one foot equals 12 inches), and sons' heights were measured in furlongs (one furlong equals 7,920 inches), the correlation coefficient between heights of fathers and heights of boys would be 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2309,7 +2309,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-9 
   
-      A study of child development measures the age (months) at which a child begins to talk and also the child's score on an ability test given several years later.  The study asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line, what happens (on the average) when a child starts talking one month later? 
+      A study of child development measures the age (months) when a toddler starts to speak and also the child's score on an ability test is given several years later.  The researcher  asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line, what happens (on the average) when a child starts talking one month later? 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2331,7 +2331,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-10
   
-      A study showed that students who study more hours tend to do better on statistics exams.  In fact, number of hours studied explained 81\% of the variation in exam scores among the students who participated in the study.  What is the correlation coefficient between hours studied and exam scores?
+      A study showed that students who study more hours tend to do better on statistics exams.  In fact, some hours studied explained 81\% of the variation in exam scores among the students who participated in the study.  What is the correlation coefficient between hours studied and exam scores?
       
 %       Question options:      
 %       \begin{enumerate}
@@ -2357,9 +2357,9 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-11
   
-      Lean body mass (your weight leaving out fat) helps predict metabolic rate (how many calories of energy you burn in an hour).  The relationship is roughly a straight line.  The least-squares regression line for predicting metabolic rate ($y$ in calories) from lean body mass ($x$ in kilograms) is $y = 113.2 + 26.9x$.  
+      Lean body mass (LBM)  (a person's weight leaving out fat) assists the researcher predict metabolic rate (MR) (how many calories of energy that a person burn in an hour).  The relationship between body mass and metabolic rate approximates a straight line.  The least-squares regression equation for predicting MR ($y$ in calories) from LBM ($x$ in kilograms) is $y = 113.2 + 26.9x$.  
       
-      Using this regression line, you predict that a person with lean body mass 50 kilograms will have metabolic rate equal to about how many calories?
+      Predict metabolic rate (calories) of a person who has a lean body mass 50 KG?
       
 %       Question options:      
 %       \begin{enumerate}
@@ -2411,7 +2411,7 @@ State the appropriate hypothesis.
 \newpage
     \begin{exercise}  %8-13
 
-      The least-squares regression line for predicting 1998 percent obese from 1991 percent obese is $y = 7.4 + 0.86x$.  In 1991, 14.8\% of Indiana adults were obese.  Based on this information, what percent would you predict to be obese in 1998?
+      The least-squares regression line for predicting 1998 percent obese from 1991 percent overweight is $y = 7.4 + 0.86x$.  In 1991, 14.8\% of Indiana adults were obese.  Based on this information, what percent would you predict to be obese in 1998?
       
 %       Question options:      
 %       \begin{enumerate}
@@ -2438,7 +2438,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-14
 
-      Investment advisors  often report correlation coefficients.  For example, the correlation coefficient between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  This means that the percent of changes in municipal bonds performance that can be explained by the straight line relationship between municipal bonds and large cap stocks is (Hint: think of the coefficient of determination.) -- 
+      Investment advisors  often report correlation coefficients.  For example, the correlation coefficient between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  This means that the percent of changes in municipal bonds performance that can be described by the straight line relationship between municipal bonds and large cap stocks is (Hint: think of the coefficient of determination.) -- 
     
 %       Question options:      
 %       \begin{enumerate}
