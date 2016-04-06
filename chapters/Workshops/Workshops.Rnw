@@ -2309,7 +2309,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-9 
   
-      A researcher of child development measures the age (months) when a toddler starts to speak and the toddler's score on an ability test several years later.  The researcher  asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line, what happens (on the average) when a child starts talking one month later? 
+      A researcher of child development measures the age (months) when a toddler starts to speak and the toddler's score on an ability test several years later.  The researcher  asks whether the age at which a child talks helps that later test score.  The least-squares regression line of the test score $y$ on age $x$ is $y = 110 - 1.3x$.  According to this regression line equation, what happens (on the average) when a child starts talking one month later? 
     
 %       Question options:      
 %       \begin{enumerate}
@@ -2384,7 +2384,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-12
 
-      Using the scenario from exercise 13.8.11, the slope of the regression line is  
+      Using the scenario from Exercise 13.8.11, the slope of the regression line is  
       
       
 %       Question options:      
@@ -2438,7 +2438,7 @@ State the appropriate hypothesis.
 
     \begin{exercise}  %8-14
 
-      Investment advisors  often report correlation coefficients.  For example, the correlation coefficient between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$ that indicates that the percent of changes in municipal bonds performance that can be described by the straight line relationship between municipal bonds and large cap stocks is (Hint: think of the coefficient of determination.) -- 
+      Investment advisors  often report correlation coefficients.  For example, the correlation coefficient between gains and losses in large cap stocks and gains and losses in municipal bonds is $r = 0.45$.  What is the coefficient of determination? 
     
 %       Question options:      
 %       \begin{enumerate}
