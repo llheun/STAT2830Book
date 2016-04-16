@@ -164,7 +164,7 @@ The {\bf{median}} is the center score of the distribution.  Half of the values a
 
 \section{Mode}
 
-The {\bf{mode}} is the most expected value in a distribution or the largest category of a variable.is the most frequently occurring observation of this variable.
+The {\bf{mode}} is the most expected value in a distribution or the largest category of a variable is the most frequently occurring observation of this variable.
 
 \begin{itemize}
 \samepage
@@ -805,7 +805,7 @@ The pretest median is \Sexpr{med3b}
 
   \subsection{Central Tendency}
   \begin{enumerate}
-    \item Choose from the  MENU BAR: \\
+    \item Choose from the SPSS -- MENU BAR: \\
       {\bf{ANALYZE}} $>$ {\bf{DESCRIPTIVE STATISTICS}} $>$ {\bf{FREQUENCIES...}}
     \item Select {\it{HIGHEST YEAR OF SCHOOL COMPLETED (educ)}} 
     \item Select {\it{Statistics...}} 
