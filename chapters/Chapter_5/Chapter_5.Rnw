@@ -5,7 +5,7 @@
 
 \section{Objectives}
 
-After reading chapter five and doing the exercises, you will be able to
+After reading chapter five and doing the exercises, we will be able to
 \begin{itemize}
 \item Define and explain the concept of the {\bf{Normal Curve}}.
 \item Convert empirical scores to z-scores and use z-scores and the Normal Distribution curve
@@ -51,7 +51,7 @@ polygon(c(xyzz[xyzz<=0],0), c(dnorm(xyzz[xyzz<=0],0,1),0000),col="white")
  
 \section{Empirical Rule}
 
-Given a bell-shaped distribution of measurements, the approximately 
+Given a bell-shaped distribution of measurements, approximately 
 \begin{itemize}
 \samepage 
 \item 68\% of the observations are within one standard deviation (SD) of the mean or a total of 2 SD \\
@@ -75,7 +75,7 @@ $\bar{x} \pm 3SD$
 
 We will use the following regarding the empirical rule.
 
-Suppose you are concerned about the amount of money that students pay for their lunch.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
+Suppose we are concerned about the amount of money that students pay for their lunch.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
 
 \begin{align*}
 \mu \pm \sigma &= 5 \pm 0.5, or \hspace{1mm} 4.5 \hspace{1mm} to \hspace{1mm} 5.5 \\
@@ -332,11 +332,11 @@ We can take advantage of the symmetry of the Normal Distribution.
 \begin{minipage}[t]{6.5cm}
 
 \begin{itemize}
-\item You may also notice that even though a z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive z-scores listed in the table.
+\item We may also notice that even though a z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive z-scores listed in the table.
 
-\item You can use the symmetry of the distribution to get the result.
+\item We can use the symmetry of the distribution to get the result.
 
-\item For example, if you want the proportion {\bf{below}} a z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  z-score of 1.5.
+\item For example, if we want the proportion {\bf{below}} a z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  z-score of 1.5.
 
 \end{itemize}
 \end{minipage} \hfill

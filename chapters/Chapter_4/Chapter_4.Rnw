@@ -249,18 +249,17 @@ boxplot(dt4_2$Age ~ dt4_2$Type, xlab="Campus", ylab="Age(years)")
 @
 
 
-But a larger value of the standard deviation from the urban university tells us that the ages of students at the urban  campus are toward one extreme or the other.   Naturally, we should then ask why is the data skewed when students go to an urban college (See Figure 4.5) because older students attend it.  Or the residential campus mean age is dragged down because younger students participate in the residential campus classes.  By looking the standard deviation, helps us understand the data.
+But a larger value of the standard deviation from the urban university tells us that the ages of students at the urban  campus are toward one extreme or the other.   Naturally, we should then ask why is the data skewed when students go to an urban college (See Figure 4.5) because older students attend it.  Or the residential campus mean age is dragged down because younger students participate in the residential campus classes.  By looking at the standard deviation, helps us understand the data.
 
-Needless to say, when you are evaluating the results of your research, you may seek the advice of a statistician.  However, if you have knowledge of the standard deviation, your time with the statistician will be productive.
+Needless to say, when we are evaluating the results of our research, we may seek the advice of a statistician.  However, if we have knowledge of the standard deviation, our time with the statistician will be productive.
 
-Some of you may be asking, how do we compute the standard deviation?  For those of you who are curious, you may continue to read the remaining proportion of the section.  For the others, you may go to the next section.  Remember, there are statistical software and calculators that will compute the standard deviation for you.
+Some of us may be asking, how do we compute the standard deviation?  For those of us who are curious, we may continue to read the remaining proportion of the section.  For the others, we may go to the next section.  Remember, there are statistical software and calculators that will compute the standard deviation for us.
 \vspace{2mm}
 
-\emph{You will need to know these terms: \\
+\emph{We will need to know these terms: \\
 $X$ equals a value of a variable in a dataset.  $\bar{X}$ equals the mean  of the variable in a dataset.   $N$ equals the number of values ($x$) in your dataset. }
 
-\emph{Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We are required to take the square root of the number as we did in Table 4.3.  There is one more way to compute the standard deviation; that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If you have, grasp the basic concept of the standard deviation, you should be
-okay.}
+\emph{Referring  to Table 4.2, Computing SD for two Campuses, we took each value $x$ and subtracted the value from the mean and then multiply that difference by itself, i.e., determined the square of the differences.  Now we can sum (add)  the squared differences and divide that result by $n - 1$.  That's it.  There is one more step.  We are required to take the square root of the number as we did in Table 4.3.  There is one more way to compute the standard deviation; that is to divide the sum of squared deviations by $n$ instead of $n - 1$.  It is beyond the scope of this text to explain it here.  If we have, grasp the basic concept of the standard deviation, we should be okay.}
 
 \section{Variance}
 
@@ -528,7 +527,7 @@ sd1 <- sd(xdt1)
   \begin{exercise}  % 6
   
   
-  You are preparing  for the  sociology statistics final exam with some your classmates.   A classmate has volunteered to use SPSS to make the needed charts and tables for a data set that has several categorical and numerical variables that were assigned by the statistics professor to use as a study guide.  The classmate shows you the reports and says ``See, I've got them all -- boxplots, charts, means, medians, and standard deviations for all our variables along with graphs.  Also, I don't understand why  Professor Doe told us that we cannot use  descriptive statistics for some of the variables; I got descriptive statistics for everything!  See, the mean for height is 67, the average for GPA is 2.8. The midpoint for gender is 1.45, the average for the major course of study is 4.56.''  However, as you review the report  something about the output appears weird -- like boxplots for gender and  major course of study and pie charts for grade point average and height.  What is your reply?
+  We are preparing  for the  sociology statistics final exam with some our classmates.   A classmate has volunteered to use SPSS to make the needed charts and tables for a data set that has several categorical and numerical variables that were assigned by the statistics professor to use as a study guide.  The classmate shows us the reports and says ``See, I've got them all -- boxplots, charts, means, medians, and standard deviations for all our variables along with graphs.  Also, I don't understand why  Professor Doe told us that we cannot use  descriptive statistics for some of the variables; I got descriptive statistics for everything!  See, the mean for height is 67, the average for GPA is 2.8. The midpoint for gender is 1.45, the average for the major course of study is 4.56.''  However, as we review the report  something about the output appears weird -- like boxplots for gender and  major course of study and pie charts for grade point average and height.  What is our reply?
   
   
   \end{exercise}
@@ -690,7 +689,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
  \label{tab:t4_14}
 \end{table}
 	 
-  Calculate the range and standard deviation pre and post test scores.
+  Calculate the range and standard deviation of pre and post test scores.
   
 	\vspace{4mm}
     \framebox[5cm][l]{ Answer: }
@@ -775,7 +774,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 
   \subsection{Dispersion}
   \begin{enumerate}
-    \item Choose from the  MENU BAR: \\
+    \item Choose from the SPSS MENU BAR: \\
       {\bf{ANALYZE}} $>$ {\bf{DESCRIPTIVE STATISTICS}} $>$ {\bf{FREQUENCIES...}}
     \item Select {\it{HIGHEST YEAR OF SCHOOL COMPLETED (educ)}} 
     \item Select {\it{Statistics...}} 
