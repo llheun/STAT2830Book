@@ -75,7 +75,7 @@ $\bar{x} \pm 3SD$
 
 We will use the following regarding the empirical rule.
 
-Suppose we are concerned about the amount of money that students pay for their lunch.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
+Suppose we are concerned about the amount of money that students pay for their lunches.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
 
 \begin{align*}
 \mu \pm \sigma &= 5 \pm 0.5, or \hspace{1mm} 4.5 \hspace{1mm} to \hspace{1mm} 5.5 \\
@@ -94,7 +94,7 @@ Suppose we are concerned about the amount of money that students pay for their l
 
 \subsubsection{Example \# 2}
 
-Here is another example of how to use the empirical rule.
+Here is another example of how we can use the empirical rule.
 
 The \emph{Student Monitor} surveyed college students and reported the amount of time spent per week  on internet sites.  Assume the lower bound of the middle 95 percent of values is at least 8.5 hours and the upper limit is at most 30.5 hours.  What is the standard deviation of this data?  What is the mean time that students spent on the world-wide-web? 
 
