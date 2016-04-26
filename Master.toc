@@ -122,8 +122,8 @@
 \contentsline {subsection}{\numberline {6.6.1}Theorem I}{95}
 \contentsline {subsection}{\numberline {6.6.2}Theorem II -- Central Limit Theorem}{97}
 \contentsline {section}{\numberline {6.7}Estimation of Population Mean}{98}
-\contentsline {section}{\numberline {6.8}Key Words}{100}
-\contentsline {section}{\numberline {6.9}Exercises}{101}
+\contentsline {section}{\numberline {6.8}Key Words}{99}
+\contentsline {section}{\numberline {6.9}Exercises}{100}
 \contentsline {chapter}{\numberline {7}Estimation }{105}
 \contentsline {section}{\numberline {7.1}Objective}{105}
 \contentsline {section}{\numberline {7.2}Calculating CI for Population Mean}{105}

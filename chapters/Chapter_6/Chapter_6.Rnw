@@ -106,7 +106,7 @@ There are four main methods of probability sampling:
 \begin{enumerate}
 \item {\bf{Simple Random Sampling}} -- Samples are randomly selected from the population.  It can be done using the lottery method, table of random numbers, computer or calculator random number generator. 
 	\begin{itemize} 
-	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Simple Random Sampling}} -- randomly selecting  samples from a list of all families in Kalamazoo.
+	\item Example: {\bf{Target Population}} -- Households in Kalamazoo; \\ {\bf{Simple Random Sampling}} -- randomly selecting  samples from a list of all households in Kalamazoo.
 	\end{itemize}
 
 \item {\bf{Systematic Random Sampling}} -- Select a starting point in a random fashion. Then select every $k^{th}$ (such as every $50^{th}$) element in the population.
@@ -214,20 +214,20 @@ Z &=  \frac{72.0 - 69.1}{0.92} = 3.15
 \end{minipage}
 
  \begin{itemize}
- \item Looking at the Area Under the Normal Curve table, the area between the $mean = 0$, and $Z-score = +3.15$ is 0.4992.  So the area between $-3.15$ and $+3.15$ is $0.4492 + 0.4492 = 0.9984$ (by symmetry).
+ \item Looking at the Area Under the Normal Curve table, the area between the $mean = 0$, and $Z$-score = +3.15 is 0.4992.  So the area between $-3.15$ and $+3.15$ is $0.4492 + 0.4492 = 0.9984$ (by symmetry).
  
- \item Answer: NO!  99.84 percent of the groups averages will be within 66.2 and 72.0 inches tall.
+ \item Answer: NO!  99.84 percent of the group averages will be within 66.2 and 72.0 inches tall.
  
  \item Using the original height data of men in the United States, approximately 68 percent of men are between 66.2 and 72.0 inches.
  
- \item But using the average height of men in the United States, we find that 99.84 percent of the groups means will be from 66.2 and 72.0 inches.
+ \item But using the average height of men in the United States, we find that 99.84 percent of the group means will be from 66.2 and 72.0 inches.
  \end{itemize}
  
  \begin{minipage}[h]{6.5cm}
  
     \includegraphics[width=4cm]{chapters/Chapter_6/ext_figure/zAUC12.png} % requires the graphicx package
 
- \end{minipage} \hfill
+\end{minipage} \hfill
 \begin{minipage}[h]{6.5cm}
  
     \includegraphics[width=4cm]{chapters/Chapter_6/ext_figure/zAUC13.png} % requires the graphicx package
@@ -283,7 +283,7 @@ We present the outcomes of selecting a sample of size, 1, 10, 25, and 100 in the
    \label{tab:T6}
 \end{table}
 
-Now let's look at the histograms of the averages.
+Now let's look at the histograms of the average.
 
 \begin{minipage}[h]{4cm}
 
@@ -319,25 +319,21 @@ SE = \frac{s}{\sqrt{n}} \nonumber
 \end{itemize}
 
 Let's examine this idea using the following examples.
-
 What is the average length of stay for an undergraduate student at WMU?
 
 \begin{enumerate}
 \item Suppose we selected 25 graduating students and asked them about their length of residence.  Assume that the sample averaged 5.3 years, with a standard deviation of 1.4 years.  Then the average stay for WMU graduating students is estimated as \underline{\phantom{xxxxxxxxx}} years give or take \underline{\phantom{xxxxxxxxx}} years or so.
-
 \begin{align*}
 \bar{X} &= 5.3  \\
 SE &= \frac{1.4}{\sqrt{25}} = 0.28
 \end{align*}
 
 \item We interviewed a second sample of 100 students.  The mean and standard deviation for the second sample were 5.3 years and 1.4 years, respectively.  Calculate an approximation for the WMU average stay and provide a standard error of our estimate. 
-
 \begin{align*}
 \bar{X} &= 5.3  \\
 SE &= \frac{1.4}{\sqrt{100}} = 0.14
 \end{align*}
 \end{enumerate}
-
 
 \pagebreak 
 \section{Key Words}
