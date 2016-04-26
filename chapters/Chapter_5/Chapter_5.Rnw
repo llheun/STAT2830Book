@@ -13,7 +13,7 @@ table to find areas above, below and between points of the curve and  express th
 \item Utilize the standard normal distribution to solve probability (chance) problems.
 \end{itemize}
 
-\section{Why we should study the Normal Curve}
+\section{Why should we study the Normal Curve}
 
 This  Normal Curve is an important concept in statistics.
 
@@ -73,7 +73,7 @@ $\bar{x} \pm 3SD$
 
 \subsubsection{Example \# 1}
 
-We will use the following regarding the empirical rule.
+We will use the following to illustrate the empirical rule.
 
 Suppose we are concerned about the amount of money that students pay for their lunches.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
 
@@ -178,6 +178,7 @@ standardized form called the z-score.
 z-score = $Z = \frac{X - mean}{SD}$
 
 \item The Z-curve is Normal with Mean = 0 and SD = 1.
+
 \end{itemize}
 
 \begin{minipage}[ht]{6.5cm}
@@ -218,7 +219,7 @@ z-score = $Z = \frac{X - mean}{SD}$
 % rm(tv, yv)
 % @ 
 
-\ \\[-1cm]
+% \ \\[-1cm]
    \includegraphics[width=6cm]{chapters/Chapter_5/ext_figure/zBS4.png} % requires the graphicx package
 
 \end{minipage} 
@@ -413,7 +414,7 @@ We need to find the z-score in the table (column (a)), then look under the appro
 \end{minipage}
 
 \begin{itemize}
-\item We interpret 0.0668 (or 6.68\%) as an area under the curve representing all male individuals have an IQ score above 130 or the associated Z-score above 1.50.
+\item We interpret 0.0668 (or 6.68\%) as an area under the curve representing all male that have an IQ score above 130 or the associated Z-score above 1.50.
 
 \item Another way of stating this result is that  if we were to select a single male randomly from the studied population, the probability that the individual has an IQ score of 130, or greater is 0.0668.
 
@@ -511,7 +512,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \begin{minipage}[b]{8cm}
 
 \begin{itemize}
-\item For the AUC to the left of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associated area is 0.1915.
+\item For the AUC to the right of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associated area is 0.1915.
 
 \item The portion to the right of the mean (between $0.00$ and $+1.00$): we can look up for column (b) in the table.   When we look in the table the associated area is 0.3413. 
 \end{itemize}

@@ -96,7 +96,7 @@
 \contentsline {subsection}{\numberline {4.11.1}Dispersion}{73}
 \contentsline {chapter}{\numberline {5}Normal Curve}{75}
 \contentsline {section}{\numberline {5.1}Objectives}{75}
-\contentsline {section}{\numberline {5.2}Why we should study the Normal Curve}{75}
+\contentsline {section}{\numberline {5.2}Why should we study the Normal Curve}{75}
 \contentsline {section}{\numberline {5.3}Normal Curve Characteristics}{75}
 \contentsline {section}{\numberline {5.4}Empirical Rule}{77}
 \contentsline {subsubsection}{Example \# 1}{77}
