@@ -278,7 +278,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
-     Decision (`What we say') & Guilty & Not Guilty \\ \hline 
+     Decision (`What we say') & HIV positive & Not NIV positive \\ \hline 
      HIV positive  & correct & Type I Error (false positive)  \\ 
      Not HIV positive & Type II Error (false negative) & correct \\ \hline
      
@@ -300,7 +300,7 @@ Now if we have medical evidence about the patient, then we can say that the pati
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} | c | cc | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
      &  \multicolumn{2}{c}{Actual Situation (`What is the truth')} \\ \hline 
-     Decision (`What we say') & Guilty & Not Guilty \\ \hline 
+     Decision (`What we say') & $H_0$ true & $H_0$ false \\ \hline 
      Reject $H_0$  & correct & Type I Error   \\ 
      Fail to reject $H_0$ & Type II Error  & correct \\ \hline
      

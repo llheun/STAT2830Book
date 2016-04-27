@@ -143,7 +143,7 @@ Let's consider an example by computing a confidence interval for a population me
 
 \item To complete the process of computing a CI, we need the {\bf{critical value (CV)}}.
 	\begin{itemize}
-	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}},$  we should use the {\bf{z- table}} to locate the CV.
+	\item if we calculated the {\bf{SE}} in the previous step using the formula $\frac{\sigma}{\sqrt{n}},$  we should use the {\bf{z-table}} to locate the CV.
 	\item if we calculated the {\bf{SE}} in the last step using the method $\frac{s}{\sqrt{n}},$ we should use the {\bf{t-distribution table}} to find the CV.  To obtain the CV from the t-distribution table, we will need the confidence level (1 - $\alpha$) from the problem (1\%, or 5\%, or 10\%) and the degrees of freedom ($df$), $n - 1$.  To obtain this CV, we must look  for the values tabulated under two-sided tests. \\ 
 $df = n - 1 = 16 - 1 = 15$ \\
 significance value = $\alpha = 1 - 0.95 = 0.05$
@@ -202,7 +202,7 @@ So let's examine the steps for calculating the CI for the population mean ($\mu$
 \item Determine the {\bf{critical value}} (CV).
 	\begin{itemize}
 	
-	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we would use the {\bf{Z table}} to find the CV.
+	\item If we calculated SE in the previous step using the formula, $\frac{\sigma}{\sqrt{n}}$, we would use the {\bf{Z-table}} to find the CV.
 	
 	\item If we calculated SE in the last step using the method, $\frac{s}{\sqrt{n}}$, we would use the {\bf{t-distribution table}}, we need  $\alpha$  from the problem (1\% or 5\%, or 10\%) and the degrees of freedom ($df$): $n -1$.  
 	\end{itemize} 
@@ -350,7 +350,7 @@ $ME = CV \times SE$.
   \begin{exercise}  % 1
     
     The next 5 questions refer to the following scenario. ￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼￼
-    A random sample of 100 HBO movies released between 2010 to 2015 contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
+    A random sample of 100 HBO movies released between 2011 to 2016 contain an average of 3.38 acts of physical violence per program.  Find the 95 percent confidence interval for the `true' average number of acts of physical violence per program given the information below:
 
     \begin{center}
     $\bar{X} = 3.38;  s = 0.30;  n = 100$
