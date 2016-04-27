@@ -216,11 +216,11 @@ Z &=  \frac{72.0 - 69.1}{0.92} = 3.15
  \begin{itemize}
  \item Looking at the Area Under the Normal Curve table, the area between the $mean = 0$, and $Z$-score = +3.15 is 0.4992.  So the area between $-3.15$ and $+3.15$ is $0.4492 + 0.4492 = 0.9984$ (by symmetry).
  
- \item Answer: NO!  99.84 percent of the group averages will be within 66.2 and 72.0 inches tall.
+ \item Answer: NO!  99.84 percent of groups average will be within 66.2 and 72.0 inches tall.
  
  \item Using the original height data of men in the United States, approximately 68 percent of men are between 66.2 and 72.0 inches.
  
- \item But using the average height of men in the United States, we find that 99.84 percent of the group means will be from 66.2 and 72.0 inches.
+ \item But using the average height of men in the United States, we find that 99.84 percent of groups mean will be from 66.2 and 72.0 inches.
  \end{itemize}
  
  \begin{minipage}[h]{6.5cm}
