@@ -19,7 +19,7 @@ relationships between variables.
 
 \section{What is ANOVA?}
 
-The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means a one time by using variations.  For example, you could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  You should note that the one-way ANOVA is an overall test statistic which will not allow you to determine the specific group that  was significantly different from the other groups.  It only indicates that you have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
+The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means at one time by using variations.  For example, you could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  You should note that the one-way ANOVA is an overall test statistic which will not allow you to determine the specific group that  was significantly different from the other groups.  It only indicates that you have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
 
 
 \subsection{Example 1}

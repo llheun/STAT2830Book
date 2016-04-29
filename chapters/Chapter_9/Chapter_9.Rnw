@@ -134,19 +134,19 @@ is there evidence that the data is a mixture (potentially of two distinct popula
 		\item Now let's consider the information in Table 9.2.  We notice that there are two rows
 			\begin{itemize}
 			\item EqVar indicates the variances of both independent groups are the same.
-			\item Not Eq.Var stands for the ratio of the larger variance divided by; the smaller variance is greater than two.
+			\item Not Eq.Var stands for the ratio of the larger variance divided by the smaller variance is greater than two.
 			\item We will use the Not Eq.Var row since the ratio of the two variances is greater than two.
 			\end{itemize}
 				
 		\samepage
 		\item The test statistic $t = \frac{Mean Diff.}{SE} = \frac{-2.051538}{0.416718} = -4.923$   
 		\samepage
-		\item Sampling Distribution and Rejection Region \\
+		\item Sampling Distribution and Rejection Region: \\
 		Sampling distribution: Student t distribution (two-tailed), $\alpha = 0.05$ \\
 		Degrees of freedom (\emph{df}) is 62.929 from table 9.2 \\
 		$CV = -1.998$ 
 		\samepage
-		\item Since $| t | = | -4.923 | > | CV | = | -1.998 |$,we reject the null hypothesis.
+		\item Since $| t | = | -4.923 | > | CV | = | -1.998 |$, we reject the null hypothesis.
 		\item Although the test is significant, as  researchers, we must ask ourselves, is the size effect, $-2.05$, important on a 10 point scale.  Since this is a drop of 20 percent, we can say that the difference is meaningful.
 		
 		\end{itemize}
