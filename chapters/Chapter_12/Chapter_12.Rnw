@@ -8,7 +8,7 @@ After reading chapter twelve and doing the exercises, you will be able to
 \begin{itemize}
 
 \item Interpret  a scatter plot.
-\item Interpret the correlation coefficient $r$ and $r^2$.
+\item Interpret the correlation coefficient $r$ and the coefficient of determination $r^2$.
 \item Find and elucidate the regression line and use it to predict values of the response variable.
 \item Put into words the concepts of the total, unexplained, and explained variation.
 \item Use correlation and regression techniques to evaluate two-variable relationships.
@@ -85,7 +85,7 @@ Based on the above graphic (Figure: 12.1), there appears to be a relationship be
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       1& Random sampling  \\
-       2      & Level of Measurement is interval-ratio \\
+       2      & Levels of Measurement are interval-ratio \\
         3     & Bivariate normal distribution \\
          4    & Linear relationship \\
           5   & The variance of $Y$ scores is uniform for all $X$ values. \\
@@ -153,7 +153,7 @@ Since the $t_{obtained}$ (test statistic) is greater than the $t_{critical}$ val
 
 \section{What is Linear Regression?}
 
-Regression analysis is a method that you use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  The researcher will choose the linear regression model if there is an apparent (linear) relationship.  Let's examine an example that will help explain the process.
+Regression analysis is a method that we use when the explanatory and response variables are both numeric, i.e., interval-ratio variables, for example, weights, heights, volumes, and temperature.  The easiest way of knowing if the regression is the appropriate method is to see a scatter plot of the data.  The researcher will choose the linear regression model if there is an apparent (linear) relationship.  Let's examine an example that will help explain the process.
 
 \vspace{5mm}
 \begin{minipage}[ht]{7cm}
@@ -254,7 +254,7 @@ From the SPSS output Figure 12.5, let's determine the y-intercept of this  probl
     \label{fig:f12_5}
  \end{figure}
  
- After reviewing Figure 12.5, we find column B and row (Constant) (a) is 139.954.  Our interpretation of the y-intercept is that when \emph{X} = 0, 139.954.  Now keep this number in mind as we determine the slope because we will use these two numbers to predict the annual car theft based on the percent change that a city experienced from 2000 to 2008. 
+ After reviewing Figure 12.5, we find column B and row (Constant) (a) is 139.954.  Our interpretation of the y-intercept is 139.954 when \emph{X} = 0.  Now keep this number in mind as we determine the slope because we will use these two numbers to predict the annual car theft based on the percent change that a city experienced from 2000 to 2008. 
 
 \subsubsection{Determine the slope (b) }
 
@@ -276,7 +276,7 @@ After reviewing Figure 12.5, we find column B and row Growth that the slope (b) 
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       1 & Random sampling  \\
-      2       & Level of Measurement is interval-ratio \\
+      2       & Levels of Measurement are interval-ratio \\
       3       & Bivariate normal distribution \\
       4       & Linear relationship \\
       5       & Variance of $Y$ scores is uniform for all $X$ values. \\
@@ -291,7 +291,7 @@ After reviewing Figure 12.5, we find column B and row Growth that the slope (b) 
 
 \item {\bf{Step 2.}}  State the Hypotheses.
 
- $H_0: \beta = 0$ (there is no relationship between height and self-esteem) \\
+ $H_0: \beta = 0$ (there is no relationship between percent change of a city and car theft) \\
  $H_a: \beta \neq 0$ (where $\beta$ represents the population slope.)
  
  \item {\bf{Step 3.}}  Selecting the Sampling Distribution and Establishing the Critical Region.

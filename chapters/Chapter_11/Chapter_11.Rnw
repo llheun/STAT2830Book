@@ -19,7 +19,7 @@ relationships between variables.
 
 \section{What is ANOVA?}
 
-The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means at one time by using variations.  For example, you could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  You should note that the one-way ANOVA is an overall test statistic which will not allow you to determine the specific group that  was significantly different from the other groups.  It only indicates that you have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
+The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means at one time by using variations.  For example, we could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  We should note that the one-way ANOVA is an overall test statistic which will not allow us to determine the specific group that  was significantly different from the other groups.  It only indicates that we have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
 
 
 \subsection{Example 1}
@@ -68,7 +68,7 @@ The one-way analysis of variance (ANOVA) is a way to test the equality of three 
 %\end{table}
 \end{minipage}
 
-<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Attitude score by Category (a, b, and c">>=
+<<f11_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Attitude score by Category (a, b, and c)">>=
   dt11_0 <- read.csv("data/EX11A.csv",header=TRUE)
   boxplot( dt11_0$Data ~ dt11_0$Category, xlab="Category", ylab="Data", main="Attitude score by Category")
   
@@ -325,7 +325,7 @@ F_{obtained} &= 7.59
 \begin{align*}
 F_{obtained} &= 7.59 \\
 F_{critical} &= 3.32 \\
-p-value &= 0.002 \\
+p_{value} &= 0.002 \\
 \alpha &= 0.05 \\
 \end{align*}
 
@@ -448,5 +448,5 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
   
 \end{exercises}
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}	
+% \bibliographystyle{plain}
+% \bibliography{mybibliography}	
