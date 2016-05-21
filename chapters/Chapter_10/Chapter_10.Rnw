@@ -477,14 +477,29 @@ CV & = & 7.815
     \begin{exercise}  % 3
   
   
-    The next five exercises, we will use the data in exercise three.  We have been asked to research the following question: Why do respondents have a gun in their home?  {\it{Have a gun in home}} is the dependent variable or the rows of our table.  So step 1 in the process of analysis is to choose the independent variable.  In this case, let's review the table:
+    STEP 1: The next five exercises, we will use the data in exercise three.  We have been asked to research the following question: Why do respondents have a gun in their home?  {\it{Have a gun in home}} is the dependent variable or the rows of our table.  So step 1 in the process of analysis is to choose the independent variable.  In this case, let's review the table:
     
-    \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
-   \centering
-   \includegraphics[height=8cm]{chapters/Chapter_10/ext_figure/gun1.png} 
-   \caption{SPSS output}
-   \label{fig:f93}
-  \end{figure}
+\begin{minipage}[t]{7cm}
+
+  %  \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   % \centering
+   \includegraphics[width=8.5cm]{chapters/Chapter_10/ext_figure/gun1.png} 
+   %\caption{SPSS output}
+   %\label{fig:f93}
+  % \end{figure}
+  
+\end{minipage} \hfill
+\begin{minipage}[t]{7cm}
+
+   % \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   %\centering
+   \includegraphics[width=8.5cm]{chapters/Chapter_10/ext_figure/gun2.png} 
+   %\caption{SPSS output}
+   %\label{fig:f94}
+  % \end{figure}
+  
+\end{minipage}
+
 
 What independent variable did we choose? 
     
@@ -504,7 +519,7 @@ What independent variable did we choose?
       \begin{exercise}  % 4
   
   
-    Using the information from exercise three, we must state the {\it{hypotheses}} about its relationship with {\it{having a gun in home.}}  
+    STEP 2: Using the information from exercise three, we must state the {\it{hypotheses}} about its relationship with {\it{having a gun in home.}}  
     
 Based on our experience, how should we state our hypotheses?  
     
@@ -521,20 +536,13 @@ Based on our experience, how should we state our hypotheses?
 	  
   \end{solution}
   
-      \begin{exercise}  % 5
+
+  \begin{exercise}  % 5
   
   
-    Getting the output from GSS2014.sav dataset, we will use SPSS {\bf{Crosstabs}}.  We will start the procedure by selecting the drop down menu {\bf{Analysis}}, then select {\bf{Descriptive Statistics}} and {\bf{Crosstabs}}.  The {\bf{Crosstabs}} dialog box shows the list of variables on the left.  Highlight the name of our dependent variable ({\it{have gun in home[owngun]}}) and click the arrow to move {\it{owngun}} into the {\bf{Rows}} box.  Next we need to find the independent variable ({\it{respondents sex [sex]}}) and move it int the {\bf{Columns}} box.  Click the {\bf{Statistics}} button and select the {\bf{Chi-square}} and click on {\bf{Continue}}.  Click the {\bf{Cells}} button and select column in the  {\bf{Percentage}} box and click on {\bf{Continue}} and {\bf{OK}} to produce our output.
+    STEP 3: Getting the output from GSS2014.sav dataset, we will use SPSS {\bf{Crosstabs}}.  We will start the procedure by selecting the drop down menu {\bf{Analysis}}, then select {\bf{Descriptive Statistics}} and {\bf{Crosstabs}}.  The {\bf{Crosstabs}} dialog box shows the list of variables on the left.  Highlight the name of our dependent variable ({\it{have gun in home[owngun]}}) and click the arrow to move {\it{owngun}} into the {\bf{Rows}} box.  Next we need to find the independent variable ({\it{respondents sex [sex]}}) and move it int the {\bf{Columns}} box.  Click the {\bf{Statistics}} button and select the {\bf{Chi-square}} and click on {\bf{Continue}}.  Click the {\bf{Cells}} button and select column in the  {\bf{Percentage}} box and click on {\bf{Continue}} and {\bf{OK}} to produce our output.
     
-    
-    \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
-   \centering
-   \includegraphics[width=9cm]{chapters/Chapter_10/ext_figure/gun2.png} 
-   \caption{SPSS output}
-   \label{fig:f94}
-  \end{figure}
-  
-  We should obtain 
+Did we obtain the output in exercise 3?  
 
     	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -548,7 +556,74 @@ Based on our experience, how should we state our hypotheses?
 	  Yes the figures look like the above figures.
 
 	  
+  \end{solution} 
+  
+        \begin{exercise}  % 6
+  
+  
+    STEP 4: We will take the results of the SPSS output and record the results.  Please recall that the significance of the relationship is found in the column {\it{Asymp. Sig. (2-sided)}} of the second box.
+    
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lccc @{}}  \\ \hline  % Column formatting, @{} suppresses leading/trailing space
+      Dependent Variable & Chi-square & Degrees of Freedom & Significance \\ \hline
+                         &            &                    &              \\ \hline
+   \end{tabular}
+   \caption{Record the results.}
+   \label{tab:c10_10}
+\end{table}
+    
+    	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+ 
+	  \begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} l|c|c|c @{}}  \\ \hline  % Column formatting, @{} suppresses leading/trailing space
+      Dependent Variable & Chi-square & Degrees of Freedom & Significance \\ \hline
+       have  gun in home & 28.351     & 2                 &     0.000     \\ \hline
+   \end{tabular}
+   \caption{Record the results.}
+   \label{tab:c10_11}
+\end{table}
+
+	  
   \end{solution}  
+  
+         \begin{exercise}  % 7
+  
+  
+    STEP 5: Interpreting Results.  We should write a summary of the test using the following:
+    
+    \begin{enumerate}
+    \item Discern the variables tested, vis, the value and significance of the chi-square, sample size, and any pattern in the column percentages.
+    \item Does the data support our hypotheses?
+    \end{enumerate}
+    
+    For example: For a sample of 249 subjects, there was a significant relationship between gender and income (chi-square = 35, degrees of freedom = 1, and p-value = .000).  About 50 percent of men say that there is no difference vs. about 30 percent of women.
+    
+    	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+  The answer is ... 
+
+
+	  
+  \end{solution}  
+  
   
   
 \end{exercises}
