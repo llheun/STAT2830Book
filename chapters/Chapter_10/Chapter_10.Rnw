@@ -474,6 +474,68 @@ CV & = & 7.815
 	  
   \end{solution}
   
+    \begin{exercise}  % 3
+  
+  
+    The next five exercises, we will use the data in exercise three.  We have been asked to research the following question: Why do respondents have a gun in their home?  \it{Have a gun in home} is the dependent variable or the rows of our table.  So step 1 in the process of analysis is to choose the independent variable.  In this case, let's review the table:
+    
+    \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=9cm]{chapters/Chapter_10/ext_figure/gun2.pdf} 
+   \caption{SPSS output}
+   \label{fig:f93}
+\end{figure}
+
+What independent variable did we choose? 
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+ 
+	  Reviewing the results of the table, the independent variable is \it{gender}.
+
+	  
+  \end{solution}
+  
+      \begin{exercise}  % 4
+  
+  
+    Using the information from exercise three, we must state the \it{hypotheses} about its relationship with \it{having a gun in home.}  
+    
+Based on our experience, how should we state our hypotheses?  
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+ 
+	  The hypotheses for this scenario is $H_0:$ Gender and having a gun in home are independent, vs. $H_1:$ Gender and having a gun in home are dependent.
+
+	  
+  \end{solution}
+  
+      \begin{exercise}  % 5
+  
+  
+    Using the information from exercise three, we must state the \it{hypotheses} about its relationship with \it{having a gun in home.}  
+    
+Based on our experience, how should we state our hypotheses?  
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+ 
+	  The hypotheses for this scenario is $H_0:$ Gender and having a gun in home are independent, vs. $H_1:$ Gender and having a gun in home are dependent.
+
+	  
+  \end{solution}  
+  
+  
 \end{exercises}
 
 

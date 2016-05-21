@@ -167,41 +167,41 @@
 \contentsline {subsection}{\numberline {10.3.1}Example 1}{152}
 \contentsline {section}{\numberline {10.4}Key Words}{154}
 \contentsline {section}{\numberline {10.5}Exercises}{155}
-\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{157}
-\contentsline {section}{\numberline {11.1}Objective}{157}
-\contentsline {section}{\numberline {11.2}What is ANOVA?}{157}
-\contentsline {subsection}{\numberline {11.2.1}Example 1}{158}
-\contentsline {subsection}{\numberline {11.2.2}Example 2}{160}
-\contentsline {section}{\numberline {11.3}Key Words}{163}
-\contentsline {section}{\numberline {11.4}Exercises}{164}
-\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{167}
-\contentsline {section}{\numberline {12.1}Objective}{167}
-\contentsline {section}{\numberline {12.2}What is Correlation?}{167}
-\contentsline {subsection}{\numberline {12.2.1}Example 1}{168}
-\contentsline {section}{\numberline {12.3}What is Linear Regression?}{171}
-\contentsline {subsubsection}{Interpreting Scatter Plot}{171}
-\contentsline {subsubsection}{Does a Relationship Exist?}{171}
-\contentsline {subsubsection}{How Strong is the association?}{171}
-\contentsline {subsubsection}{Predicting response variable using the scatter plot}{172}
-\contentsline {subsubsection}{The Regression Line}{173}
-\contentsline {subsubsection}{Determining the y-intercept (a)}{173}
-\contentsline {subsubsection}{Determine the slope (b) }{174}
-\contentsline {subsubsection}{Prediction}{175}
-\contentsline {subsubsection}{Interpreting the Regression}{175}
-\contentsline {subsubsection}{Descriptive Statistics}{175}
-\contentsline {subsubsection}{Correlation matrix}{176}
-\contentsline {subsubsection}{Scatter plot}{176}
-\contentsline {subsubsection}{Regression Equation}{177}
-\contentsline {subsubsection}{Diagnostics}{178}
-\contentsline {subsubsection}{Summary}{178}
-\contentsline {section}{\numberline {12.4}Key Words}{179}
-\contentsline {section}{\numberline {12.5}Exercises}{181}
-\contentsline {chapter}{\numberline {13}Workshops}{185}
-\contentsline {section}{\numberline {13.1}Workshop 1}{186}
-\contentsline {section}{\numberline {13.2}Workshop 2}{188}
-\contentsline {section}{\numberline {13.3}Workshop 3}{190}
-\contentsline {section}{\numberline {13.4}Workshop 4}{192}
-\contentsline {section}{\numberline {13.5}Workshop 5}{194}
-\contentsline {section}{\numberline {13.6}Workshop 6}{196}
-\contentsline {section}{\numberline {13.7}Workshop 7}{198}
-\contentsline {section}{\numberline {13.8}Workshop 8}{202}
+\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{159}
+\contentsline {section}{\numberline {11.1}Objective}{159}
+\contentsline {section}{\numberline {11.2}What is ANOVA?}{159}
+\contentsline {subsection}{\numberline {11.2.1}Example 1}{160}
+\contentsline {subsection}{\numberline {11.2.2}Example 2}{162}
+\contentsline {section}{\numberline {11.3}Key Words}{165}
+\contentsline {section}{\numberline {11.4}Exercises}{166}
+\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{169}
+\contentsline {section}{\numberline {12.1}Objective}{169}
+\contentsline {section}{\numberline {12.2}What is Correlation?}{169}
+\contentsline {subsection}{\numberline {12.2.1}Example 1}{170}
+\contentsline {section}{\numberline {12.3}What is Linear Regression?}{173}
+\contentsline {subsubsection}{Interpreting Scatter Plot}{173}
+\contentsline {subsubsection}{Does a Relationship Exist?}{173}
+\contentsline {subsubsection}{How Strong is the association?}{173}
+\contentsline {subsubsection}{Predicting response variable using the scatter plot}{174}
+\contentsline {subsubsection}{The Regression Line}{175}
+\contentsline {subsubsection}{Determining the y-intercept (a)}{175}
+\contentsline {subsubsection}{Determine the slope (b) }{176}
+\contentsline {subsubsection}{Prediction}{177}
+\contentsline {subsubsection}{Interpreting the Regression}{177}
+\contentsline {subsubsection}{Descriptive Statistics}{177}
+\contentsline {subsubsection}{Correlation matrix}{178}
+\contentsline {subsubsection}{Scatter plot}{178}
+\contentsline {subsubsection}{Regression Equation}{179}
+\contentsline {subsubsection}{Diagnostics}{180}
+\contentsline {subsubsection}{Summary}{180}
+\contentsline {section}{\numberline {12.4}Key Words}{181}
+\contentsline {section}{\numberline {12.5}Exercises}{183}
+\contentsline {chapter}{\numberline {13}Workshops}{187}
+\contentsline {section}{\numberline {13.1}Workshop 1}{188}
+\contentsline {section}{\numberline {13.2}Workshop 2}{190}
+\contentsline {section}{\numberline {13.3}Workshop 3}{192}
+\contentsline {section}{\numberline {13.4}Workshop 4}{194}
+\contentsline {section}{\numberline {13.5}Workshop 5}{196}
+\contentsline {section}{\numberline {13.6}Workshop 6}{198}
+\contentsline {section}{\numberline {13.7}Workshop 7}{200}
+\contentsline {section}{\numberline {13.8}Workshop 8}{204}
