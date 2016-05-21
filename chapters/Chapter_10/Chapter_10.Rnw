@@ -567,7 +567,7 @@ Did we obtain the output in exercise 3?
 \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lccc @{}}  \\ \hline  % Column formatting, @{} suppresses leading/trailing space
+   \begin{tabular}{@{} l|c|c|c @{}}  \\ \hline  % Column formatting, @{} suppresses leading/trailing space
       Dependent Variable & Chi-square & Degrees of Freedom & Significance \\ \hline
                          &            &                    &              \\ \hline
    \end{tabular}
@@ -608,7 +608,7 @@ Did we obtain the output in exercise 3?
     \item Does the data support our hypotheses?
     \end{enumerate}
     
-    For example: For a sample of 249 subjects, there was a significant relationship between gender and income (chi-square = 35, degrees of freedom = 1, and p-value = .000).  About 50 percent of men say that there is no difference vs. about 30 percent of women.
+    For example: For a sample of 1523 subjects, there was a significant relationship between gender and income (chi-square = 49.442, degrees of freedom = 11, and p-value = .000).  According to the GSS2014 survey 70.9 percent of men earned 25,000 dollars or more vs. 54.2 percent of women.
     
     	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -618,10 +618,8 @@ Did we obtain the output in exercise 3?
   \vspace{2mm}
   \begin{solution}
   
-  The answer is ... 
+  For a sample of 1711 subjects, there was a significant relationship between {\it{gender}} and {\it{have gun in home}} (chi-square = 28.351, degree of freedom = 2, and p-value = 0.000).  According to the GSS2014 survey 73.7 percent of women respondents said either no or refused to have a gun in the home vs. 63.5 percent of men respondents.
 
-
-	  
   \end{solution}  
   
   
