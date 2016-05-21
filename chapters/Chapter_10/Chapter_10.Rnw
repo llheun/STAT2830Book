@@ -481,7 +481,7 @@ CV & = & 7.815
     
     \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=9cm]{chapters/Chapter_10/ext_figure/gun2.pdf} 
+   \includegraphics[width=9cm]{chapters/Chapter_10/ext_figure/gun1.png} 
    \caption{SPSS output}
    \label{fig:f93}
 \end{figure}
