@@ -477,24 +477,26 @@ CV & = & 7.815
     \begin{exercise}  % 3
   
   
-    The next five exercises, we will use the data in exercise three.  We have been asked to research the following question: Why do respondents have a gun in their home?  \it{Have a gun in home} is the dependent variable or the rows of our table.  So step 1 in the process of analysis is to choose the independent variable.  In this case, let's review the table:
+    The next five exercises, we will use the data in exercise three.  We have been asked to research the following question: Why do respondents have a gun in their home?  {\it{Have a gun in home}} is the dependent variable or the rows of our table.  So step 1 in the process of analysis is to choose the independent variable.  In this case, let's review the table:
     
     \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=9cm]{chapters/Chapter_10/ext_figure/gun1.png} 
+   \includegraphics[height=8cm]{chapters/Chapter_10/ext_figure/gun1.png} 
    \caption{SPSS output}
    \label{fig:f93}
-\end{figure}
+  \end{figure}
 
 What independent variable did we choose? 
     
-
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
   
  
-	  Reviewing the results of the table, the independent variable is \it{gender}.
+	  Reviewing the results of the table, the independent variable is {\it{gender}}.
 
 	  
   \end{solution}
@@ -502,17 +504,19 @@ What independent variable did we choose?
       \begin{exercise}  % 4
   
   
-    Using the information from exercise three, we must state the \it{hypotheses} about its relationship with \it{having a gun in home.}  
+    Using the information from exercise three, we must state the {\it{hypotheses}} about its relationship with {\it{having a gun in home.}}  
     
 Based on our experience, how should we state our hypotheses?  
     
-
+	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
   \end{exercise}
   \vspace{2mm}
   \begin{solution}
   
  
-	  The hypotheses for this scenario is $H_0:$ Gender and having a gun in home are independent, vs. $H_1:$ Gender and having a gun in home are dependent.
+	  The hypotheses for this scenario is $H_0:$ Sex and having a gun in home are independent, vs. $H_1:$ Sex and having a gun in home are dependent.
 
 	  
   \end{solution}
@@ -520,9 +524,20 @@ Based on our experience, how should we state our hypotheses?
       \begin{exercise}  % 5
   
   
-    Using the information from exercise three, we must state the \it{hypotheses} about its relationship with \it{having a gun in home.}  
+    Getting the output from GSS2014.sav dataset, we will use SPSS {\bf{Crosstabs}}.  We will start the procedure by selecting the drop down menu {\bf{Analysis}}, then select {\bf{Descriptive Statistics}} and {\bf{Crosstabs}}.  The {\bf{Crosstabs}} dialog box shows the list of variables on the left.  Highlight the name of our dependent variable ({\it{have gun in home[owngun]}}) and click the arrow to move {\it{owngun}} into the {\bf{Rows}} box.  Next we need to find the independent variable ({\it{respondents sex [sex]}}) and move it int the {\bf{Columns}} box.  Click the {\bf{Statistics}} button and select the {\bf{Chi-square}} and click on {\bf{Continue}}.  Click the {\bf{Cells}} button and select column in the  {\bf{Percentage}} box and click on {\bf{Continue}} and {\bf{OK}} to produce our output.
     
-Based on our experience, how should we state our hypotheses?  
+    
+    \begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=9cm]{chapters/Chapter_10/ext_figure/gun2.png} 
+   \caption{SPSS output}
+   \label{fig:f94}
+  \end{figure}
+  
+  We should obtain 
+
+    	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
     
 
   \end{exercise}
@@ -530,7 +545,7 @@ Based on our experience, how should we state our hypotheses?
   \begin{solution}
   
  
-	  The hypotheses for this scenario is $H_0:$ Gender and having a gun in home are independent, vs. $H_1:$ Gender and having a gun in home are dependent.
+	  Yes the figures look like the above figures.
 
 	  
   \end{solution}  
