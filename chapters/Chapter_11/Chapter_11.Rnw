@@ -19,7 +19,7 @@ relationships between variables.
 
 \section{What is ANOVA?}
 
-The one-way analysis of variance (ANOVA) is a way to test the equality of three or more means at one time by using variations.  For example, we could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  We should note that the one-way ANOVA is an overall test statistic which will not allow us to determine the specific group that  was significantly different from the other groups.  It only indicates that we have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
+The one-way {\bf{an}}alysis {\bf{o}}f {\bf{va}}riance (ANOVA) is a way to test the equality of three or more means at one time by using variations.  For example, we could use the one-way ANOVA to make sense of exam performance based on apprehension test levels among students where the instructor divided the students into four independent groups.  We should note that the one-way ANOVA is an overall test statistic which will not allow us to determine the specific group that  was significantly different from the other groups.  It only indicates that we have at least one group that is distinct from the others.  There are posthoc tests to say which group is different, but it is beyond the scope of this introductory course.
 
 
 \subsection{Example 1}
@@ -446,7 +446,53 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     
   \end{solution}
   
+  \begin{exercise} % 3
+  
+  
+    The next five tasks, we will use the data in this exercise.  We have been asked to examine how the mean age of the respondent varies with the respondent's confidence in the banking and financial systems.  Here we have ``Age'' which is a interval-ratio type of variable while ``confidence in the banking and financial systems'' is nominal type of variable.  These types of variables require that we use ANOVA analysis.   
+    A random sample of 18 couples has measured the marital happiness scale in a local community.  The researcher classified couples by type of relationship: traditional, dual\_career, and cohabitation.  Does marital satisfaction vary significantly by type of relationship?  The $F_{critical} = 3.68$ at the 5 percent level of significance.
+
+    %<<t11_3, echo=FALSE>>=
+    %  
+    %  dt11_3 <- read.csv("data/EX11C.csv",header=TRUE)
+    %  
+    %  aov13 <- aov(dt11_3$Happiness.score ~ dt11_3$Relationship)
+    %  xtable(aov13)
+    %  rm(aov13)
+    % 
+    %@
+
+    % latex table generated in R 3.2.0 by xtable 1.7-4 package
+    % Tue Jul 21 09:03:01 2015
+    \begin{table}[ht]
+    \centering
+    \begin{tabular}{lrrrrr}
+    \hline
+      & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+    \hline
+    dt11\_3\$Relationship & 2 & 65.44 & 32.72 & 1.84 & 0.1932 \\ 
+      Residuals & 15 & 267.00 & 17.80 &  &  \\ 
+      \hline
+    \end{tabular}
+    \end{table}
+
+      \begin{enumerate}
+      \item Since the $F_{obtained} = 1.84 < F_{critical} = 3.68$, fail to reject $H_0$
+      \item Since the $F_{obtained} = 1.84 < F_{critical} = 3.68$, reject $H_0$
+      \item Since the $F_{obtained} = 1.84 > F_{critical} = 3.68$, fail to reject $H_0$
+      \item Since the $F_{obtained} = 1.84 > F_{critical} = 3.68$, reject $H_0$
+      \item There is not enough information to decide.
+      \end{enumerate} 
+      \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+    
+    Since the $F_{obtained} = 1.84 < F_{critical} = 3.68$, fail to reject $H_0$
+    
+  \end{solution} 
+  
 \end{exercises}
 
-% \bibliographystyle{plain}
-% \bibliography{mybibliography}	
