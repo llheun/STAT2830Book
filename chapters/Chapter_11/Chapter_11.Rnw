@@ -461,9 +461,9 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     \multicolumn{4}{c}{Descriptives} \\
     \multicolumn{4}{c}{Age of Respondent} \\ \hline
       Confidence    & N & Mean & SD \\ \hline
-       A GREAT DEAL & 411 & 47.96 & 18.305 \\
-       ONLY SOME    &    952 & 49.30 & 17.096 \\
-       HARDLY ANY   &   308 & 49.54 & 16.453 \\ \hline
+       A GREAT DEAL & 240 & 47.89 & 19.144 \\
+       ONLY SOME    & 890 & 49.88 & 17.308 \\
+       HARDLY ANY   & 541 & 48.09 & 16.462 \\ \hline
     \end{tabular}
     \end{table}
     % \end{minipage} \hfill
@@ -477,9 +477,9 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     \multicolumn{6}{c}{Age of Respondent} \\ \hline
       &  Sum Sq & N & Mean Sq & F value & Sig. \\ 
     \hline
-    Between Groups & 617.497 & 2 &  308.748 & 1.033 & 0.356 \\ 
-    Within Groups & 498455.187 & 1668 & 298.834 &  &  \\ \hline
-    Total & 499072.683 & 1670 &       &         &     \\ \hline
+    Between Groups & 1432.239 & 2 &  716.119 & 2.388 & 0.092 \\ 
+    Within Groups & 500229.223 & 1668 & 299.898 &  &  \\ \hline
+    Total & 501661.461 & 1670 &       &         &     \\ \hline
     
     \end{tabular}
     \end{table}
@@ -517,20 +517,17 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
      \begin{exercise} % 5
   
   
-    STEP 3: 
+    STEP 3: Getting the output from GSS2014 dataset, we will use SPSS Compare Means. We will start the procedure by selecting the drop down menu Analysis, then select One-way ANOVA. The One-way ANOVA dialog box shows the list of variables on the left. Highlight the name of our dependent variable (Age of respondent [age]]) and click the arrow to move {\it{age}} into the Dependent List box. Next we need to find the Factor variable ({\it{confidence in the banking and financial systems}} [Confinan]) and move it into the Factor box. Click the Options button and select Descriptive and click on Continue and OK to produce our output.
+Did we obtain the output in exercise 3?
     
-    
-    
-    Using the information from exercise three, we must state the hypotheses about its relationship with having a gun in the home.  Based on our experience, how should we state our hypotheses?
-
-      \vspace{3mm}
+      \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
     
   \end{exercise}
   \vspace{5mm}
   \begin{solution}
     
-    $H_0: \mu_1 = \mu_2 = \mu_3$ vs. $H_1:$ at least one {\it{age}} mean is different.
+    Yes.
     
   \end{solution} 
   
