@@ -382,6 +382,8 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     \end{tabular}
   \end{table}
 
+  What are the hypotheses?
+
     \begin{enumerate}
     \item $H_0: \mu_1 = \mu_2 = \mu_3$ vs. $H_a:$ at least one mean is different.
     \item $H_0: \mu_1 \ne \mu_2 \ne \mu_3$ vs. $H_a:$ all means are equal.
@@ -464,6 +466,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
        A GREAT DEAL & 240 & 47.89 & 19.144 \\
        ONLY SOME    & 890 & 49.88 & 17.308 \\
        HARDLY ANY   & 541 & 48.09 & 16.462 \\ \hline
+       Total        & 1671& 49.02 & 17.332 \\ \hline
     \end{tabular}
     \end{table}
  
@@ -515,7 +518,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
      \begin{exercise} % 5
   
   
-    STEP 3: Getting the output from GSS2014 dataset, we will use SPSS Compare Means. We will start the procedure by selecting the drop down menu Analysis, then select One-way ANOVA. The One-way ANOVA dialog box shows the list of variables on the left. Highlight the name of our dependent variable (Age of respondent [age]]) and click the arrow to move {\it{age}} into the Dependent List box. Next we need to find the Factor variable ({\it{confidence in the banking and financial systems}} [confinan]) and move it into the Factor box. Click the Options button and select Descriptive and click on Continue and OK to produce our output.
+    STEP 3: Getting the output from GSS2014 dataset, we will use SPSS Compare Means. We will start the procedure by selecting the drop down menu {\bf{Analysis}}, then select {\bf{One-way ANOVA}}. The One-way ANOVA dialog box shows the list of variables on the left. Highlight the name of our dependent variable ({\bf{Age of respondent [age]}}) and click the arrow to move {\it{age}} into the Dependent List box. Next we need to find the Factor variable ({\bf{confidence in the banking and financial systems [confinan]}}) and move it into the Factor box. Click the Options button and select {\bf{Descriptive}} and click on Continue and OK to produce our output.
 Did we obtain the output in exercise 3?
     
       \vspace{5mm}
@@ -532,7 +535,7 @@ Did we obtain the output in exercise 3?
          \begin{exercise}  % 6
   
   
-    STEP 4: We will take the results of the SPSS output and record the results.  Please recall that the significance of the relationship is found in the column {\it{Asymp. Sig. (2-sided)}} of the second box.
+    STEP 4: We will take the results of the SPSS output and record the results.  Please recall that the significance of the relationship is found in the column {\it{Sig.}} of the second box.
     
 
   \begin{table}[ht]
@@ -569,7 +572,7 @@ Did we obtain the output in exercise 3?
     1. confinan & 1. A great Deal   &  47.89    &  19.144       &  240      &  2.388       &  0.092    \\
                 & 2. Only Some      &  49.88    &  17.308       &  890      &         &      \\
                 & 3. Hardly Any     &  48.09    &  16.462       &  541      &         &      \\
-                & Total             &  49.02    &  17.332       &  1671       &         &      \\ \hline
+                & Total             &  49.02    &  17.332       &  1671     &         &      \\ \hline
     \end{tabular}
     \end{table}
 
@@ -582,11 +585,11 @@ Did we obtain the output in exercise 3?
     STEP 5: Interpreting Results.  We should write a summary of the test using the following:
     
     \begin{enumerate}
-    \item Discern the variables assessed, vis, the value and significance of the chi-square, sample size, and any pattern in the column percentages.
+    \item Discern the variables assessed, vis, the value and significance of ANOVA, sample size, and any pattern in the column percentages.
     \item Does the data support our hypotheses?
     \end{enumerate}
     
-    For example: For a sample of 1523 subjects, there was a significant relationship between gender and income (chi-square = 49.442, degrees of freedom = 11, and p-value = .000).  According to the GSS2014 survey 70.9 percent of men earned 25,000 dollars or more vs. 54.2 percent of women.
+    For example: For a sample of 2235 subjects, there was a significant difference between the average age of subjects USED A CONDOM LAST TIME (41.81) and NOT USED (49.93) (F = 94.06, p-value = 0.0)
     
     	  \vspace{5mm}
     \framebox[5cm][l]{ Answer: }
@@ -596,8 +599,8 @@ Did we obtain the output in exercise 3?
   \vspace{2mm}
   \begin{solution}
   
-  For a sample of 1711 subjects, there was a significant relationship between {\it{gender}} and {\it{have gun in home}} (chi-square = 28.351, degree of freedom = 2, and p-value = 0.000).  According to the GSS2014 survey 73.7 percent of women respondents said either no or refused to have a gun in the home vs. 63.5 percent of men respondents.
-
+  For a sample of 1671 subjects, there was no significant difference between the average age of subjects had a great deal of confidence in the banking and financial systems (47.89), only some confidence in the banking and financial systems (49.88), and hardly any confidence in the banking and financial systems *(48.09) (F = 2.388, p-value = 0.092).
+  
   \end{solution}  
   
  
