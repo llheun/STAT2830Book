@@ -454,7 +454,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     
     % \begin{minipage}[t]{5cm}
     % latex table generated in R 3.2.0 by xtable 1.7-4 package
-    % Tue Jul 21 09:03:01 2015
+    % Tue May 24 09:03:01 2016
    \begin{table}[ht]
     \centering
     \begin{tabular}{lrrr} \hline
@@ -466,10 +466,9 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
        HARDLY ANY   & 541 & 48.09 & 16.462 \\ \hline
     \end{tabular}
     \end{table}
-    % \end{minipage} \hfill
-    %\begin{minipage}[t]{7cm}
+ 
     % latex table generated in R 3.2.0 by xtable 1.7-4 package
-    % Tue Jul 21 09:03:01 2015
+    % Tue May 23 09:03:01 2016
    \begin{table}[ht]
     \centering
     \begin{tabular}{lrrrrr} \hline
@@ -483,8 +482,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     
     \end{tabular}
     \end{table}
-    % \end{minipage}
-    
+
     What are the dependent and independent variables for this analysis?
       
       \vspace{5mm}
@@ -501,7 +499,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
     \begin{exercise} % 4
   
   
-    STEP 2: Using the information from exercise three, we must state the hypotheses about its relationship with having a gun in the home.  Based on our experience, how should we state our hypotheses?
+    STEP 2: Using the information from exercise three, we must state the hypotheses about its relationship with {\it{age}} and {\it{confidence in bank and financial systems (confinan)}} .  Based on our experience, how should we state our hypotheses?
 
       \vspace{3mm}
     \framebox[5cm][l]{ Answer: }
@@ -517,7 +515,7 @@ Since $7.59 > 3.32$, we reject the null hypothesis.  Thus, at least, one of the 
      \begin{exercise} % 5
   
   
-    STEP 3: Getting the output from GSS2014 dataset, we will use SPSS Compare Means. We will start the procedure by selecting the drop down menu Analysis, then select One-way ANOVA. The One-way ANOVA dialog box shows the list of variables on the left. Highlight the name of our dependent variable (Age of respondent [age]]) and click the arrow to move {\it{age}} into the Dependent List box. Next we need to find the Factor variable ({\it{confidence in the banking and financial systems}} [Confinan]) and move it into the Factor box. Click the Options button and select Descriptive and click on Continue and OK to produce our output.
+    STEP 3: Getting the output from GSS2014 dataset, we will use SPSS Compare Means. We will start the procedure by selecting the drop down menu Analysis, then select One-way ANOVA. The One-way ANOVA dialog box shows the list of variables on the left. Highlight the name of our dependent variable (Age of respondent [age]]) and click the arrow to move {\it{age}} into the Dependent List box. Next we need to find the Factor variable ({\it{confidence in the banking and financial systems}} [confinan]) and move it into the Factor box. Click the Options button and select Descriptive and click on Continue and OK to produce our output.
 Did we obtain the output in exercise 3?
     
       \vspace{5mm}
@@ -530,6 +528,79 @@ Did we obtain the output in exercise 3?
     Yes.
     
   \end{solution} 
+  
+         \begin{exercise}  % 6
+  
+  
+    STEP 4: We will take the results of the SPSS output and record the results.  Please recall that the significance of the relationship is found in the column {\it{Asymp. Sig. (2-sided)}} of the second box.
+    
+
+  \begin{table}[ht]
+    \centering
+    \begin{tabular}{llrrrrr} \hline
+    \multicolumn{4}{c}{Descriptives} \\
+    \multicolumn{4}{c}{Age of Respondent} \\ \hline
+    Indep. Var. & Categories        & Mean & Std Dev & N obs. & F Ratio & Sig. \\ \hline
+    1. confinan & 1. A great Deal   &      &         &        &         &      \\
+                & 2. Only Some      &      &         &        &         &      \\
+                & 3. Hardly Any     &      &         &        &         &      \\
+                & Total             &      &         &        &         &      \\ \hline
+    \end{tabular}
+    \end{table}
+ 
+
+
+    
+    	  \vspace{5mm}
+    \framebox[5cm][l]{ Complete the above table. }
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+ 
+ \begin{table}[ht]
+    \centering
+    \begin{tabular}{llrrrrr} \hline
+    \multicolumn{4}{c}{Descriptives} \\
+    \multicolumn{4}{c}{Age of Respondent} \\ \hline
+    Indep. Var. & Categories        & Mean & Std Dev & N obs. & F Ratio & Sig. \\ \hline
+    1. confinan & 1. A great Deal   &  47.89    &  19.144       &  240      &  2.388       &  0.092    \\
+                & 2. Only Some      &  49.88    &  17.308       &  890      &         &      \\
+                & 3. Hardly Any     &  48.09    &  16.462       &  541      &         &      \\
+                & Total             &  49.02    &  17.332       &  1671       &         &      \\ \hline
+    \end{tabular}
+    \end{table}
+
+	  
+  \end{solution}  
+  
+         \begin{exercise}  % 7
+  
+  
+    STEP 5: Interpreting Results.  We should write a summary of the test using the following:
+    
+    \begin{enumerate}
+    \item Discern the variables assessed, vis, the value and significance of the chi-square, sample size, and any pattern in the column percentages.
+    \item Does the data support our hypotheses?
+    \end{enumerate}
+    
+    For example: For a sample of 1523 subjects, there was a significant relationship between gender and income (chi-square = 49.442, degrees of freedom = 11, and p-value = .000).  According to the GSS2014 survey 70.9 percent of men earned 25,000 dollars or more vs. 54.2 percent of women.
+    
+    	  \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+
+  \end{exercise}
+  \vspace{2mm}
+  \begin{solution}
+  
+  For a sample of 1711 subjects, there was a significant relationship between {\it{gender}} and {\it{have gun in home}} (chi-square = 28.351, degree of freedom = 2, and p-value = 0.000).  According to the GSS2014 survey 73.7 percent of women respondents said either no or refused to have a gun in the home vs. 63.5 percent of men respondents.
+
+  \end{solution}  
+  
+ 
   
 \end{exercises}
 
