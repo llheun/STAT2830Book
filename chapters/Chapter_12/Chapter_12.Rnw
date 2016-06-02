@@ -666,7 +666,9 @@ A scatterplot of the data appears below.  A plausible value of the correlation b
   \begin{exercise} % 4
   
   
-    In this exercise, our dependent variable is the respondent's {\it{rincom06}} from GSS2014 dataset.  
+    STEP 1: In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's height and a person's income.  Here we have {\it{income}} which is an  interval-ratio type of variable while {\it{height}} (the independent variable) is also an interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is to choose the an independent and dependent variables.  
+    
+  
     
 <<f12_14, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
@@ -683,33 +685,15 @@ m12 <- lm(Income1 ~ Height1)
 abline(m12)
 summary(m12)
      
-     
-     #      ## plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
-     # lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); summary(lm_4)
-     # ##abline( lm_4 )
-     # b_1 <- lm_4$coefficient[2]
-     # b_0 <- lm_4$coefficient[1]
-
 @
-    
-    How well does the number of beers a student drinks predict his or her
-blood alcohol content (BAC)? Sociology researchers, at Ohio State University, wanted to know if there is a relationship between the amount of beer consumed and BAC. The researchers assigned the number of cans of beer to each student. After each student had consumed the assigned number of beers,  thirty minutes later, an officer of the law measured the students BAC. \cite{OSU2016}
-A scatterplot of the data appears below.  A plausible value of the correlation between number of beers and blood alcohol content, based on the scatterplot, is 
 
-      \begin{enumerate}
-      \item  $r = –0.875$.
-      \item $r = –0.765$.
-      \item $r$ close to 0.
-      \item $r = 0.765$.
-      \item $r = 0.875$.
-      \end{enumerate}
-      \vspace{5mm}
-    \framebox[5cm][l]{ Answer: }
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
     
     \end{exercise}
     \vspace{2mm}
     \begin{solution}
-       The correllation coefficient is $r = 0.875 = \sqrt{0.765}$ where  $r^2$ is the coefficient of determination.
+       The independent variable is HEIGHT and the dependent variable is rincom06.
     \end{solution}    
     
     

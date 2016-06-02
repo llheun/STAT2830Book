@@ -76,7 +76,7 @@ An illustration of the interquartile range (IQR) of a variable.  We will use dat
 
 <<f4_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
 
-dt4_1 <- read.csv("data/GSS2014.csv",header=TRUE)
+dt4_1 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv",header=TRUE)
 yrsEd <- dt4_1$educ[dt4_1$educ < 97 ]
 
 boxplot(yrsEd, xlab="Years", horizontal=TRUE, main="GSS 2014")
