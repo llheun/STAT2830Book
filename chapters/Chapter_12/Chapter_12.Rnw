@@ -670,16 +670,16 @@ A scatterplot of the data appears below.  A plausible value of the correlation b
     
 <<f12_14, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
-dt12_5 <- read.csv("chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
+dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
 x12_1 <- cbind( dt12_5$HEIGHT, dt12_5$rincom06 )            ## select only the respondent's height and income
 x12_2 <- x12_1[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) & 
 						  (dt12_5$rincom06 > 0 & dt12_5$rincom06 < 26),  ]          ## select only valid data
-nrw12 <- length( x12_2[ , 1] ); nrw12 
+nrw12 <- length( x12_2[ , 1] ) 
 x12_3 <- x12_2[ sample( 1:nrw12, size= 40, replace = TRUE),  ]
-x12 <- x12_3[,1]
-y12 <- x12_3[,2]
-plot(x12,y12, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot Respondent's Height vs. Income" )
-m12 <- lm(y12 ~ x12)
+Height1 <- x12_3[,1]
+Income1 <- x12_3[,2]
+plot(Height1, Income1, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
+m12 <- lm(Income1 ~ Height1)
 abline(m12)
 summary(m12)
      
