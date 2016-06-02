@@ -593,7 +593,7 @@ One student drank nine beers. You see from the scatter plot that his BAC was abo
 blood alcohol content (BAC)? Sociology researchers, at Ohio State University, wanted to know if there is a relationship between the amount of beer consumed and BAC. The researchers assigned the number of cans of beer to each student. After each student had consumed the assigned number of beers,  thirty minutes later, an officer of the law measured the students BAC. \cite{OSU2016}
 A scatterplot of the data appears below.  The scatterplot shows
 
-    <<f12_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
+<<f12_12, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="No. Beers vs. BAC">>=
   
      dt12_4 <- read.csv("data/beers.csv",header=TRUE)
      plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
@@ -602,7 +602,7 @@ A scatterplot of the data appears below.  The scatterplot shows
      b_1 <- lm_4$coefficient[2]
      b_0 <- lm_4$coefficient[1]
 
-    @
+@
 
       \begin{enumerate}
       \item a weak negative relationship.
@@ -662,6 +662,65 @@ A scatterplot of the data appears below.  A plausible value of the correlation b
     \begin{solution}
        The correllation coefficient is $r = 0.875 = \sqrt{0.765}$ where  $r^2$ is the coefficient of determination.
     \end{solution}
+    
+  \begin{exercise} % 4
+  
+  
+    
+    
+    How well does the number of beers a student drinks predict his or her
+blood alcohol content (BAC)? Sociology researchers, at Ohio State University, wanted to know if there is a relationship between the amount of beer consumed and BAC. The researchers assigned the number of cans of beer to each student. After each student had consumed the assigned number of beers,  thirty minutes later, an officer of the law measured the students BAC. \cite{OSU2016}
+A scatterplot of the data appears below.  A plausible value of the correlation between number of beers and blood alcohol content, based on the scatterplot, is
+
+<<f12_14, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
+
+dt12_5 <- read.csv("data/GSS2014.csv",header=TRUE)
+x12_1 <- cbind( dt12_5$HEIGHT, dt12_5$rincom06 )                                    ## select only the respondent's height and income
+x12_2 <- x12_1[ dt12_1$HEIGHT > 0 & 
+						dt12_1$HEIGHT < 98 & 
+						dt12_1$rincom06 > 0 & 
+						dt12_1$rincom06 < 26,  ]                                                        ## select only valid data
+nrw12 <- length( x12_2[ , 1] )
+x12_3 <- x12_2[ sample( 1:nrw12, size= 40),  ]
+x12 <- x12_3[,1]
+y12 <- x12_3[,2]
+plot(x12,y12, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot Respondent's Height vs. Income" )
+m12 <- lm(y12 ~ x12)
+abline(m12)
+summary(m12)
+     
+     
+     #      ## plot( dt12_4$BAC ~ dt12_4$NB, xlab="Number of Beers(NB)", ylab="Blood alcohol content(BAC)")
+     # lm_4 <- lm( dt12_4$BAC ~ dt12_4$NB ); summary(lm_4)
+     # ##abline( lm_4 )
+     # b_1 <- lm_4$coefficient[2]
+     # b_0 <- lm_4$coefficient[1]
+
+@
+    
+ 
+
+      \begin{enumerate}
+      \item  $r = –0.875$.
+      \item $r = –0.765$.
+      \item $r$ close to 0.
+      \item $r = 0.765$.
+      \item $r = 0.875$.
+      \end{enumerate}
+      \vspace{5mm}
+    \framebox[5cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       The correllation coefficient is $r = 0.875 = \sqrt{0.765}$ where  $r^2$ is the coefficient of determination.
+    \end{solution}    
+    
+    
+    
+    
+
+    
     
 \end{exercises}
 

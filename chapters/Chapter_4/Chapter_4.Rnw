@@ -756,6 +756,7 @@ Note: numerical variables can use the mean, standard deviation, median, histogra
 
 <<results="asis", echo=FALSE>>=
  	      mn3b <- mean(dat3[16:30])
+ 	      rm( dt4_1 )
 @
  	   The sex education posttest mean is \Sexpr{mn3b}.
 
