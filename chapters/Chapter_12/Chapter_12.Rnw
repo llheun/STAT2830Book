@@ -681,10 +681,13 @@ x12_3 <- x12_2[ sample( 1:nrw12, size= 40, replace = TRUE),  ]
 Height1 <- x12_3[,1]
 Income1 <- x12_3[,2]
 plot(Height1, Income1, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
+
+cor(Height1, Income1)
+
 m12 <- lm(Income1 ~ Height1)
 abline(m12)
 summary(m12)
-     
+
 @
 
     \vspace{5mm}
@@ -696,6 +699,37 @@ summary(m12)
        The independent variable is HEIGHT and the dependent variable is rincom06.
     \end{solution}    
     
+  \begin{exercise} % 5
+  
+  
+    STEP 2: Using the information from exercise four, we must state the hypotheses about its relationship between {\it{rincom06}} and {\it{HEIGHT}}.  Based on our experience, how should we state our hypotheses?
+    
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       $H_0: \beta = 0" vs. $H_1: \beta \ne 0$
+       
+    \end{solution}    
+    
+  \begin{exercise} % 6
+  
+  
+    STEP 3: Using the information from exercise four, we must state the hypotheses about its relationship between {\it{rincom06}} and {\it{HEIGHT}}.  Based on our experience, how should we state our hypotheses?
+    
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       $H_0: \beta = 0" vs. $H_1: \beta \ne 0$
+       
+    \end{solution}    
     
     
     
