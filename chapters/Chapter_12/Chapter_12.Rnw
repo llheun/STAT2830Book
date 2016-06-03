@@ -666,7 +666,7 @@ A scatterplot of the data appears below.  A plausible value of the correlation b
   \begin{exercise} % 4
   
   
-    STEP 1: In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's height and a person's income.  Here we have {\it{income}} which is an  interval-ratio type of variable while {\it{height}} (the independent variable) is also an interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is to choose the an independent and dependent variables.  
+    STEP 1: In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's height and a person's income.  Here we have {\it{income}} which is an  interval-ratio type of variable while {\it{height}} is also an interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is to choose the an independent and dependent variables.  Note: In the GSS2014 dataset, {\it{height}} is known as HEIGHT and {\it{income}} is known as rincom06.
     
   
     
@@ -678,17 +678,20 @@ x12_2 <- x12_1[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) &
 						  (dt12_5$rincom06 > 0 & dt12_5$rincom06 < 26),  ]          ## select only valid data
 nrw12 <- length( x12_2[ , 1] ) 
 x12_3 <- x12_2[ sample( 1:nrw12, size= 40, replace = TRUE),  ]
-Height1 <- x12_3[,1]
-Income1 <- x12_3[,2]
-plot(Height1, Income1, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
+Height <- x12_3[,1]
+Income <- x12_3[,2]
+plot(Height, Income, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
 
-cor(Height1, Income1)
+cor12 <- cor(Income, Height)
+rSq   <- cor12 * cor12
 
-m12 <- lm(Income1 ~ Height1)
+m12 <- lm(Income ~ Height)
 abline(m12)
 summary(m12)
 
 @
+
+
 
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -702,7 +705,7 @@ summary(m12)
   \begin{exercise} % 5
   
   
-    STEP 2: Using the information from exercise four, we must state the hypotheses about its relationship between {\it{rincom06}} and {\it{HEIGHT}}.  Based on our experience, how should we state our hypotheses?
+    STEP 2: Using the information from exercise four, we must state the hypotheses about its relationship between {\it{income}} and {\it{height}}.  Based on our experience, how should we state our hypotheses?
     
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -718,7 +721,7 @@ summary(m12)
   \begin{exercise} % 6
   
   
-    STEP 3: Using the information from exercise four, we must state the hypotheses about its relationship between {\it{rincom06}} and {\it{HEIGHT}}.  Based on our experience, how should we state our hypotheses?
+    STEP 3: Using the information from exercise four, determine the coefficient of determination.  Recall that this value is also referred to as r-squared.
     
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -727,12 +730,67 @@ summary(m12)
     \vspace{2mm}
     \begin{solution}
        
-       $H_0: \beta = 0" vs. $H_1: \beta \ne 0$
+       The correlation coefficient between the respondent's height and income is \Sexpr{rSq}
        
     \end{solution}    
     
+  \begin{exercise} % 7
+  
+  
+    STEP 4: Using the information from exercise four, record the independent, dependent variables, and the correlation coefficient. 
+    
+    \begin{table}[ht]
+    \centering
+    \begin{tabular}{lr} \hline
+        &  \multicolumn{1}{c}{Independent} \\ \hline
+    
+    Dep. Var. & 1. \underline{\phantom{xxxxxxxxxxxx}}      \\ \hline
+    1. \underline{\phantom{xxxxxxxxxxxx}}  &  \underline{\phantom{xxxxxxxxxxxx}}       \\ \hline
+    
+    \end{tabular}
+    \end{table}
     
     
+  %  \vspace{5mm}
+  %  \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       \begin{table}[ht]
+    \centering
+    \begin{tabular}{lr} \hline
+        &  \multicolumn{1}{c}{Independent} \\ \hline
+    
+    Dep. Var. & 1. height      \\ \hline
+    1. income  &   \Sexpr{cor12}      \\ \hline
+    
+    \end{tabular}
+    \end{table}
+      
+       
+    \end{solution}    
+    
+      \begin{exercise} % 8
+  
+  
+    STEP 5: Using the information from exercise four, describe the results of the independent variable.  Identify variables that we tested, their strength and direction of the relationship.  We should distinguish the relationship in general terms and refer the statistical value in parentheses.  Also not whether the hypotheses were supported.
+    
+ 
+    
+    
+    \vspace{10mm}
+    \framebox[14cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+
+      
+       
+    \end{solution}
 
     
     
