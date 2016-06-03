@@ -787,7 +787,7 @@ summary(m12)
     \vspace{2mm}
     \begin{solution}
        
-
+    For a sample of 40 subjects, we tested the relationship between height and income.  We found a weak positive relationship using the correlation coefficient (\Sexpr{cor12}).  We then looked at the slope:  as {\it{height}} increases by one inch, {\it{income}} increases by \Sexpr{m12$coefficients[2]} with a p-value of 
       
        
     \end{solution}
