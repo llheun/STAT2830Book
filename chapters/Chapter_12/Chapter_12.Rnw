@@ -803,28 +803,28 @@ summary(m12)
 
 ## dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
 x12_9 <- cbind( dt12_5$rincom06, dt12_5$HEIGHT, dt12_5$age, dt12_5$tvhours )            ## select only the respondent's height and income
-x12_10 <- x12_15[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) & 
+x12_10 <- x12_9[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) & 
 						  (dt12_5$rincom06 > 0 & dt12_5$rincom06 < 26) &
-						  (dt12_5$age  > 0) & (dt12$age < 98) &
-						  (dt12_5$tvhours > -1) & (dt12_5$tvhours < 98),  ]          ## select only valid data
+						  (dt12_5$age  > 0) & (dt12_5$age < 98) &
+						  (dt12_5$tvhours > -1) & (dt12_5$tvhours < 98),  ]  ## select only valid data
 nrw4 <- length( x12_10[ , 1] ) 
 x12_11 <- x12_10[ sample( 1:nrw4, size= 40, replace = TRUE),  ]
 Height <- x12_11[,1]
 Income <- x12_11[,2]
 Age    <- x12_11[,3]
 TVhours<- x12_11[,4]
-## plot(Height, Income + Age + TVhours, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
 
-cor13 <- cor(Income, Height, Age, TVhours )
-rSq   <- cor13 * cor13
+cor13 <- cor(x12_9 )
+
+ xtable(cor13)
 
 m13 <- lm(Income ~ Height + Age + TVhours)
-##abline(m12)
+
 summary(m13)
 
 @
 
-
+    
 
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -832,7 +832,7 @@ summary(m13)
     \end{exercise}
     \vspace{2mm}
     \begin{solution}
-       The independent variable is HEIGHT and the dependent variable is rincom06.
+       The independent variable is height, age, and tvhours and the dependent variable is rincom06.
     \end{solution}    
    
     
