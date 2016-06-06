@@ -824,7 +824,8 @@ summary(m13)
 
 @
 
-    
+What are the dependent and independent variables?
+
 
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -834,7 +835,97 @@ summary(m13)
     \begin{solution}
        The independent variable is height, age, and tvhours and the dependent variable is rincom06.
     \end{solution}    
+
+
+  \begin{exercise} % 10
+  
+  
+    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{income}}, {\it{height}}, {\it{age}}, and {\it{TVhours}}.  Based on our experience, how should we state our hypotheses?
+    
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       $H_0: \beta_1 = 0" vs. $H_1: \beta_1 \ne 0$ \\
+       $H_0: \beta_2 = 0" vs. $H_1: \beta_2 \ne 0$ \\
+       $H_0: \beta_3 = 0" vs. $H_1: \beta_1 \ne 0$
+      
+    \end{solution}      
    
+  \begin{exercise} % 11
+  
+  
+    STEP 3: Using the information from exercise nine, determine the coefficient of determination.  
+    
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       read the results from the computer generated output.
+       
+    \end{solution}    
+   
+
+  \begin{exercise} % 12   
+   
+   
+    STEP 4: Using the information from exercise nine, record the independent, dependent variables, and the correlation coefficients. 
+    
+     \begin{table}[ht]
+     \centering
+     \begin{tabular}{lrrrr} \hline
+         &  \multicolumn{3}{c}{Independent} \\ \hline
+    
+     Dep. Var. & 1. \underline{\phantom{xxxxxxxxxx}} &
+                 2. \underline{\phantom{xxxxxxxxxx}} &
+                 3. \underline{\phantom{xxxxxxxxxx}} &
+                 4. \underline{\phantom{xxxxxxxxxx}} \\ \hline
+     1. \underline{\phantom{xxxxxxxxxxxx}}  &
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     2. \underline{\phantom{xxxxxxxxxxxx}}  &  
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     3. \underline{\phantom{xxxxxxxxxxxx}}  &  
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     4. \underline{\phantom{xxxxxxxxxxxx}}  &  
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     \end{tabular}
+     \end{table}
+  
+  %  \vspace{5mm}
+  %  \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       \begin{table}[ht]
+    \centering
+    \begin{tabular}{lr} \hline
+        &  \multicolumn{1}{c}{Independent} \\ \hline
+    
+    Dep. Var. & 1. height      \\ \hline
+    1. income  &   \Sexpr{cor12}      \\ \hline
+    
+    \end{tabular}
+    \end{table}
+      
+       
+    \end{solution}    
+
+
+  
     
 \end{exercises}
 
