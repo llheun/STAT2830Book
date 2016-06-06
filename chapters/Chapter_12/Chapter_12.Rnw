@@ -792,7 +792,49 @@ summary(m12)
        
     \end{solution}
 
+  \begin{exercise} % 9
+  
+  
+    STEP 1:  In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's height, age, and ``hours per day watching TV'' and a person's income.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{height}} is known as HEIGHT, {\it{age}} is known as AGE OF RESPONDENT, {\it{tvhours}} is known as HOURS PER DAY WATCHING TV, and {\it{income}} is known as rincom06.
     
+  
+    
+<<f12_15, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
+
+## dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
+x12_9 <- cbind( dt12_5$rincom06, dt12_5$HEIGHT, dt12_5$age, dt12_5$tvhours )            ## select only the respondent's height and income
+x12_10 <- x12_15[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) & 
+						  (dt12_5$rincom06 > 0 & dt12_5$rincom06 < 26) &
+						  (dt12_5$age  > 0) & (dt12$age < 98) &
+						  (dt12_5$tvhours > -1) & (dt12_5$tvhours < 98),  ]          ## select only valid data
+nrw4 <- length( x12_10[ , 1] ) 
+x12_11 <- x12_10[ sample( 1:nrw4, size= 40, replace = TRUE),  ]
+Height <- x12_11[,1]
+Income <- x12_11[,2]
+Age    <- x12_11[,3]
+TVhours<- x12_11[,4]
+## plot(Height, Income + Age + TVhours, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
+
+cor13 <- cor(Income, Height, Age, TVhours )
+rSq   <- cor13 * cor13
+
+m13 <- lm(Income ~ Height + Age + TVhours)
+##abline(m12)
+summary(m13)
+
+@
+
+
+
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       The independent variable is HEIGHT and the dependent variable is rincom06.
+    \end{solution}    
+   
     
 \end{exercises}
 
