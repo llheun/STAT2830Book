@@ -910,16 +910,7 @@ What are the dependent and independent variables?
     \vspace{2mm}
     \begin{solution}
        
-       \begin{table}[ht]
-    \centering
-    \begin{tabular}{lr} \hline
-        &  \multicolumn{1}{c}{Independent} \\ \hline
-    
-    Dep. Var. & 1. height      \\ \hline
-    1. income  &   \Sexpr{cor12}      \\ \hline
-    
-    \end{tabular}
-    \end{table}
+  The results are in the table.
       
        
     \end{solution}    
