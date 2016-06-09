@@ -915,6 +915,25 @@ What are the dependent and independent variables?
        
     \end{solution}    
 
+  \begin{exercise} % 13   
+   
+   
+    STEP 5: 
+    
+    Using the information from exercise nine, record the independent, dependent variables, and the correlation coefficients. 
+    
+
+  %  \vspace{5mm}
+  %  \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+  The results are in the table.
+      
+       
+    \end{solution}    
 
   
     
