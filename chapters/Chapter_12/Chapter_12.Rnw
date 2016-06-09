@@ -814,13 +814,13 @@ Income <- x12_11[,2]
 Age    <- x12_11[,3]
 TVhours<- x12_11[,4]
 
-cor13 <- cor(x12_9 )
+  cor13 <- cor(x12_9 )
 
- xtable(cor13)
+  xtable(cor13)
 
-m13 <- lm(Income ~ Height + Age + TVhours)
+  m13 <- lm(Income ~ Height + Age + TVhours)
 
-summary(m13)
+  summary(m13)
 
 @
 
@@ -867,7 +867,7 @@ What are the dependent and independent variables?
     \vspace{2mm}
     \begin{solution}
        
-       read the results from the computer generated output.
+       Read the results from the computer generated output.
        
     \end{solution}    
    
@@ -910,9 +910,8 @@ What are the dependent and independent variables?
     \vspace{2mm}
     \begin{solution}
        
-  The results are in the table.
+      The results are in the table.
       
-       
     \end{solution}    
 
   \begin{exercise} % 13   
