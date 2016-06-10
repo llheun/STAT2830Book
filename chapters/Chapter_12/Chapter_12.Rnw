@@ -801,24 +801,24 @@ summary(m12)
     
 <<f12_15, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
-## dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
-x12_9 <- cbind( dt12_5$rincom06, dt12_5$HEIGHT, dt12_5$age, dt12_5$tvhours )            ## select only the respondent's height and income
-x12_10 <- x12_9[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) & 
-						  (dt12_5$rincom06 > 0 & dt12_5$rincom06 < 26) &
+dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
+x12_9 <- cbind( dt12_5$happy, dt12_5$age, dt12_5$income, dt12_5$absingle )            ## select only the respondent's height and income
+x12_10 <- x12_9[ (dt12_5$happy > 0 & dt12_5$HEIGHT < 8) & 
+						  (dt12_5$income > 0 & dt12_5$income < 13) &
 						  (dt12_5$age  > 0) & (dt12_5$age < 98) &
-						  (dt12_5$tvhours > -1) & (dt12_5$tvhours < 98),  ]  ## select only valid data
+						  (dt12_5$absingle > 0) & (dt12_5$absingle < 8),  ]  ## select only valid data
 nrw4 <- length( x12_10[ , 1] ) 
-x12_11 <- x12_10[ sample( 1:nrw4, size= 40, replace = TRUE),  ]
-Height <- x12_11[,1]
-Income <- x12_11[,2]
-Age    <- x12_11[,3]
-TVhours<- x12_11[,4]
+x12_11 <- x12_10[ sample( 1:nrw4, size= 100, replace = TRUE),  ]
+Happiness <- x12_11[,1]
+Income   <- x12_11[,2]
+Age      <- x12_11[,3]
+NotMarried <- x12_11[,4]
 
   cor13 <- cor(x12_9 )
 
   xtable(cor13)
 
-  m13 <- lm(Income ~ Height + Age + TVhours)
+  m13 <- lm( Happiness ~  Income + Age + NotMarried )
 
   summary(m13)
 
@@ -833,14 +833,14 @@ What are the dependent and independent variables?
     \end{exercise}
     \vspace{2mm}
     \begin{solution}
-       The independent variable is height, age, and tvhours and the dependent variable is rincom06.
+       The independent variable is income and  age and the dependent variable is happiness.
     \end{solution}    
 
 
   \begin{exercise} % 10
   
   
-    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{income}}, {\it{height}}, {\it{age}}, and {\it{TVhours}}.  Based on our experience, how should we state our hypotheses?
+    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{Happines}}, {\it{income}}, and {\it{age}}.  Based on our experience, how should we state our hypotheses?
     
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -851,7 +851,7 @@ What are the dependent and independent variables?
        
        $H_0: \beta_1 = 0" vs. $H_1: \beta_1 \ne 0$ \\
        $H_0: \beta_2 = 0" vs. $H_1: \beta_2 \ne 0$ \\
-       $H_0: \beta_3 = 0" vs. $H_1: \beta_1 \ne 0$
+       where $\beta_1$ is the slope for Happiness and Income, and $\beta_2$ is the slope for Happiness and Age.
       
     \end{solution}      
    
