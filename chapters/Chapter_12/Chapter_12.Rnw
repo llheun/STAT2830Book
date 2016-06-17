@@ -677,7 +677,7 @@ x12_1 <- cbind( dt12_5$HEIGHT, dt12_5$rincom06 )            ## select only the r
 x12_2 <- x12_1[ (dt12_5$HEIGHT > 0 & dt12_5$HEIGHT < 98) & 
 						  (dt12_5$rincom06 > 0 & dt12_5$rincom06 < 26),  ]          ## select only valid data
 nrw12 <- length( x12_2[ , 1] ) 
-x12_3 <- x12_2[ sample( 1:nrw12, size= 40, replace = TRUE),  ]
+x12_3 <- x12_2[ sample( 1:nrw12, size= 100, replace = TRUE),  ]
 Height <- x12_3[,1]
 Income <- x12_3[,2]
 plot(Height, Income, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
@@ -831,7 +831,7 @@ What are the dependent and independent variables?
     \end{exercise}
     \vspace{2mm}
     \begin{solution}
-       The independent variable is income and  age and the dependent variable is happiness.
+       The independent variable is income,   age, and absingle and the dependent variable is happiness.
     \end{solution}    
 
 
@@ -847,9 +847,9 @@ What are the dependent and independent variables?
     \vspace{2mm}
     \begin{solution}
        
-       $H_0: \beta_1 = 0" vs. $H_1: \beta_1 \ne 0$ \\
-       $H_0: \beta_2 = 0" vs. $H_1: \beta_2 \ne 0$ \\
-       where $\beta_1$ is the slope for Happiness and Income, and $\beta_2$ is the slope for Happiness and Age.
+       $H_0: \beta_1 = \beta_2 = \beta_3 = 0$ \\ 
+       $H_1:$ at least one slope is not equal zero. \\
+       where $\beta_1$ is the slope for Happiness and Income,  $\beta_2$ is the slope for Happiness and Age and $\beta_3$ is         the slope for Happiness and single.
       
     \end{solution}      
    
@@ -932,6 +932,146 @@ What are the dependent and independent variables?
        
     \end{solution}    
 
+
+  \begin{exercise} % 14
+  
+  
+    STEP 1:  In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's income, age, and ``not married'' and a person's happiness.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{happy}} is known as GENERAL HAPPINESS, {\it{income06}} is known as TOTAL FAMILY INCOME, {\it{age}} is known as AGE OF RESPONDENT, and {\it{absingle}} is known as NOT MARRIED.
+    
+<<f12_16, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
+
+## dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
+## x12_9 <- cbind( dt12_5$happy, dt12_5$age, dt12_5$income, dt12_5$absingle )            ## select only the respondent's height and income
+## x12_10 <- x12_9[ (dt12_5$happy > 0 & dt12_5$happy < 8) & 
+##						  (dt12_5$income06 > 0 & dt12_5$income06 < 26) &
+##						  (dt12_5$age  > 0) & (dt12_5$age < 98) &
+##						  (dt12_5$absingle > 0) & (dt12_5$absingle < 8),  ]  ## select only valid data
+## nrw4 <- length( x12_10[ , 1] ) 
+## x12_11 <- x12_10[ sample( 1:nrw4, size= 100, replace = TRUE),  ]
+Happiness <- x12_10[,1]
+Income   <- x12_10[,2]
+Age      <- x12_10[,3]
+NotMarried <- x12_10[,4]
+
+##  cor13 <- cor(x12_9 )
+
+##  xtable(cor13)
+
+  m14 <- lm( Happiness ~  Income + Age + NotMarried )
+
+  summary(m14)
+
+@
+
+What are the dependent and independent variables?
+
+
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       The independent variable is income,   age, and absingle and the dependent variable is happiness.
+    \end{solution}    
+
+
+  \begin{exercise} % 10
+  
+  
+    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{Happines}}, {\it{income}}, and {\it{age}}.  Based on our experience, how should we state our hypotheses?
+    
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       $H_0: \beta_1 = \beta_2 = \beta_3 = 0$ \\ 
+       $H_1:$ at least one slope is not equal zero. \\
+       where $\beta_1$ is the slope for Happiness and Income,  $\beta_2$ is the slope for Happiness and Age and $\beta_3$ is         the slope for Happiness and single.
+      
+    \end{solution}      
+   
+  \begin{exercise} % 11
+  
+  
+    STEP 3: Using the information from exercise nine, determine the coefficient of determination.  
+    
+    \vspace{5mm}
+    \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+       Read the results from the computer generated output.
+       
+    \end{solution}    
+   
+
+  \begin{exercise} % 12   
+   
+   
+    STEP 4: Using the information from exercise nine, record the independent, dependent variables, and the correlation coefficients. 
+    
+     \begin{table}[ht]
+     \centering
+     \begin{tabular}{lrrrr} \hline
+         &  \multicolumn{3}{c}{Independent} \\ \hline
+    
+     Dep. Var. & 1. \underline{\phantom{xxxxxxxxxx}} &
+                 2. \underline{\phantom{xxxxxxxxxx}} &
+                 3. \underline{\phantom{xxxxxxxxxx}} &
+                 4. \underline{\phantom{xxxxxxxxxx}} \\ \hline
+     1. \underline{\phantom{xxxxxxxxxxxx}}  &
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     2. \underline{\phantom{xxxxxxxxxxxx}}  &  
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     3. \underline{\phantom{xxxxxxxxxxxx}}  &  
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     4. \underline{\phantom{xxxxxxxxxxxx}}  &  
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}} & 
+     \underline{\phantom{xxxxxxxxxxxx}}  \\ \hline
+     \end{tabular}
+     \end{table}
+  
+  %  \vspace{5mm}
+  %  \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+      The results are in the table.
+      
+    \end{solution}    
+
+  \begin{exercise} % 13   
+   
+   
+    STEP 5: 
+    
+    Using the information from exercise nine, record the independent, dependent variables, and the correlation coefficients. 
+    
+
+  %  \vspace{5mm}
+  %  \framebox[8cm][l]{ Answer: }
+    
+    \end{exercise}
+    \vspace{2mm}
+    \begin{solution}
+       
+  The results are in the table.
+      
+       
+    \end{solution} 
   
     
 \end{exercises}
