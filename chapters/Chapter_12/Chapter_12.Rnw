@@ -795,12 +795,12 @@ summary(m12)
   \begin{exercise} % 9
   
   
-    STEP 1:  In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's income, age, and ``not married'' and a person's happiness.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{happy}} is known as GENERAL HAPPINESS, {\it{income06}} is known as TOTAL FAMILY INCOME, {\it{age}} is known as AGE OF RESPONDENT, and {\it{absingle}} is known as NOT MARRIED.
+    STEP 1:  In the next six tasks, we will use a sample of 100 subjects from the GSS2014 data in this exercise.  We have been asked to examine the relationship between a person's income, age, and ``not married'' and a person's happiness.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{happy}} is known as GENERAL HAPPINESS, {\it{income06}} is known as TOTAL FAMILY INCOME, {\it{age}} is known as AGE OF RESPONDENT, and {\it{absingle}} is known as NOT MARRIED.
     
 <<f12_15, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
 ## dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
-x12_9 <- cbind( dt12_5$happy, dt12_5$age, dt12_5$income, dt12_5$absingle )            ## select only the respondent's height and income
+x12_9 <- cbind( dt12_5$happy, dt12_5$age, dt12_5$income06, dt12_5$absingle )            ## select only the respondent's height and income
 x12_10 <- x12_9[ (dt12_5$happy > 0 & dt12_5$happy < 8) & 
 						  (dt12_5$income06 > 0 & dt12_5$income06 < 26) &
 						  (dt12_5$age  > 0) & (dt12_5$age < 98) &
@@ -808,15 +808,15 @@ x12_10 <- x12_9[ (dt12_5$happy > 0 & dt12_5$happy < 8) &
 nrw4 <- length( x12_10[ , 1] ) 
 x12_11 <- x12_10[ sample( 1:nrw4, size= 100, replace = TRUE),  ]
 Happiness <- x12_11[,1]
-Income   <- x12_11[,2]
-Age      <- x12_11[,3]
+Age       <- x12_11[,2]
+Income    <- x12_11[,3]
 NotMarried <- x12_11[,4]
 
-  cor13 <- cor(x12_9 )
+  cor13 <- cor(x12_11 )
 
   xtable(cor13)
 
-  m13 <- lm( Happiness ~  Income + Age + NotMarried )
+  m13 <- lm( Happiness ~  Age + Income + NotMarried )
 
   summary(m13)
 
@@ -838,7 +838,7 @@ What are the dependent and independent variables?
   \begin{exercise} % 10
   
   
-    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{Happines}}, {\it{income}}, and {\it{age}}.  Based on our experience, how should we state our hypotheses?
+    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{Happiness}}, {\it{income}}, and {\it{age}}.  Based on our experience, how should we state our hypotheses?
     
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -936,7 +936,7 @@ What are the dependent and independent variables?
   \begin{exercise} % 14
   
   
-    STEP 1:  In the next six tasks, we will use the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's income, age, and ``not married'' and a person's happiness.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{happy}} is known as GENERAL HAPPINESS, {\it{income06}} is known as TOTAL FAMILY INCOME, {\it{age}} is known as AGE OF RESPONDENT, and {\it{absingle}} is known as NOT MARRIED.
+    STEP 1:  In the next six tasks, we will use all of the data from GSS2014 in this exercise.  We have been asked to examine the relationship between a person's income, age, and ``not married'' and a person's happiness.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{happy}} is known as GENERAL HAPPINESS, {\it{income06}} is known as TOTAL FAMILY INCOME, {\it{age}} is known as AGE OF RESPONDENT, and {\it{absingle}} is known as NOT MARRIED.
     
 <<f12_16, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
@@ -949,15 +949,15 @@ What are the dependent and independent variables?
 ## nrw4 <- length( x12_10[ , 1] ) 
 ## x12_11 <- x12_10[ sample( 1:nrw4, size= 100, replace = TRUE),  ]
 Happiness <- x12_10[,1]
-Income   <- x12_10[,2]
-Age      <- x12_10[,3]
+Age       <- x12_10[,2]
+Income    <- x12_10[,3]
 NotMarried <- x12_10[,4]
 
-##  cor13 <- cor(x12_9 )
+  cor14 <- cor(x12_9 )
 
-##  xtable(cor13)
+  xtable(cor14)
 
-  m14 <- lm( Happiness ~  Income + Age + NotMarried )
+  m14 <- lm( Happiness ~  Age + Income + NotMarried )
 
   summary(m14)
 
@@ -976,10 +976,10 @@ What are the dependent and independent variables?
     \end{solution}    
 
 
-  \begin{exercise} % 10
+  \begin{exercise} % 15
   
   
-    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{Happines}}, {\it{income}}, and {\it{age}}.  Based on our experience, how should we state our hypotheses?
+    STEP 2: Using the information from exercise nine, we must state the hypotheses about its relationship between {\it{Happiness}}, {\it{income}}, and {\it{age}}.  Based on our experience, how should we state our hypotheses?
     
     \vspace{5mm}
     \framebox[8cm][l]{ Answer: }
@@ -994,7 +994,7 @@ What are the dependent and independent variables?
       
     \end{solution}      
    
-  \begin{exercise} % 11
+  \begin{exercise} % 16
   
   
     STEP 3: Using the information from exercise nine, determine the coefficient of determination.  
@@ -1011,7 +1011,7 @@ What are the dependent and independent variables?
     \end{solution}    
    
 
-  \begin{exercise} % 12   
+  \begin{exercise} % 17   
    
    
     STEP 4: Using the information from exercise nine, record the independent, dependent variables, and the correlation coefficients. 
@@ -1053,7 +1053,7 @@ What are the dependent and independent variables?
       
     \end{solution}    
 
-  \begin{exercise} % 13   
+  \begin{exercise} % 18   
    
    
     STEP 5: 
