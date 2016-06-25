@@ -670,7 +670,7 @@ A scatterplot of the data appears below.  A plausible value of the correlation b
     
   
     
-<<f12_14, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
+<<f12_14, results="asis", echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
 dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
 x12_1 <- cbind( dt12_5$HEIGHT, dt12_5$rincom06 )            ## select only the respondent's height and income
@@ -683,11 +683,12 @@ Income <- x12_3[,2]
 plot(Height, Income, xlab="Height (inches)", ylab="Income (K dollars)", main="Scatterplot of Height vs. Income" )
 
 cor12 <- cor(Income, Height)
+print(xtable(cor12))
 rSq   <- cor12 * cor12
 
 m12 <- lm(Income ~ Height)
 abline(m12)
-summary(m12)
+print(summary(m12))
 
 @
 
@@ -797,7 +798,7 @@ summary(m12)
   
     STEP 1:  In the next six tasks, we will use a sample of 100 subjects from the GSS2014 data in this exercise.  We have been asked to examine the relationship between a person's income, age, and ``not married'' and a person's happiness.  Here we have variables which are  interval-ratio type of variable.  These types of variables require that we use a Simple Linear Regression (SLR) analysis.  So step 1 in the process of analysis is choosing independent and dependent variables.  Note: In the GSS2014 dataset, {\it{happy}} is known as GENERAL HAPPINESS, {\it{income06}} is known as TOTAL FAMILY INCOME, {\it{age}} is known as AGE OF RESPONDENT, and {\it{absingle}} is known as NOT MARRIED.
     
-<<f12_15, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
+<<f12_15, results="asis", echo=FALSE, fig.pos="ht", fig.align="center", fig.width=3.5, fig.height=3.5, fig.cap="Respondent's Height vs. Income">>=
 
 ## dt12_5 <- read.csv("~/github/STAT2830Book/chapters/Chapter_12/data/GSS2014.csv", header=TRUE)
 x12_9 <- cbind( dt12_5$happy, dt12_5$age, dt12_5$income06, dt12_5$absingle )            ## select only the respondent's height and income
@@ -814,11 +815,11 @@ NotMarried <- x12_11[,4]
 
   cor13 <- cor(x12_11 )
 
-  xtable(cor13)
+  print(xtable(cor13))
 
   m13 <- lm( Happiness ~  Age + Income + NotMarried )
 
-  summary(m13)
+  print(summary(m13))
 
 @
 
