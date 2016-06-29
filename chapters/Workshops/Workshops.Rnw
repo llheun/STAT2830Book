@@ -2487,5 +2487,5 @@ State the appropriate hypothesis.
 
 \end{exercises}    
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}	
+% \bibliographystyle{plain}
+% \bibliography{mybibliography}	

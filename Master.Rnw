@@ -1,4 +1,5 @@
 \documentclass[11pt]{book}
+
 \usepackage[english]{babel}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
@@ -12,6 +13,9 @@
 \usepackage{verbatim}
 % \usepackage{natbib}
 \usepackage{url}
+% \usepackage{microtype}
+% \usepackage{biblatex}
+% \bibliography{references}
 
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
@@ -28,8 +32,8 @@
 %\subsection{}
 
 % \section{References}
-\bibliographystyle{plain}
-\bibliography{mybibliography}
+%\bibliographystyle{plain}
+%\bibliography{mybibliography}
 
 \vspace{10cm}
 
@@ -68,39 +72,40 @@ opts_chunk$set(
 <<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=TRUE>>=
 @
 
-<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=TRUE>>=
+<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=
 @
 
-<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=TRUE>>=
+<<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=FALSE>>=
 @
 
-<<Ch5, child="chapters/Chapter_5/Chapter_5.Rnw",eval=TRUE>>=
+<<Ch5, child="chapters/Chapter_5/Chapter_5.Rnw",eval=FALSE>>=
 @
 
-<<Ch6, child="chapters/Chapter_6/Chapter_6.Rnw",eval=TRUE>>=
+<<Ch6, child="chapters/Chapter_6/Chapter_6.Rnw",eval=FALSE>>=
 @
 
-<<Ch7, child="chapters/Chapter_7/Chapter_7.Rnw",eval=TRUE>>=
+<<Ch7, child="chapters/Chapter_7/Chapter_7.Rnw",eval=FALSE>>=
 @
 
 
-<<Ch8, child="chapters/Chapter_8/Chapter_8.Rnw",eval=TRUE>>=
+<<Ch8, child="chapters/Chapter_8/Chapter_8.Rnw",eval=FALSE>>=
 @
 
-<<Ch9, child="chapters/Chapter_9/Chapter_9.Rnw",eval=TRUE>>=
+<<Ch9, child="chapters/Chapter_9/Chapter_9.Rnw",eval=FALSE>>=
 @
 
-<<Ch10, child="chapters/Chapter_10/Chapter_10.Rnw",eval=TRUE>>=
+<<Ch10, child="chapters/Chapter_10/Chapter_10.Rnw",eval=FALSE>>=
 @
 
-<<Ch11, child="chapters/Chapter_11/Chapter_11.Rnw",eval=TRUE>>=
+<<Ch11, child="chapters/Chapter_11/Chapter_11.Rnw",eval=FALSE>>=
 @
 
-<<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=TRUE>>=
+<<Ch12, child="chapters/Chapter_12/Chapter_12.Rnw",eval=FALSE>>=
 @
 
-<<Ch13, child="chapters/Workshops/Workshops.Rnw",eval=TRUE>>=
+<<Ch13, child="chapters/Workshops/Workshops.Rnw",eval=FALSE>>=
 @
 
+% \printbibliography
 
 \end{document}

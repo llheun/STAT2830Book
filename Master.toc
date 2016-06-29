@@ -1,207 +1,63 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Why should we use data science?}{11}
-\contentsline {subsection}{\numberline {1.0.1}Objectives}{11}
-\contentsline {section}{\numberline {1.1}Introduction}{11}
-\contentsline {subsection}{\numberline {1.1.1}Reasons to Study Data Science}{11}
-\contentsline {subsubsection}{Be an Informed Consumer}{11}
-\contentsline {subsubsection}{Study Design}{11}
-\contentsline {subsubsection}{Conduct Research}{12}
-\contentsline {subsubsection}{Develop Critical Thinking Skills}{12}
-\contentsline {subsubsection}{Know When to Hire a Statistician}{12}
-\contentsline {subsubsection}{To summarize}{13}
-\contentsline {subsubsection}{The Scientific Process, The Wheel of Science}{13}
-\contentsline {subsubsection}{Research}{13}
-\contentsline {subsubsection}{Data science}{14}
-\contentsline {subsubsection}{{Data}}{14}
-\contentsline {subsubsection}{Theory}{14}
-\contentsline {subsubsection}{Hypothesis}{14}
-\contentsline {subsubsection}{Observations}{14}
-\contentsline {subsubsection}{Empirical Generalizations}{15}
-\contentsline {subsection}{\numberline {1.1.2}Variables and Cases}{15}
-\contentsline {subsubsection}{Variables}{15}
-\contentsline {subsubsection}{Case}{15}
-\contentsline {subsection}{\numberline {1.1.3}Example}{16}
-\contentsline {section}{\numberline {1.2}Types of Statistics}{16}
-\contentsline {subsection}{\numberline {1.2.1}Descriptive Statistics}{16}
-\contentsline {subsection}{\numberline {1.2.2}Inferential Statistics}{17}
-\contentsline {subsubsection}{Inferential Statistics Example}{18}
-\contentsline {section}{\numberline {1.3}Types of Data}{18}
-\contentsline {subsection}{\numberline {1.3.1}Categorical (qualitative data)}{18}
-\contentsline {subsubsection}{Levels of Measurement for Categorical Data}{18}
-\contentsline {subsection}{\numberline {1.3.2}Numerical (quantitative data)}{18}
-\contentsline {subsubsection}{Levels of Measurement for Numerical Data}{19}
-\contentsline {section}{\numberline {1.4}Mindmap of Types of Data}{19}
-\contentsline {section}{\numberline {1.5}Summary}{20}
-\contentsline {section}{\numberline {1.6}Key Words}{20}
-\contentsline {section}{\numberline {1.7}Exercises}{22}
-\contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{27}
-\contentsline {subsection}{\numberline {2.0.1}Objectives}{27}
-\contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{27}
-\contentsline {subsection}{\numberline {2.1.1}Percentages and Proportions}{28}
-\contentsline {subsubsection}{GSS Example}{28}
+\contentsline {chapter}{\numberline {1}Why should we use data science?}{9}
+\contentsline {subsection}{\numberline {1.0.1}Objectives}{9}
+\contentsline {section}{\numberline {1.1}Introduction}{9}
+\contentsline {subsection}{\numberline {1.1.1}Reasons to Study Data Science}{9}
+\contentsline {subsubsection}{Be an Informed Consumer}{9}
+\contentsline {subsubsection}{Study Design}{9}
+\contentsline {subsubsection}{Conduct Research}{10}
+\contentsline {subsubsection}{Develop Critical Thinking Skills}{10}
+\contentsline {subsubsection}{Know When to Hire a Statistician}{10}
+\contentsline {subsubsection}{To summarize}{11}
+\contentsline {subsubsection}{The Scientific Process, The Wheel of Science}{11}
+\contentsline {subsubsection}{Research}{11}
+\contentsline {subsubsection}{Data science}{12}
+\contentsline {subsubsection}{{Data}}{12}
+\contentsline {subsubsection}{Theory}{12}
+\contentsline {subsubsection}{Hypothesis}{12}
+\contentsline {subsubsection}{Observations}{12}
+\contentsline {subsubsection}{Empirical Generalizations}{13}
+\contentsline {subsection}{\numberline {1.1.2}Variables and Cases}{13}
+\contentsline {subsubsection}{Variables}{13}
+\contentsline {subsubsection}{Case}{13}
+\contentsline {subsection}{\numberline {1.1.3}Example}{14}
+\contentsline {section}{\numberline {1.2}Types of Statistics}{14}
+\contentsline {subsection}{\numberline {1.2.1}Descriptive Statistics}{14}
+\contentsline {subsection}{\numberline {1.2.2}Inferential Statistics}{15}
+\contentsline {subsubsection}{Inferential Statistics Example}{16}
+\contentsline {section}{\numberline {1.3}Types of Data}{16}
+\contentsline {subsection}{\numberline {1.3.1}Categorical (qualitative data)}{16}
+\contentsline {subsubsection}{Levels of Measurement for Categorical Data}{16}
+\contentsline {subsection}{\numberline {1.3.2}Numerical (quantitative data)}{16}
+\contentsline {subsubsection}{Levels of Measurement for Numerical Data}{17}
+\contentsline {section}{\numberline {1.4}Mindmap of Types of Data}{17}
+\contentsline {section}{\numberline {1.5}Summary}{18}
+\contentsline {section}{\numberline {1.6}Key Words}{18}
+\contentsline {section}{\numberline {1.7}Exercises}{20}
+\contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{25}
+\contentsline {subsection}{\numberline {2.0.1}Objectives}{25}
+\contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{25}
+\contentsline {subsection}{\numberline {2.1.1}Percentages and Proportions}{26}
+\contentsline {subsubsection}{GSS Example}{26}
+\contentsline {subsubsection}{Interpretation}{26}
+\contentsline {subsubsection}{To summarize:}{27}
+\contentsline {subsubsection}{GSS Example continued}{27}
 \contentsline {subsubsection}{Interpretation}{28}
-\contentsline {subsubsection}{To summarize:}{29}
-\contentsline {subsubsection}{GSS Example continued}{29}
-\contentsline {subsubsection}{Interpretation}{30}
-\contentsline {subsection}{\numberline {2.1.2}Ratio}{30}
-\contentsline {subsubsection}{GSS Example continued}{30}
-\contentsline {subsection}{\numberline {2.1.3}Rates}{31}
-\contentsline {subsection}{\numberline {2.1.4}Percent Change}{31}
-\contentsline {section}{\numberline {2.2}Summarizing Categorical Data}{32}
-\contentsline {subsection}{\numberline {2.2.1}Frequency Distribution Table}{32}
-\contentsline {subsection}{\numberline {2.2.2}Construct a frequency distribution for the data from the GSS survey in Table 2.6}{33}
-\contentsline {subsection}{\numberline {2.2.3}Bar Chart}{34}
-\contentsline {subsection}{\numberline {2.2.4}Pie Chart}{34}
-\contentsline {section}{\numberline {2.3}Summarizing Numerical Data}{35}
-\contentsline {subsection}{\numberline {2.3.1}Frequency Distribution Table}{36}
-\contentsline {subsection}{\numberline {2.3.2}Histogram}{37}
-\contentsline {subsection}{\numberline {2.3.3}Boxplot}{39}
-\contentsline {section}{\numberline {2.4}Summary}{40}
-\contentsline {section}{\numberline {2.5}Key Words}{40}
-\contentsline {section}{\numberline {2.6}Exercise}{41}
-\contentsline {section}{\numberline {2.7}Appendix}{45}
-\contentsline {subsection}{\numberline {2.7.1}Cross tabulation}{45}
-\contentsline {chapter}{\numberline {3}Measures of Location}{47}
-\contentsline {section}{\numberline {3.1}Objective}{47}
-\contentsline {section}{\numberline {3.2}Three Common Measures}{48}
-\contentsline {section}{\numberline {3.3}Mean}{48}
-\contentsline {subsubsection}{Illustration:}{48}
-\contentsline {subsubsection}{Affect of an outlier}{48}
-\contentsline {section}{\numberline {3.4}Median}{49}
-\contentsline {section}{\numberline {3.5}Mode}{50}
-\contentsline {section}{\numberline {3.6}Overall Distribution Shape}{50}
-\contentsline {subsubsection}{Symmetric}{50}
-\contentsline {subsubsection}{Skewed}{50}
-\contentsline {section}{\numberline {3.7}Other Measures of Location}{51}
-\contentsline {subsubsection}{GSS Example}{52}
-\contentsline {section}{\numberline {3.8}Summary}{52}
-\contentsline {section}{\numberline {3.9}Key Words}{52}
-\contentsline {section}{\numberline {3.10}Exercises}{53}
-\contentsline {section}{\numberline {3.11}Appendix}{58}
-\contentsline {subsection}{\numberline {3.11.1}Central Tendency}{58}
-\contentsline {chapter}{\numberline {4}Measures of Spread}{59}
-\contentsline {section}{\numberline {4.1}Objective}{59}
-\contentsline {section}{\numberline {4.2}Definition of Dispersion}{59}
-\contentsline {section}{\numberline {4.3}Range}{60}
-\contentsline {section}{\numberline {4.4}Interquartile Range}{60}
-\contentsline {section}{\numberline {4.5}Standard Deviation}{62}
-\contentsline {section}{\numberline {4.6}Variance}{66}
-\contentsline {section}{\numberline {4.7}Other Measures of Spread}{67}
-\contentsline {subsubsection}{Coefficient of Variation}{67}
-\contentsline {subsubsection}{GSS Example}{67}
-\contentsline {section}{\numberline {4.8}Summary}{67}
-\contentsline {section}{\numberline {4.9}Key Words}{67}
-\contentsline {section}{\numberline {4.10}Exercises}{69}
-\contentsline {section}{\numberline {4.11}Appendix}{73}
-\contentsline {subsection}{\numberline {4.11.1}Dispersion}{73}
-\contentsline {chapter}{\numberline {5}Normal Curve}{75}
-\contentsline {section}{\numberline {5.1}Objectives}{75}
-\contentsline {section}{\numberline {5.2}Why should we study the Normal Curve}{75}
-\contentsline {section}{\numberline {5.3}Normal Curve Characteristics}{75}
-\contentsline {section}{\numberline {5.4}Empirical Rule}{77}
-\contentsline {subsubsection}{Example \# 1}{77}
-\contentsline {subsubsection}{Example \# 2}{78}
-\contentsline {section}{\numberline {5.5}Normal Curve and z-score}{78}
-\contentsline {subsubsection}{Example \# 3}{81}
-\contentsline {section}{\numberline {5.6}Finding Probabilities Using the Normal Curve}{82}
-\contentsline {subsubsection}{Example \# 4}{83}
-\contentsline {subsubsection}{Example \# 5}{84}
-\contentsline {subsubsection}{Example \# 6}{85}
-\contentsline {subsubsection}{Example \# 7}{86}
-\contentsline {section}{\numberline {5.7}Key Words}{87}
-\contentsline {section}{\numberline {5.8}Exercises}{88}
-\contentsline {chapter}{\numberline {6}Inferential Statistics }{91}
-\contentsline {section}{\numberline {6.1}Objective}{91}
-\contentsline {section}{\numberline {6.2}Population}{91}
-\contentsline {section}{\numberline {6.3}Sample}{92}
-\contentsline {section}{\numberline {6.4}Sample Selection}{93}
-\contentsline {subsection}{\numberline {6.4.1}Non-probability Sampling}{93}
-\contentsline {subsection}{\numberline {6.4.2}Probability Sampling}{93}
-\contentsline {section}{\numberline {6.5}Types of Survey Errors}{94}
-\contentsline {section}{\numberline {6.6}Distribution of Sample Average}{94}
-\contentsline {subsection}{\numberline {6.6.1}Theorem I}{95}
-\contentsline {subsection}{\numberline {6.6.2}Theorem II -- Central Limit Theorem}{97}
-\contentsline {section}{\numberline {6.7}Estimation of Population Mean}{98}
-\contentsline {section}{\numberline {6.8}Key Words}{99}
-\contentsline {section}{\numberline {6.9}Exercises}{100}
-\contentsline {chapter}{\numberline {7}Estimation }{105}
-\contentsline {section}{\numberline {7.1}Objective}{105}
-\contentsline {section}{\numberline {7.2}Calculating CI for Population Mean}{105}
-\contentsline {subsection}{\numberline {7.2.1}Point Estimates}{105}
-\contentsline {subsection}{\numberline {7.2.2}Interval Estimates}{106}
-\contentsline {subsubsection}{Steps for calculating CI for a population mean, $\mu $.}{109}
-\contentsline {section}{\numberline {7.3}Calculating CI for Population Proportion}{109}
-\contentsline {subsubsection}{Example 3 Calculating CI for Population Proportion}{110}
-\contentsline {subsubsection}{Steps for Calculating CI for Population Proportion $P_u$.}{111}
-\contentsline {section}{\numberline {7.4}Key Words}{112}
-\contentsline {section}{\numberline {7.5}Exercises}{113}
-\contentsline {chapter}{\numberline {8}Testing One Sample Hypotheses }{117}
-\contentsline {section}{\numberline {8.1}Objective}{117}
-\contentsline {section}{\numberline {8.2}Why do hypothesis testing?}{117}
-\contentsline {section}{\numberline {8.3}Testing Hypothesis about One Sample Mean}{118}
-\contentsline {subsection}{\numberline {8.3.1}KNOWN population standard deviation}{118}
-\contentsline {subsection}{\numberline {8.3.2}UNKNOWN population standard deviation}{119}
-\contentsline {section}{\numberline {8.4}Hypothesis Testing on One Sample Proportion}{121}
-\contentsline {section}{\numberline {8.5}Type of Error}{122}
-\contentsline {subsubsection}{Let's consider another example.}{122}
-\contentsline {subsubsection}{A general statement about Types of Error during hypotheses testing.}{123}
-\contentsline {section}{\numberline {8.6}Key Words}{124}
-\contentsline {section}{\numberline {8.7}Exercises}{125}
-\contentsline {chapter}{\numberline {9}Testing Two Sample Hypotheses }{129}
-\contentsline {section}{\numberline {9.1}Objective}{129}
-\contentsline {section}{\numberline {9.2}One-Sample Case vs. Two-Sample Case}{129}
-\contentsline {section}{\numberline {9.3}Hypothesis Testing for Two Sample Means}{130}
-\contentsline {subsection}{\numberline {9.3.1}Example 1}{130}
-\contentsline {subsection}{\numberline {9.3.2}Example 2}{133}
-\contentsline {section}{\numberline {9.4}Hypothesis Testing on Two Sample Proportions}{136}
-\contentsline {subsection}{\numberline {9.4.1}Example 1}{136}
-\contentsline {subsection}{\numberline {9.4.2}Example 2}{138}
-\contentsline {section}{\numberline {9.5}Key Words}{140}
-\contentsline {section}{\numberline {9.6}Exercises}{141}
-\contentsline {chapter}{\numberline {10}Testing Equality of two or more Proportions }{147}
-\contentsline {section}{\numberline {10.1}Objective}{147}
-\contentsline {section}{\numberline {10.2}Chi-square Test for Independence}{147}
-\contentsline {subsection}{\numberline {10.2.1}Example 1}{148}
-\contentsline {subsection}{\numberline {10.2.2}Example 2}{149}
-\contentsline {section}{\numberline {10.3}Chi-square Goodness-of-Fit Test}{152}
-\contentsline {subsection}{\numberline {10.3.1}Example 1}{152}
-\contentsline {section}{\numberline {10.4}Key Words}{154}
-\contentsline {section}{\numberline {10.5}Exercises}{155}
-\contentsline {chapter}{\numberline {11}Testing Equality of three or more Averages }{159}
-\contentsline {section}{\numberline {11.1}Objective}{159}
-\contentsline {section}{\numberline {11.2}What is ANOVA?}{159}
-\contentsline {subsection}{\numberline {11.2.1}Example 1}{160}
-\contentsline {subsection}{\numberline {11.2.2}Example 2}{162}
-\contentsline {section}{\numberline {11.3}Key Words}{165}
-\contentsline {section}{\numberline {11.4}Exercises}{166}
-\contentsline {chapter}{\numberline {12}Testing the relationship between numerical variables}{169}
-\contentsline {section}{\numberline {12.1}Objective}{169}
-\contentsline {section}{\numberline {12.2}What is Correlation?}{169}
-\contentsline {subsection}{\numberline {12.2.1}Example 1}{170}
-\contentsline {section}{\numberline {12.3}What is Linear Regression?}{173}
-\contentsline {subsubsection}{Interpreting Scatter Plot}{173}
-\contentsline {subsubsection}{Does a Relationship Exist?}{173}
-\contentsline {subsubsection}{How Strong is the association?}{173}
-\contentsline {subsubsection}{Predicting response variable using the scatter plot}{174}
-\contentsline {subsubsection}{The Regression Line}{175}
-\contentsline {subsubsection}{Determining the y-intercept (a)}{175}
-\contentsline {subsubsection}{Determine the slope (b) }{176}
-\contentsline {subsubsection}{Prediction}{177}
-\contentsline {subsubsection}{Interpreting the Regression}{177}
-\contentsline {subsubsection}{Descriptive Statistics}{177}
-\contentsline {subsubsection}{Correlation matrix}{178}
-\contentsline {subsubsection}{Scatter plot}{178}
-\contentsline {subsubsection}{Regression Equation}{179}
-\contentsline {subsubsection}{Diagnostics}{180}
-\contentsline {subsubsection}{Summary}{180}
-\contentsline {section}{\numberline {12.4}Key Words}{181}
-\contentsline {section}{\numberline {12.5}Exercises}{183}
-\contentsline {chapter}{\numberline {13}Workshops}{191}
-\contentsline {section}{\numberline {13.1}Workshop 1}{192}
-\contentsline {section}{\numberline {13.2}Workshop 2}{194}
-\contentsline {section}{\numberline {13.3}Workshop 3}{196}
-\contentsline {section}{\numberline {13.4}Workshop 4}{198}
-\contentsline {section}{\numberline {13.5}Workshop 5}{200}
-\contentsline {section}{\numberline {13.6}Workshop 6}{202}
-\contentsline {section}{\numberline {13.7}Workshop 7}{204}
-\contentsline {section}{\numberline {13.8}Workshop 8}{208}
+\contentsline {subsection}{\numberline {2.1.2}Ratio}{28}
+\contentsline {subsubsection}{GSS Example continued}{28}
+\contentsline {subsection}{\numberline {2.1.3}Rates}{29}
+\contentsline {subsection}{\numberline {2.1.4}Percent Change}{29}
+\contentsline {section}{\numberline {2.2}Summarizing Categorical Data}{30}
+\contentsline {subsection}{\numberline {2.2.1}Frequency Distribution Table}{30}
+\contentsline {subsection}{\numberline {2.2.2}Construct a frequency distribution for the data from the GSS survey in Table 2.6}{31}
+\contentsline {subsection}{\numberline {2.2.3}Bar Chart}{32}
+\contentsline {subsection}{\numberline {2.2.4}Pie Chart}{32}
+\contentsline {section}{\numberline {2.3}Summarizing Numerical Data}{33}
+\contentsline {subsection}{\numberline {2.3.1}Frequency Distribution Table}{34}
+\contentsline {subsection}{\numberline {2.3.2}Histogram}{35}
+\contentsline {subsection}{\numberline {2.3.3}Boxplot}{37}
+\contentsline {section}{\numberline {2.4}Summary}{38}
+\contentsline {section}{\numberline {2.5}Key Words}{38}
+\contentsline {section}{\numberline {2.6}Exercise}{39}
+\contentsline {section}{\numberline {2.7}Appendix}{43}
+\contentsline {subsection}{\numberline {2.7.1}Cross tabulation}{43}
