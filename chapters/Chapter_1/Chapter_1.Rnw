@@ -18,24 +18,24 @@ By the end of this chapter, we will be able to:
 
 \subsubsection{Be an Informed Consumer}
 
-The first reason to study statistics  \cite{Reason2015}  
-is to be an informed client.  Like  other tools in our toolbox, statistics can be abused or properly used.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information that our clients gave us. 
+The first reason to study statistics (TSS)  \cite{Reason2015}  
+is to be an informed client.  Like  other tools in our toolbox, statistics can be either properly used or abused.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information (data) that our clients gave us. 
 
 \subsubsection{Study Design}
 
-The second reason  is that we will be equipped to look at scientific journals.  Most  journals  will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the necessary skills  to scrutinize and evaluate most of the appendix.  The capacity to pull useful information from the journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
+The second reason TSS  is that we will be equipped to look at scientific journals.  Most  journals  will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the necessary skills  to scrutinize and evaluate most of the appendix.  The capacity to pull useful information from a journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
 
 \subsubsection{Conduct Research}
 
-The third reason is to administer   research projects. Without  statistics,  we will have a terrible time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new ten step program is better  than the legacy twelve step program.  There are two possibilities:  either the new program is better than the old program or the new curriculum is worse or the same as the old curriculum.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
+The third reason TSS is to administer   research projects. Without  statistics,  we will have a terrible time making decisions based on the data that we collected for our research project.  Statistics gives us  tools to make an informed decision.  For example, a team leader, of community rehabilitation program, wants test if the new 10 step program is better  than the legacy 12 step program.  There are two possibilities:  either the new program is better than the old program or the new curriculum is worse or the same as the old curriculum.  Statistical tools are available to help us make the decision.  We will base our decision on the results of the correct statistical analysis. 
 
 \subsubsection{Develop Critical Thinking Skills}
 
-The fourth reason is to develop critical  thinking skills.  After completing high school and introductory undergraduate coursework, we will have a toolbox  of critical thinking and analytic skills. The study of statistics will serve to increase and further develop these skills. By doing well in statistics, we will develop and use formal logical thinking capacities that are both creative and high level. 
+The fourth reason TSS is to develop critical  thinking skills.  After completing high school and introductory undergraduate coursework, we will have a toolbox  of critical thinking and analytic skills. The study of statistics will serve to increase and further develop these skills. By doing well in statistics, we will develop and use formal logical thinking capacities that are both creative and high level. 
 
 \subsubsection{Know When to Hire a Statistician}
 
-The fifth reason to have basic statistical knowledge is to know when we need help from a professional statistician.  We should be aware of our cars to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we attempt to be informed enough to talk with service center employee to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive regarding of resources and time.  We should not risk the entire project by  analyzing the data  ourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is important to have enough statistical knowledge to discuss our project and the data analysis with the statistician that we hire.  In other words, we want the statistician, that we hire, to understand our research problem.
+The fifth reason TSS to have basic statistical knowledge is to know when we need help from a professional statistician.  We should be aware of how our cars work to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we attempt to be informed enough to talk with service center employee to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive regarding resources and time.  We should not risk the entire project by  analyzing the data  ourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is important to have enough statistical knowledge to discuss our project and the data analysis with the statistician that we hire.  In other words, we want the statistician, that we hire, to understand our research problem.
 
 \subsubsection{To summarize}
 
@@ -56,16 +56,16 @@ gives us  a process to refine our thinking about the nature of social interactio
 
 \begin{figure}[htbp]
    \centering
-   \includegraphics[width=11cm]{chapters/Chapter_1/ext_figure/zWheel_Science.png} % requires the graphicx package
+   \includegraphics[width=10cm]{chapters/Chapter_1/ext_figure/zWheel_Science.png} % requires the graphicx package
    \caption{The Wheel of Science}
    \label{fig:WS}
 \end{figure}
 
-\subsubsection{Research} Research  is the systematic inquiry into the study of situations to establish facts and reach a new conclusion.
+\subsubsection{Research} Research  is the systematic inquiry (i.e., there is a plan) into the study of (in our case social) situations to establish facts and reaffirm previous work or reach a new conclusion.  For example, since 1950, social research has found a relationship between the degree of poverty in a neighborhood and the difficulty of maintaining social order. 
 
 \subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers population characteristics from sampling.
 
-\subsubsection{{Data}} Data are information collected from the population for further analysis.
+\subsubsection{{Data}} Data are information collected from a population for further analysis.
 
 \subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  among health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
   \begin{itemize}
@@ -592,6 +592,6 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 %\pagebreak
 
 % \section{References}
-%\bibliographystyle{plain}
-%\bibliography{mybibliography}
+\bibliographystyle{plain}
+\bibliography{mybibliography}
 
