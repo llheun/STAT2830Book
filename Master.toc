@@ -1,39 +1,39 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Why should we use data science?}{5}
-\contentsline {subsection}{\numberline {1.0.1}Objectives}{5}
-\contentsline {section}{\numberline {1.1}Introduction}{5}
-\contentsline {subsection}{\numberline {1.1.1}Reasons to Study Data Science}{5}
-\contentsline {subsubsection}{Be an Informed Consumer}{5}
-\contentsline {subsubsection}{Study Design}{5}
-\contentsline {subsubsection}{Conduct Research}{6}
-\contentsline {subsubsection}{Develop Critical Thinking Skills}{6}
-\contentsline {subsubsection}{Know When to Hire a Statistician}{6}
-\contentsline {subsubsection}{To summarize}{7}
-\contentsline {subsubsection}{The Scientific Process, The Wheel of Science}{7}
-\contentsline {subsubsection}{Research}{7}
-\contentsline {subsubsection}{Data science}{8}
-\contentsline {subsubsection}{{Data}}{8}
-\contentsline {subsubsection}{Theory}{8}
-\contentsline {subsubsection}{Hypothesis}{8}
-\contentsline {subsubsection}{Observations}{8}
-\contentsline {subsubsection}{Empirical Generalizations}{9}
-\contentsline {subsection}{\numberline {1.1.2}Variables and Cases}{9}
-\contentsline {subsubsection}{Variables}{9}
-\contentsline {subsubsection}{Case}{9}
-\contentsline {subsection}{\numberline {1.1.3}Example}{10}
-\contentsline {section}{\numberline {1.2}Types of Statistics}{10}
-\contentsline {subsection}{\numberline {1.2.1}Descriptive Statistics}{10}
-\contentsline {subsection}{\numberline {1.2.2}Inferential Statistics}{11}
-\contentsline {subsubsection}{Inferential Statistics Example}{12}
-\contentsline {section}{\numberline {1.3}Types of Data}{12}
-\contentsline {subsection}{\numberline {1.3.1}Categorical (qualitative data)}{12}
-\contentsline {subsubsection}{Levels of Measurement for Categorical Data}{12}
-\contentsline {subsection}{\numberline {1.3.2}Numerical (quantitative data)}{12}
-\contentsline {subsubsection}{Levels of Measurement for Numerical Data}{13}
-\contentsline {section}{\numberline {1.4}Mindmap of Types of Data}{13}
-\contentsline {section}{\numberline {1.5}Summary}{14}
-\contentsline {section}{\numberline {1.6}Key Words}{14}
-\contentsline {section}{\numberline {1.7}Exercises}{16}
+\contentsline {chapter}{\numberline {1}Why should we use data science?}{7}
+\contentsline {subsection}{\numberline {1.0.1}Objectives}{7}
+\contentsline {section}{\numberline {1.1}Introduction}{7}
+\contentsline {subsection}{\numberline {1.1.1}Reasons to Study Data Science}{7}
+\contentsline {subsubsection}{Be an Informed Consumer}{7}
+\contentsline {subsubsection}{Study Design}{7}
+\contentsline {subsubsection}{Conduct Research}{8}
+\contentsline {subsubsection}{Develop Critical Thinking Skills}{8}
+\contentsline {subsubsection}{Know When to Hire a Statistician}{8}
+\contentsline {subsubsection}{To summarize}{9}
+\contentsline {subsubsection}{The Scientific Process, The Wheel of Science}{9}
+\contentsline {subsubsection}{Research}{9}
+\contentsline {subsubsection}{Data science}{10}
+\contentsline {subsubsection}{{Data}}{10}
+\contentsline {subsubsection}{Theory}{10}
+\contentsline {subsubsection}{Hypothesis}{10}
+\contentsline {subsubsection}{Observations}{11}
+\contentsline {subsubsection}{Empirical Generalizations}{11}
+\contentsline {subsection}{\numberline {1.1.2}Variables and Cases}{11}
+\contentsline {subsubsection}{Variables}{11}
+\contentsline {subsubsection}{Case}{12}
+\contentsline {subsection}{\numberline {1.1.3}Example}{12}
+\contentsline {section}{\numberline {1.2}Types of Statistics}{13}
+\contentsline {subsection}{\numberline {1.2.1}Descriptive Statistics}{13}
+\contentsline {subsection}{\numberline {1.2.2}Inferential Statistics}{13}
+\contentsline {subsubsection}{Inferential Statistics Example}{14}
+\contentsline {section}{\numberline {1.3}Types of Data}{14}
+\contentsline {subsection}{\numberline {1.3.1}Categorical (qualitative data)}{14}
+\contentsline {subsubsection}{Levels of Measurement for Categorical Data}{14}
+\contentsline {subsection}{\numberline {1.3.2}Numerical (quantitative data)}{14}
+\contentsline {subsubsection}{Levels of Measurement for Numerical Data}{15}
+\contentsline {section}{\numberline {1.4}Mindmap of Types of Data}{15}
+\contentsline {section}{\numberline {1.5}Summary}{16}
+\contentsline {section}{\numberline {1.6}Key Words}{16}
+\contentsline {section}{\numberline {1.7}Exercises}{18}
 \contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{23}
 \contentsline {subsection}{\numberline {2.0.1}Objectives}{23}
 \contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{23}

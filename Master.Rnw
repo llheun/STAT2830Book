@@ -31,9 +31,9 @@
 %\section{}
 %\subsection{}
 
-% \section{References}
-%\bibliographystyle{plain}
-%\bibliography{mybibliography}
+
+\bibliographystyle{plain}
+\bibliography{mybibliography}
 
 \vspace{10cm}
 
