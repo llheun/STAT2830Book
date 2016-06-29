@@ -14,8 +14,8 @@
 % \usepackage{natbib}
 \usepackage{url}
 % \usepackage{microtype}
-% \usepackage{biblatex}
-% \bibliography{references}
+%\usepackage{biblatex}
+%\bibliography{references}
 
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
@@ -32,8 +32,7 @@
 %\subsection{}
 
 
-\bibliographystyle{plain}
-\bibliography{mybibliography}
+
 
 \vspace{10cm}
 
@@ -107,5 +106,8 @@ opts_chunk$set(
 @
 
 % \printbibliography
+
+\bibliographystyle{plain}
+\bibliography{mybibliography}
 
 \end{document}
