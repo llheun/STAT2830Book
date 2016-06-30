@@ -63,9 +63,9 @@ gives us  a process to refine our thinking about the nature of social interactio
 
 \subsubsection{Research} Research  is the systematic inquiry (i.e., there is a plan) into the study of (in our case social) situations to establish facts and either reaffirm previous work or reach a new conclusion.  For example, since 1950, social researchers have found a relationship between the degree of poverty in a neighborhood and the difficulty of maintaining social order in the affected communities. 
 
-\subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers to the population characteristics from sampling. For example, we define the research question, what data to collect, how to analyze the data, report the reports. 
+\subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers to the population characteristics from sampling. For example, we define the research question, what data to collect, how to analyze the data, report the results. 
 
-\subsubsection{{Data}} Data are information collected from a population for further analysis.
+\subsubsection{{Data}} Data are information collected from a population for further analysis.  For example, the General Social Survey (GSS) is a survey that collects data of attitudes, concerns, experiences, and has become a repository of  societal changes of United States residents.
 
 \subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  among health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
   \begin{itemize}
