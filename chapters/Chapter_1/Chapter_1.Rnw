@@ -255,6 +255,8 @@ Since 1968, voter surveys use inferential statistics.
 \section{Types of Data}
 \subsection{Categorical (qualitative data)}
 
+A categorical variable is a set of attributes that has two or more values, but there is no natural ordering to the values.  For example, zip code is a categorical variable having lots of categories (49001, 49008, 49009, etc.) and there is no intrinsic ordering of the values.  Eye color is also a categorical variable having a number of categories (black, blue, brown, hazal, etc.) and again, there is no agreed way to order these from highest to lowest.  A purely categorical variable is one that simply allows us to assign values (nominal), but we  cannot assign an order to the values. Whereas, categorical variable is one that simply allows us to assign values (ordinal), but we  can assign an order to the values.
+
 \begin{itemize}
 \item characteristics CANNOT be measured, but the researcher must count each instance.
 \item e.g., gender, eye color, race, political affiliation, social status, etc.
@@ -591,4 +593,5 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 %\pagebreak
 
-
+\bibliographystyle{plain}
+\bibliography{mybibliography}	
