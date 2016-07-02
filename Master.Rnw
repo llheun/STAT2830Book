@@ -16,7 +16,7 @@
 % \usepackage{microtype}
 %\usepackage{biblatex}
 %\bibliography{references}
-
+\usepackage{natbib}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -106,8 +106,8 @@ opts_chunk$set(
 @
 
 % \printbibliography
-
 \bibliographystyle{plain}
-\bibliography{mybibliography}
+\bibliography{chapters/mybibliography}   % name your BibTeX data base
+
 
 \end{document}
