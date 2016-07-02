@@ -19,7 +19,7 @@ By the end of this chapter, we will be able to:
 \subsubsection{Be an Informed Consumer}
 
 The first reason to study statistics (TSS)  \cite{Reason2015}  
-is to be an informed client.  Like  other tools in our toolbox, statistics can be either properly used or abused.  Unfortunately,  sometimes (not often) individuals have lied and mislead with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information (data) that our clients gave us. 
+is to be an informed client.  Like  other tools in our toolbox, statistics can be either properly used or abused.  Unfortunately,  sometimes (not often) individuals have lied and misled with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information (data) that our clients gave us. 
 
 \subsubsection{Study Design}
 
@@ -61,11 +61,11 @@ gives us  a process to refine our thinking about the nature of social interactio
    \label{fig:WS}
 \end{figure}
 
-\subsubsection{Research} Research  is the systematic inquiry (i.e., there is a plan) into the study of (in our case social) situations to establish facts and either reaffirm previous work or reach a new conclusion.  For example, since 1950, social researchers have found a relationship between the degree of poverty in a neighborhood and the difficulty of maintaining social order in the affected communities. 
+\subsubsection{Research} Research  is the systematic inquiry (i.e., there is a plan) into the study of (in our case social) situations to establish facts and either reaffirm previous work or reach a new conclusion.  For example, since 1950, social researchers have found a relationship between the degree of poverty in a neighborhood and the difficulty of maintaining public order in the affected communities. 
 
 \subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers to the population characteristics from sampling. For example, we define the research question, what data to collect, how to analyze the data, report the results. 
 
-\subsubsection{{Data}} Data are information collected from a population for further analysis.  For example, the General Social Survey (GSS) is a survey that collects data of attitudes, concerns, experiences, and has become a repository of  societal changes of United States residents.
+\subsubsection{{Data}} Data are information collected from a population for further analysis.  For example, the General Social Survey (GSS) is a survey that collects data on attitudes, concerns, experiences, and has become a repository of  societal changes of United States residents.
 
 \subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  among health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
   \begin{itemize}
@@ -75,21 +75,21 @@ gives us  a process to refine our thinking about the nature of social interactio
   
 These examples show the richness of social science research.  Research involves measurements whether using a survey to sample a population about the upcoming election or obtaining the amount of lead in the drinking water of two nearby cities.  
 
-\subsubsection{Hypothesis}  The hypothesis is an explanation for an association between events, e.g.,  alcohol awareness among college students is the same between students enrolled in a health and safety class and for those enrolled in a statistics course.  As we review our hypothesis, we will continue the research process by considering the following step:
+\subsubsection{Hypothesis}  The hypothesis is an explanation for an association between events, e.g.,  alcohol awareness among college students is the same as among students  in a health and safety class and students  in a statistics course.  As we review our hypothesis, we will continue the research process by considering the following step:
 \begin{itemize}
   \item Who is the population,
   \item How many cases do we need to study this population (sample size),
-  \item What measurements do we need to take to answer our question, and
-  \item many other related issues.
+  \item What measurements do we need to take to answer our question and
+  \item many other related issues?
 \end{itemize}  
 
 \subsubsection{Observations}  Observations are the collected data to test a hypothesis, e.g., a random sample (RS) \footnote{RS is a sample where we select each subject with an equal chance from the population.} of sophomores registered for  a health and safety class and those enrolled in a statistics course which surveys alcohol awareness.  Observations requires the following:
 \begin{itemize}
-  \item planning: 
+  \item Planning: 
   \begin{itemize}
     \item Who, What, Where, Why, When, and How.
   \end{itemize}  
-  \item implementation: 
+  \item Implementation: 
   \begin{itemize}
     \item Collecting, Storing, Retrieving,  Analyzing, and, Reporting.  
   \end{itemize}
@@ -100,7 +100,7 @@ So why is this process necessary, let's suppose that there are 50 cases in the c
 
 \subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., research on alcohol understanding among college students published a higher awareness for students enrolled in a health and safety college course than for those enrolled in a college statistics course.
 \begin{itemize}
-  \item interpretation of the data, and 
+  \item Interpretation of the data, and 
   \item conclusion: Did the data support our hypothesis. 
 \end{itemize}
 
@@ -138,11 +138,11 @@ Describe  the color of eyes of students in this class.
 \item Variable is color of eyes of students
 \item Data are colors such as black, blue, brown, green, hazel.
 \item Cases are students from this course.
-\item Appropriate analysis include:
+\item Appropriate analysis includes:
 	\begin{itemize}
 	\item frequency (number) of students who have brown eyes.
 	\item percent of classmates who have blue eyes.
-	\item bar chart showing the percentage of each color of eyes.
+	\item Bar chart showing the percentage of each color of eyes.
 	\end{itemize}
 \item The figures below illustrate these methods.	
 \end{itemize}	
@@ -167,10 +167,10 @@ Frequency Table
    \hline
    Eye Color & Freq. & Percent \\
    \hline
- blue &   8 & 27 \\
-   brown &  12 & 40 \\
-   green &   8 & 27  \\
-   hazel &   2 & 6 \\
+   Blue &   8 & 27 \\
+   Brown &  12 & 40 \\
+   Green &   8 & 27  \\
+   Hazel &   2 & 6 \\
     \hline
  \end{tabular}
 % \end{table}
@@ -255,12 +255,7 @@ Since 1968, voter surveys use inferential statistics.
 \section{Types of Data}
 \subsection{Categorical (qualitative data)}
 
-A categorical variable is a set of attributes that has two or more values, but there is no natural ordering to the values.  For example, zip code is a categorical variable having lots of categories (49001, 49008, 49009, etc.) and there is no intrinsic ordering of the values.  Eye color is also a categorical variable having a number of categories (black, blue, brown, hazal, etc.) and again, there is no agreed way to order these from highest to lowest.  A purely categorical variable is one that simply allows us to assign values (nominal), but we  cannot assign an order to the values. Whereas, categorical variable is one that simply allows us to assign values (ordinal), but we  can assign an order to the values.
-
-\begin{itemize}
-\item characteristics CANNOT be measured, but the researcher must count each instance.
-\item e.g., gender, eye color, race, political affiliation, social status, etc.
-\end{itemize}
+A {\bf{nominal}} categorical variable is a set of attributes that has two or more values, but there is no natural ordering of the values.  For example, zip code is a categorical variable having lots of categories (49001, 49008, 49009, etc.) and there is no intrinsic ordering of the values.  Eye color is also a categorical variable having some categories (black, blue, brown, green, hazel, etc.) and again, there is no agreed way to order these from highest to lowest.  A purely nominal categorical variable is one that just allows us to assign values, but we  cannot assign an order to the values. Whereas an {\bf{ordinal}} categorical variable is one that just makes it possible to assign values, and we  can assign an order to the values.
 
 \subsubsection{Levels of Measurement for Categorical Data}
 
@@ -273,16 +268,16 @@ A categorical variable is a set of attributes that has two or more values, but t
 \item The researcher can rank or categorize {\bf{ordinal categorical variables}}.
 	\begin{itemize}
 	\item The scores can be listed, and ordering does exist.
-	\item e.g., The management structure of at city hall (mayor, department heads, etc.), class levels (freshman, sophomore, junior, and senior), social-economic status (poor, middle class, and rich).
+	\item e.g., The management structure of at city hall (mayor, department heads, unit supervisors, etc.), class levels (freshman, sophomore, junior, and senior), social-economic status (poor, middle class, and rich).
 	\end{itemize}
 \end{itemize}
 		
 
 \subsection{Numerical (quantitative data)}
 
-Numeric variables have values that describe a measurable quantity as a number, like 'how many' or 'how much'. Therefore numeric variables are quantitative variables.
+Numeric variables have values that explains a measurable quantity as a number, like `how many' or `how much' such as how many students are in this class or how much did you pay for groceries this week.  Consequently, numeric variables are quantitative variables. \cite{num2016}
 
-Numeric variables may be further described as either continuous or discrete:
+Numeric variables may be further described as either an interval or a ratio.  Where an interval has equally spaced values (GPA) and a ratio values have a true zero and have ratio values (time).  The ratio may be defined as either  continuous or discrete:
 
 \begin{itemize}
 \item A continuous variable is a numeric variable. Observations can take any value between a certain set of real numbers. The value given to an observation for a continuous variable can include values as small as the instrument of measurement allows. Examples of continuous variables include height, time, age, and temperature.
@@ -600,7 +595,5 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 \end{exercises} 
 
-%\pagebreak
 
-% \bibliographystyle{plain}
-% \bibliography{mybibliography}	
+
