@@ -275,7 +275,7 @@ A {\bf{nominal}} categorical variable is a set of attributes that has two or mor
 
 \subsection{Numerical (quantitative data)}
 
-Numeric variables have values that explains a measurable quantity as a number, like `how many' or `how much' such as how many students are in this class or how much did you pay for groceries this week.  Consequently, numeric variables are quantitative variables. \cite{num2016}
+Numeric variables have values that explain a measurable quantity as a number, like `how many' or `how much' such as how many students are in this class or how much did you pay for groceries this week.  Consequently, numeric variables are quantitative variables. \cite{num2016}
 
 Numeric variables may be further described as either an interval or a ratio.  Where an interval has equally spaced values (GPA) and a ratio values have a true zero and have ratio values (time).  The ratio may be defined as either  continuous or discrete:
 
