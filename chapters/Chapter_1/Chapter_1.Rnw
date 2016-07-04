@@ -227,13 +227,14 @@ Inferential statistics makes a general statement about a population based on a s
 
 \begin{center}
 \setlength{\unitlength}{1cm}
-\begin{picture}(6,4)
-\put(2,2){\circle{1.9}}
-\put(5,2){\circle{0.6}}
-\put(3,2){\vector(4,0){1}}
-\put(1.9,1.9){{\bf{P}}}
-\put(4.9,1.9){{\bf{s}}}
+\begin{picture}(6,3)
+\put(1,1.5){\circle{1.4}}
+\put(5, 1.5){\circle{0.5}}
+\put(2, 1.5){\vector(4,0){2}}
+\put(0.9, 1.4){{\bf{P}}}
+\put(4.9, 1.4){{\bf{s}}}
 \end{picture}
+
 \end{center}
 
 
