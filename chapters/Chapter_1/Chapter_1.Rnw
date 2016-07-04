@@ -107,14 +107,16 @@ So why is this process necessary, let's suppose that there are 50 cases in the c
 \subsubsection{Variables}
 
 \begin{itemize}
-\item Variables are attributes of a person (case).
+\item Variables are attributes of a person (case).  Examples -- socio-economic statistics:
   \begin{itemize}
-  \item Examples: socio-economic statistics such as age, gender, race, and social class.
+      \item age, gender, marital status, race, and social class. 
+      \item household income, etc.
   \end{itemize}
 
 \item Theories and hypotheses are asserting the association between variables.
   \begin{itemize}
-  \item A belief may identify some variables as causes (independent variables) and others as effects or results (dependent variable).
+  \item A belief may identify some variables as causes (independent variables) and 
+  \item others as effects or results (dependent variable).
   \end{itemize}
 
 \end{itemize}
@@ -134,7 +136,7 @@ Describe  the color of eyes of students in this class.
 
 \begin{itemize}
 \item Variable is color of eyes of students
-\item Data are colors such as black, blue, brown, green, hazel.
+\item Data are colors such as black, blue, brown, green, hazel, etc.
 \item Cases are students from this course.
 \item Appropriate analysis includes:
 	\begin{itemize}
@@ -225,7 +227,7 @@ Inferential statistics makes a general statement about a population based on a s
 
 \begin{center}
 \setlength{\unitlength}{1cm}
-\begin{picture}(6,3)
+\begin{picture}(6,4)
 \put(2,2){\circle{1.9}}
 \put(5,2){\circle{0.6}}
 \put(3,2){\vector(4,0){1}}
@@ -273,45 +275,22 @@ A {\bf{nominal}} categorical variable is a set of attributes that has two or mor
 
 \subsection{Numerical (quantitative data)}
 
-Numeric variables have values that explain a measurable quantity as a number, like `how many' or `how much' such as how many students are in this class or how much did you pay for groceries this week.  Consequently, numeric variables are quantitative variables. \cite{num2016}
-
-Numeric variables may be further described as either an interval or a ratio.  Where an interval has equally spaced values (GPA) and a ratio values have a true zero and have ratio values (time).  The ratio may be defined as either  continuous or discrete:
-
-\begin{itemize}
-\item A continuous variable is a numeric variable. Observations can take any value between a certain set of real numbers. The value given to an observation for a continuous variable can include values as small as the instrument of measurement allows. Examples of continuous variables include height, time, age, and temperature.
-\item A discrete variable is a numeric variable. Observations can take a value based on a count from a set of distinct whole values. A discrete variable cannot take the value of a fraction between one value and the next closest value. Examples of discrete variables include the number of registered cars, number of business locations, and number of children in a family, all of of which measured as whole units (i.e. 1, 2, 3 cars).
-\end{itemize}
-
-\begin{itemize}
-\item characteristics CAN be measured.
-\item e.g., age, height, weight, number of students in this class, etc.
-\end{itemize}
+Numeric variables have values that explain a measurable quantity such as  `how many' or `how much,'  For example, how many students are in this class or how much did you pay for groceries this week?  Consequently, numeric variables are quantitative variables. \cite{num2016}  We may also discribe numeric variables  as either an {\bf{interval}} or a {\bf{ratio}}.  Where an interval has equally spaced values such as the GPA and  ratio values have a true zero and have proportional values such as distance.  We may also define the ratio  as either  continuous or discrete.
 
 \subsubsection{Levels of Measurement for Numerical Data}
 
 \begin{itemize}
 
-\item A numerical ratio  variable has a meaningful zero value, a proportion is allowed, and has magnitude.
-	
-		\begin{itemize}
-		\item {\bf{Discrete}}
-		\item the result of a counting process (whole number values)
-		\item results of question ``how many?''
-		\item e.g., the number of children per family.
-		
-		\item {\bf{Continuous}}
-		
-		\item there can be an infinite subdivision of scores (at least theoretically)
-		\item e.g., age, time, distance to school.
-		\end{itemize}
+\item A numerical interval variable has magnitude, but its proportion does not make sense.  Anyone can set the zero to any where on the number scale, for example, GPA (a 2 point is not half the value of a 4 point),  or temperature (33 degrees F is not a third  as warm as 99 degrees F).
 
-\item A numerical interval variable has magnitude, but the ratio does not make sense.
-	\begin{itemize}
-	\item e.g., GPA (a 4 point is not twice the value of a 2 point),  temperature (99 degrees is not three times as warm as 33 degrees).
-	  
-	\end{itemize} 	
-	
+\item A ratio - continuous variable is a numeric variable. Observations can take any value between a certain set of fractional numbers. The value given to an observation for a continuous variable can include values as small as the instrument of measurement allows. Examples of continuous variables include height, time, age, and temperature.  A numerical - ratio - continuous  variable has a meaningful zero value, a proportion is allowed, and has magnitude, and we can measure the variable  for example, height in inches or CM,  weight in pounds or KG, distance in miles or KM.
+
+
+\item A ratio - discrete variable is a numeric variable. Observations can take a value based on a count from a set of distinct whole values. A discrete variable cannot take the value of a fraction between one value and the next closest value. Examples of discrete variables include the number of registered cars, number of business locations, and number of children in a household, all  of which measured as whole units (i.e. 1, 2, 3, etc.).
+
+\item 
 \end{itemize}
+
 
 % \newpage
 \section{Mindmap of Types of Data}
