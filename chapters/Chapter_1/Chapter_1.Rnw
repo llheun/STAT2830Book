@@ -8,7 +8,7 @@
 By the end of this chapter, we will be able to:
 \begin{itemize}
 \item Discern statistical methods and identify the environments where we can use them appropriately.
-\item Recognize the types of variables (discrete or continuous) and give examples of each type.
+\item Recognize the types of variables (categorical or numerical) and give examples of each type.
 \item Remember and explain the three levels of measurement and give examples of each level.
 
 \end{itemize}     
@@ -19,11 +19,11 @@ By the end of this chapter, we will be able to:
 \subsubsection{Be an Informed Consumer}
 
 The first reason to study statistics (TSS)  \cite{Reason2015}  
-is to be an informed client.  Like  other tools in our toolbox, statistics can be either properly used or abused.  Unfortunately,  sometimes (not often) individuals have lied and misled with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information (data) that our clients gave us. 
+is to be an informed client.  Like  other tools in our toolbox, statistics can be either properly used or abused.  Unfortunately,  sometimes (not often) individuals have misled or lied with statistics.  However, most times, well-meaning individuals unwittingly report erroneous  conclusions using statistics. If we are familiar with  basic statistical concepts, we will be able  to judge the information (data) that our clients gave us. 
 
 \subsubsection{Study Design}
 
-The second reason TSS  is that we will be equipped to look at scientific journals.  Most  journals  will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the necessary skills  to scrutinize and evaluate most of the appendix.  The capacity to pull useful information from a journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
+The second reason TSS  is that we will be equipped to look at social science journals.  Most  journals  will contain some form of statistics. Frequently, we will locate the statistical report in the article's appendix.  If we are  familiar with statistics, the information  in this section will be meaningful to us.  An understanding of introductory statistics will provide us with the necessary skills  to scrutinize and evaluate most of the appendix.  The capacity to pull useful information from a journal article and to  probe research from a statistical perspective are critical skills that will enhance our knowledge and understanding in related programs of research. 
 
 \subsubsection{Conduct Research}
 
@@ -35,7 +35,7 @@ The fourth reason TSS is to develop critical  thinking skills.  After completing
 
 \subsubsection{Know When to Hire a Statistician}
 
-The fifth reason TSS to have basic statistical knowledge is to know when we need help from a professional statistician.  We should be aware of how our cars work to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we attempt to be informed enough to talk with service center employee to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is expensive regarding resources and time.  We should not risk the entire project by  analyzing the data  ourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center employee discussed above, it is important to have enough statistical knowledge to discuss our project and the data analysis with the statistician that we hire.  In other words, we want the statistician, that we hire, to understand our research problem.
+And finally, the fifth reason TSS to have basic statistical knowledge is to know when we need help from a professional statistician.  We should be aware of how our cars work to determine when to bring it into the shop for repair.  Usually, we do not try the repair it ourselves because we do not want to cause more damage.  Also, we attempt to be informed enough to talk with service center representative to ensure that we do not get a  motor (big bucks) when all we need to replace is a new fuel filter (a few bucks).  We should use the same logic when employing a statistician.  Doing research is very expensive regarding resources and time.  We should not risk the entire project by  analyzing the data  ourself with widely available statistical software.   It is very easy to analyze data that is either  inappropriate or incomplete  because we had not used the services of a competent statistician.  As with the service center representative discussed above, it is important to have enough statistical knowledge to discuss our project and the data analysis with the statistician that we hire.  In other words, we want the statistician, that we hire, to understand our research problem.
 
 \subsubsection{To summarize}
 
@@ -44,7 +44,7 @@ The five reasons to study statistics:
 \item to act as an informed consumer, 
 \item to review and evaluate journal articles, 
 \item to be able to  conduct research, 
-\item to further develop critical thinking and analytic skills, 
+\item to further develop critical thinking and analytic skills, and 
 \item to know when we need to hire outside statistical help.  \cite{Reason2015}
 \end{itemize} 
 
@@ -63,23 +63,22 @@ gives us  a process to refine our thinking about the nature of social interactio
 
 \subsubsection{Research} Research  is the systematic inquiry (i.e., there is a plan) into the study of (in our case social) situations to establish facts and either reaffirm previous work or reach a new conclusion.  For example, since 1950, social researchers have found a relationship between the degree of poverty in a neighborhood and the difficulty of maintaining public order in the affected communities. 
 
-\subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers to the population characteristics from sampling. For example, we define the research question, what data to collect, how to analyze the data, report the results. 
+\subsubsection{Data science}  Data science is the systemic study of structure and behavior of collecting, organizing, evaluating, and interpreting data.  The interpretation phase refers to the population characteristics from sampling. For example, we define the research question, what data to collect, how to analyze the data, and report the results. 
 
 \subsubsection{{Data}} Data are information collected from a population for further analysis.  For example, the General Social Survey (GSS) is a survey that collects data on attitudes, concerns, experiences, and has become a repository of  societal changes of United States residents.
 
-\subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  among health and safety class and a statistics class among college students, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
+\subsubsection{Theory}  The theory is a statement used to explain a situation, e.g.,  is there a difference between alcohol awareness  between students in health and safety class and students in a statistics class, or contemplate this question: What causes poverty?  There are many possibilities, but let's consider:
   \begin{itemize}
   \item personal traits (laziness), or
   \item structural failing (not enough jobs).
   \end{itemize}
   
 These examples show the richness of social science research.  Research involves measurements whether using a survey to sample a population about the upcoming election or obtaining the amount of lead in the drinking water of two nearby cities.  
-
-\subsubsection{Hypothesis}  The hypothesis is an explanation for an association between events, e.g.,  alcohol awareness among college students is the same as among students  in a health and safety class and students  in a statistics course.  As we review our hypothesis, we will continue the research process by considering the following step:
+\subsubsection{Hypothesis}  The hypothesis is an explanation for an association between events, e.g.,  alcohol awareness between students in a health and safety class and students in a statistics course.  As we review our hypothesis, we will continue the research process by considering the following:
 \begin{itemize}
   \item Who is the population,
-  \item How many cases do we need to study this population (sample size),
-  \item What measurements do we need to take to answer our question and
+  \item how many cases do we need to study this population (sample size),
+  \item what measurements do we need to take to answer our question, and
   \item many other related issues?
 \end{itemize}  
 
@@ -97,11 +96,10 @@ These examples show the richness of social science research.  Research involves 
 
 So why is this process necessary, let's suppose that there are 50 cases in the control group and 50 cases in the test group.  Each case answers 11 questions.  There are 1,100 pieces of data to collect, store, retrieve, analyze, and report.  Therefore, it is necessary to be organized while doing research. 
 
-
-\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., research on alcohol understanding among college students published a higher awareness for students enrolled in a health and safety college course than for those enrolled in a college statistics course.
+\subsubsection{Empirical Generalizations}  Empirical generalizations are made to assess the theory after analyzing and interpretation of the data, e.g., research on student understanding of alcohol found that students in a health and safety course were more aware of the dangers of alcohol than students in a statistics course.
 \begin{itemize}
   \item Interpretation of the data, and 
-  \item conclusion: Did the data support our hypothesis. 
+  \item conclusion: Did the data support our hypothesis? 
 \end{itemize}
 
 \subsection{Variables and Cases}
