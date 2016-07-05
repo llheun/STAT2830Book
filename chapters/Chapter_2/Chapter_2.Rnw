@@ -79,7 +79,7 @@ Total & \fbox{1237} & 100.00 \\ \hline
 \end{align*}
 
 \subsubsection{Interpretation}
- The percent  of persons who indicate that voting is a crucial responsibility of a citizen is 62.41 percent.
+ The percent  of persons who indicate that voting is a crucial responsibility of a citizen is 62.41 percent.  When we consider the differences between the frequencies of an event to the percentages of that event, we quickly see the percentages are standardized and thus are easily understood because they vary from zero to 100.  Therefore, they are very useful when comparing populations of different sizes.
 
 The following describe the general form of the equation for proportions (Equation 2.1) and percentages (Equation 2.2).
 
