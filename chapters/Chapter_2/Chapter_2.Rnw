@@ -98,7 +98,7 @@ where \emph{f} is the number of cases in a category and \emph{n} is, the number 
 \begin{itemize} 
 \item Proportions are numbers that are always between zero and one.
 \item To convert  a proportion to a percent,  multiply it  by 100.
-\item To convert a percent to fraction, divide it by 100.
+\item To convert a percent to a fraction, divide it by 100.
 \end{itemize}
 
 \subsubsection{GSS Example continued}
@@ -140,7 +140,7 @@ Total & 541    & 100  & \fbox{696} & 100 \\ \hline
  
 \subsection{Ratio}
 
-A {\bf{ratio}} is a relation between two numbers point to the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  Consequently, it can also be a fraction such as 1.04.  We can also change the positions of the numbers.  Consider our current example, the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
+A {\bf{ratio}} is a relation between two numbers point to the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  Consequently, it can also be a fraction such as 1.04.  We can also change the positions of the numbers.  Consider our current example; the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
 
 The numbers compared in a ratio can be any quantities of a comparable kind, such as objects, persons, lengths, or spoonfuls. A ratio is written "a to b" or a:b, or sometimes expressed arithmetically as a quotient of the two.[2] When the two quantities have the same units, as is often the case, their ratio is a dimensionless number. A rate is a quotient of variables having different units. But in many applications, the word ratio is often used instead for this more general notion as well.[3]
 The \emph{ratio} is a relation between two similar magnitudes on the number of times the first contains the second.
@@ -157,7 +157,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{14}{7} = \frac{2
 \end{equation}
 
 {\bf{Interpretation}}  \\
-The ratio indicates that there are two females for every male,  which denotes that voting  is not very important responsibility (level 2) of being a citizen.
+The ratio indicates that there are two females for every male,  which denotes that voting  is not a vital responsibility (level 2) of being a citizen.
 
 
 \item   The ratio of males to females:
@@ -167,7 +167,7 @@ Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{7}{14} = \frac{1
 \end{equation}
 
 {\bf{Interpretation}}  \\
-The ratio indicates that there is a male for every two females,  which denotes that voting  is not very important responsibility (level 2) of being a citizen.
+The ratio indicates that there is a male for every two females,  which denotes that voting  is not a  vital responsibility (level 2) of being a citizen.
 
 
 \end{enumerate}
