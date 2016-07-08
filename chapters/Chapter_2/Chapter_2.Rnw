@@ -142,7 +142,7 @@ Total & 541    & 100  & \fbox{696} & 100 \\ \hline
 
 A {\bf{ratio}} is a relation between two numbers that indicate the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  It can also be a fraction such as 1.04 males to 1 female.  We usually multiply both numbers by 100 to have no decimals.  In other words, 104:100.  We can also change the positions of the numbers.  Consider our current example; the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
 
-The comparison of two numbers in a ratio can be any quantities of a comparable kind, such as dimensions, objects, persons,  or volumes.  A ratio is written "x to y" or x:y, or sometimes expressed arithmetically as a quotient of the two.[2] When the two quantities have the same units, as is often the case, their ratio is a dimensionless number.  If the variables have different units, the quotient is a rate such as miles per qallan.  But in many applications, the word ratio is often used instead for this more general notion as well.[3]
+The comparison of two numbers in a ratio can be any quantities of a comparable kind, such as dimensions, objects, persons,  or volumes.  A ratio is written as "x to y" or x:y, or sometimes expressed arithmetically as a quotient of the two.[2] When the two quantities have the same units, as is often the case, their ratio is a dimensionless number.  However, if the variables have different units, the quotient is a rate,  which is the next topic that we will discuss, such as miles per gallon.  But in many applications, the word ratio is often used instead for this more general notion as well.[3]
 
 
 \subsubsection{GSS Example continued}
@@ -229,7 +229,7 @@ Rate = \frac{f}{n} \times (per) ,
 
 \subsection{Percent Change}
 
-Suppose Kalamazoo had a homicide rate of 12 in 2012 and in 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
+In social science, we use the term percent change to compare two quantities while taking into account the "sizes" of the things being compared. The comparison is expressed as a ratio and has no units. Now we can express it as percentage change  by multiplying it by 100.  For example, suppose Kalamazoo had a homicide rate of 12 in 2012 and in 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
 
 \begin{itemize}
 \item What is the percentage change?
@@ -247,8 +247,7 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
   % \end{itemize}
   
 
-\item The percent change measures social change.  It is telling us
- how a variable has increased (positive rate) or decreased (negative rate) over a determined span of time.
+\item The percent change measures social change.  It is telling us how a variable has increased (positive rate) or decreased (negative rate) over a determined span of time.
 
 \begin{equation}
 PercentChange = \frac{f_2 - f_1}{f_1} \times 100\% ,

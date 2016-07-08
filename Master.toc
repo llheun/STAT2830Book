@@ -46,14 +46,14 @@
 \contentsline {subsection}{\numberline {2.1.2}Ratio}{24}
 \contentsline {subsubsection}{GSS Example continued}{24}
 \contentsline {subsection}{\numberline {2.1.3}Rates}{25}
-\contentsline {subsection}{\numberline {2.1.4}Percent Change}{25}
+\contentsline {subsection}{\numberline {2.1.4}Percent Change}{26}
 \contentsline {section}{\numberline {2.2}Summarizing Categorical Data}{26}
-\contentsline {subsection}{\numberline {2.2.1}Frequency Distribution Table}{26}
-\contentsline {subsection}{\numberline {2.2.2}Construct a frequency distribution for the data from the GSS survey in Table 2.6}{27}
-\contentsline {subsection}{\numberline {2.2.3}Bar Chart}{28}
-\contentsline {subsection}{\numberline {2.2.4}Pie Chart}{28}
-\contentsline {section}{\numberline {2.3}Summarizing Numerical Data}{29}
-\contentsline {subsection}{\numberline {2.3.1}Frequency Distribution Table}{30}
+\contentsline {subsection}{\numberline {2.2.1}Frequency Distribution Table}{27}
+\contentsline {subsection}{\numberline {2.2.2}Construct a frequency distribution for the data from the GSS survey in Table 2.6}{28}
+\contentsline {subsection}{\numberline {2.2.3}Bar Chart}{29}
+\contentsline {subsection}{\numberline {2.2.4}Pie Chart}{29}
+\contentsline {section}{\numberline {2.3}Summarizing Numerical Data}{30}
+\contentsline {subsection}{\numberline {2.3.1}Frequency Distribution Table}{31}
 \contentsline {subsection}{\numberline {2.3.2}Histogram}{32}
 \contentsline {subsection}{\numberline {2.3.3}Boxplot}{34}
 \contentsline {section}{\numberline {2.4}Summary}{35}
