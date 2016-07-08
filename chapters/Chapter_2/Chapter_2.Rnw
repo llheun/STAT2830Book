@@ -140,20 +140,20 @@ Total & 541    & 100  & \fbox{696} & 100 \\ \hline
  
 \subsection{Ratio}
 
-A {\bf{ratio}} is a relation between two numbers point to the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  Consequently, it can also be a fraction such as 1.04.  We can also change the positions of the numbers.  Consider our current example; the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
+A {\bf{ratio}} is a relation between two numbers that indicate the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  It can also be a fraction such as 1.04 males to 1 female.  We usually multiply both numbers by 100 to have no decimals.  In other words, 104:100.  We can also change the positions of the numbers.  Consider our current example; the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
 
-The numbers compared in a ratio can be any quantities of a comparable kind, such as objects, persons, lengths, or spoonfuls. A ratio is written "a to b" or a:b, or sometimes expressed arithmetically as a quotient of the two.[2] When the two quantities have the same units, as is often the case, their ratio is a dimensionless number. A rate is a quotient of variables having different units. But in many applications, the word ratio is often used instead for this more general notion as well.[3]
-The \emph{ratio} is a relation between two similar magnitudes on the number of times the first contains the second.
+The comparison of two numbers in a ratio can be any quantities of a comparable kind, such as dimensions, objects, persons,  or volumes.  A ratio is written "x to y" or x:y, or sometimes expressed arithmetically as a quotient of the two.[2] When the two quantities have the same units, as is often the case, their ratio is a dimensionless number.  If the variables have different units, the quotient is a rate such as miles per qallan.  But in many applications, the word ratio is often used instead for this more general notion as well.[3]
+
 
 \subsubsection{GSS Example continued}
 
-After reviewing the data from the GSS (See Table 2.2), compute the ratio  of females to males who indicate that voting is not vital responsibility (level 2) of being a citizen.  The GSS survey showed that 14 females and 7 males, compute the following: 
+After reviewing the data from the GSS (See Table 2.2), compute the ratio  of females to males who indicate that voting is not a vital responsibility (level 2) of being a citizen.  The GSS survey showed that 14 females and seven males, compute the following: 
 
 \begin{enumerate}
 \item  The ratio of females to males: 
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{females}}{f_{males}} = \frac{14}{7} = \frac{2}{1} 
+Ratio = f_1:f_2 = females:males = 14:7 = 2:1 
 \end{equation}
 
 {\bf{Interpretation}}  \\
@@ -163,7 +163,7 @@ The ratio indicates that there are two females for every male,  which denotes th
 \item   The ratio of males to females:
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2} = \frac{f_{males}}{f_{females}} = \frac{7}{14} = \frac{1}{2}
+Ratio = f_1:f_2 = males:females = 7:14 = 1:2
 \end{equation}
 
 {\bf{Interpretation}}  \\
@@ -179,7 +179,7 @@ The ratio indicates that there is a male for every two females,  which denotes t
 \item Ratios are useful for comparing the relative size of different categories of a variable.
 
 \begin{equation}
-Ratio = \frac{f_1}{f_2}, 
+Ratio = f_1:f_2 
 \end{equation}
  % \begin{itemize}
 %  \item 
@@ -189,7 +189,7 @@ where $f_1$ is the number of cases in the first category and $f_2$ is the number
 
 \subsection{Rates}
 
-Suppose Kalamazoo  (population of 75,000) had nine homicides in 2012 \cite{Homicide2016}, what is the homicide rate per (100,000) in this town.
+Suppose Kalamazoo  (population of 75,000) had nine homicides in 2012 \cite{Homicide2016}, what is the homicide rate per (100,000) in this town?
 
 \begin{itemize}
 \item The homicide rate is the number of deaths divided by the population size.
@@ -203,7 +203,7 @@ homicideRate = \frac{f}{n} = \frac{9}{75000} = 0.00012
   % \end{itemize}
 
 \begin{equation}
-homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12,
+homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12
 \end{equation}
   % \begin{itemize}
   % \item 
@@ -212,7 +212,7 @@ homicideRatePer100000  = \frac{9}{75000} \times 100,000 = 12,
 
 \item We use the rate when the proportion of occurrences are so small to obtain a measure that can be used to compare quantities with different population sizes.
 
-\item Rates are usually multiplied by some power of 10 to eliminate leading zeros.
+\item Rates are usually multiplied by some power of 10 \footnote{When we say the power of 10, we mean that the second power of 10 is 100, the third power of 10, is 1000, etc.} to eliminate leading zeros.
 
 \begin{equation}
 Rate = \frac{f}{n} \times (per) , 
@@ -229,7 +229,7 @@ Rate = \frac{f}{n} \times (per) ,
 
 \subsection{Percent Change}
 
-Suppose Kalamazoo had a homicide rate of 12 in 2012 and 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
+Suppose Kalamazoo had a homicide rate of 12 in 2012 and in 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
 
 \begin{itemize}
 \item What is the percentage change?
@@ -242,7 +242,7 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
   % \begin{itemize}
   % \item 
   
-  Notice we use 12 as $f_1$ since this the earlier time (2012 versus 2014). The percent change results in a 34.2 percent decrease in the homicide rate. The percent change is consistent with the reported rates since 7.9 is a reduction over 12.
+  Notice that we use 12 as $f_1$ since this the earlier time (2012 versus 2014). The percent change results in a 34.2 percent decrease in the homicide rate. The percent change is consistent with the reported rates since 7.9 is a reduction over 12.
  
   % \end{itemize}
   
