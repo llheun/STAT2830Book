@@ -34,6 +34,17 @@
 \contentsline {section}{\numberline {1.5}Summary}{13}
 \contentsline {section}{\numberline {1.6}Key Words}{14}
 \contentsline {section}{\numberline {1.7}Exercises}{16}
+\contentsline {paragraph}{Exercises}{16}
+\contentsline {subparagraph}{Exercise{}~1.7-1:}{16}
+\contentsline {subparagraph}{Exercise{}~1.7-2:}{16}
+\contentsline {subparagraph}{Exercise{}~1.7-3:}{16}
+\contentsline {subparagraph}{Exercise{}~1.7-4:}{17}
+\contentsline {subparagraph}{Exercise{}~1.7-5:}{17}
+\contentsline {subparagraph}{Exercise{}~1.7-6:}{17}
+\contentsline {subparagraph}{Exercise{}~1.7-7:}{18}
+\contentsline {subparagraph}{Exercise{}~1.7-8:}{18}
+\contentsline {subparagraph}{Exercise{}~1.7-9:}{18}
+\contentsline {subparagraph}{Exercise{}~1.7-10:}{19}
 \contentsline {chapter}{\numberline {2}Dataset Descriptive Information}{21}
 \contentsline {subsection}{\numberline {2.0.1}Objectives}{21}
 \contentsline {section}{\numberline {2.1}Descriptive Statistics for Categorical Data}{21}
@@ -59,5 +70,16 @@
 \contentsline {section}{\numberline {2.4}Summary}{35}
 \contentsline {section}{\numberline {2.5}Key Words}{35}
 \contentsline {section}{\numberline {2.6}Exercise}{36}
-\contentsline {section}{\numberline {2.7}Appendix}{40}
-\contentsline {subsection}{\numberline {2.7.1}Cross tabulation}{40}
+\contentsline {paragraph}{Exercises}{36}
+\contentsline {subparagraph}{Exercise{}~2.6-1:}{36}
+\contentsline {subparagraph}{Exercise{}~2.6-2:}{36}
+\contentsline {subparagraph}{Exercise{}~2.6-3:}{36}
+\contentsline {subparagraph}{Exercise{}~2.6-4:}{37}
+\contentsline {subparagraph}{Exercise{}~2.6-5:}{37}
+\contentsline {subparagraph}{Exercise{}~2.6-6:}{38}
+\contentsline {subparagraph}{Exercise{}~2.6-7:}{38}
+\contentsline {subparagraph}{Exercise{}~2.6-8:}{38}
+\contentsline {subparagraph}{Exercise{}~2.6-9:}{38}
+\contentsline {subparagraph}{Exercise{}~2.6-10:}{38}
+\contentsline {section}{\numberline {2.7}Appendix}{39}
+\contentsline {subsection}{\numberline {2.7.1}Cross tabulation}{39}

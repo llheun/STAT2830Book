@@ -442,11 +442,11 @@ Numerical data is the second type of variable (See Figure 2.4) that we can summa
  
 \subsection{Frequency Distribution Table}
 
-An example of a GSS 2014 survey question is about the years of education of the household.  The data, from this study, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the total years of education structure.  But before we can build a frequency distribution table, we categorized the numbers by using the following steps:  
+An example of a GSS 2014 survey question is about the years of education of the head of household.  The data, from this study, show the maximum years of education of the household.  A frequency distribution  provides an accurate picture of the total years of education structure.  But before we can build a frequency distribution table, we categorized the numbers by using the following steps:  
 
 \begin{enumerate}
 \item Determine the number of classes, minimum, maximum, range and interval size.
-\item \# of classes: generally, we take the square root of the sample size, $\sqrt{2538} = 50.4$, but in this case, this value exceeds ten which is the maximum number of suggested bars.
+\item \# of classes: generally, we take the square root of the sample size, $\sqrt{2537} = 50.4$, but in this case, this value exceeds ten which is the maximum number of suggested bars.
 \item $minimum = 0$
 \item $maximum = 20$
 \item $range = 20 - 0 $
@@ -457,7 +457,7 @@ The above steps produced Table 2.7.   Note: each sub-category is exclusive, for 
   
  % Requires the booktabs if the memoir class is not being used
  \begin{table}[htbp]
-  \caption{Frequency Distribution of Years of Education from GSS 2014 Survey.}
+  
     \centering
     %\topcaption{Table captions are better up top} % requires the topcapt package
     \begin{tabular}{@{} cccc @{}} \hline % Column formatting, @{} suppresses leading/trailing space
@@ -475,16 +475,17 @@ The above steps produced Table 2.7.   Note: each sub-category is exclusive, for 
      14 - 16 & 585 & 23.1\% & 85.4\% \\
      16 - 18 & 217 & 8.6\% & 94.0\% \\
      18 - 20 & 152 & 6.0\% & 100.\% \\ \hline 
+             & N=2537 & \\  \hline
      
     \end{tabular}
-    
+    \caption{Frequency Distribution of Years of Education from GSS 2014 Survey.}
     \label{tab:t2_7}
  \end{table}
 
 \pagebreak
 \subsection{Histogram}
 
-<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.7, fig.height=4.7>>=
+<<mshist, echo=FALSE, fig.pos="ht", fig.align="center",  fig.width=4.5, fig.height=4.5>>=
 
 YearsOfEducation <- gss14$educ[ gss14$educ < 89]
 
@@ -498,12 +499,13 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 \begin{itemize}
 \item The bars of a histogram represent the sub-categories and the heights of each bar correspond to the percentage or number of cases in each subcategory.
 
-\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the rate for the sub-group 10-12 years is \fbox{823} of 2538 or 32.4 percent.  In this text, we will set the bars to the same width. 
+\item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the rate for the sub-group 10-12 years is \fbox{823} of 2537 or 32.4 percent.  In this text, we will set the bars to the same width. 
 
 \item Histograms sometimes use percentages instead of counts to make it possible to compare distributions of differing sample sizes.
 
 \item Histograms are very useful in examing the ``shape'' of the structure (distribution), for example, Bell-shaped (symmetrical),  Skewed (left or right),   Multi-modal.
 
+\vspace{2mm}
 \item Symmetric and Multi-Modal Distributions
 
 \begin{minipage}[ht]{6.5cm}
@@ -520,6 +522,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
       
 \end{minipage} 
 
+\vspace{2mm}
 \item Left-Skewed and Right-Skewed  Distributions
 
 \begin{minipage}[ht]{6.5cm}
