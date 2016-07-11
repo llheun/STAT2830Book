@@ -28,7 +28,7 @@ The data from a research project cannot articulate by itself.  As social scienti
 
 \subsection{Percentages and Proportions}
 
-National Opinion Research Center (NORC) (U of C) administers the General Social Survey (GSS), and is a primary source of data on social attitudes in the U.S. \cite{GSS2014}  Once each year; NORC employees interview 1500 adults in their homes all across the country.  The subjects are asked their opinions on sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
+A percentage is part of something into one hundred pieces.  A proportion is that percentage divided by 100.  \cite{percent2016}  National Opinion Research Center (NORC) (U of C) administers the General Social Survey (GSS), and is a primary source of data on social attitudes in the U.S. \cite{GSS2014}  Once each year; NORC employees interview 1500 adults in their homes all across the country.  The subjects are asked their opinions on sex and marriage, attitudes toward women, welfare, foreign policy, and many other issues.
 
 \subsubsection{GSS Example}
 
@@ -140,7 +140,7 @@ Total & 541    & 100  & \fbox{696} & 100 \\ \hline
  
 \subsection{Ratio}
 
-A {\bf{ratio}} is a relation between two numbers that indicate the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  It can also be a fraction such as 1.04 males to 1 female.  We usually multiply both numbers by 100 to have no decimals.  In other words, 104:100.  We can also change the positions of the numbers.  Consider our current example; the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
+A {\bf{ratio}} is a relation between two numbers that indicate the number of times the first number contains the second. For example, a local hospital reported annual birth ratio at their facility as 102 males and 98 females (that is 102:98, which is equivalent to the ratio 51:49).  In other words, it is the quantitative (numeric) relation between two amounts showing the number of times one value contains or is contained within the other.  \cite{ratio2016}  It can also be a fraction such as 1.04 males to 1 female.  We usually multiply both numbers by 100 to have no decimals.  In other words, 104:100.  We can also change the positions of the numbers.  Consider our current example; the hospital annual birth ratio is 98 females and 102 males or 98:102 (or 49:51).
 
 The comparison of two numbers in a ratio can be any quantities of a comparable kind, such as dimensions, objects, persons,  or volumes.  A ratio is written as "x to y" or x:y, or sometimes expressed arithmetically as a quotient of the two.[2] When the two quantities have the same units, as is often the case, their ratio is a dimensionless number.  However, if the variables have different units, the quotient is a rate,  which is the next topic that we will discuss, such as miles per gallon.  But in many applications, the word ratio is often used instead for this more general notion as well.[3]
 
@@ -384,7 +384,7 @@ We need to use SPSS software to construct Table 2.6, because there are 2534 case
 
 Using the percent column from Table 2.6, let's use a bar chart to summarize  the marital status from the GSS 2014 survey.  The bars represent the categories, and the heights of the bars correspond to the percent or number of cases in each category.  The bar chart always has gaps between the bars to indicate a specific type of data.
 
-<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
+<<msbar, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=4.5, fig.cap="Marital Status Barchart from GSS 2014 Survey">>=
 ## f2_1 <- read.spss("data/GSS2014.sav")
     tbl30 <- sort(tbl28, decreasing = TRUE)
     tbl31 <- tbl30[1:5]
@@ -400,7 +400,7 @@ Using the percent column from Table 2.6, let's use a bar chart to summarize  the
 
 Using the percent column from Table 2.6, let's use a pie chart to summarize  the marital status from the GSS 2014 survey.  The slices symbolize the sub-categories, and the size of the slice corresponds to the percent of cases in each sub-category.
 
-<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.7, fig.height=4.7, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
+<<mspie, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=4.5, fig.cap="Marital Status Pie Chart from GSS 2014 Survey">>=
 
     lbls <- c("Married", "Never Married", "Divorced", "Widowed", "Separated")
     pie( Percent, labels= lbls, radius=.9)
