@@ -231,8 +231,10 @@ Rate = \frac{f}{n} \times (per) ,
 
 In social science, we use the term percent change to compare two quantities while taking into account the "sizes" of the things being compared. The comparison is expressed as a ratio and has no units. Now we can express it as percentage change  by multiplying it by 100.  For example, suppose Kalamazoo had a homicide rate of 12 in 2012 and in 2014, it had a homicide rate of 7.9 (reported as homicides per 100,000 population).
 
+Another example, opioid addiction has become a serious in Michigan and the nation as well.  But how serious is the problem?  Well, let's look at the percent change in the last five years.  In 2009, (our base year) Kalamazoo County had 30 deaths due to opioid overdose. In 2014, Kalamazoo County had 37 deaths due to opioid overdose.  \cite{addict2016}
+
 \begin{itemize}
-\item What is the percentage change?
+\item In the first situation, what is the percentage change?
 \begin{eqnarray}
 PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
                           & = & \frac{7.9 - 12}{12} \times 100\%  \nonumber \\
@@ -242,8 +244,19 @@ PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
   % \begin{itemize}
   % \item 
   
-  Notice that we use 12 as $f_1$ since this the earlier time (2012 versus 2014). The percent change results in a 34.2 percent decrease in the homicide rate. The percent change is consistent with the reported rates since 7.9 is a reduction over 12.
+  Notice that we use 12 as $f_1$ since this the earlier time (2012 versus 2014). The percent change results in a 34.2 percent decrease in the homicide rate in a two year period.  The percent change is consistent with the reported rates since 7.9 is a reduction over 12.
  
+ \item In the sdecond situation, what is the percentage change?
+\begin{eqnarray}
+PercentChange & = & \frac{f_2 - f_1}{f_1} \times 100\%  \nonumber \\
+                          & = & \frac{37 - 30}{30} \times 100\%  \nonumber \\
+                          & = & \frac{7}{30} \times 100\%  = 23.3\%  \nonumber 
+\end{eqnarray}
+                          
+  % \begin{itemize}
+  % \item 
+  
+  Notice that we use 30 as $f_1$ since this the earlier time (2009 versus 2014). The percent change results in a 23.3 percent increase in the death rate in a five year period.  The percent change is consistent with the reported rates since 37 is an increase over 30.  Community and healthcare leaders should be concerned.
   % \end{itemize}
   
 
