@@ -83,3 +83,32 @@
 \contentsline {subparagraph}{Exercise{}~2.6-10:}{38}
 \contentsline {section}{\numberline {2.7}Appendix}{39}
 \contentsline {subsection}{\numberline {2.7.1}Cross tabulation}{39}
+\contentsline {chapter}{\numberline {3}Measures of Location}{41}
+\contentsline {section}{\numberline {3.1}Objective}{41}
+\contentsline {section}{\numberline {3.2}Three Common Measures}{42}
+\contentsline {section}{\numberline {3.3}Mean}{42}
+\contentsline {subsubsection}{Illustration:}{42}
+\contentsline {subsubsection}{Affect of an outlier}{42}
+\contentsline {section}{\numberline {3.4}Median}{43}
+\contentsline {section}{\numberline {3.5}Mode}{44}
+\contentsline {section}{\numberline {3.6}Overall Distribution Shape}{44}
+\contentsline {subsubsection}{Symmetric}{44}
+\contentsline {subsubsection}{Skewed}{45}
+\contentsline {section}{\numberline {3.7}Other Measures of Location}{46}
+\contentsline {subsubsection}{GSS Example}{46}
+\contentsline {section}{\numberline {3.8}Summary}{47}
+\contentsline {section}{\numberline {3.9}Key Words}{47}
+\contentsline {section}{\numberline {3.10}Exercises}{48}
+\contentsline {paragraph}{Exercises}{48}
+\contentsline {subparagraph}{Exercise{}~3.10-1:}{48}
+\contentsline {subparagraph}{Exercise{}~3.10-2:}{48}
+\contentsline {subparagraph}{Exercise{}~3.10-3:}{48}
+\contentsline {subparagraph}{Exercise{}~3.10-4:}{49}
+\contentsline {subparagraph}{Exercise{}~3.10-5:}{49}
+\contentsline {subparagraph}{Exercise{}~3.10-6:}{50}
+\contentsline {subparagraph}{Exercise{}~3.10-7:}{50}
+\contentsline {subparagraph}{Exercise{}~3.10-8:}{51}
+\contentsline {subparagraph}{Exercise{}~3.10-9:}{51}
+\contentsline {subparagraph}{Exercise{}~3.10-10:}{51}
+\contentsline {section}{\numberline {3.11}Appendix}{52}
+\contentsline {subsection}{\numberline {3.11.1}Central Tendency}{52}

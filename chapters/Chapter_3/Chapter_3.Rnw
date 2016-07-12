@@ -189,6 +189,8 @@ The {\bf{mode}} is the most expected value in a distribution or the largest cate
 
 \section{Overall Distribution Shape}
 
+We use graphic displays of numerical data to help us see patterns.  We commonly use these patterns in the data to describe features such as center, spread, and shape.  Some common distributions have special descriptive labels, such as symmetric and skewed.
+
 \begin{minipage}[ht]{4.1cm}
 
 \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
