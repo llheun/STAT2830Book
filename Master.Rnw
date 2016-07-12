@@ -11,11 +11,7 @@
 \usepackage{epstopdf}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
 \usepackage{verbatim}
-% \usepackage{natbib}
 \usepackage{url}
-% \usepackage{microtype}
-%\usepackage{biblatex}
-%\bibliography{references}
 \usepackage{natbib}
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
@@ -71,7 +67,7 @@ opts_chunk$set(
 <<Ch2, child="chapters/Chapter_2/Chapter_2.Rnw",eval=TRUE>>=
 @
 
-<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=FALSE>>=
+<<Ch3, child="chapters/Chapter_3/Chapter_3.Rnw",eval=TRUE>>=
 @
 
 <<Ch4, child="chapters/Chapter_4/Chapter_4.Rnw",eval=FALSE>>=

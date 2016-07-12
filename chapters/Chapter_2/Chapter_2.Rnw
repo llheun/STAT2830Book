@@ -497,7 +497,7 @@ hist(YearsOfEducation, ylab="Frequency", xlab="Years of Education")
 
 
 \begin{itemize}
-\item The bars of a histogram represent the sub-categories and the heights of each bar correspond to the percentage or number of cases in each subcategory.
+\item The bars of a histogram represent the sub-categories, and the heights of each bar correspond to the percentage or number of cases in each subcategory.
 
 \item Histograms have areas that are proportional to the frequency; i.e., in Table 2.7, we see that the rate for the sub-group 10-12 years is \fbox{823} of 2537 or 32.4 percent.  In this text, we will set the bars to the same width. 
 
