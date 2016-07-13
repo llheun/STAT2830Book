@@ -27,7 +27,7 @@ The method of comparing to distribution is important in statistics.  We will def
 
 \section{Three Common Measures}
 
-The central tendency is a measure of where most of the data are located.  In other words, we are saying that most of the observed data are around the following statistics:
+The central tendency is a measure of where we find the location of our data values.  In other words, we are saying that most of the observed data values are around the following statistics:
 
 \begin{itemize}
 \item mean
@@ -47,6 +47,8 @@ The strength and weakness of the mean.
 \end{itemize}
 
 \subsubsection{Illustration:}
+
+Suppose that we have the ages of 13 randomly selected students from an urban campus and compute the value of the mean.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -93,7 +95,7 @@ This example illustrates the affect of an outlier.  The mean with the outlier wa
   
 \section{Median}
 
-The \emph{median} is the value of the middle observation of the sorted data set.
+The \emph{median} is the value of the middle observation of the sorted data set.  After we arrange the ages (from low to high) of the students from the urban, we can find the middle value.
 
 \begin{itemize}
 \item If there is an odd number of data values in our list, we must order the values at the beginning and end and locate the center value, e.g., 
@@ -114,7 +116,7 @@ The \emph{median} is the value of the middle observation of the sorted data set.
 
 \item median = 24
 
-\item If there is an even number of data values in our list, we must order the values at the beginning and end and locate the two center value and average them, e.g., 
+\item Suppose that we add an eighteen year old student to the list of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of data values in our list, we must order the values at the beginning and end and locate the two center value and average them, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -134,6 +136,8 @@ The \emph{median} is the value of the middle observation of the sorted data set.
 \end{itemize}
 
 The {\bf{median}} is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution. 
+
+What are the strengths and weaknesses of the median?
 
 \begin{itemize}
 \item Strength:  It is RESISTANT to extreme values (\emph{outliers}).
@@ -160,7 +164,7 @@ The {\bf{median}} is the center score of the distribution.  Half of the values a
 
 \end{itemize}
 
-\newpage
+% \newpage
 
 \section{Mode}
 
@@ -212,6 +216,8 @@ Left Skewed
 
 \subsubsection{Symmetric}
 
+The dataset that has the attribute of symmetry has the following features: 
+
 \begin{itemize}
 \item Balanced Distribution
 \item Often bell-shaped
@@ -219,6 +225,8 @@ Left Skewed
 \end{itemize}
 
 \subsubsection{Skewed}
+
+The dataset that has the attribute of skewness has the following features: 
 
 \begin{itemize}
 \item Right-skewed: the presence of relatively high values (See Table 3.7).
@@ -291,8 +299,8 @@ The other measure of central tendency are as follows:
 		
 	\item Example
 		\begin{itemize}
-		\item In a sample of 70 test scores, we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
-		\item $70 \times 0.75 = 52.5$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is located between the         $52^{nd}$ and the $53^{rd}$ values in the list of 70 test scores.
+		\item In a sample of 13 student ages from an urban campus (See Table 3.7), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item $13 \times 0.75 = 9.75$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is located between the $9^{th}$ and the $10^{th}$ values in the list of 13, i.e., the third quartile is 25.
 		\end{itemize}
 		  	
 \end{itemize}
@@ -329,7 +337,7 @@ The report displays the three central tendency values in the following table (Ta
    \label{tab:t3_9}
 \end{table}
 
-Section 3.11 shows the SPSS procedure.
+We show the SPSS procedure in Section 3.11.
 
 \section{Summary}
 
@@ -356,9 +364,6 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 \samepage
 \item $X_i$ (``x-sub-i'') 
 \end{itemize}
-
-
-
 
 \newpage
 
