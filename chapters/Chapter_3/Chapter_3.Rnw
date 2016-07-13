@@ -27,7 +27,7 @@ The method of comparing to distribution is important in statistics.  We will def
 
 \section{Three Common Measures}
 
-The central tendency is a measure of where we find the location of our data values.  In other words, we are saying that most of the observed data values are around the following statistics:
+The central tendency is a measure of where we find the location of our data values.  In other words, we are saying that most of the observed data values are near the following statistics:
 
 \begin{itemize}
 \item mean
@@ -39,7 +39,7 @@ The central tendency is a measure of where we find the location of our data valu
 
 The \emph{mean} (usually denoted as $\bar{X}$) is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average value of a variable.
 
-The strength and weakness of the mean.
+What are the strengths and weaknesses of the mean?
 
 \begin{itemize}
 \item Strength -- All data from a variable are used to compute the mean.
@@ -69,9 +69,9 @@ Suppose that we have the ages of 13 randomly selected students from an urban cam
 \bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 3 + 22 + 19 + 18}{13} = \frac{282}{13} = 21.7  \nonumber
 \end{equation}
   
-\subsubsection{Affect of an outlier}
+\subsubsection{Outlier}
 
-Let's suppose that 3 should have been  was recorded as 30. 
+Let's suppose that three should have been  was recorded as 30. 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -95,7 +95,7 @@ This example illustrates the affect of an outlier.  The mean with the outlier wa
   
 \section{Median}
 
-The \emph{median} is the value of the middle observation of the sorted data set.  After we arrange the ages (from low to high) of the students from the urban, we can find the middle value.
+The \emph{median} is the value of the middle observation of the sorted data set.  After we arrange the ages (from low to high) of the students from the urban campus, we can find the middle value.
 
 \begin{itemize}
 \item If there is an odd number of data values in our list, we must order the values at the beginning and end and locate the center value, e.g., 
@@ -188,7 +188,7 @@ The {\bf{mode}} is the most expected value in a distribution or the largest cate
    \label{tab:t3_6}
 \end{table}
 \samepage
-\item The {\bf{mode}} is the most frequently occurring value in a list.  Since there are three of 24s, the {\bf{mode}} is 24.  While analyzing a data set, we must use the mode for categorical data where we cannot use the mean or the median.  Think of the situation where you have 30 students in your classroom, and you survey them for the eye color and find there are 20 students with brown eyes, nine students with blue eyes, and one student with black eyes.  The brown eyes are the mode since brown eyes occur more frequently than the other colors.
+\item The {\bf{mode}} is the most frequently occurring value in a list.  Since there are three of 24s, the {\bf{mode}} is 24.  While analyzing a data set, we must use the mode for categorical data where we cannot use the mean or the median.  Think of the situation where we have 30 students in our classroom, and we survey them for the eye color and find there are 20 students with brown eyes, nine students with blue eyes, and one student with black eyes.  The brown eyes are the mode since brown eyes occur more frequently than the other colors.
 \end{itemize}
 
 \section{Overall Distribution Shape}

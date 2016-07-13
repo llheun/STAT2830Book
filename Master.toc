@@ -88,7 +88,7 @@
 \contentsline {section}{\numberline {3.2}Three Common Measures}{42}
 \contentsline {section}{\numberline {3.3}Mean}{42}
 \contentsline {subsubsection}{Illustration:}{42}
-\contentsline {subsubsection}{Affect of an outlier}{42}
+\contentsline {subsubsection}{Outlier}{42}
 \contentsline {section}{\numberline {3.4}Median}{43}
 \contentsline {section}{\numberline {3.5}Mode}{44}
 \contentsline {section}{\numberline {3.6}Overall Distribution Shape}{44}
