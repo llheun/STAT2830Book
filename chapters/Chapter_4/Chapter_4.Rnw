@@ -5,7 +5,7 @@
 
 \section{Objective}
 
-After reading chapter four and doing the exercises, you will be able to
+After reading chapter four and doing the exercises, we will be able to
 \begin{itemize}
 \item Explain the concept of measures of dispersion and the information they convey.
 \item Compute and explain the following:
@@ -17,7 +17,7 @@ After reading chapter four and doing the exercises, you will be able to
 	\item The sample standard deviation  (denoted as {\bf{$s$}}).
 	\item The population standard deviation  (denoted as {\bf{$\sigma$}}).
 	\end{itemize}
-\item Select the  measure of dispersion appropriate for your current problem.
+\item Select the  measure of dispersion appropriate for our current problem.
 \end{itemize}
 	
 \section{Definition of Dispersion}
@@ -67,12 +67,12 @@ The following are characteristics of the {\bf{Range ($R$)}}:
 (dispersion) of the dataset.
 
 \item It only includes two values from the dataset (minimum and maximum), has limited power for interpretation, and 
- has limited use in more advanced statistical analysis of numerical data.
+ has limited use in more advanced statistical analysis of numerical data, but it is understood easily and interpreted.
 \end{itemize}
 
 \section{Interquartile Range}
 
-An illustration of the interquartile range (IQR) of a variable.  We will use data from the GSS 2014, Years of Education of the United Stats households.  See Figure 4.2.
+An illustration of the interquartile range (IQR) of a variable.  We will use data from the GSS 2014, Years of Education of the United States households.  See Figure 4.2.
 
 <<f4_2, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4, fig.height=4, fig.cap="Box plot of Years of Education">>=
 
@@ -122,8 +122,8 @@ $UpperBound = Q_3 + (1.5 \times IQR) = 16 + (1.5 \times 4) = 22$
 	\item $Q_3$ ($3^{rd}$ quartile)
 	\item Maximum
 	\end{itemize}
-\item The boxplot can illustrate the shape of the distribution by the length of the 
-whiskers (longer whiskers on one side indicate a skewed distribution).
+\item The boxplot illustrates the shape of the distribution by the length of the 
+whiskers (longer whiskers on one side indicate a skewed distribution) as shown in Figure 4.2.
 \item Identify outliers by being above $Q_3$ or below $Q_1$ by more than $1.5 \times IQR$. 	  
 
 \end{itemize}
@@ -136,7 +136,7 @@ The standard deviation is a type of ``average of the deviations from the sample 
 
 The Normal Distribution of dataset indicates that most of our sample will be close to the average of the sample data whereas very few of those observations will be at either extreme.
 
-Suppose that you are writing a report about the Ages of Student from a residential campus  versus the Ages of Students from an urban school.  Like most datasets,  the numbers for the age of most student on a residential campus will probably be normally distributed.  In other words, the age of most students on a residential campus will be close to the mean and very few student ages will be greater than the average or very few age groups will be less than the average. 
+Suppose that we are writing a report about the Ages of Student from a residential campus  versus the Ages of Students from an urban school.  Like most datasets,  the numbers for the age of most student on a residential campus will probably be normally distributed.  In other words, the age of most students on a residential campus will be close to the mean and very few student ages will be greater than the average or very few age groups will be less than the average. 
 
 If you give this concept some thought, it makes sense.  Not many students will be in their early teens or their late twenties.  Most students will be somewhere in between, i.e., late teens and early twenties whereas the urban campus has more students at the extremes, they will be in their mid-teens and early thirties.
 
@@ -333,6 +333,8 @@ Section 4.11 shows the SPSS procedure.
 \section{Summary}
 
 Why is it necessary to understand dispersion?  The dispersion, of data, measures the diversity in the distribution of values (scores).  If we take  variables of dispersion(spread) and location (central tendency) together, their presentation gives us volumes of information about the population that we are studying.  Recall there are five such spread variables: range, interquartile range, standard deviation, variance, and coefficient of variation.
+
+\newpage
 
 \section{Key Words}
 
