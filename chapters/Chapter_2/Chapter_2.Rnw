@@ -5,7 +5,7 @@
 
 \subsection{Objectives}
 
-After reading chapter two and doing the exercises, you will be able to:
+After reading chapter two and doing the exercises, we will be able to:
 \begin{itemize}
   \item Use descriptive statistics to make data understandable.
   \item Summarize and analyze data using graphical methods.
