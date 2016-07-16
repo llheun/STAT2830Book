@@ -22,13 +22,14 @@ After reading chapter four and doing the exercises, we will be able to
 	
 \section{Definition of Dispersion}
 
+Without knowing a little more about how dispersed the values of the dataset, the central tendency values are ambiguous.  For example, a large social service agency wants to level the workload among its four divisions.  They find that the central tendencies (means) are nearly equal indicating an equal workload among division.  On further examination, they find the standard deviation of Division D is three times larger than the other three divisions.  It is very obvious that some agents have a heavier workload.  The dispersion measure provides a complete picture.
+
 What is dispersion (variation or spread)?  Dispersion is 
    
 \begin{itemize}
 \item how much do observations vary.
 \item how much an observation misses the center.
 \item Note: There are ways to measure the variability of categorical data, but we will not discuss them in this course.
-
 \end{itemize}
 
  \begin{figure}[htbp]
@@ -334,7 +335,7 @@ Section 4.11 shows the SPSS procedure.
 
 Why is it necessary to understand dispersion?  The dispersion, of data, measures the diversity in the distribution of values (scores).  If we take  variables of dispersion(spread) and location (central tendency) together, their presentation gives us volumes of information about the population that we are studying.  Recall there are five such spread variables: range, interquartile range, standard deviation, variance, and coefficient of variation.
 
-\newpage
+% \newpage
 
 \section{Key Words}
 

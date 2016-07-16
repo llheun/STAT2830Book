@@ -116,7 +116,7 @@
 \contentsline {section}{\numberline {4.1}Objective}{55}
 \contentsline {section}{\numberline {4.2}Definition of Dispersion}{55}
 \contentsline {section}{\numberline {4.3}Range}{56}
-\contentsline {section}{\numberline {4.4}Interquartile Range}{56}
+\contentsline {section}{\numberline {4.4}Interquartile Range}{57}
 \contentsline {section}{\numberline {4.5}Standard Deviation}{58}
 \contentsline {section}{\numberline {4.6}Variance}{62}
 \contentsline {section}{\numberline {4.7}Other Measures of Spread}{63}
