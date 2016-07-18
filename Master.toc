@@ -122,7 +122,7 @@
 \contentsline {section}{\numberline {4.7}Other Measures of Spread}{63}
 \contentsline {subsubsection}{Coefficient of Variation}{63}
 \contentsline {subsubsection}{GSS Example}{63}
-\contentsline {section}{\numberline {4.8}Summary}{63}
+\contentsline {section}{\numberline {4.8}Summary}{64}
 \contentsline {section}{\numberline {4.9}Key Words}{64}
 \contentsline {section}{\numberline {4.10}Exercises}{65}
 \contentsline {paragraph}{Exercises}{65}

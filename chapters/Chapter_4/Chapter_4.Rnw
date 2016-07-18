@@ -264,6 +264,8 @@ $X$ equals a value of a variable in a dataset.  $\bar{X}$ equals the mean  of th
 
 \section{Variance}
 
+The variance has a numeric data type that indicates the variability between individuals within a group.  If personal observations differ narrowly from the group mean, the difference is small; and vice versa.  It is important to discriminate between the variance in a sample and a population.  We give them different notations, and we compute them differently which we discuss in the next section.  We denote the variance of a sample and a population with $s^2$ and $\sigma^2$, respectively.  The sample variance, $s^2$, will approximate an unbiased estimate of the population variance.  Also, note that the variance is the same as the square of the standard deviation.
+
 The features of the variance:
 
 \begin{itemize}
