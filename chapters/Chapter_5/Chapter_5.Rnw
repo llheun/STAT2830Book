@@ -15,7 +15,9 @@ table to find areas above, below and between points of the curve and  express th
 
 \section{Why should we study the Normal Curve}
 
-This  Normal Curve is an important concept in statistics.
+The \emph{normal curve} is the single most important theory in the social sciences. We can describe it by the bell-shaped curve.  It allows us to determine the probability of an event when we have the mean and standard deviation.
+
+
 
 \begin{itemize}
 \item It is the  distribution pattern that occurs in many open datasets, such as IQ, grades, GRE, LSAT, etc.
