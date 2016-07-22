@@ -141,7 +141,7 @@
 \contentsline {chapter}{\numberline {5}Normal Curve}{73}
 \contentsline {section}{\numberline {5.1}Objectives}{73}
 \contentsline {section}{\numberline {5.2}Why should we study the Normal Curve}{73}
-\contentsline {section}{\numberline {5.3}Normal Curve Characteristics}{73}
+\contentsline {section}{\numberline {5.3}Normal Curve Characteristics}{74}
 \contentsline {section}{\numberline {5.4}Empirical Rule}{75}
 \contentsline {subsubsection}{Example \# 1}{75}
 \contentsline {subsubsection}{Example \# 2}{76}
@@ -158,10 +158,10 @@
 \contentsline {subparagraph}{Exercise{}~5.8-1:}{86}
 \contentsline {subparagraph}{Exercise{}~5.8-2:}{86}
 \contentsline {subparagraph}{Exercise{}~5.8-3:}{86}
-\contentsline {subparagraph}{Exercise{}~5.8-4:}{88}
-\contentsline {subparagraph}{Exercise{}~5.8-5:}{88}
-\contentsline {subparagraph}{Exercise{}~5.8-6:}{88}
-\contentsline {subparagraph}{Exercise{}~5.8-7:}{89}
-\contentsline {subparagraph}{Exercise{}~5.8-8:}{89}
-\contentsline {subparagraph}{Exercise{}~5.8-9:}{89}
-\contentsline {subparagraph}{Exercise{}~5.8-10:}{90}
+\contentsline {subparagraph}{Exercise{}~5.8-4:}{87}
+\contentsline {subparagraph}{Exercise{}~5.8-5:}{87}
+\contentsline {subparagraph}{Exercise{}~5.8-6:}{87}
+\contentsline {subparagraph}{Exercise{}~5.8-7:}{88}
+\contentsline {subparagraph}{Exercise{}~5.8-8:}{88}
+\contentsline {subparagraph}{Exercise{}~5.8-9:}{88}
+\contentsline {subparagraph}{Exercise{}~5.8-10:}{89}

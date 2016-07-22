@@ -15,9 +15,7 @@ table to find areas above, below and between points of the curve and  express th
 
 \section{Why should we study the Normal Curve}
 
-The \emph{normal curve} is the single most important theory in the social sciences. We can describe it by the bell-shaped curve.  It allows us to determine the probability of an event when we have the mean and standard deviation.
-
-
+The \emph{normal curve} is the single most important theory in the social sciences.  It has properties that are found in our world, and the distribution of the collected data follow the bell-shaped curve.  The normal distribution has special attributes that make it possible to tell in advance the proportion of a population where the shape of the data values have a bell-shaped distribution.  Later, we will discuss tests for differences between populations where the data follows the normal curve.  Here are some examples of the normally distributed data.
 
 \begin{itemize}
 \item It is the  distribution pattern that occurs in many open datasets, such as IQ, grades, GRE, LSAT, etc.
@@ -121,7 +119,7 @@ mean &= \frac{(UB + LB)}{2} = \frac{(30.5 + 8.5)}{2} = 19.5
 
 \section{Normal Curve and z-score}
 
-The distribution of the IQ scores is normal or is bell-shaped.  Let's consider the following simulated example (i.e., ``faked data'') which is a good illustration of the bell-shaped curve and z-score.
+The distribution of the IQ scores is normal or is bell-shaped.  Let's consider the following simulated example (i.e., ``simulated data'') which is a good illustration of the bell-shaped curve and z-score.
 
 \begin{itemize}
 \item A sample of 1,000 females and 1,000 males were selected, and their IQ scores were measured.
@@ -439,7 +437,7 @@ Let's explore another example.  We have been asked to find the proportion of fem
 \end{table}
    
 
-First we need to find the two associated z-scores for these two values:
+First we need to find the two associated z-scores for these two values (90 and 120):
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -490,7 +488,7 @@ Let's explore another example.  We have been asked to find the proportion of mal
 \end{table}
    
 
-First we need to find the two associated z-scores for these two values:
+First we need to find the two associated z-scores for these two values (110 an 120):
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -622,7 +620,7 @@ This value indicates that 90 percent of all females' IQ scores are lower than 11
 	  \item 3
 	  \item 4
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -642,7 +640,7 @@ This value indicates that 90 percent of all females' IQ scores are lower than 11
 	  \item 1.82 lbs.
 	  \item You cannot calculate the z-score with the information provided.
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -663,7 +661,7 @@ of men weight less than 143 pounds?
 	  \item 15.87
 	  \item 34.13
 	  \end{enumerate}
-	  \vspace{5mm}
+	  \vspace{2mm}
     \framebox[5cm][l]{ Answer: }
 	\end{exercise}
 	\vspace{2mm}
@@ -674,7 +672,7 @@ of men weight less than 143 pounds?
 	   
 	\end{solution}  
 	
-\newpage
+% \newpage
 
   \begin{exercise} % 4 
   
