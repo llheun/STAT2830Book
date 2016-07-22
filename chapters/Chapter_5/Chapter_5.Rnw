@@ -15,7 +15,7 @@ table to find areas above, below and between points of the curve and  express th
 
 \section{Why should we study the Normal Curve}
 
-The \emph{standard curve} is the single most important theory in the social sciences.  We find these properties in our world, and the distribution of the collected data follow the bell-shaped curve.  The normal distribution has unique attributes that make it possible to tell in advance the proportion of a population where the shape of the data values has a bell-shaped distribution.  Later, we will discuss tests for differences among populations where the data follows the normal curve.  Here are some examples of the normally distributed data.
+The \emph{standard curve} is the single most important theory in the social sciences.  We find these properties in our world, and the distribution of the collected data follow the bell-shaped curve.  The normal distribution has unique attributes that make it possible to tell in advance the proportion of a population where the form of the data values has a bell-shaped distribution.  Later, we will discuss tests for differences among populations where the data follows the standard curve.  Here are some examples of the normally distributed data.
 
 \begin{itemize}
 \item It is the  distribution pattern that occurs in many open datasets, such as IQ, grades, GRE, LSAT, etc.
