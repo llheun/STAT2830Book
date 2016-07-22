@@ -15,7 +15,7 @@ table to find areas above, below and between points of the curve and  express th
 
 \section{Why should we study the Normal Curve}
 
-The \emph{normal curve} is the single most important theory in the social sciences.  It has properties that are found in our world, and the distribution of the collected data follow the bell-shaped curve.  The normal distribution has special attributes that make it possible to tell in advance the proportion of a population where the shape of the data values have a bell-shaped distribution.  Later, we will discuss tests for differences between populations where the data follows the normal curve.  Here are some examples of the normally distributed data.
+The \emph{standard curve} is the single most important theory in the social sciences.  We find these properties in our world, and the distribution of the collected data follow the bell-shaped curve.  The normal distribution has unique attributes that make it possible to tell in advance the proportion of a population where the shape of the data values has a bell-shaped distribution.  Later, we will discuss tests for differences among populations where the data follows the normal curve.  Here are some examples of the normally distributed data.
 
 \begin{itemize}
 \item It is the  distribution pattern that occurs in many open datasets, such as IQ, grades, GRE, LSAT, etc.
@@ -771,7 +771,7 @@ represents the $25^{th}$ percentile for weights of men (in pounds)?
 		\begin{exercise}  % 7
 		
 		
-	  The mean and standard deviation are 8.30 and 3.224, respectively.  What countries are in the bottom 15 percent?  Hint: find the value of the $15^{th}$ percentile and compare it to the Percentage of GDP.
+	  The mean and standard deviation are 8.30 and 3.224, respectively.  What countries are in the bottom 15 percent?  Hint: find the value of the $15^{th}$ percentile and compare it to the percentage of GDP.
 	  
 	  \end{exercise}
 	  \vspace{2cm}
@@ -785,7 +785,7 @@ represents the $25^{th}$ percentile for weights of men (in pounds)?
 
 	  The value of the $15^{th}$ percentile is \Sexpr{tmp52}.
 	  
-	  There are six countries: Indonesia (3.1), Saudi Arabia (3.2), Venezuela (3.6), India (4.0), Malaysia (4.0), and Thailand (4.6).
+	  There are six countries: Congo (4.1), Indonesia (3.1), Saudi Arabia (3.2), Venezuela (3.6), India (4.0), Malaysia (4.0), and Thailand (4.6).
 	  
 	\end{solution}  
 	  
@@ -849,6 +849,3 @@ represents the $25^{th}$ percentile for weights of men (in pounds)?
   
 \end{exercises} 
 	
-	
-% \bibliographystyle{plain}
-% \bibliography{mybibliography}	
