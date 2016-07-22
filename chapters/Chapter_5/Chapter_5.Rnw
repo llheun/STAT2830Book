@@ -51,7 +51,8 @@ polygon(c(xyzz[xyzz<=0],0), c(dnorm(xyzz[xyzz<=0],0,1),0000),col="white")
  
 \section{Empirical Rule}
 
-Given a bell-shaped distribution of measurements, approximately 
+The Empirical Rule states that if the population of a dataset has a bell-shaped distribution with population mean $\mu$ and standard deviation $\sigma$ then following conditions are true: 
+
 \begin{itemize}
 \samepage 
 \item 68\% of the observations are within one standard deviation (SD) of the mean or a total of 2 SD \\
