@@ -30,12 +30,12 @@ What are the characteristics of the Normal Curve?
 \begin{itemize}
 \item There is symmetry about the mean (average).
 \item Unimodal.
-\item The mean divides the bell-shaped curve into two halves.
+\item The value of the average divides the bell-shaped curve into two halves.
 \item mean = median = mode
 
-\item The mean and standard deviation determines the Normal Distribution curve.
+\item The mean and standard deviation determine the Normal Distribution curve.
 \item Recall: the {\bf{standard deviation}} is a measure that is used to quantify the amount of variation or spread of a set of data values.
-\item The area under the curve can be interpreted as probability
+\item We interpret the area under the curve as probability
 \item The total area under the curve (probability) equals one (1).
 \end{itemize}
  
@@ -51,7 +51,7 @@ polygon(c(xyzz[xyzz<=0],0), c(dnorm(xyzz[xyzz<=0],0,1),0000),col="white")
  
 \section{Empirical Rule}
 
-The Empirical Rule states that if the population of a dataset has a bell-shaped distribution with population mean $\mu$ and standard deviation $\sigma$ then following conditions are true: 
+The Empirical Rule states that if a dataset has a bell-shaped distribution with population means ($\mu$) and standard deviation ($\sigma$) then following conditions are true: 
 
 \begin{itemize}
 \samepage 
@@ -61,7 +61,7 @@ $\bar{x} \pm 1SD$
 \item 95\% of the collected data are within two standard deviations (SD) of the mean or a total of 4 SD \\
 $\bar{x} \pm 2SD$
 \samepage 
-\item 99.7\% of the observations are within three standard deviations (SD) of the mean or a total of 6 SD \\
+\item 99.7\% of the collected data are within three standard deviations (SD) of the mean or a total of 6 SD \\
 $\bar{x} \pm 3SD$
 \end{itemize}
 
@@ -74,7 +74,7 @@ $\bar{x} \pm 3SD$
 
 \subsubsection{Example \# 1}
 
-We will use the following to illustrate the empirical rule.
+The following example illustrates the empirical rule.
 
 Suppose we are concerned about the amount of money that students pay for their lunches.  The average meal costs five (5) dollars with a standard deviation of \$0.50.  Use the empirical rule to determine the three 68-95-99.7 percent of student lunch expense. 
 
@@ -152,7 +152,7 @@ The distribution of the IQ scores is normal or is bell-shaped.  Let's consider t
 \begin{itemize}
 \item The histogram exhibit a bell-shaped curve and symmetrical distribution for both females and males IQ scores.
 \item Based on the above graphics, we see that we may make the 
-assumption that we can use the normal distribution.  This fact allows us to analyze the results using the normal curve.
+assumption that we can use the normal distribution.  This fact allows us to analyze the results using the bell-shaped curve.
 \item Notice the two distributions are different.
 \item The measures of location are the same, but the measures of dispersion (spread) are different.
 \item Making the following assumptions about a data set (distribution) will ultimately determine the particular distribution that we need to work.
@@ -163,13 +163,13 @@ assumption that we can use the normal distribution.  This fact allows us to anal
 	\end{itemize}
 \item We will use the bell-shaped curve for the statistical analysis.
 \item Now, we will associate the particular normal distribution to a very characteristic normal curve called the standard normal curve.
-\item The standard normal curve has a mean of zero (0) and standard deviation one (1).
+\item The standard bell-shaped curve has a mean of zero (0) and standard deviation one (1).
 \item Why study the standard form of the normal curve?
 	\begin{itemize}
 	\item To compare two or more distribution of data.
 	\item To estimate the chance of an event (involving normal distribution) occurring.
 	\end{itemize}
-\item Converting any normal distribution to a standard distribution involves transforming the data into its 
+\item Converting any normal distribution to a standard distribution includes transforming the data into its 
 standardized form called the z-score.		
 \end{itemize}
 
@@ -185,9 +185,9 @@ z-score = $Z = \frac{X - mean}{SD}$
 \begin{minipage}[ht]{6.5cm}
 
 \begin{itemize}
-\item approximately 68 percent of the observations are from $-1$ to $+1$.
-\item approximately 95 percent of the observations are from $-2$ to $+2$.
-\item approximately 99.7 percent of the observations are from $-3$ to $+3$.
+\item Approximately 68 percent of the observations are from $-1$ to $+1$.
+\item About 95 percent of the observations are from $-2$ to $+2$.
+\item Around 99.7 percent of the observations are from $-3$ to $+3$.
 \end{itemize}
 
 \end{minipage} \hfill
@@ -225,7 +225,7 @@ z-score = $Z = \frac{X - mean}{SD}$
 
 \end{minipage} 
 
-The following describes  the progression to analyze a ``bell-shaped and symmetrical'' distribution.
+The following describes  the progression to analyze a ``bell-shaped and symmetrical.'' distribution.
 
  \begin{minipage}[ht]{6.5cm}
 
