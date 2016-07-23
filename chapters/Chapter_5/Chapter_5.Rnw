@@ -329,16 +329,16 @@ Notice that column (b) and column (c) will always add to 0.5.  This fact is beca
 % \vspace{5mm}
 
 \newpage
-We can take advantage of the symmetry of the Normal Distribution.
+We can benefit from the symmetry of the Normal Distribution.
 
 \begin{minipage}[t]{6.5cm}
 
 \begin{itemize}
-\item We may also notice that even though a z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive z-scores listed in the table.
+\item We may also notice that even though a Z-score can be positive (to the right of the center of the distribution) or negative (to the left), there are only positive Z-scores listed in the table.
 
-\item We can use the symmetry of the distribution to get the result.
+\item We can use the regularity of the distribution to get the result.
 
-\item For example, if we want the proportion {\bf{below}} a z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the proportion {\bf{above}} a  z-score of 1.5.
+\item For example, if we want the proportion {\bf{below}} a Z-score of $-1.5$ (or below an IQ score of 70 for males), it is just equal to the probability {\bf{above}} a  Z-score of 1.5.
 
 \end{itemize}
 \end{minipage} \hfill
@@ -355,7 +355,7 @@ We can take advantage of the symmetry of the Normal Distribution.
 
 \subsubsection{Example \# 4}
 Let's consider another  example.  Let's say that  the mean male IQ score is 100 and the standard deviation is 20.  
-We are asked to find the proportion of men that have an IQ score higher than 130.
+We are asked to find the chance of men that have an IQ score higher than 130.
 
 \begin{minipage}[t]{6cm}
 
@@ -365,7 +365,7 @@ We are asked to find the proportion of men that have an IQ score higher than 130
 \begin{minipage}[t]{7cm}
 
 \ \\[-4cm]
-Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First we need to find the associated z-score.
+Since the question is asking for those individuals that have an IQ score greater than 130, we are looking for the area above 130.  First, we need to find the associated Z-score.
 
 \end{minipage} 
 
@@ -380,17 +380,17 @@ Since the question is asking for those individuals that have an IQ score greater
 $Z = \frac{X - mean}{SD} = \frac{130 - 100}{20} = 1.5$
 \vspace{3mm}
 
-Then using the z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5.  It is equivalent to the area above an IQ score of 130.
+Then using the Z-score and the Area Under the Normal Curve table, we can find the area above Z = 1.5.  It is equivalent to the area above an IQ score of 130.
 
 \end{minipage}
 
 \vspace{5mm}
 
-To answer the question, we need the AUC above the z-score of 1.5.
+To answer the question, we need the AUC above the Z-score of 1.5.
 
 \vspace{5mm}
 
-We need to find the z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c), and the result is 0.0668.
+We need to find the Z-score in the table (column (a)), then look under the appropriate column ((b) or (c)) for the desired area.  In this case, it is column (c), and the result is 0.0668.
 
 \begin{minipage}[t]{6.5cm}
 
@@ -415,7 +415,7 @@ We need to find the z-score in the table (column (a)), then look under the appro
 \end{minipage}
 
 \begin{itemize}
-\item We interpret 0.0668 (or 6.68\%) as an area under the curve representing all male that have an IQ score above 130 or the associated Z-score above 1.50.
+\item We interpret 0.0668 (or 6.68\%) as an area under the curve representing all-male that have an IQ score above 130 or the associated Z-score above 1.50.
 
 \item Another way of stating this result is that  if we were to select a single male randomly from the studied population, the probability that the individual has an IQ score of 130, or greater is 0.0668.
 
@@ -438,7 +438,7 @@ Let's explore another example.  We have been asked to find the proportion of fem
 \end{table}
    
 
-First we need to find the two associated z-scores for these two values (90 and 120):
+First, we need to find the two associated Z-scores for these two values (90 and 120):
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -449,7 +449,7 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 \vspace{5mm}
 
 \begin{itemize}
-\item Now place the z-scores on the graph and shade the area that we are interested in.
+\item Now place the Z-scores on the graph and shade the area from 90 to 120.
 \item Since we cannot get this area directly from the table, we will split the graph into pieces which areas we could read from the table and add them together to get the desired results.
 \end{itemize}
 
@@ -475,7 +475,7 @@ Z_{120} &= \frac{120 - 100}{10} = +2.00
 
 \subsubsection{Example \# 6}
 
-Let's explore another example.  We have been asked to find the proportion of males with an IQ scores between 110 and 120. 
+Let's explore another example.  We have been asked to find the proportion of males with IQ scores between 110 and 120. 
 \vspace{2mm}
 
 \begin{table}
@@ -487,9 +487,8 @@ Let's explore another example.  We have been asked to find the proportion of mal
      $n$ & 1000 & 1000 \\  \hline  
    \end{tabular}
 \end{table}
-   
 
-First we need to find the two associated z-scores for these two values (110 an 120):
+First, we need to find the two associated z-scores for these two values (110 and 120):
 
 \begin{align*}
 Z &= \frac{X - mean}{SD}  \\ 
@@ -502,7 +501,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \begin{itemize}
 \item Now place the Z-scores on the graph and shade the area between .5 and 1.0.
 
-\item Since we cannot get this area directly from the table we will split the graph into pieces with areas that we can  read from the table and use them  to get the desired results.
+\item Since we cannot get this area directly from the table, we will split the graph into pieces with areas that we can  read from the table and use them  to get the desired results.
 \end{itemize}
 
 \begin{minipage}[b]{5cm}
@@ -513,9 +512,9 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 \begin{minipage}[b]{8cm}
 
 \begin{itemize}
-\item For the AUC to the right of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the normal curve and look up $0.50$ for column (b) (area between mean and Z score) in the table.  When we look in the table the associated area is 0.1915.
+\item For the AUC to the right of the mean (between $0.00$ and $0.50$): we can get by using the symmetry of the bell-shaped curve and look up $0.50$ for column (b) (the area between mean and Z-score) on the table.  When we look at the table, the associated area is 0.1915.
 
-\item The portion to the right of the mean (between $0.00$ and $+1.00$): we can look up for column (b) in the table.   When we look in the table the associated area is 0.3413. 
+\item The portion to the right of the mean (between $0.00$ and $+1.00$): we can look up for column (b) on the table.   When we look at the table, the associated area is 0.3413. 
 \end{itemize}
 
 \end{minipage}
@@ -530,7 +529,7 @@ Z_{120} &= \frac{120 - 100}{20} = +1.00
 
 Let's examine another example.  We are asked to find the $90^{th}$ percentile of the IQ scores for females.
 
-First we need to locate the area of the probability of 0.900 and the associated Z-score for this likeihood.
+First, we need to locate the area of the probability of 0.900 and the associated Z-score for this likelihood.
 
 \vspace{2mm}
 
@@ -544,9 +543,8 @@ First we need to locate the area of the probability of 0.900 and the associated 
 \ \\[-5mm] 
 
 \begin{itemize}
-\item 
-Since the area to the left of the mean is 0.500,  the area to the right of the mean is 0.900 - 0.500 = 0.400.
-\item Now, look up the z-score associated with the area of 0.400.
+\item Since the area to the left of the mean is 0.500,  the area to the right of the average is 0.900 - 0.500 = 0.400.
+\item Now, look up the Z-score associated with the area of 0.400.
 \end{itemize}
 
 \end{minipage}
@@ -558,7 +556,7 @@ Since the area to the left of the mean is 0.500,  the area to the right of the m
 
 \begin{itemize}
 \item The area we are looking for is the AUC between the mean and Z, (column (b).
-\item The z-score that will have an area between the mean closest to 0.400 is 1.28 since 0.3997
+\item The Z-score that will have AUC between the average closest to 0.400 is 1.28 since 0.3997
 is closer to 0.400 than 0.4015.
 \end{itemize}
 
