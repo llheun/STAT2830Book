@@ -165,3 +165,28 @@
 \contentsline {subparagraph}{Exercise{}~5.8-8:}{88}
 \contentsline {subparagraph}{Exercise{}~5.8-9:}{88}
 \contentsline {subparagraph}{Exercise{}~5.8-10:}{89}
+\contentsline {chapter}{\numberline {6}Inferential Statistics }{91}
+\contentsline {section}{\numberline {6.1}Objective}{91}
+\contentsline {section}{\numberline {6.2}Population}{91}
+\contentsline {section}{\numberline {6.3}Sample}{92}
+\contentsline {section}{\numberline {6.4}Sample Selection}{93}
+\contentsline {subsection}{\numberline {6.4.1}Non-probability Sampling}{93}
+\contentsline {subsection}{\numberline {6.4.2}Probability Sampling}{93}
+\contentsline {section}{\numberline {6.5}Types of Survey Errors}{94}
+\contentsline {section}{\numberline {6.6}Distribution of Sample Average}{94}
+\contentsline {subsection}{\numberline {6.6.1}Theorem I}{95}
+\contentsline {subsection}{\numberline {6.6.2}Theorem II -- Central Limit Theorem}{97}
+\contentsline {section}{\numberline {6.7}Estimation of Population Mean}{98}
+\contentsline {section}{\numberline {6.8}Key Words}{99}
+\contentsline {section}{\numberline {6.9}Exercises}{100}
+\contentsline {paragraph}{Exercises}{100}
+\contentsline {subparagraph}{Exercise{}~6.9-1:}{100}
+\contentsline {subparagraph}{Exercise{}~6.9-2:}{100}
+\contentsline {subparagraph}{Exercise{}~6.9-3:}{100}
+\contentsline {subparagraph}{Exercise{}~6.9-4:}{101}
+\contentsline {subparagraph}{Exercise{}~6.9-5:}{101}
+\contentsline {subparagraph}{Exercise{}~6.9-6:}{102}
+\contentsline {subparagraph}{Exercise{}~6.9-7:}{102}
+\contentsline {subparagraph}{Exercise{}~6.9-8:}{102}
+\contentsline {subparagraph}{Exercise{}~6.9-9:}{103}
+\contentsline {subparagraph}{Exercise{}~6.9-10:}{103}
