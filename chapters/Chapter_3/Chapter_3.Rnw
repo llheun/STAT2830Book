@@ -6,16 +6,22 @@
 \section{Objective}
 
 After reading chapter three and doing the exercises, we will be able to:
+
+
+\colorbox{red!10!white!80}{\parbox{15cm}{%
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
-\item Calculate, describe, and compare the three standard measures of central tendency, viz, modes, medians, and means.
+\item Calculate, describe, and compare the three most commonly used measures of central tendency: modes, medians, and means.
 \item Understand other measures of central tendency
-\item Select appropriate measure of central tendency according to the 
-level of measurement and characteristics of the structure (distribution).
-\end{itemize}
+\item Select appropriate measure of central tendency based on the 
+level of measurement and characteristics of the data (distribution).
+\end{itemize} %
+}}
 
-So what is a measure of ``central tendency,'' and why do you need to recognize the center of a group of scores?  Suppose that you took a small test with five of your classmates.  The six of you took a 6-point test on Monday, and the teacher returned the test on Wednesday.  She pauses at your table and gives you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the five students did on the test.  There are three scenarios: 
+So what is a measure of ``central tendency,'' and why do we need to recognize the center of a group of scores?  Suppose that your class took a 6-point test on Monday and the instructor returned the test on Wednesday.  She paused at your table and gave you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the other students did on the test.  There are three scenarios: 
+
+
 
 \begin{itemize}
 \item Everyone achieved 4 out of 6, [you're OK],
@@ -23,21 +29,25 @@ So what is a measure of ``central tendency,'' and why do you need to recognize t
 \item Everyone scored either a 1, or 2, or 3, but your score is 4 [you're jubilant].
 \end{itemize}
 
-The method of comparing to distribution is important in statistics.  We will define three standard measures of central tendency.
+
+The method of comparing a value to a distribution is important in statistics.  We will define three standard measures of central tendency.
 
 \section{Three Common Measures}
 
-The central tendency is a measure of where we find the location of our data values.  In other words, we are saying that most of the observed data values are near the following statistics:
+The central tendency is a measure of where we find the ``location'' of our data values.  In other words, we are saying that most of the observed data values are near the following statistics:
 
+
+\colorbox{red!10!white!80}{\parbox{15cm}{%
 \begin{itemize}
 \item mean
 \item median
 \item mode
 \end{itemize}
+}}
 
-\section{Mean}
+\subsubsection{Mean}
 
-The \emph{mean} (usually denoted as $\bar{X}$) is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average value of a variable.
+The \emph{mean} (usually denoted as $\bar{x}$) is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average value of a variable.
 
 What are the strengths and weaknesses of the mean?
 
@@ -46,9 +56,9 @@ What are the strengths and weaknesses of the mean?
 \item Weakness -- The average is affected by extreme values (\emph{outliers}).
 \end{itemize}
 
-\subsubsection{Illustration:}
+\subsubsection{Example:}
 
-Suppose that we have the ages of 13 randomly selected students from an urban campus and compute the value of the mean.
+Suppose that we have the ages of 13 students in STAT 2830 and compute the value of the mean.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -56,17 +66,21 @@ Suppose that we have the ages of 13 randomly selected students from an urban cam
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 3 & 22 & 19 & 18 \\ \hline
+       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 78 \\ \hline
       
    \end{tabular}
     \caption{Ages of Urban Campus students}
    \label{tab:t3_1}
 \end{table}
 
-
+<<results="asis", echo=FALSE>>=
+  age1 <- c(21 , 21 , 23 , 25 , 28 , 29 , 24 , 24 , 25 , 24 , 22 , 19 , 78)
+  xbar1 <- mean(age1)
+  xbar2 <- sprintf("%.1f", xbar1)
+@
 
 \begin{equation}
-\bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 3 + 22 + 19 + 18}{13} = \frac{282}{13} = 21.7  \nonumber
+\bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 78}{13} = \frac{363}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}
   
 \subsubsection{Outlier}
