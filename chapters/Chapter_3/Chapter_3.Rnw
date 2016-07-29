@@ -83,9 +83,10 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
 \bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 78}{13} = \frac{363}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}
   
-\subsubsection{Outlier}
+% \subsubsection{Outlier}
 
-Let's suppose that three should have been  was recorded as 30. 
+After reviewing the data, we see that one age value is quite high, 78. It could be a non-traditional student or it could be a data entry error.  The value 78 should have been 18. We change the age value 78 to 18 and recompute the mean.
+
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -93,26 +94,32 @@ Let's suppose that three should have been  was recorded as 30.
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 30 & 22 & 19 & 18 \\ \hline
+       21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
     \caption{Ages of Urban Campus students}
    \label{tab:t3_2}
 \end{table}
 
+<<results="asis", echo=FALSE>>=
+  age1 <- c(21 , 21 , 23 , 25 , 28 , 29 , 24 , 24 , 25 , 24 , 22 , 19 , 18)
+  xbar1 <- mean(age1)
+  xbar2 <- sprintf("%.1f", xbar1)
+@
+
 \begin{equation}
-\bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 30 + 22 + 19 + 18}{13} = \frac{309}{13} = 23.8  \nonumber
+\bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 18}{13} = \frac{303}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}  
   
-This example illustrates the affect of an outlier.  The mean with the outlier was 21.7 and the correct mean is 23.8.
+This example illustrates how an outlier can affect the mean.  The mean with the outlier was 27.9 and the correct mean is 23.3.
 
   
-\section{Median}
+\subsubsection{Median}
 
-The \emph{median} is the value of the middle observation of the sorted data set.  After we arrange the ages (from low to high) of the students from the urban campus, we can find the middle value.
+The \emph{median} is the value that is less affected by an outlier than the mean.  It is the middle observation of the sorted data set.  After we arrange the ages (from low to high) of the students from the STAT 2830 class, we find the middle value.  Let's use the original dataset with the outlier, 78.  Let's make the following observations:
 
 \begin{itemize}
-\item If there is an odd number of data values in our list, we must order the values at the beginning and end and locate the center value, e.g., 
+\item If there is an odd number of data values in our dataset, we must arrange the values in increasing magnitude (from the smallest to the largest) and locate the center value, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -120,7 +127,7 @@ The \emph{median} is the value of the middle observation of the sorted data set.
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 30 \\ \hline  
+       19 & 21 & 21 & 22 & 23 & 24 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78 \\ \hline  
        
    \end{tabular}
     \caption{Ages of Urban Campus students}

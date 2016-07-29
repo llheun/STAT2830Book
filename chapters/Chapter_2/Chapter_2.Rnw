@@ -873,21 +873,21 @@ The objective of this chapter was to use descriptive statistics to summarize cat
     
   \end{enumerate}  
 
-\begin{minipage}[ht]{8cm}
+\begin{minipage}[ht]{7cm}
 
 %      \begin{figure}[htbp]
 %        \centering
-        \includegraphics[width=7.9cm]{chapters/Chapter_2/ext_figure/spss2-3.png} % requires the graphicx package
+        \includegraphics[width=7cm]{chapters/Chapter_2/ext_figure/spss2-3.png} % requires the graphicx package
 %        \caption{Crosstabs dialog box}
 %        \label{fig:apndx2-1}
 %      \end{figure}
 
 \end{minipage} \hfill
-\begin{minipage}[ht]{7cm}
+\begin{minipage}[ht]{6cm}
 
 %      \begin{figure}[htbp]
 %        \centering
-        \includegraphics[width=6.9cm]{chapters/Chapter_2/ext_figure/spss2-1.png} % requires the graphicx package
+        \includegraphics[width=6cm]{chapters/Chapter_2/ext_figure/spss2-1.png} % requires the graphicx package
 %        \caption{Cross-tabulation table}
 %        \label{fig:apndx2-2}
 %      \end{figure}
