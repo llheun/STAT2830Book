@@ -89,28 +89,28 @@
 \contentsline {subsubsection}{Mean}{42}
 \contentsline {subsubsection}{Example:}{42}
 \contentsline {subsubsection}{Median}{43}
-\contentsline {section}{\numberline {3.3}Mode}{44}
-\contentsline {section}{\numberline {3.4}Overall Distribution Shape}{44}
+\contentsline {subsubsection}{Mode}{44}
+\contentsline {section}{\numberline {3.3}Overall Distribution Shape}{44}
 \contentsline {subsubsection}{Symmetric}{44}
 \contentsline {subsubsection}{Skewed}{45}
-\contentsline {section}{\numberline {3.5}Other Measures of Location}{46}
+\contentsline {section}{\numberline {3.4}Other Measures of Location}{46}
 \contentsline {subsubsection}{GSS Example}{46}
-\contentsline {section}{\numberline {3.6}Summary}{47}
-\contentsline {section}{\numberline {3.7}Key Words}{47}
-\contentsline {section}{\numberline {3.8}Exercises}{48}
+\contentsline {section}{\numberline {3.5}Summary}{47}
+\contentsline {section}{\numberline {3.6}Key Words}{47}
+\contentsline {section}{\numberline {3.7}Exercises}{48}
 \contentsline {paragraph}{Exercises}{48}
-\contentsline {subparagraph}{Exercise{}~3.8-1:}{48}
-\contentsline {subparagraph}{Exercise{}~3.8-2:}{48}
-\contentsline {subparagraph}{Exercise{}~3.8-3:}{48}
-\contentsline {subparagraph}{Exercise{}~3.8-4:}{49}
-\contentsline {subparagraph}{Exercise{}~3.8-5:}{49}
-\contentsline {subparagraph}{Exercise{}~3.8-6:}{50}
-\contentsline {subparagraph}{Exercise{}~3.8-7:}{50}
-\contentsline {subparagraph}{Exercise{}~3.8-8:}{50}
-\contentsline {subparagraph}{Exercise{}~3.8-9:}{51}
-\contentsline {subparagraph}{Exercise{}~3.8-10:}{51}
-\contentsline {section}{\numberline {3.9}Appendix}{53}
-\contentsline {subsection}{\numberline {3.9.1}Central Tendency}{53}
+\contentsline {subparagraph}{Exercise{}~3.7-1:}{48}
+\contentsline {subparagraph}{Exercise{}~3.7-2:}{48}
+\contentsline {subparagraph}{Exercise{}~3.7-3:}{48}
+\contentsline {subparagraph}{Exercise{}~3.7-4:}{49}
+\contentsline {subparagraph}{Exercise{}~3.7-5:}{49}
+\contentsline {subparagraph}{Exercise{}~3.7-6:}{50}
+\contentsline {subparagraph}{Exercise{}~3.7-7:}{50}
+\contentsline {subparagraph}{Exercise{}~3.7-8:}{50}
+\contentsline {subparagraph}{Exercise{}~3.7-9:}{51}
+\contentsline {subparagraph}{Exercise{}~3.7-10:}{51}
+\contentsline {section}{\numberline {3.8}Appendix}{53}
+\contentsline {subsection}{\numberline {3.8.1}Central Tendency}{53}
 \contentsline {chapter}{\numberline {4}Measures of Spread}{55}
 \contentsline {section}{\numberline {4.1}Objective}{55}
 \contentsline {section}{\numberline {4.2}Definition of Dispersion}{55}

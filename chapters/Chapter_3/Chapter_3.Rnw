@@ -8,7 +8,7 @@
 After reading chapter three and doing the exercises, we will be able to:
 
 
-\colorbox{red!10!white!80}{\parbox{15cm}{%
+\colorbox{red!10!white!80}{\parbox{14cm}{%
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
@@ -34,10 +34,10 @@ The method of comparing a value to a distribution is important in statistics.  W
 
 \section{Three Common Measures}
 
-The central tendency is a measure of where we find the ``location'' of our data values.  In other words, we are saying that most of the observed data values are near the following statistics:
+The central tendency is a measure of where we find the ``location'' of our data values.  
 
 
-\colorbox{red!10!white!80}{\parbox{15cm}{%
+\colorbox{red!10!white!80}{\parbox{14cm}{%
 \begin{itemize}
 \item mean
 \item median
@@ -53,7 +53,7 @@ What are the strengths and weaknesses of the mean?
 
 \begin{itemize}
 \item Strength -- All data from a variable are used to compute the mean.
-\item Weakness -- The average is affected by extreme values (\emph{outliers}).
+\item Weakness -- The average is affected by extreme values (\emph{outliers} \footnote{Outliers are essentially numbers, in a dataset of numbers, that don't belong in that dataset and/or that stand out. }).
 \end{itemize}
 
 \subsubsection{Example:}
@@ -69,7 +69,7 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
        21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 78 \\ \hline
       
    \end{tabular}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_1}
 \end{table}
 
@@ -85,7 +85,7 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
   
 % \subsubsection{Outlier}
 
-After reviewing the data, we see that one age value is quite high, 78. It could be a non-traditional student or it could be a data entry error.  The value 78 should have been 18. We change the age value 78 to 18 and recompute the mean.
+After reviewing the data, we see that one age value is quite high, 78. It could be a non-traditional student or it could be a data entry error.  The value 78 should be 18; it was a data entry error.  We change the age value 78 to 18 and recompute the mean.
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -97,7 +97,7 @@ After reviewing the data, we see that one age value is quite high, 78. It could 
        21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students
    \label{tab:t3_2}
 \end{table}
 
@@ -111,12 +111,12 @@ After reviewing the data, we see that one age value is quite high, 78. It could 
 \bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 18}{13} = \frac{303}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}  
   
-This example illustrates how an outlier can affect the mean.  The mean with the outlier was 27.9 and the correct mean is 23.3.
+This example illustrates how an outlier can affect the mean.  The mean with the outlier was 27.9 and the corrected mean is 23.3.
 
   
 \subsubsection{Median}
 
-The \emph{median} is the value that is less affected by an outlier than the mean.  It is the middle observation of the sorted data set.  After we arrange the ages (from low to high) of the students from the STAT 2830 class, we find the middle value.  Let's use the original dataset with the outlier, 78.  Let's make the following observations:
+The \emph{median} is the value that is less affected by an outlier than the mean.  It is the middle observation of the sorted dataset.  After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.  Let's use the original dataset with the outlier; See Table 3.1.  Let's make the following observations:
 
 \begin{itemize}
 \item If there is an odd number of data values in our dataset, we must arrange the values in increasing magnitude (from the smallest to the largest) and locate the center value, e.g., 
@@ -130,14 +130,14 @@ The \emph{median} is the value that is less affected by an outlier than the mean
        19 & 21 & 21 & 22 & 23 & 24 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78 \\ \hline  
        
    \end{tabular}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_3}
 \end{table}
 
 
 \item median = 24
 
-\item Suppose that we add an eighteen year old student to the list of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of data values in our list, we must order the values at the beginning and end and locate the two center value and average them, e.g., 
+\item Suppose that we found another student who was eighteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of data values in our dataset, we must order the values at the beginning and end and locate the two center value and average them, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -145,23 +145,23 @@ The \emph{median} is the value that is less affected by an outlier than the mean
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} llllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-      18 & 18 & 19 & 21 & 21 & 22 & \fbox{23} & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 30  \\ \hline  
+      18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78  \\ \hline  
        
    \end{tabular}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_4}
 \end{table}
 
-\item $median = \frac{23 + 24}{2} = 23.5 $
+\item $median = \frac{24 + 24}{2} = 24 $
 
 \end{itemize}
 
-The {\bf{median}} is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution. 
+The {\emph{median}} is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution. 
 
 What are the strengths and weaknesses of the median?
 
 \begin{itemize}
-\item Strength:  It is RESISTANT to extreme values (\emph{outliers}).
+\item Strength:  It is not sensitive to extreme values (\emph{outliers}).
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -169,27 +169,27 @@ What are the strengths and weaknesses of the median?
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 50 \\ \hline  
+       19 & 21 & 21 & 22 & 23 & 24 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78 \\ \hline  
        
    \end{tabular}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_5}
 \end{table}
 
   \begin{itemize}
   
-  \item For example from Table 3.5, the median did not change even when we changed 30 to 50.
+  \item For example from Table 3.5, the median did not change even when we corrected the data entry error.
   \end{itemize}
   
-\item Weakness: we do not use all numbers of the data set only the middle value.
+\item Weakness: we do not use all numbers of the dataset only use the middle value.
 
 \end{itemize}
 
 % \newpage
 
-\section{Mode}
+\subsubsection{Mode}
 
-The {\bf{mode}} is the most expected value in a distribution or the largest category of a variable is the most frequently occurring observation of this variable.
+The {\emph{mode}} is the most expected value in a distribution or the largest category of a variable is the most frequently occurring observation of this variable.
 
 \begin{itemize}
 \samepage
@@ -201,15 +201,15 @@ The {\bf{mode}} is the most expected value in a distribution or the largest cate
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       18 & 19 & 21 & 21 & 22 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 & 30 \\ \hline  
+       19 & 21 & 21 & 22 & 23 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 & 78 \\ \hline  
        
    \end{tabular}
    \end{center}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_6}
 \end{table}
 \samepage
-\item The {\bf{mode}} is the most frequently occurring value in a list.  Since there are three of 24s, the {\bf{mode}} is 24.  While analyzing a data set, we must use the mode for categorical data where we cannot use the mean or the median.  Think of the situation where we have 30 students in our classroom, and we survey them for the eye color and find there are 20 students with brown eyes, nine students with blue eyes, and one student with black eyes.  The brown eyes are the mode since brown eyes occur more frequently than the other colors.
+\item The {\emph{mode}} is the most frequently occurring value in a dataset.  Since there are three of 24s, the {\emph{mode}} is 24.  While analyzing a dataset, we must use the mode for categorical data\footnote{A categorical data is a variable that can take on one of a limited, and usually fixed, number of possible values, thus assigning each individual to a particular group}  where we cannot use the mean or the median.   Think of the situation where we have 30 students in our classroom, and we survey them for the eye color and find there are 20 students with brown eyes, nine students with blue eyes, and one student with black eyes.  The brown eyes are the mode since brown eyes occur more frequently than the other colors.
 \end{itemize}
 
 \section{Overall Distribution Shape}
@@ -365,6 +365,7 @@ We show the SPSS procedure in Section 3.11.
 Why is central tendency necessary?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
   
 \section{Key Words}
+\colorbox{gray!10!white!80}{\parbox{14cm}{%
 \begin{itemize}
 \samepage
 \item Deciles
@@ -385,6 +386,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 \samepage
 \item $X_i$ (``x-sub-i'') 
 \end{itemize}
+}}
 
 \newpage
 
