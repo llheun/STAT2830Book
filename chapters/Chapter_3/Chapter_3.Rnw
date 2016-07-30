@@ -218,7 +218,14 @@ We use graphic displays of numerical data to help us see patterns.  We commonly 
 
 \begin{minipage}[ht]{4.1cm}
 
-\includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
+<<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="4cm", fig.show="hold", fig.cap="Age Distribution">>=
+  age3 <- seq(15, 31, .1)
+  xbar3 <- 23.3
+  sd3   <- 3.2
+  y3    <- dnorm(age3, mean=xbar3, sd=sd3)
+  plot(age3, y3, type="l")
+@  
+% \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
 Symmetric 
 
 \end{minipage} \hfill 

@@ -40,7 +40,7 @@ A {\bf{point estimate}} is a single value (or point) used to approximate a popul
 Figure 7.1 shows the idea of a 95 percent confidence interval (CI) in a different form.  It illustrates 50 simple random samples (SRS) drawn from the same population and computing 95 percent CI from each sample.  At the center of each interval is the sample mean, $\bar{x}$ and consequently, changes from survey to survey.  The sampling spread of $\bar{x}$ appears at the bottom of the graph to illustrate the long term pattern of the variation.  The population mean, $\mu$, is at the center of the sampling distribution.  Figure 7.1 shows the 95 percent CIs from 50 SRSs.  We marked the center $\bar{x}$ of each interval with a small circle.  The lines on either side of the ring span the CI.  Most of the 50 CI capture the true value of the population mean, $\mu$.  The theory says that if we take thousands of samples, 95 percent of the CI will contain $\mu$.
 
 
-<<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=5, fig.cap="50 samples from the same population">>=
+<<f7_1, echo=FALSE, fig.pos="ht", fig.align="center", fig.width=4.5, fig.height=5, out.width="4cm", fig.cap="50 samples from the same population">>=
 
 dddd1 <- runif(120,min=88,max=120);
 popxbar <- mean(dddd1);
