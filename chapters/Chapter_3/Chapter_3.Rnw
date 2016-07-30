@@ -7,8 +7,8 @@
 
 After reading chapter three and doing the exercises, we will be able to:
 
-
-\colorbox{red!10!white!80}{\parbox{13cm}{%
+\vspace{1mm}
+\colorbox{green}{\parbox{13cm}{
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
@@ -16,9 +16,10 @@ information they provide.
 \item Understand other measures of central tendency
 \item Select appropriate measure of central tendency based on the 
 level of measurement and characteristics of the data (distribution).
-\end{itemize} %
+\end{itemize} 
 }}
 
+\vspace{1mm}
 So what is a measure of ``central tendency,'' and why do we need to recognize the center of a group of scores?  Suppose that your class took a 6-point test on Monday and the instructor returned the test on Wednesday.  She paused at your table and gave you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the other students did on the test.  There are three scenarios: 
 
 
@@ -37,7 +38,7 @@ The method of comparing a value to a distribution is important in statistics.  W
 The central tendency is a measure of where we find the ``location'' of our data values.  
 
 
-\colorbox{red!10!white!80}{\parbox{13cm}{%
+\colorbox{green}{\parbox{13cm}{%
 \begin{itemize}
 \item mean
 \item median
@@ -97,7 +98,7 @@ After reviewing the data, we see that one age value is quite high, 78. It could 
        21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
-    \caption{Ages of STAT 2830 students
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_2}
 \end{table}
 
@@ -223,9 +224,9 @@ We use graphic displays of numerical data to help us see patterns.  We commonly 
   xbar3 <- 23.3
   sd3   <- 3.2
   y3    <- dnorm(age3, mean=xbar3, sd=sd3)
-  plot(age3, y3, type="l", xlab="age", ylab="Proportion")
+  ## plot(age3, y3, type="l", xlab="age", ylab="Proportion")
 @  
-% \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
+ \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
 Symmetric 
 
 \end{minipage} \hfill 
@@ -372,7 +373,7 @@ We show the SPSS procedure in Section 3.11.
 Why is central tendency necessary?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
   
 \section{Key Words}
-\colorbox{gray!10!white!80}{\parbox{13cm}{%
+\colorbox{yellow}{\parbox{13cm}{%
 \begin{itemize}
 \samepage
 \item Deciles
@@ -393,7 +394,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 \samepage
 \item $X_i$ (``x-sub-i'') 
 \end{itemize}
-}}
+ }}
 
 \newpage
 

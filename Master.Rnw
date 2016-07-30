@@ -10,8 +10,8 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{epstopdf}
-% \usepackage{xcolor}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
+\usepackage{color}
 \usepackage{verbatim}
 \usepackage{url}
 \usepackage{natbib}
