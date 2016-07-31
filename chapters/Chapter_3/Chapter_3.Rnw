@@ -37,7 +37,7 @@ The method of comparing a value to a distribution is important in statistics.  W
 
 The central tendency is a measure of where we find the ``location'' of our data values.  
 
-
+\vspace{1mm}
 \colorbox{green}{\parbox{13cm}{%
 \begin{itemize}
 \item mean
@@ -48,7 +48,7 @@ The central tendency is a measure of where we find the ``location'' of our data 
 
 \subsubsection{Mean}
 
-The \emph{mean} (usually denoted as $\bar{x}$) is the arithmetic center of a distribution and is the most commonly utilized measure.  It reports the average value of a variable.
+The \emph{mean} (usually denoted as $\bar{x}$) is the arithmetic center of distribution and is the most commonly utilized measure.  It reports the average value of a variable.
 
 What are the strengths and weaknesses of the mean?
 
@@ -219,14 +219,14 @@ We use graphic displays of numerical data to help us see patterns.  We commonly 
 
 \begin{minipage}[ht]{4.1cm}
 
-<<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="4cm", fig.show="hold", fig.cap="Age Distribution">>=
+<<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3.9cm", fig.show="hold", fig.cap="Age Distribution">>=
   age3 <- seq(15, 31, .1)
   xbar3 <- 23.3
   sd3   <- 3.2
   y3    <- dnorm(age3, mean=xbar3, sd=sd3)
-  ## plot(age3, y3, type="l", xlab="age", ylab="Proportion")
+  plot(age3, y3, type="l", xlab="age", ylab="Proportion")
 @  
- \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
+ % \includegraphics[width=4cm]{chapters/Chapter_3/ext_figure/sym.png}
 Symmetric 
 
 \end{minipage} \hfill 
