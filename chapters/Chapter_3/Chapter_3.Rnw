@@ -217,31 +217,37 @@ The \emph{mode} is the most expected value in a distribution or the largest cate
 
 We use graphic displays of numerical data to help us see patterns.  We commonly use these patterns in the data to describe features such as center, spread, and shape.  Some common distributions have special descriptive labels, such as symmetric and skewed.
 
-\begin{minipage}[t]{3cm}
+\begin{minipage}[t]{4cm}
 
-<<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Bell-shaped Distr.">>=
-  hist(rbeta(10000,5,5), xlab=' ', main='Bell-shaped')
-@  
+%' <<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Bell-shaped Distr.">>=
+%'     hist(rbeta(10000,5,5), xlab=' ', col='red', main='Bell-shaped')
+%' @
+
+\includegraphics[width=4cm]{figure/sym-1} 
 
 Symmetric 
 
 \end{minipage} \hfill 
-\begin{minipage}[t]{3cm}
+\begin{minipage}[t]{4cm}
 
-<<rtskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Right-shaped  Distr.">>=
-  hist(rbeta(10000,2,5), xlab=' ', main="Right-skewed")
-@  
+%' <<rtskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Right-shaped  Distr.">>=
+%'     hist(rbeta(10000,2,5), xlab=' ', col='red', main="Right-skewed")
+%' @
+
+\includegraphics[width=4cm]{figure/rtskew-1} 
 
 Right Skewed
 
 \end{minipage} \hfill 
-\begin{minipage}[t]{3cm}
+\begin{minipage}[t]{4cm}
 
-<<ltskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Left-shaped Distr.">>=
-  
-  hist(rbeta(10000,5,2), xlab=' ', main='Left-skewed')
-  
-@    
+%' <<ltskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Left-shaped Distr.">>=
+%' 
+%'    hist(rbeta(10000,5,2), xlab=' ', col='red', main='Left-skewed')
+%' 
+%' @
+
+\includegraphics[width=4cm]{figure/ltskew-1} 
 
 Left Skewed
 
