@@ -2,6 +2,8 @@
 
 \usepackage[english]{babel}
 
+\definecolor{lred}{rgb}{1.0,0.71,0.76}
+\definecolor{lgray}{rgb}{0.83,0.83,0.83}
 %\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage[lmargin=3cm, rmargin=4.5cm]{geometry}    % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
@@ -11,7 +13,7 @@
 \usepackage{amsmath}
 \usepackage{epstopdf}
 \usepackage{exsol, fancyvrb}                % Provides exercises and solutions.  See https://ctan.org/pkg/exsol.
-% \usepackage{color}
+\usepackage{color}
 \usepackage{verbatim}
 \usepackage{url}
 \usepackage{natbib}

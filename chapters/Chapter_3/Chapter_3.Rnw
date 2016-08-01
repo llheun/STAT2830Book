@@ -8,7 +8,7 @@
 After reading chapter three and doing the exercises, we will be able to:
 
 \vspace{1mm}
-\colorbox{green}{\parbox{13cm}{
+\colorbox{lred}{\parbox{13cm}{
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
@@ -38,7 +38,7 @@ The method of comparing a value to a distribution is important in statistics.  W
 The central tendency is a measure of where we find the ``location'' of our data values.  
 
 \vspace{1mm}
-\colorbox{green}{\parbox{13cm}{%
+\colorbox{lred}{\parbox{13cm}{%
 \begin{itemize}
 \item mean
 \item median
@@ -86,7 +86,7 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
   
 % \subsubsection{Outlier}
 
-After reviewing the data, we see that one age value is quite high, 78. It could be a non-traditional student or it could be a data entry error.  The value 78 should be 18; it was a data entry error.  We change the age value 78 to 18 and recompute the mean.
+After looking at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 should be 18.  We change the age value 78 to 18 and recompute the mean.
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -128,7 +128,7 @@ The \emph{median} is the value that is less affected by an outlier than the mean
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       19 & 21 & 21 & 22 & 23 & 24 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78 \\ \hline  
+       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
        
    \end{tabular}
     \caption{Ages of STAT 2830 students}
@@ -138,6 +138,8 @@ The \emph{median} is the value that is less affected by an outlier than the mean
 
 \item median = 24
 
+\item Note: the median does not change or will change very little even after the correction.
+
 \item Suppose that we found another student who was nineteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of data values in our dataset, we must order the values at the beginning and end and locate the two center value and average them, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
@@ -146,16 +148,18 @@ The \emph{median} is the value that is less affected by an outlier than the mean
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} llllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-      19 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78  \\ \hline  
+      18 & 19 & 19 & 21 & 21 & 22 & \fbox{23} & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline  
        
    \end{tabular}
     \caption{Ages of STAT 2830 students}
    \label{tab:t3_4}
 \end{table}
 
-\item $median = \frac{24 + 24}{2} = 24 $
+\item $median = \frac{23 + 24}{2} = 23.5 $
 
 \end{itemize}
+
+
 
 The {\emph{median}} is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution. 
 
@@ -170,7 +174,7 @@ What are the strengths and weaknesses of the median?
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       19 & 21 & 21 & 22 & 23 & 24 & \fbox{24} & 24 & 25 & 25 & 28 & 29 & 78 \\ \hline  
+       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
        
    \end{tabular}
     \caption{Ages of STAT 2830 students}
@@ -202,7 +206,7 @@ The \emph{mode} is the most expected value in a distribution or the largest cate
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       19 & 21 & 21 & 22 & 23 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 & 78 \\ \hline  
+      18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 \\ \hline  
        
    \end{tabular}
    \end{center}
@@ -220,7 +224,7 @@ We use graphic displays of numerical data to help us see patterns.  We commonly 
 \begin{minipage}[t]{4cm}
 
 %' <<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Bell-shaped Distr.">>=
-%'     hist(rbeta(10000,5,5), xlab=' ', col='red', main='Bell-shaped')
+%'     hist(rbeta(10000,5,5), xlab=' ', col='lred', main='Bell-shaped')
 %' @
 
 \includegraphics[width=4cm]{figure/sym-1} 
@@ -231,7 +235,7 @@ Symmetric
 \begin{minipage}[t]{4cm}
 
 %' <<rtskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Right-shaped  Distr.">>=
-%'     hist(rbeta(10000,2,5), xlab=' ', col='red', main="Right-skewed")
+%'     hist(rbeta(10000,2,5), xlab=' ', col='lred', main="Right-skewed")
 %' @
 
 \includegraphics[width=4cm]{figure/rtskew-1} 
@@ -243,7 +247,7 @@ Right Skewed
 
 %' <<ltskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Left-shaped Distr.">>=
 %' 
-%'    hist(rbeta(10000,5,2), xlab=' ', col='red', main='Left-skewed')
+%'    hist(rbeta(10000,5,2), xlab=' ', col='lred', main='Left-skewed')
 %' 
 %' @
 
@@ -277,13 +281,13 @@ The dataset that has the attribute of skewness has the following features:
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-     18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{50} \\ \hline
+      19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{78} \\ \hline
    \end{tabular}
-    \caption{Ages of Urban Campus students}
+    \caption{Ages of STAT 2830 students}
    \label{tab:t3_7}
 \end{table}
 
-There was a typo when 50 was entered into the dataset when the value should have been 30.  The value 50  pulled the \emph{mean} to the right. 
+There was a typo when 78 was entered into the dataset when the value should have been 18.  The value 78  pulled the \emph{mean} to the right. 
 
   \end{itemize}
   
@@ -296,13 +300,13 @@ There was a typo when 50 was entered into the dataset when the value should have
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-   \fbox{3} &  18 & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline
+   \fbox{7} & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline
    \end{tabular}
     \caption{Ages of Urban Campus students}
    \label{tab:t3_8}
   \end{table}
 
-  There was a typo when 3 was entered into the dataset when the value should have been 30.  The value 3  pulled the \emph{mean} to the left.
+  There was a typo when 7 was entered into the dataset when the value should have been 18.  The value 7  pulled the \emph{mean} to the left.
   
   \end{itemize}
 
@@ -315,30 +319,30 @@ The other measure of central tendency are as follows:
 
 \begin{itemize} 
 \samepage
-\item Percentage: point below which a particular percentage of cases fall.
+\item Percentage: point below which a particular percentage of cases fall.  Referring to Table 3.3, suppose we want which number in the dataset where 25 percent of the numbers fall below.  The number is 21.  First, we order the dataset in ascending order.  We take .25 times 13 which equals 3.25.  Three point two-five is the position to locate the $25^{th}$ percentile.
 \samepage
 \item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, children's height in age groups.
 \samepage
-\item Quartiles: divides distribution into quarters ($Q_1 = 25$, $Q_2 = 50$, $Q_3 = 75$).
+\item Quartiles: divides distribution into quarters. Referring to Table 3.3, the quartile values are  $Q_1 = 21$, $Q_2 = 24$, $Q_3 = 25$.
 \samepage
   \begin{itemize}
   \item e.g., the median falls in the $50^{th}$ percentile (or the $2^{nd}$ quartile or the $5^{th}$ decile.)
   \end{itemize}
 \samepage
-\item Mid-range: $ MR = \frac{Minimum + Maximum}{2} $
+\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.3,  $MR = \frac{18 + 29}{2} = 23.5$
 \samepage
-\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2} $
+\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.2, $MH = \frac{21 + 25}{2} = 23$.
 \samepage
 \item Calculate a percentile
 	\begin{itemize}
 	\item Sort scores in ascending order
-	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).
+	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).  Referring to Table 3.2, the $90^{th}$ percentile value for this dataset is 28.
 	
 	\end{itemize}
 		
 	\item Example
 		\begin{itemize}
-		\item In a sample of 13 student ages from an urban campus (See Table 3.7), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item In a sample of 13 student ages from STAT 2830 students (See Table 3.3), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
 		\item $13 \times 0.75 = 9.75$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is located between the $9^{th}$ and the $10^{th}$ values in the list of 13, i.e., the third quartile is 25.
 		\end{itemize}
 		  	
@@ -383,7 +387,7 @@ We show the SPSS procedure in Section 3.11.
 Why is central tendency necessary?  We use central tendency to compare treatment methods.  For example, let's say that we have two methods (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
   
 \section{Key Words}
-\colorbox{yellow}{\parbox{13cm}{%
+\colorbox{lgray}{\parbox{13cm}{%
 \begin{itemize}
 \samepage
 \item Deciles
