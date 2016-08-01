@@ -6,12 +6,15 @@
 \subsection{Objectives}
 
 After reading chapter two and doing the exercises, we will be able to:
+
+\colorbox{lred}{\parbox{13cm}{
 \begin{itemize}
   \item Use descriptive statistics to make data understandable.
   \item Summarize and analyze data using graphical methods.
 %\item Compute and interpret percentages, proportions, ratios, rates, and percentage change.
 %\item Construct and analyze frequency distributions for variables at each of the three levels of measurement.
 \end{itemize}
+}}
 
 The data from a research project cannot articulate by itself.  As social scientists, we must compute  descriptive statistics so that we can quickly understand the results of the project.  We as researchers use data science (statistics) to elucidate the results.  In this chapter, we will consider graphics, percentages, rates, and tables.  While these single value descriptive statistics are not rigorous, they are very useful for giving project results. 
 
@@ -576,6 +579,8 @@ The following bullets summarize the boxplot:
 The objective of this chapter was to use descriptive statistics to summarize categorical and numerical data.  We built frequency tables and charts and graphs to tell others about our research.  We also computed percentages, proportions, ratios, and percent changes all to communicate our results to an outside audience.  We were able to use the descriptive statistic to build graphs (boxplots, charts (bar, line, and pie), and histograms).  These graphical presentations often help our audience to comprehend the complexity of the problem that we are examining.
 
 % \pagebreak
+
+\colorbox{lgray}{\parbox{13cm}{
 \section{Key Words}
 \begin{itemize}
 \item Bar chart
@@ -590,6 +595,8 @@ The objective of this chapter was to use descriptive statistics to summarize cat
 \item Ratio
 \item Stated class limits
 \end{itemize}
+}}
+
 
 \newpage
 \section{Exercise}

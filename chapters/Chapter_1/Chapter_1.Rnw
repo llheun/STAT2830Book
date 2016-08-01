@@ -6,12 +6,15 @@
 
 \subsection{Objectives}
 By the end of this chapter, we will be able to:
-\begin{itemize}
+
+
+\colorbox{lred}{\parbox{13cm}{\begin{itemize}
 \item Discern statistical methods and identify the environments where we can use them appropriately.
 \item Recognize the types of variables (categorical or numerical) and give examples of each type.
 \item Remember and explain the three levels of measurement and give examples of each level.
 
-\end{itemize}     
+\end{itemize}
+}}
      
 \section{Introduction}     
 \subsection{Reasons to Study Data Science}
@@ -326,6 +329,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 
 \section{Key Words}
 
+\colorbox{lgray}{\parbox{13cm}{
 \begin{itemize}
 \item Continuous variable
 \item Data
@@ -345,6 +349,7 @@ Therefore, we can choose an appropriate SPSS procedure to analyze our collected 
 \item Theory
 \item Variable
 \end{itemize}
+}}
 
 \pagebreak
 

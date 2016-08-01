@@ -32,7 +32,7 @@
 \contentsline {subsubsection}{Levels of Measurement for Numerical Data}{13}
 \contentsline {section}{\numberline {1.4}Mindmap of Types of Data}{14}
 \contentsline {section}{\numberline {1.5}Summary}{14}
-\contentsline {section}{\numberline {1.6}Key Words}{15}
+\contentsline {section}{\numberline {1.6}Key Words}{16}
 \contentsline {section}{\numberline {1.7}Exercises}{17}
 \contentsline {paragraph}{Exercises}{17}
 \contentsline {subparagraph}{Exercise{}~1.7-1:}{17}
