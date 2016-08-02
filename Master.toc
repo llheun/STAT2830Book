@@ -17,10 +17,10 @@
 \contentsline {subsubsection}{Hypothesis}{8}
 \contentsline {subsubsection}{Observations}{9}
 \contentsline {subsubsection}{Empirical Generalizations}{9}
-\contentsline {subsection}{\numberline {1.1.2}Variables and Cases}{9}
-\contentsline {subsubsection}{Variables}{9}
+\contentsline {subsection}{\numberline {1.1.2}Variables and Cases}{10}
+\contentsline {subsubsection}{Variables}{10}
 \contentsline {subsubsection}{Case}{10}
-\contentsline {subsection}{\numberline {1.1.3}Example}{10}
+\contentsline {subsubsection}{Example}{10}
 \contentsline {section}{\numberline {1.2}Types of Statistics}{11}
 \contentsline {subsection}{\numberline {1.2.1}Descriptive Statistics}{11}
 \contentsline {subsection}{\numberline {1.2.2}Inferential Statistics}{12}
