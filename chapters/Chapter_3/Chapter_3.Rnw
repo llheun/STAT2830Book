@@ -5,7 +5,7 @@
 
 \section{Objective}
 
-After reading chapter three and doing the exercises, we will be able to:
+U[on completion of this chapter, students should be able to:
 
 \vspace{1mm}
 \colorbox{lred}{\parbox{13cm}{
@@ -20,18 +20,20 @@ level of measurement and characteristics of the data (distribution).
 }}
 
 \vspace{1mm}
-So what is a measure of ``central tendency,'' and why do we need to recognize the center of a group of scores?  Suppose that your class took a 6-point test on Monday and the instructor returned the test on Wednesday.  She paused at your table and gave you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the other students did on the test.  There are three scenarios: 
+ So what is a measure of ``central tendency,'' and why do we need to recognize the center of a group of scores?  
+
+Suppose that your class took a 6-point test on Monday and the instructor returned the test on Wednesday.  She paused at your table and gave you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the other students did on the test.  There are three scenarios: 
 
 
 
 \begin{itemize}
-\item Everyone achieved 4 out of 6, [you're OK],
-\item Everyone scored a 5 or 6 but you, [you're not OK], or
+\item Everyone achieved 4 out of 6, [you did well],
+\item Everyone scored a 5 or 6 but you, [you did not do well], or
 \item Everyone scored either a 1, or 2, or 3, but your score is 4 [you're jubilant].
 \end{itemize}
 
 
-The method of comparing a value to a distribution is important in statistics.  We will define three standard measures of central tendency.
+The method of seeing your result in perspective is comparing a value to a distribution is important in statistics.  We will define three standard measures of central tendency.
 
 \section{Three Common Measures}
 
@@ -54,7 +56,7 @@ What are the strengths and weaknesses of the mean?
 
 \begin{itemize}
 \item Strength -- All data from a variable are used to compute the mean.
-\item Weakness -- The average is affected by extreme values (\emph{outliers} \footnote{Outliers are essentially numbers, in a dataset of numbers, that don't belong in that dataset and/or that stand out. }).
+\item Weakness -- The average is affected by extreme values (\emph{outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.}).
 \end{itemize}
 
 \subsubsection{Example:}
@@ -86,7 +88,7 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
   
 % \subsubsection{Outlier}
 
-After looking at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 should be 18.  We change the age value 78 to 18 and recompute the mean.
+After looking at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 should be 18.  We change the age value 78 to 18 and recompute the mean.  
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -108,19 +110,21 @@ After looking at the data, we see that one age value, 78, is abnormally high.  I
   xbar2 <- sprintf("%.1f", xbar1)
 @
 
+Now, the mean is 
+
 \begin{equation}
 \bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 18}{13} = \frac{303}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}  
   
-This example illustrates how an outlier can affect the mean.  The mean with the outlier was 27.9 and the corrected mean is 23.3.
+This example illustrates how even a single outlier can affect the mean.  The mean with the outlier was 27.9 and the corrected mean is 23.3.
 
   
 \subsubsection{Median}
 
-The \emph{median} is the value that is less affected by an outlier than the mean.  It is the middle observation of the sorted dataset.  After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.  Let's use the original dataset with the outlier; See Table 3.1.  Let's make the following observations:
+Sensitivity to outliers can be eliminated by using another measure of central tendency called \emph{median}.  The \emph{median} is the middle observation of the sorted dataset with values arranged in order of their magnitude.  After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
 
 \begin{itemize}
-\item If there is an odd number of data values in our dataset, we must arrange the values in increasing magnitude (from the smallest to the largest) and locate the center value, e.g., 
+\item If there is an number of data values in our dataset, we must arrange the values in increasing magnitude (from the smallest to the largest) and locate the center value, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -221,129 +225,150 @@ The \emph{mode} is the most expected value in a distribution or the largest cate
 
 We use graphic displays of numerical data to help us see patterns.  We commonly use these patterns in the data to describe features such as center, spread, and shape.  Some common distributions have special descriptive labels, such as symmetric and skewed.
 
+\begin{figure}[htbp]
+
 \begin{minipage}[t]{4cm}
 
 %' <<sym, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Bell-shaped Distr.">>=
-%'     hist(rbeta(10000,5,5), xlab=' ', col='lred', main='Bell-shaped')
+%'       hist(rbeta(10000,5,5), xlab=' ', col='skyblue', main='Bell-shaped')
 %' @
 
 \includegraphics[width=4cm]{figure/sym-1} 
 
-Symmetric 
+(a) Symmetric 
 
 \end{minipage} \hfill 
 \begin{minipage}[t]{4cm}
 
 %' <<rtskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Right-shaped  Distr.">>=
-%'     hist(rbeta(10000,2,5), xlab=' ', col='lred', main="Right-skewed")
+%'       hist(rbeta(10000,2,5), xlab=' ', col='skyblue1', main="Right-skewed")
 %' @
 
 \includegraphics[width=4cm]{figure/rtskew-1} 
 
-Right Skewed
+(b) Right Skewed
 
 \end{minipage} \hfill 
 \begin{minipage}[t]{4cm}
 
 %' <<ltskew, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="Left-shaped Distr.">>=
-%' 
-%'    hist(rbeta(10000,5,2), xlab=' ', col='lred', main='Left-skewed')
-%' 
+%'      hist(rbeta(10000,5,2), xlab=' ', col='skyblue2', main='Left-skewed')
 %' @
 
 \includegraphics[width=4cm]{figure/ltskew-1} 
 
-Left Skewed
+(c) Left Skewed
 
 \end{minipage} 
 
-\subsubsection{Symmetric}
+\caption{Histograms with different shapes}
+  \label{fig:H1-3}
+\end{figure}
 
-The dataset that has the attribute of symmetry has the following features: 
 
-\begin{itemize}
-\item Balanced Distribution
-\item Often bell-shaped
-\item The statistics (mean, median, and mode) have approximately the same value.
-\end{itemize}
+% \subsubsection{Symmetric}
+% 
+% The dataset that has the attribute of symmetry has the following features: 
+% 
+% \begin{itemize}
+% \item Balanced distribution
+% \item Often bell-shaped
+% \item The statistics (mean, median, and mode) have approximately the same value.
+% \end{itemize}
+% 
+% \subsubsection{Skewed}
+% 
+% The dataset that has the attribute of skewness has the following features: 
+% 
+% \begin{itemize}
+% \item Right-skewed: the presence of relatively high values (See Table 3.7).
+%   \begin{itemize}
+%   \item 
+%   % Requires the booktabs if the memoir class is not being used
+% \begin{table}[htbp]
+%    \centering
+%    %\topcaption{Table captions are better up top} % requires the topcapt package
+%    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+%    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+%       19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{78} \\ \hline
+%    \end{tabular}
+%     \caption{Ages of STAT 2830 students}
+%    \label{tab:t3_7}
+% \end{table}
+% 
+% There was a typo when 78 was entered into the dataset when the value should have been 18.  The value 78  pulled the \emph{mean} to the right. 
+% 
+%   \end{itemize}
+%   
+% \item Left-skewed: the presence of relatively low values (See Table 3.8).
+%   \begin{itemize}
+%   \item 
+%   % Requires the booktabs if the memoir class is not being used
+%   \begin{table}[htbp]
+%    \centering
+%    %\topcaption{Table captions are better up top} % requires the topcapt package
+%    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+%    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+%    \fbox{7} & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline
+%    \end{tabular}
+%     \caption{Ages of Urban Campus students}
+%    \label{tab:t3_8}
+%   \end{table}
+% 
+%   There was a typo when 7 was entered into the dataset when the value should have been 18.  The value 7  pulled the \emph{mean} to the left.
+%   
+%   \end{itemize}
+% 
+% \item The statistics (mean, median, and mode) are different values.  Notice that the mean value pulls away from the median in the direction of the extreme values.
+% \end{itemize}
 
-\subsubsection{Skewed}
+\section{Other Measures of Location}
 
-The dataset that has the attribute of skewness has the following features: 
+There are also other measures of central tendency: 
 
-\begin{itemize}
-\item Right-skewed: the presence of relatively high values (See Table 3.7).
-  \begin{itemize}
-  \item 
-  % Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-      19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{78} \\ \hline
-   \end{tabular}
-    \caption{Ages of STAT 2830 students}
-   \label{tab:t3_7}
-\end{table}
-
-There was a typo when 78 was entered into the dataset when the value should have been 18.  The value 78  pulled the \emph{mean} to the right. 
-
-  \end{itemize}
-  
-\item Left-skewed: the presence of relatively low values (See Table 3.8).
-  \begin{itemize}
-  \item 
   % Requires the booktabs if the memoir class is not being used
   \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   \begin{tabular}{@{} llllllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-   \fbox{7} & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline
+   5.19& 5.21& 5.22& 5.23& 5.24& 5.26& 5.27& 5.27& 5.27& 5.28& 5.29& 5.31& 5.32& 5.33& 5.34& 5.36
+\hline
    \end{tabular}
-    \caption{Ages of Urban Campus students}
-   \label{tab:t3_8}
+    \caption{Michigan County Unemployment Rates June 2016}
+   \label{tab:t3_9}
   \end{table}
 
-  There was a typo when 7 was entered into the dataset when the value should have been 18.  The value 7  pulled the \emph{mean} to the left.
-  
-  \end{itemize}
-
-\item The statistics (mean, median, and mode) are different values.  Notice that the mean value pulls away from the median in the direction of the extreme values.
-\end{itemize}
-
-\section{Other Measures of Location}
-
-The other measure of central tendency are as follows:
 
 \begin{itemize} 
+
 \samepage
-\item Percentage: point below which a particular percentage of cases fall.  Referring to Table 3.3, suppose we want which number in the dataset where 25 percent of the numbers fall below.  The number is 21.  First, we order the dataset in ascending order.  We take .25 times 13 which equals 3.25.  Three point two-five is the position to locate the $25^{th}$ percentile.
+\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.9) and want to know which number in the dataset where 25 percent of the values fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 13 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
 \samepage
-\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, children's height in age groups.
+\item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, often pediatrician offices use decile statistics to classify children's height in their age groups, etc.   
 \samepage
-\item Quartiles: divides distribution into quarters. Referring to Table 3.3, the quartile values are  $Q_1 = 21$, $Q_2 = 24$, $Q_3 = 25$.
+\item Quartiles: divides distribution into quarters. Referring to Table 3.9, the quartile values are  $Q_1 = 5.23$, $Q_2 = 5.27$, $Q_3 = 5.31$.
 \samepage
   \begin{itemize}
   \item e.g., the median falls in the $50^{th}$ percentile (or the $2^{nd}$ quartile or the $5^{th}$ decile.)
+  \item The interpretation of the lower quartile is the median of the lower half of the dataset. 
   \end{itemize}
 \samepage
-\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.3,  $MR = \frac{18 + 29}{2} = 23.5$
+\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.9,  $MR = \frac{5.19 + 5.36}{2} = 5.275$
 \samepage
-\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.2, $MH = \frac{21 + 25}{2} = 23$.
+\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.2, $MH = \frac{5.23 + 5.31}{2} = 5.27$.
 \samepage
 \item Calculate a percentile
 	\begin{itemize}
 	\item Sort scores in ascending order
-	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).  Referring to Table 3.2, the $90^{th}$ percentile value for this dataset is 28.
+	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).  Referring to Table 3.9, the $90^{th}$ percentile value for this dataset is 5.33.
 	
 	\end{itemize}
 		
 	\item Example
 		\begin{itemize}
-		\item In a sample of 13 student ages from STAT 2830 students (See Table 3.3), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
-		\item $13 \times 0.75 = 9.75$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is located between the $9^{th}$ and the $10^{th}$ values in the list of 13, i.e., the third quartile is 25.
+		\item In a sample of 16 counties of Michigan (see Table 3.9), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item $16 \times 0.75 = 12$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is $12^{th}$ of the dataset, i.e., the third quartile is 5.31.
 		\end{itemize}
 		  	
 \end{itemize}
@@ -352,12 +377,11 @@ The other measure of central tendency are as follows:
 
 Let's use the data from the GSS  to find the mean, median, and mode of the highest year of school completed.
 
-<<echo=FALSE>>=
-  ## gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
-  mn3 <- sprintf("%.1f", mean(gss14$educ))
-  med3 <- median(gss14$educ)
-  mode3 <- mode(gss14$educ)
-
+<<results='asis', echo=FALSE>>=
+  gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
+  mn3   <- mean(gss14$educ)       ## sprintf("%.1f", mean(gss14$educ))
+  med3  <- median(gss14$educ)
+  ## mode3 <- mode(gss14$educ)
 @
 
 The report displays the three central tendency values in the following table (Table 3.9): 
@@ -405,8 +429,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 \item Quartiles
 \samepage
 \item Skewed
-\samepage
-\item $X_i$ (``x-sub-i'') 
+
 \end{itemize}
  }}
 
