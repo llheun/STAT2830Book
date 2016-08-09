@@ -5,7 +5,7 @@
 
 \section{Objective}
 
-U[on completion of this chapter, students should be able to:
+Upon completion of this chapter, students should be able to:
 
 \vspace{1mm}
 \colorbox{lred}{\parbox{13cm}{
@@ -56,7 +56,7 @@ What are the strengths and weaknesses of the mean?
 
 \begin{itemize}
 \item Strength -- All data from a variable are used to compute the mean.
-\item Weakness -- The average is affected by extreme values (\emph{outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.}).
+\item Weakness -- The extreme values (\emph{Outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.})  affect the average which we will discuss later.  
 \end{itemize}
 
 \subsubsection{Example:}
@@ -121,10 +121,23 @@ This example illustrates how even a single outlier can affect the mean.  The mea
   
 \subsubsection{Median}
 
-Sensitivity to outliers can be eliminated by using another measure of central tendency called \emph{median}.  The \emph{median} is the middle observation of the sorted dataset with values arranged in order of their magnitude.  After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
+Sensitivity to outliers can be eliminated by using another measure of central tendency called \emph{median}.  It is the middle observation of a dataset with values arranged in order of their magnitude.  In other words, it is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
 
 \begin{itemize}
-\item If there is an number of data values in our dataset, we must arrange the values in increasing magnitude (from the smallest to the largest) and locate the center value, e.g., 
+\item After arranging the values in increasing magnitude, we can locate the center value, e.g., 
+
+% Requires the booktabs if the memoir class is not being used
+\begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+        19 & 21 & 21 & 22 & 23 & 24 & \fbox{24}  & 24 & 25 & 25 & 28 & 29 & 78  \\ \hline  
+       
+   \end{tabular}
+    \caption{Ordered -- Ages of STAT 2830 students with outlier.}
+   \label{tab:t3_3}
+\end{table}
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -135,16 +148,16 @@ Sensitivity to outliers can be eliminated by using another measure of central te
        18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
        
    \end{tabular}
-    \caption{Ages of STAT 2830 students}
-   \label{tab:t3_3}
+    \caption{Ordered -- Ages of STAT 2830 students corrected}
+   \label{tab:t3_4}
 \end{table}
 
 
 \item median = 24
 
-\item Note: the median does not change or will change very little even after the correction.
+\item Note: After reviewing Table 3.3 and Table 3.4, we notice that the median does not change or will change very little even after the correction.
 
-\item Suppose that we found another student who was nineteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of data values in our dataset, we must order the values at the beginning and end and locate the two center value and average them, e.g., 
+\item Suppose that we found another student who was nineteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of values in our dataset, we must order the values at the beginning and end and locate the two center values and average them, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -155,8 +168,8 @@ Sensitivity to outliers can be eliminated by using another measure of central te
       18 & 19 & 19 & 21 & 21 & 22 & \fbox{23} & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline  
        
    \end{tabular}
-    \caption{Ages of STAT 2830 students}
-   \label{tab:t3_4}
+    \caption{Ordered -- Ages of STAT 2830 students with additional student}
+   \label{tab:t3_5}
 \end{table}
 
 \item $median = \frac{23 + 24}{2} = 23.5 $
@@ -164,32 +177,24 @@ Sensitivity to outliers can be eliminated by using another measure of central te
 \end{itemize}
 
 
-
-The {\emph{median}} is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution. 
-
 What are the strengths and weaknesses of the median?
 
 \begin{itemize}
 \item Strength:  It is not sensitive to extreme values (\emph{outliers}).
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-       18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
-       
-   \end{tabular}
-    \caption{Ages of STAT 2830 students}
-   \label{tab:t3_5}
-\end{table}
+% % Requires the booktabs if the memoir class is not being used
+% \begin{table}[htbp]
+%    \centering
+%    %\topcaption{Table captions are better up top} % requires the topcapt package
+%    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+%    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+%        18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
+%        
+%    \end{tabular}
+%     \caption{Ages of STAT 2830 students}
+%    \label{tab:t3_6}
+% \end{table}
 
-  \begin{itemize}
-  
-  \item For example from Table 3.5, the median did not change even when we corrected the data entry error.
-  \end{itemize}
-  
 \item Weakness: we do not use all numbers of the dataset only use the middle value.
 
 \end{itemize}
@@ -198,7 +203,7 @@ What are the strengths and weaknesses of the median?
 
 \subsubsection{Mode}
 
-The \emph{mode} is the most expected value in a distribution or the largest category of a variable is the most frequently occurring observation of this variable.
+The \emph{mode} is the most frequently occurring value in a distribution of quantitative values or the largest category of a variable is the most frequently occurring observation of this variable.
 
 \begin{itemize}
 \samepage
@@ -215,7 +220,7 @@ The \emph{mode} is the most expected value in a distribution or the largest cate
    \end{tabular}
    \end{center}
     \caption{Ages of STAT 2830 students}
-   \label{tab:t3_6}
+   \label{tab:t3_7}
 \end{table}
 \samepage
 \item The \emph{mode} is the most frequently occurring value in a dataset.  Since there are three of 24s, the \emph{mode} is 24.  While analyzing a dataset, we must use the mode for categorical data\footnote{A categorical data is a variable that can take on one of a limited, and usually fixed, number of possible values, thus assigning each individual to a particular group}  where we cannot use the mean or the median.   Think of the situation where we have 30 students in our classroom, and we survey them for the eye color and find there are 20 students with brown eyes, nine students with blue eyes, and one student with black eyes.  The brown eyes are the mode since brown eyes occur more frequently than the other colors.
@@ -264,6 +269,9 @@ We use graphic displays of numerical data to help us see patterns.  We commonly 
 \caption{Histograms with different shapes}
   \label{fig:H1-3}
 \end{figure}
+
+\subsubsection{Symmetric}
+
 
 
 % \subsubsection{Symmetric}
@@ -330,33 +338,32 @@ There are also other measures of central tendency:
   \begin{table}[htbp]
    \centering
    %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} llllllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   \begin{tabular}{@{} | llll | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-   5.19& 5.21& 5.22& 5.23& 5.24& 5.26& 5.27& 5.27& 5.27& 5.28& 5.29& 5.31& 5.32& 5.33& 5.34& 5.36
-\hline
+   5.19& 5.21& 5.22& 5.23 \\ 5.24& 5.26& 5.27& 5.27 \\ 5.27& 5.28& 5.29& 5.31 \\ 5.32& 5.33& 5.34& 5.36 \\ \hline
    \end{tabular}
     \caption{Michigan County Unemployment Rates June 2016}
-   \label{tab:t3_9}
+   \label{tab:t3_8}
   \end{table}
 
 
 \begin{itemize} 
 
 \samepage
-\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.9) and want to know which number in the dataset where 25 percent of the values fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 13 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
+\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.7) and want to know which number in the dataset where 25 percent of the values fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 16 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
 \samepage
 \item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, often pediatrician offices use decile statistics to classify children's height in their age groups, etc.   
 \samepage
-\item Quartiles: divides distribution into quarters. Referring to Table 3.9, the quartile values are  $Q_1 = 5.23$, $Q_2 = 5.27$, $Q_3 = 5.31$.
+\item Quartiles: divides distribution into quarters. Referring to Table 3.7, the quartile values are  $Q_1 = 5.23$, $Q_2 = 5.27$, $Q_3 = 5.31$.
 \samepage
   \begin{itemize}
   \item e.g., the median falls in the $50^{th}$ percentile (or the $2^{nd}$ quartile or the $5^{th}$ decile.)
   \item The interpretation of the lower quartile is the median of the lower half of the dataset. 
   \end{itemize}
 \samepage
-\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.9,  $MR = \frac{5.19 + 5.36}{2} = 5.275$
+\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.7,  $MR = \frac{5.19 + 5.36}{2} = 5.275$
 \samepage
-\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.2, $MH = \frac{5.23 + 5.31}{2} = 5.27$.
+\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.7, $MH = \frac{5.23 + 5.31}{2} = 5.27$.
 \samepage
 \item Calculate a percentile
 	\begin{itemize}
@@ -367,7 +374,7 @@ There are also other measures of central tendency:
 		
 	\item Example
 		\begin{itemize}
-		\item In a sample of 16 counties of Michigan (see Table 3.9), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item In a sample of 16 counties of Michigan (see Table 3.7), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
 		\item $16 \times 0.75 = 12$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is $12^{th}$ of the dataset, i.e., the third quartile is 5.31.
 		\end{itemize}
 		  	
@@ -379,12 +386,13 @@ Let's use the data from the GSS  to find the mean, median, and mode of the highe
 
 <<results='asis', echo=FALSE>>=
   gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
-  mn3   <- mean(gss14$educ)       ## sprintf("%.1f", mean(gss14$educ))
+  mn3   <- mean(gss14$educ)       
+  mn3a  <- sprintf("%.1f", mn3)
   med3  <- median(gss14$educ)
   ## mode3 <- mode(gss14$educ)
 @
 
-The report displays the three central tendency values in the following table (Table 3.9): 
+The report displays the three central tendency values in the following table (Table 3.8): 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -395,7 +403,7 @@ The report displays the three central tendency values in the following table (Ta
       % \multicolumn{2}{c}{Item} \\
       % \cmidrule(r){1-2} % Partial rule. (r) trims the line a little bit on the right; (l) & (lr) also possible
       Statistic & Value \\ \hline
-      Mean & \Sexpr{mn3} \\
+      Mean & \Sexpr{mn3a} \\
       Median & \Sexpr{med3} \\
       Mode & 12 \\ \hline
       
