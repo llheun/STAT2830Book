@@ -90,8 +90,9 @@
 \contentsline {subsubsection}{Example:}{42}
 \contentsline {subsubsection}{Median}{43}
 \contentsline {subsubsection}{Mode}{44}
-\contentsline {section}{\numberline {3.3}Overall Distribution Shape}{45}
+\contentsline {section}{\numberline {3.3}Overall Distribution Shape}{44}
 \contentsline {subsubsection}{Symmetric}{45}
+\contentsline {subsubsection}{Skewed}{45}
 \contentsline {section}{\numberline {3.4}Other Measures of Location}{45}
 \contentsline {subsubsection}{GSS Example}{46}
 \contentsline {section}{\numberline {3.5}Summary}{47}

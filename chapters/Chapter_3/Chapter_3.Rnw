@@ -55,8 +55,8 @@ The \emph{mean} (usually denoted as $\bar{x}$) is the arithmetic center of distr
 What are the strengths and weaknesses of the mean?
 
 \begin{itemize}
-\item Strength -- All data from a variable are used to compute the mean.
-\item Weakness -- The extreme values (\emph{Outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.})  affect the average which we will discuss later.  
+\item Strength -- The mean uses all data from a numeric variable.
+\item Weakness -- The extreme values (\emph{outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.})  affect the average which we will discuss later.  
 \end{itemize}
 
 \subsubsection{Example:}
@@ -88,7 +88,7 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
   
 % \subsubsection{Outlier}
 
-After looking at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 should be 18.  We change the age value 78 to 18 and recompute the mean.  
+After looking at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 should be 18.  We change the age value 78 to 18 in Table 3.2 and recompute the mean.  
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -121,7 +121,7 @@ This example illustrates how even a single outlier can affect the mean.  The mea
   
 \subsubsection{Median}
 
-Sensitivity to outliers can be eliminated by using another measure of central tendency called \emph{median}.  It is the middle observation of a dataset with values arranged in order of their magnitude.  In other words, it is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
+Sensitivity to outliers can be eliminated by using another measure of central tendency called \emph{median}.  It uses the middle observation of a dataset with values arranged in order of their magnitude.  In other words, it is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
 
 \begin{itemize}
 \item After arranging the values in increasing magnitude, we can locate the center value, e.g., 
@@ -157,7 +157,7 @@ Sensitivity to outliers can be eliminated by using another measure of central te
 
 \item Note: After reviewing Table 3.3 and Table 3.4, we notice that the median does not change or will change very little even after the correction.
 
-\item Suppose that we found another student who was nineteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of values in our dataset, we must order the values at the beginning and end and locate the two center values and average them, e.g., 
+\item Suppose that we found another student who was nineteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of values in our dataset, we must order the values at the beginning and end and locate the two center values and average them (see Table 3.5), e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -177,23 +177,11 @@ Sensitivity to outliers can be eliminated by using another measure of central te
 \end{itemize}
 
 
-What are the strengths and weaknesses of the median?
+What are the strengths and weaknesses of the median? (See Table 3.3 and Table 3.4.)
 
 \begin{itemize}
 \item Strength:  It is not sensitive to extreme values (\emph{outliers}).
 
-% % Requires the booktabs if the memoir class is not being used
-% \begin{table}[htbp]
-%    \centering
-%    %\topcaption{Table captions are better up top} % requires the topcapt package
-%    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-%    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-%        18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
-%        
-%    \end{tabular}
-%     \caption{Ages of STAT 2830 students}
-%    \label{tab:t3_6}
-% \end{table}
 
 \item Weakness: we do not use all numbers of the dataset only use the middle value.
 
@@ -203,32 +191,20 @@ What are the strengths and weaknesses of the median?
 
 \subsubsection{Mode}
 
-The \emph{mode} is the most frequently occurring value in a distribution of quantitative values or the largest category of a variable is the most frequently occurring observation of this variable.
+There are two definitions for the \emph{mode}.  
 
 \begin{itemize}
-\samepage
-\item For example:
+\item For numeric data types, the measure of location for such data, the \emph{mode}, is given by the most frequently occurring number in the dataset, see Table 3.5.
 
-% Requires the booktabs if the memoir class is not being used
-\begin{table}[htbp]
-   \begin{center}
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-      18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & \fbox{24} & \fbox{24} & 25 & 25 & 28 & 29 \\ \hline  
-       
-   \end{tabular}
-   \end{center}
-    \caption{Ages of STAT 2830 students}
-   \label{tab:t3_7}
-\end{table}
-\samepage
-\item The \emph{mode} is the most frequently occurring value in a dataset.  Since there are three of 24s, the \emph{mode} is 24.  While analyzing a dataset, we must use the mode for categorical data\footnote{A categorical data is a variable that can take on one of a limited, and usually fixed, number of possible values, thus assigning each individual to a particular group}  where we cannot use the mean or the median.   Think of the situation where we have 30 students in our classroom, and we survey them for the eye color and find there are 20 students with brown eyes, nine students with blue eyes, and one student with black eyes.  The brown eyes are the mode since brown eyes occur more frequently than the other colors.
-\end{itemize}
+\item For categorical data types, we have  some datasets that contain objects that cannot be ordered, e.g., the model of our car, our religious affiliation, our birth state, our eye color, etc.  These are categorical data types.  We cannot use either the mean or the median for such data.  
+
+\end{itemize} 	
+
+
 
 \section{Overall Distribution Shape}
 
-We use graphic displays of numerical data to help us see patterns.  We commonly use these patterns in the data to describe features such as center, spread, and shape.  Some common distributions have special descriptive labels, such as symmetric and skewed.
+
 
 \begin{figure}[htbp]
 
@@ -272,63 +248,13 @@ We use graphic displays of numerical data to help us see patterns.  We commonly 
 
 \subsubsection{Symmetric}
 
+When we use a histogram to demonstrate a bell-shaped distribution, we see a symmetric distribution that we can divide the curve at the center so that each half is a mirror image of the other, see Figure 3.1(a).
 
+\subsubsection{Skewed}
 
-% \subsubsection{Symmetric}
-% 
-% The dataset that has the attribute of symmetry has the following features: 
-% 
-% \begin{itemize}
-% \item Balanced distribution
-% \item Often bell-shaped
-% \item The statistics (mean, median, and mode) have approximately the same value.
-% \end{itemize}
-% 
-% \subsubsection{Skewed}
-% 
-% The dataset that has the attribute of skewness has the following features: 
-% 
-% \begin{itemize}
-% \item Right-skewed: the presence of relatively high values (See Table 3.7).
-%   \begin{itemize}
-%   \item 
-%   % Requires the booktabs if the memoir class is not being used
-% \begin{table}[htbp]
-%    \centering
-%    %\topcaption{Table captions are better up top} % requires the topcapt package
-%    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-%    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-%       19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29 & \fbox{78} \\ \hline
-%    \end{tabular}
-%     \caption{Ages of STAT 2830 students}
-%    \label{tab:t3_7}
-% \end{table}
-% 
-% There was a typo when 78 was entered into the dataset when the value should have been 18.  The value 78  pulled the \emph{mean} to the right. 
-% 
-%   \end{itemize}
-%   
-% \item Left-skewed: the presence of relatively low values (See Table 3.8).
-%   \begin{itemize}
-%   \item 
-%   % Requires the booktabs if the memoir class is not being used
-%   \begin{table}[htbp]
-%    \centering
-%    %\topcaption{Table captions are better up top} % requires the topcapt package
-%    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-%    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-%    \fbox{7} & 19 & 21 & 21 & 22 & 23 & 24 & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline
-%    \end{tabular}
-%     \caption{Ages of Urban Campus students}
-%    \label{tab:t3_8}
-%   \end{table}
-% 
-%   There was a typo when 7 was entered into the dataset when the value should have been 18.  The value 7  pulled the \emph{mean} to the left.
-%   
-%   \end{itemize}
-% 
-% \item The statistics (mean, median, and mode) are different values.  Notice that the mean value pulls away from the median in the direction of the extreme values.
-% \end{itemize}
+When we  use a histogram to show a skewed distribution, we see some distributions have many more data values on one side of the histogram than the other.  When there are fewer observations on the right, i.e., toward the higher values, we say that the distribution is \emph{right skewed} (see Figure 3.1(b)).  If on the other hand, we see fewer observations on the left, i.e., toward the lower values, we say that the distribution is \emph{left skewed} (see Figure 3.1(c)).
+
+We use graphic displays of numerical data to help us see patterns.  We commonly use these patterns in the data to describe features such as center, spread, and shape.  Some common distributions have special descriptive labels, such as symmetric and skewed.
 
 \section{Other Measures of Location}
 
@@ -343,46 +269,46 @@ There are also other measures of central tendency:
    5.19& 5.21& 5.22& 5.23 \\ 5.24& 5.26& 5.27& 5.27 \\ 5.27& 5.28& 5.29& 5.31 \\ 5.32& 5.33& 5.34& 5.36 \\ \hline
    \end{tabular}
     \caption{Michigan County Unemployment Rates June 2016}
-   \label{tab:t3_8}
+   \label{tab:t3_6}
   \end{table}
 
 
 \begin{itemize} 
 
 \samepage
-\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.7) and want to know which number in the dataset where 25 percent of the values fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 16 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
+\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.6) and want to know which number in the dataset where 25 percent of the values fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 16 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
 \samepage
 \item Deciles: divides distribution into tenth (10, 20, $\dots$, 90).  For example, often pediatrician offices use decile statistics to classify children's height in their age groups, etc.   
 \samepage
-\item Quartiles: divides distribution into quarters. Referring to Table 3.7, the quartile values are  $Q_1 = 5.23$, $Q_2 = 5.27$, $Q_3 = 5.31$.
+\item Quartiles: divides distribution into quarters. Referring to Table 3.6, the quartile values are  $Q_1 = 5.23$, $Q_2 = 5.27$, $Q_3 = 5.31$.
 \samepage
   \begin{itemize}
   \item e.g., the median falls in the $50^{th}$ percentile (or the $2^{nd}$ quartile or the $5^{th}$ decile.)
   \item The interpretation of the lower quartile is the median of the lower half of the dataset. 
   \end{itemize}
 \samepage
-\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.7,  $MR = \frac{5.19 + 5.36}{2} = 5.275$
+\item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.6,  $MR = \frac{5.19 + 5.36}{2} = 5.275$
 \samepage
-\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.7, $MH = \frac{5.23 + 5.31}{2} = 5.27$.
+\item Mid-hinge: $ MH = \frac{Q_1 + Q_3}{2}$.  Referring to Table 3.6, $MH = \frac{5.23 + 5.31}{2} = 5.27$.
 \samepage
 \item Calculate a percentile
 	\begin{itemize}
 	\item Sort scores in ascending order
-	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).  Referring to Table 3.9, the $90^{th}$ percentile value for this dataset is 5.33.
+	\item Multiply the number of cases (n) in the dataset by the proportional value of the percentile (for example the $90^{th}$ percentile is 0.9).  Referring to Table 3.6, the $90^{th}$ percentile value for this dataset is 5.33.
 	
 	\end{itemize}
 		
 	\item Example
 		\begin{itemize}
-		\item In a sample of 16 counties of Michigan (see Table 3.7), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
-		\item $16 \times 0.75 = 12$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is $12^{th}$ of the dataset, i.e., the third quartile is 5.31.
+		\item In a sample of 16 counties of Michigan (see Table 3.6), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item $16 \times 0.75 = 12$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is $12^{th}$ item of the dataset, i.e., the third quartile is 5.31.
 		\end{itemize}
 		  	
 \end{itemize}
 
 \subsubsection{GSS Example}
 
-Let's use the data from the GSS  to find the mean, median, and mode of the highest year of school completed.
+Let's use the data from the GSS 2014 dataset  to find the mean, median, and mode of the highest year of school completed.
 
 <<results='asis', echo=FALSE>>=
   gss14 <- read.csv("data/GSS2014.csv", header=TRUE)
@@ -392,7 +318,7 @@ Let's use the data from the GSS  to find the mean, median, and mode of the highe
   ## mode3 <- mode(gss14$educ)
 @
 
-The report displays the three central tendency values in the following table (Table 3.8): 
+The table reports the three central tendency values in the following table (Table 3.7): 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -409,10 +335,10 @@ The report displays the three central tendency values in the following table (Ta
       
    \end{tabular}
    \caption{Central Tendency Statistics}
-   \label{tab:t3_9}
+   \label{tab:t3_7}
 \end{table}
 
-We show the SPSS procedure in Section 3.11.
+We show the SPSS procedure in Section 3.8.
 
 \section{Summary}
 
