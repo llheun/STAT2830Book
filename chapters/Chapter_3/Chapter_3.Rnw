@@ -5,7 +5,7 @@
 
 \section{Objective}
 
-Upon completion of this chapter, students should be able to:
+At the end of this chapter, students should be able to:
 
 \vspace{1mm}
 \colorbox{lred}{\parbox{13cm}{
