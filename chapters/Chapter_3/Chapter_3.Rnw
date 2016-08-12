@@ -8,7 +8,7 @@
 After completing this part, students should be able to:
 
 \vspace{1mm}
-\colorbox{lred}{\parbox{13cm}{
+\colorbox{yellow}{\parbox{13cm}{
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
@@ -40,7 +40,7 @@ The method of seeing your result in perspective is comparing a value to distribu
 The central tendency is a measure of where we find the ``location'' of our data values.  
 
 \vspace{1mm}
-\colorbox{lred}{\parbox{13cm}{%
+\colorbox{yellow}{\parbox{13cm}{%
 \begin{itemize}
 \item mean
 \item median

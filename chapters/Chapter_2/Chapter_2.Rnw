@@ -7,7 +7,7 @@
 
 After reading chapter two and doing the exercises, we will be able to:
 
-\colorbox{lred}{\parbox{13cm}{
+\colorbox{yellow}{\parbox{13cm}{
 \begin{itemize}
   \item Use descriptive statistics to make data understandable.
   \item Summarize and analyze data using graphical methods.
