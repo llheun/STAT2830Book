@@ -5,10 +5,13 @@
 \label{chap:ch1}
 
 \subsection{Objectives}
-By the end of this chapter, we will be able to:
 
+After completing this part, students should be able to:
 
-\colorbox{yellow}{\parbox{13cm}{\begin{itemize}
+\vspace{1mm}
+
+\colorbox{yellow}{\parbox{13cm}{
+\begin{itemize}
 \item Discern statistical methods and identify the environments where we can use them appropriately.
 \item Recognize the types of variables (categorical or numerical) and give examples of each type.
 \item Remember and explain the three levels of measurement and give examples of each level.

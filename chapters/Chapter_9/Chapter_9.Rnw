@@ -4,7 +4,12 @@
 \label{chap:ch9}
 
 \section{Objective}
-After reading chapter nine and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \item Identify and cite examples of when a two-sample test is appropriate.
 \item Explain an independent random sample.
@@ -12,6 +17,7 @@ After reading chapter nine and doing the exercises, you will be able to
 proportions following the 5-step process and interpret the results.
 \item Effect Size
 \end{itemize}
+}}
 
 \section{One-Sample Case vs. Two-Sample Case}
   

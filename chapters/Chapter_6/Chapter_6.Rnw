@@ -4,7 +4,12 @@
 \label{chap:ch6}
   
 \section{Objective}
-After reading chapter six and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \samepage
 \item Explain the purpose of inferential statistics. 
@@ -25,7 +30,7 @@ After reading chapter six and doing the exercises, you will be able to
 \item Explain the two theorems presented.
 	
 \end{itemize}
-	
+}}	
 
 \section{Population}
 

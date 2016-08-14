@@ -5,7 +5,11 @@
 
 \section{Objective}
 
-After reading chapter four and doing the exercises, we will be able to
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \item Explain the concept of measures of dispersion and the information they convey.
 \item Compute and explain the following:
@@ -19,6 +23,7 @@ After reading chapter four and doing the exercises, we will be able to
 	\end{itemize}
 \item Select the  measure of dispersion appropriate for our current problem.
 \end{itemize}
+}}
 	
 \section{Definition of Dispersion}
 

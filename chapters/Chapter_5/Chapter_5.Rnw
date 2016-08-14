@@ -5,13 +5,18 @@
 
 \section{Objectives}
 
-After reading chapter five and doing the exercises, we will be able to
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \item Define and explain the concept of the {\bf{Normal Curve}}.
 \item Convert empirical scores to z-scores and use z-scores and the Normal Distribution curve
 table to find areas above, below and between points of the curve and  express them regarding their probabilities.
 \item Utilize the standard normal distribution to solve probability (chance) problems.
 \end{itemize}
+}}
 
 \section{Why should we study the Normal Curve}
 

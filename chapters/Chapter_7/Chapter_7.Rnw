@@ -4,7 +4,12 @@
 \label{chap:ch7}
 
 \section{Objective}
-After reading chapter seven and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \item Explain the logic of estimation and the role of the sample, sampling 
 distribution and the population.
@@ -12,6 +17,7 @@ distribution and the population.
 \item Describe the relationships between trust levels, sample size, and the width 
 of the confidence interval.
 \end{itemize}
+}}
 
 \section{Calculating CI for Population Mean}
 

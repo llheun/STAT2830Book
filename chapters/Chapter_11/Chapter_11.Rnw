@@ -4,7 +4,12 @@
 \label{chap:ch11}
 
 \section{Objective}
-After reading chapter eleven and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \item Point out and cite examples of when an ANOVA test is appropriate.
 \item Explain the logic of hypothesis testing as applied to ANOVA.
@@ -13,7 +18,7 @@ the results.
 \item Explain the difference between the statistical significance and the importance of 
 relationships between variables.
 \end{itemize}
-
+}}
 
 
 

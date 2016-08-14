@@ -5,7 +5,9 @@
 
 \subsection{Objectives}
 
-After reading chapter two and doing the exercises, we will be able to:
+After completing this part, students should be able to:
+
+\vspace{1mm}
 
 \colorbox{yellow}{\parbox{13cm}{
 \begin{itemize}

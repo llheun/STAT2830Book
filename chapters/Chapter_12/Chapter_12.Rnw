@@ -4,7 +4,12 @@
 \label{chap:ch12}
 
 \section{Objective}
-After reading chapter twelve and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 
 \item Interpret  a scatter plot.
@@ -14,7 +19,7 @@ After reading chapter twelve and doing the exercises, you will be able to
 \item Use correlation and regression techniques to evaluate two-variable relationships.
 
 \end{itemize}
-  
+}}  
 
 
 \section{What is Correlation?}

@@ -4,7 +4,11 @@
 \label{chap:ch8}
 
 \section{Objective}
-After reading chapter eight and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
 
 \begin{itemize}
 \item Explain the logic of hypothesis testing
@@ -21,6 +25,7 @@ After reading chapter eight and doing the exercises, you will be able to
 	\item Comment on the effect size.
 	\end{enumerate}
 \end{itemize}
+}}
 
 \section{Why do hypothesis testing?}
   

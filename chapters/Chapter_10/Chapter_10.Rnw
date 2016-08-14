@@ -4,12 +4,18 @@
 \label{chap:ch10}
 
 \section{Objective}
-After reading chapter ten and doing the exercises, you will be able to
+
+After completing this part, students should be able to:
+
+\vspace{1mm}
+\colorbox{yellow}{\parbox{13cm}{
+
 \begin{itemize}
 \item Point out and cite examples of when more than two sample proportion is appropriate.
 \item Perform a test of hypothesis for more than two sample  
 proportions following the 5-step process and interpret the results.
 \end{itemize}
+}}
 
 \section{Chi-square Test for Independence}
   
