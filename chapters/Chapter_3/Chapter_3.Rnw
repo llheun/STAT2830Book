@@ -12,7 +12,7 @@ After completing this part, students should be able to:
 \begin{itemize}
 \item Explain the concept of measures of central tendency and interpret the 
 information they provide.
-\item Calculate, describe, and compare the three most commonly used measures of central tendency: modes, medians, and means.
+\item Calculate, describe, and compare the three most commonly used measures of central tendency: means, medians, and modes.
 \item Understand other measures of central tendency
 \item Select appropriate measure of central tendency based on the 
 level of measurement and characteristics of the data (distribution).
@@ -22,7 +22,7 @@ level of measurement and characteristics of the data (distribution).
 \vspace{1mm}
  So what is a measure of ``central tendency,'' and why do we need to recognize the center of a group of scores?  
 
-Suppose that your class took a 6-point test on Monday and the instructor returned the test on Wednesday.  She paused at your table and gave you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the other students did on the test.  There are three scenarios: 
+Suppose that your class took a 6-point test on Monday and the instructor returned the test on Wednesday.  She paused at your table and gave you your paper with 4/6.  You do a quick calculation, 67\%.  What are you thinking?  Are you happy?  Are you upset?  That depends on how the other students did on the test.  Here are three of possible scenarios: 
 
 
 
@@ -33,9 +33,9 @@ Suppose that your class took a 6-point test on Monday and the instructor returne
 \end{itemize}
 
 
-The method of seeing your result in perspective is comparing a value to distribution is important in statistics.  We will define three standard measures of central tendency.
+Seeing your result in perspective means comparing a value to distribution is important in statistics.  
 
-\section{Three Common Measures}
+\section{Three Most Common Measures of Central Tendency}
 
 The central tendency is a measure of where we find the ``location'' of our data values.  
 
@@ -50,18 +50,22 @@ The central tendency is a measure of where we find the ``location'' of our data 
 
 \subsubsection{Mean}
 
-The \emph{mean} (usually denoted as $\bar{x}$) is the arithmetic center of distribution and is the most commonly utilized measure.  It reports the average value of a variable.
+The \emph{mean} (usually denoted as $\bar{x}$) is blank as an average of values in the dataset.
+
+the arithmetic center of distribution and 
+
+It is the most commonly utilized measure.  
 
 What are the strengths and weaknesses of the mean?
 
 \begin{itemize}
 \item Strength -- It uses all data from a numeric variable.
-\item Weakness -- The extreme values (\emph{outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.})  affect the average which we will discuss later.  
+\item Weakness -- The extreme values (\emph{outliers} \footnote{Outliers are values in a dataset that often stand out because of a recording error.})  influence the average (which we will discuss later).  
 \end{itemize}
 
 \subsubsection{Example:}
 
-Suppose that we have the ages of 13 students in STAT 2830 and compute the value of the mean.
+Suppose that there are 13 students in STAT 2830 ages as given in Table 3.1 and that we need to obtain their mean.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -88,7 +92,7 @@ Suppose that we have the ages of 13 students in STAT 2830 and compute the value 
   
 % \subsubsection{Outlier}
 
-After looking at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 should be 18.  We change the age value 78 to 18 in Table 3.2 and recompute the mean.  
+The value of the mean is 27.9.  After looking again at the data, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 is an error and that the correct value should be 18.  We change the age value 78 to 18 (Table 3.2) and recompute the mean.  
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -116,15 +120,15 @@ Now, the mean is
 \bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 18}{13} = \frac{303}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}  
   
-This example illustrates how even a single outlier can affect the mean.  The mean with the outlier was 27.9 and the corrected mean is 23.3.
+This example illustrates how even a single value (outlier) can affect the mean.  The mean for original dataset (with the outlier) was 27.9 and after the value 78 was changed to 18, the corrected mean is 23.3.
 
   
 \subsubsection{Median}
 
-We can eliminate this sensitivity to outliers by using another measure of central tendency called \emph{median}.  It uses the middle observation of a dataset with values arranged in order of their magnitude.  In other words, it is the center score of the distribution.  Half of the values are below the median, and half are above the median in the distribution.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
+We can eliminate this sensitivity to outliers by using another measure of central tendency called \emph{median}.  It is defined as the middle observation of a dataset with values arranged in order of their magnitude.  Half of the values in the dataset are below the median, and half are above the median.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
 
 \begin{itemize}
-\item After arranging the values in increasing magnitude, we can locate the center value, e.g., 
+\item After arranging the values in order of magnitude, we can locate the center value, e.g., 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -135,7 +139,7 @@ We can eliminate this sensitivity to outliers by using another measure of centra
         19 & 21 & 21 & 22 & 23 & 24 & \fbox{24}  & 24 & 25 & 25 & 28 & 29 & 78  \\ \hline  
        
    \end{tabular}
-    \caption{Ordered -- Ages of STAT 2830 students with outlier.}
+    \caption{Ordered -- ages of STAT 2830 students (with outlier).}
    \label{tab:t3_3}
 \end{table}
 
@@ -148,16 +152,13 @@ We can eliminate this sensitivity to outliers by using another measure of centra
        18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
        
    \end{tabular}
-    \caption{Ordered -- Ages of STAT 2830 students corrected}
+    \caption{Ordered corrected -- ages of STAT 2830 students }
    \label{tab:t3_4}
 \end{table}
 
+\item median = 24  in both cases;
 
-\item median = 24
-
-\item Note: After reviewing Table 3.3 and Table 3.4, we notice that it does not change very much even after the correction.
-
-\item Suppose that we found another student who was nineteen years old and added her to the dataset of students, we can ask how does this additional student affect the median.  In other words, if there is an even number of values in our dataset, we must order the values at the beginning and end and locate the two center values and average them (see Table 3.5), e.g., 
+\item Suppose that one student was not on the list.  She was added to the list and her age (19) was added to the dataset (see Table 3.5).  As median we will of  Finding a median is not difficult; however, the dataset used an odd number of values.  How do we find the median if the we have an even number of observations?  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -177,11 +178,10 @@ We can eliminate this sensitivity to outliers by using another measure of centra
 \end{itemize}
 
 
-What are the strengths and weaknesses of the value of the median? (See Table 3.3 and Table 3.4.)
+What are the strengths and weaknesses of the value of the median? 
 
 \begin{itemize}
-\item Strength:  It is not sensitive to extreme values (\emph{outliers}).
-
+\item Strength:  Median is not sensitive to extreme values (\emph{outliers}).
 
 \item Weakness: we do not use all numbers of the dataset only use the middle value.
 
@@ -191,6 +191,7 @@ What are the strengths and weaknesses of the value of the median? (See Table 3.3
 
 \subsubsection{Mode}
 
+Another way of locating the center of the dataset is to find the most frequent values.
 There are two definitions for the \emph{mode}.  
 
 \begin{itemize}

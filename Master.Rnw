@@ -20,8 +20,8 @@
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-\title{Using Data Science as a Tool for Social Research \\ Stat 2830 }
-\author{Statistical Computation Lab \\ Department of Statistics \\ WMU}
+\title{The Risks of Doing Social Research \\ Stat 2830 }
+\author{Department of Statistics \\ Western Michigan University}
 %\date{}                                           % Activate to display a given date or no date
 
 
