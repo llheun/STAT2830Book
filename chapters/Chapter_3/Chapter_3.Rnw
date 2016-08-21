@@ -37,7 +37,7 @@ Seeing your result in perspective means comparing a value to distribution is imp
 
 \section{Three Most Common Measures of Central Tendency}
 
-The central tendency is a measure of where we find the ``location'' of our data values.  
+The central tendency is a measure of where we find the ``location'' of our data values.  These statistics gives us information about population values from a sample of observed data. 
 
 \vspace{1mm}
 \colorbox{yellow}{\parbox{13cm}{%
@@ -50,11 +50,7 @@ The central tendency is a measure of where we find the ``location'' of our data 
 
 \subsubsection{Mean}
 
-The \emph{mean} (usually denoted as $\bar{x}$) is blank as an average of values in the dataset.
-
-the arithmetic center of distribution and 
-
-It is the most commonly utilized measure.  
+The \emph{mean} (usually denoted as $\bar{x}$) is defined as an average of values in the dataset.  It is the most commonly utilized measure.  
 
 What are the strengths and weaknesses of the mean?
 
@@ -65,18 +61,19 @@ What are the strengths and weaknesses of the mean?
 
 \subsubsection{Example:}
 
-Suppose that there are 13 students in STAT 2830 ages as given in Table 3.1 and that we need to obtain their mean.
+Suppose that there are 13 students in STAT 2830 whose ages are given in Table 3.1. We need to obtain their mean.
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Ages of STAT 2830 students}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
        21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 78 \\ \hline
       
    \end{tabular}
-    \caption{Ages of STAT 2830 students}
+    
    \label{tab:t3_1}
 \end{table}
 
@@ -98,13 +95,14 @@ The value of the mean is 27.9.  After looking again at the data, we see that one
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Ages of STAT 2830 students}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
        21 & 21 & 23 & 25 & 28 & 29 & 24 & 24 & 25 & 24 & 22 & 19 & 18 \\ \hline
       
    \end{tabular}
-    \caption{Ages of STAT 2830 students}
+    
    \label{tab:t3_2}
 \end{table}
 
@@ -133,26 +131,28 @@ We can eliminate this sensitivity to outliers by using another measure of centra
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Ordered -- ages of STAT 2830 students (with outlier).}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
         19 & 21 & 21 & 22 & 23 & 24 & \fbox{24}  & 24 & 25 & 25 & 28 & 29 & 78  \\ \hline  
        
    \end{tabular}
-    \caption{Ordered -- ages of STAT 2830 students (with outlier).}
+    
    \label{tab:t3_3}
 \end{table}
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+  \caption{Ordered corrected -- ages of STAT 2830 students }
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
        18 & 19 & 21 & 21 & 22 & 23 & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29  \\ \hline  
        
    \end{tabular}
-    \caption{Ordered corrected -- ages of STAT 2830 students }
+   
    \label{tab:t3_4}
 \end{table}
 
@@ -163,13 +163,14 @@ We can eliminate this sensitivity to outliers by using another measure of centra
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Ordered -- Ages of STAT 2830 students with additional student}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} llllllllllllll @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
       18 & 19 & 19 & 21 & 21 & 22 & \fbox{23} & \fbox{24} & 24 & 24 & 25 & 25 & 28 & 29   \\ \hline  
        
    \end{tabular}
-    \caption{Ordered -- Ages of STAT 2830 students with additional student}
+    
    \label{tab:t3_5}
 \end{table}
 
@@ -202,6 +203,8 @@ There are two definitions for the \emph{mode}.
 \end{itemize} 	
 
 \section{Overall Distribution Shape}
+
+It is often important to know what is the distribution in the dataset, or more xxx if there is symmetry xxx or is the dataset skewed.
 
 \begin{figure}[htbp]
 
@@ -258,18 +261,7 @@ We use graphic displays of numerical data to help us see models.  We commonly us
 
 There are also other measures of central tendency: 
 
-  % Requires the booktabs if the memoir class is not being used
-  \begin{table}[htbp]
-   \centering
-   %\topcaption{Table captions are better up top} % requires the topcapt package
-   \begin{tabular}{@{} | llll | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
-   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
-   5.19& 5.21& 5.22& 5.23 \\ 5.24& 5.26& 5.27& 5.27 \\ 5.27& 5.28& 5.29& 5.31 \\ 5.32& 5.33& 5.34& 5.36 \\ \hline
-   \end{tabular}
-    \caption{Michigan County Unemployment Rates June 2016}
-   \label{tab:t3_6}
-  \end{table}
-
+ 
 
 \begin{itemize} 
 
@@ -303,6 +295,19 @@ There are also other measures of central tendency:
 		\end{itemize}
 		  	
 \end{itemize}
+
+ % Requires the booktabs if the memoir class is not being used
+  \begin{table}[htbp]
+   \centering
+   %\topcaption{Table captions are better up top} % requires the topcapt package
+   \begin{tabular}{@{} | llll | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
+   % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
+   5.19& 5.21& 5.22& 5.23 \\ 5.24& 5.26& 5.27& 5.27 \\ 5.27& 5.28& 5.29& 5.31 \\ 5.32& 5.33& 5.34& 5.36 \\ \hline
+   \end{tabular}
+    \caption{Michigan County Unemployment Rates June 2016}
+   \label{tab:t3_6}
+  \end{table}
+
 
 \subsubsection{GSS Example}
 
