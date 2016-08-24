@@ -92,6 +92,8 @@
 \contentsline {subsubsection}{Mode}{44}
 \contentsline {section}{\numberline {3.3}Overall Distribution Shape}{45}
 \contentsline {section}{\numberline {3.4}Other Measures of Location}{46}
+\contentsline {subsubsection}{Calculate a percentile:}{46}
+\contentsline {subsubsection}{Example:}{47}
 \contentsline {subsubsection}{GSS Example}{47}
 \contentsline {section}{\numberline {3.5}Summary}{47}
 \contentsline {section}{\numberline {3.6}Key Words}{48}
@@ -99,12 +101,12 @@
 \contentsline {paragraph}{Exercises}{49}
 \contentsline {subparagraph}{Exercise{}~3.7-1:}{49}
 \contentsline {subparagraph}{Exercise{}~3.7-2:}{49}
-\contentsline {subparagraph}{Exercise{}~3.7-3:}{49}
+\contentsline {subparagraph}{Exercise{}~3.7-3:}{50}
 \contentsline {subparagraph}{Exercise{}~3.7-4:}{50}
 \contentsline {subparagraph}{Exercise{}~3.7-5:}{50}
 \contentsline {subparagraph}{Exercise{}~3.7-6:}{51}
 \contentsline {subparagraph}{Exercise{}~3.7-7:}{51}
-\contentsline {subparagraph}{Exercise{}~3.7-8:}{51}
+\contentsline {subparagraph}{Exercise{}~3.7-8:}{52}
 \contentsline {subparagraph}{Exercise{}~3.7-9:}{52}
 \contentsline {section}{\numberline {3.8}Appendix using SPSS}{53}
 \contentsline {subsection}{\numberline {3.8.1}Central Tendency}{53}

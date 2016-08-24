@@ -33,7 +33,7 @@ Suppose that your class took a 6-point test on Monday and the instructor returne
 \end{itemize}
 
 
-Seeing your result in perspective means comparing a value to distribution is important feature in statistics.  
+Seeing your result in perspective means comparing a value to distribution is an important feature in statistics.  
 
 \section{Three Most Common Measures of Central Tendency}
 
@@ -50,7 +50,7 @@ The central tendency is a measure of where we find the ``location'' of our data 
 
 \subsubsection{Mean}
 
-The \emph{mean} (usually denoted as $\bar{x}$) is defined as an average of values in the dataset.  It is the most commonly utilized measure.  
+The \emph{mean} (usually denoted as $\bar{x}$) is defined as an average of values in the dataset and is the most commonly utilized measure.  
 
 What are the strengths and weaknesses of the \emph{mean} statistic?
 
@@ -87,7 +87,7 @@ Suppose that there are 13 students in STAT 2830 whose ages are given in Table 3.
   
 % \subsubsection{Outlier}
 
-The value of the mean is 27.9.  After looking at the data again, we see that one age value, 78, is abnormally high.  It could be a non-traditional student or it could be a data entry error.  After reviewing the numbers, we see that the value 78 is an error and that the correct value should be 18.  We change the age value 78 to 18 (Table 3.2) and recompute the mean.  
+The value of the mean is 27.9.  After looking at the data again, we see that one age value, 78, is abnormally high.  It could be a non-traditional student, or it could be a data entry error.  After reviewing the numbers, we see that the value 78 is a mistake and that the correct value should be 18.  We change the age value 78 to 18 (Table 3.2) and recompute the mean.  
 
 
 % Requires the booktabs if the memoir class is not being used
@@ -116,12 +116,12 @@ Now, the mean is
 \bar{x} = \frac{ 21 + 21 + 23 + 25 + 28 + 29 + 24 + 24 + 25 + 24 + 22 + 19 + 18}{13} = \frac{303}{13} = \Sexpr{xbar2}  \nonumber
 \end{equation}  
   
-This example illustrates how even a single value (outlier) can affect the mean.  The mean for original dataset (with the outlier) was 27.9 and after the value 78 was changed to 18, the corrected mean is 23.3.
+This example illustrates how even a single value (outlier) can affect the mean.  The mean for original dataset (with the outlier) was 27.9 and after the value 78 was changed to 18, the mean is 23.3.
 
   
 \subsubsection{Median}
 
-We can eliminate this sensitivity to outliers by using another measure of central tendency called \emph{median}.  It is defined as the middle observation of a dataset with values arranged in order of their magnitude.  Half of the values in the dataset are below the median, and half are above the median.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
+We can eliminate this sensitivity to outliers by using another measure of central tendency called \emph{median}.  It is defined as the middle observation of a dataset whose values are arranged in order of their magnitude.  Half of the values in the dataset are below the median, and half are above the median.   After we arrange the ages (from low to high) of the students from STAT 2830 class, we find the middle value.   Using the original dataset with the outlier; see Table 3.1.  
 
 \begin{itemize}
 \item After arranging the values in order of magnitude, we can locate the center value, e.g., 
@@ -156,7 +156,7 @@ We can eliminate this sensitivity to outliers by using another measure of centra
 
 \item median = 24 in both cases;
 
-\item Suppose that one student was not on the list.  She was added to the list and her age (19) was added to the dataset (see Table 3.5).  Finding a median is not difficult when the dataset had an odd number of values.  How do we find the median if we have an even number of observations.  We must use the average of the two middle values in the ordered dataset.  
+\item Suppose that one student was not on the list.  She was added to the list, and her age (19) was added to the dataset (see Table 3.5).  Finding a median is not difficult when the dataset has an odd number of values.  How do we locate the median if we have an even number of observations?  We must use the average of the two middle values in the ordered dataset.  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -180,9 +180,9 @@ We can eliminate this sensitivity to outliers by using another measure of centra
 What are the strengths and weaknesses of the value of the median? 
 
 \begin{itemize}
-\item Strength:  Median is not sensitive to extreme values (\emph{outliers}).
+\item Strength:  the median is not sensitive to extreme values (\emph{outliers}).
 
-\item Weakness: we do not use all numbers of the dataset only use the middle value.
+\item Weakness: we do not use all numbers of the dataset only use the middle value(s).
 
 \end{itemize}
 
@@ -191,30 +191,25 @@ What are the strengths and weaknesses of the value of the median?
 \subsubsection{Mode}
 
 
-Another way of locating the center of the dataset is to find the most frequent values.
-There are two definitions for the \emph{mode}.  
+Another way of locating the center of the dataset is to find the most frequent values.  It is the particular consequence in the case of an unordered categorical variable where neither the mean nor the median can be used.
 
-\begin{itemize}
-\item For numeric data types, the measure of location for such data, the \emph{mode}, is given by the value (number of objects) that most frequently occurs in a dataset, see Table 3.5.
-
-\item For categorical data types, we have some datasets that contain objects that we cannot order, e.g., the model of our car,  religious affiliation,  birth state,  eye color, gender, etc.  These are categorical data types.  We cannot use either the mean or the median for such data.  
-
-\end{itemize} 	
+\vspace{2mm}
 
 \colorbox{yellow}{\parbox{13cm}{%
 
 So how do we use this new knowledge?
 \begin{itemize}
-\item Sometimes we can think of the \emph{mean} as an economic measure, and we use it only for the numeric data type such as the number of staff to support the current workload at the social services office in our community.  It can never be used when we have categorical data type. 
-\item At times we determine the \emph{median} as a social measure, and we use it only for the numeric data type such as median income would be of interest to welfare office in our community.  It can never be used when we have the categorical data type.
-\item We do not use \emph{mode} very often, and we can use it for both categorical and numerical data types.  Occastionally, there are no repeating values of a numerical dataset which is not very useful for determining central tendency.  Other times we use the mode for central tendency of nomimal values.
+\item Sometimes we can think of the \emph{mean} as an economic measure, and we use it only for the numeric data type such as the number of staff to support the current workload at the social services office in our community.  It can never be used when we have a categorical data type. 
+\item At times we determine the \emph{median} as a social measure, and we use it only for the numeric data type such as median income would be of interest to the welfare office in our community.  It can never be used when we have a nominal categorical data type.
+\item We do not use \emph{mode} very often, and we can use it for both categorical and numerical data types.  Occasionally, there are no repeating values of a dataset which is not very useful for determining central tendency.  Other times we use the mode for central tendency of nominal values.
 \end{itemize}
 }}
 
+\pagebreak
 
 \section{Overall Distribution Shape}
 
-Often, we want to know the distribution of the values in our dataset.  Is the shape symmetrical (bell-shaped) or is it shewed in some direction?
+Often, we aspire to know the distribution of the values in our dataset.  Is the shape symmetrical (bell-shaped) or is it skewed in some direction?
 
 \begin{figure}[htbp]
 
@@ -260,7 +255,7 @@ Often, we want to know the distribution of the values in our dataset.  Is the sh
 
 If the number of values in a dataset is large enough and the distribution is symmetric,  we see a histogram Figure 3.1(a).  It characteristics are bell-shaped, one-half is almost a mirror image of its self.
 
-Sometimes, we see a dataset with many more data values on one side of the histogram than the other.  When there are fewer observations on the right, i.e., toward the higher values, we say that the distribution is \emph{right-skewed} (Figure 3.1(b)).  If, on the other hand, we see fewer observations on the left, i.e., toward the lower values, we say that the distribution is \emph{left-skewed} (see Figure 3.1(c)).
+Sometimes, we see a dataset with many more data values on one side of the histogram than the other.  When there are fewer observations on the right, i.e., toward the higher values, we say that the distribution is \emph{right-skewed} (Figure 3.1(b)).  If on the other hand, we see fewer observations on the left, i.e., toward the lower values, we say that the distribution is \emph{left-skewed} (see Figure 3.1(c)).
 
 We use graphic displays of numerical data.  We commonly use patterns in the data to describe features such as center, spread, and shape.  We often use descriptive labels, such as symmetric and skewed, to explain some common distributions.
 
@@ -269,12 +264,10 @@ We use graphic displays of numerical data.  We commonly use patterns in the data
 
 There are measures of central tendency other than the mean, the median, and the mode:  
 
- 
-
 \begin{itemize} 
 
 \samepage
-\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.6) and want to know below which number in the data set 25 percent of the values fall ($25^{th}$ percentile).  First, we order the data set in ascending order.  We take .25 times 16 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
+\item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.6) and want to know which number in the dataset where 25 percent of the data items fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 16 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
 \samepage
 \item Deciles: divide the distribution into tenth (10, 20, $\dots$, 90).  For example, Table 3.6  pediatrician offices use decile statistics to assess children's height in their age groups, etc.   
 \samepage
@@ -282,7 +275,7 @@ There are measures of central tendency other than the mean, the median, and the 
 \samepage
   \begin{itemize}
   \item e.g., the median falls in the $50^{th}$ percentile (or the $2^{nd}$ quartile or the $5^{th}$ decile.)
-  \item Lower quartile is also the median of the lower half of the dataset. 
+  \item The lower quartile is also the median of the lower half of the dataset. 
   \end{itemize}
 \samepage
 \item Mid-range: $ MR = \frac{Minimum + Maximum}{2}$. Referring to Table 3.6,  $MR = \frac{5.19 + 5.36}{2} = 5.275$
@@ -294,17 +287,18 @@ There are measures of central tendency other than the mean, the median, and the 
  % Requires the booktabs if the memoir class is not being used
   \begin{table}[htbp]
    \centering
+   \caption{Michigan County Unemployment Rates June 2016}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} | llll | @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    % \multicolumn{13}{c}{\bfseries Ages of Urban Campus students} \\ \hline
    5.19& 5.21& 5.22& 5.23 \\ 5.24& 5.26& 5.27& 5.27 \\ 5.27& 5.28& 5.29& 5.31 \\ 5.32& 5.33& 5.34& 5.36 \\ \hline
    \end{tabular}
-    \caption{Michigan County Unemployment Rates June 2016}
+    
    \label{tab:t3_6}
   \end{table}
 
 
-Calculate a percentile:
+\subsubsection{Calculate a percentile:}
 
 	\begin{itemize}
 	\item Sort scores in ascending order
@@ -312,11 +306,11 @@ Calculate a percentile:
 	
 	\end{itemize}
 	
-Example:
+\subsubsection{Example:}
 
 		\begin{itemize}
-		\item In a sample of 16 counties in Michigan (see Table 3.6), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
-		\item $16 \times 0.75 = 12$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is $12^{th}$ item of the data set, i.e., the third quartile is 5.31.
+		\item In a sample of unemployment rates in 16 randomly selected counties in Michigan (see Table 3.6), we want to find the $3^{rd}$ quartile (or the $75^{th}$ percentile),
+		\item $16 \times 0.75 = 12$ is the $75^{th}$ percentile.  In this case, the $75^{th}$ percentile is the $12^{th}$ item of the ordered dataset, i.e., the third quartile is 5.31.
 		\end{itemize}
 		
 		
@@ -333,11 +327,12 @@ Let's use the data from the GSS 2014 dataset  to find the mean, median, and mode
   ## mode3 <- mode(gss14$educ)
 @
 
-The Table 3.7 reports the three central tendency values: 
+Table 3.7 reports the three central tendency values: 
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Central Tendency Statistics}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} lr @{}} \hline % Column formatting, @{} suppresses leading/trailing space
       % \toprule
@@ -349,7 +344,7 @@ The Table 3.7 reports the three central tendency values:
       Mode & 12 \\ \hline
       
    \end{tabular}
-   \caption{Central Tendency Statistics}
+   
    \label{tab:t3_7}
 \end{table}
 
@@ -357,7 +352,17 @@ We show the SPSS procedure in Section 3.8.
 
 \section{Summary}
 
-Why is central tendency necessary?  We use central tendency to compare treatment methods.  For example, let's say that we have two approaches (a control group and treated group) for treating addiction that we have been working on for a year.  We use the central tendency value to detect if there is a difference between the two methods.
+Why is central tendency necessary?  In this chapter, we discussed measures of central tendency which are easily understood.  Each statistic reports information about the population that we are studying.  
+
+\begin{itemize}
+\item We use the \emph{mean} to publish a typical score for the numerical data type only, e.g., the average number of clients per social worker.
+
+\item We use the \emph{median} to reveal the exact center of a dataset, e.g., the income of the clients receiving some service.
+
+\item We use the statistical \emph{mode} to describe the most typical score of nominally measured dataset, e.g., client marital status.
+
+\item We use graphics to show the shape of distributions, e.g., a bell-shaped distribution will be symmetrical; whereas, a histogram with few points in the \emph{right tail} will be right skewed, and a histogram with few points in the  \emph{left tail} will be left skewed.
+\end{itemize}
 
 \section{Key Words}
 \colorbox{lgray}{\parbox{13cm}{%
@@ -430,13 +435,15 @@ Why is central tendency necessary?  We use central tendency to compare treatment
 	The third value must be 22 so that the average is 20 for all three quizzes.
 	
 	\end{solution}
-	
+
+\pagebreak
+
   \begin{exercise} % 3  
   
   
     The following table lists the average number of cars per 1000 population for eight nations. Compute the three central tendency variables (mean and median) for these data.  
 
-\begin{minipage}[ht]{6.5cm}
+\begin{minipage}[ht]{5cm}
 
   \begin{enumerate}
   \item Which is greater in value? 
@@ -445,7 +452,7 @@ Why is central tendency necessary?  We use central tendency to compare treatment
   \end{enumerate}
   
 \end{minipage} \hfill
-\begin{minipage}[ht]{6.5cm}
+\begin{minipage}[ht]{8cm}
 
 % Requires the booktabs if the memoir class is not being used
 % \begin{table}[htbp]
@@ -520,7 +527,7 @@ Select the  appropriate measures of central tendency for each variable:
   \item the extent they support marijuana legalization (7=strong, 4=neutral, 1=weak)
   \item the weekly amount of money spent on cafeteria food
   \item number of movies they watched per week
-  \item quality of cafeteria food (10=excellent, 0=bad)
+  \item quality of cafeteria food at their university (10=excellent, 0=bad)
   \item religious affiliation.
   \end{enumerate}
   
@@ -544,6 +551,7 @@ Select the  appropriate measures of central tendency for each variable:
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
    \centering
+   \caption{Find appropriate measures of central tendency}
    %\topcaption{Table captions are better up top} % requires the topcapt package
    \begin{tabular}{@{} ccccccc  @{}} \hline % Column formatting, @{} suppresses leading/trailing space
    Student & Birth & Legal & Expense & Movies & Food & Religion \\ \hline
@@ -558,7 +566,7 @@ Select the  appropriate measures of central tendency for each variable:
    i & North & 4 & 39 & 14 & 7 & Prot. \\ 
    j & North & 7 & 33 & 0 & 10 & Prot. \\ \hline
    \end{tabular}
-    \caption{Find appropriate measures of central tendency}
+    
    \label{tab:t3_8}
 \end{table}
 
@@ -620,7 +628,7 @@ The median for 2015 is \Sexpr{med3b}.
   \begin{exercise} % 7
   
   
-  The admissions department at WMU gave 25 randomly selected freshmen a national prejudice survey.  Their score on the test is a xxx prejudice index that will be used these scores in three years to see if higher education affects prejudice.
+  The admissions department at WMU gave 25 randomly selected freshmen a national prejudice survey.  The racial prejudice index scores  will be used in three years to see if higher education affects prejudice.
   
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -662,8 +670,7 @@ The median for 2015 is \Sexpr{med3b}.
 	  \begin{exercise} % 8
   
   
-  The same 25 students completed the same survey during their senior year.  Compute the mean and median for this second set of scores,
-  and compare them to the scores from four years earlier.   What happened?
+  The same 25 students completed the same survey during their senior year.  Compute the mean and median for this second set of scores, and compare them to the scores from four years earlier.   What happened?
   
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -707,7 +714,7 @@ The median for 2015 is \Sexpr{med3b}.
   
 \begin{minipage}[ht]{6cm}  
   
-  Calculate the mean and median of the pre and post test scores.
+  Calculate the mean and median of the pre and post test scores and comment on the results.
   
 \end{minipage} \hfill
 \begin{minipage}[ht]{7cm}
@@ -826,7 +833,7 @@ The figure shows the dialog box.
 %       \label{fig:apndx3-2}
 %      \end{figure}
 
-The table reveals the mean, median, and mode of \emph{highest} years of school completed. 
+The table reveals the mean, median, and mode of years of school completed. 
 
 \end{minipage}
 
