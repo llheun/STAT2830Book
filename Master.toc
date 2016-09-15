@@ -96,17 +96,18 @@
 \contentsline {subsubsection}{Example:}{47}
 \contentsline {subsubsection}{GSS Example}{47}
 \contentsline {section}{\numberline {3.5}Summary}{47}
-\contentsline {section}{\numberline {3.6}Key Words}{48}
-\contentsline {section}{\numberline {3.7}Exercises}{49}
-\contentsline {paragraph}{Exercises}{49}
-\contentsline {subparagraph}{Exercise{}~3.7-1:}{49}
-\contentsline {subparagraph}{Exercise{}~3.7-2:}{49}
-\contentsline {subparagraph}{Exercise{}~3.7-3:}{50}
-\contentsline {subparagraph}{Exercise{}~3.7-4:}{50}
-\contentsline {subparagraph}{Exercise{}~3.7-5:}{50}
-\contentsline {subparagraph}{Exercise{}~3.7-6:}{51}
-\contentsline {subparagraph}{Exercise{}~3.7-7:}{51}
-\contentsline {subparagraph}{Exercise{}~3.7-8:}{52}
-\contentsline {subparagraph}{Exercise{}~3.7-9:}{52}
-\contentsline {section}{\numberline {3.8}Appendix using SPSS}{53}
-\contentsline {subsection}{\numberline {3.8.1}Central Tendency}{53}
+\contentsline {subsubsection}{Example: Where are the Social Workers?}{48}
+\contentsline {section}{\numberline {3.6}Key Words}{49}
+\contentsline {section}{\numberline {3.7}Exercises}{50}
+\contentsline {paragraph}{Exercises}{50}
+\contentsline {subparagraph}{Exercise{}~3.7-1:}{50}
+\contentsline {subparagraph}{Exercise{}~3.7-2:}{50}
+\contentsline {subparagraph}{Exercise{}~3.7-3:}{51}
+\contentsline {subparagraph}{Exercise{}~3.7-4:}{51}
+\contentsline {subparagraph}{Exercise{}~3.7-5:}{51}
+\contentsline {subparagraph}{Exercise{}~3.7-6:}{52}
+\contentsline {subparagraph}{Exercise{}~3.7-7:}{52}
+\contentsline {subparagraph}{Exercise{}~3.7-8:}{53}
+\contentsline {subparagraph}{Exercise{}~3.7-9:}{53}
+\contentsline {section}{\numberline {3.8}Appendix using SPSS}{54}
+\contentsline {subsection}{\numberline {3.8.1}Central Tendency}{54}

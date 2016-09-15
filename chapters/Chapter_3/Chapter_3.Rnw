@@ -368,8 +368,8 @@ Why is central tendency necessary?  In this chapter, we discussed measures of ce
 
 The following table gives the number of active social workers per 100,000 population in each state.  
 
-<<results='asis' echo=TRUE>>=
-xSW <- read.csv('data/SWper100K.csv', header=TRUE)
+<<results='asis', echo=TRUE>>=
+xSW <- read.csv('data/SWper100K.csv', header=FALSE)
 @
 
 \begin{table}[htbp]
@@ -440,16 +440,17 @@ WY&	600 \\ \hline
 \end{tabular}
 \end{minipage}
 
-   \label{tab:T1}
+   \label{tab:T3_8}
 \end{table}
 
 \begin{enumerate}
-\item Why should we use the number of social workers per 100,000 population as a measure of the availability 
-of social worker in each state than the simple count of social workers?  \\ States vary in population.  
-Social Workers per 100,000 provides a better measure of how many social workers are available to serve a state.
+\item Why should we use the number of social workers per 100,000 population as a measure of the availability of social worker in each state than the simple count of social workers?  \\ States vary in population.   Social Workers per 100,000 provides a better measure of how many social workers are available to serve a state.
 
 \item Make a histogram or boxplot that displays the distribution of social workers per 100,000 population.  
 
+<<SW1, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="SW/100K">>=
+       hist(xSW[,2], xlab=' ', col='skyblue')
+@
 
 \item What central tendency measure is appropriate for this distribution?  Explain.
 \item Are there any outliers?  If so, can we explain them?
