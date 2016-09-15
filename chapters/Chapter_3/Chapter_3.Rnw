@@ -364,6 +364,100 @@ Why is central tendency necessary?  In this chapter, we discussed measures of ce
 \item We use graphics to show the shape of distributions, e.g., a bell-shaped distribution will be symmetrical; whereas, a histogram with few points in the \emph{right tail} will be right skewed, and a histogram with few points in the  \emph{left tail} will be left skewed.
 \end{itemize}
 
+\subsubsection{Example: Where are the Social Workers?}
+
+The following table gives the number of active social workers per 100,000 population in each state.  
+
+<<results='asis' echo=TRUE>>=
+xSW <- read.csv('data/SWper100K.csv', header=TRUE)
+@
+
+\begin{table}[htbp]
+    \caption{SOCIAL WORKERS per 100,000 PEOPLE BY STATE}
+\begin{minipage}[ht]{4cm}
+ \begin{tabular}{@{} lr @{}} \hline 
+State&	SocialWorkers \\ \hline
+AK&	620 \\
+AL&	170 \\
+AR&	500 \\
+AZ&	550 \\
+CA&	700 \\
+CO&	500 \\
+CT&	180 \\
+DE&	190 \\
+FL&	250 \\
+GA&	300 \\
+HI&	400 \\
+IA&	300 \\
+ID&	140 \\
+IL&	780 \\
+IN&	200 \\
+KS&	430 \\
+KY&	390 \\ \hline
+\end{tabular}
+\end{minipage} \hfill
+\begin{minipage}[t]{4cm}
+ \begin{tabular}{@{} lr @{}} \hline 
+State&	SocialWorkers \\ \hline
+LA&	320 \\
+MA&	160 \\
+MD&	400 \\
+ME&	670 \\
+MI&	230 \\
+MN&	240 \\
+MO&	310 \\
+MS&	520 \\
+MT&	1550 \\
+NC&	240 \\
+ND&	420 \\
+NE&	150 \\
+NH&	190 \\
+NJ&	150 \\
+NM&	870 \\
+NV&	230 \\
+NY&	1010 \\ \hline
+\end{tabular}
+\end{minipage} \hfill
+\begin{minipage}[ht]{4cm}
+ \begin{tabular}{@{} lr @{}} \hline 
+State&	SocialWorkers \\ \hline
+OH&	620 \\
+OK&	380 \\
+OR&	970 \\
+PA&	190 \\
+RI&	170 \\
+SC&	1440 \\
+SD&	210 \\
+TN&	310 \\
+TX&	140 \\
+UT&	380 \\
+VA&	170 \\
+VT&	280 \\
+WA&	280 \\
+WI&	330 \\
+WV&	290 \\
+WY&	600 \\ \hline
+\end{tabular}
+\end{minipage}
+
+   \label{tab:T1}
+\end{table}
+
+\begin{enumerate}
+\item Why should we use the number of social workers per 100,000 population as a measure of the availability 
+of social worker in each state than the simple count of social workers?  \\ States vary in population.  
+Social Workers per 100,000 provides a better measure of how many social workers are available to serve a state.
+
+\item Make a histogram or boxplot that displays the distribution of social workers per 100,000 population.  
+
+
+\item What central tendency measure is appropriate for this distribution?  Explain.
+\item Are there any outliers?  If so, can we explain them?
+\end{enumerate}
+
+
+
+
 \section{Key Words}
 \colorbox{lgray}{\parbox{13cm}{%
 \begin{itemize}
