@@ -368,9 +368,7 @@ Why is central tendency necessary?  In this chapter, we discussed measures of ce
 
 The following table gives the number of active social workers per 100,000 population in each state.  
 
-<<results='asis', echo=TRUE>>=
-xSW <- read.csv('data/SWper100K.csv', header=FALSE)
-@
+
 
 \begin{table}[htbp]
     \caption{SOCIAL WORKERS per 100,000 PEOPLE BY STATE}
@@ -419,6 +417,7 @@ NY&	1010 \\ \hline
 \end{tabular}
 \end{minipage} \hfill
 \begin{minipage}[ht]{4cm}
+\ \\[-5mm]
  \begin{tabular}{@{} lr @{}} \hline 
 State&	SocialWorkers \\ \hline
 OH&	620 \\
@@ -443,17 +442,38 @@ WY&	600 \\ \hline
    \label{tab:T3_8}
 \end{table}
 
+<<results='asis', echo=FALSE>>=
+  xSW <- read.csv('data/SWper100K.csv', header=TRUE)
+@
+
+<<SW1, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="6cm", fig.show="hold", par=TRUE, fig.cap="SW/100K">>=
+      hist(xSW[,2], xlab='SW/100000', col='skyblue', main='Histogram of Social Worker per 100K' )
+      md11 <- median(xSW[,2])
+      mn11 <- mean(xSW[,2])
+       md1 <- sprintf('%.1f', md11)
+       mn1 <- sprintf('%.1f', mn11)
+@
+
 \begin{enumerate}
+
+\item Whenever we look at a new dataset we need to consider the following issues:
+
+\item Researchers have a choice of how to analyze the data.  They can simply count the number of social workers per state, or we can transform the number of social workers per state to the number of social workers per 100,000 people per state.  Since the populations of each state vary, the number of social workers per 100,000 people provides a better measure of how many social workers are available to serve each state.
+
+\item The next step, in data analysis is check the distribution of the data.  We can use either a histogram or a box plot.  Let's review Figure 3.2.  We find that the data is right skewed.
+
+\item Now we need to determine the best measure of  location or central tendency.  Since this dataset is skewed, the best measure of location is the median (\Sexpr{md1})  since the mean (\Sexpr{mn1}) is pulled in the direction of the extreme value.
+
+\item From Figure 3.2, we see that we have two outliers.
+
+\item What central tendency measure is appropriate for this distribution?  Explain.
+
+\item Are there any outliers?  If so, can we explain them?
+
 \item Why should we use the number of social workers per 100,000 population as a measure of the availability of social worker in each state than the simple count of social workers?  \\ States vary in population.   Social Workers per 100,000 provides a better measure of how many social workers are available to serve a state.
 
 \item Make a histogram or boxplot that displays the distribution of social workers per 100,000 population.  
 
-<<SW1, echo=FALSE, fig.path="figure/", fig.align="center", fig.width=4, fig.height=4, out.width="3cm", fig.show="hold", par=TRUE, fig.cap="SW/100K">>=
-       hist(xSW[,2], xlab=' ', col='skyblue')
-@
-
-\item What central tendency measure is appropriate for this distribution?  Explain.
-\item Are there any outliers?  If so, can we explain them?
 \end{enumerate}
 
 
