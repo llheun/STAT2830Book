@@ -450,8 +450,8 @@ WY&	600 \\ \hline
       hist(xSW[,2], xlab='SW/100000', col='skyblue', main='Histogram of Social Worker per 100K' )
       md11 <- median(xSW[,2])
       mn11 <- mean(xSW[,2])
-       md1 <- sprintf('%.1f', md11)
-       mn1 <- sprintf('%.1f', mn11)
+      md1 <- sprintf('%.1f', md11)
+      mn1 <- sprintf('%.1f', mn11)
 @
 
 \begin{enumerate}
