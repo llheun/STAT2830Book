@@ -156,7 +156,7 @@ We can eliminate this sensitivity to outliers by using another measure of centra
 
 \item median = 24 in both cases;
 
-\item Suppose that one student was not on the list.  She was added to the list, and her age (19) was added to the dataset (see Table 3.5).  Finding a median is not difficult when the dataset has an odd number of values.  How do we locate the median if we have an even number of observations?  We must use the average of the two middle values in the ordered dataset.  
+\item Suppose that one student was not on the list.  Her age (19) was added to the dataset (see Table 3.5).  Finding a median is not difficult when the dataset has an odd number of values.  How do we locate the median if we have an even number of observations?  We must use the average of the two middle values in the ordered dataset.  
 
 % Requires the booktabs if the memoir class is not being used
 \begin{table}[htbp]
@@ -253,7 +253,7 @@ Often, we aspire to know the distribution of the values in our dataset.  Is the 
 
 
 
-If the number of values in a dataset is large enough and the distribution is symmetric,  we see a histogram Figure 3.1(a).  It characteristics are bell-shaped, one-half is almost a mirror image of its self.
+If the number of values in a dataset is large enough and the distribution is symmetric,  we see a histogram Figure 3.1(a).  Its characteristics are bell-shaped, one-half is almost a mirror image of its self.
 
 Sometimes, we see a dataset with many more data values on one side of the histogram than the other.  When there are fewer observations on the right, i.e., toward the higher values, we say that the distribution is \emph{right-skewed} (Figure 3.1(b)).  If on the other hand, we see fewer observations on the left, i.e., toward the lower values, we say that the distribution is \emph{left-skewed} (see Figure 3.1(c)).
 
@@ -269,7 +269,7 @@ There are measures of central tendency other than the mean, the median, and the 
 \samepage
 \item Percentile: a point below which a particular percentage of cases fall.  Suppose we have a dataset of 16 values (see Table 3.6) and want to know which number in the dataset where 25 percent of the data items fall ($25^{th}$ percentile).  First, we order the dataset in ascending order.  We take .25 times 16 which equals 4.  The fourth position is the $25^{th}$ percentile, and the value is 5.23.
 \samepage
-\item Deciles: divide the distribution into tenth (10, 20, $\dots$, 90).  For example, Table 3.6  pediatrician offices use decile statistics to assess children's height in their age groups, etc.   
+\item Deciles: divide the distribution into tenth (10, 20, $\dots$, 90).  For example, pediatrician offices use decile statistics to assess children's height in their age groups, etc.   
 \samepage
 \item Quartiles: divide the distribution into quarters. Referring to Table 3.6, the quartile values are  $Q_1 = 5.23$, $Q_2 = 5.27$, $Q_3 = 5.31$.
 \samepage
@@ -366,9 +366,7 @@ Why is central tendency necessary?  In this chapter, we discussed measures of ce
 
 \subsubsection{Example: Where are the Social Workers?}
 
-The following table gives the number of active social workers per 100,000 population in each state.  
-
-
+The following table gives the number of active social workers per 100,000 population in each state.  Whenever we look at a new dataset (Bureau of Labor Statistics, 2015) we need to consider the following issues:
 
 \begin{table}[htbp]
     \caption{SOCIAL WORKERS per 100,000 PEOPLE BY STATE}
@@ -456,23 +454,13 @@ WY&	600 \\ \hline
 
 \begin{enumerate}
 
-\item Whenever we look at a new dataset we need to consider the following issues:
+\item We have a choice of how to analyze the data and  can just count the number of social workers per state, or we can transform the number of social workers per state to the number of social workers per 100,000 people per state.  Since the populations of each state vary, the number of social workers per 100,000 inhabitants provides a better measure of how many social workers are available to serve each state.
 
-\item Researchers have a choice of how to analyze the data.  They can simply count the number of social workers per state, or we can transform the number of social workers per state to the number of social workers per 100,000 people per state.  Since the populations of each state vary, the number of social workers per 100,000 people provides a better measure of how many social workers are available to serve each state.
+\item During data analysis, the next step is to check the distribution of the data.  We can use either a histogram or a box plot.  After reviewing Figure 3.2, we find that the data is right skewed.
 
-\item The next step, in data analysis is check the distribution of the data.  We can use either a histogram or a box plot.  Let's review Figure 3.2.  We find that the data is right skewed.
+\item Now we need to determine the best measure of  location (central tendency).  Since this dataset is skewed, the best measure of central tendency is the median (\Sexpr{md1} SW/100K)  since the mean (\Sexpr{mn1} SW/100K) is pulled in the direction of the extreme value.
 
-\item Now we need to determine the best measure of  location or central tendency.  Since this dataset is skewed, the best measure of location is the median (\Sexpr{md1})  since the mean (\Sexpr{mn1}) is pulled in the direction of the extreme value.
-
-\item From Figure 3.2, we see that we have two outliers.
-
-\item What central tendency measure is appropriate for this distribution?  Explain.
-
-\item Are there any outliers?  If so, can we explain them?
-
-\item Why should we use the number of social workers per 100,000 population as a measure of the availability of social worker in each state than the simple count of social workers?  \\ States vary in population.   Social Workers per 100,000 provides a better measure of how many social workers are available to serve a state.
-
-\item Make a histogram or boxplot that displays the distribution of social workers per 100,000 population.  
+\item From Figure 3.2, we see two outliers.  After reviewing Table 3.8, we see that Montana and South Carolina are different from the others.  It's difficult to know why both states have an unusually high number of social workers. 
 
 \end{enumerate}
 
